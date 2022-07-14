@@ -1,0 +1,36 @@
+{
+  "name": "George III",
+  "gender": "Male",
+  "born": "4 June, 1738",
+  "died": "29 January, 1820 (aged 81)",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Muggle",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "King of Great Britain and Ireland"
+  ],
+  "titles": [
+    "King"
+  ],
+  "family_members": [
+    "Victoria (granddaughter)",
+    "William I (ancestor)",
+    "Henry VII (ancestor)",
+    "Elizabeth II (descendant)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/George_III"
+}

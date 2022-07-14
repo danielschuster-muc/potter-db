@@ -1,0 +1,33 @@
+{
+  "name": "Keiko Takahashi",
+  "gender": "Female",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": "Pale",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "Japanese",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Beater for the Japanese National Quidditch team"
+  ],
+  "titles": [
+    "Beater"
+  ],
+  "family_members": [
+    "Minaka Takahashi (sister)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/3e/QCM_Keiko_Takahashi.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Keiko_Takahashi"
+}

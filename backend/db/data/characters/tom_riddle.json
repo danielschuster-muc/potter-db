@@ -1,0 +1,58 @@
+{
+  "name": "Tom Marvolo Riddle",
+  "gender": "Male",
+  "born": "31 December, 1926, Wool's Orphanage, London, England, Great Britain",
+  "died": "2 May, 1998 (aged 71), Great Hall, Hogwarts Castle, Highlands, Scotland, Great Britain",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Bald (formerly black)",
+  "eye_color": "Scarlet (formerly dark brown)",
+  "skin_color": "White (formerly pale)",
+  "blood_status": "Half-blood",
+  "marital_status": "Single",
+  "nationality": "English",
+  "animagus": null,
+  "boggart": "His own corpse",
+  "house": "Slytherin",
+  "patronus": "None",
+  "alias_names": [
+    "Lord Voldemort (self-proclaimed title and chosen name)",
+    "You-Know-Who (by wizarding community)",
+    "He-Who-Must-Not-Be-Named  (by wizarding community)",
+    "The Dark Lord",
+    "Chief Death Eater (by Lee Jordan)",
+    "Heir of Slytherin"
+  ],
+  "jobs": [
+    "Shop assistant at Borgin and Burkes (formerly)"
+  ],
+  "titles": [
+    "Prefect",
+    "Head Boy",
+    "Dark Lord",
+    "Heir of Slytherin"
+  ],
+  "family_members": [
+    "Tom Riddle Snr (father) †",
+    "Merope Riddle (née Gaunt) (mother) †",
+    "Delphini (daughter)",
+    "Thomas Riddle (paternal grandfather) †",
+    "Mary Riddle (paternal grandmother) †",
+    "Marvolo Gaunt (maternal grandfather) †",
+    "Morfin Gaunt (maternal uncle) †",
+    "Corvinus Gaunt (ancestor) †",
+    "Gormlaith Gaunt (distant relative) †",
+    "Salazar Slytherin (ancestor) †",
+    "Cadmus Peverell (ancestor) †",
+    "Harry Potter (distant cousin)"
+  ],
+  "romances": null,
+  "wands": [
+    "13½″, Yew, phoenix feather core",
+    "Elm, dragon heartstring (temporary)",
+    "Elder, 15″, Thestral tail hair core (temporary, never mastered)"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/aa/Voldemort_Headshot_DHP1.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Tom_Riddle"
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "four-point_spell",
+  "name": "Four-Point Spell",
+  "incantation": "Point Me",
+  "category": "Charm",
+  "effect": "Wand points due north",
+  "light": "None",
+  "hand": "Hold wand flat in hand",
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a8/FourPointSpell.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Four-Point_Spell"
+}

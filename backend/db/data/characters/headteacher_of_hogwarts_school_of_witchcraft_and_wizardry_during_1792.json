@@ -1,0 +1,32 @@
+{
+  "name": "Headteacher of Hogwarts",
+  "gender": null,
+  "born": "18th century or earlier",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Head of Hogwarts School of Witchcraft and Wizardry (1792 or earlier -?)"
+  ],
+  "titles": [
+    "Professor",
+    "Headteacher"
+  ],
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Headteacher_of_Hogwarts_School_of_Witchcraft_and_Wizardry_during_1792"
+}

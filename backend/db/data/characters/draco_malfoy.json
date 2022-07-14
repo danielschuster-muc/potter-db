@@ -1,0 +1,63 @@
+{
+  "name": "Draco Lucius Malfoy",
+  "gender": "Male",
+  "born": "5 June, 1980, Great Britain",
+  "died": null,
+  "species": "Human, Ferret (briefly)",
+  "height": null,
+  "weight": null,
+  "hair_color": "White-blonde",
+  "eye_color": "Light grey",
+  "skin_color": "Pale",
+  "blood_status": "Pure-blood",
+  "marital_status": "Widowed",
+  "nationality": "British",
+  "animagus": null,
+  "boggart": "Lord Voldemort",
+  "house": "Slytherin",
+  "patronus": "None",
+  "alias_names": null,
+  "jobs": null,
+  "titles": [
+    "Seeker",
+    "Prefect"
+  ],
+  "family_members": [
+    "Lucius Malfoy (father)",
+    "Narcissa Malfoy (née Black) (mother)",
+    "Astoria Malfoy (née Greengrass) (wife) †",
+    "Scorpius Malfoy (son)",
+    "Daphne Greengrass (sister-in-law)",
+    "Abraxas Malfoy (paternal grandfather) †",
+    "Cygnus Black III (maternal grandfather) †",
+    "Druella Black (née Rosier) (maternal grandmother) †",
+    "Bellatrix Lestrange (née Black) (maternal aunt) †",
+    "Andromeda Tonks (née Black) (maternal aunt)",
+    "Rodolphus Lestrange (maternal uncle by marriage)",
+    "Edward Tonks (maternal uncle by marriage) †",
+    "Nymphadora Lupin (née Tonks) (maternal first cousin) †",
+    "Delphini (maternal first cousin)",
+    "Remus Lupin (maternal first cousin-in-law) †",
+    "Phineas Nigellus Black (maternal ancestor) †",
+    "Ursula Black (née Flint) (maternal ancestor) †",
+    "Armand Malfoy (paternal ancestor) †",
+    "Malfoy family",
+    "House of Black (maternal family)",
+    "Greengrass family (in-laws)",
+    "Rosier family (maternal relatives)",
+    "Crabbe family (maternal ancestors)",
+    "Bulstrode family (maternal ancestors)",
+    "Flint family (maternal ancestors)"
+  ],
+  "romances": [
+    "Pansy Parkinson (ex-girlfriend)",
+    "Astoria Malfoy (wife) †"
+  ],
+  "wands": [
+    "10″, Hawthorn, unicorn hair (formerly)",
+    "Unknown length, wood and core (temporarily)",
+    "15″, Elder, Thestral tail hair (never used)"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/7e/Draco_Malfoy_TDH.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Draco_Malfoy"
+}

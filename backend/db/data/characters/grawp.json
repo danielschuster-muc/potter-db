@@ -1,0 +1,33 @@
+{
+  "name": "Grawp",
+  "gender": "Male",
+  "born": "Post 1931",
+  "died": null,
+  "species": "Giant",
+  "height": "Sixteen feet",
+  "weight": null,
+  "hair_color": "Brown",
+  "eye_color": "Brown-green",
+  "skin_color": "Grey",
+  "blood_status": "Giant",
+  "marital_status": "Single",
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": [
+    "Grawpy (by Hagrid)"
+  ],
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Father",
+    "Fridwulfa (mother) †",
+    "Rubeus Hagrid (half-brother)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e6/Grawp.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Grawp"
+}

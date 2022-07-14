@@ -1,0 +1,29 @@
+{
+  "name": "Crapaud",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "French",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Marketer"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/be/Crapaud.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Crapaud"
+}

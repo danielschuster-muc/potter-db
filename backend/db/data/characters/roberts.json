@@ -1,0 +1,32 @@
+{
+  "name": "Mr Roberts",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Muggle",
+  "marital_status": "Married",
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Campsite manager"
+  ],
+  "titles": null,
+  "family_members": [
+    "Mrs Roberts (wife)",
+    "Two children"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c2/Mr_Roberts.jpeg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Roberts"
+}

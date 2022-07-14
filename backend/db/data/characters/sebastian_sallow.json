@@ -1,0 +1,32 @@
+{
+  "name": "Sebastian Sallow",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Brown",
+  "eye_color": null,
+  "skin_color": "Light",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": null,
+  "house": "Slytherin",
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Albert Sallow (possible relative)",
+    "Sallow family"
+  ],
+  "romances": null,
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f3/Sebastian_Sallow.jpeg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Sebastian_Sallow"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Euphemia Potter",
+  "gender": "Female",
+  "born": null,
+  "died": "Pre-31 July, 1980",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood",
+  "marital_status": "Widowed (briefly)",
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Fleamont Potter (husband) †",
+    "James Potter I (son) †",
+    "Lily Potter (née Evans) (daughter-in-law) †",
+    "Harry Potter (grandson)",
+    "Ginevra Potter (née Weasley) (granddaughter-in-law)",
+    "Henry Potter (father-in-law) †",
+    "Potter family"
+  ],
+  "romances": [
+    "Fleamont Potter (husband)"
+  ],
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/73/Euphemia_Potter.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Euphemia_Potter"
+}

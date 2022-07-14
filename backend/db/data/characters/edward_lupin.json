@@ -1,0 +1,51 @@
+{
+  "name": "Edward Remus Lupin",
+  "gender": "Male",
+  "born": "April 1998, England, Great Britain",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Variable",
+  "eye_color": "Variable",
+  "skin_color": "Variable",
+  "blood_status": "Half-blood",
+  "marital_status": "Dating",
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": null,
+  "house": "Hufflepuff",
+  "patronus": null,
+  "alias_names": [
+    "Teddy (by family & friends)",
+    "Ted"
+  ],
+  "jobs": null,
+  "titles": [
+    "Head Boy"
+  ],
+  "family_members": [
+    "Remus Lupin (father) †",
+    "Nymphadora Lupin (née Tonks) (mother) †",
+    "Lyall Lupin (paternal grandfather)",
+    "Hope Lupin (née Howell) (paternal grandmother) †",
+    "Edward Tonks (maternal grandfather) †",
+    "Andromeda Tonks (née Black) (maternal grandmother)",
+    "Phineas Nigellus Black (maternal ancestor) †",
+    "Ursula Black (née Flint) (maternal ancestor) †",
+    "Lupin family",
+    "Tonks family (maternal family)",
+    "Howell family (paternal relatives)",
+    "House of Black (maternal relatives)",
+    "Rosier family (maternal ancestors)",
+    "Crabbe family (maternal ancestors)",
+    "Bulstrode family (maternal ancestors)",
+    "Flint family (maternal ancestors)"
+  ],
+  "romances": [
+    "Victoire Weasley (girlfriend)"
+  ],
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/62/Teddy_Lupin.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Edward_Lupin"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Katrina von Glockenspieler",
+  "gender": "Female",
+  "born": "Before 1997, Germany (possibly)",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Blonde",
+  "eye_color": null,
+  "skin_color": "White",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "German",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Beater and Captain of the German National Quidditch team"
+  ],
+  "titles": [
+    "Beater",
+    "Captain"
+  ],
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1b/Katrina_von_Glockenspieler_-_card_HBP-NDS.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Katrina_von_Glockenspieler"
+}

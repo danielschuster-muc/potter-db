@@ -1,0 +1,31 @@
+{
+  "name": "Yaxley's wife",
+  "gender": "Female",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood",
+  "marital_status": "Married",
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Yaxley (husband)",
+    "Corban Yaxley (possible relative)",
+    "Yaxley family (in-laws)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/60/Unidentified_witch_in_Ballroom.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Yaxley's_wife"
+}

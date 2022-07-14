@@ -1,0 +1,42 @@
+{
+  "name": "Apolline Delacour",
+  "gender": "Female",
+  "born": "France",
+  "died": null,
+  "species": "Half-Human/Half-Veela",
+  "height": null,
+  "weight": null,
+  "hair_color": "Blonde",
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Part-Human (Half-Veela)",
+  "marital_status": "Married",
+  "nationality": "French",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": [
+    "Madam(e)"
+  ],
+  "family_members": [
+    "Mother",
+    "Monsieur Delacour (husband)",
+    "Fleur Delacour (daughter)",
+    "Gabrielle Delacour (daughter)",
+    "Bill Weasley (son-in-law)",
+    "Victoire Weasley (granddaughter)",
+    "Dominique Weasley (granddaughter)",
+    "Louis Weasley (grandson)",
+    "Delacour family",
+    "Weasley family"
+  ],
+  "romances": [
+    "Monsieur Delacour (husband)"
+  ],
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/74/Apolline_Delacour.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Apolline_Delacour"
+}

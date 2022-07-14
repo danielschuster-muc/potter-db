@@ -1,0 +1,30 @@
+{
+  "name": "Dobby",
+  "gender": "Male",
+  "born": "28 June",
+  "died": "Late March 1998, Shell Cottage, Tinworth, Cornwall, England, Great Britain",
+  "species": "House-elf",
+  "height": "3 feet",
+  "weight": null,
+  "hair_color": null,
+  "eye_color": "Green",
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": "Lord Voldemort",
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Malfoy family's house-elf (? - 1993)",
+    "Hogwarts kitchens worker (December 1994 - 1998)"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/82/Dobby.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Dobby"
+}

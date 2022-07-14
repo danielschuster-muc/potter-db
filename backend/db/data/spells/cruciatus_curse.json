@@ -1,0 +1,12 @@
+{
+  "slug": "cruciatus_curse",
+  "name": "Cruciatus Curse",
+  "incantation": "Crucio (KROO-see-oh)",
+  "category": "Curse",
+  "effect": "Excruciating pain, insanity if victim was subjected for too long",
+  "light": "None",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/9c/Voldemort_crucio_harry.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Cruciatus_Curse"
+}

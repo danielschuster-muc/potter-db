@@ -1,0 +1,32 @@
+{
+  "name": "Lancelot",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood or half-blood",
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Healer"
+  ],
+  "titles": null,
+  "family_members": [
+    "Muriel (cousin)",
+    "Aunt"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/61/HealerLancelot.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Lancelot_(Healer)"
+}

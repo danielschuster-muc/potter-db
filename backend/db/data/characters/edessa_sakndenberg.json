@@ -1,0 +1,33 @@
+{
+  "name": "Edessa Sakndenberg",
+  "gender": "Female",
+  "born": null,
+  "died": "In or before 1986",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Blonde",
+  "eye_color": "Blue",
+  "skin_color": "White",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Social historian specialising in Muggles",
+    "Headmistress of Hogwarts (formerly)"
+  ],
+  "titles": [
+    "Professor",
+    "Headmistress"
+  ],
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/66/EdessaSakndenbergPortrait.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Edessa_Sakndenberg"
+}

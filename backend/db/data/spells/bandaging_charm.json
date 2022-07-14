@@ -1,0 +1,12 @@
+{
+  "slug": "bandaging_charm",
+  "name": "Bandaging Charm",
+  "incantation": "Ferula (fer-ROOL-lah)",
+  "category": "Healing Spell, Charm, Conjuration",
+  "effect": "Bandages target",
+  "light": "None",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/cd/Ferula_HM_Spell_Icon.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Bandaging_Charm"
+}

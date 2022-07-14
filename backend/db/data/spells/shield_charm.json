@@ -1,0 +1,12 @@
+{
+  "slug": "shield_charm",
+  "name": "Shield Charm",
+  "incantation": "Protego (pro-TAY-goh)",
+  "category": "Charm",
+  "effect": "Reflected spells and blocked physical forces",
+  "light": "Invisible on its own, reflected light of spell",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/78/DH2_Kingsley_Shacklebolt_Protego.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Shield_Charm"
+}

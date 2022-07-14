@@ -1,0 +1,43 @@
+{
+  "name": "Hannah Abbott",
+  "gender": "Female",
+  "born": "Between 1 September 1979 and 31 August 1980",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Blonde",
+  "eye_color": null,
+  "skin_color": "Light",
+  "blood_status": "Half-blood",
+  "marital_status": "Married",
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": "Lord Voldemort",
+  "house": "Hufflepuff",
+  "patronus": "Non-corporeal",
+  "alias_names": null,
+  "jobs": [
+    "Landlady of the Leaky Cauldron (c.1998-2014)",
+    "Healer (2014-?)"
+  ],
+  "titles": [
+    "Prefect",
+    "Charms Tutor"
+  ],
+  "family_members": [
+    "Mrs Abbott (mother) †",
+    "Neville Longbottom (husband)",
+    "Alice Longbottom (mother-in-law)",
+    "Frank Longbottom (father-in-law)",
+    "Augusta Longbottom (paternal grandmother-in-law)",
+    "Longbottom family (in-laws)",
+    "Abbott (possible relative) †",
+    "Giffard Abbott (possible relative) †",
+    "Abbott family"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b7/Harry-potter-goblet-of-fire-hannah.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Hannah_Abbott"
+}

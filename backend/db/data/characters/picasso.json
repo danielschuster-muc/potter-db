@@ -1,0 +1,29 @@
+{
+  "name": "Pablo Picasso",
+  "gender": "Male",
+  "born": "25 October, 1881, Málaga, Spain",
+  "died": "8 April, 1973, Mougins, France",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Muggle",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Artist"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Picasso"
+}

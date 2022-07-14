@@ -1,0 +1,31 @@
+{
+  "name": "Richard I",
+  "gender": "Male",
+  "born": "8 September, 1157,Oxford, England",
+  "died": "6 April, 1199,Limousin, France (aged 41)",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Muggle",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": [
+    "King of England"
+  ],
+  "family_members": [
+    "William I (ancestor)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Richard_I"
+}

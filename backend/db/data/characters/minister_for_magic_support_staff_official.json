@@ -1,0 +1,29 @@
+{
+  "name": "Minister for Magic Support Staff official",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": "Pale",
+  "blood_status": "Pure-blood or half-blood",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Ministry of Magic Official"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/8f/Latest.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Minister_for_Magic_Support_Staff_official"
+}

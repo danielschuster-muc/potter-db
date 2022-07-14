@@ -1,0 +1,29 @@
+{
+  "name": "Elicia",
+  "gender": "Female",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Brown",
+  "eye_color": "Blue",
+  "skin_color": "Light",
+  "blood_status": "Muggle",
+  "marital_status": null,
+  "nationality": "Britain",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Actress"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/fb/Elicia.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Elicia"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Constance Pickering",
+  "gender": "Female",
+  "born": "Between 1987 and 2001 (most likely)",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Black",
+  "eye_color": "Blue",
+  "skin_color": "White",
+  "blood_status": "Half-blood",
+  "marital_status": "Unmarried",
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": null,
+  "house": "Hufflepuff",
+  "patronus": "Unicorn",
+  "alias_names": null,
+  "jobs": [
+    "Junior Undersecretary (formerly)",
+    "Leader of the Statute of Secrecy Task Force",
+    "Leader of The Unforgivable"
+  ],
+  "titles": [
+    "Prefect",
+    "Junior Undersecretary"
+  ],
+  "family_members": [
+    "Mother",
+    "Older brother",
+    "Sister",
+    "Brother",
+    "Grandmother",
+    "Matthias Pickering (grandfather)",
+    "Grandfather",
+    "Pickering family"
+  ],
+  "romances": [
+    "Lucas Sparrowvale (boyfriend)"
+  ],
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/bd/Constance_Pickering.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Constance_Pickering"
+}

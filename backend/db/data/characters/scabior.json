@@ -1,0 +1,31 @@
+{
+  "name": "Scabior",
+  "gender": "Male",
+  "born": "before 1980 (most likely)",
+  "died": "2 May, 1998, Hogwarts Castle, Scotland",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood or half-blood",
+  "marital_status": null,
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": null,
+  "house": "Slytherin",
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Snatcher"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/93/ScabiorDH2.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Scabior"
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "extinguishing_spell",
+  "name": "Extinguishing Spell",
+  "incantation": null,
+  "category": "Charm",
+  "effect": "Extinguished fires",
+  "light": "None",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/3e/Extinguishing_Charm_HM_Icon.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Extinguishing_Spell"
+}

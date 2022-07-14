@@ -1,0 +1,29 @@
+{
+  "name": "19th-century Potions professor",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Brown",
+  "eye_color": null,
+  "skin_color": "Light",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Potions Master at Hogwarts School of Witchcraft and Wizardry"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/34/19th-century_Potions_teacher_-_HL.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_19th-century_Potions_professor"
+}

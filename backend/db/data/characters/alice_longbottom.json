@@ -1,0 +1,36 @@
+{
+  "name": "Alice Longbottom",
+  "gender": "Female",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Blonde (possibly; formerly), White",
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Auror (formerly)"
+  ],
+  "titles": null,
+  "family_members": [
+    "Frank Longbottom (husband)",
+    "Neville Longbottom (son)",
+    "Mr Longbottom (father-in-law) †",
+    "Augusta Longbottom (mother-in-law)",
+    "Hannah Longbottom (née Abbott) (daughter-in-law)",
+    "Longbottom family"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c4/Order-of-the-phoenix-Alice.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Alice_Longbottom"
+}

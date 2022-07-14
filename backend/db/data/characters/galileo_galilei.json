@@ -1,0 +1,29 @@
+{
+  "name": "Galileo Galilei",
+  "gender": "Male",
+  "born": "15 February 1564",
+  "died": "8 January 1642",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Muggle",
+  "marital_status": null,
+  "nationality": "Italian",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Physicist"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Galileo_Galilei"
+}

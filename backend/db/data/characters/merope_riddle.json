@@ -1,0 +1,47 @@
+{
+  "name": "Merope Riddle (née Gaunt)",
+  "gender": "Female",
+  "born": "c. 1907",
+  "died": "31 December, 1926 (aged 19), Wool's Orphanage, London, England, Great Britain",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Dull",
+  "eye_color": null,
+  "skin_color": "Pale",
+  "blood_status": "Pure-blood",
+  "marital_status": "Married",
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Marvolo Gaunt (father) †",
+    "Morfin Gaunt (brother) †",
+    "Tom Riddle Snr (husband) †",
+    "Tom Marvolo Riddle (son) †",
+    "Thomas Riddle (father-in-law) †",
+    "Mary Riddle (mother-in-law) †",
+    "Delphini (granddaughter)",
+    "Salazar Slytherin (paternal ancestor) †",
+    "Cadmus Peverell (paternal ancestor) †",
+    "Gormlaith Gaunt (paternal ancestor) †",
+    "Corvinus Gaunt (paternal ancestor) †",
+    "House of Gaunt",
+    "Slytherin family (paternal ancestors)",
+    "Peverell family (paternal ancestors)",
+    "Riddle family"
+  ],
+  "romances": [
+    "Tom Riddle Senior (ex-husband; unrequited)"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/ff/MeropeGaunt.jpeg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Merope_Riddle"
+}

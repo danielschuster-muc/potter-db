@@ -1,0 +1,12 @@
+{
+  "slug": "lapifors_spell",
+  "name": "Lapifors Spell",
+  "incantation": "Lapifors (LAP-i-fors)",
+  "category": "Transfiguration, Jinx",
+  "effect": "Turns target into rabbit",
+  "light": "Green",
+  "hand": "Point wand at target",
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/87/LapiforsB.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Lapifors_Spell"
+}

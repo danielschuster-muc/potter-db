@@ -1,0 +1,29 @@
+{
+  "name": "Melusine",
+  "gender": "Female",
+  "born": "before 1927",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "White",
+  "eye_color": null,
+  "skin_color": "Light",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "French",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Archivist of the French Ministry of Magic Records Room"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a7/Melusine.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Melusine"
+}

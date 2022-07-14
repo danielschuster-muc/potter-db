@@ -1,0 +1,31 @@
+{
+  "name": "Gianni Fedele",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Black",
+  "eye_color": "Light Brown",
+  "skin_color": "White",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "American",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Chaser for the American National Quidditch team"
+  ],
+  "titles": [
+    "Chaser"
+  ],
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a3/Giovanni_Freydalei_%28Fidelli%29%2C_USA_Chaser.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Gianni_Fedele"
+}

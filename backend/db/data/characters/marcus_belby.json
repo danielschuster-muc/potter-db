@@ -1,0 +1,31 @@
+{
+  "name": "Marcus Belby",
+  "gender": "Male",
+  "born": "between 1 September 1978 and 31 August 1979",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Half-blood or Pure-blood",
+  "marital_status": null,
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": null,
+  "house": "Ravenclaw",
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Mr Belby (father)",
+    "Damocles Belby (uncle)",
+    "Flavius Belby (possible ancestor)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d4/Robert_knox.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Marcus_Belby"
+}

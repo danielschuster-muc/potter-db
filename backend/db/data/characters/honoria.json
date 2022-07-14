@@ -1,0 +1,38 @@
+{
+  "name": "Honoria",
+  "gender": "Female",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": "Light",
+  "blood_status": null,
+  "marital_status": "Single",
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Albus Dumbledore (nephew) †",
+    "Aberforth Dumbledore (nephew)",
+    "Ariana Dumbledore (niece) †",
+    "Percival Dumbledore (brother or brother-in-law) †",
+    "Kendra Dumbledore (sister or sister-in-law) †",
+    "Aurelius Dumbledore (great nephew)"
+  ],
+  "romances": [
+    "Fiancé (formerly)"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/Aunt_Honoria.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Honoria"
+}

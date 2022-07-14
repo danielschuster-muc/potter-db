@@ -1,0 +1,33 @@
+{
+  "name": "Ollivander",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Half-blood or Squib",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Garrick Ollivander (father)",
+    "Mother",
+    "Sister †",
+    "Gervaise Ollivander (paternal grandfather)",
+    "Paternal grandmother"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Garrick_Ollivander's_son"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Weasley family ghoul",
+  "gender": "Male",
+  "born": "Before 1992",
+  "died": null,
+  "species": "Ghoul",
+  "height": null,
+  "weight": null,
+  "hair_color": "Yellow",
+  "eye_color": null,
+  "skin_color": "Greenish",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": [
+    "Ronald Weasley"
+  ],
+  "jobs": null,
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/47/Weasleyghoul.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Weasley_family_ghoul"
+}

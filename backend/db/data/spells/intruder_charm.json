@@ -1,0 +1,12 @@
+{
+  "slug": "intruder_charm",
+  "name": "Intruder Charm",
+  "incantation": null,
+  "category": "Charm",
+  "effect": "Detects intruders and sounds an alarm",
+  "light": null,
+  "hand": null,
+  "creator": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Intruder_Charm"
+}

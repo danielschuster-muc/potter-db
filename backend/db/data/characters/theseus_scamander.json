@@ -1,0 +1,40 @@
+{
+  "name": "Theseus Scamander",
+  "gender": "Male",
+  "born": "Between 25 February 1888 and 23 February 1889",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Brown",
+  "eye_color": "Blue or gray",
+  "skin_color": null,
+  "blood_status": "Pure-blood or half-blood",
+  "marital_status": "Unmarried",
+  "nationality": "English",
+  "animagus": null,
+  "boggart": null,
+  "house": "Hufflepuff",
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Head of the British Auror Office"
+  ],
+  "titles": null,
+  "family_members": [
+    "Mrs Scamander (mother)",
+    "Newt Scamander (younger brother)",
+    "Tina Scamander (sister-in-law)",
+    "Leta Lestrange (fiancée) †",
+    "Niece or nephew",
+    "Scamander family"
+  ],
+  "romances": [
+    "Leta Lestrange (fiancée) †"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f1/Theseus_Scamander.jpeg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Theseus_Scamander"
+}

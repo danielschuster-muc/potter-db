@@ -1,0 +1,29 @@
+{
+  "name": "Edgar Cloggs",
+  "gender": "Male",
+  "born": "No later than 1880",
+  "died": "Before 1892",
+  "species": "Human (formerly), Ghost",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Quidditch player"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/52/Cloggs.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Edgar_Cloggs"
+}

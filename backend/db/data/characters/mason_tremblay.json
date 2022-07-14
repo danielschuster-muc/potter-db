@@ -1,0 +1,33 @@
+{
+  "name": "Mason Tremblay",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood or half-blood (Possibly)",
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Bernard Tremblay (possible relative)",
+    "Leonie Tremblay (possible relative)",
+    "Clarisse Lestrange (possible relative)",
+    "Falco Tremblay (possible relative)",
+    "Tremblay family"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Mason_Tremblay"
+}

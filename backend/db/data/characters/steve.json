@@ -1,0 +1,31 @@
+{
+  "name": "Steve",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Brown",
+  "eye_color": null,
+  "skin_color": "White",
+  "blood_status": "No-Maj",
+  "marital_status": null,
+  "nationality": "American",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": [
+    "Ol' Shoe-shinin' Steve"
+  ],
+  "jobs": [
+    "Shoeshiner"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f3/Steve.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Steve"
+}

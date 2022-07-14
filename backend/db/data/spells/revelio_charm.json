@@ -1,0 +1,12 @@
+{
+  "slug": "revelio_charm",
+  "name": "Revelio Charm",
+  "incantation": "Revelio (reh-VEL-ee-oh)",
+  "category": "Charm",
+  "effect": "Reveals secrets about a person or object",
+  "light": "Yellow",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/81/Revelio.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Revelio_Charm"
+}

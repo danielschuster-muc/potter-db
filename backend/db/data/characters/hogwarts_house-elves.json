@@ -1,0 +1,29 @@
+{
+  "name": "Hogwarts house-elves",
+  "gender": "Males, Females",
+  "born": null,
+  "died": null,
+  "species": "House-elves",
+  "height": "Varies",
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": "Varies",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Hogwarts kitchens staff and cleaners"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/81/Hogwarts_House-Elves.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Hogwarts_house-elves"
+}

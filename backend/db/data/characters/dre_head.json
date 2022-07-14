@@ -1,0 +1,29 @@
+{
+  "name": "Dre Head",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Shrunken head",
+  "height": null,
+  "weight": null,
+  "hair_color": "Dark (dreadlocks)",
+  "eye_color": "Dark",
+  "skin_color": "Dark green with black parts",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Heady (cousin)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f2/Dre_Head.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Dre_Head"
+}

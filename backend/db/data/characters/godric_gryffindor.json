@@ -1,0 +1,32 @@
+{
+  "name": "Godric Gryffindor",
+  "gender": "Male",
+  "born": "Pre 976, Godric's Hollow, West Country, England, Great Britain",
+  "died": "11th century (possibly)",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Red",
+  "eye_color": "Green",
+  "skin_color": "Light",
+  "blood_status": "Pure-blood or half-blood",
+  "marital_status": null,
+  "nationality": "English",
+  "animagus": null,
+  "boggart": null,
+  "house": "Gryffindor",
+  "patronus": "Non-corporeal",
+  "alias_names": null,
+  "jobs": [
+    "Teacher at Hogwarts School of Witchcraft and Wizardry",
+    "Founder of Hogwarts School of Witchcraft and Wizardry"
+  ],
+  "titles": [
+    "Founder"
+  ],
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/31/Founders_gryffindor1.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Godric_Gryffindor"
+}

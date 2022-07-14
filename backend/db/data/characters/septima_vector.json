@@ -1,0 +1,35 @@
+{
+  "name": "Septima Vector",
+  "gender": "Female",
+  "born": "Before 1974",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": "Lord Voldemort",
+  "house": null,
+  "patronus": "Non-corporeal",
+  "alias_names": null,
+  "jobs": [
+    "Arithmancer",
+    "Professor of Arithmancy at Hogwarts School of Witchcraft and Wizardry (before 1993 - ?)",
+    "Professor of Advanced Arithmancy Studies at Hogwarts (possibly)"
+  ],
+  "titles": [
+    "Professor"
+  ],
+  "family_members": null,
+  "romances": null,
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/6d/Professor_Vector_PSF.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Septima_Vector"
+}

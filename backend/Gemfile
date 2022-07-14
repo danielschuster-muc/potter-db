@@ -1,0 +1,58 @@
+source "https://rubygems.org"
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+
+ruby "3.0.3"
+
+# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
+gem "rails", "~> 7.0.3", ">= 7.0.3.1"
+
+# Use postgresql as the database for Active Record
+gem "pg", "~> 1.1"
+
+# Use the Puma web server [https://github.com/puma/puma]
+gem "puma", "~> 5.0"
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
+
+# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
+gem "rack-cors"
+
+# Reduces boot times through caching; required in config/boot.rb
+gem "bootsnap", require: false
+
+# Allows you to create pretty URL’s and work with human-friendly strings [https://github.com/norman/friendly_id]
+gem 'friendly_id', '~> 5.1'
+# A fast JSON:API serializer for Ruby Objects [https://github.com/jsonapi-serializer/jsonapi-serializer]
+gem 'jsonapi-serializer'
+# Object-based searching [https://github.com/activerecord-hackery/ransack]
+gem 'ransack'
+# Lightweight, simple and maintained JSON:API support for your next Ruby HTTP API. [https://github.com/stas/jsonapi.rb]
+gem 'jsonapi.rb'
+
+group :development, :test do
+  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
+  gem "debug", platforms: %i[ mri mingw x64_mingw ]
+
+  # Load environment variables from `.env` [https://github.com/bkeepers/dotenv]
+  gem "dotenv-rails"
+
+  # RSpec for Rails 5+ [https://github.com/rspec/rspec-rails]
+  gem 'rspec-rails'
+  # Fixtures replacement [https://github.com/thoughtbot/factory_bot_rails]
+  gem 'factory_bot_rails'
+  # Code coverage [https://github.com/simplecov-ruby/simplecov]
+  gem "simplecov", require: false
+
+  # Code analyzer and formatter [https://github.com/rubocop/rubocop]
+  gem 'rubocop'
+  # Rubocop extension for rails [https://github.com/rubocop/rubocop-rails]
+  gem 'rubocop-rails'
+  # Code style checking for RSpec files [https://github.com/rubocop/rubocop-rspec]
+  gem 'rubocop-rspec'
+end
+
+group :development do
+  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
+  # gem "spring"
+end

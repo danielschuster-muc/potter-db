@@ -1,0 +1,31 @@
+{
+  "name": "Jacob Kowalski's grandmother",
+  "gender": "Female",
+  "born": null,
+  "died": "Before 1926 (possibly)",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Muggle",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Jacob Kowalski (grandson)",
+    "Mr Kowalski (grandson)",
+    "Quentin Kowalski (possible)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/33/Jacob%27s_grandmother_FB1.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Jacob_Kowalski's_grandmother"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Ug the Unreliable",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Goblin",
+  "height": null,
+  "weight": null,
+  "hair_color": "White",
+  "eye_color": "Blue",
+  "skin_color": "Drab",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Con artist"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/be/Ug_the_Unreliable.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Ug_the_Unreliable"
+}

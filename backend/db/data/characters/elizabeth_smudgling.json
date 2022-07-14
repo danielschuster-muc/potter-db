@@ -1,0 +1,31 @@
+{
+  "name": "Elizabeth Smudgling",
+  "gender": "Female",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Brown",
+  "eye_color": null,
+  "skin_color": "White",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "English",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Professional Duellist"
+  ],
+  "titles": [
+    "Supreme Dueller"
+  ],
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/8b/ElizabethSmudgling.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Elizabeth_Smudgling"
+}

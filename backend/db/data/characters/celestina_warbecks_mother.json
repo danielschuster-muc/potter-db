@@ -1,0 +1,36 @@
+{
+  "name": "Mrs Warbeck",
+  "gender": "Female",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Muggle",
+  "marital_status": "Married",
+  "nationality": "Welsh",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Actress (formerly)"
+  ],
+  "titles": null,
+  "family_members": [
+    "Mr Warbeck (husband)",
+    "Celestina Warbeck (daughter)",
+    "First son-in-law",
+    "Second son-in-law",
+    "Irving Warble (third son-in-law)",
+    "One grandson"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Celestina_Warbeck's_mother"
+}

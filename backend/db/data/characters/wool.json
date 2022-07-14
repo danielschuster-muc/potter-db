@@ -1,0 +1,31 @@
+{
+  "name": "Wool",
+  "gender": null,
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Muggle (possibly)",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Owner of Wool's Orphanage"
+  ],
+  "titles": [
+    "Owner of Wool's Orphanage"
+  ],
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Wool"
+}

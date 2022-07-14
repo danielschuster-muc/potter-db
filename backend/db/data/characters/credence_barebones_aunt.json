@@ -1,0 +1,30 @@
+{
+  "name": "Credence Barebone's aunt",
+  "gender": "Female",
+  "born": "19th century",
+  "died": "1901",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Dark",
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Credence Barebone's mother (sister)",
+    "Credence Barebone (nephew)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/14/Credence_Barebone%27s_aunt_holding_Corvus_Lestrange_%28V%29.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Credence_Barebone's_aunt"
+}

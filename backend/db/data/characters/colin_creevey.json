@@ -1,0 +1,30 @@
+{
+  "name": "Colin Creevey",
+  "gender": "Male",
+  "born": "between 3 May and 31 August 1981",
+  "died": "2 May, 1998 (aged 16), Hogwarts Castle, Highlands, Scotland, Great Britain",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Mousy",
+  "eye_color": null,
+  "skin_color": "Light (likely)",
+  "blood_status": "Muggle-born",
+  "marital_status": null,
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": "Lord Voldemort",
+  "house": "Gryffindor",
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Mr Creevey (father)",
+    "Dennis Creevey (brother)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/6e/Colin_Creevey_OOTPG.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Colin_Creevey"
+}

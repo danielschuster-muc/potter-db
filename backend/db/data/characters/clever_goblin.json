@@ -1,0 +1,29 @@
+{
+  "name": "Clever goblin",
+  "gender": "Male",
+  "born": null,
+  "died": "1 May, 1998 (Possibly)",
+  "species": "Goblin",
+  "height": null,
+  "weight": null,
+  "hair_color": "Grey with mix of Black",
+  "eye_color": "Black",
+  "skin_color": "Light",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Banker at Gringotts Wizarding Bank"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/13/Clever_goblin.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Clever_goblin"
+}

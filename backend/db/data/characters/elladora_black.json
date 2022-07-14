@@ -1,0 +1,43 @@
+{
+  "name": "Elladora Black",
+  "gender": "Female",
+  "born": "1850",
+  "died": "1931 (aged 80 - 81)",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": "White",
+  "blood_status": "Pure-blood",
+  "marital_status": "Single",
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": "Slytherin (possibly)",
+  "patronus": null,
+  "alias_names": [
+    "Aunt Elladora"
+  ],
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Cygnus Black I (possible father)",
+    "Ella Max (possible mother)",
+    "Sirius Black I (older brother)",
+    "Phineas Nigellus Black (older brother)",
+    "Iola Black (younger sister)",
+    "Ursula Flint (sister-in-law)",
+    "Bob Hitchens (brother-in-law)",
+    "Sirius Black II (nephew)",
+    "Phineas Black (nephew)",
+    "Arcturus Black II (nephew)",
+    "Belvina Black (niece)",
+    "Cygnus Black II (nephew)",
+    "House of Black"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c8/Elladora_Black.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Elladora_Black"
+}

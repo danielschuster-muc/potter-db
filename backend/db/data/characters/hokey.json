@@ -1,0 +1,29 @@
+{
+  "name": "Hokey",
+  "gender": "Female",
+  "born": "Before 1940s",
+  "died": "1950s-1960s",
+  "species": "House-elf",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Servant of Hepzibah Smith"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d0/Hokey.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Hokey"
+}

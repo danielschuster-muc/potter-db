@@ -1,0 +1,33 @@
+{
+  "name": "Kreacher",
+  "gender": "Male",
+  "born": "Between 1351 and 1979",
+  "died": "Between 1 September, 2017 and 2645 (aged 666)",
+  "species": "House-elf",
+  "height": null,
+  "weight": null,
+  "hair_color": "White",
+  "eye_color": null,
+  "skin_color": "Light",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Black family's house-elf (?-1996)",
+    "Harry Potter's house-elf (1996-2017)",
+    "Hogwarts kitchen worker (1996-2017)"
+  ],
+  "titles": null,
+  "family_members": [
+    "Mother †Ancestors (likely)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a0/Krech.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Kreacher"
+}

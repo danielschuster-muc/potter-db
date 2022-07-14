@@ -1,0 +1,29 @@
+class CharacterSerializer < ApplicationSerializer
+  attributes(
+    :name,
+    :born,
+    :died,
+    :gender,
+    :species,
+    :height,
+    :weight,
+    :hair_color,
+    :eye_color,
+    :skin_color,
+    :blood_status,
+    :marital_status,
+    :nationality,
+    :animagus,
+    :boggart,
+    :house,
+    :patronus,
+    :alias_names,
+    :family_members,
+    :jobs,
+    :romances,
+    :titles,
+    :wands,
+    :image_url,
+    :wiki_link
+  )
+end

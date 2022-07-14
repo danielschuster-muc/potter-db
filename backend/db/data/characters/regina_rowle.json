@@ -1,0 +1,36 @@
+{
+  "name": "Regina Rowle",
+  "gender": "Female",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Junior Unspeakable"
+  ],
+  "titles": null,
+  "family_members": [
+    "Damocles Rowle (possibly)",
+    "Euphemia Rowle (possibly)",
+    "Thorfinn Rowle (possibly)",
+    "Rowena Rowle (possibly)",
+    "Concordia Rowle (possibly)",
+    "Rowle family"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Regina_Rowle"
+}

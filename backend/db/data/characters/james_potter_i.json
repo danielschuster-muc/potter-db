@@ -1,0 +1,65 @@
+{
+  "name": "James Potter I",
+  "gender": "Male",
+  "born": "27 March, 1960, England, Great Britain",
+  "died": "31 October, 1981 (aged 21), Godric's Hollow, West Country, England, Great Britain",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Jet-black",
+  "eye_color": "Hazel",
+  "skin_color": null,
+  "blood_status": "Pure-blood",
+  "marital_status": "Married",
+  "nationality": "English",
+  "animagus": "Stag (unregistered)",
+  "boggart": null,
+  "house": "Gryffindor",
+  "patronus": "Stag",
+  "alias_names": [
+    "Prongs (by Marauders)"
+  ],
+  "jobs": null,
+  "titles": [
+    "Chaser",
+    "Head Boy"
+  ],
+  "family_members": [
+    "Fleamont Potter (father) †",
+    "Euphemia Potter (mother) †",
+    "Lily J. Potter (née Evans) (wife) †",
+    "Harry Potter (son)",
+    "Ginevra Potter (née Weasley) (daughter-in-law)",
+    "James Potter II (grandson)",
+    "Albus Potter (grandson)",
+    "Lily L. Potter (granddaughter)",
+    "Mr Evans (father-in-law) †",
+    "Mrs Evans (mother-in-law) †",
+    "Petunia Dursley (née Evans) (sister-in-law) †",
+    "Vernon Dursley (brother-in-law)",
+    "Dudley Dursley (nephew-in-law)",
+    "Mrs Dursley (niece-in-law)",
+    "Henry Potter (paternal grandfather) †",
+    "Hardwin Potter (paternal ancestor) †",
+    "Iolanthe Potter (née Peverell) (paternal ancestor) †",
+    "Linfred of Stinchcombe (paternal ancestor) †",
+    "Mr Peverell (paternal ancestor) †",
+    "Ignotus Peverell (paternal ancestor) †",
+    "Lord Voldemort (paternal distant cousin) †",
+    "Delphini (paternal distant cousin)",
+    "Potter family",
+    "Fleamont family (paternal ancestors)",
+    "Peverell family (paternal ancestors)",
+    "Evans family (in-laws)",
+    "Weasley family (in-laws)",
+    "House of Black (in-laws)"
+  ],
+  "romances": [
+    "Lily J. Potter (wife) †"
+  ],
+  "wands": [
+    "11″, Mahogany, unknown core"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/10/James_Potter_I_Deathly_Hallows.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/James_Potter_I"
+}

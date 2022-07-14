@@ -1,0 +1,29 @@
+{
+  "name": "Bilton Bilmes",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Silver",
+  "eye_color": "Blue",
+  "skin_color": "Light",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Shopkeeper of Zonko's Joke Shop"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/8e/Bilton_Head.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Bilton_Bilmes"
+}

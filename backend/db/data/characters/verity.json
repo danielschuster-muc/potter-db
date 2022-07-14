@@ -1,0 +1,29 @@
+{
+  "name": "Verity",
+  "gender": "Female",
+  "born": "In or prior to 1979",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Blonde",
+  "eye_color": null,
+  "skin_color": "White",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Weasleys' Wizard Wheezes employee"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1a/Verity.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Verity"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Sidley Smirk Platter",
+  "gender": "Male",
+  "born": "c. 1503",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Brown",
+  "eye_color": null,
+  "skin_color": "Light",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Supreme Mugwump of the International Confederation of Wizards"
+  ],
+  "titles": [
+    "Supreme Mugwump",
+    "Grand Sorcerer",
+    "Sir"
+  ],
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/9f/SmirkPlatterProfile.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Sidley_Smirk_Platter"
+}

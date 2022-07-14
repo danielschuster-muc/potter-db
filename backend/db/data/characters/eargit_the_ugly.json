@@ -1,0 +1,29 @@
+{
+  "name": "Eargit the Ugly",
+  "gender": "Male",
+  "born": "c. 14th century",
+  "died": null,
+  "species": "Goblin",
+  "height": null,
+  "weight": null,
+  "hair_color": "Grey",
+  "eye_color": "Brown",
+  "skin_color": "Greyish-brown",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Spokesgoblin"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d9/Eargit_the_Ugly.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Eargit_the_Ugly"
+}

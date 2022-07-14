@@ -1,0 +1,12 @@
+{
+  "slug": "patronus_charm",
+  "name": "Patronus Charm",
+  "incantation": "Expecto Patronum (ex-PEK-toh pa-TRO-num)",
+  "category": "Charm",
+  "effect": "Conjures a spirit guardian",
+  "light": "Silver",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/fe/Patronus_PM_SilverStagPatronus_MomentIllust.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Patronus_Charm"
+}

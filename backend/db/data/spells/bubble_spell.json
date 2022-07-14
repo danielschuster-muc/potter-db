@@ -1,0 +1,12 @@
+{
+  "slug": "bubble_spell",
+  "name": "Bubble Spell",
+  "incantation": null,
+  "category": "Conjuration",
+  "effect": "Creates a stream of non-bursting bubbles",
+  "light": "None",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d8/Bubble_Spell_HM.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Bubble_Spell"
+}

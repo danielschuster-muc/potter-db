@@ -1,0 +1,33 @@
+{
+  "name": "Josephina Flint",
+  "gender": "Female",
+  "born": "Before 1802",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood or Half-blood",
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "British Minister for Magic (1819 - 1827)"
+  ],
+  "titles": [
+    "Minister for Magic"
+  ],
+  "family_members": [
+    "Flint family"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Josephina_Flint"
+}

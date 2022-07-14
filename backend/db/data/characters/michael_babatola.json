@@ -1,0 +1,29 @@
+{
+  "name": "Michael Babatola",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Dark brown",
+  "eye_color": "Brown",
+  "skin_color": "Dark",
+  "blood_status": "Muggle",
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Nurse at St. David's Hospital"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/78/MichaelBabatola.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Michael_Babatola"
+}

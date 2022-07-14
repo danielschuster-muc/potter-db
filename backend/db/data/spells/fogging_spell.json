@@ -1,0 +1,12 @@
+{
+  "slug": "fogging_spell",
+  "name": "Fogging Spell",
+  "incantation": "Nebulus (NEB-yoo-lus)",
+  "category": "Charm",
+  "effect": "Conjured fog",
+  "light": "Grey",
+  "hand": "Point wand over area",
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e8/Nebulus.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Fogging_Spell"
+}

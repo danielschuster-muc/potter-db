@@ -1,0 +1,35 @@
+{
+  "name": "Penny Haywood",
+  "gender": "Female",
+  "born": "Between 1 September 1972 and 31 August 1973, London, England, Great Britain",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Blonde",
+  "eye_color": "Blue",
+  "skin_color": "Light",
+  "blood_status": "Half-blood",
+  "marital_status": null,
+  "nationality": "English",
+  "animagus": null,
+  "boggart": "Werewolf",
+  "house": "Hufflepuff",
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Muggle father",
+    "Muggle born witch mother",
+    "Beatrice Haywood (younger sister)",
+    "Winifred Haywood (grandmother)",
+    "Haywood family"
+  ],
+  "romances": null,
+  "wands": [
+    "Unicorn hair core, unknown length and wood"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/ab/Penny.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Penny_Haywood"
+}

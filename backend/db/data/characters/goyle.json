@@ -1,0 +1,30 @@
+{
+  "name": "Mr Goyle",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood",
+  "marital_status": "Married",
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": "Slytherin (possibly)",
+  "patronus": "None",
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Mrs Goyle (wife)",
+    "Gregory Goyle (son)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/de/Goyledad_recolored.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Goyle"
+}

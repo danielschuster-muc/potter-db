@@ -1,0 +1,32 @@
+{
+  "name": "William Jefferson 'Bill' Clinton",
+  "gender": "Male",
+  "born": "August 19, 1946",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": "Fair",
+  "blood_status": "No-Maj",
+  "marital_status": null,
+  "nationality": "American",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "President of the United States"
+  ],
+  "titles": null,
+  "family_members": [
+    "Hillary Clinton (wife)",
+    "Chelsea Clinton (daughter)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/47/BillClinton.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Bill_Clinton"
+}

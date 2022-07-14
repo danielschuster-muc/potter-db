@@ -1,0 +1,33 @@
+{
+  "name": "Ignatius Tuft",
+  "gender": "Male",
+  "born": "Before 1942",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood or Half-blood",
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Minister for Magic (1959-1962)"
+  ],
+  "titles": [
+    "Minister for Magic"
+  ],
+  "family_members": [
+    "Wilhelmina Tuft (mother)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Ignatius_Tuft"
+}

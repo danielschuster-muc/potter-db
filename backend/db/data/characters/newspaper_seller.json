@@ -1,0 +1,29 @@
+{
+  "name": "Newspaper seller",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": "White",
+  "blood_status": "Muggle",
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Newspaper vendor"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/48/Newspaper_seller2.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Newspaper_seller"
+}

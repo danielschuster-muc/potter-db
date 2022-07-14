@@ -1,0 +1,34 @@
+{
+  "name": "Firenze",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Centaur",
+  "height": null,
+  "weight": null,
+  "hair_color": "White-blond",
+  "eye_color": "Astonishingly blue",
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": [
+    "Dobbin (by Sybill Trelawney)",
+    "The nag (by Sybill Trelawney)"
+  ],
+  "jobs": [
+    "Professor of Divination at Hogwarts School of Witchcraft and Wizardry (1996-?)"
+  ],
+  "titles": [
+    "Professor"
+  ],
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/86/Firenze_PM_cropped.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Firenze"
+}

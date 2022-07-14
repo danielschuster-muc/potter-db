@@ -1,0 +1,38 @@
+{
+  "name": "Edith Nesbit",
+  "gender": "Female",
+  "born": "15 August, 1858, Surrey, England",
+  "died": "4 May, 1924 (aged 65), Kent, England",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Dark",
+  "eye_color": "Dark",
+  "skin_color": "White",
+  "blood_status": "Muggle",
+  "marital_status": null,
+  "nationality": "English",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Author, Poet"
+  ],
+  "titles": null,
+  "family_members": [
+    "John Collis Nesbit (father)",
+    "Mary Nesbit (sister)",
+    "Hubert Bland (husband)",
+    "Paul Bland (son)",
+    "Iris Bland (daughter)",
+    "Fabian Bland † (son)",
+    "Rosamund Bland (adopted stepdaughter)",
+    "John Bland (adopted stepson)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Edith_Nesbit"
+}

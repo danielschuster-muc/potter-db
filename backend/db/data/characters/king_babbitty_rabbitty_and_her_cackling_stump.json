@@ -1,0 +1,31 @@
+{
+  "name": "King",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Dark",
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Muggle",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "King"
+  ],
+  "titles": [
+    "King"
+  ],
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/ae/King_babbity_rabbity.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/King_(Babbitty_Rabbitty_and_her_Cackling_Stump)"
+}

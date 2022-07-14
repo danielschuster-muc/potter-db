@@ -1,0 +1,31 @@
+{
+  "name": "Lucas Sparrowvale",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": "Unmarried",
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "British Ministry of Magic employee"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": [
+    "Constance Pickering"
+  ],
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Lucas_Sparrowvale"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Alecto Carrow",
+  "gender": "Female",
+  "born": "Before 1981 Great Britain",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood or half-blood",
+  "marital_status": null,
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": null,
+  "house": "Slytherin",
+  "patronus": "None",
+  "alias_names": null,
+  "jobs": [
+    "Professor of Muggle Studies at Hogwarts (1997—1998)",
+    "Deputy Headmistress at Hogwarts (1997—1998)"
+  ],
+  "titles": [
+    "Professor"
+  ],
+  "family_members": [
+    "Amycus Carrow (brother)",
+    "Carrow (possible relative)",
+    "Flora Carrow (likely)",
+    "Hestia Carrow (likely)",
+    "Carrow family"
+  ],
+  "romances": null,
+  "wands": [
+    "Unknown length, wood and core materials"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/25/Alecto-DH2.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Alecto_Carrow"
+}

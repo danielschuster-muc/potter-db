@@ -1,0 +1,32 @@
+{
+  "name": "Mr Creevey",
+  "gender": "Male",
+  "born": "Before 1963 (most likely)",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Muggle",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Milkman"
+  ],
+  "titles": null,
+  "family_members": [
+    "Colin Creevey (son) †",
+    "Dennis Creevey (son)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Creevey_brothers'_father"
+}

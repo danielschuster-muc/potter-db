@@ -1,0 +1,12 @@
+{
+  "slug": "impervius_charm",
+  "name": "Impervius Charm",
+  "incantation": "Impervius (im-PUR-vee-us)",
+  "category": "Charm",
+  "effect": "Waterproofs an object",
+  "light": "None",
+  "hand": "Tap target",
+  "creator": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Impervius_Charm"
+}

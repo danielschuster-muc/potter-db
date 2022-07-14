@@ -1,0 +1,29 @@
+{
+  "name": "Pippa Macmillan",
+  "gender": "Female",
+  "born": "Between 1 September 1971 and 31 August 1972",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Brown",
+  "eye_color": "Grey",
+  "skin_color": "Tan",
+  "blood_status": "Pure-blood (most likely)",
+  "marital_status": null,
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": null,
+  "house": "Gryffindor",
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Macmillan family"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f3/PippaMacmillanHM.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Pippa_Macmillan"
+}

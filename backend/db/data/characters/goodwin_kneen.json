@@ -1,0 +1,35 @@
+{
+  "name": "Goodwin Kneen",
+  "gender": "Male",
+  "born": "c. 12th century",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": "Married",
+  "nationality": "English",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Kwidditch player"
+  ],
+  "titles": null,
+  "family_members": [
+    "Gunhilda Kneen (wife)",
+    "Olaf (cousin)",
+    "Kneen family"
+  ],
+  "romances": [
+    "Gunhilda Kneen (wife)"
+  ],
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Goodwin_Kneen"
+}

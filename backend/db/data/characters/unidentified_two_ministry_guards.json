@@ -1,0 +1,29 @@
+{
+  "name": "Ministry Guards",
+  "gender": "Males",
+  "born": null,
+  "died": null,
+  "species": "Humans",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": "White",
+  "blood_status": "Pure-blood or half-blood",
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Ministry Guards"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/95/Two_Unidentified_Ministry_Guards.jpeg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_two_Ministry_Guards"
+}

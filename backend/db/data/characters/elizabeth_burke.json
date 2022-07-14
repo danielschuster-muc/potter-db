@@ -1,0 +1,39 @@
+{
+  "name": "Elizabeth Burke",
+  "gender": "Female",
+  "born": null,
+  "died": "Before 1925",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Red",
+  "eye_color": "Brown",
+  "skin_color": "White",
+  "blood_status": "Pure-blood or Half-blood",
+  "marital_status": null,
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": null,
+  "house": "Slytherin",
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Headmistress of Hogwarts (before 1943)"
+  ],
+  "titles": [
+    "Professor",
+    "Headmistress"
+  ],
+  "family_members": [
+    "Caractacus Burke (possibly)",
+    "Herbert Burke (possibly)",
+    "Herbert Burke's sons (possibly)",
+    "Herbert Burke's daughter (possibly)",
+    "Burke family",
+    "Malfoy family (possibly)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b3/Elizabeth_Burke_full.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Elizabeth_Burke"
+}

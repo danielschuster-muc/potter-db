@@ -1,0 +1,38 @@
+{
+  "name": "Edgar Bones",
+  "gender": "Male",
+  "born": null,
+  "died": "1981",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood or half-blood",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": "Hufflepuff (possibly)",
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Mr Bones (father) †",
+    "Mrs Bones (mother) †",
+    "Amelia Bones (sister) †",
+    "Sibling",
+    "Wife †",
+    "Children †",
+    "Susan Bones (niece)",
+    "Bones family"
+  ],
+  "romances": null,
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/26/Edgar_Bones.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Edgar_Bones"
+}

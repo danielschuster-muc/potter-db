@@ -1,0 +1,29 @@
+{
+  "name": "Pumpkin juice salesman",
+  "gender": "Male",
+  "born": "Prior to 1994",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Dark",
+  "eye_color": "Black",
+  "skin_color": "Dark",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Seller of Pumpkin Juice"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/55/PumpkinJuiceSeller.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Pumpkin_Juice_seller_at_the_Quidditch_World_Cup"
+}

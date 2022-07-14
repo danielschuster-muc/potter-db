@@ -1,0 +1,33 @@
+{
+  "name": "Flavius Belby",
+  "gender": "Male",
+  "born": "1715",
+  "died": "1791 (aged 75-76)",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Brown",
+  "eye_color": "Blue",
+  "skin_color": "Light",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": "Something with horns",
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Marcus Belby (possibly)",
+    "Mr Belby (possibly)",
+    "Damocles (possibly)"
+  ],
+  "romances": null,
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d2/Flavius_Belby.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Flavius_Belby"
+}

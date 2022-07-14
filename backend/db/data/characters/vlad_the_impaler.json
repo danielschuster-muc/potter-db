@@ -1,0 +1,33 @@
+{
+  "name": "Vlad the Impaler",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Vampire, Part-vampire, or Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "Romanian",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": [
+    "Vlad Tepes",
+    "Vlad Drăculea",
+    "Vlad Dracula"
+  ],
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Vlad Drakul (father)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Vlad_the_Impaler"
+}

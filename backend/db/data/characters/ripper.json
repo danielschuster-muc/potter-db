@@ -1,0 +1,31 @@
+{
+  "name": "Ripper",
+  "gender": "Male",
+  "born": "c. 1980s",
+  "died": null,
+  "species": "Dog (breed: bulldog)",
+  "height": null,
+  "weight": null,
+  "hair_color": "Brown and white",
+  "eye_color": "Black",
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": [
+    "Rippy",
+    "Rippy-pooh",
+    "Rippy-pippy-pooh"
+  ],
+  "jobs": null,
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d8/Ripper.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Ripper"
+}

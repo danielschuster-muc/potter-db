@@ -1,0 +1,46 @@
+{
+  "name": "Henry Potter",
+  "gender": "Male",
+  "born": "Pre 1892",
+  "died": "Between 1921 and 31 October 1981",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood or half-blood",
+  "marital_status": null,
+  "nationality": "English",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": [
+    "Harry (by friends and family)"
+  ],
+  "jobs": [
+    "Member of the Wizengamot (1913-1921)"
+  ],
+  "titles": null,
+  "family_members": [
+    "Mrs Potter (née Fleamont) (mother) †",
+    "Fleamont Potter (son) †",
+    "Euphemia Potter (daughter-in-law) †",
+    "James Potter I (grandson) †",
+    "Lily J. Potter (née Evans) (granddaughter-in-law) †",
+    "Hardwin Potter (paternal ancestor) †",
+    "Iolanthe Potter (née Peverell) (paternal ancestor) †",
+    "Linfred of Stinchcombe (paternal ancestor) †",
+    "Mr Peverell (paternal ancestor) †",
+    "Ignotus Peverell (paternal ancestor) †",
+    "Potter family",
+    "Fleamont family (maternal family)",
+    "Peverell family (paternal ancestors)",
+    "Evans family (in-laws)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/2e/Henry_Potter.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Henry_Potter"
+}

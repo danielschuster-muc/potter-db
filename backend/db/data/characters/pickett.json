@@ -1,0 +1,35 @@
+{
+  "name": "Pickett",
+  "gender": "Male",
+  "born": "Before 1926",
+  "died": null,
+  "species": "Bowtruckle",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": "Black",
+  "skin_color": "Green",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": [
+    "Pick"
+  ],
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Titus",
+    "Finn",
+    "Poppy",
+    "Marlow",
+    "Tom"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/df/Pickett.jpeg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Pickett"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Rolanda Hooch",
+  "gender": "Female",
+  "born": "Before 1918",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Grey",
+  "eye_color": "Yellow",
+  "skin_color": "White",
+  "blood_status": null,
+  "marital_status": "Single",
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": "Lord Voldemort",
+  "house": null,
+  "patronus": "Non-corporeal",
+  "alias_names": null,
+  "jobs": [
+    "Flying Instructor at Hogwarts School of Witchcraft and Wizardry (before 1975 - ?)",
+    "Hogwarts Quidditch referee (before 1967 - ?)",
+    "Hogwarts Quidditch coach (before 1985 - ?)"
+  ],
+  "titles": [
+    "Madam"
+  ],
+  "family_members": null,
+  "romances": null,
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/02/RolandaHooch.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Rolanda_Hooch"
+}

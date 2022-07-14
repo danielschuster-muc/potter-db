@@ -1,0 +1,12 @@
+{
+  "slug": "arrow_shooting_spell",
+  "name": "Arrow Shooting Spell",
+  "incantation": null,
+  "category": "Conjuration",
+  "effect": "Conjures a shooting arrow from the caster's wand",
+  "light": "None",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/82/ArrowShootingSpellHM.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Arrow_Shooting_Spell"
+}

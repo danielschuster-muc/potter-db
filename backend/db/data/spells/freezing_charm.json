@@ -1,0 +1,12 @@
+{
+  "slug": "freezing_charm",
+  "name": "Freezing Charm",
+  "incantation": "Immobulus (ih-MOH-byoo-luhs)",
+  "category": "Charm",
+  "effect": "Stops movement and actions of the target",
+  "light": "Blue",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c1/Immobulus.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Freezing_Charm"
+}

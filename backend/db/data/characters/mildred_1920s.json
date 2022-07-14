@@ -1,0 +1,29 @@
+{
+  "name": "Mildred",
+  "gender": "Female",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Blonde",
+  "eye_color": "Blue",
+  "skin_color": "Light",
+  "blood_status": "No-Maj",
+  "marital_status": null,
+  "nationality": "American",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": null,
+  "romances": [
+    "Jacob Kowalski (ex-fiancé)"
+  ],
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/43/Mildred.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Mildred_(1920s)"
+}

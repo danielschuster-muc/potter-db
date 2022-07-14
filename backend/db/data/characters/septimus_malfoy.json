@@ -1,0 +1,38 @@
+{
+  "name": "Septimus Malfoy",
+  "gender": "Male",
+  "born": "Before or between 1772 and 1781",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Advisor to the Minister for Magic"
+  ],
+  "titles": null,
+  "family_members": [
+    "Armand Malfoy (ancestor) †",
+    "Nicholas Malfoy (ancestor) †",
+    "Lucius Malfoy I (ancestor) †",
+    "Brutus Malfoy (ancestor) †",
+    "Abraxas Malfoy (descendant) †",
+    "Lucius Malfoy (descendant)",
+    "Draco Malfoy (descendant)",
+    "Scorpius Malfoy (descendant)"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/7f/SeptimusMalfoy.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Septimus_Malfoy"
+}

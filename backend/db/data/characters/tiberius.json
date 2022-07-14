@@ -1,0 +1,31 @@
+{
+  "name": "Tiberius",
+  "gender": "Male",
+  "born": "c. 1970 or earlier",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Mr McLaggen (brother or brother-in-law)",
+    "Cormac McLaggen (nephew)",
+    "McLaggen family"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Tiberius"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Gilbert P. Bingley",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "No-Maj",
+  "marital_status": "Married",
+  "nationality": "American",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Loan officer at Steen National Bank"
+  ],
+  "titles": null,
+  "family_members": [
+    "Mrs Bingley (wife)"
+  ],
+  "romances": [
+    "Mrs Bingley (wife)"
+  ],
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0c/Gilbert_Bingley_FB1.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Gilbert_Bingley"
+}

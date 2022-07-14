@@ -1,0 +1,42 @@
+{
+  "name": "Bob Hitchens",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Muggle",
+  "marital_status": "Married",
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Iola Black (wife) †",
+    "Sirius Black I (brother-in-law) †",
+    "Phineas Nigellus Black (brother-in-law) †",
+    "Elladora Black (sister-in-law) †",
+    "Ursula Flint (sister-in-law) †",
+    "Sirius Black II (nephew) †",
+    "Phineas Black (nephew) †",
+    "Arcturus Black II (nephew) †",
+    "Belvina Black (niece) †",
+    "Cygnus Black II (nephew) †",
+    "Hitchens family",
+    "House of Black (in-laws)"
+  ],
+  "romances": [
+    "Iola Black (wife) †"
+  ],
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/5d/BobHitchens.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Bob_Hitchens"
+}

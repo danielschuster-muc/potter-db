@@ -1,0 +1,34 @@
+{
+  "name": "Rita Skeeter",
+  "gender": "Female",
+  "born": "Between January and November 1951",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Blonde",
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood or half-blood (possibly)",
+  "marital_status": "Single",
+  "nationality": "British",
+  "animagus": "Beetle (unregistered)",
+  "boggart": "Lord Voldemort",
+  "house": null,
+  "patronus": "Non-corporeal",
+  "alias_names": [
+    "Queen of the Quills"
+  ],
+  "jobs": [
+    "Biographical author",
+    "Gossip Correspondent for the Daily Prophet"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/23/Rita_Skeeter_2.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Rita_Skeeter"
+}

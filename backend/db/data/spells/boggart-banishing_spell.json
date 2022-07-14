@@ -1,0 +1,12 @@
+{
+  "slug": "boggart-banishing_spell",
+  "name": "Boggart-Banishing Spell",
+  "incantation": "Riddikulus (ri-di-KULL-lis)",
+  "category": "Charm",
+  "effect": "Turned a Boggart into something amusing",
+  "light": "None",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d7/Snape_boggart.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Boggart-Banishing_Spell"
+}

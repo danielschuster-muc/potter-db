@@ -1,0 +1,40 @@
+{
+  "name": "Peter Pettigrew",
+  "gender": "Male",
+  "born": "Between 1 September 1959 and 31 August 1960",
+  "died": "Late March 1998 (aged 37–38), Malfoy Manor, Wiltshire, England, Great Britain",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Colourless and balding, Mousy brown (formerly)",
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood or half-blood",
+  "marital_status": "Single",
+  "nationality": "British or Irish",
+  "animagus": "Grey Rat (unregistered)",
+  "boggart": "Lord Voldemort",
+  "house": "Gryffindor",
+  "patronus": "None",
+  "alias_names": [
+    "Wormtail (by Marauders, Harry Potter, and Lord Voldemort)",
+    "Scabbers (by Weasley family and others)",
+    "Wormy (by Lily Potter)",
+    "The Servant of Lord Voldemort"
+  ],
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Mrs Pettigrew (mother)",
+    "Enid Pettigrew (possible relative)",
+    "Pettigrew family"
+  ],
+  "romances": null,
+  "wands": [
+    "Unknown 1st wand",
+    "13½″, Yew, phoenix feather (temporarily)",
+    "9¼″, Chestnut, dragon heartstring"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e4/Pettigrew_DH1.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Peter_Pettigrew"
+}

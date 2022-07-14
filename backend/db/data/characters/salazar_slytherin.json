@@ -1,0 +1,50 @@
+{
+  "name": "Salazar Slytherin",
+  "gender": "Male",
+  "born": "Pre 976",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Grey",
+  "eye_color": "Grey",
+  "skin_color": "Light",
+  "blood_status": "Pure-blood",
+  "marital_status": null,
+  "nationality": "British or Irish (likely)",
+  "animagus": null,
+  "boggart": null,
+  "house": "Slytherin",
+  "patronus": "Non-corporeal",
+  "alias_names": [
+    "Serpent-tongue"
+  ],
+  "jobs": [
+    "Teacher at Hogwarts School of Witchcraft and Wizardry",
+    "Founder of Hogwarts School of Witchcraft and Wizardry"
+  ],
+  "titles": [
+    "Founder"
+  ],
+  "family_members": [
+    "Gormlaith Gaunt (descendant) †",
+    "Rionach Gaunt (descendant) †",
+    "Isolt Sayre (descendant) †",
+    "Rionach Steward (descendant) †",
+    "Martha Steward II (descendant) †",
+    "Corvinus Gaunt (descendant)",
+    "Marvolo Gaunt (descendant) †",
+    "Morfin Gaunt (descendant) †",
+    "Merope Gaunt (descendant) †",
+    "Tom Riddle (descendant) †",
+    "Delphini (descendant)",
+    "Slytherin family",
+    "House of Gaunt (descendants)"
+  ],
+  "romances": null,
+  "wands": [
+    "Unknown length, snakewood, Basilisk horn"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/60/PM_SalazarSlytherin_Founders.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Salazar_Slytherin"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Tom Riddle",
+  "gender": "Male",
+  "born": "1905",
+  "died": "August, 1943 (aged 37/38) Riddle House, Little Hangleton, England, Great Britain",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Dark",
+  "eye_color": null,
+  "skin_color": "Pale",
+  "blood_status": "Muggle",
+  "marital_status": "Widowed",
+  "nationality": "English",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Thomas Riddle (father) †",
+    "Mary Riddle (mother) †",
+    "Merope Riddle (née Gaunt) (wife) †",
+    "Tom Marvolo Riddle (son) †",
+    "Delphini (granddaughter)",
+    "Marvolo Gaunt (father-in-law) †",
+    "Morfin Gaunt (brother-in-law) †",
+    "Riddle family",
+    "House of Gaunt (in-laws)"
+  ],
+  "romances": [
+    "Cecilia",
+    "Merope Riddle (wife)"
+  ],
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/6d/Tom_Riddle_Senior.jpeg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Tom_Riddle_Senior"
+}

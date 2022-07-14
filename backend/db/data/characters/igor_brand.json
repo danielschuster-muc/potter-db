@@ -1,0 +1,34 @@
+{
+  "name": "Igor Brand",
+  "gender": "Male",
+  "born": "Before 1977, Germany (possibly)",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Brown",
+  "eye_color": "Green",
+  "skin_color": "White",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "German",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Chaser for the German National Quidditch team"
+  ],
+  "titles": [
+    "Chaser"
+  ],
+  "family_members": [
+    "Rudolf Brand (possibly)",
+    "Brand family"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/fe/Igorbrand.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Igor_Brand"
+}

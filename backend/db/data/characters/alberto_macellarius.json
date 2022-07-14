@@ -1,0 +1,31 @@
+{
+  "name": "Alberto Macellarius",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Bald",
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "American",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": [
+    "The Rat"
+  ],
+  "jobs": [
+    "Con artist"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1f/AlbertoMacellarius.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Alberto_Macellarius"
+}

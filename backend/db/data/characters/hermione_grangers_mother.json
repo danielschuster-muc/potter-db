@@ -1,0 +1,41 @@
+{
+  "name": "Mrs Granger",
+  "gender": "Female",
+  "born": "Pre 1979",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Muggle",
+  "marital_status": "Married",
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": [
+    "Monica Wilkins (1997-1998)"
+  ],
+  "jobs": [
+    "Dentist"
+  ],
+  "titles": null,
+  "family_members": [
+    "Mr Granger (husband)",
+    "Hermione Granger (daughter)",
+    "Ronald Weasley (son-in-law)",
+    "Rose Granger-Weasley (granddaughter)",
+    "Hugo Granger-Weasley (grandson)",
+    "Granger family",
+    "Weasley family"
+  ],
+  "romances": [
+    "Mr Granger (husband)"
+  ],
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/fe/Hermione_Granger%27s_mother.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Hermione_Granger's_mother"
+}

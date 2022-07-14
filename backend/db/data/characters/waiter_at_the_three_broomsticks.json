@@ -1,0 +1,29 @@
+{
+  "name": "Three Broomsticks waiter",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Blonde",
+  "eye_color": null,
+  "skin_color": "White",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Waiter at the Three Broomsticks Inn"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/ed/Skinny_Kid.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Waiter_at_the_Three_Broomsticks"
+}

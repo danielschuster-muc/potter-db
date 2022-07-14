@@ -1,0 +1,32 @@
+{
+  "name": "Aurélie Dumont",
+  "gender": "Female",
+  "born": "c. 1973",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Brown",
+  "eye_color": "Blue",
+  "skin_color": "Light",
+  "blood_status": "Pure-blood or half-blood",
+  "marital_status": null,
+  "nationality": "French",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": null,
+  "family_members": [
+    "Davet Dumont (older brother)",
+    "Dumont family"
+  ],
+  "romances": null,
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/4f/Aur%C3%A9lie_cropped.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Aur%C3%A9lie_Dumont"
+}

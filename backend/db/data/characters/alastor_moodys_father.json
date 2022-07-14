@@ -1,0 +1,33 @@
+{
+  "name": "Mr Moody",
+  "gender": "Male",
+  "born": null,
+  "died": "Before 1997",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Pure-blood",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Auror"
+  ],
+  "titles": null,
+  "family_members": [
+    "Mrs Moody (wife) †",
+    "Alastor Moody (son) †",
+    "Long line of renowned Aurors"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Alastor_Moody's_father"
+}

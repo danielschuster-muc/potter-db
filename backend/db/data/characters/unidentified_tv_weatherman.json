@@ -1,0 +1,29 @@
+{
+  "name": "Unidentified TV weatherman",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Black",
+  "eye_color": null,
+  "skin_color": "White",
+  "blood_status": "Muggle",
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Meteorologist"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/04/TVWeatherman.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_TV_weatherman"
+}

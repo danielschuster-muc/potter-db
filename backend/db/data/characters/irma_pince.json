@@ -1,0 +1,37 @@
+{
+  "name": "Irma Pince",
+  "gender": "Female",
+  "born": "Pre 1966 (most likely)",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": "Like parchment",
+  "blood_status": null,
+  "marital_status": "Single (likely) (possibly)",
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": "Lord Voldemort",
+  "house": null,
+  "patronus": "Non-corporeal",
+  "alias_names": null,
+  "jobs": [
+    "Hogwarts librarian (pre 1991 - ?)",
+    "Study Hall overseer (pre 1993 - ?)"
+  ],
+  "titles": [
+    "Madam",
+    "Librarian"
+  ],
+  "family_members": null,
+  "romances": [
+    "Argus Filch"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/53/PinceProfile.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Irma_Pince"
+}

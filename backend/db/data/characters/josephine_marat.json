@@ -1,0 +1,32 @@
+{
+  "name": "Josephine Marat",
+  "gender": "Female",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Blonde",
+  "eye_color": "Brown",
+  "skin_color": "Tan",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "French",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Chaser and Captain of the French National Quidditch team"
+  ],
+  "titles": [
+    "Chaser",
+    "Captain"
+  ],
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/9d/Josephine_Marat.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Josephine_Marat"
+}

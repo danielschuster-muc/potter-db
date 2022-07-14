@@ -1,0 +1,42 @@
+{
+  "name": "Mary I",
+  "gender": "Female",
+  "born": "18 February 1516",
+  "died": "17 November 1558 (aged 42)",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Brown",
+  "eye_color": "Brown",
+  "skin_color": "White",
+  "blood_status": "Muggle-born or half-blood (presumably)",
+  "marital_status": "Married",
+  "nationality": "English",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": [
+    "Bloody MaryMary Tudor"
+  ],
+  "jobs": null,
+  "titles": [
+    "Lady",
+    "Queen of England"
+  ],
+  "family_members": [
+    "Henry VIII (father)",
+    "Catherine of Aragon (mother)",
+    "Anne Boleyn (stepmother)",
+    "Elizabeth I (half-sister)",
+    "Henry VII (grandfather)",
+    "William I (ancestor)",
+    "House of Tudor"
+  ],
+  "romances": null,
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1e/Mary_I.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Mary_I"
+}

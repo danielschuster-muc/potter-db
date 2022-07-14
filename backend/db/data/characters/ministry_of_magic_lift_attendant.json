@@ -1,0 +1,29 @@
+{
+  "name": "Ministry of Magic lift attendant",
+  "gender": "Male",
+  "born": "1978 or earlier",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": "Pale",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Lift attendant"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e5/MOM_lift_attendant.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Ministry_of_Magic_lift_attendant"
+}

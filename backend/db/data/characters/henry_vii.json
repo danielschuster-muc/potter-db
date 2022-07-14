@@ -1,0 +1,43 @@
+{
+  "name": "Henry VII",
+  "gender": "Male",
+  "born": "28 January 1457, Wales, Great Britain",
+  "died": "21 April 1509 (aged 52), England, Great Britain",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": "Widowed",
+  "nationality": "English",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": null,
+  "titles": [
+    "King of England"
+  ],
+  "family_members": [
+    "Henry VIII (son) †",
+    "Anne Boleyn (daughter-in-law) †",
+    "Mary I (granddaughter) †",
+    "Elizabeth I (granddaughter) †",
+    "Henry VI (half-uncle) †",
+    "Mary II (descendant) †",
+    "William III (descendant) †",
+    "George III (descendant) †",
+    "Victoria (descendant) †",
+    "Elizabeth II (descendant) †",
+    "House of Tudor"
+  ],
+  "romances": [
+    "Elizabeth of York (wife) †"
+  ],
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Henry_VII"
+}

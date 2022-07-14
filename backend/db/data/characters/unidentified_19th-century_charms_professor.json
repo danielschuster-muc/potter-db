@@ -1,0 +1,29 @@
+{
+  "name": "19th-century Charms professor",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "White",
+  "eye_color": null,
+  "skin_color": "Light",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Professor of Charms at Hogwarts School of Witchcraft and Wizardry"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1d/Unnamed_19th-century_charms_Professor.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_19th-century_Charms_professor"
+}

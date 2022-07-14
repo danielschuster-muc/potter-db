@@ -1,0 +1,33 @@
+{
+  "name": "Hector Lamont",
+  "gender": "Male",
+  "born": "In or before 1972",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "Scotland",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Seeker for the Scottish International Quidditch team"
+  ],
+  "titles": [
+    "Seeker"
+  ],
+  "family_members": [
+    "\"Stubby\" Lamont"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Hector_Lamont"
+}

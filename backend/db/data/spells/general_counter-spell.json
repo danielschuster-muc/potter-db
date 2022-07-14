@@ -1,0 +1,12 @@
+{
+  "slug": "general_counter-spell",
+  "name": "General Counter-Spell",
+  "incantation": "Finite (fi-NEE-tay), Finite Incantatem'(fi-NEE-tay in-can-TAH-tem)",
+  "category": "Counter-spell",
+  "effect": "Terminates all spell effects",
+  "light": "Red",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e7/Finite_Incantatem0.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/General_Counter-Spell"
+}

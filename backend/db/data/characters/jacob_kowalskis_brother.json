@@ -1,0 +1,36 @@
+{
+  "name": "Kowalski",
+  "gender": "Male",
+  "born": null,
+  "died": "1914–1918",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "No-Maj",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Serviceman in the U.S. armed forces"
+  ],
+  "titles": null,
+  "family_members": [
+    "Unnamed grandfather",
+    "Unnamed grandmother",
+    "Dominic (uncle)",
+    "Jacob Kowalski (brother)",
+    "Queenie Goldstein (sister-in-law)",
+    "Kowalski family"
+  ],
+  "romances": null,
+  "wands": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Jacob_Kowalski's_brother"
+}
