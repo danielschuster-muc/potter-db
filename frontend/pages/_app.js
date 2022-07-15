@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Layout from "../components/layout/Layout";
 
 import "../styles/globals.css";
 
@@ -12,7 +13,9 @@ const App = ({ Component, pageProps }) => {
         <meta name="revisit-after" content="7 days" />
         <meta name="msapplication-TileColor" content="da532c" />
       </Head>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 };
