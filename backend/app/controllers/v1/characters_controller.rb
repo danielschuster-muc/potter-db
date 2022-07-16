@@ -1,6 +1,6 @@
 class V1::CharactersController < ApplicationController
   def index
-    allowed = %i[name incantation category effect light hand creator image_url wiki_link]
+    allowed = %i[name born died species height weight hair_color eye_color skin_color blood_status marital_status nationality animagus boggart house patronus]
 
     jsonapi_filter(Character.all, allowed) do |filtered|
       jsonapi_paginate(filtered.result) do |paginated|
