@@ -3,7 +3,7 @@ import Meta from "../components/Meta";
 const HomePage = () => {
   return (
     <>
-      <Meta />
+      <Meta title="Landing Page" />
       <h1>Welcome to the Harry Potter DB</h1>
     </>
   );

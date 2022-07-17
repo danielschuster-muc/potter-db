@@ -1,10 +1,11 @@
 import Head from "next/head";
 
 const Meta = ({ title, description, url, image }) => {
+
   return (
     <Head>
       {/* Primary Meta Tags */}
-      <title>{title}</title>
+      <title>{`Potter DB - ${title}`}</title>
       <meta name="title" content={title} />
       <meta name="description" content={description} />
       <meta name="image" content={image} />
@@ -22,7 +23,7 @@ const Meta = ({ title, description, url, image }) => {
 Meta.defaultProps = {
   title: "Potter DB",
   description:
-    "Harry Potter Database for information about characters, books, movies, spells, potions and much more!",
+    "Harry Potter Database for information about characters, books, movies, spells, potions and much more! - Data based on the Harry Potter Wiki",
   url: process.env.SITE_URL || "https://potterdb.com",
   image: "",
 };

@@ -15,7 +15,6 @@ const Characters = ({ characters }) => {
     const currentPath = router.pathname;
     const currentQuery = router.query;
     currentQuery.page = page;
-    // currentQuery.filter["name_start"] = "Hedwig";
     router.push({ pathname: currentPath, query: currentQuery });
   };
 
@@ -29,13 +28,11 @@ const Characters = ({ characters }) => {
     </>
   );
 
-  // if (errors) {
-  //   console.log(errors);
-  // }
+  const metaDescription = `List of all Harry Potter characters - ${meta ? `Total: ${meta.pagination.records}`: "" }`
 
   return (
     <>
-      <Meta />
+      <Meta title="Characters" description={metaDescription}/>
       <h1>Welcome to the Harry Potter Character List</h1>
       {stats}
 
