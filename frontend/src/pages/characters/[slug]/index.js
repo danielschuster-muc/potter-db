@@ -1,6 +1,7 @@
 import { Box, CircularProgress } from "@mui/material";
 import Image from "next/image";
 import { useRouter } from "next/router";
+
 import Meta from "../../../components/Meta";
 import { getCharacterBySlug, getCharacters } from "../../../lib/characters";
 

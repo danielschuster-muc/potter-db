@@ -1,17 +1,25 @@
 import { Container } from "@mui/system";
-const { CssBaseline } = require("@mui/material");
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+const { CssBaseline, Box } = require("@mui/material");
 
 const { ThemeProvider, useTheme } = require("@emotion/react");
 
-const Layout = (props) => {
+const Layout = ({ children }) => {
   const theme = useTheme();
 
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container component="main" maxWidth="xl" sx={{ flex: 1, my: 5 }}>
-        {props.children}
-      </Container>
+      <Box
+        style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
+      >
+        <Navbar />
+        <Container component="main" maxWidth="xl" sx={{ flex: 1, my: 5 }}>
+          {children}
+        </Container>
+        <Footer />
+      </Box>
     </ThemeProvider>
   );
 };
