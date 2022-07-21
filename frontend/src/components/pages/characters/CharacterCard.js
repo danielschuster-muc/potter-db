@@ -3,6 +3,7 @@ import {
   Card,
   CardActions,
   CardContent,
+  CardHeader,
   CardMedia,
   Grid,
   Table,
@@ -10,23 +11,29 @@ import {
   TableCell,
   TableContainer,
   TableRow,
-  Typography,
 } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
 
+const getHouseColor = (house) => {
+  switch (house) {
+    case "Gryffindor":
+      return "#ae0001";
+    case "Slytherin":
+      return "#2a623d";
+    case "Hufflepuff":
+      return "#ffdb00";
+    case "Rawenclaw":
+      return "#222F5B";
+    default:
+      return "#bebebe";
+  }
+};
+
 const CharacterCard = ({ id, attributes }) => {
-  const { name, slug, born, died, species, gender, wiki_link } = attributes;
+  const { name, slug, species, gender, house, wiki_link } = attributes;
 
   const informationTable = [
-    {
-      name: "born",
-      value: born,
-    },
-    {
-      name: "died",
-      value: died,
-    },
     {
       name: "species",
       value: species,
@@ -38,27 +45,32 @@ const CharacterCard = ({ id, attributes }) => {
   ];
 
   return (
-    <Grid item xs={12} md={4}>
+    <Grid item xs={12} sm={6} md={4} lg={3} sx={{ my: 1 }}>
       <Card
-        style={{
+        sx={{
           height: "100%",
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
+          border: `3px solid ${getHouseColor(house)}`,
         }}
       >
-        <Typography variant="h4" textAlign="center">
-          {name}
-        </Typography>
+        <CardHeader
+          title={name}
+          subheader={house ? house : ""}
+          sx={{ textAlign: "center" }}
+        />
+
         <CardMedia>
           <Image
+            as="image"
             src={attributes.image_url || "/images/question_mark.png"}
             alt={`Image of ${name}`}
             width="100%"
             height="100%"
             layout="responsive"
             objectFit="contain"
-            priority="true"
+            priority
           />
         </CardMedia>
         <CardContent>
@@ -69,11 +81,14 @@ const CharacterCard = ({ id, attributes }) => {
                   .filter((row) => row.value)
                   .map((row) => {
                     return (
-                      <TableRow key={`${row.name}_${id}`}>
+                      <TableRow
+                        key={`${row.name}_${id}`}
+                        sx={{ display: "flex", justifyContent: "center" }}
+                      >
                         <TableCell
                           sx={{
                             textTransform: "uppercase",
-                            color: "gray",
+                            color: "text.secondary",
                             borderBottom: "none",
                           }}
                           component="th"
@@ -91,7 +106,7 @@ const CharacterCard = ({ id, attributes }) => {
             </Table>
           </TableContainer>
         </CardContent>
-        <CardActions>
+        <CardActions sx={{ display: "flex", justifyContent: "center" }}>
           <Link href={`/characters/${slug}`}>
             <Button size="small">More Information</Button>
           </Link>

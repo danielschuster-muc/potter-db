@@ -1,4 +1,4 @@
-import { Grid, Pagination } from "@mui/material";
+import { Box, Grid, Pagination } from "@mui/material";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import Meta from "../../components/Meta";
@@ -39,7 +39,7 @@ const Characters = ({ characters }) => {
       {stats}
 
       {data && (
-        <Grid container spacing="5" sx={{ mt: 1 }} alignItems="stretch">
+        <Grid container spacing={5} sx={{ mt: 1 }} alignItems="stretch">
           {data.map((character) => (
             <CharacterCard
               key={character.id}
@@ -52,11 +52,14 @@ const Characters = ({ characters }) => {
 
       {!data && <p>No characters available!</p>}
 
-      <Pagination
-        count={meta?.pagination.last}
-        page={page}
-        onChange={handlePaginationChange}
-      />
+      <Box sx={{ display: "flex", justifyContent: "center", mt: 3 }}>
+        <Pagination
+          count={meta?.pagination.last}
+          page={page}
+          onChange={handlePaginationChange}
+          size="large"
+        />
+      </Box>
     </>
   );
 };

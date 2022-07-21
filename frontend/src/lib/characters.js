@@ -8,9 +8,7 @@ const getCharacterBySlug = async (slug) => {
 const getCharacters = async (page = 1) => {
   let result = { data: null, meta: null, errors: null };
   try {
-    const res = await fetch(
-      `${apiUrl}/v1/characters?page[number]=${page}&page[size]=30`
-    );
+    const res = await fetch(`${apiUrl}/v1/characters?page[number]=${page}`);
     result = await res.json();
   } catch (error) {
     result = {
