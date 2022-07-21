@@ -1,9 +1,9 @@
 import { Container } from "@mui/system";
+import { CssBaseline, Box } from "@mui/material";
+import { ThemeProvider, useTheme } from "@emotion/react";
+
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-const { CssBaseline, Box } = require("@mui/material");
-
-const { ThemeProvider, useTheme } = require("@emotion/react");
 
 const Layout = ({ children }) => {
   const theme = useTheme();

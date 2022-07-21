@@ -28,11 +28,13 @@ const Characters = ({ characters }) => {
     </>
   );
 
-  const metaDescription = `List of all Harry Potter characters - ${meta ? `Total: ${meta.pagination.records}`: "" }`
+  const metaDescription = `List of all Harry Potter characters - ${
+    meta ? `Total: ${meta.pagination.records}` : ""
+  }`;
 
   return (
     <>
-      <Meta title="Characters" description={metaDescription}/>
+      <Meta title="Characters" description={metaDescription} />
       <h1>Welcome to the Harry Potter Character List</h1>
       {stats}
 
