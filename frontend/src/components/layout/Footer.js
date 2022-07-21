@@ -1,5 +1,4 @@
 import { AppBar, Container, Toolbar, Typography } from "@mui/material";
-import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -7,11 +6,7 @@ const Footer = () => {
       <Toolbar sx={{ textAlign: "center" }}>
         <Container maxWidth="xl">
           <Typography>
-            Copyright &copy;{" "}
-            <Link color="inherit" href="/">
-              Potter DB
-            </Link>{" "}
-            {new Date().getFullYear()}
+            Copyright &copy; {new Date().getFullYear()} Potter DB
           </Typography>
         </Container>
       </Toolbar>
