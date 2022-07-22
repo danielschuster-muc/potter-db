@@ -5,10 +5,17 @@ const getCharacterBySlug = async (slug) => {
   return await res.json();
 };
 
-const getCharacters = async (page = 1) => {
+const getCharacters = async (query = { page: 1, search: null }) => {
   let result = { data: null, meta: null, errors: null };
+
+  const { page, search } = query;
+
+  const searchFilter = `&filter[name_cont_any]=${search}`;
+
   try {
-    const res = await fetch(`${apiUrl}/v1/characters?page[number]=${page}`);
+    const res = await fetch(
+      `${apiUrl}/v1/characters?page[number]=${page}${searchFilter}`
+    );
     result = await res.json();
   } catch (error) {
     result = {
