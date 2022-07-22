@@ -31,7 +31,8 @@ const getHouseColor = (house) => {
 };
 
 const CharacterCard = ({ id, attributes }) => {
-  const { name, slug, species, gender, house, wiki_link } = attributes;
+  const { name, slug, species, gender, house, wiki_link, image_url } =
+    attributes;
 
   const informationTable = [
     {
@@ -64,12 +65,13 @@ const CharacterCard = ({ id, attributes }) => {
         <CardMedia>
           <Image
             as="image"
-            src={attributes.image_url || "/images/question_mark.png"}
-            alt={`Image of ${name}`}
+            src={image_url || "/images/question_mark.jpg"}
+            alt={`Picture of ${name}`}
             width="100%"
             height="100%"
             layout="responsive"
-            objectFit="contain"
+            objectFit="scale-down"
+            loading="eager"
             priority
           />
         </CardMedia>
