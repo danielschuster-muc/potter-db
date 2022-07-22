@@ -1,8 +1,8 @@
-import { Pagination } from "@mui/material";
-import Link from "next/link";
+import { Box, Grid, Pagination } from "@mui/material";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import Meta from "../../components/Meta";
+import CharacterCard from "../../components/pages/characters/CharacterCard";
 import { getCharacters } from "../../lib/characters";
 
 const Characters = ({ characters }) => {
@@ -39,26 +39,27 @@ const Characters = ({ characters }) => {
       {stats}
 
       {data && (
-        <ul>
-          {data.map((c) => {
-            return (
-              <li key={c.id}>
-                <Link href={`/characters/${c.attributes.slug}`}>
-                  {c.attributes.name}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+        <Grid container spacing={5} sx={{ mt: 1 }} alignItems="stretch">
+          {data.map((character) => (
+            <CharacterCard
+              key={character.id}
+              id={character.id}
+              attributes={character.attributes}
+            />
+          ))}
+        </Grid>
       )}
 
       {!data && <p>No characters available!</p>}
 
-      <Pagination
-        count={meta?.pagination.last}
-        page={page}
-        onChange={handlePaginationChange}
-      />
+      <Box sx={{ display: "flex", justifyContent: "center", mt: 3 }}>
+        <Pagination
+          count={meta?.pagination.last}
+          page={page}
+          onChange={handlePaginationChange}
+          size="large"
+        />
+      </Box>
     </>
   );
 };
