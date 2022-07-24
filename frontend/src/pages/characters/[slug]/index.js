@@ -1,6 +1,22 @@
-import { Box, CircularProgress } from "@mui/material";
+import {
+  Box,
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  CardHeader,
+  CardMedia,
+  CircularProgress,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableRow,
+} from "@mui/material";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
 import Meta from "../../../components/Meta";
 import { getCharacterBySlug, getCharacters } from "../../../lib/characters";
@@ -26,8 +42,45 @@ const getMetaDescription = (attributes) => {
   return description.join(" - ");
 };
 
-const Character = ({ character }) => {
+const Character = ({ data, links }) => {
   const router = useRouter();
+
+  const [subHeader, setSubHeader] = useState();
+
+  const { attributes } = data;
+  const {
+    slug,
+    name,
+    born,
+    died,
+    gender,
+    species,
+    height,
+    weight,
+    hair_color,
+    eye_color,
+    skin_color,
+    blood_status,
+    marital_status,
+    nationality,
+    animagus,
+    boggart,
+    house,
+    patronus,
+    alias_names,
+    image_url,
+    wiki_link,
+  } = attributes;
+  const apiLink = links.self;
+
+  useEffect(() => {
+    let randomSubHeader;
+    if (alias_names?.length > 0) {
+      randomSubHeader =
+        alias_names[Math.floor(Math.random() * alias_names.length)];
+    }
+    setSubHeader(randomSubHeader);
+  }, [alias_names]);
 
   if (router.isFallback) {
     return (
@@ -38,27 +91,142 @@ const Character = ({ character }) => {
     );
   }
 
-  const attributes = character.data.attributes;
+  const informationTable = [
+    {
+      name: "name",
+      value: name,
+    },
+    {
+      name: "born",
+      value: born,
+    },
+    {
+      name: "died",
+      value: died,
+    },
+    {
+      name: "gender",
+      value: gender,
+    },
+    {
+      name: "species",
+      value: species,
+    },
+    {
+      name: "height",
+      value: height,
+    },
+    {
+      name: "weight",
+      value: weight,
+    },
+    {
+      name: "hair_color",
+      value: hair_color,
+    },
+    {
+      name: "eye_color",
+      value: eye_color,
+    },
+    {
+      name: "skin_color",
+      value: skin_color,
+    },
+    {
+      name: "blood_status",
+      value: blood_status,
+    },
+    {
+      name: "marital_status",
+      value: marital_status,
+    },
+    {
+      name: "nationality",
+      value: nationality,
+    },
+    {
+      name: "animagus",
+      value: animagus,
+    },
+    {
+      name: "boggart",
+      value: boggart,
+    },
+    {
+      name: "house",
+      value: house,
+    },
+    {
+      name: "patronus",
+      value: patronus,
+    },
+  ];
+
   const metaDescription = getMetaDescription(attributes);
 
   return (
     <>
-      <Meta
-        title={`${attributes.name}`}
-        description={metaDescription}
-        image={attributes.image_url}
-      />
+      <Meta title={name} description={metaDescription} image={image_url} />
       <h1>{attributes.name}</h1>
-      {attributes.image_url && (
-        <Box>
+
+      <Card>
+        <CardHeader
+          title="Bio"
+          subheader={subHeader}
+          sx={{ textAlign: "center" }}
+        />
+        <CardMedia>
           <Image
-            src={attributes.image_url}
-            alt={`Image of ${attributes.name}`}
+            as="image"
+            src={image_url || "/images/question_mark.jpg"}
+            alt={`Picture of ${name}`}
             width="100%"
             height="100%"
+            layout="responsive"
+            objectFit="scale-down"
+            loading="eager"
+            priority
           />
-        </Box>
-      )}
+        </CardMedia>
+        <CardContent>
+          <TableContainer>
+            <Table aria-label={`Information about ${name}`}>
+              <TableBody>
+                {informationTable
+                  .filter((row) => row.value)
+                  .map((row) => {
+                    return (
+                      <TableRow key={`${row.name}_${slug}`}>
+                        <TableCell
+                          sx={{
+                            textTransform: "uppercase",
+                            color: "text.secondary",
+                            borderBottom: "none",
+                          }}
+                          component="th"
+                          scope="row"
+                        >
+                          {row.name}
+                        </TableCell>
+                        <TableCell sx={{ borderBottom: "none" }}>
+                          {row.value}
+                        </TableCell>
+                      </TableRow>
+                    );
+                  })}
+              </TableBody>
+            </Table>
+          </TableContainer>
+        </CardContent>
+        <CardActions sx={{ display: "flex", justifyContent: "center" }}>
+          <Link href={wiki_link}>
+            <Button size="small">Wiki</Button>
+          </Link>
+          <Link href={apiLink}>
+            <Button size="small">API</Button>
+          </Link>
+        </CardActions>
+      </Card>
     </>
   );
 };
@@ -85,17 +253,22 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const slug = params.slug;
 
-  let character = null;
+  let data, links;
   let notFound = true;
 
   try {
-    character = await getCharacterBySlug(slug);
-    if (character.data.attributes !== null) notFound = false;
-  } catch (error) {}
+    const character = await getCharacterBySlug(slug);
+    data = character.data;
+    links = character.links;
+    if (data.attributes !== null) notFound = false;
+  } catch (error) {
+    console.log(error);
+  }
 
   return {
     props: {
-      character,
+      data,
+      links,
     },
     notFound,
   };

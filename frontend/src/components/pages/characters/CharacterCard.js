@@ -57,7 +57,11 @@ const CharacterCard = ({ id, attributes }) => {
         }}
       >
         <CardHeader
-          title={name}
+          title={
+            <Link href={`/characters/${slug}`}>
+              <Button size="large">{name}</Button>
+            </Link>
+          }
           subheader={house ? house : ""}
           sx={{ textAlign: "center" }}
         />
@@ -108,14 +112,6 @@ const CharacterCard = ({ id, attributes }) => {
             </Table>
           </TableContainer>
         </CardContent>
-        <CardActions sx={{ display: "flex", justifyContent: "center" }}>
-          <Link href={`/characters/${slug}`}>
-            <Button size="small">More Information</Button>
-          </Link>
-          <Link href={wiki_link}>
-            <Button size="small">Wiki</Button>
-          </Link>
-        </CardActions>
       </Card>
     </Grid>
   );
