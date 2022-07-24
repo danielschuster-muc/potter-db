@@ -1,6 +1,6 @@
-import { Box, Grid, Pagination } from "@mui/material";
+import { Box, Grid, Pagination, TextField } from "@mui/material";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Meta from "../../components/Meta";
 import CharacterCard from "../../components/pages/characters/CharacterCard";
 import { getCharacters } from "../../lib/characters";
@@ -8,6 +8,18 @@ import { getCharacters } from "../../lib/characters";
 const Characters = ({ characters }) => {
   const router = useRouter();
   const [page, setPage] = useState(parseInt(router.query.page) || 1);
+  const [inputText, setInputText] = useState("");
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const currentPath = router.pathname;
+      const currentQuery = router.query;
+      currentQuery.search = inputText;
+      router.push({ pathname: currentPath, query: currentQuery });
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [inputText]);
+
   const { data, meta, errors } = characters;
 
   const handlePaginationChange = (_event, page) => {
@@ -17,6 +29,10 @@ const Characters = ({ characters }) => {
     currentQuery.page = page;
     router.push({ pathname: currentPath, query: currentQuery });
   };
+
+  useEffect(() => {
+    setInputText(router.query.search);
+  }, []);
 
   const stats = meta && (
     <>
@@ -37,6 +53,15 @@ const Characters = ({ characters }) => {
       <Meta title="Characters" description={metaDescription} />
       <h1>Welcome to the Harry Potter Character List</h1>
       {stats}
+
+      <TextField
+        id="outlined-basic"
+        variant="outlined"
+        fullWidth
+        label="Search"
+        onChange={(e) => setInputText(e.target.value)}
+        value={inputText}
+      />
 
       {data && (
         <Grid container spacing={5} sx={{ mt: 1 }} alignItems="stretch">
@@ -65,8 +90,7 @@ const Characters = ({ characters }) => {
 };
 
 export async function getServerSideProps({ query }) {
-  const page = query.page;
-  const characters = await getCharacters(page);
+  const characters = await getCharacters(query);
 
   return {
     props: {

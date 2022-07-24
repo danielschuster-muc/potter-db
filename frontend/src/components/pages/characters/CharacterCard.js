@@ -23,8 +23,8 @@ const getHouseColor = (house) => {
       return "#2a623d";
     case "Hufflepuff":
       return "#ffdb00";
-    case "Rawenclaw":
-      return "#222F5B";
+    case "Ravenclaw":
+      return "#222f5b";
     default:
       return "#bebebe";
   }
