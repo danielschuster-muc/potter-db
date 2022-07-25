@@ -2,7 +2,7 @@ import { Box, Grid, Pagination, TextField } from "@mui/material";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Meta from "../../components/Meta";
-import CharacterCard from "../../components/pages/characters/CharacterCard";
+import BasicCharacterCard from "../../components/pages/characters/BasicCharacterCard";
 import { getCharacters } from "../../lib/characters";
 
 const Characters = ({ characters }) => {
@@ -66,7 +66,7 @@ const Characters = ({ characters }) => {
       {data && (
         <Grid container spacing={5} sx={{ mt: 1 }} alignItems="stretch">
           {data.map((character) => (
-            <CharacterCard
+            <BasicCharacterCard
               key={character.id}
               id={character.id}
               attributes={character.attributes}

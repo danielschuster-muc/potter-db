@@ -1,33 +1,15 @@
-import { Box, CircularProgress } from "@mui/material";
-import Image from "next/image";
+import { CircularProgress, Grid } from "@mui/material";
 import { useRouter } from "next/router";
 
-import Meta from "../../../components/Meta";
 import { getCharacterBySlug, getCharacters } from "../../../lib/characters";
+import BioCard from "../../../components/pages/characters/[slug]/BioCard";
+import SingleCharacterMeta from "../../../components/pages/characters/[slug]/CharacterMeta";
+import CharacterPageContent from "../../../components/pages/characters/[slug]/CharacterPageContent";
 
-const getMetaDescription = (attributes) => {
-  let description = [];
-  if (attributes.born) {
-    description.push(`Born: ${attributes.born}`);
-  }
-
-  if (attributes.died) {
-    description.push(`Died: ${attributes.died}`);
-  }
-
-  if (attributes.species) {
-    description.push(`Species: ${attributes.species}`);
-  }
-
-  if (attributes.gender) {
-    description.push(`Gender: ${attributes.gender}`);
-  }
-
-  return description.join(" - ");
-};
-
-const Character = ({ character }) => {
+const Character = ({ data, links }) => {
   const router = useRouter();
+
+  const { attributes } = data;
 
   if (router.isFallback) {
     return (
@@ -38,27 +20,20 @@ const Character = ({ character }) => {
     );
   }
 
-  const attributes = character.data.attributes;
-  const metaDescription = getMetaDescription(attributes);
-
   return (
     <>
-      <Meta
-        title={`${attributes.name}`}
-        description={metaDescription}
-        image={attributes.image_url}
-      />
+      <SingleCharacterMeta attributes={attributes} />
       <h1>{attributes.name}</h1>
-      {attributes.image_url && (
-        <Box>
-          <Image
-            src={attributes.image_url}
-            alt={`Image of ${attributes.name}`}
-            width="100%"
-            height="100%"
-          />
-        </Box>
-      )}
+
+      <Grid container spacing={4}>
+        <Grid item xs={12} md={8} order={{ xs: 2, md: 1 }}>
+          <CharacterPageContent attributes={attributes} />
+        </Grid>
+
+        <Grid item xs={12} md={4} order={{ xs: 1, md: 2 }}>
+          <BioCard attributes={attributes} apiLink={links.self} />
+        </Grid>
+      </Grid>
     </>
   );
 };
@@ -85,20 +60,27 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const slug = params.slug;
 
-  let character = null;
+  let data, links;
   let notFound = true;
 
   try {
-    character = await getCharacterBySlug(slug);
-    if (character.data.attributes !== null) notFound = false;
-  } catch (error) {}
+    const character = await getCharacterBySlug(slug);
+    data = character.data;
+    links = character.links;
+    if (data.attributes !== null) notFound = false;
+  } catch (error) {
+    console.log(error);
+  }
 
   return {
     props: {
-      character,
+      data,
+      links,
     },
     notFound,
   };
 }
 
 export default Character;
+
+// #mw-content-text > div > p:nth-child(8)
