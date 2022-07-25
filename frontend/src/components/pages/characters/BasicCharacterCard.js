@@ -1,19 +1,14 @@
 import {
   Button,
   Card,
-  CardActions,
   CardContent,
   CardHeader,
   CardMedia,
   Grid,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableRow,
 } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
+import TwoColumnTable from "../../ui/TwoColumnTable";
 
 const getHouseColor = (house) => {
   switch (house) {
@@ -31,8 +26,7 @@ const getHouseColor = (house) => {
 };
 
 const CharacterCard = ({ id, attributes }) => {
-  const { name, slug, species, gender, house, wiki_link, image_url } =
-    attributes;
+  const { name, slug, species, gender, house, image_url } = attributes;
 
   const informationTable = [
     {
@@ -80,37 +74,7 @@ const CharacterCard = ({ id, attributes }) => {
           />
         </CardMedia>
         <CardContent>
-          <TableContainer>
-            <Table aria-label={`Information about ${name}`}>
-              <TableBody>
-                {informationTable
-                  .filter((row) => row.value)
-                  .map((row) => {
-                    return (
-                      <TableRow
-                        key={`${row.name}_${id}`}
-                        sx={{ display: "flex", justifyContent: "center" }}
-                      >
-                        <TableCell
-                          sx={{
-                            textTransform: "uppercase",
-                            color: "text.secondary",
-                            borderBottom: "none",
-                          }}
-                          component="th"
-                          scope="row"
-                        >
-                          {row.name}
-                        </TableCell>
-                        <TableCell sx={{ borderBottom: "none" }}>
-                          {row.value}
-                        </TableCell>
-                      </TableRow>
-                    );
-                  })}
-              </TableBody>
-            </Table>
-          </TableContainer>
+          <TwoColumnTable name={name} tableData={informationTable} id={id} />
         </CardContent>
       </Card>
     </Grid>
