@@ -1,0 +1,13 @@
+{
+  "name": "Cough Potion",
+  "effect": "Cured coughing",
+  "side_effects": null,
+  "characteristics": null,
+  "time": null,
+  "difficulty": "Advanced",
+  "ingredients": null,
+  "inventors": null,
+  "manufacturers": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/6e/Cough_Potion_HM_Icon.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Cough_potion"
+}

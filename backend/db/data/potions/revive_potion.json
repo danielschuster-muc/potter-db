@@ -1,0 +1,13 @@
+{
+  "name": "Revive Potion",
+  "effect": "Awakened victim",
+  "side_effects": null,
+  "characteristics": "Red",
+  "time": null,
+  "difficulty": null,
+  "ingredients": null,
+  "inventors": null,
+  "manufacturers": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/85/RevivePotion.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Revive_Potion"
+}

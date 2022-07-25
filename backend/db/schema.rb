@@ -10,8 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_07_13_200257) do
+ActiveRecord::Schema[7.0].define(version: 2022_07_25_202122) do
   # These are extensions that must be enabled in order to support this database
+  enable_extension "pgcrypto"
   enable_extension "plpgsql"
 
   create_table "characters", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
@@ -44,6 +45,24 @@ ActiveRecord::Schema[7.0].define(version: 2022_07_13_200257) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["slug"], name: "index_characters_on_slug", unique: true
+  end
+
+  create_table "potions", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.string "slug"
+    t.string "name"
+    t.string "effect"
+    t.string "side_effects"
+    t.string "characteristics"
+    t.string "time"
+    t.string "difficulty"
+    t.string "ingredients"
+    t.string "inventors"
+    t.string "manufacturers"
+    t.text "image_url"
+    t.text "wiki_link"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["slug"], name: "index_potions_on_slug", unique: true
   end
 
   create_table "spells", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|

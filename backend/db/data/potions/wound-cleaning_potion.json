@@ -1,0 +1,13 @@
+{
+  "name": "Wound-Cleaning Potion",
+  "effect": "Antiseptic, cleaned wounds",
+  "side_effects": null,
+  "characteristics": "Purple liquid, Smoked on contact, Stung on contact",
+  "time": null,
+  "difficulty": "Advanced",
+  "ingredients": null,
+  "inventors": null,
+  "manufacturers": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a0/WoundCleaningPotionHM.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Wound-Cleaning_Potion"
+}

@@ -52,7 +52,11 @@ bundle install
 Run the following commands to create and setup the database:
 
 ```shell
-rails db:create db:migrate db:seed
+rails db:create db:migrate
+```
+
+```shell
+rails import:json
 ```
 
 ### Start the rails server

@@ -1,0 +1,13 @@
+{
+  "name": "Replenishing Potion",
+  "effect": "Replenishes something",
+  "side_effects": null,
+  "characteristics": null,
+  "time": null,
+  "difficulty": null,
+  "ingredients": null,
+  "inventors": null,
+  "manufacturers": "Hogwarts Apothecary Dept.",
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/56/ReplenishingPotion.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Replenishing_Potion"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Pompion Potion",
+  "effect": "Turns the drinker's head into a pumpkin",
+  "side_effects": null,
+  "characteristics": "Orange-coloured",
+  "time": null,
+  "difficulty": "Beginner",
+  "ingredients": "Flitterby Moth, Bouncing Bulb, Foxglove",
+  "inventors": null,
+  "manufacturers": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0f/Pumpkin-head_potion.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Pompion_Potion"
+}
