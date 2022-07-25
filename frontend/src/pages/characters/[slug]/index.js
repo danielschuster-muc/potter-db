@@ -9,8 +9,6 @@ import CharacterPageContent from "../../../components/pages/characters/[slug]/Ch
 const Character = ({ data, links }) => {
   const router = useRouter();
 
-  const { attributes } = data;
-
   if (router.isFallback) {
     return (
       <>
@@ -19,6 +17,8 @@ const Character = ({ data, links }) => {
       </>
     );
   }
+
+  const { attributes } = data;
 
   return (
     <>
