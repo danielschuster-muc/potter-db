@@ -1,0 +1,13 @@
+{
+  "name": "Invisibility Potion",
+  "effect": "Temporary invisibility",
+  "side_effects": null,
+  "characteristics": "Silver in colour, Very bubbly",
+  "time": null,
+  "difficulty": "Moderate",
+  "ingredients": "Cherries, Chicken, Spiders",
+  "inventors": null,
+  "manufacturers": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/fa/Invisibility_potion.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Invisibility_Potion"
+}

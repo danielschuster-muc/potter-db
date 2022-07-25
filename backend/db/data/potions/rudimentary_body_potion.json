@@ -1,0 +1,13 @@
+{
+  "name": "Rudimentary body potion",
+  "effect": "Helps restore non-corporeal wizards to a rudimentary bodies/sustains rudimentary bodies",
+  "side_effects": null,
+  "characteristics": null,
+  "time": null,
+  "difficulty": null,
+  "ingredients": "Nagini's venom, Unicorn blood",
+  "inventors": null,
+  "manufacturers": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b9/Voldemort%27s_rudimentary_body_%28concept_artwork_for_HP4_movie%29.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Rudimentary_body_potion"
+}

@@ -6,13 +6,15 @@ namespace :import do
     puts "Importing data into db..."
 
     Character.in_batches.delete_all
+    Potion.in_batches.delete_all
     Spell.in_batches.delete_all
 
     puts "Deleted all old data..."
 
     characters = []
+    potions = []
     spells = []
-    models = %w[characters spells]
+    models = %w[characters potions spells]
     models.each do |model|
       Dir.glob("db/data/#{model}/*.json") do |file|
 
@@ -22,6 +24,8 @@ namespace :import do
         case model
         when "characters"
           characters << data
+        when "potions"
+          potions << data
         when "spells"
           spells << data
         end
@@ -29,8 +33,13 @@ namespace :import do
     end
 
     unless characters.empty?
-      upserted_characters = Character.upsert_all(characters) # , unique_by: :slug
+      upserted_characters = Character.upsert_all(characters)
       puts "Imported #{upserted_characters.count} (tried: #{characters.count} / total: #{Character.count}) characters in #{Time.now - start_date}s"
+    end
+
+    unless potions.empty?
+      upserted_potions = Potion.upsert_all(potions)
+      puts "Imported #{upserted_potions.count} (tried: #{potions.count} / total: #{Potion.count}) potions in #{Time.now - start_date}s"
     end
 
     unless spells.empty?

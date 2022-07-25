@@ -1,0 +1,13 @@
+{
+  "name": "Wolfsbane Potion",
+  "effect": "Allowed werewolves to keep their minds post-transformation",
+  "side_effects": null,
+  "characteristics": "Blue smoke, Unpleasant taste, Rendered useless with sugar",
+  "time": null,
+  "difficulty": "Advanced",
+  "ingredients": "Wolfsbane",
+  "inventors": "Damocles Belby",
+  "manufacturers": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/01/PA_C8.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Wolfsbane_Potion"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Herbicide Potion",
+  "effect": "Killed or damaged plants",
+  "side_effects": null,
+  "characteristics": "Green",
+  "time": null,
+  "difficulty": "Advanced or Beginner",
+  "ingredients": "Flobberworm Mucus, Horklump juice, Lionfish spines, Standard Ingredient",
+  "inventors": null,
+  "manufacturers": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d0/Herbicide.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Herbicide_Potion"
+}

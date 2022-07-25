@@ -1,0 +1,13 @@
+{
+  "name": "Pepperup Potion",
+  "effect": "Cured common cold, Warmed up recipient",
+  "side_effects": null,
+  "characteristics": "Red in colour",
+  "time": null,
+  "difficulty": "Moderate",
+  "ingredients": "Bicorn horn, Mandrake root, Jewelweed",
+  "inventors": "Glover Hipworth",
+  "manufacturers": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/26/PepperupPotionHM.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Pepperup_Potion"
+}
