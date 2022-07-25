@@ -1,19 +1,11 @@
 const apiUrl = process.env.API_URL || "https://api.potterdb.com";
 
 const getCharacterBySlug = async (slug) => {
-  try {
-    const res = await fetch(`${apiUrl}/v1/characters/${slug}`);
-    return await res.json();
-  } catch (error) {
-    return {
-      errors: {
-        error,
-      },
-    };
-  }
+  const res = await fetch(`${apiUrl}/v1/characters/${slug}`);
+  return await res.json();
 };
 
-const getCharacters = async (query = { page: 1, search: null }) => {
+const getCharacters = async (query = { page: 1, search: "" }) => {
   const { page, search } = query;
 
   const searchFilter = `&filter[name_cont_any]=${search}`;

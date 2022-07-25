@@ -1,5 +1,4 @@
-import { CircularProgress, Grid } from "@mui/material";
-import { useRouter } from "next/router";
+import { Grid } from "@mui/material";
 
 import { getCharacterBySlug, getCharacters } from "../../../lib/characters";
 import BioCard from "../../../components/pages/characters/[slug]/BioCard";
@@ -7,17 +6,6 @@ import SingleCharacterMeta from "../../../components/pages/characters/[slug]/Cha
 import CharacterPageContent from "../../../components/pages/characters/[slug]/CharacterPageContent";
 
 const Character = ({ data, links }) => {
-  const router = useRouter();
-
-  if (router.isFallback) {
-    return (
-      <>
-        <CircularProgress />
-        <p>Loading ...</p>
-      </>
-    );
-  }
-
   const { attributes } = data;
 
   return (
@@ -39,17 +27,25 @@ const Character = ({ data, links }) => {
 };
 
 export async function getStaticPaths() {
-  const characters = await getCharacters();
+  const slugs = [
+    "harry_potter",
+    "ronald_weasley",
+    "hermione_granger",
+    "ginevra_weasley",
+    "severus_snape",
+    "albus_dumbledore",
+    "draco_malfoy",
+    "dobby",
+    "luna_lovegood",
+    "dudley_dursley",
+    "sirius_black",
+  ];
 
-  let paths = [];
-
-  if (characters.data) {
-    paths = characters.data.map((character) => ({
-      params: {
-        slug: character.attributes.slug.toString(),
-      },
-    }));
-  }
+  const paths = slugs.map((slug) => ({
+    params: {
+      slug,
+    },
+  }));
 
   return {
     fallback: "blocking",
@@ -58,29 +54,23 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const slug = params.slug;
-
-  let data, links;
-  let notFound = true;
-
   try {
-    const character = await getCharacterBySlug(slug);
-    data = character.data;
-    links = character.links;
-    if (data.attributes !== null) notFound = false;
+    const character = await getCharacterBySlug(params.slug);
+    const { data, links, errors } = character;
+    if (!data || !data.attributes || !links || errors) {
+      return { notFound: true };
+    }
+
+    return {
+      props: {
+        data,
+        links,
+      },
+    };
   } catch (error) {
     console.log(error);
+    return { notFound: true };
   }
-
-  return {
-    props: {
-      data,
-      links,
-    },
-    notFound,
-  };
 }
 
 export default Character;
-
-// #mw-content-text > div > p:nth-child(8)

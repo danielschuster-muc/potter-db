@@ -20,7 +20,7 @@ const Characters = ({ characters }) => {
     return () => clearTimeout(timer);
   }, [inputText]);
 
-  const { data, meta, errors } = characters;
+  const { data, meta } = characters;
 
   const handlePaginationChange = (_event, page) => {
     setPage(page);
@@ -60,7 +60,7 @@ const Characters = ({ characters }) => {
         fullWidth
         label="Search"
         onChange={(e) => setInputText(e.target.value)}
-        value={inputText}
+        value={inputText || ""}
       />
 
       {data && (

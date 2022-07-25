@@ -1,6 +1,7 @@
 import { NavigateNext } from "@mui/icons-material";
-import { Breadcrumbs, Link, Typography } from "@mui/material";
+import { Breadcrumbs, Typography } from "@mui/material";
 import { Box } from "@mui/system";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { useMemo } from "react";
 
@@ -52,9 +53,5 @@ const Crumb = ({ text, href, isLast = false }) => {
     return <Typography color="text.primary">{text}</Typography>;
   }
 
-  return (
-    <Link underline="hover" color="inherit" href={href}>
-      {text}
-    </Link>
-  );
+  return <Link href={href}>{text}</Link>;
 };
