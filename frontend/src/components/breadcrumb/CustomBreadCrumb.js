@@ -1,32 +1,32 @@
-import { NavigateNext } from "@mui/icons-material";
-import { Breadcrumbs, Typography } from "@mui/material";
-import { Box } from "@mui/system";
-import Link from "next/link";
-import { useRouter } from "next/router";
 import { useMemo } from "react";
+import { useRouter } from "next/router";
+
+import { NavigateNext } from "@mui/icons-material";
+import { Breadcrumbs } from "@mui/material";
+import { Box } from "@mui/system";
+
+import { Crumb } from "./Crumb";
 
 export const CustomBreadCrumb = () => {
   const router = useRouter();
 
   const titleize = (slug) => {
-    let words = slug.split("_");
-
-    return words
-      .map(function (word) {
-        return word.charAt(0).toUpperCase() + word.substring(1).toLowerCase();
-      })
+    return slug
+      .split("_")
+      .map(
+        (word) => word.charAt(0).toUpperCase() + word.substring(1).toLowerCase()
+      )
       .join(" ");
   };
 
   const breadcrumbs = useMemo(() => {
-    // remove query and split each path by '/'
     const routes = router.asPath
       .split("?")[0]
       .split("/")
       .filter((v) => v.length > 0);
 
-    const crumbs = routes.map((subpath, idx) => {
-      const href = "/" + routes.slice(0, idx + 1).join("/");
+    const crumbs = routes.map((subpath, i) => {
+      const href = "/" + routes.slice(0, i + 1).join("/");
       return { href, text: titleize(subpath) };
     });
 
@@ -46,12 +46,4 @@ export const CustomBreadCrumb = () => {
       </Breadcrumbs>
     </Box>
   );
-};
-
-const Crumb = ({ text, href, isLast = false }) => {
-  if (isLast) {
-    return <Typography color="text.primary">{text}</Typography>;
-  }
-
-  return <Link href={href}>{text}</Link>;
 };
