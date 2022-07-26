@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
 
-import { getCharacterBySlug, getCharacters } from "../../../lib/characters";
+import { getCharacterBySlug, getCharacters } from "../../../lib/load_characters";
 import BioCard from "../../../components/pages/characters/[slug]/BioCard";
 import SingleCharacterMeta from "../../../components/pages/characters/[slug]/CharacterMeta";
 import CharacterPageContent from "../../../components/pages/characters/[slug]/CharacterPageContent";
