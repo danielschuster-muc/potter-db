@@ -1,9 +1,13 @@
 import { Grid } from "@mui/material";
+import { Box } from "@mui/system";
 import Meta from "../../components/Meta";
 import BasicCharacterCard from "../../components/pages/characters/BasicCharacterCard";
 import CustomPagination from "../../components/ui/CustomPagination";
+import Filter from "../../components/ui/SortFilter";
 import SearchField from "../../components/ui/SearchField";
 import { getCharacters } from "../../lib/characters";
+import SortFilter from "../../components/ui/SortFilter";
+import DirectionFilter from "../../components/ui/DirectionFilter";
 
 const Characters = ({ characters }) => {
   const { data, meta } = characters;
@@ -28,7 +32,17 @@ const Characters = ({ characters }) => {
       <h1>Welcome to the Harry Potter Character List</h1>
       {stats}
 
-      <SearchField />
+      <Grid container spacing={1}>
+        <Grid item xs={12} md={8} my={2}>
+          <SearchField />
+        </Grid>
+        <Grid item xs={6} md={2} my={2}>
+          <SortFilter />
+        </Grid>
+        <Grid item xs={6} md={2} my={2}>
+          <DirectionFilter />
+        </Grid>
+      </Grid>
 
       {data && (
         <Grid container spacing={5} sx={{ mt: 1 }} alignItems="stretch">
