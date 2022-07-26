@@ -1,38 +1,12 @@
-import { Box, Grid, Pagination, TextField } from "@mui/material";
-import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { Grid } from "@mui/material";
 import Meta from "../../components/Meta";
 import BasicCharacterCard from "../../components/pages/characters/BasicCharacterCard";
+import CustomPagination from "../../components/ui/CustomPagination";
+import SearchField from "../../components/ui/SearchField";
 import { getCharacters } from "../../lib/characters";
 
 const Characters = ({ characters }) => {
-  const router = useRouter();
-  const [page, setPage] = useState(parseInt(router.query.page) || 1);
-  const [inputText, setInputText] = useState("");
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      const currentPath = router.pathname;
-      const currentQuery = router.query;
-      currentQuery.search = inputText;
-      router.push({ pathname: currentPath, query: currentQuery });
-    }, 300);
-    return () => clearTimeout(timer);
-  }, [inputText]);
-
   const { data, meta } = characters;
-
-  const handlePaginationChange = (_event, page) => {
-    setPage(page);
-    const currentPath = router.pathname;
-    const currentQuery = router.query;
-    currentQuery.page = page;
-    router.push({ pathname: currentPath, query: currentQuery });
-  };
-
-  useEffect(() => {
-    setInputText(router.query.search);
-  }, []);
 
   const stats = meta && (
     <>
@@ -54,14 +28,7 @@ const Characters = ({ characters }) => {
       <h1>Welcome to the Harry Potter Character List</h1>
       {stats}
 
-      <TextField
-        id="outlined-basic"
-        variant="outlined"
-        fullWidth
-        label="Search"
-        onChange={(e) => setInputText(e.target.value)}
-        value={inputText || ""}
-      />
+      <SearchField />
 
       {data && (
         <Grid container spacing={5} sx={{ mt: 1 }} alignItems="stretch">
@@ -77,14 +44,7 @@ const Characters = ({ characters }) => {
 
       {!data && <p>No characters available!</p>}
 
-      <Box sx={{ display: "flex", justifyContent: "center", mt: 3 }}>
-        <Pagination
-          count={meta?.pagination.last}
-          page={page}
-          onChange={handlePaginationChange}
-          size="large"
-        />
-      </Box>
+      <CustomPagination totalPages={meta?.pagination.last} />
     </>
   );
 };
