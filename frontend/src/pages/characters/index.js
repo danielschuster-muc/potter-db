@@ -1,11 +1,9 @@
 import { Grid } from "@mui/material";
-import { Box } from "@mui/system";
 import Meta from "../../components/Meta";
 import BasicCharacterCard from "../../components/pages/characters/BasicCharacterCard";
 import CustomPagination from "../../components/ui/CustomPagination";
-import Filter from "../../components/ui/SortFilter";
 import SearchField from "../../components/ui/SearchField";
-import { getCharacters } from "../../lib/characters";
+import { getCharacters } from "../../lib/load_characters";
 import SortFilter from "../../components/ui/SortFilter";
 import DirectionFilter from "../../components/ui/DirectionFilter";
 
