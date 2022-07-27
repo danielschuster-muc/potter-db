@@ -57,8 +57,6 @@ group :development, :test do
   gem 'brakeman'
   # Patch-level verification for Bundler [https://github.com/rubysec/bundler-audit]
   gem 'bundler-audit'
-  # Checks Ruby and RubyGems against known security vulnerabilities [https://github.com/civisanalytics/ruby_audit]
-  gem 'ruby_audit'
 end
 
 group :development do

@@ -8,6 +8,7 @@ AllCops:
     - "config/**/*"
     - "tmp/**/*"
     - "lib/**/*"
+    - "vendor/**/*.rb"
 
 Style/ConditionalAssignment:
   Enabled: false
