@@ -1,0 +1,12 @@
+{
+  "slug": "lumos-maxima",
+  "name": "Lumos Maxima",
+  "incantation": "Lumos Maxima (LOO-mos MAX-i-muh)",
+  "category": "Charm",
+  "effect": "Produces bright light from wand tip",
+  "light": "White",
+  "hand": "Flick wandDraw wand backFlick again",
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f4/Lumos_Maxima.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Lumos_Maxima"
+}

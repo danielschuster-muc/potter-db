@@ -1,0 +1,12 @@
+{
+  "slug": "silencing-charm",
+  "name": "Silencing Charm",
+  "incantation": "Silencio (si-LEN-see-oh)",
+  "category": "Charm",
+  "effect": "Silenced target",
+  "light": "None",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b2/Silencio_HM_Spell_Icon.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Silencing_Charm"
+}

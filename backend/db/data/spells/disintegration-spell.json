@@ -1,0 +1,12 @@
+{
+  "slug": "disintegration-spell",
+  "name": "Disintegration spell",
+  "incantation": null,
+  "category": "Dark charm",
+  "effect": "Blows up and disintegrates the target",
+  "light": "Red",
+  "hand": "Point to the person who the spell should hit",
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/de/Bellatrix_death.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Disintegration_spell"
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "teleportation-spell",
+  "name": "Teleportation spell",
+  "incantation": null,
+  "category": "Magical transportation",
+  "effect": "Makes objects teleport elsewhere",
+  "light": null,
+  "hand": "Wave wand",
+  "creator": null,
+  "image_url": null,
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Teleportation_spell"
+}

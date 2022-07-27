@@ -1,0 +1,44 @@
+{
+  "name": "Vernon Dursley",
+  "gender": "Male",
+  "born": "Pre 1961",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Black",
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Muggle",
+  "marital_status": "Widowed or married",
+  "nationality": "English",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Director at Grunnings"
+  ],
+  "titles": null,
+  "family_members": [
+    "Mrs Dursley (mother)",
+    "Marjorie Dursley (sister)",
+    "Petunia Dursley (née Evans) (wife) †",
+    "Dudley Dursley (son)",
+    "Mrs Dursley (daughter-in-law)",
+    "Grandchildren",
+    "Mr Evans (father-in-law) †",
+    "Mrs Evans (mother-in-law) †",
+    "Lily Potter (née Evans) (sister-in-law) †",
+    "James Potter (brother-in-law) †",
+    "Harry Potter (nephew-in-law)",
+    "Ginevra Potter (née Weasley) (niece-in-law)"
+  ],
+  "romances": [
+    "Petunia Dursley (wife) †"
+  ],
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/20/Vernon_Dursley.jpg",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Vernon_Dursley"
+}

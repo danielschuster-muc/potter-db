@@ -1,0 +1,12 @@
+{
+  "slug": "fire-making-spell",
+  "name": "Fire-Making Spell",
+  "incantation": "Incendio (in-SEN-dee-o)",
+  "category": "Charm",
+  "effect": "Conjured flames",
+  "light": "Orange and red",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/6a/IncendioHM.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Fire-Making_Spell"
+}

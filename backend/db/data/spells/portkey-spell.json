@@ -1,0 +1,12 @@
+{
+  "slug": "portkey-spell",
+  "name": "Portkey Spell",
+  "incantation": "Portus (POR-tus)",
+  "category": "Charm",
+  "effect": "Turns object into Portkey",
+  "light": "Blue",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/ea/PortusPAS.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Portkey_Spell"
+}

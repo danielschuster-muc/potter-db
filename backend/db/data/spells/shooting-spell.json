@@ -1,0 +1,12 @@
+{
+  "slug": "shooting-spell",
+  "name": "Shooting Spell",
+  "incantation": null,
+  "category": "Spell",
+  "effect": "Small explosion with a gunshot-sound",
+  "light": "None",
+  "hand": "Point wand at target",
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/73/Shooting_Spell.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Shooting_spell"
+}

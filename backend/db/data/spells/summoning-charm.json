@@ -1,0 +1,12 @@
+{
+  "slug": "summoning-charm",
+  "name": "Summoning Charm",
+  "incantation": "Accio (AH-kee-oh)",
+  "category": "Charm",
+  "effect": "Summoned an object",
+  "light": "None",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/99/Accio_cup.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Summoning_Charm"
+}

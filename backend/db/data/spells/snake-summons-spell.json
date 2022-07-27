@@ -1,0 +1,12 @@
+{
+  "slug": "snake-summons-spell",
+  "name": "Snake Summons Spell",
+  "incantation": "Serpensortia (ser-pen-SOR-she-uh)",
+  "category": "Conjuration",
+  "effect": "Conjures a live snake",
+  "light": "White",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d1/Serpensortia.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Snake_Summons_Spell"
+}

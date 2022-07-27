@@ -1,0 +1,12 @@
+{
+  "slug": "vanishing-spell",
+  "name": "Vanishing Spell",
+  "incantation": "Evanesco (ev-an-ES-ko)",
+  "category": "Transfiguration",
+  "effect": "Vanishes objects",
+  "light": "None",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/ab/HM_y4_Evanesco.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Vanishing_Spell"
+}

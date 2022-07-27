@@ -1,0 +1,29 @@
+{
+  "name": "Lorcan d'Eath",
+  "gender": "Male",
+  "born": "1964",
+  "died": null,
+  "species": "Part-vampire",
+  "height": null,
+  "weight": null,
+  "hair_color": "Black",
+  "eye_color": "Blue",
+  "skin_color": "White",
+  "blood_status": "Part-Human (Part-Vampire)",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Singer"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d7/LorcanDEath.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Lorcan_d'Eath"
+}
