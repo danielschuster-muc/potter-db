@@ -104,4 +104,10 @@ FriendlyId.defaults do |config|
   #     text.to_slug.normalize! :transliterations => [:russian, :latin]
   #   end
   # }
+
+  config.use Module.new {
+    def should_generate_new_friendly_id?
+      false
+    end
+  }
 end

@@ -88,6 +88,8 @@ GEM
     factory_bot_rails (6.2.0)
       factory_bot (~> 6.2.0)
       railties (>= 5.0.0)
+    faker (2.21.0)
+      i18n (>= 1.8.11, < 2)
     friendly_id (5.4.2)
       activerecord (>= 4.0.0)
     globalid (1.0.0)
@@ -242,6 +244,7 @@ DEPENDENCIES
   debug
   dotenv-rails
   factory_bot_rails
+  faker
   friendly_id (~> 5.1)
   jsonapi-serializer
   jsonapi.rb
@@ -261,4 +264,4 @@ RUBY VERSION
    ruby 3.0.3p157
 
 BUNDLED WITH
-   2.3.17
+   2.3.14

@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :spell do
-    slug { "MyString" }
+    slug { Faker::Lorem.unique.word }
     name { "MyString" }
     incantation { "MyString" }
     category { "MyString" }
