@@ -18,11 +18,15 @@
 !/tmp/pids/
 !/tmp/pids/.keep
 
-# Other
-/coverage
-
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
+# Other
 .env
+
+/coverage
+
+brakeman-report.md
+bundler-audit-report.json
+rubocop-report.md

@@ -8,8 +8,13 @@ name: "Ruby on Rails CI"
 on:
   push:
     branches: ["master"]
+    paths:
+      - "backend/**"
   pull_request:
     branches: ["master"]
+    paths:
+      - "backend/**"
+
 defaults:
   run:
     working-directory: backend
@@ -65,7 +70,7 @@ jobs:
           working-directory: backend
       # Add or replace any other lints here
       - name: Security audit dependencies
-        run: bundle exec bundle audit --update --format json --output bundle-audit-report.json
+        run: bundle exec bundler-audit --update --format json --output bundler-audit-report.json
       - name: Security audit application code
         run: bundle exec brakeman -q -w2 -o brakeman-report.md
       - name: Lint Ruby files
@@ -77,5 +82,5 @@ jobs:
           name: lint-reports
           path: |
             brakeman-report.md
-            bundle-audit-report.json
+            bundler-audit-report.json
             rubocop-report.md

@@ -52,6 +52,11 @@ group :development, :test do
   gem 'rubocop-rails'
   # Code style checking for RSpec files [https://github.com/rubocop/rubocop-rspec]
   gem 'rubocop-rspec'
+
+  # A static analysis security vulnerability scanner for Ruby on Rails applications [https://github.com/presidentbeef/brakeman]
+  gem 'brakeman'
+  # Patch-level verification for Bundler [https://github.com/rubysec/bundler-audit]
+  gem 'bundler-audit'
 end
 
 group :development do
