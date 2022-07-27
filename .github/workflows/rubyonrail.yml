@@ -1,0 +1,55 @@
+name: "Ruby on Rails CI"
+on:
+  push:
+    branches: ["master"]
+    paths:
+      - "backend/**"
+      - ".github/**"
+  pull_request:
+    branches: ["master"]
+    paths:
+      - "backend/**"
+      - ".github/**"
+defaults:
+  run:
+    working-directory: backend
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:11-alpine
+        ports:
+          - "5432:5432"
+        env:
+          POSTGRES_DB: rails_test
+          POSTGRES_USER: rails
+          POSTGRES_PASSWORD: password
+        options: --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    env:
+      RAILS_ENV: test
+      DATABASE_URL: "postgres://rails:password@localhost:5432/rails_test"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      # Add or replace dependency steps here
+      - name: Install Ruby and gems
+        uses: ruby/setup-ruby@8f312efe1262fb463d906e9bf040319394c18d3e # v1.92
+        with:
+          bundler-cache: true
+          working-directory: backend
+      # Add or replace database setup steps here
+      - name: Set up database schema
+        run: bin/rails db:schema:load
+      # Add or replace test runners here
+      - name: Run tests
+        run: bundler exec rspec
+      # Upload code coverage
+      - name: Upload coverage results
+        uses: actions/upload-artifact@master
+        with:
+          name: code-coverage
+          path: backend/coverage
