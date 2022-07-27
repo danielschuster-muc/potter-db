@@ -3,10 +3,11 @@ require: rubocop-rspec
 AllCops:
   NewCops: enable
   Exclude:
-	- "bin/**/*"
-	- "db/**/*"
-	- "config/**/*"
-	- "tmp/**/*"
+    - "bin/**/*"
+    - "db/**/*"
+    - "config/**/*"
+    - "tmp/**/*"
+    - "lib/**/*"
 
 Style/ConditionalAssignment:
   Enabled: false

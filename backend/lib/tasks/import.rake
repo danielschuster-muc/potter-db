@@ -1,7 +1,6 @@
 namespace :import do
-
   desc "Import data from json files"
-  task :json => [:environment] do
+  task json: [:environment] do
     start_date = Time.now
     puts "Importing data into db..."
 
@@ -17,7 +16,6 @@ namespace :import do
     models = %w[characters potions spells]
     models.each do |model|
       Dir.glob("db/data/#{model}/*.json") do |file|
-
         data = JSON.parse(File.read(file))
         data[:slug] = File.basename(file, ".json")
 
