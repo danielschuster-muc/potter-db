@@ -52,5 +52,4 @@ jobs:
         uses: actions/upload-artifact@master
         with:
           name: code-coverage
-          path: coverage
-          working-directory: backend
+          path: backend/coverage
