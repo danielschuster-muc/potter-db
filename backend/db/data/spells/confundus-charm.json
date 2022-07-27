@@ -1,0 +1,12 @@
+{
+  "slug": "confundus-charm",
+  "name": "Confundus Charm",
+  "incantation": "Confundo (con-FUN-doe)",
+  "category": "Charm",
+  "effect": "Confuses the target",
+  "light": "Pink",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f1/NewtConfundus.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Confundus_Charm"
+}

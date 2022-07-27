@@ -1,0 +1,12 @@
+{
+  "slug": "legilimency-spell",
+  "name": "Legilimency Spell",
+  "incantation": "Legilimens (leh-JILL-ih-mens)",
+  "category": "Charm",
+  "effect": "Let caster see into the mind of another person",
+  "light": "Psychedelic transparent wave",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/Legilimency.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Legilimency_Spell"
+}

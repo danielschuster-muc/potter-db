@@ -1,0 +1,12 @@
+{
+  "slug": "stunning-spell",
+  "name": "Stunning Spell",
+  "incantation": "Stupefy (STEW-puh-fye)",
+  "category": "Charm",
+  "effect": "Rendered target unconscious",
+  "light": "Red",
+  "hand": null,
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/73/DH1_Harry_as_Albert_Runcorn_stunning_Umbridge.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Stunning_Spell"
+}

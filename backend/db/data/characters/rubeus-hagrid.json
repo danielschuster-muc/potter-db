@@ -1,0 +1,46 @@
+{
+  "name": "Rubeus Hagrid",
+  "gender": "Male",
+  "born": "6 December 1928,Forest of Dean, West Country England, Great Britain",
+  "died": null,
+  "species": "Half-Human/Half-Giant",
+  "height": "11″6″",
+  "weight": "289 lbs",
+  "hair_color": "Black",
+  "eye_color": "Black",
+  "skin_color": null,
+  "blood_status": "Part-Human (Half-giant)",
+  "marital_status": "Single",
+  "nationality": "English",
+  "animagus": null,
+  "boggart": "Lord Voldemort",
+  "house": "Gryffindor",
+  "patronus": "None",
+  "alias_names": [
+    "Hagger (by Grawp)",
+    "Hagrid (by the Trio and the Teachers of Hogwarts)"
+  ],
+  "jobs": [
+    "Keeper of Keys and Grounds at Hogwarts School of Witchcraft and Wizardry (c. 1968-?)",
+    "Professor of Care of Magical Creatures at Hogwarts School of Witchcraft and Wizardry (1993-1995; 1996-?)"
+  ],
+  "titles": [
+    "Professor",
+    "Keeper of Keys and Grounds of Hogwarts"
+  ],
+  "family_members": [
+    "Mr Hagrid (father) †",
+    "Fridwulfa (mother) †",
+    "Grawp (maternal half-brother)",
+    "Grawp's father (step-father)",
+    "Jim Hamilton (possible relation)"
+  ],
+  "romances": [
+    "Olympe Maxime (formerly)"
+  ],
+  "wands": [
+    "16″, Oak, unknown core"
+  ],
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/fe/Rubeus_Hagrid.png",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Rubeus_Hagrid"
+}

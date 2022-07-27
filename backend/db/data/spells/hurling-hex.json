@@ -1,0 +1,12 @@
+{
+  "slug": "hurling-hex",
+  "name": "Hurling Hex",
+  "incantation": null,
+  "category": "Hex",
+  "effect": "Causes a broomstick to attempt to hurl its rider off",
+  "light": "None",
+  "hand": "Point wand",
+  "creator": null,
+  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/31/Hurling_Hex.gif",
+  "wiki_link": "https://harrypotter.fandom.com/wiki/Hurling_Hex"
+}
