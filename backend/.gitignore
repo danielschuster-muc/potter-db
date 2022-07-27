@@ -18,6 +18,9 @@
 !/tmp/pids/
 !/tmp/pids/.keep
 
+# Other
+/coverage
+
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
