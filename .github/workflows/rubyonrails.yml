@@ -10,12 +10,12 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+defaults:
+  run:
+    working-directory: ./backend    
 jobs:
   test:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./backend
     services:
       postgres:
         image: postgres:11-alpine
@@ -53,12 +53,8 @@ jobs:
         with:
           name: code-coverage
           path: coverage
-
   lint:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./backend
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
