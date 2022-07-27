@@ -138,6 +138,13 @@ GEM
       racc (~> 1.4)
     nokogiri (1.13.8-x86_64-linux)
       racc (~> 1.4)
+    panolint (0.1.5)
+      brakeman (>= 4.8, < 6.0)
+      rubocop (>= 0.83, < 2.0)
+      rubocop-performance (~> 1.5)
+      rubocop-rails (~> 2.5)
+      rubocop-rake (~> 0.5)
+      rubocop-rspec (~> 2.0)
     parallel (1.22.1)
     parser (3.1.2.0)
       ast (~> 2.4.1)
@@ -215,10 +222,15 @@ GEM
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.19.1)
       parser (>= 3.1.1.0)
+    rubocop-performance (1.14.3)
+      rubocop (>= 1.7.0, < 2.0)
+      rubocop-ast (>= 0.4.0)
     rubocop-rails (2.15.2)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.7.0, < 2.0)
+    rubocop-rake (0.6.0)
+      rubocop (~> 1.0)
     rubocop-rspec (2.12.1)
       rubocop (~> 1.31)
     ruby-progressbar (1.11.0)
@@ -254,6 +266,7 @@ DEPENDENCIES
   friendly_id (~> 5.1)
   jsonapi-serializer
   jsonapi.rb
+  panolint
   pg (~> 1.1)
   puma (~> 5.0)
   rack-cors

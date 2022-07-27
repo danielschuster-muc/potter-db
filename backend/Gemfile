@@ -57,6 +57,8 @@ group :development, :test do
   gem 'brakeman'
   # Patch-level verification for Bundler [https://github.com/rubysec/bundler-audit]
   gem 'bundler-audit'
+  # Rules for linting ruby code at Panorama Education [https://github.com/panorama-ed/panolint]
+  gem 'panolint'
 end
 
 group :development do
