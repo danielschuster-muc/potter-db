@@ -18,7 +18,7 @@ export const getAll = async (type, query = defaultQuery) => {
 
   const pagination = `page[number]=${page}`;
   const searchFilter = `filter[name_cont_any]=${search}`;
-  const sorting = `sort=${direction === "asc" ? "" : "-"}${sort}`;
+  const sorting = `sort=${direction === "desc" ? "-" : ""}${sort}`;
 
   return fetch(`${apiUrl}/v1/${type}?${pagination}&${searchFilter}&${sorting}`)
     .then((res) => res.json())

@@ -1,6 +1,9 @@
 import { Grid } from "@mui/material";
 
-import { getCharacterBySlug, getCharacters } from "../../../lib/load_characters";
+import {
+  getCharacterBySlug,
+  getCharacters,
+} from "../../../lib/load_characters";
 import BioCard from "../../../components/pages/characters/[slug]/BioCard";
 import SingleCharacterMeta from "../../../components/pages/characters/[slug]/CharacterMeta";
 import CharacterPageContent from "../../../components/pages/characters/[slug]/CharacterPageContent";
@@ -28,17 +31,26 @@ const Character = ({ data, links }) => {
 
 export async function getStaticPaths() {
   const slugs = [
-    "harry_potter",
-    "ronald_weasley",
-    "hermione_granger",
-    "ginevra_weasley",
-    "severus_snape",
-    "albus_dumbledore",
-    "draco_malfoy",
+    "harry-potter",
+    "ronald-weasley",
+    "hermione-granger",
+    "ginevra-weasley",
+    "severus-snape",
+    "albus-dumbledore",
+    "tom-riddle",
+    "draco-malfoy",
+    "james-potter-i",
+    "lily-j-potter",
+    "albus-potter",
     "dobby",
-    "luna_lovegood",
-    "dudley_dursley",
-    "sirius_black",
+    "sirius-black",
+    "luna-lovegood",
+    "dudley-dursley",
+    "rubeus-hagrid",
+    "vernon-dursley",
+    "petunia-dursley",
+    "arthur-weasley",
+    "molly-weasley",
   ];
 
   const paths = slugs.map((slug) => ({
