@@ -10,10 +10,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
     "@mui/icons-material": "^5.8.4",
-    "@mui/material": "^5.9.2",
+    "@mui/material": "^5.9.3",
     "env": "^0.0.2",
     "next": "12.2.2",
     "next-sitemap": "^3.1.15",
@@ -22,7 +22,7 @@
     "sharp": "^0.30.7"
   },
   "devDependencies": {
-    "eslint": "8.20.0",
+    "eslint": "8.21.0",
     "eslint-config-next": "12.2.3"
   }
 }
