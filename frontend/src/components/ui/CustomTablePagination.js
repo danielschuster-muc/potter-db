@@ -1,27 +1,30 @@
-import { TablePagination } from "@mui/material";
-import { useRouter } from "next/router";
 import React, { useState } from "react";
+import { useRouter } from "next/router";
+import { TablePagination } from "@mui/material";
 
 const CustomTablePagination = ({ totalRecords }) => {
   const router = useRouter();
+
   const [page, setPage] = useState(parseInt(router.query.page) || 1);
   const [rowsPerPage, setRowsPerPage] = useState(
-    parseInt(router.query.pageSize) || 25
+    parseInt(router.query.perPage) || 15
   );
 
   const handlePageChange = (_event, newPage) => {
-    newPage = newPage <= 0 ? 1 : newPage + 1;
-    setPage(newPage);
     const { pathname, query } = router;
+    newPage = newPage <= 0 ? 1 : newPage + 1;
     query.page = newPage;
+    setPage(newPage);
     router.push({ pathname, query });
   };
 
   const handleChangeRowsPerPage = (event) => {
-    const newPageSize = +event.target.value;
-    setRowsPerPage(newPageSize);
     const { pathname, query } = router;
-    query.pageSize = newPageSize;
+    const perPage = +event.target.value;
+    query.page = 1;
+    query.perPage = perPage;
+    setRowsPerPage(perPage);
+    setPage(1);
     router.push({ pathname, query });
   };
 
