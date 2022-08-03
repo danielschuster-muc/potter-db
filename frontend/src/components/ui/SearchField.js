@@ -1,9 +1,9 @@
 import { Search } from "@mui/icons-material";
-import { InputAdornment, TextField } from "@mui/material";
+import { InputAdornment, TextField, Typography } from "@mui/material";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-const SearchField = () => {
+const SearchField = ({ totalResults }) => {
   const router = useRouter();
   const [inputText, setInputText] = useState("");
 
@@ -24,12 +24,16 @@ const SearchField = () => {
   return (
     <TextField
       id="outlined-search"
+      sx={{ mt: 3, mb: 1 }}
       variant="outlined"
+      size="large"
       type="search"
       fullWidth
       label="Search"
-      onChange={(e) => setInputText(e.target.value)}
+      placeholder="Search Characters"
       value={inputText || ""}
+      onChange={(e) => setInputText(e.target.value)}
+      helperText={`${totalResults} Results`}
       InputProps={{
         startAdornment: (
           <InputAdornment position="start">
