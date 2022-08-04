@@ -142,6 +142,8 @@ GEM
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.4)
+    rack-attack (6.6.1)
+      rack (>= 1.0, < 3)
     rack-cors (1.1.1)
       rack (>= 2.0.0)
     rack-test (2.0.2)
@@ -250,6 +252,7 @@ DEPENDENCIES
   jsonapi.rb
   pg (~> 1.4)
   puma (~> 5.0)
+  rack-attack
   rack-cors
   rails (~> 7.0.3, >= 7.0.3.1)
   ransack

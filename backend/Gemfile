@@ -27,8 +27,10 @@ gem 'friendly_id', '~> 5.1'
 gem 'jsonapi-serializer'
 # Object-based searching [https://github.com/activerecord-hackery/ransack]
 gem 'ransack'
-# Lightweight, simple and maintained JSON:API support for your next Ruby HTTP API. [https://github.com/stas/jsonapi.rb]
+# Lightweight, simple and maintained JSON:API support for your next Ruby HTTP API [https://github.com/stas/jsonapi.rb]
 gem 'jsonapi.rb'
+# Rack middleware for blocking & throttling [https://github.com/rack/rack-attack/tree/main]
+gem 'rack-attack'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
