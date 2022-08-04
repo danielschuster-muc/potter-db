@@ -16,7 +16,7 @@
     "@mui/material": "^5.9.3",
     "env": "^0.0.2",
     "next": "12.2.2",
-    "next-sitemap": "^3.1.15",
+    "next-sitemap": "^3.1.16",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sharp": "^0.30.7"
