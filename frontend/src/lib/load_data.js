@@ -1,15 +1,18 @@
 const apiUrl = process.env.API_URL || "https://api.potterdb.com";
 
-export const getBySlug = async (type, slug) => {
-  return fetch(`${apiUrl}/v1/${type}/${slug}`)
+const simpleFetch = async (url) => {
+  return fetch(url)
     .then((res) => res.json())
     .catch((error) => {
+      console.error(error);
       return {
-        errors: {
-          error,
-        },
+        hasError: true,
       };
     });
+};
+
+export const getBySlug = async (type, slug) => {
+  return simpleFetch(`${apiUrl}/v1/${type}/${slug}`);
 };
 
 const defaultQuery = {
@@ -27,15 +30,7 @@ export const getAll = async (type, query = defaultQuery) => {
   const searchFilter = `filter[name_cont_any]=${search}`;
   const sort = `sort=${direction === "desc" ? "-" : ""}${orderBy}`;
 
-  return fetch(
+  return simpleFetch(
     `${apiUrl}/v1/${type}?${pageNumber}&${pageSize}&${searchFilter}&${sort}`
-  )
-    .then((res) => res.json())
-    .catch((error) => {
-      return {
-        errors: {
-          error,
-        },
-      };
-    });
+  );
 };

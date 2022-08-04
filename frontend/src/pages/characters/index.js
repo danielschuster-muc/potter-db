@@ -5,8 +5,8 @@ import DataListTable from "../../components/ui/DataListTable";
 import SearchField from "../../components/ui/SearchField";
 import { getCharacters } from "../../lib/load_characters";
 
-const Characters = ({ characters }) => {
-  const { data, meta } = characters;
+const Characters = ({ charactersData }) => {
+  const { data, meta, hasError } = charactersData;
 
   const totalRecords = meta?.pagination.records;
 
@@ -33,25 +33,25 @@ const Characters = ({ characters }) => {
 
       <SearchField totalResults={totalRecords} />
 
-      {data && (
+      {(hasError || !data) && <p>No characters available!</p>}
+
+      {data && !hasError && (
         <DataListTable
           characters={data}
           headCells={headCells}
           totalRecords={totalRecords}
         />
       )}
-
-      {!data && <p>No characters available!</p>}
     </>
   );
 };
 
 export async function getServerSideProps({ query }) {
-  const characters = await getCharacters(query);
+  const charactersData = await getCharacters(query);
 
   return {
     props: {
-      characters,
+      charactersData,
     },
   };
 }

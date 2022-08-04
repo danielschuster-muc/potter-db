@@ -1,9 +1,9 @@
 import { Search } from "@mui/icons-material";
-import { InputAdornment, TextField, Typography } from "@mui/material";
+import { InputAdornment, TextField } from "@mui/material";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-const SearchField = ({ totalResults }) => {
+const SearchField = ({ totalResults = 0 }) => {
   const router = useRouter();
   const [inputText, setInputText] = useState("");
 
