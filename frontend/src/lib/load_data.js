@@ -1,32 +1,36 @@
 const apiUrl = process.env.API_URL || "https://api.potterdb.com";
 
-export const getBySlug = async (type, slug) => {
-  return fetch(`${apiUrl}/v1/${type}/${slug}`)
+const simpleFetch = async (url) => {
+  return fetch(url)
     .then((res) => res.json())
     .catch((error) => {
+      console.error(error);
       return {
-        errors: {
-          error,
-        },
+        hasError: true,
       };
     });
 };
 
-const defaultQuery = { page: 1, search: "", sort: "", direction: "asc" };
+export const getBySlug = async (type, slug) => {
+  return simpleFetch(`${apiUrl}/v1/${type}/${slug}`);
+};
+
+const defaultQuery = {
+  page: 1,
+  perPage: 25,
+  search: "",
+  orderBy: "",
+  direction: "asc",
+};
+
 export const getAll = async (type, query = defaultQuery) => {
-  const { page, search, sort, direction } = query;
-
-  const pagination = `page[number]=${page}`;
+  const { page, perPage, search, orderBy, direction } = query;
+  const pageNumber = `page[number]=${page}`;
+  const pageSize = `page[size]=${perPage}`;
   const searchFilter = `filter[name_cont_any]=${search}`;
-  const sorting = `sort=${direction === "desc" ? "-" : ""}${sort}`;
+  const sort = `sort=${direction === "desc" ? "-" : ""}${orderBy}`;
 
-  return fetch(`${apiUrl}/v1/${type}?${pagination}&${searchFilter}&${sorting}`)
-    .then((res) => res.json())
-    .catch((error) => {
-      return {
-        errors: {
-          error,
-        },
-      };
-    });
+  return simpleFetch(
+    `${apiUrl}/v1/${type}?${pageNumber}&${pageSize}&${searchFilter}&${sort}`
+  );
 };

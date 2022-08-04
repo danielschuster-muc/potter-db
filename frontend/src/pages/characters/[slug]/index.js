@@ -1,14 +1,11 @@
 import { Grid } from "@mui/material";
 
-import {
-  getCharacterBySlug,
-  getCharacters,
-} from "../../../lib/load_characters";
+import { getCharacterBySlug } from "../../../lib/load_characters";
 import BioCard from "../../../components/pages/characters/[slug]/BioCard";
 import SingleCharacterMeta from "../../../components/pages/characters/[slug]/CharacterMeta";
 import CharacterPageContent from "../../../components/pages/characters/[slug]/CharacterPageContent";
 
-const Character = ({ data, links }) => {
+const Character = ({ data, links, errorMessage }) => {
   const { attributes } = data;
 
   return (
@@ -66,23 +63,21 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  try {
-    const character = await getCharacterBySlug(params.slug);
-    const { data, links, errors } = character;
-    if (!data || !data.attributes || !links || errors) {
-      return { notFound: true };
-    }
+  const character = await getCharacterBySlug(params.slug);
+  const { data, links, hasError } = character;
 
+  if (hasError || !data || !data.attributes || !links) {
     return {
-      props: {
-        data,
-        links,
-      },
+      notFound: true,
     };
-  } catch (error) {
-    console.log(error);
-    return { notFound: true };
   }
+
+  return {
+    props: {
+      data,
+      links,
+    },
+  };
 }
 
 export default Character;
