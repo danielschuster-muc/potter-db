@@ -1,9 +1,14 @@
 class Rack::Attack
+  Rack::Attack.enabled = Rails.env.development? || Rails.env.production?
   Rack::Attack.cache.store = ActiveSupport::Cache::MemoryStore.new # defaults to Rails.cache
 
   safelist('allow from potter db root domain', &:db_domain?)
 
-  throttle("requests by ip", limit: 5, period: 1.minute) do |request|
+  # 16rpm
+  limit_proc = 1000
+  period_proc = 1.hour
+
+  throttle("requests by ip", limit: limit_proc, period: period_proc) do |request|
     request.ip if request.path.include?('/v1')
   end
 
@@ -11,7 +16,7 @@ class Rack::Attack
     now = Time.zone.now
     match_data = request.env['rack.attack.match_data']
     headers = {
-      'RateLimit-Limit' => "#{match_data[:limit]} requests / #{match_data[:period]} seconds",
+      'RateLimit-Limit' => rpm(match_data),
       'RateLimit-Remaining' => '0',
       'RateLimit-Reset' => (now + (match_data[:period] - (now.to_i % match_data[:period]))).iso8601
     }
@@ -23,7 +28,7 @@ class Rack::Attack
         errors: [
           status: status,
           title: "To many requests!",
-          detail: "API rate limit exceeded for #{request.env['rack.attack.match_discriminator']}."
+          detail: "API rate limit exceeded for #{request.env['rack.attack.match_discriminator']}. Limit: #{rpm(match_data)}"
         ]
       }.to_json
     ]]
@@ -48,11 +53,16 @@ class Rack::Attack::Request < ::Rack::Request
   end
 
   def db_domain?
-    puts url, host_with_port, host, base_url, domain
     if Rails.env.development?
       localhost?
     else
-      base_url == domain
+      base_url == "potterdb.com"
     end
   end
+end
+
+private
+
+def rpm(match_data)
+  "#{(match_data[:limit] / (match_data[:period] / 60.0)).round(1)} rpm"
 end
