@@ -1,11 +1,12 @@
+import { useEffect, useState } from "react";
+
 import { Container } from "@mui/system";
-import { CssBaseline, Box, Breadcrumbs } from "@mui/material";
+import { CssBaseline, Box } from "@mui/material";
 import { ThemeProvider, useTheme } from "@emotion/react";
 
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import { CustomBreadCrumb } from "../breadcrumb/CustomBreadCrumb";
-import { useEffect, useState } from "react";
 
 const Layout = ({ children }) => {
   const theme = useTheme();
