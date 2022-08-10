@@ -8,11 +8,7 @@ import {
 
 const TwoColumnTable = ({ name, tableData, id }) => {
   return (
-    <TableContainer
-      sx={{
-        mx: 3,
-      }}
-    >
+    <TableContainer>
       <Table aria-label={`Information about ${name}`}>
         <TableBody>
           {tableData

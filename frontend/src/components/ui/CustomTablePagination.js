@@ -36,6 +36,8 @@ const CustomTablePagination = ({ totalRecords }) => {
       page={page - 1}
       onPageChange={handlePageChange}
       onRowsPerPageChange={handleChangeRowsPerPage}
+      showFirstButton={true}
+      showLastButton={true}
     />
   );
 };
