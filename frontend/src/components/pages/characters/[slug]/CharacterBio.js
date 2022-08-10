@@ -1,3 +1,8 @@
+import { useEffect, useState } from "react";
+
+import Image from "next/image";
+import Link from "next/link";
+
 import {
   Button,
   Card,
@@ -6,11 +11,10 @@ import {
   CardHeader,
   CardMedia,
 } from "@mui/material";
-import Image from "next/image";
-import Link from "next/link";
-import { useEffect, useState } from "react";
-import { getHouseColor } from "../../../../lib/utils";
+
 import TwoColumnTable from "../../../ui/TwoColumnTable";
+
+import { getHouseColor } from "../../../../lib/utils";
 
 const BioCard = ({ attributes, apiLink }) => {
   const {

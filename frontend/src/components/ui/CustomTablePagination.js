@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+
 import { useRouter } from "next/router";
+
 import { TablePagination } from "@mui/material";
 
 const CustomTablePagination = ({ totalRecords }) => {

@@ -3,6 +3,7 @@ import { Typography } from "@mui/material";
 import Meta from "../../components/Meta";
 import DataListTable from "../../components/ui/DataListTable";
 import SearchField from "../../components/ui/SearchField";
+
 import { getCharacters } from "../../lib/load_characters";
 
 const Characters = ({ charactersData }) => {

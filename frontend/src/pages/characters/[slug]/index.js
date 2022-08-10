@@ -1,10 +1,10 @@
 import { Container } from "@mui/material";
 
-import { getCharacterBySlug } from "../../../lib/load_characters";
-
 import CharacterBio from "../../../components/pages/characters/[slug]/CharacterBio";
 import CharacterMeta from "../../../components/pages/characters/[slug]/CharacterMeta";
 import CharacterAccordion from "../../../components/pages/characters/[slug]/CharacterAccordion";
+
+import { getCharacterBySlug } from "../../../lib/load_characters";
 
 const Character = ({ data, links }) => {
   const { attributes } = data;
