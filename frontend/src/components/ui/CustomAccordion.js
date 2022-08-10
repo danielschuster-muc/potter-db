@@ -1,15 +1,15 @@
-import { ExpandMore } from "@mui/icons-material";
+import { useState } from "react";
 import {
   Accordion,
   AccordionDetails,
   AccordionSummary,
   Typography,
 } from "@mui/material";
-import { useState } from "react";
+import { ExpandMore } from "@mui/icons-material";
 
 const CustomAccordion = ({ array, name }) => {
+  const [expanded, setExpanded] = useState(false);
   const arrayHasElements = array?.length > 0;
-  const [expanded, setExpanded] = useState(arrayHasElements);
 
   const handleChange = () => {
     setExpanded((prevExpanded) => !prevExpanded);

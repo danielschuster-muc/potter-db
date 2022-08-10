@@ -9,6 +9,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { getHouseColor } from "../../../../lib/utils";
 import TwoColumnTable from "../../../ui/TwoColumnTable";
 
 const BioCard = ({ attributes, apiLink }) => {
@@ -119,9 +120,9 @@ const BioCard = ({ attributes, apiLink }) => {
   ];
 
   return (
-    <Card>
+    <Card sx={{ border: `3px solid ${getHouseColor(house)}` }}>
       <CardHeader
-        title="Bio"
+        title={name}
         subheader={subHeader}
         sx={{ textAlign: "center" }}
       />

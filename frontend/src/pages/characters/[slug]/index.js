@@ -1,28 +1,20 @@
-import { Grid } from "@mui/material";
+import { Container } from "@mui/material";
 
 import { getCharacterBySlug } from "../../../lib/load_characters";
-import BioCard from "../../../components/pages/characters/[slug]/BioCard";
-import SingleCharacterMeta from "../../../components/pages/characters/[slug]/CharacterMeta";
-import CharacterPageContent from "../../../components/pages/characters/[slug]/CharacterPageContent";
 
-const Character = ({ data, links, errorMessage }) => {
+import CharacterBio from "../../../components/pages/characters/[slug]/CharacterBio";
+import CharacterMeta from "../../../components/pages/characters/[slug]/CharacterMeta";
+import CharacterAccordion from "../../../components/pages/characters/[slug]/CharacterAccordion";
+
+const Character = ({ data, links }) => {
   const { attributes } = data;
 
   return (
-    <>
-      <SingleCharacterMeta attributes={attributes} />
-      <h1>{attributes.name}</h1>
-
-      <Grid container spacing={4}>
-        <Grid item xs={12} md={8} order={{ xs: 2, md: 1 }}>
-          <CharacterPageContent attributes={attributes} />
-        </Grid>
-
-        <Grid item xs={12} md={4} order={{ xs: 1, md: 2 }}>
-          <BioCard attributes={attributes} apiLink={links.self} />
-        </Grid>
-      </Grid>
-    </>
+    <Container maxWidth="md">
+      <CharacterMeta attributes={attributes} />
+      <CharacterBio attributes={attributes} apiLink={links.self} />
+      <CharacterAccordion attributes={attributes} />
+    </Container>
   );
 };
 
