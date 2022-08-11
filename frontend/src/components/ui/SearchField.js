@@ -13,6 +13,7 @@ const SearchField = ({ totalResults = 0 }) => {
     const timer = setTimeout(() => {
       const { pathname, query } = router;
       query.search = inputText;
+      query.page = 1;
       router.push({ pathname, query });
     }, 300);
     return () => clearTimeout(timer);
@@ -32,7 +33,7 @@ const SearchField = ({ totalResults = 0 }) => {
       type="search"
       fullWidth
       label="Search"
-      placeholder="Search Characters"
+      placeholder="e.g. Harry"
       value={inputText || ""}
       onChange={(e) => setInputText(e.target.value)}
       helperText={`${totalResults} Results`}

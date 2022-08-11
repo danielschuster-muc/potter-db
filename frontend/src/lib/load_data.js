@@ -17,7 +17,7 @@ export const getBySlug = async (type, slug) => {
 
 const defaultQuery = {
   page: 1,
-  perPage: 25,
+  perPage: 15,
   search: "",
   orderBy: "",
   direction: "asc",

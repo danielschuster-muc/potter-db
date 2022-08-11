@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import { useRouter } from "next/router";
 
@@ -12,22 +12,29 @@ const CustomTablePagination = ({ totalRecords }) => {
     parseInt(router.query.perPage) || 15
   );
 
-  const handlePageChange = (_event, newPage) => {
+  useEffect(() => {
     const { pathname, query } = router;
-    newPage = newPage <= 0 ? 1 : newPage + 1;
-    query.page = newPage;
-    setPage(newPage);
+    query.page = page;
     router.push({ pathname, query });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [page]);
+
+  useEffect(() => {
+    const { pathname, query } = router;
+    query.perPage = rowsPerPage;
+    router.push({ pathname, query });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [rowsPerPage]);
+
+  const handlePageChange = (_event, newPage) => {
+    newPage = newPage <= 0 ? 1 : newPage + 1;
+    setPage(newPage);
   };
 
   const handleChangeRowsPerPage = (event) => {
-    const { pathname, query } = router;
     const perPage = +event.target.value;
-    query.page = 1;
-    query.perPage = perPage;
     setRowsPerPage(perPage);
     setPage(1);
-    router.push({ pathname, query });
   };
 
   return (
