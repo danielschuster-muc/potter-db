@@ -11,10 +11,6 @@ const Characters = ({ charactersData }) => {
 
   const totalRecords = meta?.pagination.records;
 
-  const metaDescription = `List of all Harry Potter characters - ${
-    meta ? `Total: ${totalRecords}` : ""
-  }`;
-
   const headCells = [
     "Name",
     "Species",
@@ -27,7 +23,10 @@ const Characters = ({ charactersData }) => {
 
   return (
     <>
-      <Meta title="Characters" description={metaDescription} />
+      <Meta
+        title="Characters"
+        description="List of all Harry Potter characters"
+      />
       <Typography variant="h3">
         Welcome to the Harry Potter Character List
       </Typography>
