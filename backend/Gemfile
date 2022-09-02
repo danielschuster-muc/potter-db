@@ -22,15 +22,15 @@ gem "rack-cors"
 gem "bootsnap", require: false
 
 # Allows you to create pretty URL’s and work with human-friendly strings [https://github.com/norman/friendly_id]
-gem 'friendly_id', '~> 5.1'
+gem "friendly_id", "~> 5.1"
 # A fast JSON:API serializer for Ruby Objects [https://github.com/jsonapi-serializer/jsonapi-serializer]
-gem 'jsonapi-serializer'
+gem "jsonapi-serializer"
 # Object-based searching [https://github.com/activerecord-hackery/ransack]
-gem 'ransack'
+gem "ransack"
 # Lightweight, simple and maintained JSON:API support for your next Ruby HTTP API [https://github.com/stas/jsonapi.rb]
-gem 'jsonapi.rb'
+gem "jsonapi.rb"
 # Rack middleware for blocking & throttling [https://github.com/rack/rack-attack/tree/main]
-gem 'rack-attack'
+gem "rack-attack"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -40,20 +40,20 @@ group :development, :test do
   gem "dotenv-rails"
 
   # RSpec for Rails 5+ [https://github.com/rspec/rspec-rails]
-  gem 'rspec-rails'
+  gem "rspec-rails"
   # Fixtures replacement [https://github.com/thoughtbot/factory_bot_rails]
-  gem 'factory_bot_rails'
+  gem "factory_bot_rails"
   # Code coverage [https://github.com/simplecov-ruby/simplecov]
   gem "simplecov", require: false
   # A library for generating fake data such as names, addresses, and phone numbers. [https://github.com/faker-ruby/faker]
-  gem 'faker'
+  gem "faker"
 
   # Code analyzer and formatter [https://github.com/rubocop/rubocop]
-  gem 'rubocop'
+  gem "rubocop"
   # Rubocop extension for rails [https://github.com/rubocop/rubocop-rails]
-  gem 'rubocop-rails'
+  gem "rubocop-rails"
   # Code style checking for RSpec files [https://github.com/rubocop/rubocop-rspec]
-  gem 'rubocop-rspec'
+  gem "rubocop-rspec"
 end
 
 group :development do

@@ -8,7 +8,6 @@ class ApplicationController < ActionController::API
     pagination = jsonapi_pagination_meta(resources)
     {
       pagination: (pagination if pagination.present?),
-      total: (resources.count if resources.respond_to?(:count)),
       copyright: "© #{Date.today.year} Potter DB API",
       source: "Data is based on https://harrypotter.fandom.com/",
       generated_at: Time.current
