@@ -2,7 +2,7 @@ module Rack
   class HealthCheck
     def call(_env)
       [
-        ok? ? 200 : 503, {}, []
+        ok? ? 204 : 503, {}, []
       ]
     end
 
