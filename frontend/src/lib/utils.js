@@ -1,3 +1,5 @@
+const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://api.potterdb.com";
+
 export const getHouseColor = (house) => {
   switch (house) {
     case "Gryffindor":
@@ -10,5 +12,15 @@ export const getHouseColor = (house) => {
       return "#222f5b";
     default:
       return "#bebebe";
+  }
+};
+
+export const getDatabaseStatus = async () => {
+  try {
+    console.log(apiUrl);
+    const response = await fetch(`${apiUrl}/health`);
+    return response.status;
+  } catch (error) {
+    return 500;
   }
 };

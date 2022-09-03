@@ -1,4 +1,6 @@
 import { Typography } from "@mui/material";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 import Meta from "../../components/Meta";
 import DataListTable from "../../components/ui/DataListTable";
@@ -8,6 +10,10 @@ import { getCharacters } from "../../lib/load_characters";
 
 const Characters = ({ charactersData }) => {
   const { data, meta, hasError } = charactersData;
+
+  // store / ctx for search, page and perPage
+  const router = useRouter();
+  useEffect(() => {}, []);
 
   const totalRecords = meta?.pagination.records;
 

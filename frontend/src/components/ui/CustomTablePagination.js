@@ -15,14 +15,14 @@ const CustomTablePagination = ({ totalRecords }) => {
   useEffect(() => {
     const { pathname, query } = router;
     query.page = page;
-    router.push({ pathname, query });
+    router.replace({ pathname, query });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page]);
 
   useEffect(() => {
     const { pathname, query } = router;
     query.perPage = rowsPerPage;
-    router.push({ pathname, query });
+    router.replace({ pathname, query });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [rowsPerPage]);
 

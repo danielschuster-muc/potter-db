@@ -22,7 +22,8 @@ const SearchField = ({ totalResults = 0 }) => {
 
   useEffect(() => {
     setInputText(router.query.search);
-  }, [router.query.search]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <TextField
