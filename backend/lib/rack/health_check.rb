@@ -1,8 +1,11 @@
 module Rack
   class HealthCheck
     def call(_env)
+      status = {
+        status: ok? ? "Everything is up and running" : "Database not available"
+      }
       [
-        ok? ? 204 : 503, {}, []
+        ok? ? 200 : 503, {}, [status.to_json]
       ]
     end
 
