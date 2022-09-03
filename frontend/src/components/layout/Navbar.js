@@ -6,9 +6,24 @@ const Navbar = () => {
   return (
     <AppBar component="nav" position="static">
       <Toolbar>
-        <Link href="/">
-          <Typography>Potter DB</Typography>
-        </Link>
+        <Typography
+          variant="h6"
+          noWrap
+          href="/"
+          sx={{
+            mr: 2,
+            letterSpacing: ".2rem",
+            color: "inherit",
+            textDecoration: "none",
+            flexGrow: 1,
+          }}
+        >
+          <Link href="/">Potter DB</Link>
+        </Typography>
+
+        <Typography variant="h6" component="div">
+          <Link href="/characters">Characters</Link>
+        </Typography>
       </Toolbar>
     </AppBar>
   );

@@ -1,4 +1,4 @@
-const apiUrl = process.env.API_URL || "https://api.potterdb.com";
+const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://api.potterdb.com";
 
 const simpleFetch = async (url) => {
   return fetch(url)
