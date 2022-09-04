@@ -1,17 +1,15 @@
 import { useEffect, useState } from "react";
 
 import { Container } from "@mui/system";
-import { CssBaseline, Box, Popover } from "@mui/material";
-import { ThemeProvider, useTheme } from "@emotion/react";
+import { Box, CssBaseline } from "@mui/material";
+import { ThemeProvider } from "@emotion/react";
 
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import { CustomBreadCrumb } from "../breadcrumb/CustomBreadCrumb";
 import DatabaseAlert from "../ui/DatabaseAlert";
+import Theme from "../ui/Theme";
 
 const Layout = ({ children }) => {
-  const theme = useTheme();
-
   const [hasMounted, setHasMounted] = useState(false);
 
   useEffect(() => {
@@ -23,19 +21,21 @@ const Layout = ({ children }) => {
   }
 
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={Theme}>
       <CssBaseline />
-      <Box
+      <Container
+        fixed
+        disableGutters
         style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
       >
         <Navbar />
         {/* <CustomBreadCrumb /> */}
-        <Container component="main" sx={{ flex: 1, my: 5 }}>
+        <Box component="main" sx={{ flex: 1 }}>
           <DatabaseAlert />
           {children}
-        </Container>
+        </Box>
         <Footer />
-      </Box>
+      </Container>
     </ThemeProvider>
   );
 };
