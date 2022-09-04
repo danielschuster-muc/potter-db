@@ -2,9 +2,14 @@ import { AppBar, Container, Toolbar, Typography } from "@mui/material";
 
 const Footer = () => {
   return (
-    <AppBar position="static" component="footer" color="default">
+    <AppBar
+      component="footer"
+      color="transparent"
+      elevation={0}
+      position="static"
+    >
       <Toolbar sx={{ textAlign: "center" }}>
-        <Container maxWidth="xl">
+        <Container disableGutters>
           <Typography>
             Copyright &copy; {new Date().getFullYear()} Potter DB
           </Typography>

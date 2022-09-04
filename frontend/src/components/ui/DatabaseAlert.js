@@ -49,6 +49,7 @@ const DatabaseAlert = () => {
             </IconButton>
           }
           severity="error"
+          variant="filled"
         >
           <AlertTitle>API is currently not available!</AlertTitle>
           Check the <Link href="https://status.potterdb.com">
