@@ -12,7 +12,7 @@ A complete Potter DB API containing information about books, movies, spells, pot
 
 Project is created with:
 
-- Ruby v3.0.3
+- Ruby v3.1.2
 - Rails v7.0.3
 - Postgres v1.1
 
@@ -31,12 +31,12 @@ cd potter-db-api
 ruby -v
 ```
 
-The output should start with something like `ruby 3.0.3`.
+The output should start with something like `ruby 3.1.2`.
 
 If not, install the right ruby version using [rbenv](https://github.com/rbenv/rbenv) (may take a while):
 
 ```shell
-rbenv install 3.0.3
+rbenv install 3.1.2
 ```
 
 ### Install dependencies
