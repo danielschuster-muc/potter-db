@@ -6,11 +6,11 @@ require_relative "lib/rack/status_check"
 use Rack::Cors do
   allow do
     origins "*"
-    resource "/", headers: :any, methods: :get
+    resource "/status", headers: :any, methods: :get
   end
 end
 
-map "/" do
+map "/status" do
   run Rack::StatusCheck.new
 end
 
