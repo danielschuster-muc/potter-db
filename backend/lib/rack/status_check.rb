@@ -2,12 +2,13 @@ module Rack
   class StatusCheck
     def call(_env)
       status = {
-        status: ok? ? "Everything is up and running" : "Oh no, something is broken!",
+        status: ok? ? "everything is up and running" : "oh no, it's broken!",
         database: {
           connected: database_connected?,
           migrations_updated: migrations_updated?
         }
       }
+
       [
         ok? ? 200 : 503, {}, [status.to_json]
       ]
