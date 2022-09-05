@@ -9,7 +9,6 @@ class ApplicationController < ActionController::API
     {
       pagination: (pagination if pagination.present?),
       copyright: "© #{Date.today.year} Potter DB API",
-      source: "Data is based on https://harrypotter.fandom.com/",
       generated_at: Time.current
     }.compact
   end
