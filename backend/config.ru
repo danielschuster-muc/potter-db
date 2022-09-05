@@ -1,17 +1,17 @@
 # This file is used by Rack-based servers to start the application.
 
 require_relative "config/environment"
-require_relative "lib/rack/health_check"
+require_relative "lib/rack/status_check"
 
 use Rack::Cors do
   allow do
-    origins '*'
-    resource '/health', headers: :any, methods: :get
+    origins "*"
+    resource "/", headers: :any, methods: :get
   end
 end
 
-map "/health" do
-  run Rack::HealthCheck.new
+map "/" do
+  run Rack::StatusCheck.new
 end
 
 run Rails.application
