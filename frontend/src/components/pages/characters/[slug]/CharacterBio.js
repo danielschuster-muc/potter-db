@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 import Image from "next/image";
-import Link from "next/link";
 
 import {
   Button,
@@ -15,6 +14,7 @@ import {
 import TwoColumnTable from "../../../ui/TwoColumnTable";
 
 import { getHouseColor } from "../../../../lib/utils";
+import Link from "../../../../lib/Link";
 
 const BioCard = ({ attributes, apiLink }) => {
   const {

@@ -1,33 +1,28 @@
+import { useEffect, useRef, useState } from "react";
+import { Alert, AlertTitle, IconButton, Snackbar } from "@mui/material";
 import { Close } from "@mui/icons-material";
-import {
-  Alert,
-  AlertTitle,
-  Collapse,
-  IconButton,
-  Snackbar,
-  Typography,
-} from "@mui/material";
-import Link from "next/link";
-import { useEffect, useState } from "react";
+
 import { getDatabaseStatus } from "../../lib/utils";
+import Link from "../../lib/Link";
 
 const DatabaseAlert = () => {
   const [databaseStatus, setDatabaseStatus] = useState(200);
   const [open, setOpen] = useState(true);
+  const effectRan = useRef(false);
 
   useEffect(() => {
-    async function fetchDatabaseStatus() {
-      const status = await getDatabaseStatus();
-      setDatabaseStatus(status);
+    if (!effectRan.current) {
+      const fetchDatabaseStatus = async () => {
+        const status = await getDatabaseStatus();
+        setDatabaseStatus(status);
+      };
+      fetchDatabaseStatus();
+      return () => (effectRan.current = true);
     }
-    fetchDatabaseStatus();
   }, []);
 
   const handleClose = (_event, reason) => {
-    if (reason === "clickaway") {
-      return;
-    }
-    setOpen(false);
+    if (reason !== "clickaway") setOpen(false);
   };
 
   if (databaseStatus != 200) {
@@ -55,7 +50,8 @@ const DatabaseAlert = () => {
           Check the <Link href="https://status.potterdb.com">
             Status Page
           </Link>{" "}
-          for more information.
+          for more information. <br />
+          Code: {databaseStatus}
         </Alert>
       </Snackbar>
     );
