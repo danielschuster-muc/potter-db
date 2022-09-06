@@ -47,7 +47,8 @@ const DatabaseAlert = () => {
           variant="filled"
         >
           <AlertTitle>API is currently not available!</AlertTitle>
-          Check the <Link href="https://status.potterdb.com">
+          Check the{" "}
+          <Link href="https://status.potterdb.com" color="secondary">
             Status Page
           </Link>{" "}
           for more information. <br />

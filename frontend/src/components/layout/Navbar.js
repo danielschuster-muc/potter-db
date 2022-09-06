@@ -1,7 +1,7 @@
 import { AppBar, Toolbar, Typography } from "@mui/material";
 import { Bolt } from "@mui/icons-material";
-import Link from "../../lib/Link";
 import { Box } from "@mui/system";
+import Link from "../../lib/Link";
 
 const Navbar = () => {
   return (
