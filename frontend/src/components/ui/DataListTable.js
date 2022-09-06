@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import Link from "next/link";
 import { useRouter } from "next/router";
 
 import {
@@ -17,6 +16,7 @@ import { Box } from "@mui/system";
 import { visuallyHidden } from "@mui/utils";
 
 import CustomTablePagination from "./CustomTablePagination";
+import Link from "../../lib/Link";
 
 const DataListTable = ({ characters, headCells, totalRecords }) => {
   const router = useRouter();

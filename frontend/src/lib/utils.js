@@ -18,5 +18,10 @@ export const getHouseColor = (house) => {
 export const getDatabaseStatus = async () => {
   return await fetch(`${apiUrl}/status`)
     .then((response) => response.status)
-    .catch((_e) => 503);
+    .catch((error) => {
+      if (error.response) {
+        return error.response.status;
+      }
+      return 503;
+    });
 };

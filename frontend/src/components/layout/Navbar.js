@@ -1,26 +1,28 @@
-import Link from "next/link";
-
 import { AppBar, Toolbar, Typography } from "@mui/material";
 import { Bolt } from "@mui/icons-material";
+import Link from "../../lib/Link";
+import { Box } from "@mui/system";
 
 const Navbar = () => {
   return (
     <AppBar component="nav" color="transparent" elevation={0} position="static">
       <Toolbar disableGutters>
-        <Bolt sx={{ display: "flex" }} color="primary" fontSize="large" />
-        <Typography
-          variant="h5"
-          noWrap
-          href="/"
-          sx={{
-            mr: 2,
-            letterSpacing: ".2rem",
-            textDecoration: "none",
-            flexGrow: 1,
-          }}
-        >
-          <Link href="/">Potter DB</Link>
-        </Typography>
+        <Link href="/">
+          <Box display="flex">
+            <Bolt fontSize="large" />
+            <Typography
+              variant="h5"
+              noWrap
+              sx={{
+                mr: 2,
+                letterSpacing: ".2rem",
+                textDecoration: "none",
+              }}
+            >
+              Potter DB
+            </Typography>
+          </Box>
+        </Link>
 
         {/* <Typography variant="h6" component="div">
             <Link href="/characters">Characters</Link>
