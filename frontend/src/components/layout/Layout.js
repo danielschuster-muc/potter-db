@@ -24,14 +24,12 @@ const Layout = ({ children }) => {
     <ThemeProvider theme={Theme}>
       <CssBaseline />
       <Container
-        fixed
-        disableGutters
         style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
       >
+        <DatabaseAlert />
         <Navbar />
         {/* <CustomBreadCrumb /> */}
         <Box component="main" sx={{ flex: 1 }}>
-          <DatabaseAlert />
           {children}
         </Box>
         <Footer />
