@@ -31,10 +31,15 @@ gem "ransack"
 gem "jsonapi.rb"
 # Rack middleware for blocking & throttling [https://github.com/rack/rack-attack/tree/main]
 gem "rack-attack"
+# Ruby implementation of GraphQL [https://github.com/rmosolgo/graphql-ruby]
+gem "graphql"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[mri mingw x64_mingw]
+
+  # Ruby implementation of GraphQL [https://github.com/rmosolgo/graphql-ruby]
+  gem "graphiql-rails", group: :development
 
   # Load environment variables from `.env` [https://github.com/bkeepers/dotenv]
   gem "dotenv-rails"
