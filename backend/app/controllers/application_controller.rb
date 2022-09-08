@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::API
   include JSONAPI::Filtering
   include JSONAPI::Pagination
-  include ErrorExtender unless Rails.env.development?
+  include ErrorExtender #unless Rails.env.development?
 
   def jsonapi_meta(resources)
     pagination = jsonapi_pagination_meta(resources)
