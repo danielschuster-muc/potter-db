@@ -10,10 +10,36 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_07_25_202122) do
+ActiveRecord::Schema[7.0].define(version: 2022_09_08_215550) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pgcrypto"
   enable_extension "plpgsql"
+
+  create_table "books", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.string "slug"
+    t.string "title"
+    t.text "summary"
+    t.date "release_date"
+    t.string "dedication"
+    t.integer "pages"
+    t.integer "order"
+    t.text "cover_url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["slug"], name: "index_books_on_slug", unique: true
+  end
+
+  create_table "chapters", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.string "slug"
+    t.string "title"
+    t.text "summary"
+    t.integer "order"
+    t.uuid "book_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["book_id"], name: "index_chapters_on_book_id"
+    t.index ["slug"], name: "index_chapters_on_slug", unique: true
+  end
 
   create_table "characters", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
     t.string "slug"
@@ -81,4 +107,5 @@ ActiveRecord::Schema[7.0].define(version: 2022_07_25_202122) do
     t.index ["slug"], name: "index_spells_on_slug", unique: true
   end
 
+  add_foreign_key "chapters", "books"
 end

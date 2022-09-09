@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   root to: 'pages#home'
 
   namespace :v1, defaults: { format: :json } do
+    resources :books, only: %i[index show] do
+      resources :chapters, only: %i[index show]
+    end
     resources :characters, only: %i[index show]
     resources :potions, only: %i[index show]
     resources :spells, only: %i[index show]

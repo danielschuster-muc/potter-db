@@ -5,7 +5,7 @@ import FaqCard from "../components/pages/index/FaqCard";
 const HomePage = () => {
   return (
     <>
-      <Meta title="Landing Page" />
+      <Meta />
       <LandingPageBanner />
       <FaqCard />
     </>
