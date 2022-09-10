@@ -5,9 +5,7 @@ import {
   faVenusMars,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { FirstPage } from "@mui/icons-material";
 import {
-  Button,
   Card,
   CardActions,
   CardContent,
@@ -20,7 +18,7 @@ import {
 import { Box } from "@mui/system";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 
 import Meta from "../../components/Meta";
@@ -37,26 +35,37 @@ const Characters = ({ charactersData }) => {
 
   const [characters, setCharacters] = useState(data);
   const [hasMore, setHasMore] = useState(true);
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
 
   const fetchMoreData = async () => {
-    setPage((prePage) => (prePage += 1));
-    const myQuery = { page: page + 1 };
-    const newCharactersData = await getCharacters(myQuery);
-    const newCharacters = newCharactersData.data;
+    if (!isLoadingMore) {
+      setIsLoadingMore(true);
 
-    setCharacters((preCharacters) => {
-      const characterList = {};
-      [...preCharacters, ...newCharacters].forEach((item) => {
-        characterList[item.id] = item;
-      });
-      return Object.values(characterList);
-    });
+      const myQuery = { page: page + 1 };
+      setPage((prePage) => (prePage += 1));
 
-    const pagination = newCharactersData.meta.pagination;
-    if (pagination.current == pagination.last) {
-      setHasMore(false);
+      const newCharactersData = await getCharacters(myQuery);
+      const newCharacters = newCharactersData?.data;
+      if (newCharacters) {
+        setCharacters((preCharacters) => {
+          const characterList = {};
+          [...preCharacters, ...newCharacters].forEach((item) => {
+            characterList[item.id] = item;
+          });
+          return Object.values(characterList);
+        });
+
+        const pagination = newCharactersData.meta.pagination;
+        if (pagination.current == pagination.last) {
+          setHasMore(false);
+        }
+      }
+
+      setIsLoadingMore(false);
     }
   };
+
+  console.log(characters.length);
 
   return (
     <>
@@ -67,24 +76,17 @@ const Characters = ({ charactersData }) => {
       <Typography variant="h3">Character Search</Typography>
 
       <InfiniteScroll
+        style={{ overflow: "hidden" }}
         dataLength={characters.length}
         next={fetchMoreData}
         hasMore={hasMore}
-        loader={<CircularProgress />}
+        loader={<CircularProgress aria-label="Loading more characters" />}
         endMessage={<h4>Nothing more to show</h4>}
       >
         <Grid container spacing={2}>
           {characters.map((character) => {
-            const {
-              name,
-              slug,
-              house,
-              born,
-              died,
-              species,
-              gender,
-              image_url,
-            } = character.attributes;
+            const { name, slug, house, born, died, species, gender, image } =
+              character.attributes;
             return (
               <Grid key={character.id} item xs={12} sm={6} md={4} lg={3}>
                 <Card
@@ -99,7 +101,7 @@ const Characters = ({ charactersData }) => {
                   <CardMedia>
                     <Image
                       as="image"
-                      src={image_url || "/images/question_mark.jpg"}
+                      src={image || "/images/question_mark.jpg"}
                       alt={`Picture of ${name}`}
                       width="100%"
                       height="100%"
@@ -147,7 +149,7 @@ const Characters = ({ charactersData }) => {
                   </CardContent>
                   <CardActions>
                     <Link href={`/characters/${slug}`}>
-                      <Button size="small">More Information</Button>
+                      Detailed Character Information
                     </Link>
                   </CardActions>
                 </Card>

@@ -37,8 +37,8 @@ const BioCard = ({ attributes, apiLink }) => {
     house,
     patronus,
     alias_names,
-    image_url,
-    wiki_link,
+    image,
+    wiki,
   } = attributes;
 
   const [subHeader, setSubHeader] = useState();
@@ -133,7 +133,7 @@ const BioCard = ({ attributes, apiLink }) => {
       <CardMedia>
         <Image
           as="image"
-          src={image_url || "/images/question_mark.jpg"}
+          src={image || "/images/question_mark.jpg"}
           alt={`Picture of ${name}`}
           width="100%"
           height="100%"
@@ -147,7 +147,7 @@ const BioCard = ({ attributes, apiLink }) => {
         <TwoColumnTable name={name} tableData={informationTable} id={slug} />
       </CardContent>
       <CardActions sx={{ display: "flex", justifyContent: "center" }}>
-        <Link href={wiki_link}>
+        <Link href={wiki}>
           <Button size="small">Wiki</Button>
         </Link>
         <Link href={apiLink}>
