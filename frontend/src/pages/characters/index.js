@@ -65,8 +65,6 @@ const Characters = ({ charactersData }) => {
     }
   };
 
-  console.log(characters.length);
-
   return (
     <>
       <Meta

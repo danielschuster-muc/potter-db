@@ -4,7 +4,10 @@ import CharacterBio from "../../../components/pages/characters/[slug]/CharacterB
 import CharacterMeta from "../../../components/pages/characters/[slug]/CharacterMeta";
 import CharacterAccordion from "../../../components/pages/characters/[slug]/CharacterAccordion";
 
-import { getCharacterBySlug } from "../../../lib/load_characters";
+import {
+  getCharacterBySlug,
+  getCharacters,
+} from "../../../lib/load_characters";
 
 const Character = ({ data, links }) => {
   const { attributes } = data;
@@ -19,7 +22,7 @@ const Character = ({ data, links }) => {
 };
 
 export async function getStaticPaths() {
-  const slugs = [
+  const defaultSlugs = [
     "harry-potter",
     "ronald-weasley",
     "hermione-granger",
@@ -40,6 +43,16 @@ export async function getStaticPaths() {
     "petunia-dursley",
     "arthur-weasley",
     "molly-weasley",
+  ];
+
+  const query = { perPage: 30 };
+  const fetchedCharacters = await getCharacters(query);
+
+  const characters = fetchedCharacters?.data;
+
+  const slugs = [
+    ...defaultSlugs,
+    ...characters.map((character) => character.attributes.slug),
   ];
 
   const paths = slugs.map((slug) => ({
