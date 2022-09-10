@@ -23,7 +23,7 @@ class CharacterSerializer < ApplicationSerializer
     :romances,
     :titles,
     :wands,
-    :image_url,
-    :wiki_link
+    :image,
+    :wiki
   )
 end

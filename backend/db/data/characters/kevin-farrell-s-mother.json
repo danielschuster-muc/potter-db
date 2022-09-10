@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Professional Quidditch player"
-  ],
+  "jobs": ["Professional Quidditch player"],
   "titles": null,
-  "family_members": [
-    "Kevin Farrell (son)"
-  ],
+  "family_members": ["Kevin Farrell (son)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Kevin_Farrell's_mother"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Kevin_Farrell's_mother"
 }

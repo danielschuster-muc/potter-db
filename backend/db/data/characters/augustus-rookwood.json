@@ -17,16 +17,11 @@
   "house": null,
   "patronus": "None",
   "alias_names": null,
-  "jobs": [
-    "Unspeakable (formerly)"
-  ],
+  "jobs": ["Unspeakable (formerly)"],
   "titles": null,
-  "family_members": [
-    "Victor Rookwood (possibly)",
-    "Rookwood family"
-  ],
+  "family_members": ["Victor Rookwood (possibly)", "Rookwood family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e7/DeathEaterHoldingRon.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Augustus_Rookwood"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e7/DeathEaterHoldingRon.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Augustus_Rookwood"
 }

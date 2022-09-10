@@ -17,14 +17,11 @@
   "house": "Ravenclaw",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Astronomer",
-    "Inventor"
-  ],
+  "jobs": ["Astronomer", "Inventor"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/27/Perpetua_Fancourt.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Perpetua_Fancourt"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/27/Perpetua_Fancourt.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Perpetua_Fancourt"
 }

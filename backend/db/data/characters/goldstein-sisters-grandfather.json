@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Owl breeder"
-  ],
+  "jobs": ["Owl breeder"],
   "titles": null,
   "family_members": [
     "Mr Goldstein (son or son-in-law)",
@@ -29,6 +27,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Goldstein_sisters'_grandfather"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Goldstein_sisters'_grandfather"
 }

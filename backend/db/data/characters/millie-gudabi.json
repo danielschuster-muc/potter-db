@@ -21,12 +21,10 @@
     "Keeper for the Thundelarra Thunderers (formerly)",
     "Quidditch Commentator"
   ],
-  "titles": [
-    "Keeper (formerly)"
-  ],
+  "titles": ["Keeper (formerly)"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/52/Millie_Gudabi.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Millie_Gudabi"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/52/Millie_Gudabi.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Millie_Gudabi"
 }

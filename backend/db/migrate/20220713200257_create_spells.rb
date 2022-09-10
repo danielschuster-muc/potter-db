@@ -9,8 +9,8 @@ class CreateSpells < ActiveRecord::Migration[7.0]
       t.string :light
       t.string :hand
       t.string :creator
-      t.text :image_url
-      t.text :wiki_link
+      t.text :image
+      t.text :wiki
 
       t.timestamps
     end

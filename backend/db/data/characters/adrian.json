@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Photographer at the Daily Prophet"
-  ],
+  "jobs": ["Photographer at the Daily Prophet"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/56/Adrian_1.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Adrian"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/56/Adrian_1.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Adrian"
 }

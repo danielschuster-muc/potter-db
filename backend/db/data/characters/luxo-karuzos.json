@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Illustrator"
-  ],
+  "jobs": ["Illustrator"],
   "titles": null,
-  "family_members": [
-    "Lukas Karuzos (possibly)"
-  ],
+  "family_members": ["Lukas Karuzos (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Luxo_Karuzos"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Luxo_Karuzos"
 }

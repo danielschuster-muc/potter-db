@@ -8,7 +8,7 @@ FactoryBot.define do
     light { "MyString" }
     hand { "MyString" }
     creator { "MyString" }
-    image_url { "MyText" }
-    wiki_link { "MyText" }
+    image { "MyText" }
+    wiki { "MyText" }
   end
 end

@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Professor at Hogwarts School of Witchcraft and Wizardry"
-  ],
-  "titles": [
-    "Professor"
-  ],
+  "jobs": ["Professor at Hogwarts School of Witchcraft and Wizardry"],
+  "titles": ["Professor"],
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f3/Eleazar_Fig_HL.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Eleazar_Fig"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f3/Eleazar_Fig_HL.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Eleazar_Fig"
 }

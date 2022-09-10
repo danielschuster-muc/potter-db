@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Magizoologist"
-  ],
-  "titles": [
-    "Lord"
-  ],
+  "jobs": ["Magizoologist"],
+  "titles": ["Lord"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0d/Lord_Stoddard_Withers.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Stoddard_Withers"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0d/Lord_Stoddard_Withers.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Stoddard_Withers"
 }

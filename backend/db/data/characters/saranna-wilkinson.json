@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Auror"
-  ],
+  "jobs": ["Auror"],
   "titles": null,
-  "family_members": [
-    "Charity Wilkinson (possibly)",
-    "Wilkinson family"
-  ],
+  "family_members": ["Charity Wilkinson (possibly)", "Wilkinson family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Saranna_Wilkinson"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Saranna_Wilkinson"
 }

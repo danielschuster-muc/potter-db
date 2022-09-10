@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Con artist"
-  ],
+  "jobs": ["Con artist"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/be/Ug_the_Unreliable.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ug_the_Unreliable"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/be/Ug_the_Unreliable.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ug_the_Unreliable"
 }

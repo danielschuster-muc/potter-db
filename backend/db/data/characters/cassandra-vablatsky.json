@@ -17,14 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Seer",
-    "Author"
-  ],
+  "jobs": ["Seer", "Author"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/52/Cassandra_Vablatsky_HM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cassandra_Vablatsky"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/52/Cassandra_Vablatsky_HM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Cassandra_Vablatsky"
 }

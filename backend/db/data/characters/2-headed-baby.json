@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Circus performers"
-  ],
+  "jobs": ["Circus performers"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a6/2HeadedBaby.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/2-Headed_Baby"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a6/2HeadedBaby.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/2-Headed_Baby"
 }

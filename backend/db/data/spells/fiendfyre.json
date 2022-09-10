@@ -7,6 +7,6 @@
   "light": "Fire",
   "hand": "Hold wand aloft",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/18/Harry_and_Draco.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Fiendfyre"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/18/Harry_and_Draco.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Fiendfyre"
 }

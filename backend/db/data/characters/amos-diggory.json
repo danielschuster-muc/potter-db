@@ -28,9 +28,7 @@
     "Diggory family"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c4/Amos_Diggory_GOFF_promo_image.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Amos_Diggory"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c4/Amos_Diggory_GOFF_promo_image.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Amos_Diggory"
 }

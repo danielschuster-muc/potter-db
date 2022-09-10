@@ -16,14 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "The Mad Muggle"
-  ],
+  "alias_names": ["The Mad Muggle"],
   "jobs": null,
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/af/Martin_Miggs.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Martin_Miggs"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/af/Martin_Miggs.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Martin_Miggs"
 }

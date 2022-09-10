@@ -11,8 +11,8 @@ module Types
     field :light, String
     field :hand, String
     field :creator, String
-    field :image_url, String
-    field :wiki_link, String
+    field :image, String
+    field :wiki, String
     # field :created_at, GraphQL::Types::ISO8601DateTime, null: false
     # field :updated_at, GraphQL::Types::ISO8601DateTime, null: false
   end

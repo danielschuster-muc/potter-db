@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Dressmaker"
-  ],
-  "titles": [
-    "Madam"
-  ],
+  "jobs": ["Dressmaker"],
+  "titles": ["Madam"],
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/cb/Delfina_Crimp.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Delfina_Crimp"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/cb/Delfina_Crimp.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Delfina_Crimp"
 }

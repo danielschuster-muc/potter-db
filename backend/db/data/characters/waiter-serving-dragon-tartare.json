@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Waiter at Slug Club Christmas party"
-  ],
+  "jobs": ["Waiter at Slug Club Christmas party"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Waiter_serving_dragon_tartare"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Waiter_serving_dragon_tartare"
 }

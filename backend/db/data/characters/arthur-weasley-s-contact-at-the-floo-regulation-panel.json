@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Floo Regulation Panel employee"
-  ],
+  "jobs": ["Floo Regulation Panel employee"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Arthur_Weasley's_contact_at_the_Floo_Regulation_Panel"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Arthur_Weasley's_contact_at_the_Floo_Regulation_Panel"
 }

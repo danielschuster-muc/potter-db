@@ -7,6 +7,6 @@
   "light": "White",
   "hand": "Flick wandDraw wand backFlick again",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f4/Lumos_Maxima.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lumos_Maxima"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f4/Lumos_Maxima.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Lumos_Maxima"
 }

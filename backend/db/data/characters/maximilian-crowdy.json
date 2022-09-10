@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "British Minister for Magic (1770 - 1781)"
-  ],
-  "titles": [
-    "Minister for Magic"
-  ],
-  "family_members": [
-    "Nine children"
-  ],
+  "jobs": ["British Minister for Magic (1770 - 1781)"],
+  "titles": ["Minister for Magic"],
+  "family_members": ["Nine children"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Maximilian_Crowdy"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Maximilian_Crowdy"
 }

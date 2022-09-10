@@ -21,9 +21,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/31/Fulbert_the_Fearful.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Fulbert_the_Fearful"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/31/Fulbert_the_Fearful.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Fulbert_the_Fearful"
 }

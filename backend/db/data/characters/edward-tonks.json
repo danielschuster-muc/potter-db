@@ -16,9 +16,7 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Ted (by family and friends)"
-  ],
+  "alias_names": ["Ted (by family and friends)"],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -39,6 +37,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/42/Ted_Tonks.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Edward_Tonks"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/42/Ted_Tonks.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Edward_Tonks"
 }

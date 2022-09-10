@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Keeper for the English National Quidditch team"
-  ],
-  "titles": [
-    "Keeper"
-  ],
+  "jobs": ["Keeper for the English National Quidditch team"],
+  "titles": ["Keeper"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/64/Denison_Frisby.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Denison_Frisby"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/64/Denison_Frisby.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Denison_Frisby"
 }

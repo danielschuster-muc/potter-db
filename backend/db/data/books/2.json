@@ -1,0 +1,83 @@
+{
+  "title": "Harry Potter and the Chamber of Secrets",
+  "release_date": "2 July 1998",
+  "summary": "Harry Potter's summer has included the worst birthday ever, doomy warnings from a house-elf called Dobby, and rescue from the Dursleys by his friend Ron Weasley in a magical flying car! Back at Hogwarts School of Witchcraft And Wizardry for his second year, Harry hears strange whispers echo through empty corridors – and then the attacks start. Students are found as though turned to stone... Dobby's sinister predictions seem to be coming true.",
+  "dedication": "For Séan P. F. Harris, getaway driver and foul-weather friend",
+  "pages": "251",
+  "cover": "https://www.wizardingworld.com/images/products/books/UK/rectangle-2.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Chamber_of_Secrets",
+  "chapters": [
+    {
+      "title": "The Worst Birthday",
+      "order": "1"
+    },
+    {
+      "title": "Dobby's Warning",
+      "order": "2"
+    },
+    {
+      "title": "The Burrow",
+      "order": "3"
+    },
+    {
+      "title": "At Flourish and Blotts",
+      "order": "4"
+    },
+    {
+      "title": "The Whomping Willow",
+      "order": "5"
+    },
+    {
+      "title": "Gilderoy Lockhart",
+      "order": "6"
+    },
+    {
+      "title": "Mudbloods And Murmurs",
+      "order": "7"
+    },
+    {
+      "title": "The Deathday Party",
+      "order": "8"
+    },
+    {
+      "title": "The Writing on the Wall",
+      "order": "9"
+    },
+    {
+      "title": "The Rogue Bludger",
+      "order": "10"
+    },
+    {
+      "title": "The Duelling Club",
+      "order": "11"
+    },
+    {
+      "title": "The Polyjuice Potion",
+      "order": "12"
+    },
+    {
+      "title": "The Very Secret Diary",
+      "order": "13"
+    },
+    {
+      "title": "Cornelius Fudge",
+      "order": "14"
+    },
+    {
+      "title": "Aragog",
+      "order": "15"
+    },
+    {
+      "title": "The Chamber of Secrets",
+      "order": "16"
+    },
+    {
+      "title": "The Heir of Slytherin",
+      "order": "17"
+    },
+    {
+      "title": "Dobby's Reward",
+      "order": 18
+    }
+  ]
+}

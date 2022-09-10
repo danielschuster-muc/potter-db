@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Healer"
-  ],
-  "titles": [
-    "Saint"
-  ],
+  "jobs": ["Healer"],
+  "titles": ["Saint"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/3f/MungoBonham.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mungo_Bonham"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/3f/MungoBonham.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Mungo_Bonham"
 }

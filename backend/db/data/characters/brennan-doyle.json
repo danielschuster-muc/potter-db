@@ -18,14 +18,10 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Backup Keeper"
-  ],
-  "family_members": [
-    "Mary Doyle (possibly)"
-  ],
+  "titles": ["Backup Keeper"],
+  "family_members": ["Mary Doyle (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/23/Brennan_Doyle.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Brennan_Doyle"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/23/Brennan_Doyle.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Brennan_Doyle"
 }

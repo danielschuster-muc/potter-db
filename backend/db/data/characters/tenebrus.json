@@ -19,11 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Unidentified Thestrals"
-  ],
+  "family_members": ["Unidentified Thestrals"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Tenebrus"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Tenebrus"
 }

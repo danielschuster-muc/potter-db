@@ -18,9 +18,7 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Monsieur"
-  ],
+  "titles": ["Monsieur"],
   "family_members": [
     "Apolline Delacour (wife)",
     "Fleur Delacour (daughter)",
@@ -35,6 +33,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0e/Monsieur_Delacour.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Delacour_sisters'_father"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0e/Monsieur_Delacour.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Delacour_sisters'_father"
 }

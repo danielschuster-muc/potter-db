@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "British Ministry of Magic employee (claimed by his alleged son)"
-  ],
+  "jobs": ["British Ministry of Magic employee (claimed by his alleged son)"],
   "titles": null,
   "family_members": [
     "Alderton (claimed son)",
@@ -29,6 +27,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/William_Alderton"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/William_Alderton"
 }

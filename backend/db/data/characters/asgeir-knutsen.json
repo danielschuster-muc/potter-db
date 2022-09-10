@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Beater for the Nordic National Quidditch team"
-  ],
-  "titles": [
-    "Beater"
-  ],
+  "jobs": ["Beater for the Nordic National Quidditch team"],
+  "titles": ["Beater"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/5d/Asgeir_Knutsen_-_card_HBP-NDS.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Asgeir_Knutsen"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5d/Asgeir_Knutsen_-_card_HBP-NDS.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Asgeir_Knutsen"
 }

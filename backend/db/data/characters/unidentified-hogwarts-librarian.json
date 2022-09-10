@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Hogwarts librarian"
-  ],
-  "titles": [
-    "Librarian"
-  ],
+  "jobs": ["Hogwarts librarian"],
+  "titles": ["Librarian"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Hogwarts_librarian"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Hogwarts_librarian"
 }

@@ -16,17 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Paracelsus"
-  ],
-  "jobs": [
-    "Alchemist",
-    "Physician"
-  ],
+  "alias_names": ["Paracelsus"],
+  "jobs": ["Alchemist", "Physician"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/ec/Paracelsus_Chocolate_Frog_Card_%28WWHP%29.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Phillipus_von_Hohenheim"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ec/Paracelsus_Chocolate_Frog_Card_%28WWHP%29.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Phillipus_von_Hohenheim"
 }

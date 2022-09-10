@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Shopkeepers"
-  ],
+  "jobs": ["Shopkeepers"],
   "titles": null,
-  "family_members": [
-    "Corey Hayden (child)"
-  ],
+  "family_members": ["Corey Hayden (child)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Corey_Hayden's_parents"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Corey_Hayden's_parents"
 }

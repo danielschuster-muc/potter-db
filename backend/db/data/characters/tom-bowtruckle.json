@@ -19,15 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Pickett",
-    "Finn",
-    "Poppy",
-    "Marlow",
-    "Titus"
-  ],
+  "family_members": ["Pickett", "Finn", "Poppy", "Marlow", "Titus"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/dc/Bowtruckles.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Tom_(Bowtruckle)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/dc/Bowtruckles.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Tom_(Bowtruckle)"
 }

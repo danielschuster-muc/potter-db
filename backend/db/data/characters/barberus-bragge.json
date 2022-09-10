@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chief of the Wizards' Council"
-  ],
-  "titles": [
-    "Chief"
-  ],
+  "jobs": ["Chief of the Wizards' Council"],
+  "titles": ["Chief"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/20/Barberus_Bragge.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Barberus_Bragge"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/20/Barberus_Bragge.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Barberus_Bragge"
 }

@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Dragon slayer"
-  ],
-  "titles": [
-    "Sir"
-  ],
-  "family_members": [
-    "Morten Parpidum (possibly)"
-  ],
+  "jobs": ["Dragon slayer"],
+  "titles": ["Sir"],
+  "family_members": ["Morten Parpidum (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Elric_Parpidum"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Elric_Parpidum"
 }

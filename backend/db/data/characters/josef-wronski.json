@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Seeker for the Grodzisk Goblins"
-  ],
-  "titles": [
-    "Seeker"
-  ],
+  "jobs": ["Seeker for the Grodzisk Goblins"],
+  "titles": ["Seeker"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Josef_Wronski"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Josef_Wronski"
 }

@@ -21,11 +21,9 @@
     "Quill Control & Rune Translation, Minister for Magic Support Staff at the Ministry of Magic"
   ],
   "titles": null,
-  "family_members": [
-    "Miraforum (possibly)"
-  ],
+  "family_members": ["Miraforum (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/ef/Mdme._Miraforum.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Miraforum_(British_witch)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ef/Mdme._Miraforum.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Miraforum_(British_witch)"
 }

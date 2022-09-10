@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Quidditch player"
-  ],
+  "jobs": ["Quidditch player"],
   "titles": null,
-  "family_members": [
-    "Skye Parkin (cousin)",
-    "Parkin family"
-  ],
+  "family_members": ["Skye Parkin (cousin)", "Parkin family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Skye_Parkin's_cousin"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Skye_Parkin's_cousin"
 }

@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Beater for the Irish National Quidditch team"
-  ],
-  "titles": [
-    "Beater"
-  ],
+  "jobs": ["Beater for the Irish National Quidditch team"],
+  "titles": ["Beater"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e5/Irish_National_Quidditch_team.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Connolly"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e5/Irish_National_Quidditch_team.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Connolly"
 }

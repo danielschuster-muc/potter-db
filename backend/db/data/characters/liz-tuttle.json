@@ -16,10 +16,7 @@
   "boggart": null,
   "house": "Slytherin",
   "patronus": null,
-  "alias_names": [
-    "Lizard",
-    "Coach Tuttle"
-  ],
+  "alias_names": ["Lizard", "Coach Tuttle"],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -31,6 +28,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/28/LizTuttle.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Liz_Tuttle"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/28/LizTuttle.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Liz_Tuttle"
 }

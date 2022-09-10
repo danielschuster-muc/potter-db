@@ -8,6 +8,6 @@
   "ingredients": null,
   "inventors": null,
   "manufacturers": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a0/Snuffling_Potion.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Snuffling_Potion"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a0/Snuffling_Potion.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Snuffling_Potion"
 }

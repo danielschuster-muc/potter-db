@@ -46,10 +46,8 @@
     "House of Black",
     "Macmillan family"
   ],
-  "romances": [
-    "Walburga Black (wife)"
-  ],
+  "romances": ["Walburga Black (wife)"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/dc/Orion_Black_-_Pottermore.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Orion_Black"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/dc/Orion_Black_-_Pottermore.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Orion_Black"
 }

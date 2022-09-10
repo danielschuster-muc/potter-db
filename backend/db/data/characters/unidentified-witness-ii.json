@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Barmen in Kent"
-  ],
+  "jobs": ["Barmen in Kent"],
   "titles": null,
-  "family_members": [
-    "Mildred"
-  ],
+  "family_members": ["Mildred"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/2c/WitnessHM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_witness_(II)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/2c/WitnessHM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_witness_(II)"
 }

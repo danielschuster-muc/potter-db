@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Professor of Defence Against the Dark Arts"
-  ],
-  "titles": [
-    "Professor"
-  ],
+  "jobs": ["Professor of Defence Against the Dark Arts"],
+  "titles": ["Professor"],
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/4a/Brindlemore.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Brindlemore"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/4a/Brindlemore.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Brindlemore"
 }

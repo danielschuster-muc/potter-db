@@ -6,7 +6,8 @@ class BookSerializer < ApplicationSerializer
     :dedication,
     :pages,
     :order,
-    :cover_url
+    :cover,
+    :wiki
   )
 
   has_many :chapters

@@ -25,10 +25,8 @@
     "Newton Scamander (son)",
     "Theseus Scamander (son)"
   ],
-  "romances": [
-    "Scamander brothers' mother (presumably)"
-  ],
+  "romances": ["Scamander brothers' mother (presumably)"],
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Scamander_brothers'_father"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Scamander_brothers'_father"
 }

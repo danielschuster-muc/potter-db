@@ -16,16 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Nessie"
-  ],
+  "alias_names": ["Nessie"],
   "jobs": null,
-  "titles": [
-    "'World's largest kelpie'"
-  ],
+  "titles": ["'World's largest kelpie'"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/96/Loch_Ness_Kelpie.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Loch_Ness_Monster"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/96/Loch_Ness_Kelpie.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Loch_Ness_Monster"
 }

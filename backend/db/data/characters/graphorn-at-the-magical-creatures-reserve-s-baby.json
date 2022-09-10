@@ -19,11 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Mother"
-  ],
+  "family_members": ["Mother"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/47/Graphorn_at_the_Magical_Creatures_Reserve%27s_Baby.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Graphorn_at_the_Magical_Creatures_Reserve's_baby"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/47/Graphorn_at_the_Magical_Creatures_Reserve%27s_Baby.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Graphorn_at_the_Magical_Creatures_Reserve's_baby"
 }

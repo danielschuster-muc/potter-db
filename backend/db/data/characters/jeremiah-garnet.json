@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Reporter for the Wizarding Wireless Network"
-  ],
+  "jobs": ["Reporter for the Wizarding Wireless Network"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0f/Jeremiah_Garnet.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Jeremiah_Garnet"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0f/Jeremiah_Garnet.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Jeremiah_Garnet"
 }

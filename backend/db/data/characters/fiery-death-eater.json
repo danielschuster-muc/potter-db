@@ -17,13 +17,11 @@
   "house": null,
   "patronus": "None",
   "alias_names": null,
-  "jobs": [
-    "Death Eater"
-  ],
+  "jobs": ["Death Eater"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/ec/Neville_Longbottom_during_the_Battle_of_Hogwarts_DHF2.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Fiery_Death_Eater"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ec/Neville_Longbottom_during_the_Battle_of_Hogwarts_DHF2.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Fiery_Death_Eater"
 }

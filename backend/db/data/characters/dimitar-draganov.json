@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Beater for the Bulgarian National Quidditch team"
-  ],
-  "titles": [
-    "Beater"
-  ],
+  "jobs": ["Beater for the Bulgarian National Quidditch team"],
+  "titles": ["Beater"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Dimitar_Draganov"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Dimitar_Draganov"
 }

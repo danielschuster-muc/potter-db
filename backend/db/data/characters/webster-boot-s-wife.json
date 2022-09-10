@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "British Ministry of Magic employee"
-  ],
+  "jobs": ["British Ministry of Magic employee"],
   "titles": null,
   "family_members": [
     "Webster Boot (husband)",
@@ -30,6 +28,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Webster_Boot's_wife"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Webster_Boot's_wife"
 }

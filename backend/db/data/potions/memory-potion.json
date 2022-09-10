@@ -8,6 +8,6 @@
   "ingredients": "Jobberknoll feathers, Stewed Mandrake, Powdered Sage, Galanthus Nivalis, Alihotsy, Peppermint, Eel eyes",
   "inventors": null,
   "manufacturers": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/07/Memory_Potion_HM_Icon.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Memory_Potion"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/07/Memory_Potion_HM_Icon.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Memory_Potion"
 }

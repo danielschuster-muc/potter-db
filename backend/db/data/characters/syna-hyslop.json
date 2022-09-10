@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Helixa Hyslop (twin sister)",
-    "Other unnamed relatives"
-  ],
+  "family_members": ["Helixa Hyslop (twin sister)", "Other unnamed relatives"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Syna_Hyslop"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Syna_Hyslop"
 }

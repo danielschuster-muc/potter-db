@@ -16,16 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Mrs Next Door (nickname)"
-  ],
+  "alias_names": ["Mrs Next Door (nickname)"],
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Daughter"
-  ],
+  "family_members": ["Daughter"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Dursleys'_female_neighbour"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Dursleys'_female_neighbour"
 }

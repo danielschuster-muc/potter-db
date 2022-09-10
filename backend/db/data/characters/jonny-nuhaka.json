@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Keeper for the Australian National Quidditch team"
-  ],
-  "titles": [
-    "Keeper"
-  ],
+  "jobs": ["Keeper for the Australian National Quidditch team"],
+  "titles": ["Keeper"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/9c/Jonny_Nuhaka_-_card_HBP-NDS.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Jonny_Nuhaka"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/9c/Jonny_Nuhaka_-_card_HBP-NDS.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Jonny_Nuhaka"
 }

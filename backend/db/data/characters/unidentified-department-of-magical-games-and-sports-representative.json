@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Department of Magical Games and Sports representative"
-  ],
+  "jobs": ["Department of Magical Games and Sports representative"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Department_of_Magical_Games_and_Sports_representative"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Department_of_Magical_Games_and_Sports_representative"
 }

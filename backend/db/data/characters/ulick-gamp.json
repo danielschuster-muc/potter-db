@@ -21,10 +21,7 @@
     "Chief Warlock of the Wizengamot (before 1707)",
     "Minister for Magic (1707 - 1718)"
   ],
-  "titles": [
-    "Chief Warlock of the Wizengamot",
-    "Minister for Magic"
-  ],
+  "titles": ["Chief Warlock of the Wizengamot", "Minister for Magic"],
   "family_members": [
     "Hesper Black (possibly)",
     "Gamp (possibly)",
@@ -32,6 +29,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/2e/Ulick_Gamp_cropped.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ulick_Gamp"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/2e/Ulick_Gamp_cropped.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ulick_Gamp"
 }

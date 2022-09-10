@@ -43,13 +43,8 @@
     "Goldstein family",
     "Scamander family"
   ],
-  "romances": [
-    "Achilles Tolliver (dated)",
-    "Newt Scamander (husband)"
-  ],
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/Porpentina_Goldstein.jpeg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Porpentina_Goldstein"
+  "romances": ["Achilles Tolliver (dated)", "Newt Scamander (husband)"],
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/Porpentina_Goldstein.jpeg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Porpentina_Goldstein"
 }

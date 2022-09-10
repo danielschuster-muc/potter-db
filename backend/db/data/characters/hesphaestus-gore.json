@@ -17,18 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Auror",
-    "British Minister for Magic (1752-1770)"
-  ],
-  "titles": [
-    "Minister for Magic"
-  ],
+  "jobs": ["Auror", "British Minister for Magic (1752-1770)"],
+  "titles": ["Minister for Magic"],
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/50/Hesphaestus_Gore.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Hesphaestus_Gore"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/50/Hesphaestus_Gore.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Hesphaestus_Gore"
 }

@@ -21,9 +21,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/74/Dolohov-0.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Antonin_Dolohov"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/74/Dolohov-0.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Antonin_Dolohov"
 }

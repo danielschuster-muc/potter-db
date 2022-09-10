@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Caretaker of Hogwarts (c. 1961 - c. 1968)"
-  ],
+  "jobs": ["Caretaker of Hogwarts (c. 1961 - c. 1968)"],
   "titles": null,
-  "family_members": [
-    "Pringle (possibly)"
-  ],
+  "family_members": ["Pringle (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Apollyon_Pringle"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Apollyon_Pringle"
 }

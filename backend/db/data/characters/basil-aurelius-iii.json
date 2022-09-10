@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Scholar"
-  ],
+  "jobs": ["Scholar"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/21/Basil_Ardent_Aurelius_III_MA.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Basil_Aurelius_III"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/21/Basil_Ardent_Aurelius_III_MA.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Basil_Aurelius_III"
 }

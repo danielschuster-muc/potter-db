@@ -17,13 +17,8 @@
   "house": "Slytherin",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Headmaster of Hogwarts School of Witchcraft and Wizardry"
-  ],
-  "titles": [
-    "Professor",
-    "Headmaster"
-  ],
+  "jobs": ["Headmaster of Hogwarts School of Witchcraft and Wizardry"],
+  "titles": ["Professor", "Headmaster"],
   "family_members": [
     "Cygnus Black I (possible father)",
     "Ella Black (née Max) (possible mother)",
@@ -61,10 +56,8 @@
     "House of Black",
     "Flint family (in-laws)"
   ],
-  "romances": [
-    "Ursula Flint (wife)"
-  ],
+  "romances": ["Ursula Flint (wife)"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/93/PhineasNBlack.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Phineas_Nigellus_Black"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/93/PhineasNBlack.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Phineas_Nigellus_Black"
 }

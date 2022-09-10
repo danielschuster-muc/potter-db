@@ -16,14 +16,9 @@
   "boggart": null,
   "house": "Gryffindor",
   "patronus": "Stag",
-  "alias_names": [
-    "Prongs (by Marauders)"
-  ],
+  "alias_names": ["Prongs (by Marauders)"],
   "jobs": null,
-  "titles": [
-    "Chaser",
-    "Head Boy"
-  ],
+  "titles": ["Chaser", "Head Boy"],
   "family_members": [
     "Fleamont Potter (father) †",
     "Euphemia Potter (mother) †",
@@ -54,12 +49,8 @@
     "Weasley family (in-laws)",
     "House of Black (in-laws)"
   ],
-  "romances": [
-    "Lily J. Potter (wife) †"
-  ],
-  "wands": [
-    "11″, Mahogany, unknown core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/10/James_Potter_I_Deathly_Hallows.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/James_Potter_I"
+  "romances": ["Lily J. Potter (wife) †"],
+  "wands": ["11″, Mahogany, unknown core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/10/James_Potter_I_Deathly_Hallows.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/James_Potter_I"
 }

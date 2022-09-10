@@ -16,23 +16,15 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "'Batty' Bagshot (by Rita Skeeter)"
-  ],
-  "jobs": [
-    "Author",
-    "Historian"
-  ],
-  "titles": [
-    "Professor",
-    "Madam"
-  ],
+  "alias_names": ["'Batty' Bagshot (by Rita Skeeter)"],
+  "jobs": ["Author", "Historian"],
+  "titles": ["Professor", "Madam"],
   "family_members": [
     "Gellert Grindelwald (great-nephew) †",
     "Bagshot (possibly)"
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0d/Bathilda_Bagshot_profile.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Bathilda_Bagshot"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0d/Bathilda_Bagshot_profile.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Bathilda_Bagshot"
 }

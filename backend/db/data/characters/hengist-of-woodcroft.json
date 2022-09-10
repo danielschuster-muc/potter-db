@@ -17,13 +17,11 @@
   "house": "Hufflepuff",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Founder of Hogsmeade"
-  ],
+  "jobs": ["Founder of Hogsmeade"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/cf/Hengist_of_Woodcroft_Chocolate_Frog_Card.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Hengist_of_Woodcroft"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/cf/Hengist_of_Woodcroft_Chocolate_Frog_Card.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Hengist_of_Woodcroft"
 }

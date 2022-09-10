@@ -16,9 +16,7 @@
   "boggart": "An evil Merula Snyde telling her that she would never have friends",
   "house": "Ravenclaw",
   "patronus": null,
-  "alias_names": [
-    "Little Sproutling (by Mary and Rosa Karasu)"
-  ],
+  "alias_names": ["Little Sproutling (by Mary and Rosa Karasu)"],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -33,6 +31,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/87/Tulip_Karasu.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Tulip_Karasu"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/87/Tulip_Karasu.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Tulip_Karasu"
 }

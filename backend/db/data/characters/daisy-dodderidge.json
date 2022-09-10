@@ -17,16 +17,11 @@
   "house": "Gryffindor (possibly)",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Founder and owner of the Leaky Cauldron"
-  ],
+  "jobs": ["Founder and owner of the Leaky Cauldron"],
   "titles": null,
-  "family_members": [
-    "Damara Dodderidge (possibly)",
-    "Dodderidge family"
-  ],
+  "family_members": ["Damara Dodderidge (possibly)", "Dodderidge family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/57/Daisy_Dodderidge.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Daisy_Dodderidge"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/57/Daisy_Dodderidge.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Daisy_Dodderidge"
 }

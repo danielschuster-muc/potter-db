@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Photographer for The Guardian"
-  ],
+  "jobs": ["Photographer for The Guardian"],
   "titles": null,
-  "family_members": [
-    "Blishen family"
-  ],
+  "family_members": ["Blishen family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/David_Blishen"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/David_Blishen"
 }

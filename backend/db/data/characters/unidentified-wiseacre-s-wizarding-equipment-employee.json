@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Employee at Wiseacre's Wizarding Equipment"
-  ],
+  "jobs": ["Employee at Wiseacre's Wizarding Equipment"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/df/Wiseacre%27s_employee.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Wiseacre's_Wizarding_Equipment_employee"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/df/Wiseacre%27s_employee.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Wiseacre's_Wizarding_Equipment_employee"
 }

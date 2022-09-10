@@ -17,18 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Beater for the Falmouth Falcons"
-  ],
-  "titles": [
-    "Beater"
-  ],
-  "family_members": [
-    "Karl Broadmoor (brother)",
-    "Broadmoor family"
-  ],
+  "jobs": ["Beater for the Falmouth Falcons"],
+  "titles": ["Beater"],
+  "family_members": ["Karl Broadmoor (brother)", "Broadmoor family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/4b/Kevin-Broadmoor.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Kevin_Broadmoor"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/4b/Kevin-Broadmoor.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Kevin_Broadmoor"
 }

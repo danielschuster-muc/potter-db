@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "1 guitarist",
-    "1 Queen's Guard",
-    "1 police officer"
-  ],
+  "jobs": ["1 guitarist", "1 Queen's Guard", "1 police officer"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b7/Pettigrew%27s_victims.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Peter_Pettigrew's_unidentified_victims"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b7/Pettigrew%27s_victims.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Peter_Pettigrew's_unidentified_victims"
 }

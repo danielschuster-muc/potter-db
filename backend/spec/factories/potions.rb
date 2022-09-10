@@ -10,7 +10,7 @@ FactoryBot.define do
     ingredients { "MyString" }
     inventors { "MyString" }
     manufacturers { "MyString" }
-    image_url { "MyText" }
-    wiki_link { "MyText" }
+    image { "MyText" }
+    wiki { "MyText" }
   end
 end

@@ -27,9 +27,7 @@
     "Haywood family"
   ],
   "romances": null,
-  "wands": [
-    "Unicorn hair core, unknown length and wood"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/ab/Penny.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Penny_Haywood"
+  "wands": ["Unicorn hair core, unknown length and wood"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/ab/Penny.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Penny_Haywood"
 }

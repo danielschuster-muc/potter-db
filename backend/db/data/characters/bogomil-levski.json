@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chaser for the Bulgarian National Quidditch team"
-  ],
+  "jobs": ["Chaser for the Bulgarian National Quidditch team"],
   "titles": null,
-  "family_members": [
-    "Alexei Levski (father)"
-  ],
+  "family_members": ["Alexei Levski (father)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Bogomil_Levski"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Bogomil_Levski"
 }

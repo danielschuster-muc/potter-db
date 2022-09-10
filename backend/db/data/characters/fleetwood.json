@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Inventor or manufacturer of Fleetwood's High-Finish Handle Polish"
-  ],
+  "jobs": ["Inventor or manufacturer of Fleetwood's High-Finish Handle Polish"],
   "titles": null,
-  "family_members": [
-    "Hedley Fleetwood (possibly)"
-  ],
+  "family_members": ["Hedley Fleetwood (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Fleetwood"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Fleetwood"
 }

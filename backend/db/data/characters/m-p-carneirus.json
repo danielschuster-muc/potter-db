@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Captain of Aurors"
-  ],
+  "jobs": ["Captain of Aurors"],
   "titles": null,
-  "family_members": [
-    "Cas Carneirus (possibly)",
-    "Carneirus family"
-  ],
+  "family_members": ["Cas Carneirus (possibly)", "Carneirus family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/M._P._Carneirus"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/M._P._Carneirus"
 }

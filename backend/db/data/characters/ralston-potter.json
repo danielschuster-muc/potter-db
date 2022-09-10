@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Member of the Wizengamot (1612-1652)"
-  ],
+  "jobs": ["Member of the Wizengamot (1612-1652)"],
   "titles": null,
-  "family_members": [
-    "Potter family"
-  ],
+  "family_members": ["Potter family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a6/Ralston_Potter.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ralston_Potter"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a6/Ralston_Potter.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ralston_Potter"
 }

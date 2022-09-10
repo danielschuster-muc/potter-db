@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Dragonologist"
-  ],
+  "jobs": ["Dragonologist"],
   "titles": null,
-  "family_members": [
-    "Lim Po (possible relative)",
-    "Po family"
-  ],
+  "family_members": ["Lim Po (possible relative)", "Po family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/02/Quong_Po.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Quong_Po"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/02/Quong_Po.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Quong_Po"
 }

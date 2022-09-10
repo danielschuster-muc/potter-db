@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Sports reporter for a French-language wizarding newspaper"
-  ],
+  "jobs": ["Sports reporter for a French-language wizarding newspaper"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Sophie_Berger"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Sophie_Berger"
 }

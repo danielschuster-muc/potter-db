@@ -17,15 +17,11 @@
   "house": "Ravenclaw",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Minister for Magic (1923 - 1925)"
-  ],
-  "titles": [
-    "Minister for Magic"
-  ],
+  "jobs": ["Minister for Magic (1923 - 1925)"],
+  "titles": ["Minister for Magic"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lorcan_McLaird"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Lorcan_McLaird"
 }

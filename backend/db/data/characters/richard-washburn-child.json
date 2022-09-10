@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Author and diplomat"
-  ],
+  "jobs": ["Author and diplomat"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Richard_Washburn_Child"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Richard_Washburn_Child"
 }

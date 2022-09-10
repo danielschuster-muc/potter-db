@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Co-owner of Thomson & Nephew Ltd."
-  ],
+  "jobs": ["Co-owner of Thomson & Nephew Ltd."],
   "titles": null,
-  "family_members": [
-    "Thomson (uncle or aunt)"
-  ],
+  "family_members": ["Thomson (uncle or aunt)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Thomson's_nephew"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Thomson's_nephew"
 }

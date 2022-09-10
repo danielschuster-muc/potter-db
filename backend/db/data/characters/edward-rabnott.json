@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Modesty Rabnott (possibly)",
-    "Prudence (possibly)"
-  ],
+  "family_members": ["Modesty Rabnott (possibly)", "Prudence (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/60/Edward_Rabnott.JPG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Edward_Rabnott"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/60/Edward_Rabnott.JPG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Edward_Rabnott"
 }

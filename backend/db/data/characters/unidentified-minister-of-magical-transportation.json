@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Head of the Department of Magical Transportation"
-  ],
-  "titles": [
-    "Minister"
-  ],
+  "jobs": ["Head of the Department of Magical Transportation"],
+  "titles": ["Minister"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Minister_of_Magical_Transportation"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Minister_of_Magical_Transportation"
 }

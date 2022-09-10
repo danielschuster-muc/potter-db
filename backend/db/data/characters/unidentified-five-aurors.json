@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Aurors"
-  ],
+  "jobs": ["Aurors"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/bd/Unidentified_five_Aurors.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_five_Aurors"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/bd/Unidentified_five_Aurors.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_five_Aurors"
 }

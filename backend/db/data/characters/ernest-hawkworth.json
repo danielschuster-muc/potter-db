@@ -16,12 +16,8 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "The Drip"
-  ],
-  "jobs": [
-    "Member of the Wizengamot"
-  ],
+  "alias_names": ["The Drip"],
+  "jobs": ["Member of the Wizengamot"],
   "titles": null,
   "family_members": [
     "Errol  Hawkworth (father)",
@@ -29,6 +25,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/83/Ernest_Hawkworth_-_FB-C.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ernest_Hawkworth"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/83/Ernest_Hawkworth_-_FB-C.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ernest_Hawkworth"
 }

@@ -21,18 +21,10 @@
     "Brazilian Minister for Magic",
     "Supreme Mugwump of the International Confederation of Wizards (1932-?}"
   ],
-  "titles": [
-    "Minister",
-    "Supreme Mugwump"
-  ],
-  "family_members": [
-    "Rafael Santos (possibly)",
-    "Santos family"
-  ],
+  "titles": ["Minister", "Supreme Mugwump"],
+  "family_members": ["Rafael Santos (possibly)", "Santos family"],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/13/Vicencia_Santos.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Vicência_Santos"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/13/Vicencia_Santos.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Vicência_Santos"
 }

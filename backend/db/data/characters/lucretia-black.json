@@ -40,10 +40,8 @@
     "Macmillan family",
     "Prewett family"
   ],
-  "romances": [
-    "Ignatius Prewett (husband)"
-  ],
+  "romances": ["Ignatius Prewett (husband)"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/69/Lucretia.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lucretia_Black"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/69/Lucretia.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Lucretia_Black"
 }

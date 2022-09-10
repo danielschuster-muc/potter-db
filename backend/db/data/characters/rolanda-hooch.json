@@ -22,14 +22,10 @@
     "Hogwarts Quidditch referee (before 1967 - ?)",
     "Hogwarts Quidditch coach (before 1985 - ?)"
   ],
-  "titles": [
-    "Madam"
-  ],
+  "titles": ["Madam"],
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/02/RolandaHooch.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Rolanda_Hooch"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/02/RolandaHooch.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Rolanda_Hooch"
 }

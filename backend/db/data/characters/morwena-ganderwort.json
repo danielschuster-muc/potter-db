@@ -16,16 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "The Snake"
-  ],
-  "jobs": [
-    "Criminal"
-  ],
+  "alias_names": ["The Snake"],
+  "jobs": ["Criminal"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/15/Morwena_Ganderwort_-_wanted_poster.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Morwena_Ganderwort"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/15/Morwena_Ganderwort_-_wanted_poster.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Morwena_Ganderwort"
 }

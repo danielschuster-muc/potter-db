@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Rugby union player"
-  ],
+  "jobs": ["Rugby union player"],
   "titles": null,
-  "family_members": [
-    "Rubeus Hagrid (possible relation)"
-  ],
+  "family_members": ["Rubeus Hagrid (possible relation)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Jim_Hamilton"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Jim_Hamilton"
 }

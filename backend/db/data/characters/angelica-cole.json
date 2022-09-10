@@ -17,18 +17,11 @@
   "house": "Gryffindor",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Security troll trainer for the British Ministry of Magic"
-  ],
-  "titles": [
-    "Prefect",
-    "Quidditch Captain"
-  ],
-  "family_members": [
-    "Cole family"
-  ],
+  "jobs": ["Security troll trainer for the British Ministry of Magic"],
+  "titles": ["Prefect", "Quidditch Captain"],
+  "family_members": ["Cole family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/03/Angelica_Cole.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Angelica_Cole"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/03/Angelica_Cole.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Angelica_Cole"
 }

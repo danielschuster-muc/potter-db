@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chaser of Puddlemere United"
-  ],
-  "titles": [
-    "Chaser"
-  ],
+  "jobs": ["Chaser of Puddlemere United"],
+  "titles": ["Chaser"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/be/Jocelind_Wadcock.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Joscelind_Wadcock"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/be/Jocelind_Wadcock.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Joscelind_Wadcock"
 }

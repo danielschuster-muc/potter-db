@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Headmaster of Mahoutokoro (c. 1990)"
-  ],
-  "titles": [
-    "Headmaster"
-  ],
+  "jobs": ["Headmaster of Mahoutokoro (c. 1990)"],
+  "titles": ["Headmaster"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Headmaster_of_Mahoutokoro_during_1990"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Headmaster_of_Mahoutokoro_during_1990"
 }

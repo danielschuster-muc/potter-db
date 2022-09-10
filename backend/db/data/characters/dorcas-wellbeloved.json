@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Founder of the Society for Distressed Witches"
-  ],
+  "jobs": ["Founder of the Society for Distressed Witches"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1a/DorcasWellbeloved.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Dorcas_Wellbeloved"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1a/DorcasWellbeloved.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Dorcas_Wellbeloved"
 }

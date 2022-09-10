@@ -28,9 +28,7 @@
     "Page family"
   ],
   "romances": null,
-  "wands": [
-    "13″, Vine, Phoenix feather"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/57/Daniel_Page_from_Harry_Potter_Magic_Awakened.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Daniel_Page"
+  "wands": ["13″, Vine, Phoenix feather"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/57/Daniel_Page_from_Harry_Potter_Magic_Awakened.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Daniel_Page"
 }

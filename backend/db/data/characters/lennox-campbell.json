@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Seeker for the Montrose Magpies"
-  ],
+  "jobs": ["Seeker for the Montrose Magpies"],
   "titles": null,
-  "family_members": [
-    "Angus Campbell (possibly)"
-  ],
+  "family_members": ["Angus Campbell (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lennox_Campbell"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Lennox_Campbell"
 }

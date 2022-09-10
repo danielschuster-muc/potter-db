@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Mrs Bell (wife)",
-    "Katie Bell (daughter)"
-  ],
+  "family_members": ["Mrs Bell (wife)", "Katie Bell (daughter)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Katie_Bell's_father"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Katie_Bell's_father"
 }

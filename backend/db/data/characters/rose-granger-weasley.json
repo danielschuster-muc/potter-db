@@ -16,14 +16,9 @@
   "boggart": null,
   "house": "Gryffindor",
   "patronus": null,
-  "alias_names": [
-    "Rosie (by Ronald Weasley)",
-    "Ronnie (by Albus Potter)"
-  ],
+  "alias_names": ["Rosie (by Ronald Weasley)", "Ronnie (by Albus Potter)"],
   "jobs": null,
-  "titles": [
-    "Chaser"
-  ],
+  "titles": ["Chaser"],
   "family_members": [
     "Ron Weasley (father)",
     "Hermione Granger (mother)",
@@ -62,6 +57,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c2/Rose_WeasleyDH2.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Rose_Granger-Weasley"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c2/Rose_WeasleyDH2.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Rose_Granger-Weasley"
 }

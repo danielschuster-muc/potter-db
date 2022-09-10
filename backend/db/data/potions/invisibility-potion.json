@@ -8,6 +8,6 @@
   "ingredients": "Cherries, Chicken, Spiders",
   "inventors": null,
   "manufacturers": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/fa/Invisibility_potion.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Invisibility_Potion"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/fa/Invisibility_potion.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Invisibility_Potion"
 }

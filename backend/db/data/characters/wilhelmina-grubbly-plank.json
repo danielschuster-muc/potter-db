@@ -20,12 +20,10 @@
   "jobs": [
     "Substitute professor of Care of Magical Creatures at Hogwarts (pre 1994-?)"
   ],
-  "titles": [
-    "Professor"
-  ],
+  "titles": ["Professor"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/25/Wilhelmina_Grubbly-Plank.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Wilhelmina_Grubbly-Plank"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/25/Wilhelmina_Grubbly-Plank.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Wilhelmina_Grubbly-Plank"
 }

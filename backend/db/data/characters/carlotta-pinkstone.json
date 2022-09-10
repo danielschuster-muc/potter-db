@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Activist"
-  ],
+  "jobs": ["Activist"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/7b/Pinkstone.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Carlotta_Pinkstone"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7b/Pinkstone.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Carlotta_Pinkstone"
 }

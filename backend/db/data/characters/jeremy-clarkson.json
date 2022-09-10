@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Host of Top Gear (2002 - 2015)"
-  ],
+  "jobs": ["Host of Top Gear (2002 - 2015)"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Jeremy_Clarkson"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Jeremy_Clarkson"
 }

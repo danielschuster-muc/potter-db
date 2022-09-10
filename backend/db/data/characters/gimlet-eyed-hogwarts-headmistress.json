@@ -23,9 +23,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unusually thick, looks like a ″birch rod″"
-  ],
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gimlet-eyed_Hogwarts_Headmistress"
+  "wands": ["Unusually thick, looks like a ″birch rod″"],
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Gimlet-eyed_Hogwarts_Headmistress"
 }

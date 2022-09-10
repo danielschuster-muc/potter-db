@@ -67,10 +67,8 @@
     "Flint family (maternal relatives)",
     "Crabbe family (in-laws)"
   ],
-  "romances": [
-    "Irma Black (wife) †"
-  ],
+  "romances": ["Irma Black (wife) †"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f4/Pollux_Black.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Pollux_Black"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f4/Pollux_Black.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Pollux_Black"
 }

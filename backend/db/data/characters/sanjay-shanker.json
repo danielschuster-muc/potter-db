@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Herbologist"
-  ],
+  "jobs": ["Herbologist"],
   "titles": null,
-  "family_members": [
-    "Daughter"
-  ],
+  "family_members": ["Daughter"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Sanjay_Shanker"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Sanjay_Shanker"
 }

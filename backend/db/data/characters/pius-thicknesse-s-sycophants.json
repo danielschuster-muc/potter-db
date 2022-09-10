@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "'Yes men'"
-  ],
+  "jobs": ["'Yes men'"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/53/Pius_Thicknesse%27s_sycophants.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Pius_Thicknesse's_sycophants"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/53/Pius_Thicknesse%27s_sycophants.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Pius_Thicknesse's_sycophants"
 }

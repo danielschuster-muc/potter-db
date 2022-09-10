@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Headmaster of Castelobruxo (c. 1989)"
-  ],
-  "titles": [
-    "Professor",
-    "Headmaster"
-  ],
+  "jobs": ["Headmaster of Castelobruxo (c. 1989)"],
+  "titles": ["Professor", "Headmaster"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Headmaster_of_Castelobruxo_during_1989"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Headmaster_of_Castelobruxo_during_1989"
 }

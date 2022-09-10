@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Prime Minister of United Kingdom (1940-1945, 1951-1955)"
-  ],
-  "titles": [
-    "Sir",
-    "Prime Minister"
-  ],
+  "jobs": ["Prime Minister of United Kingdom (1940-1945, 1951-1955)"],
+  "titles": ["Sir", "Prime Minister"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Winston_Churchill"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Winston_Churchill"
 }

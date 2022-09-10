@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Hogwarts School of Witchcraft and Wizardry employee"
-  ],
+  "jobs": ["Hogwarts School of Witchcraft and Wizardry employee"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/37/Deek.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Deek"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/37/Deek.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Deek"
 }

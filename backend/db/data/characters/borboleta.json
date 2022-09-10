@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Founder of Madam Borboleta Candies Ltd. (presumably)"
-  ],
-  "titles": [
-    "Madam"
-  ],
+  "jobs": ["Founder of Madam Borboleta Candies Ltd. (presumably)"],
+  "titles": ["Madam"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d6/Madam_Borboleta.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Borboleta"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d6/Madam_Borboleta.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Borboleta"
 }

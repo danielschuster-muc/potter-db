@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Investigator for the Improper Use of Magic Office"
-  ],
-  "titles": [
-    "Lead investigator"
-  ],
+  "jobs": ["Investigator for the Improper Use of Magic Office"],
+  "titles": ["Lead investigator"],
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f3/Linderina_Crane.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Linderina_Crane"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f3/Linderina_Crane.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Linderina_Crane"
 }

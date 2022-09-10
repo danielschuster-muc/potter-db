@@ -16,18 +16,12 @@
   "boggart": null,
   "house": "Gryffindor",
   "patronus": "Hedgehog",
-  "alias_names": [
-    "Kev"
-  ],
+  "alias_names": ["Kev"],
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Mother"
-  ],
+  "family_members": ["Mother"],
   "romances": null,
-  "wands": [
-    "12″, larch, dragon heartstring"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/eb/Kevin_Farrell_Gryffindor.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Kevin_Farrell"
+  "wands": ["12″, larch, dragon heartstring"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/eb/Kevin_Farrell_Gryffindor.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Kevin_Farrell"
 }

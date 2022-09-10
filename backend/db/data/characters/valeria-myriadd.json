@@ -17,16 +17,11 @@
   "house": "Gryffindor",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Head of Gryffindor House"
-  ],
-  "titles": [
-    "Professor",
-    "Head of Gryffindor House"
-  ],
+  "jobs": ["Head of Gryffindor House"],
+  "titles": ["Professor", "Head of Gryffindor House"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a7/ValeriaMyriadd.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Valeria_Myriadd"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a7/ValeriaMyriadd.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Valeria_Myriadd"
 }

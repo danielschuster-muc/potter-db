@@ -11,8 +11,8 @@ class CreatePotions < ActiveRecord::Migration[7.0]
       t.string :ingredients
       t.string :inventors
       t.string :manufacturers
-      t.text :image_url
-      t.text :wiki_link
+      t.text :image
+      t.text :wiki
 
       t.timestamps
     end

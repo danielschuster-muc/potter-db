@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Nurses at St Oswald's Home for Old Witches and Wizards"
-  ],
+  "jobs": ["Nurses at St Oswald's Home for Old Witches and Wizards"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Male_nurses_at_St_Oswald's_Home_for_Old_Witches_and_Wizards"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Male_nurses_at_St_Oswald's_Home_for_Old_Witches_and_Wizards"
 }

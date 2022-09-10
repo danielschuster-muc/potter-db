@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Professor at Hogwarts School of Witchcraft and Wizardry"
-  ],
-  "titles": [
-    "Professor"
-  ],
+  "jobs": ["Professor at Hogwarts School of Witchcraft and Wizardry"],
+  "titles": ["Professor"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mazoni"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Mazoni"
 }

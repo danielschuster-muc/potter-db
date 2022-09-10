@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chief Warlocks of the Wizengamot"
-  ],
-  "titles": [
-    "Chief Warlocks"
-  ],
+  "jobs": ["Chief Warlocks of the Wizengamot"],
+  "titles": ["Chief Warlocks"],
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Chestnut and unicorn hair cores, unknown length"
-  ],
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_three_successive_Chief_Warlocks_of_the_Wizengamot"
+  "wands": ["Chestnut and unicorn hair cores, unknown length"],
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_three_successive_Chief_Warlocks_of_the_Wizengamot"
 }

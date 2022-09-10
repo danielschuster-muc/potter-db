@@ -16,9 +16,7 @@
   "boggart": null,
   "house": "Hufflepuff",
   "patronus": null,
-  "alias_names": [
-    "Bea"
-  ],
+  "alias_names": ["Bea"],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -29,6 +27,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/58/Beatrice_Haywood_year_2.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Beatrice_Haywood"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/58/Beatrice_Haywood_year_2.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Beatrice_Haywood"
 }

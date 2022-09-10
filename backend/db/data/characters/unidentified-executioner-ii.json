@@ -23,9 +23,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/8f/Executioner_3.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_executioner_(II)"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/8f/Executioner_3.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_executioner_(II)"
 }

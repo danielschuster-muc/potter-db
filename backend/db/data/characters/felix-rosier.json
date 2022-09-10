@@ -17,12 +17,8 @@
   "house": "Slytherin",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Dragonologist"
-  ],
-  "titles": [
-    "Prefect"
-  ],
+  "jobs": ["Dragonologist"],
+  "titles": ["Prefect"],
   "family_members": [
     "Father",
     "Evan Rosier (possible relative)",
@@ -30,6 +26,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/3a/Felix_Rosier_HM_Profile.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Felix_Rosier"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/3a/Felix_Rosier_HM_Profile.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Felix_Rosier"
 }

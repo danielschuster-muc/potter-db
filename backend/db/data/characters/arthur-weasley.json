@@ -76,12 +76,8 @@
     "House of Black",
     "Prewett family (in-laws)"
   ],
-  "romances": [
-    "Molly Weasley (wife)"
-  ],
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/02/Arthur_Weasley_profile.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Arthur_Weasley"
+  "romances": ["Molly Weasley (wife)"],
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/02/Arthur_Weasley_profile.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Arthur_Weasley"
 }

@@ -17,12 +17,8 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Presbyterian minister"
-  ],
-  "titles": [
-    "Reverend"
-  ],
+  "jobs": ["Presbyterian minister"],
+  "titles": ["Reverend"],
   "family_members": [
     "Mr McGonagall (father)",
     "Mrs McGonagall (mother)",
@@ -39,6 +35,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Robert_McGonagall_Senior"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Robert_McGonagall_Senior"
 }

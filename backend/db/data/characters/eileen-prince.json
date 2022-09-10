@@ -22,12 +22,9 @@
     "Captain of the Hogwarts Gobstones Team",
     "President of the Hogwarts Gobstone Club"
   ],
-  "family_members": [
-    "Tobias Snape (husband)",
-    "Severus Snape (son) †"
-  ],
+  "family_members": ["Tobias Snape (husband)", "Severus Snape (son) †"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Eileen_Prince"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Eileen_Prince"
 }

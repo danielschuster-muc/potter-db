@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Aide to Igor Karkaroff"
-  ],
+  "jobs": ["Aide to Igor Karkaroff"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/93/Karkaroff%E2%80%99s_Aide.jpeg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Karkaroff's_Aide"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/93/Karkaroff%E2%80%99s_Aide.jpeg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Karkaroff's_Aide"
 }

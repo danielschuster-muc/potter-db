@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Activist for the Campaign for Greater Freedom for Wizards"
-  ],
+  "jobs": ["Activist for the Campaign for Greater Freedom for Wizards"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Glinda_Crook"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Glinda_Crook"
 }

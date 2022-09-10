@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Proprietrix of Brews and Stews"
-  ],
+  "jobs": ["Proprietrix of Brews and Stews"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Clutterbuck_Crispe"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Clutterbuck_Crispe"
 }

@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Head of Hogwarts"
-  ],
-  "titles": [
-    "Professor",
-    "Headmaster"
-  ],
+  "jobs": ["Head of Hogwarts"],
+  "titles": ["Professor", "Headmaster"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Marazion"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Marazion"
 }

@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Metal charmer"
-  ],
+  "jobs": ["Metal charmer"],
   "titles": null,
-  "family_members": [
-    "Mr Wright (father)",
-    "Mrs Wright (mother)"
-  ],
+  "family_members": ["Mr Wright (father)", "Mrs Wright (mother)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/99/BowmanWright.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Bowman_Wright"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/99/BowmanWright.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Bowman_Wright"
 }

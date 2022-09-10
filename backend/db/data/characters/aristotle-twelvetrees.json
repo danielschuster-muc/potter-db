@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Keeper of Treasure and Dragots"
-  ],
+  "jobs": ["Keeper of Treasure and Dragots"],
   "titles": null,
-  "family_members": [
-    "Dorcus Twelvetrees (daughter)"
-  ],
+  "family_members": ["Dorcus Twelvetrees (daughter)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Aristotle_Twelvetrees"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Aristotle_Twelvetrees"
 }

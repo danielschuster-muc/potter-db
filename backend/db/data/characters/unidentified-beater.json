@@ -18,14 +18,10 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Beater"
-  ],
-  "family_members": [
-    "Mother"
-  ],
+  "titles": ["Beater"],
+  "family_members": ["Mother"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0b/Unidentified_Beater_I.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Beater"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0b/Unidentified_Beater_I.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Beater"
 }

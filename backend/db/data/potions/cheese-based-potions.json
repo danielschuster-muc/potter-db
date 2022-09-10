@@ -8,6 +8,6 @@
   "ingredients": "Cheese",
   "inventors": null,
   "manufacturers": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/39/Cheese_Based_Potion_HM_Icon.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cheese-Based_Potions"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/39/Cheese_Based_Potion_HM_Icon.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Cheese-Based_Potions"
 }

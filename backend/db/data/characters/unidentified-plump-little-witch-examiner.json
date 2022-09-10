@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Examiner for the Wizarding Examinations Authority"
-  ],
+  "jobs": ["Examiner for the Wizarding Examinations Authority"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_plump_little_witch_examiner"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_plump_little_witch_examiner"
 }

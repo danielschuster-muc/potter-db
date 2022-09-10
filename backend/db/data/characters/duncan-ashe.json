@@ -19,11 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Ashe family"
-  ],
+  "family_members": ["Ashe family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/52/Duncan_Ashe.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Duncan_Ashe"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/52/Duncan_Ashe.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Duncan_Ashe"
 }

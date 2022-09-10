@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Shopkeeper of the Broom Shop"
-  ],
+  "jobs": ["Shopkeeper of the Broom Shop"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f5/BroomShopkeeper.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Broom_Shop_shopkeeper"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f5/BroomShopkeeper.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Broom_Shop_shopkeeper"
 }

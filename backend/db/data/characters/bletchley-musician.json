@@ -17,12 +17,8 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Musician"
-  ],
-  "titles": [
-    "Madame"
-  ],
+  "jobs": ["Musician"],
+  "titles": ["Madame"],
   "family_members": [
     "Bletchley (possibly)",
     "Kevin Bletchley (possibly)",
@@ -30,6 +26,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Bletchley_(musician)"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Bletchley_(musician)"
 }

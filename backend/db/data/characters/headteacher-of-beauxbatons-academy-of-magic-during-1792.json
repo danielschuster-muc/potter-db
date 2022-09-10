@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Head of Beauxbatons Academy of Magic (1792 or earlier-?)"
-  ],
-  "titles": [
-    "Headmaster or Headmistress"
-  ],
+  "jobs": ["Head of Beauxbatons Academy of Magic (1792 or earlier-?)"],
+  "titles": ["Headmaster or Headmistress"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Headteacher_of_Beauxbatons_Academy_of_Magic_during_1792"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Headteacher_of_Beauxbatons_Academy_of_Magic_during_1792"
 }

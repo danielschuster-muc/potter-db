@@ -18,10 +18,7 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Chaser",
-    "Quidditch captain"
-  ],
+  "titles": ["Chaser", "Quidditch captain"],
   "family_members": [
     "Father",
     "Mother",
@@ -30,6 +27,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/03/Graham_Montague_2.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Graham_Montague"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/03/Graham_Montague_2.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Graham_Montague"
 }

@@ -16,16 +16,12 @@
   "boggart": "Lord Voldemort",
   "house": null,
   "patronus": "Non-corporeal",
-  "alias_names": [
-    "Honeydukes Express lady"
-  ],
-  "jobs": [
-    "Honeydukes Express trolley operator"
-  ],
+  "alias_names": ["Honeydukes Express lady"],
+  "jobs": ["Honeydukes Express trolley operator"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1d/Food_Trolley_Lady.JPG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Trolley_witch"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1d/Food_Trolley_Lady.JPG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Trolley_witch"
 }

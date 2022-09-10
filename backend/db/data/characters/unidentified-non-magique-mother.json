@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Husband †",
-    "Child †"
-  ],
+  "family_members": ["Husband †", "Child †"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/ef/Unidentified_Non-Magique_Mother_in_Paris.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Non-Magique_mother"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ef/Unidentified_Non-Magique_Mother_in_Paris.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Non-Magique_mother"
 }

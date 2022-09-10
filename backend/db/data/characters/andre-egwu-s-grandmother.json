@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Quidditch player"
-  ],
+  "jobs": ["Quidditch player"],
   "titles": null,
-  "family_members": [
-    "Andre Egwu (grandson)",
-    "Granddaughter"
-  ],
+  "family_members": ["Andre Egwu (grandson)", "Granddaughter"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Andre_Egwu's_grandmother"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Andre_Egwu's_grandmother"
 }

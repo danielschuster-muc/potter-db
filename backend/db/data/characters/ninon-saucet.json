@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Beater for the French National Quidditch team"
-  ],
-  "titles": [
-    "Beater"
-  ],
+  "jobs": ["Beater for the French National Quidditch team"],
+  "titles": ["Beater"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/52/Ninon_Saucet.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ninon_Saucet"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/52/Ninon_Saucet.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ninon_Saucet"
 }

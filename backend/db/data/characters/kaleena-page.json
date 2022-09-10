@@ -26,10 +26,8 @@
     "Daniel Page (son)",
     "Page family"
   ],
-  "romances": [
-    "Husband"
-  ],
+  "romances": ["Husband"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/43/Mrs_Page_convict2.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Kaleena_Page"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/43/Mrs_Page_convict2.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Kaleena_Page"
 }

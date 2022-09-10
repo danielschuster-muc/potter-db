@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Owner of the Cauldron Workshop"
-  ],
+  "jobs": ["Owner of the Cauldron Workshop"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Edwin_Avarus"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Edwin_Avarus"
 }

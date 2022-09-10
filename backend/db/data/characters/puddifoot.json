@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Owner of Madam Puddifoot's Tea Shop"
-  ],
-  "titles": [
-    "Madam"
-  ],
+  "jobs": ["Owner of Madam Puddifoot's Tea Shop"],
+  "titles": ["Madam"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/29/Madam_Puddifoot_HM.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Puddifoot"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/29/Madam_Puddifoot_HM.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Puddifoot"
 }

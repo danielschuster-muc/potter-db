@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Musicians"
-  ],
+  "jobs": ["Musicians"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Band_at_William_Weasley_and_Fleur_Delacour's_wedding"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Band_at_William_Weasley_and_Fleur_Delacour's_wedding"
 }

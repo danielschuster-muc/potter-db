@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "British Ministry of Magic spokesperson"
-  ],
+  "jobs": ["British Ministry of Magic spokesperson"],
   "titles": null,
   "family_members": [
     "Bertha Jorkins (possibly)",
@@ -32,6 +30,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Stamford_Jorkins"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Stamford_Jorkins"
 }

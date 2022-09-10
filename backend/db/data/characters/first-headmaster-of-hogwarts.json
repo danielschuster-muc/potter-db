@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Headmaster of Hogwarts School"
-  ],
-  "titles": [
-    "Professor",
-    "Headmaster"
-  ],
+  "jobs": ["Headmaster of Hogwarts School"],
+  "titles": ["Professor", "Headmaster"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/96/1st_Headmaster.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/First_Headmaster_of_Hogwarts"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/96/1st_Headmaster.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/First_Headmaster_of_Hogwarts"
 }

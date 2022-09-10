@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chief Warlock of the Wizengamot"
-  ],
-  "titles": [
-    "Chief Warlock"
-  ],
+  "jobs": ["Chief Warlock of the Wizengamot"],
+  "titles": ["Chief Warlock"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/23/ChiefWarlock1544.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Chief_Warlock_of_the_Wizengamot_in_1544"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/23/ChiefWarlock1544.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Chief_Warlock_of_the_Wizengamot_in_1544"
 }

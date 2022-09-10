@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Rhythm guitarist for the Weird Sisters"
-  ],
+  "jobs": ["Rhythm guitarist for the Weird Sisters"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0a/Heathcote_Barbary.JPG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Heathcote_Barbary"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0a/Heathcote_Barbary.JPG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Heathcote_Barbary"
 }

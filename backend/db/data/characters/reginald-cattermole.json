@@ -16,12 +16,8 @@
   "boggart": null,
   "house": null,
   "patronus": "Non-corporeal",
-  "alias_names": [
-    "Reg"
-  ],
-  "jobs": [
-    "Magical Maintenance Department employee"
-  ],
+  "alias_names": ["Reg"],
+  "jobs": ["Magical Maintenance Department employee"],
   "titles": null,
   "family_members": [
     "Father",
@@ -33,9 +29,7 @@
     "Mother-in-law"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/43/ReginaldCattermole.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Reginald_Cattermole"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/43/ReginaldCattermole.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Reginald_Cattermole"
 }

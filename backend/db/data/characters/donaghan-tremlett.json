@@ -17,17 +17,11 @@
   "house": null,
   "patronus": "Non-corporeal",
   "alias_names": null,
-  "jobs": [
-    "Bass player for The Weird Sisters"
-  ],
+  "jobs": ["Bass player for The Weird Sisters"],
   "titles": null,
-  "family_members": [
-    "Mr Tremlett (father)",
-    "Mrs Tremlett (mother)",
-    "Spouse"
-  ],
+  "family_members": ["Mr Tremlett (father)", "Mrs Tremlett (mother)", "Spouse"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/5b/Donaghan_Tremlett.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Donaghan_Tremlett"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5b/Donaghan_Tremlett.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Donaghan_Tremlett"
 }

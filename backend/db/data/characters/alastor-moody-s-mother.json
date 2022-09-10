@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Auror"
-  ],
+  "jobs": ["Auror"],
   "titles": null,
-  "family_members": [
-    "Mr Moody (husband) †",
-    "Alastor Moody (son) †"
-  ],
+  "family_members": ["Mr Moody (husband) †", "Alastor Moody (son) †"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Alastor_Moody's_mother"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Alastor_Moody's_mother"
 }

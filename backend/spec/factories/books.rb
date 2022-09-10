@@ -7,6 +7,6 @@ FactoryBot.define do
     dedication { "MyString" }
     pages { 1 }
     order { 1 }
-    cover_url { "MyText" }
+    cover { "MyText" }
   end
 end

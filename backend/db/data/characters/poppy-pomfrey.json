@@ -17,17 +17,11 @@
   "house": null,
   "patronus": "Non-corporeal",
   "alias_names": null,
-  "jobs": [
-    "Matron at Hogwarts School"
-  ],
-  "titles": [
-    "Madam"
-  ],
+  "jobs": ["Matron at Hogwarts School"],
+  "titles": ["Madam"],
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/56/Madam_Pomfrey.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Poppy_Pomfrey"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/56/Madam_Pomfrey.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Poppy_Pomfrey"
 }

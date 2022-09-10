@@ -22,12 +22,10 @@
     "Misuse of Muggle Artefacts Office employee",
     "British Ministry of Magic official"
   ],
-  "titles": [
-    "Officer"
-  ],
+  "titles": ["Officer"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/39/Myra_Curio_-_large.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Myra_Curio"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/39/Myra_Curio_-_large.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Myra_Curio"
 }

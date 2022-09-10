@@ -7,6 +7,6 @@
   "light": "None or green",
   "hand": "Trace wand over wounds or",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/aa/Healing_spell.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Vulnera_Sanentur"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/aa/Healing_spell.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Vulnera_Sanentur"
 }

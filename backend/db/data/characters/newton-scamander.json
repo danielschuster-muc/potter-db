@@ -42,12 +42,8 @@
     "Scamander family",
     "Goldstein family (in-laws)"
   ],
-  "romances": [
-    "Porpentina Goldstein"
-  ],
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/36/Newton_Scamander_Profile_crop.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Newton_Scamander"
+  "romances": ["Porpentina Goldstein"],
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/36/Newton_Scamander_Profile_crop.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Newton_Scamander"
 }

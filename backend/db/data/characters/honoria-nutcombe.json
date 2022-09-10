@@ -16,16 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Honouria Nutcombe"
-  ],
-  "jobs": [
-    "Philanthropist"
-  ],
+  "alias_names": ["Honouria Nutcombe"],
+  "jobs": ["Philanthropist"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e7/HonoriaNutcombe.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Honoria_Nutcombe"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e7/HonoriaNutcombe.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Honoria_Nutcombe"
 }

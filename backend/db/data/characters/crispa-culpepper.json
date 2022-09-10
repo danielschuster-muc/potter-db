@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Owner of Crispa Culpepper's Drugs & Preparations"
-  ],
+  "jobs": ["Owner of Crispa Culpepper's Drugs & Preparations"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Crispa_Culpepper"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Crispa_Culpepper"
 }

@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Guard at King's Cross Station (c. 1991-at least 2017)"
-  ],
+  "jobs": ["Guard at King's Cross Station (c. 1991-at least 2017)"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1f/King%27s_Cross_Station_guard.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/King's_Cross_Station_guard"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1f/King%27s_Cross_Station_guard.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/King's_Cross_Station_guard"
 }

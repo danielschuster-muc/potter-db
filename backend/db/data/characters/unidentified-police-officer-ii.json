@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Policeman"
-  ],
+  "jobs": ["Policeman"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/5e/Policeman_2.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_police_officer_(II)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5e/Policeman_2.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_police_officer_(II)"
 }

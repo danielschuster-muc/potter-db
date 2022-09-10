@@ -16,22 +16,16 @@
   "boggart": "Banshee",
   "house": "Gryffindor",
   "patronus": "Fox",
-  "alias_names": [
-    "O'Flaherty (by Cuthbert Binns)"
-  ],
+  "alias_names": ["O'Flaherty (by Cuthbert Binns)"],
   "jobs": null,
-  "titles": [
-    "Quidditch commentator"
-  ],
+  "titles": ["Quidditch commentator"],
   "family_members": [
     "Mr Finnigan (father)",
     "Mrs Finnigan (mother)",
     "Fergus (maternal cousin)"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/9c/Seamus_FinniganDH2.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Seamus_Finnigan"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/9c/Seamus_FinniganDH2.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Seamus_Finnigan"
 }

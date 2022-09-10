@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Delegate of the International Confederation of Wizards"
-  ],
+  "jobs": ["Delegate of the International Confederation of Wizards"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d4/Momolu_Wotorson_FB1.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Momolu_Wotorson"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d4/Momolu_Wotorson_FB1.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Momolu_Wotorson"
 }

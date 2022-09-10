@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Writer for The Quibbler (possibly)"
-  ],
+  "jobs": ["Writer for The Quibbler (possibly)"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Eduaphora_Mergus"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Eduaphora_Mergus"
 }

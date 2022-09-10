@@ -23,10 +23,8 @@
     "Credence Barebone's aunt (sister)",
     "Credence Barebone (son)"
   ],
-  "romances": [
-    "Aberforth Dumbledore (formerly)"
-  ],
+  "romances": ["Aberforth Dumbledore (formerly)"],
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Credence_Barebone's_mother"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Credence_Barebone's_mother"
 }

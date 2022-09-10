@@ -16,21 +16,12 @@
   "boggart": null,
   "house": "Unknown",
   "patronus": "Non-corporeal",
-  "alias_names": [
-    "Dung",
-    "Harry Potter (under disguise of Polyjuice)"
-  ],
-  "jobs": [
-    "Dealer of wizarding artefacts"
-  ],
+  "alias_names": ["Dung", "Harry Potter (under disguise of Polyjuice)"],
+  "jobs": ["Dealer of wizarding artefacts"],
   "titles": null,
-  "family_members": [
-    "Phineas Fletcher (possible ancestor)"
-  ],
+  "family_members": ["Phineas Fletcher (possible ancestor)"],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e0/Fletcher_DH1.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mundungus_Fletcher"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e0/Fletcher_DH1.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Mundungus_Fletcher"
 }

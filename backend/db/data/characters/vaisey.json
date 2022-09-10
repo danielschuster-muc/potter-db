@@ -18,12 +18,10 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Chaser"
-  ],
+  "titles": ["Chaser"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/89/Vaisey.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Vaisey"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/89/Vaisey.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Vaisey"
 }

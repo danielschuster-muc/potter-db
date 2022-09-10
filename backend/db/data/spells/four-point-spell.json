@@ -7,6 +7,6 @@
   "light": "None",
   "hand": "Hold wand flat in hand",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a8/FourPointSpell.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Four-Point_Spell"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a8/FourPointSpell.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Four-Point_Spell"
 }

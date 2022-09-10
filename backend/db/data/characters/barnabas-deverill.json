@@ -19,14 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Philbert Deverill (possibly)"
-  ],
+  "family_members": ["Philbert Deverill (possibly)"],
   "romances": null,
-  "wands": [
-    "Unknown wand",
-    "Elder, Thestral tail hair core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/4e/Barnabas_Deverill.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Barnabas_Deverill"
+  "wands": ["Unknown wand", "Elder, Thestral tail hair core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/4e/Barnabas_Deverill.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Barnabas_Deverill"
 }

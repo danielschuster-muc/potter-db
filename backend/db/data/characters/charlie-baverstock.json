@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Manager of the New Zealand National Quidditch team"
-  ],
-  "titles": [
-    "Manager"
-  ],
+  "jobs": ["Manager of the New Zealand National Quidditch team"],
+  "titles": ["Manager"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Charlie_Baverstock"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Charlie_Baverstock"
 }

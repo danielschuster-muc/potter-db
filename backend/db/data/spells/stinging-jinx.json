@@ -7,6 +7,6 @@
   "light": "White",
   "hand": "Point wand",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b1/Deathly_Hallows_-_Stinging_Hex.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Stinging_Jinx"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b1/Deathly_Hallows_-_Stinging_Hex.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Stinging_Jinx"
 }

@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Obliviator"
-  ],
+  "jobs": ["Obliviator"],
   "titles": null,
   "family_members": [
     "Mr Lobosca (partner)",
@@ -28,6 +26,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Chiara_Lobosca's_mother"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Chiara_Lobosca's_mother"
 }

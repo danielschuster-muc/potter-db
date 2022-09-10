@@ -16,13 +16,9 @@
   "boggart": null,
   "house": "Slytherin",
   "patronus": "None",
-  "alias_names": [
-    "R.A.B."
-  ],
+  "alias_names": ["R.A.B."],
   "jobs": null,
-  "titles": [
-    "Seeker"
-  ],
+  "titles": ["Seeker"],
   "family_members": [
     "Orion Black (father/second cousin once removed) †",
     "Walburga Black (mother/second cousin once removed) †",
@@ -43,6 +39,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/73/Regulus_PM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Regulus_Black"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/73/Regulus_PM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Regulus_Black"
 }

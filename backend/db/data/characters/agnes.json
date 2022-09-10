@@ -19,11 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Son"
-  ],
+  "family_members": ["Son"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/cb/Agnes.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Agnes"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/cb/Agnes.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Agnes"
 }

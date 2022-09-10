@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Professional duellist"
-  ],
+  "jobs": ["Professional duellist"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Samson_Wiblin"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Samson_Wiblin"
 }

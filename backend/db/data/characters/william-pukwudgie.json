@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Caretaker at Ilvermorny School of Witchcraft and Wizardry"
-  ],
+  "jobs": ["Caretaker at Ilvermorny School of Witchcraft and Wizardry"],
   "titles": null,
-  "family_members": [
-    "Unnamed Pukwudgies"
-  ],
+  "family_members": ["Unnamed Pukwudgies"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/04/William_the_Pukwudgie.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/William_(Pukwudgie)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/04/William_the_Pukwudgie.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/William_(Pukwudgie)"
 }

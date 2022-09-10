@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Wandmaker"
-  ],
+  "jobs": ["Wandmaker"],
   "titles": null,
   "family_members": [
     "Ollivander (ancestor)",
@@ -33,6 +31,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gerbold_Ollivander"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Gerbold_Ollivander"
 }

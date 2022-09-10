@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Cabinet maker"
-  ],
+  "jobs": ["Cabinet maker"],
   "titles": null,
-  "family_members": [
-    "Johannes Jonker (son)",
-    "Jonker family"
-  ],
+  "family_members": ["Johannes Jonker (son)", "Jonker family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Johannes_Jonker's_father"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Johannes_Jonker's_father"
 }

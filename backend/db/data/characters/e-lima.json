@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Duellist"
-  ],
+  "jobs": ["Duellist"],
   "titles": null,
-  "family_members": [
-    "Lima family"
-  ],
+  "family_members": ["Lima family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/E._Lima"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/E._Lima"
 }

@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Musician"
-  ],
+  "jobs": ["Musician"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/06/NoOneLooksAtTheCeiling.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Charlie_G"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/06/NoOneLooksAtTheCeiling.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Charlie_G"
 }

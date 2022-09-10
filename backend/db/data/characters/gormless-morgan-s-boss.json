@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Employer of magical creature hunters"
-  ],
+  "jobs": ["Employer of magical creature hunters"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gormless_Morgan's_boss"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Gormless_Morgan's_boss"
 }

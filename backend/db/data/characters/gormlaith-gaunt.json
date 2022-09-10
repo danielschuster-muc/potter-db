@@ -16,9 +16,7 @@
   "boggart": null,
   "house": "Slytherin",
   "patronus": null,
-  "alias_names": [
-    "William Sayre"
-  ],
+  "alias_names": ["William Sayre"],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -39,6 +37,6 @@
     "Unknown length, snakewood, basilisk horn",
     "Unknown length, unknown wood, dragon heartstring"
   ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/52/GormlaithGaunt.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gormlaith_Gaunt"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/52/GormlaithGaunt.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Gormlaith_Gaunt"
 }

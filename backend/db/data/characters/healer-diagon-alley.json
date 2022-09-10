@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Proprietor of the, Healer Shop, Healer"
-  ],
+  "jobs": ["Proprietor of the, Healer Shop, Healer"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/31/DiagonHealer.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Healer_(Diagon_Alley)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/31/DiagonHealer.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Healer_(Diagon_Alley)"
 }

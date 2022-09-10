@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chief of Q.U.A.B.B.L.E."
-  ],
+  "jobs": ["Chief of Q.U.A.B.B.L.E."],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/06/Dunbar_Oglethorpe.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Dunbar_Oglethorpe"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/06/Dunbar_Oglethorpe.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Dunbar_Oglethorpe"
 }

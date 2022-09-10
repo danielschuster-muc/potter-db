@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Auror (formerly)"
-  ],
+  "jobs": ["Auror (formerly)"],
   "titles": null,
   "family_members": [
     "Father",
@@ -32,9 +30,7 @@
     "Longbottom family"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/98/Order-of-the-phoenix-frank.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Frank_Longbottom"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/98/Order-of-the-phoenix-frank.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Frank_Longbottom"
 }

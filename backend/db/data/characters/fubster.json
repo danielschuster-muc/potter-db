@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Colonel in the British Armed Forces (retired)"
-  ],
-  "titles": [
-    "Colonel"
-  ],
+  "jobs": ["Colonel in the British Armed Forces (retired)"],
+  "titles": ["Colonel"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Fubster"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Fubster"
 }

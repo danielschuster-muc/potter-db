@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Broom flyer"
-  ],
+  "jobs": ["Broom flyer"],
   "titles": null,
-  "family_members": [
-    "Tarquin McTavish (possibly)"
-  ],
+  "family_members": ["Tarquin McTavish (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c6/Torquil_McTavish.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Torquil_McTavish"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c6/Torquil_McTavish.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Torquil_McTavish"
 }

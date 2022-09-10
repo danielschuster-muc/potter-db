@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chaser for the German National Quidditch team"
-  ],
-  "titles": [
-    "Chaser"
-  ],
+  "jobs": ["Chaser for the German National Quidditch team"],
+  "titles": ["Chaser"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0e/Kursten.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Kursten_Blijk"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0e/Kursten.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Kursten_Blijk"
 }

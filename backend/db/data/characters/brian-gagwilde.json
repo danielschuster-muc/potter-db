@@ -21,15 +21,10 @@
     "Headmaster of Hogwarts School of Witchcraft and Wizardry (formerly)",
     "Author"
   ],
-  "titles": [
-    "Professor",
-    "Headmaster"
-  ],
-  "family_members": [
-    "Brian Gagwilde III (descendant)"
-  ],
+  "titles": ["Professor", "Headmaster"],
+  "family_members": ["Brian Gagwilde III (descendant)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d0/Brian_Gagwilde_HM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Brian_Gagwilde"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d0/Brian_Gagwilde_HM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Brian_Gagwilde"
 }

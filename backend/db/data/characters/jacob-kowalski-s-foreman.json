@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Foreman at Moreton Dale Canning Factory"
-  ],
+  "jobs": ["Foreman at Moreton Dale Canning Factory"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Jacob_Kowalski's_foreman"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Jacob_Kowalski's_foreman"
 }

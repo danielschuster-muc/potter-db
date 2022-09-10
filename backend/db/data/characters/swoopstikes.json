@@ -21,13 +21,10 @@
     "Potions Master at Hogwarts School of Witchcraft and Wizardry",
     "Entomologist"
   ],
-  "titles": [
-    "Professor",
-    "Potions Master"
-  ],
+  "titles": ["Professor", "Potions Master"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a5/Swoopstikes.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Swoopstikes"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a5/Swoopstikes.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Swoopstikes"
 }

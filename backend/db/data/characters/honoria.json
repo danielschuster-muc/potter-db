@@ -27,12 +27,8 @@
     "Kendra Dumbledore (sister or sister-in-law) †",
     "Aurelius Dumbledore (great nephew)"
   ],
-  "romances": [
-    "Fiancé (formerly)"
-  ],
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/Aunt_Honoria.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Honoria"
+  "romances": ["Fiancé (formerly)"],
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/Aunt_Honoria.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Honoria"
 }

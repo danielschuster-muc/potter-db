@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "British Minister for Magic (1975 - 1980)"
-  ],
-  "titles": [
-    "Minister for Magic"
-  ],
+  "jobs": ["British Minister for Magic (1975 - 1980)"],
+  "titles": ["Minister for Magic"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Harold_Minchum"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Harold_Minchum"
 }

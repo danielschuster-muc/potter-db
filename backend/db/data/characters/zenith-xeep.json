@@ -17,21 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Opera diva",
-    "Businesswoman"
-  ],
-  "titles": [
-    "Madam"
-  ],
-  "family_members": [
-    "Lydian Xeep (father)",
-    "Octavia Xeep (mother)"
-  ],
+  "jobs": ["Opera diva", "Businesswoman"],
+  "titles": ["Madam"],
+  "family_members": ["Lydian Xeep (father)", "Octavia Xeep (mother)"],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/df/Zenith_Xeep_HM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Zenith_Xeep"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/df/Zenith_Xeep_HM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Zenith_Xeep"
 }

@@ -16,12 +16,8 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "The Potterer"
-  ],
-  "jobs": [
-    "Potioneer"
-  ],
+  "alias_names": ["The Potterer"],
+  "jobs": ["Potioneer"],
   "titles": null,
   "family_members": [
     "Hardwin Potter (son) †",
@@ -36,6 +32,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/aa/Linfred_de_Stinchcombe.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Linfred_of_Stinchcombe"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/aa/Linfred_de_Stinchcombe.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Linfred_of_Stinchcombe"
 }

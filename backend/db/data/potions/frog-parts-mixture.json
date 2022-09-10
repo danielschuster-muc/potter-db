@@ -8,6 +8,6 @@
   "ingredients": "Frog parts",
   "inventors": null,
   "manufacturers": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/dd/Frog_Parts_Mixture.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Frog_Parts_Mixture"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/dd/Frog_Parts_Mixture.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Frog_Parts_Mixture"
 }

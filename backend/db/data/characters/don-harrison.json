@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Construction foreman"
-  ],
+  "jobs": ["Construction foreman"],
   "titles": null,
-  "family_members": [
-    "Bethany Harrison (daugther)"
-  ],
+  "family_members": ["Bethany Harrison (daugther)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/84/Don_Harrison.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Don_Harrison"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/84/Don_Harrison.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Don_Harrison"
 }

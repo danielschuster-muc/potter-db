@@ -7,6 +7,6 @@
   "light": "Blue",
   "hand": "Point wand",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/23/Informous.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Informous_Spell"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/23/Informous.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Informous_Spell"
 }

@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Zoo director"
-  ],
-  "titles": [
-    "Director"
-  ],
+  "jobs": ["Zoo director"],
+  "titles": ["Director"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Zoo_director"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Zoo_director"
 }

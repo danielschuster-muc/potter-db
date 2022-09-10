@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Auror"
-  ],
+  "jobs": ["Auror"],
   "titles": null,
-  "family_members": [
-    "Demelza Robins (mother)"
-  ],
+  "family_members": ["Demelza Robins (mother)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Nienna_Robins"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Nienna_Robins"
 }

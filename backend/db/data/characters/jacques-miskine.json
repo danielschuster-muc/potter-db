@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Seeker for the Chadian National Quidditch team"
-  ],
-  "titles": [
-    "Seeker"
-  ],
+  "jobs": ["Seeker for the Chadian National Quidditch team"],
+  "titles": ["Seeker"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c3/Jacques_Miskine.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Jacques_Miskine"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c3/Jacques_Miskine.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Jacques_Miskine"
 }

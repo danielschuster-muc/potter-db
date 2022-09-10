@@ -19,13 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Mother"
-  ],
-  "romances": [
-    "Mathilda Grimblehawk"
-  ],
+  "family_members": ["Mother"],
+  "romances": ["Mathilda Grimblehawk"],
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Aisha"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Aisha"
 }

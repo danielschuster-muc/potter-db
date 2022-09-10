@@ -17,15 +17,11 @@
   "house": "Slytherin",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Slytherin House Ghost"
-  ],
-  "titles": [
-    "Baron"
-  ],
+  "jobs": ["Slytherin House Ghost"],
+  "titles": ["Baron"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/55/Bloody_Baron.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Bloody_Baron"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/55/Bloody_Baron.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Bloody_Baron"
 }

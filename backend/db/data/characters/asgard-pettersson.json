@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Beater for the Nordic National Quidditch team"
-  ],
-  "titles": [
-    "Beater"
-  ],
+  "jobs": ["Beater for the Nordic National Quidditch team"],
+  "titles": ["Beater"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f2/Nordic.JPG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Asgard_Pettersson"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f2/Nordic.JPG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Asgard_Pettersson"
 }

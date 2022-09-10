@@ -7,6 +7,6 @@
   "light": "None",
   "hand": null,
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/9c/Voldemort_crucio_harry.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cruciatus_Curse"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/9c/Voldemort_crucio_harry.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Cruciatus_Curse"
 }

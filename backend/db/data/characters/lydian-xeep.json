@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Opera singer"
-  ],
+  "jobs": ["Opera singer"],
   "titles": null,
-  "family_members": [
-    "Octavia Xeep (wife)",
-    "Zenith Xeep (daughter)"
-  ],
+  "family_members": ["Octavia Xeep (wife)", "Zenith Xeep (daughter)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lydian_Xeep"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Lydian_Xeep"
 }

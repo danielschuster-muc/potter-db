@@ -21,9 +21,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/18/Normal_mURI_temp_cba11769_%281%29.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_grey-haired_man_during_the_Battle_of_Hogwarts"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/18/Normal_mURI_temp_cba11769_%281%29.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_grey-haired_man_during_the_Battle_of_Hogwarts"
 }

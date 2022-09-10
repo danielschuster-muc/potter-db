@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Mountain climber (apparently)"
-  ],
+  "jobs": ["Mountain climber (apparently)"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/5b/BC.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/B._C."
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5b/BC.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/B._C."
 }

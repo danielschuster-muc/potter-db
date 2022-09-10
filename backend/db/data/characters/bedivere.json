@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Knight of the Round Table"
-  ],
-  "titles": [
-    "Sir"
-  ],
+  "jobs": ["Knight of the Round Table"],
+  "titles": ["Sir"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Bedivere"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Bedivere"
 }

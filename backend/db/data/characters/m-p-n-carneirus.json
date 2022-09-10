@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Astronomer, Author"
-  ],
+  "jobs": ["Astronomer, Author"],
   "titles": null,
-  "family_members": [
-    "Carneirus family"
-  ],
+  "family_members": ["Carneirus family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/M._P._N._Carneirus"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/M._P._N._Carneirus"
 }

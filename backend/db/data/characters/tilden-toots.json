@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Herbologist",
-    "Potioneer",
-    "Presenter of Toots, Shoots 'n' Roots"
-  ],
+  "jobs": ["Herbologist", "Potioneer", "Presenter of Toots, Shoots 'n' Roots"],
   "titles": null,
-  "family_members": [
-    "Daisy Hookum (wife)"
-  ],
+  "family_members": ["Daisy Hookum (wife)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/ce/Tilden_Toots.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Tilden_Toots"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/ce/Tilden_Toots.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Tilden_Toots"
 }

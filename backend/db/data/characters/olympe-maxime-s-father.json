@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Wife",
-    "Olympe Maxime (daughter)"
-  ],
+  "family_members": ["Wife", "Olympe Maxime (daughter)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Olympe_Maxime's_father"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Olympe_Maxime's_father"
 }

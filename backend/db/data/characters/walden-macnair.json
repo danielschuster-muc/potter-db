@@ -23,9 +23,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/93/Walden_Macnair.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Walden_Macnair"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/93/Walden_Macnair.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Walden_Macnair"
 }

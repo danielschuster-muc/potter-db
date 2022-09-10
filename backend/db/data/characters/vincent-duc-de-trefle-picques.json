@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Nobleman"
-  ],
-  "titles": [
-    "Duc (French Duke)"
-  ],
+  "jobs": ["Nobleman"],
+  "titles": ["Duc (French Duke)"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Vincent_Duc_de_Trefle-Picques"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Vincent_Duc_de_Trefle-Picques"
 }

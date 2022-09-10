@@ -21,9 +21,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "15″, Elder, Thestral tail hair core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1b/Emeric_the_Evil.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Emeric_the_Evil"
+  "wands": ["15″, Elder, Thestral tail hair core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1b/Emeric_the_Evil.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Emeric_the_Evil"
 }

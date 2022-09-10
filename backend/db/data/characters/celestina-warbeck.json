@@ -16,15 +16,9 @@
   "boggart": null,
   "house": "Gryffindor",
   "patronus": null,
-  "alias_names": [
-    "The Singing Sorceress"
-  ],
-  "jobs": [
-    "Singer"
-  ],
-  "titles": [
-    "Madam"
-  ],
+  "alias_names": ["The Singing Sorceress"],
+  "jobs": ["Singer"],
+  "titles": ["Madam"],
   "family_members": [
     "Mr Warbeck (father)",
     "Mrs Warbeck (mother)",
@@ -35,9 +29,7 @@
     "Warbeck family"
   ],
   "romances": null,
-  "wands": [
-    "10½″, Larch, phoenix feather"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/73/Celestina_Warbeck_Wizarding_World.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Celestina_Warbeck"
+  "wands": ["10½″, Larch, phoenix feather"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/73/Celestina_Warbeck_Wizarding_World.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Celestina_Warbeck"
 }

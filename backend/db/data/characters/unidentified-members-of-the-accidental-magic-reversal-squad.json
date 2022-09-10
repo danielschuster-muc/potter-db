@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Accidental Magic Reversal Squad agents"
-  ],
+  "jobs": ["Accidental Magic Reversal Squad agents"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_members_of_the_Accidental_Magic_Reversal_Squad"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_members_of_the_Accidental_Magic_Reversal_Squad"
 }

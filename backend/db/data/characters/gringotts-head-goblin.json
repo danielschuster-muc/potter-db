@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Head Goblin of Gringotts Wizarding Bank"
-  ],
+  "jobs": ["Head Goblin of Gringotts Wizarding Bank"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e3/Gringotts_Head_Goblin.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gringotts_Head_Goblin"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e3/Gringotts_Head_Goblin.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Gringotts_Head_Goblin"
 }

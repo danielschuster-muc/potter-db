@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Trouche family",
-    "Lestrange family"
-  ],
+  "family_members": ["Trouche family", "Lestrange family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Nozéa_Lestrange_(née_Trouche)"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Nozéa_Lestrange_(née_Trouche)"
 }

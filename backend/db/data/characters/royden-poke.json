@@ -21,11 +21,9 @@
     "Representative of the Department for the Regulation and Control of Magical Creatures"
   ],
   "titles": null,
-  "family_members": [
-    "Rutherford Poke (possibly)"
-  ],
+  "family_members": ["Rutherford Poke (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Royden_Poke"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Royden_Poke"
 }

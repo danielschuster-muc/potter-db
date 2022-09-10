@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Captain and Chaser for the Japanese National Quidditch team"
-  ],
-  "titles": [
-    "Captain",
-    "Chaser"
-  ],
+  "jobs": ["Captain and Chaser for the Japanese National Quidditch team"],
+  "titles": ["Captain", "Chaser"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/6b/Ryotaro_Tanaka.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ryotaro_Tanaka"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6b/Ryotaro_Tanaka.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ryotaro_Tanaka"
 }

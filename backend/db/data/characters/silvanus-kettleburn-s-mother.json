@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Silvanus Kettleburn (son)",
-    "Mr Kettleburn (husband)"
-  ],
+  "family_members": ["Silvanus Kettleburn (son)", "Mr Kettleburn (husband)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Silvanus_Kettleburn's_mother"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Silvanus_Kettleburn's_mother"
 }

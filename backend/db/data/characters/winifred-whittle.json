@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Environmental Activist"
-  ],
+  "jobs": ["Environmental Activist"],
   "titles": null,
-  "family_members": [
-    "Hadrian Whittle (possibly)"
-  ],
+  "family_members": ["Hadrian Whittle (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b4/Winifred_Whittle.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Winifred_Whittle"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b4/Winifred_Whittle.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Winifred_Whittle"
 }

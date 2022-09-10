@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Founder and editor of Witch Weekly"
-  ],
+  "jobs": ["Founder and editor of Witch Weekly"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/30/EditorofWitchWeekly.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Tobias_Misslethorpe"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/30/EditorofWitchWeekly.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Tobias_Misslethorpe"
 }

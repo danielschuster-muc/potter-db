@@ -23,12 +23,10 @@
   "jobs": [
     "Professor of Divination at Hogwarts School of Witchcraft and Wizardry (1996-?)"
   ],
-  "titles": [
-    "Professor"
-  ],
+  "titles": ["Professor"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/86/Firenze_PM_cropped.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Firenze"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/86/Firenze_PM_cropped.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Firenze"
 }

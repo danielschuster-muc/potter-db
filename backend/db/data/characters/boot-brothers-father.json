@@ -29,9 +29,7 @@
     "Boot family"
   ],
   "romances": null,
-  "wands": [
-    "Unknown wood and length, dragon heartstring"
-  ],
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Boot_brothers'_father"
+  "wands": ["Unknown wood and length, dragon heartstring"],
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Boot_brothers'_father"
 }

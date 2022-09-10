@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Servant of Hepzibah Smith"
-  ],
+  "jobs": ["Servant of Hepzibah Smith"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d0/Hokey.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Hokey"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d0/Hokey.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Hokey"
 }

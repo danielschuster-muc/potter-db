@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Marketer"
-  ],
+  "jobs": ["Marketer"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/be/Crapaud.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Crapaud"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/be/Crapaud.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Crapaud"
 }

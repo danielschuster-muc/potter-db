@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Potioneer"
-  ],
+  "jobs": ["Potioneer"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/6c/Erica_Stainwright.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Erica_Stainwright"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6c/Erica_Stainwright.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Erica_Stainwright"
 }

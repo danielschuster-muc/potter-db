@@ -21,12 +21,10 @@
     "Professional Quidditch player",
     "Head of the Department of Magical Games and Sports"
   ],
-  "titles": [
-    "Captain (formerly)"
-  ],
+  "titles": ["Captain (formerly)"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Hamish_MacFarlan"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Hamish_MacFarlan"
 }

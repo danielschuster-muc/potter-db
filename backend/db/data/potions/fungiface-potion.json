@@ -8,6 +8,6 @@
   "ingredients": "Fungi (presumably)",
   "inventors": null,
   "manufacturers": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/ca/Fungiface_Potion.JPG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Fungiface_Potion"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/ca/Fungiface_Potion.JPG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Fungiface_Potion"
 }

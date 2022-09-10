@@ -19,11 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Daughter"
-  ],
+  "family_members": ["Daughter"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_king"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_king"
 }

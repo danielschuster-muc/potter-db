@@ -8,6 +8,6 @@
   "ingredients": null,
   "inventors": null,
   "manufacturers": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/16/WeaknessPotion.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Weakness_Potion"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/16/WeaknessPotion.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Weakness_Potion"
 }

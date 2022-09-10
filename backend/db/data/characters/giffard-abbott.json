@@ -17,13 +17,8 @@
   "house": "Hufflepuff",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Headmaster of Hogwarts School"
-  ],
-  "titles": [
-    "Professor",
-    "Headmaster"
-  ],
+  "jobs": ["Headmaster of Hogwarts School"],
+  "titles": ["Professor", "Headmaster"],
   "family_members": [
     "Abbott (possibly) †",
     "Mrs Abbott (possibly) †",
@@ -31,6 +26,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f1/GiffardAbbott2.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Giffard_Abbott"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f1/GiffardAbbott2.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Giffard_Abbott"
 }

@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Unspeakable"
-  ],
-  "titles": [
-    "Madam"
-  ],
+  "jobs": ["Unspeakable"],
+  "titles": ["Madam"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Eloise_Mintumble"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Eloise_Mintumble"
 }

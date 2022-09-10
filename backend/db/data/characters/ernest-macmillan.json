@@ -16,13 +16,9 @@
   "boggart": "Lord Voldemort",
   "house": "Hufflepuff",
   "patronus": "Boar",
-  "alias_names": [
-    "Ernie (by friends)"
-  ],
+  "alias_names": ["Ernie (by friends)"],
   "jobs": null,
-  "titles": [
-    "Prefect"
-  ],
+  "titles": ["Prefect"],
   "family_members": [
     "Nine generations of witches and warlocks",
     "Melania Black (née Macmillan) (possible relative)",
@@ -30,9 +26,7 @@
     "Macmillan family"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/de/Ernie_GOF.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ernest_Macmillan"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/de/Ernie_GOF.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ernest_Macmillan"
 }

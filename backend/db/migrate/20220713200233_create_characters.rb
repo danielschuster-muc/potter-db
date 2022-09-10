@@ -25,8 +25,8 @@ class CreateCharacters < ActiveRecord::Migration[7.0]
       t.text :romances, array: true, default: []
       t.text :titles, array: true, default: []
       t.text :wands, array: true, default: []
-      t.text :image_url
-      t.text :wiki_link
+      t.text :image
+      t.text :wiki
 
       t.timestamps
     end

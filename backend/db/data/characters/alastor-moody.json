@@ -16,21 +16,12 @@
   "boggart": "Lord Voldemort",
   "house": "Unknown",
   "patronus": "Non-corporeal",
-  "alias_names": [
-    "Mad-Eye"
-  ],
-  "jobs": [
-    "Auror (Retired)"
-  ],
+  "alias_names": ["Mad-Eye"],
+  "jobs": ["Auror (Retired)"],
   "titles": null,
-  "family_members": [
-    "Mr Moody (father) †",
-    "Mrs Moody (mother) †"
-  ],
+  "family_members": ["Mr Moody (father) †", "Mrs Moody (mother) †"],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/4d/MoodyProfile.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Alastor_Moody"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/4d/MoodyProfile.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Alastor_Moody"
 }

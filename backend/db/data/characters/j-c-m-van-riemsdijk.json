@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Musician and author"
-  ],
-  "titles": [
-    "Jonkheer",
-    "Meester"
-  ],
+  "jobs": ["Musician and author"],
+  "titles": ["Jonkheer", "Meester"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/J._C._M._van_Riemsdijk"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/J._C._M._van_Riemsdijk"
 }

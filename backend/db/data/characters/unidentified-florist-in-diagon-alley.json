@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Florist in Diagon Alley"
-  ],
+  "jobs": ["Florist in Diagon Alley"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/89/Florist.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_florist_in_Diagon_Alley"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/89/Florist.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_florist_in_Diagon_Alley"
 }

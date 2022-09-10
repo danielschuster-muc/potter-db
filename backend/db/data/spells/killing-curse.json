@@ -7,6 +7,6 @@
   "light": "Green",
   "hand": null,
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/78/Avada-Kedavra.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Killing_Curse"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/78/Avada-Kedavra.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Killing_Curse"
 }

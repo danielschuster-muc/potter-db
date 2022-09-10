@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Headmistress of Hogwarts School of Witchcraft and Wizardry"
-  ],
-  "titles": [
-    "Professor",
-    "Headmaster"
-  ],
+  "jobs": ["Headmistress of Hogwarts School of Witchcraft and Wizardry"],
+  "titles": ["Professor", "Headmaster"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/11/Unidentified_Sleeping_Headmistress_with_wand.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_sleeping_Headmistress_with_wand"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/11/Unidentified_Sleeping_Headmistress_with_wand.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_sleeping_Headmistress_with_wand"
 }

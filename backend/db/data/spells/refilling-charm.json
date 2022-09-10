@@ -7,6 +7,6 @@
   "light": "None",
   "hand": "Point wand at target",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c6/Refilling_Charm.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Refilling_Charm"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c6/Refilling_Charm.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Refilling_Charm"
 }

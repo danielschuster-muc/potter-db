@@ -17,15 +17,11 @@
   "house": "Gryffindor (possibly)",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Quidditch player"
-  ],
-  "titles": [
-    "Chaser (most likely)"
-  ],
+  "jobs": ["Quidditch player"],
+  "titles": ["Chaser (most likely)"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/47/QuidditchPlayerPortrait.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Portrait_of_a_Quidditch_player"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/47/QuidditchPlayerPortrait.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Portrait_of_a_Quidditch_player"
 }

@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Delegate of the International Confederation of Wizards"
-  ],
-  "titles": [
-    "Madam"
-  ],
+  "jobs": ["Delegate of the International Confederation of Wizards"],
+  "titles": ["Madam"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/14/Ya_Zhou.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ya_Zhou"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/14/Ya_Zhou.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ya_Zhou"
 }

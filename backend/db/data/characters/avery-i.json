@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Avery II (possibly)",
-    "Avery family"
-  ],
+  "family_members": ["Avery II (possibly)", "Avery family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/6a/Avery_%28Riddle-era%29.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Avery_I"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6a/Avery_%28Riddle-era%29.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Avery_I"
 }

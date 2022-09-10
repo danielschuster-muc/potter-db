@@ -21,10 +21,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown wand",
-    "Elder, Thestral tail hair core (possibly)"
-  ],
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Arcus"
+  "wands": ["Unknown wand", "Elder, Thestral tail hair core (possibly)"],
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Arcus"
 }

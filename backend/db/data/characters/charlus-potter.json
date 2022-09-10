@@ -40,10 +40,8 @@
     "Potter family",
     "House of Black (in-laws)"
   ],
-  "romances": [
-    "Dorea Potter (wife)"
-  ],
+  "romances": ["Dorea Potter (wife)"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/72/Charlus.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Charlus_Potter"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/72/Charlus.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Charlus_Potter"
 }

@@ -17,12 +17,8 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Seeker for the Chudley Cannons"
-  ],
-  "titles": [
-    "Seeker"
-  ],
+  "jobs": ["Seeker for the Chudley Cannons"],
+  "titles": ["Seeker"],
   "family_members": [
     "Gladys Gudgeon (possibly)",
     "Davey Gudgeon (possibly)",
@@ -30,6 +26,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Galvin_Gudgeon"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Galvin_Gudgeon"
 }

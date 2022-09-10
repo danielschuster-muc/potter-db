@@ -16,14 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Bloody MaryMary Tudor"
-  ],
+  "alias_names": ["Bloody MaryMary Tudor"],
   "jobs": null,
-  "titles": [
-    "Lady",
-    "Queen of England"
-  ],
+  "titles": ["Lady", "Queen of England"],
   "family_members": [
     "Henry VIII (father)",
     "Catherine of Aragon (mother)",
@@ -34,9 +29,7 @@
     "House of Tudor"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1e/Mary_I.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mary_I"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1e/Mary_I.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Mary_I"
 }

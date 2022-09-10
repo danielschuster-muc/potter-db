@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Snatcher"
-  ],
+  "jobs": ["Snatcher"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d9/Female_Snatcher.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_female_Snatcher_during_the_Battle_of_Hogwarts"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d9/Female_Snatcher.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_female_Snatcher_during_the_Battle_of_Hogwarts"
 }

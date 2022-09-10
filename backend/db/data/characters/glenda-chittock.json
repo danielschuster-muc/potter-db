@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Host of Witching Hour on the Wizarding Wireless Network"
-  ],
+  "jobs": ["Host of Witching Hour on the Wizarding Wireless Network"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c4/Glenda_Chittock.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Glenda_Chittock"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c4/Glenda_Chittock.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Glenda_Chittock"
 }

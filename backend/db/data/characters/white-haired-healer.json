@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Healer"
-  ],
+  "jobs": ["Healer"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/2f/Battle_of_Hogwarts_people.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/White-Haired_Healer"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/2f/Battle_of_Hogwarts_people.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/White-Haired_Healer"
 }

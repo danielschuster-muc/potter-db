@@ -17,18 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "British Minister for Magic (1726 - 1733)"
-  ],
-  "titles": [
-    "Minister for Magic"
-  ],
-  "family_members": [
-    "Pansy Parkinson (possible)",
-    "Parkinson family"
-  ],
+  "jobs": ["British Minister for Magic (1726 - 1733)"],
+  "titles": ["Minister for Magic"],
+  "family_members": ["Pansy Parkinson (possible)", "Parkinson family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Perseus_Parkinson"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Perseus_Parkinson"
 }

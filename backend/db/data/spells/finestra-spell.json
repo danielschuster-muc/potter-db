@@ -7,6 +7,6 @@
   "light": "Blue",
   "hand": "Flick wand",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d1/Finestra.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Finestra_spell"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d1/Finestra.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Finestra_spell"
 }

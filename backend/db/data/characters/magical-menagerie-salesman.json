@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Salesman at the Magical Menagerie"
-  ],
+  "jobs": ["Salesman at the Magical Menagerie"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d7/Magical_Menagerie_salesman.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Magical_Menagerie_salesman"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d7/Magical_Menagerie_salesman.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Magical_Menagerie_salesman"
 }

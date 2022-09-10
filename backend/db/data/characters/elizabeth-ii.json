@@ -17,12 +17,8 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Queen of the United Kingdom and other Commonwealth countries"
-  ],
-  "titles": [
-    "Queen"
-  ],
+  "jobs": ["Queen of the United Kingdom and other Commonwealth countries"],
+  "titles": ["Queen"],
   "family_members": [
     "Prince Philip, Duke of Edinburgh (Husband) †",
     "Prince Charles, Duke of Cornwall (Son)",
@@ -57,6 +53,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/4e/MuggleBanknote.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Elizabeth_II"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/4e/MuggleBanknote.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Elizabeth_II"
 }

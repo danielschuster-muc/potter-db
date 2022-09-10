@@ -20,12 +20,10 @@
   "jobs": [
     "Professor of Study of Ancient Runes at Hogwarts School of Witchcraft and Wizardry"
   ],
-  "titles": [
-    "Professor"
-  ],
+  "titles": ["Professor"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a2/Espes_McGillonie_MA.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Espes_McGillonie"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a2/Espes_McGillonie_MA.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Espes_McGillonie"
 }

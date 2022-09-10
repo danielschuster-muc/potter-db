@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Seeker for the Scottish International Quidditch team"
-  ],
-  "titles": [
-    "Seeker"
-  ],
-  "family_members": [
-    "'Stubby' Lamont"
-  ],
+  "jobs": ["Seeker for the Scottish International Quidditch team"],
+  "titles": ["Seeker"],
+  "family_members": ["'Stubby' Lamont"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Hector_Lamont"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Hector_Lamont"
 }

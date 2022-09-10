@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Theologian",
-    "Historian"
-  ],
-  "titles": [
-    "Saint"
-  ],
+  "jobs": ["Theologian", "Historian"],
+  "titles": ["Saint"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Jerome"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Jerome"
 }

@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chaser for the Nordic National Quidditch team"
-  ],
-  "titles": [
-    "Chaser"
-  ],
+  "jobs": ["Chaser for the Nordic National Quidditch team"],
+  "titles": ["Chaser"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c7/Peter_Hansen.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Peter_Hansen"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c7/Peter_Hansen.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Peter_Hansen"
 }

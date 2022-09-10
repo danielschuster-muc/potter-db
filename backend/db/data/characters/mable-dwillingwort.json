@@ -17,14 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Spell inventor (possibly)",
-    "Potioneer (possibly)"
-  ],
+  "jobs": ["Spell inventor (possibly)", "Potioneer (possibly)"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mable_Dwillingwort"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Mable_Dwillingwort"
 }

@@ -7,6 +7,6 @@
   "light": "Blue",
   "hand": null,
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/ea/PortusPAS.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Portkey_Spell"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ea/PortusPAS.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Portkey_Spell"
 }

@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Founder of the Committee on Experimental Charms"
-  ],
+  "jobs": ["Founder of the Committee on Experimental Charms"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/06/Balfour_Blane.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Balfour_Blane"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/06/Balfour_Blane.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Balfour_Blane"
 }

@@ -8,6 +8,6 @@
   "ingredients": null,
   "inventors": null,
   "manufacturers": "Hogwarts Apothecary Dept.",
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/56/ReplenishingPotion.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Replenishing_Potion"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/56/ReplenishingPotion.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Replenishing_Potion"
 }

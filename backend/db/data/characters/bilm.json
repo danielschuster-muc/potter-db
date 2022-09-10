@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Hogwarts kitchens worker"
-  ],
+  "jobs": ["Hogwarts kitchens worker"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/cc/HM_Bilm.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Bilm"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/cc/HM_Bilm.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Bilm"
 }

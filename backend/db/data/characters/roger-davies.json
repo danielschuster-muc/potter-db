@@ -18,10 +18,7 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Captain",
-    "Chaser"
-  ],
+  "titles": ["Captain", "Chaser"],
   "family_members": [
     "Chester Davies (older brother)",
     "Davies (possible relative)",
@@ -33,6 +30,6 @@
     "Cho Chang (ex-girlfriend)"
   ],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e5/Roger_Davies.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Roger_Davies"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e5/Roger_Davies.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Roger_Davies"
 }

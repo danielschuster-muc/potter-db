@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Servant in the Circus Arcanus"
-  ],
+  "jobs": ["Servant in the Circus Arcanus"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/03/Brilliant_Circus_Arcanus_House-Elf_WU.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Circus_Arcanus_house-elf"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/03/Brilliant_Circus_Arcanus_House-Elf_WU.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Circus_Arcanus_house-elf"
 }

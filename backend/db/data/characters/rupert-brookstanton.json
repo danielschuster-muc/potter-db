@@ -16,14 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Axebanger"
-  ],
+  "alias_names": ["Axebanger"],
   "jobs": null,
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Rupert_Brookstanton"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Rupert_Brookstanton"
 }

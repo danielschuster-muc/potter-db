@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Keeper for the Norwegian National Quidditch team"
-  ],
+  "jobs": ["Keeper for the Norwegian National Quidditch team"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Karl_Wang"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Karl_Wang"
 }

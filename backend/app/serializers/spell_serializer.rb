@@ -7,7 +7,7 @@ class SpellSerializer < ApplicationSerializer
     :light,
     :hand,
     :creator,
-    :image_url,
-    :wiki_link
+    :image,
+    :wiki
   )
 end

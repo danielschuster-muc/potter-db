@@ -16,14 +16,9 @@
   "boggart": null,
   "house": "Ravenclaw",
   "patronus": null,
-  "alias_names": [
-    "Style Wizard"
-  ],
+  "alias_names": ["Style Wizard"],
   "jobs": null,
-  "titles": [
-    "Reserve Seeker",
-    "Keeper"
-  ],
+  "titles": ["Reserve Seeker", "Keeper"],
   "family_members": [
     "Sister",
     "Jules Egwu (cousin)",
@@ -32,6 +27,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1c/Andre_Egwu.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Andre_Egwu"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1c/Andre_Egwu.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Andre_Egwu"
 }

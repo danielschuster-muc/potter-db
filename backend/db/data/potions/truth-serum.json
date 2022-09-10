@@ -8,6 +8,6 @@
   "ingredients": "Jobberknoll feathers",
   "inventors": null,
   "manufacturers": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d9/Veritaserum.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Truth_serum"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d9/Veritaserum.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Truth_serum"
 }

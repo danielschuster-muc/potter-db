@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Snatcher"
-  ],
+  "jobs": ["Snatcher"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/6c/Snatchers_in_Diagon_Alley.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_male_Snatcher_at_Diagon_Alley"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6c/Snatchers_in_Diagon_Alley.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_male_Snatcher_at_Diagon_Alley"
 }

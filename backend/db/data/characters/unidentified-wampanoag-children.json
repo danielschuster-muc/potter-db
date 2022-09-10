@@ -21,9 +21,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown lengths, woods and cores"
-  ],
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Wampanoag_children"
+  "wands": ["Unknown lengths, woods and cores"],
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Wampanoag_children"
 }

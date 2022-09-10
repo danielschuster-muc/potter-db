@@ -17,14 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Adventurer",
-    "Poacher"
-  ],
+  "jobs": ["Adventurer", "Poacher"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/01/Percival_Shacklehorn.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Percival_Shacklehorn"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/01/Percival_Shacklehorn.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Percival_Shacklehorn"
 }

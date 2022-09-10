@@ -17,9 +17,7 @@
   "house": null,
   "patronus": "Non-corporeal",
   "alias_names": null,
-  "jobs": [
-    "Lead guitarist for The Weird Sisters"
-  ],
+  "jobs": ["Lead guitarist for The Weird Sisters"],
   "titles": null,
   "family_members": [
     "Catriona McCormack (mother)",
@@ -27,6 +25,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/8e/Kirley_Duke.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Kirley_Duke"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/8e/Kirley_Duke.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Kirley_Duke"
 }

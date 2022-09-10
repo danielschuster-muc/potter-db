@@ -21,12 +21,10 @@
     "Teacher at Hogwarts School of Witchcraft and Wizardry",
     "Founder of Hogwarts School of Witchcraft and Wizardry"
   ],
-  "titles": [
-    "Founder"
-  ],
+  "titles": ["Founder"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/31/Founders_gryffindor1.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Godric_Gryffindor"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/31/Founders_gryffindor1.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Godric_Gryffindor"
 }

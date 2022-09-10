@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chief Bank Teller at Gringotts Wizarding Bank"
-  ],
-  "titles": [
-    "Chief Bank Teller"
-  ],
+  "jobs": ["Chief Bank Teller at Gringotts Wizarding Bank"],
+  "titles": ["Chief Bank Teller"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/dd/Headgobli2.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ricbert"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/dd/Headgobli2.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ricbert"
 }

@@ -17,19 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Headmaster of Ilvermorny School of Witchcraft and Wizardry"
-  ],
-  "titles": [
-    "Headmaster",
-    "Professor"
-  ],
-  "family_members": [
-    "Theodard Fontaine (ancestor)",
-    "Fontaine family"
-  ],
+  "jobs": ["Headmaster of Ilvermorny School of Witchcraft and Wizardry"],
+  "titles": ["Headmaster", "Professor"],
+  "family_members": ["Theodard Fontaine (ancestor)", "Fontaine family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Agilbert_Fontaine"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Agilbert_Fontaine"
 }

@@ -21,12 +21,10 @@
     "Seeker for the Tutshill Tornados (formerly)",
     "Seeker for the English National Quidditch team"
   ],
-  "titles": [
-    "Seeker"
-  ],
+  "titles": ["Seeker"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/ce/Rodrigo_Plumpton.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Roderick_Plumpton"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/ce/Rodrigo_Plumpton.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Roderick_Plumpton"
 }

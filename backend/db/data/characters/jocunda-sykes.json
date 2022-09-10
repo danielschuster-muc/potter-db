@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Broom flyer"
-  ],
+  "jobs": ["Broom flyer"],
   "titles": null,
   "family_members": [
     "Alex Sykes (I) (possibly)",
@@ -28,6 +26,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e2/Jocunda_Sykes.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Jocunda_Sykes"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e2/Jocunda_Sykes.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Jocunda_Sykes"
 }

@@ -7,6 +7,6 @@
   "light": "Red or purple",
   "hand": "Point wand at target",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/ea/Herbifors.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Herbifors"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ea/Herbifors.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Herbifors"
 }

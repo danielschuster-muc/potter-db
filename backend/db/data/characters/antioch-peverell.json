@@ -16,9 +16,7 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "First Brother"
-  ],
+  "alias_names": ["First Brother"],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -33,6 +31,6 @@
     "Unknown length, wood, and core (formerly)",
     "15″, Elder, Thestral tail hair core"
   ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/4d/Antioch_sketch.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Antioch_Peverell"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/4d/Antioch_sketch.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Antioch_Peverell"
 }

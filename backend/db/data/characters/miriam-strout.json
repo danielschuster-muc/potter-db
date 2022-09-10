@@ -17,17 +17,11 @@
   "house": null,
   "patronus": "White Swan",
   "alias_names": null,
-  "jobs": [
-    "Healer"
-  ],
-  "titles": [
-    "Madam"
-  ],
+  "jobs": ["Healer"],
+  "titles": ["Madam"],
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e1/Miriam_Strout_HM.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Miriam_Strout"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e1/Miriam_Strout_HM.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Miriam_Strout"
 }

@@ -17,12 +17,8 @@
   "house": "Ravenclaw (possibly)",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Ministry of Magic employee"
-  ],
-  "titles": [
-    "Madam"
-  ],
+  "jobs": ["Ministry of Magic employee"],
+  "titles": ["Madam"],
   "family_members": [
     "Husband",
     "Father-in-law",
@@ -32,6 +28,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cho_Chang's_mother"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Cho_Chang's_mother"
 }

@@ -17,13 +17,11 @@
   "house": "Gryffindor (possibly)",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Etiquette teacher"
-  ],
+  "jobs": ["Etiquette teacher"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/5a/EtiquetteTeacherPortrait.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Portrait_of_a_female_etiquette_teacher"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5a/EtiquetteTeacherPortrait.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Portrait_of_a_female_etiquette_teacher"
 }

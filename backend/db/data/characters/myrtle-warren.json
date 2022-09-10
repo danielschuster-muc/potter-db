@@ -16,20 +16,12 @@
   "boggart": null,
   "house": "Ravenclaw",
   "patronus": null,
-  "alias_names": [
-    "Moaning Myrtle"
-  ],
+  "alias_names": ["Moaning Myrtle"],
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Mr Warren (father)",
-    "Mrs Warren (mother)"
-  ],
-  "romances": [
-    "Harry Potter",
-    "Draco Malfoy"
-  ],
+  "family_members": ["Mr Warren (father)", "Mrs Warren (mother)"],
+  "romances": ["Harry Potter", "Draco Malfoy"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b8/Myrtle_Warren_profile.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Myrtle_Warren"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b8/Myrtle_Warren_profile.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Myrtle_Warren"
 }

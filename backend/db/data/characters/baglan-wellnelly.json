@@ -18,15 +18,10 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Seeker"
-  ],
-  "family_members": [
-    "Gruffyd Wellnelly (twin brother)",
-    "Wellnelly family"
-  ],
+  "titles": ["Seeker"],
+  "family_members": ["Gruffyd Wellnelly (twin brother)", "Wellnelly family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/ce/Baglan_Wellnelly_HM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Baglan_Wellnelly"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/ce/Baglan_Wellnelly_HM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Baglan_Wellnelly"
 }

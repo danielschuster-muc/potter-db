@@ -19,14 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Blaise Zabini (possible relative)",
-    "Zabini family"
-  ],
+  "family_members": ["Blaise Zabini (possible relative)", "Zabini family"],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/80/Zabini_SOD.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Zabini"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/80/Zabini_SOD.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Zabini"
 }

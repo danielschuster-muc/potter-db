@@ -21,13 +21,10 @@
     "Social historian specialising in Muggles",
     "Headmistress of Hogwarts (formerly)"
   ],
-  "titles": [
-    "Professor",
-    "Headmistress"
-  ],
+  "titles": ["Professor", "Headmistress"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/66/EdessaSakndenbergPortrait.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Edessa_Sakndenberg"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/66/EdessaSakndenbergPortrait.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Edessa_Sakndenberg"
 }

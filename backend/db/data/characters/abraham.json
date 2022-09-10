@@ -19,11 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Isaac (son)"
-  ],
+  "family_members": ["Isaac (son)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b4/ScreamingFaceBook.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Abraham"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b4/ScreamingFaceBook.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Abraham"
 }

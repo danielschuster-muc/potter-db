@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Professor of Muggle Studies (21st century)"
-  ],
-  "titles": [
-    "Professor"
-  ],
+  "jobs": ["Professor of Muggle Studies (21st century)"],
+  "titles": ["Professor"],
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/5e/Concordia_Rowle_MA.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Concordia_Rowle"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5e/Concordia_Rowle_MA.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Concordia_Rowle"
 }

@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Manager of Puddlemere United (formerly)"
-  ],
+  "jobs": ["Manager of Puddlemere United (formerly)"],
   "titles": null,
-  "family_members": [
-    "Barnabas Deverill (possibly)"
-  ],
+  "family_members": ["Barnabas Deverill (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Philbert_Deverill"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Philbert_Deverill"
 }

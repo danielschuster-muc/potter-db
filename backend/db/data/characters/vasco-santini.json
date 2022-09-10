@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Beater for the Spanish National Quidditch team"
-  ],
-  "titles": [
-    "Beater"
-  ],
+  "jobs": ["Beater for the Spanish National Quidditch team"],
+  "titles": ["Beater"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/15/Santini.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Vasco_Santini"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/15/Santini.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Vasco_Santini"
 }

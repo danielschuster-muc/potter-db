@@ -21,17 +21,10 @@
     "Investigator for the British Ministry of Magic Beast Division",
     "Magizoologist"
   ],
-  "titles": [
-    "Magizoologist"
-  ],
-  "family_members": [
-    "Abraham Grimblehawk (uncle)",
-    "Grimblehawk family"
-  ],
-  "romances": [
-    "Aisha"
-  ],
+  "titles": ["Magizoologist"],
+  "family_members": ["Abraham Grimblehawk (uncle)", "Grimblehawk family"],
+  "romances": ["Aisha"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/09/Mathilda_Grimblehawk.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mathilda_Grimblehawk"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/09/Mathilda_Grimblehawk.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Mathilda_Grimblehawk"
 }

@@ -17,14 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Muggle expert",
-    "Author"
-  ],
+  "jobs": ["Muggle expert", "Author"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/4b/Blenheim_Stalk.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Blenheim_Stalk"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/4b/Blenheim_Stalk.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Blenheim_Stalk"
 }

@@ -18,12 +18,10 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "President"
-  ],
+  "titles": ["President"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/3d/Roland_Kegg.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Roland_Kegg"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/3d/Roland_Kegg.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Roland_Kegg"
 }

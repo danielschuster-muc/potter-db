@@ -18,12 +18,10 @@
   "patronus": "None",
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Death Eater"
-  ],
+  "titles": ["Death Eater"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d6/CaptureJoeKallis.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_male_Death_Eater_during_the_Battle_of_Hogwarts_(IV)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d6/CaptureJoeKallis.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_male_Death_Eater_during_the_Battle_of_Hogwarts_(IV)"
 }

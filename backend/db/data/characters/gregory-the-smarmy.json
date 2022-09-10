@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Potioneer"
-  ],
+  "jobs": ["Potioneer"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/52/Gregory_the_Smarmy_HM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gregory_the_Smarmy"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/52/Gregory_the_Smarmy_HM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Gregory_the_Smarmy"
 }

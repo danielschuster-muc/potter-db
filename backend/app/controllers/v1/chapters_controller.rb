@@ -1,10 +1,13 @@
 module V1
   class ChaptersController < ApplicationController
+    # before_action :set_book_chapters, only: %i[index show]
+    # before_action :set_test_data
+
     def index
       allowed = %i[title summary order]
 
-      @book = Book.friendly.find_by_friendly_id(params[:book_id])
-      jsonapi_filter(@book.chapters.all, allowed) do |filtered|
+      @book_chapters = Book.friendly.find_by_friendly_id(params[:book_id]).chapters.all
+      jsonapi_filter(@book_chapters, allowed) do |filtered|
         jsonapi_paginate(filtered.result) do |paginated|
           render jsonapi: paginated
         end
@@ -12,9 +15,19 @@ module V1
     end
 
     def show
-      id = params[:id]
-      book = id.eql?("random") ? Chapter.all.sample : Chapter.friendly.find_by_friendly_id(id)
+      @book_chapters = Book.friendly.find_by_friendly_id(params[:book_id]).chapters.all
+      book = params[:id].eql?("random") ? @book_chapters.sample : @book_chapters.friendly.find_by_friendly_id(params[:id])
       render jsonapi: book
     end
+  end
+
+  private
+
+  # def set_book_chapters
+  #   @book_chapters = Book.friendly.find_by_friendly_id(params[:book_id]).chapters.all
+  # end
+
+  def set_test_data
+    @test = "Hello"
   end
 end

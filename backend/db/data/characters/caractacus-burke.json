@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Shopkeeper"
-  ],
+  "jobs": ["Shopkeeper"],
   "titles": null,
   "family_members": [
     "Herbert Burke (possible son) †",
@@ -31,6 +29,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Caractacus_Burke"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Caractacus_Burke"
 }

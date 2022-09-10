@@ -16,14 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Mittens - The Cat"
-  ],
+  "alias_names": ["Mittens - The Cat"],
   "jobs": null,
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/39/Gato_Felinus_-_wanted_poster.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gato_Felinus"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/39/Gato_Felinus_-_wanted_poster.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Gato_Felinus"
 }

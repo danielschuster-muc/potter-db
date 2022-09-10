@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Mosag (wife)",
-    "Unnamed children"
-  ],
+  "family_members": ["Mosag (wife)", "Unnamed children"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/2c/Aragog_in_his_lair_COSF.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Aragog"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/2c/Aragog_in_his_lair_COSF.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Aragog"
 }

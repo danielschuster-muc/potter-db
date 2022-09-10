@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Orphanage matron"
-  ],
+  "jobs": ["Orphanage matron"],
   "titles": null,
-  "family_members": [
-    "Cole family"
-  ],
+  "family_members": ["Cole family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/69/Cole.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cole"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/69/Cole.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Cole"
 }

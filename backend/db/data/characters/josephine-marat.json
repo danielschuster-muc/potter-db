@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chaser and Captain of the French National Quidditch team"
-  ],
-  "titles": [
-    "Chaser",
-    "Captain"
-  ],
+  "jobs": ["Chaser and Captain of the French National Quidditch team"],
+  "titles": ["Chaser", "Captain"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/9d/Josephine_Marat.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Josephine_Marat"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/9d/Josephine_Marat.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Josephine_Marat"
 }

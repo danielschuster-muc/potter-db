@@ -17,9 +17,7 @@
   "house": "Hufflepuff (possibly)",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Hippogriff breeder"
-  ],
+  "jobs": ["Hippogriff breeder"],
   "titles": null,
   "family_members": [
     "Newt Scamander (son)",
@@ -31,6 +29,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Scamander_brothers'_mother"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Scamander_brothers'_mother"
 }

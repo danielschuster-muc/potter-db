@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Beater for the German National Quidditch team"
-  ],
-  "titles": [
-    "Beater"
-  ],
+  "jobs": ["Beater for the German National Quidditch team"],
+  "titles": ["Beater"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/9a/Elena_Eldritch_-_card_HBP-NDS.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Elena_Eldritch"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/9a/Elena_Eldritch_-_card_HBP-NDS.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Elena_Eldritch"
 }

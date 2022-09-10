@@ -26,10 +26,8 @@
     "Mother-in-law",
     "Murk family (in-laws)"
   ],
-  "romances": [
-    "Husband"
-  ],
+  "romances": ["Husband"],
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ismelda_Murk's_mother"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Ismelda_Murk's_mother"
 }

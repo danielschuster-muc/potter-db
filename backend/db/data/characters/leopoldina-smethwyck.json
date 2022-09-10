@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Quidditch referee"
-  ],
+  "jobs": ["Quidditch referee"],
   "titles": null,
   "family_members": [
     "Elliot Smethwyck (possibly)",
@@ -27,6 +25,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/08/Leopoldina_Smethwyck.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Leopoldina_Smethwyck"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/08/Leopoldina_Smethwyck.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Leopoldina_Smethwyck"
 }

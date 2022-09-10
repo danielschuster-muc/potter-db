@@ -40,7 +40,8 @@ unless books.empty?
       release_date: book["release_date"],
       dedication: book["dedication"],
       pages: book["pages"], order: book_index + 1,
-      cover_url: book["cover_url"]
+      cover: book["cover"],
+      wiki: book["wiki"]
     )
     book["chapters"].each_with_index do |chapter, chapter_index|
       Chapter.create!(

@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "President of the United States of America"
-  ],
+  "jobs": ["President of the United States of America"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Warren_G._Harding"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Warren_G._Harding"
 }

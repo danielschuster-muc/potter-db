@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "British Ministry of Magic official"
-  ],
+  "jobs": ["British Ministry of Magic official"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/94/Ministry_of_Magic_meeting_assigner.PNG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ministry_of_Magic_meeting_assigner"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/94/Ministry_of_Magic_meeting_assigner.PNG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ministry_of_Magic_meeting_assigner"
 }

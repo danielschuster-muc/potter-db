@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Seeker for the Japanese National Quidditch team"
-  ],
-  "titles": [
-    "Seeker"
-  ],
+  "jobs": ["Seeker for the Japanese National Quidditch team"],
+  "titles": ["Seeker"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/99/Shizuka_Watanabe.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Shizuka_Watanabe"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/99/Shizuka_Watanabe.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Shizuka_Watanabe"
 }

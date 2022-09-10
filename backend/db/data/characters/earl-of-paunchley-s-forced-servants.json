@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Forced servants of the Earl of Paunchley"
-  ],
+  "jobs": ["Forced servants of the Earl of Paunchley"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/4a/EarlOfPaunchleyServants.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Earl_of_Paunchley's_forced_servants"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/4a/EarlOfPaunchleyServants.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Earl_of_Paunchley's_forced_servants"
 }

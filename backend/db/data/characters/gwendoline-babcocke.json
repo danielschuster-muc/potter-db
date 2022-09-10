@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Shop assistant at The Magic Neep"
-  ],
+  "jobs": ["Shop assistant at The Magic Neep"],
   "titles": null,
-  "family_members": [
-    "Mother"
-  ],
+  "family_members": ["Mother"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/10/Gwendoline_Babcocke.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gwendoline_Babcocke"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/10/Gwendoline_Babcocke.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Gwendoline_Babcocke"
 }

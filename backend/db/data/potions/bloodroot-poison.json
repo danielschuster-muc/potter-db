@@ -8,6 +8,6 @@
   "ingredients": "Bloodroot",
   "inventors": null,
   "manufacturers": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/eb/Bloodroot_Poison.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Bloodroot_Poison"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/eb/Bloodroot_Poison.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Bloodroot_Poison"
 }

@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "President of the United States"
-  ],
+  "jobs": ["President of the United States"],
   "titles": null,
-  "family_members": [
-    "Hillary Clinton (wife)",
-    "Chelsea Clinton (daughter)"
-  ],
+  "family_members": ["Hillary Clinton (wife)", "Chelsea Clinton (daughter)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/47/BillClinton.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Bill_Clinton"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/47/BillClinton.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Bill_Clinton"
 }

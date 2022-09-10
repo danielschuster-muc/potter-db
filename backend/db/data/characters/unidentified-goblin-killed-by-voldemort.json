@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Employee at Gringotts"
-  ],
+  "jobs": ["Employee at Gringotts"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_goblin_killed_by_Voldemort"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_goblin_killed_by_Voldemort"
 }

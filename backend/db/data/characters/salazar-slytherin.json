@@ -16,16 +16,12 @@
   "boggart": null,
   "house": "Slytherin",
   "patronus": "Non-corporeal",
-  "alias_names": [
-    "Serpent-tongue"
-  ],
+  "alias_names": ["Serpent-tongue"],
   "jobs": [
     "Teacher at Hogwarts School of Witchcraft and Wizardry",
     "Founder of Hogwarts School of Witchcraft and Wizardry"
   ],
-  "titles": [
-    "Founder"
-  ],
+  "titles": ["Founder"],
   "family_members": [
     "Gormlaith Gaunt (descendant) †",
     "Rionach Gaunt (descendant) †",
@@ -42,9 +38,7 @@
     "House of Gaunt (descendants)"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, snakewood, Basilisk horn"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/60/PM_SalazarSlytherin_Founders.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Salazar_Slytherin"
+  "wands": ["Unknown length, snakewood, Basilisk horn"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/60/PM_SalazarSlytherin_Founders.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Salazar_Slytherin"
 }

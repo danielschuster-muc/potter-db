@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Swiss delegate of the International Confederation of Wizards"
-  ],
+  "jobs": ["Swiss delegate of the International Confederation of Wizards"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c1/Heinrich_Eberstadt.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Heinrich_Eberstadt"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c1/Heinrich_Eberstadt.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Heinrich_Eberstadt"
 }

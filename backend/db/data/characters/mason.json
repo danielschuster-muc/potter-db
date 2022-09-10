@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Builder"
-  ],
+  "jobs": ["Builder"],
   "titles": null,
-  "family_members": [
-    "Mrs Mason (wife)"
-  ],
+  "family_members": ["Mrs Mason (wife)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/75/Mr.Mason.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mason"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/75/Mr.Mason.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Mason"
 }

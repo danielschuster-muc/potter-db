@@ -21,9 +21,7 @@
     "Teacher at Hogwarts School of Witchcraft and Wizardry",
     "Founder of Hogwarts School of Witchcraft and Wizardry"
   ],
-  "titles": [
-    "Founder"
-  ],
+  "titles": ["Founder"],
   "family_members": [
     "Hepzibah Smith (descendant) †",
     "Mr Smith (possible descendant)",
@@ -34,6 +32,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d6/PM_HelgaHufflepuff_Founders.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Helga_Hufflepuff"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d6/PM_HelgaHufflepuff_Founders.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Helga_Hufflepuff"
 }

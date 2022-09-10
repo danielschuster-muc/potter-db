@@ -17,13 +17,11 @@
   "house": "Ravenclaw",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Potioneer"
-  ],
+  "jobs": ["Potioneer"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a7/Laverne_de_Montmorency.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Laverne_de_Montmorency"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a7/Laverne_de_Montmorency.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Laverne_de_Montmorency"
 }

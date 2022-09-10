@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chaser and Captain of the English National Quidditch team"
-  ],
-  "titles": [
-    "Captain",
-    "Chaser"
-  ],
+  "jobs": ["Chaser and Captain of the English National Quidditch team"],
+  "titles": ["Captain", "Chaser"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c2/Avery_Hawksworth.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Avery_Hawksworth"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c2/Avery_Hawksworth.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Avery_Hawksworth"
 }

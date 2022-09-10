@@ -16,28 +16,17 @@
   "boggart": "Lord Voldemort",
   "house": "Hufflepuff",
   "patronus": null,
-  "alias_names": [
-    "Ced (by Amos Diggory)"
-  ],
+  "alias_names": ["Ced (by Amos Diggory)"],
   "jobs": null,
-  "titles": [
-    "Quidditch Captain",
-    "Seeker",
-    "Prefect",
-    "Triwizard Champion"
-  ],
+  "titles": ["Quidditch Captain", "Seeker", "Prefect", "Triwizard Champion"],
   "family_members": [
     "Amos Diggory (father)",
     "Mrs Diggory (mother)",
     "Eldritch Diggory (possible relative)",
     "Diggory family"
   ],
-  "romances": [
-    "Cho Chang"
-  ],
-  "wands": [
-    "12¼″, Ash, Unicorn hair"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/90/Cedric_Diggory_Profile.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cedric_Diggory"
+  "romances": ["Cho Chang"],
+  "wands": ["12¼″, Ash, Unicorn hair"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/90/Cedric_Diggory_Profile.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Cedric_Diggory"
 }

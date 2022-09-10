@@ -10,7 +10,7 @@ class PotionSerializer < ApplicationSerializer
     :ingredients,
     :inventors,
     :manufacturers,
-    :image_url,
-    :wiki_link
+    :image,
+    :wiki
   )
 end

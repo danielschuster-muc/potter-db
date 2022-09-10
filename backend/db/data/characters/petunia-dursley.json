@@ -16,12 +16,8 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Tuney (by Lily J. Potter)"
-  ],
-  "jobs": [
-    "Office worker at Grunnings (formerly)"
-  ],
+  "alias_names": ["Tuney (by Lily J. Potter)"],
+  "jobs": ["Office worker at Grunnings (formerly)"],
   "titles": null,
   "family_members": [
     "Mr Evans (father) †",
@@ -37,10 +33,8 @@
     "Harry Potter (nephew)",
     "Ginevra Potter (née Weasley) (niece-in-law)"
   ],
-  "romances": [
-    "Vernon Dursley (husband)"
-  ],
+  "romances": ["Vernon Dursley (husband)"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/64/Petunia_DH1.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Petunia_Dursley"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/64/Petunia_DH1.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Petunia_Dursley"
 }

@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Cook at the Leaky Cauldron"
-  ],
+  "jobs": ["Cook at the Leaky Cauldron"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cook_at_the_Leaky_Cauldron"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Cook_at_the_Leaky_Cauldron"
 }

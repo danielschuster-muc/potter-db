@@ -17,13 +17,8 @@
   "house": "Thunderbird",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Founder of Ilvermorny School of Witchcraft and Wizardry",
-    "Author"
-  ],
-  "titles": [
-    "Founder"
-  ],
+  "jobs": ["Founder of Ilvermorny School of Witchcraft and Wizardry", "Author"],
+  "titles": ["Founder"],
   "family_members": [
     "Mr Boot (father)",
     "Mrs Boot (mother)",
@@ -40,12 +35,8 @@
     "Calderon family (in-laws)",
     "Calderon-Boot family"
   ],
-  "romances": [
-    "Josefina Calderon (wife)"
-  ],
-  "wands": [
-    "Unknown length, Prickly ash, Horned Serpent horn"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/7e/ChadwickBoot.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Chadwick_Boot"
+  "romances": ["Josefina Calderon (wife)"],
+  "wands": ["Unknown length, Prickly ash, Horned Serpent horn"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7e/ChadwickBoot.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Chadwick_Boot"
 }
