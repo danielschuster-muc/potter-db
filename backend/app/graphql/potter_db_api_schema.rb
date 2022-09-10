@@ -1,5 +1,5 @@
 class PotterDbApiSchema < GraphQL::Schema
-  default_max_page_size 50
+  default_max_page_size 100
   default_page_size 25
 
   # mutation(Types::MutationType)

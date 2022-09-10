@@ -13,8 +13,9 @@ class ApplicationController < ActionController::API
   end
 
   def jsonapi_page_size(pagination_params)
+    max_per_page = 100
     per_page = pagination_params[:size].to_f.to_i
-    per_page = 25 if per_page > 25 || per_page < 1
+    per_page = max_per_page if per_page > max_per_page || per_page < 1
     per_page
   end
 end
