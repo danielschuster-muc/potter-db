@@ -7,6 +7,6 @@
   "light": "Green or blue",
   "hand": null,
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/8a/Skurge.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Skurge_Charm"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/8a/Skurge.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Skurge_Charm"
 }

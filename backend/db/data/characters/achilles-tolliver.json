@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Auror"
-  ],
+  "jobs": ["Auror"],
   "titles": null,
   "family_members": null,
-  "romances": [
-    "Porpentina Goldstein (dated)"
-  ],
+  "romances": ["Porpentina Goldstein (dated)"],
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Achilles_Tolliver"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Achilles_Tolliver"
 }

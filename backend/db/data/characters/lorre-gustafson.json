@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chaser for the Nordic National Quidditch team"
-  ],
-  "titles": [
-    "Chaser"
-  ],
+  "jobs": ["Chaser for the Nordic National Quidditch team"],
+  "titles": ["Chaser"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e4/Lorre_Gustafson_-_card_HBP-NDS.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lorre_Gustafson"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e4/Lorre_Gustafson_-_card_HBP-NDS.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Lorre_Gustafson"
 }

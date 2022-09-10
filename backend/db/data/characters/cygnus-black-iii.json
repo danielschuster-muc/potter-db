@@ -52,10 +52,8 @@
     "Bulstrode family (maternal relatives)",
     "Flint family (maternal ancestors)"
   ],
-  "romances": [
-    "Druella Black (wife) †"
-  ],
+  "romances": ["Druella Black (wife) †"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e0/Cygnus_Black_1938-1992.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cygnus_Black_III"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e0/Cygnus_Black_1938-1992.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Cygnus_Black_III"
 }

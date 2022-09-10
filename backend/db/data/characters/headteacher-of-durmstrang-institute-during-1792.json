@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Headmaster of Durmstrang Institute (1792 or before -?)"
-  ],
-  "titles": [
-    "Professor",
-    "Headmaster or Headmistress"
-  ],
+  "jobs": ["Headmaster of Durmstrang Institute (1792 or before -?)"],
+  "titles": ["Professor", "Headmaster or Headmistress"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Headteacher_of_Durmstrang_Institute_during_1792"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Headteacher_of_Durmstrang_Institute_during_1792"
 }

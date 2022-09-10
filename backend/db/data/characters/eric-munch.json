@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Watchwizard at the British Ministry of Magic"
-  ],
+  "jobs": ["Watchwizard at the British Ministry of Magic"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d8/Eric_Munch.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Eric_Munch"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d8/Eric_Munch.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Eric_Munch"
 }

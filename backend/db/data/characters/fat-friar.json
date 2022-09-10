@@ -17,13 +17,11 @@
   "house": "Hufflepuff",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Hufflepuff House Ghost"
-  ],
+  "jobs": ["Hufflepuff House Ghost"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/ea/Fat_Friar_Profile.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Fat_Friar"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ea/Fat_Friar_Profile.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Fat_Friar"
 }

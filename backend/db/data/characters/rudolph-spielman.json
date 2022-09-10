@@ -23,9 +23,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown wood, core material and length"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a1/Spielman.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Rudolph_Spielman"
+  "wands": ["Unknown wood, core material and length"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a1/Spielman.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Rudolph_Spielman"
 }

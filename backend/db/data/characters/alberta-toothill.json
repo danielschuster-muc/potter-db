@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Professional Duellist"
-  ],
-  "titles": [
-    "Duelling Champion"
-  ],
+  "jobs": ["Professional Duellist"],
+  "titles": ["Duelling Champion"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/63/Alberta_Toothill.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Alberta_Toothill"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/63/Alberta_Toothill.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Alberta_Toothill"
 }

@@ -18,12 +18,10 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Chaser"
-  ],
+  "titles": ["Chaser"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a7/HM_Erika_Rath%27s_friend_%28II%29.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Erika_Rath's_friend_(II)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a7/HM_Erika_Rath%27s_friend_%28II%29.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Erika_Rath's_friend_(II)"
 }

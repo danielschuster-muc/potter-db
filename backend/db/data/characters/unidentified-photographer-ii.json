@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Photographer"
-  ],
+  "jobs": ["Photographer"],
   "titles": null,
-  "family_members": [
-    "Martha (wife or girlfriend)"
-  ],
+  "family_members": ["Martha (wife or girlfriend)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f6/Photographer_2.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_photographer_(II)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f6/Photographer_2.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_photographer_(II)"
 }

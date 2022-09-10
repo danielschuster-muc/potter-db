@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Author",
-    "Professional monster hunter"
-  ],
+  "jobs": ["Author", "Professional monster hunter"],
   "titles": null,
-  "family_members": [
-    "Sister"
-  ],
+  "family_members": ["Sister"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/84/Laura_Thorn.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Laura_Thorn"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/84/Laura_Thorn.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Laura_Thorn"
 }

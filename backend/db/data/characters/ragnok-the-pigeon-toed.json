@@ -17,14 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Author",
-    "Activist"
-  ],
+  "jobs": ["Author", "Activist"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ragnok_the_Pigeon-Toed"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Ragnok_the_Pigeon-Toed"
 }

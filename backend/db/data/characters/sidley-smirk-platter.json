@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Supreme Mugwump of the International Confederation of Wizards"
-  ],
-  "titles": [
-    "Supreme Mugwump",
-    "Grand Sorcerer",
-    "Sir"
-  ],
+  "jobs": ["Supreme Mugwump of the International Confederation of Wizards"],
+  "titles": ["Supreme Mugwump", "Grand Sorcerer", "Sir"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/9f/SmirkPlatterProfile.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Sidley_Smirk_Platter"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/9f/SmirkPlatterProfile.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Sidley_Smirk_Platter"
 }

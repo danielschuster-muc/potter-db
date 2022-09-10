@@ -30,10 +30,8 @@
     "Rionach Steward (granddaughter)",
     "Morrigan (ancestor)"
   ],
-  "romances": [
-    "Rionach Sayre (wife) †"
-  ],
+  "romances": ["Rionach Sayre (wife) †"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/5c/William_Sayre.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/William_Sayre"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5c/William_Sayre.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/William_Sayre"
 }

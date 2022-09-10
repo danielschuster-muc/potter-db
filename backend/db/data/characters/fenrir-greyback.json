@@ -21,9 +21,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b2/Fenrir_Greyback.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Fenrir_Greyback"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b2/Fenrir_Greyback.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Fenrir_Greyback"
 }

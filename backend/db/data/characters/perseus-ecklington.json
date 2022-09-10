@@ -19,15 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Daisy Twemlove (wife)"
-  ],
-  "romances": [
-    "Daisy Twemlove (wife)"
-  ],
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/94/PerseusEcklington.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Perseus_Ecklington"
+  "family_members": ["Daisy Twemlove (wife)"],
+  "romances": ["Daisy Twemlove (wife)"],
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/94/PerseusEcklington.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Perseus_Ecklington"
 }

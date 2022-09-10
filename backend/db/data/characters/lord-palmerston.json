@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Prime Minister of United Kingdom (1855-1858, 1859-1865)"
-  ],
-  "titles": [
-    "Prime Minister"
-  ],
-  "family_members": [
-    "Emily Lamb (wife)"
-  ],
+  "jobs": ["Prime Minister of United Kingdom (1855-1858, 1859-1865)"],
+  "titles": ["Prime Minister"],
+  "family_members": ["Emily Lamb (wife)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lord_Palmerston"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Lord_Palmerston"
 }

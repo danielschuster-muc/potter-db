@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Ollivanders Wand Shop branch proprietor"
-  ],
-  "titles": [
-    "Wandkeeper"
-  ],
+  "jobs": ["Ollivanders Wand Shop branch proprietor"],
+  "titles": ["Wandkeeper"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/14/Newunidentified.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Wandkeeper"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/14/Newunidentified.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Wandkeeper"
 }

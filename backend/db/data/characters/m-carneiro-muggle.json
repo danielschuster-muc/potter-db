@@ -17,14 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Stage director",
-    "Production designer"
-  ],
+  "jobs": ["Stage director", "Production designer"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/M._Carneiro_(Muggle)"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/M._Carneiro_(Muggle)"
 }

@@ -17,16 +17,11 @@
   "house": "Ravenclaw",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Headmaster of Hogwarts School"
-  ],
-  "titles": [
-    "Professor",
-    "Headmaster"
-  ],
+  "jobs": ["Headmaster of Hogwarts School"],
+  "titles": ["Professor", "Headmaster"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/cd/Basil_Fronsac_Old.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Basil_Fronsac"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/cd/Basil_Fronsac_Old.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Basil_Fronsac"
 }

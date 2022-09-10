@@ -16,14 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Vi"
-  ],
+  "alias_names": ["Vi"],
   "jobs": null,
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/50/VioletHM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Violet"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/50/VioletHM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Violet"
 }

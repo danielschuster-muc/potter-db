@@ -21,13 +21,10 @@
     "Captain and Keeper of the Kenmare Kestrels (formerly)",
     "Captain of the Irish National Quidditch team"
   ],
-  "titles": [
-    "Captain",
-    "Keeper"
-  ],
+  "titles": ["Captain", "Keeper"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/23/Darren_OHare.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Darren_O'Hare"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/23/Darren_OHare.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Darren_O'Hare"
 }

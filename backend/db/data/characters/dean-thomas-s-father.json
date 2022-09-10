@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Mrs Thomas (widow)",
-    "Dean Thomas (son)"
-  ],
+  "family_members": ["Mrs Thomas (widow)", "Dean Thomas (son)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Dean_Thomas's_father"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Dean_Thomas's_father"
 }

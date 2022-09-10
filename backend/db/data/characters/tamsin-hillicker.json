@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Iola Hillicker (relative)",
-    "Hillicker family"
-  ],
+  "family_members": ["Iola Hillicker (relative)", "Hillicker family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Tamsin_Hillicker"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Tamsin_Hillicker"
 }

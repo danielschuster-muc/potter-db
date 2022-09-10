@@ -17,12 +17,8 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "King of Great Britain and Ireland"
-  ],
-  "titles": [
-    "King"
-  ],
+  "jobs": ["King of Great Britain and Ireland"],
+  "titles": ["King"],
   "family_members": [
     "Victoria (granddaughter)",
     "William I (ancestor)",
@@ -31,6 +27,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/George_III"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/George_III"
 }

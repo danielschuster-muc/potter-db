@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Policeman"
-  ],
-  "titles": [
-    "Sergeant"
-  ],
-  "family_members": [
-    "Ms Fisher (daughter)"
-  ],
+  "jobs": ["Policeman"],
+  "titles": ["Sergeant"],
+  "family_members": ["Ms Fisher (daughter)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Fisher"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Fisher"
 }

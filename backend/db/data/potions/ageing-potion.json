@@ -8,6 +8,6 @@
   "ingredients": "Newt spleens, Bananas, An orange snake, A green leaf",
   "inventors": null,
   "manufacturers": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/51/Ageing_Potion_PM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ageing_Potion"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/51/Ageing_Potion_PM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ageing_Potion"
 }

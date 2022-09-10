@@ -16,28 +16,16 @@
   "boggart": null,
   "house": "Slytherin",
   "patronus": "Non-corporeal",
-  "alias_names": [
-    "Old Sluggy (by Cormac McLaggen and Hermione Granger)"
-  ],
+  "alias_names": ["Old Sluggy (by Cormac McLaggen and Hermione Granger)"],
   "jobs": [
     "Potions Master at Hogwarts School of Witchcraft and Wizardry (1931-1981; 1996-between 2008 and 2012 (most likely))",
     "Head of Slytherin House at Hogwarts School of Witchcraft and Wizardry (?-1981; 1997- Pre 2016)",
     "Owner of the Apothecarium of Horace E. F. Slughorn (?)"
   ],
-  "titles": [
-    "Professor",
-    "Potions Master",
-    "Head of Slytherin"
-  ],
-  "family_members": [
-    "Mr Slughorn (father)†",
-    "Mother†",
-    "Slughorn family"
-  ],
+  "titles": ["Professor", "Potions Master", "Head of Slytherin"],
+  "family_members": ["Mr Slughorn (father)†", "Mother†", "Slughorn family"],
   "romances": null,
-  "wands": [
-    "10¼″, Cedar, dragon heartstring, fairly flexible"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a1/Horace_Slughorn_%28HBP_promo%29_1-1.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Horace_Slughorn"
+  "wands": ["10¼″, Cedar, dragon heartstring, fairly flexible"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a1/Horace_Slughorn_%28HBP_promo%29_1-1.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Horace_Slughorn"
 }

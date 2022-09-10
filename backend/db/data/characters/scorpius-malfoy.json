@@ -42,12 +42,8 @@
     "Bulstrode family (paternal ancestors)",
     "Flint family (paternal ancestors)"
   ],
-  "romances": [
-    "Rose Granger-Weasley (crush)"
-  ],
-  "wands": [
-    "Willow, unknown length and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/cd/Scorpius_Malfoy_%28HPCC%29.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Scorpius_Malfoy"
+  "romances": ["Rose Granger-Weasley (crush)"],
+  "wands": ["Willow, unknown length and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/cd/Scorpius_Malfoy_%28HPCC%29.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Scorpius_Malfoy"
 }

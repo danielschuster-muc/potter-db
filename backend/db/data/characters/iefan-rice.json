@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Beater for the Welsh National Quidditch team"
-  ],
+  "jobs": ["Beater for the Welsh National Quidditch team"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Iefan_Rice"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Iefan_Rice"
 }

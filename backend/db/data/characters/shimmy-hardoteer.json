@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Owner of Broom Brakes Service"
-  ],
+  "jobs": ["Owner of Broom Brakes Service"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Shimmy_Hardoteer"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Shimmy_Hardoteer"
 }

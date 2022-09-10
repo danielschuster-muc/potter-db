@@ -18,15 +18,10 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Beater",
-    "Quidditch Captain"
-  ],
-  "family_members": [
-    "Father"
-  ],
+  "titles": ["Beater", "Quidditch Captain"],
+  "family_members": ["Father"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/35/ErikaRath.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Erika_Rath"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/35/ErikaRath.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Erika_Rath"
 }

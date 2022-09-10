@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Owner of Sir Tomkins & Co. (presumably)"
-  ],
-  "titles": [
-    "Sir"
-  ],
+  "jobs": ["Owner of Sir Tomkins & Co. (presumably)"],
+  "titles": ["Sir"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Tomkins"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Tomkins"
 }

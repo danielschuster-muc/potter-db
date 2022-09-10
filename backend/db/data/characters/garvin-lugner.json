@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Inventor"
-  ],
-  "titles": [
-    "Warlock"
-  ],
+  "jobs": ["Inventor"],
+  "titles": ["Warlock"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Garvin_Lügner"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Garvin_Lügner"
 }

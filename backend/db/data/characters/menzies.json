@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Leader of the Liberal Party"
-  ],
-  "titles": [
-    "Sir"
-  ],
+  "jobs": ["Leader of the Liberal Party"],
+  "titles": ["Sir"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Menzies"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Menzies"
 }

@@ -17,12 +17,8 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Queen of the United Kingdom of Great Britain and Ireland"
-  ],
-  "titles": [
-    "Queen"
-  ],
+  "jobs": ["Queen of the United Kingdom of Great Britain and Ireland"],
+  "titles": ["Queen"],
   "family_members": [
     "William I (ancestor)",
     "Henry VII (ancestor)",
@@ -31,6 +27,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/3e/QueenVictoriaPortrait.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Victoria"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/3e/QueenVictoriaPortrait.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Victoria"
 }

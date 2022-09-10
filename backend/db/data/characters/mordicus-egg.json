@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Muggle expert",
-    "Author"
-  ],
-  "titles": [
-    "Professor"
-  ],
+  "jobs": ["Muggle expert", "Author"],
+  "titles": ["Professor"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/91/MordicusEgg.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mordicus_Egg"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/91/MordicusEgg.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Mordicus_Egg"
 }

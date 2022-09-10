@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Journalist for The Guardian"
-  ],
+  "jobs": ["Journalist for The Guardian"],
   "titles": null,
-  "family_members": [
-    "Nigel Wolpert (Possibly)"
-  ],
+  "family_members": ["Nigel Wolpert (Possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Jamie_Wolpert_(in-universe)"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Jamie_Wolpert_(in-universe)"
 }

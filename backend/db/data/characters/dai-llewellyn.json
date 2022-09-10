@@ -16,16 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "'Dangerous' Dai"
-  ],
-  "jobs": [
-    "Quidditch player for the Caerphilly Catapults"
-  ],
+  "alias_names": ["'Dangerous' Dai"],
+  "jobs": ["Quidditch player for the Caerphilly Catapults"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f3/Dangerous_Dai.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Dai_Llewellyn"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f3/Dangerous_Dai.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Dai_Llewellyn"
 }

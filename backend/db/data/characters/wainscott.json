@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Nurse at Hogwarts School of Witchcraft and Wizardry"
-  ],
+  "jobs": ["Nurse at Hogwarts School of Witchcraft and Wizardry"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/67/Nurse_Wainscott_DHF2.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Wainscott"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/67/Nurse_Wainscott_DHF2.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Wainscott"
 }

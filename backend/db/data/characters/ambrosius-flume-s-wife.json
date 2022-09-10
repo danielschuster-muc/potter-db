@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Co-owner of Honeydukes"
-  ],
+  "jobs": ["Co-owner of Honeydukes"],
   "titles": null,
-  "family_members": [
-    "Ambrosius Flume (husband)"
-  ],
+  "family_members": ["Ambrosius Flume (husband)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/99/Mrs_Flume.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ambrosius_Flume's_wife"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/99/Mrs_Flume.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ambrosius_Flume's_wife"
 }

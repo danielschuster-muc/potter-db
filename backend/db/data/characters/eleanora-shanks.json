@@ -16,14 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Crazy Lamb"
-  ],
+  "alias_names": ["Crazy Lamb"],
   "jobs": null,
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/5b/Eleanora_Shanks.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Eleanora_Shanks"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5b/Eleanora_Shanks.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Eleanora_Shanks"
 }

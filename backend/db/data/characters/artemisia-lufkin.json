@@ -17,15 +17,11 @@
   "house": "Hufflepuff",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Minister for Magic (1798 - 1811)"
-  ],
-  "titles": [
-    "Minister for Magic"
-  ],
+  "jobs": ["Minister for Magic (1798 - 1811)"],
+  "titles": ["Minister for Magic"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e4/Artemisia_Lufkin.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Artemisia_Lufkin"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e4/Artemisia_Lufkin.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Artemisia_Lufkin"
 }

@@ -23,12 +23,8 @@
     "Harry Potter (under disguise of Polyjuice)",
     "Freddie (by Bellatrix Lestrange and George Weasley)"
   ],
-  "jobs": [
-    "Co-owner of Weasleys' Wizard Wheezes"
-  ],
-  "titles": [
-    "Beater"
-  ],
+  "jobs": ["Co-owner of Weasleys' Wizard Wheezes"],
+  "titles": ["Beater"],
   "family_members": [
     "Arthur Weasley (father)",
     "Molly Weasley (née Prewett) (mother)",
@@ -69,9 +65,7 @@
     "House of Black (distant relatives)"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/90/Fred_HS_TDH_promo.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Fred_Weasley"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/90/Fred_HS_TDH_promo.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Fred_Weasley"
 }

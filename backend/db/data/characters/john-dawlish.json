@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Auror"
-  ],
+  "jobs": ["Auror"],
   "titles": null,
-  "family_members": [
-    "Helen Dawlish (possibly)"
-  ],
+  "family_members": ["Helen Dawlish (possibly)"],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/67/John_Dawlish_OOTP.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/John_Dawlish"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/67/John_Dawlish_OOTP.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/John_Dawlish"
 }

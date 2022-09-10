@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Healer"
-  ],
-  "titles": [
-    "Healer"
-  ],
+  "jobs": ["Healer"],
+  "titles": ["Healer"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Portrait_of_a_Healer_in_St_Mungo's_Hospital"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Portrait_of_a_Healer_in_St_Mungo's_Hospital"
 }

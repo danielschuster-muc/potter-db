@@ -21,12 +21,10 @@
     "Healer at St Mungo's Hospital",
     "Advice columnist for the Daily Prophet"
   ],
-  "titles": [
-    "Professor"
-  ],
+  "titles": ["Professor"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Helbert_Spleen"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Helbert_Spleen"
 }

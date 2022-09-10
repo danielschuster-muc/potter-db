@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Professor of Defence Against the Dark Arts (1989–1990)"
-  ],
-  "titles": [
-    "Professor"
-  ],
+  "jobs": ["Professor of Defence Against the Dark Arts (1989–1990)"],
+  "titles": ["Professor"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_1989–1990_Defence_Against_the_Dark_Arts_professor"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_1989–1990_Defence_Against_the_Dark_Arts_professor"
 }

@@ -16,17 +16,12 @@
   "boggart": "Lord Voldemort",
   "house": "Gryffindor",
   "patronus": "None",
-  "alias_names": [
-    "Ernie (by Dre Head)",
-    "Ern (by Stan Shunpike)"
-  ],
-  "jobs": [
-    "Driver of the Knight Bus"
-  ],
+  "alias_names": ["Ernie (by Dre Head)", "Ern (by Stan Shunpike)"],
+  "jobs": ["Driver of the Knight Bus"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/ad/ErniePrang.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ernest_Prang"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/ad/ErniePrang.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ernest_Prang"
 }

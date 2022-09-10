@@ -17,12 +17,8 @@
   "house": "Gryffindor",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Head of Gryffindor House (?-pre 1991)"
-  ],
-  "titles": [
-    "Head of House"
-  ],
+  "jobs": ["Head of Gryffindor House (?-pre 1991)"],
+  "titles": ["Head of House"],
   "family_members": [
     "Google Stump (possibly)",
     "Grogan Stump (possibly)",
@@ -30,6 +26,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/5a/Tobias_Stump.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Tobias_Stump"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5a/Tobias_Stump.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Tobias_Stump"
 }

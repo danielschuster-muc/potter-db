@@ -16,18 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Vlad Tepes",
-    "Vlad Drăculea",
-    "Vlad Dracula"
-  ],
+  "alias_names": ["Vlad Tepes", "Vlad Drăculea", "Vlad Dracula"],
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Vlad Drakul (father)"
-  ],
+  "family_members": ["Vlad Drakul (father)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Vlad_the_Impaler"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Vlad_the_Impaler"
 }

@@ -20,10 +20,8 @@
   "jobs": null,
   "titles": null,
   "family_members": null,
-  "romances": [
-    "Sam"
-  ],
+  "romances": ["Sam"],
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cecily"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Cecily"
 }

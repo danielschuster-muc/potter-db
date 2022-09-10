@@ -16,18 +16,12 @@
   "boggart": null,
   "house": "Slytherin",
   "patronus": null,
-  "alias_names": [
-    "Prince of Enchanters"
-  ],
-  "jobs": [
-    "Advisor to King Arthur and his court"
-  ],
+  "alias_names": ["Prince of Enchanters"],
+  "jobs": ["Advisor to King Arthur and his court"],
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unconfirmed length and core, probably English oak wood"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/72/Merlin_Chocolate_Frog_Card_HM.PNG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Merlin"
+  "wands": ["Unconfirmed length and core, probably English oak wood"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/72/Merlin_Chocolate_Frog_Card_HM.PNG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Merlin"
 }

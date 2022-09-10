@@ -23,7 +23,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_08_215550) do
     t.string "dedication"
     t.integer "pages"
     t.integer "order"
-    t.text "cover_url"
+    t.text "cover"
+    t.text "wiki"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["slug"], name: "index_books_on_slug", unique: true
@@ -66,8 +67,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_08_215550) do
     t.text "romances", default: [], array: true
     t.text "titles", default: [], array: true
     t.text "wands", default: [], array: true
-    t.text "image_url"
-    t.text "wiki_link"
+    t.text "image"
+    t.text "wiki"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["slug"], name: "index_characters_on_slug", unique: true
@@ -84,8 +85,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_08_215550) do
     t.string "ingredients"
     t.string "inventors"
     t.string "manufacturers"
-    t.text "image_url"
-    t.text "wiki_link"
+    t.text "image"
+    t.text "wiki"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["slug"], name: "index_potions_on_slug", unique: true
@@ -100,8 +101,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_08_215550) do
     t.string "light"
     t.string "hand"
     t.string "creator"
-    t.text "image_url"
-    t.text "wiki_link"
+    t.text "image"
+    t.text "wiki"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["slug"], name: "index_spells_on_slug", unique: true

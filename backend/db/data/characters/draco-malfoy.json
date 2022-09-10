@@ -18,10 +18,7 @@
   "patronus": "None",
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Seeker",
-    "Prefect"
-  ],
+  "titles": ["Seeker", "Prefect"],
   "family_members": [
     "Lucius Malfoy (father)",
     "Narcissa Malfoy (née Black) (mother)",
@@ -49,15 +46,12 @@
     "Bulstrode family (maternal ancestors)",
     "Flint family (maternal ancestors)"
   ],
-  "romances": [
-    "Pansy Parkinson (ex-girlfriend)",
-    "Astoria Malfoy (wife) †"
-  ],
+  "romances": ["Pansy Parkinson (ex-girlfriend)", "Astoria Malfoy (wife) †"],
   "wands": [
     "10″, Hawthorn, unicorn hair (formerly)",
     "Unknown length, wood and core (temporarily)",
     "15″, Elder, Thestral tail hair (never used)"
   ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/7e/Draco_Malfoy_TDH.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Draco_Malfoy"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7e/Draco_Malfoy_TDH.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Draco_Malfoy"
 }

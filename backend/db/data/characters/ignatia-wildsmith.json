@@ -17,13 +17,11 @@
   "house": "Ravenclaw",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Inventor"
-  ],
+  "jobs": ["Inventor"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/85/Ignatia_Wildsmith.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ignatia_Wildsmith"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/85/Ignatia_Wildsmith.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ignatia_Wildsmith"
 }

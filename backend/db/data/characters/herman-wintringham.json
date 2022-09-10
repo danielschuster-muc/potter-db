@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Lutenist for the The Weird Sisters"
-  ],
+  "jobs": ["Lutenist for the The Weird Sisters"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/fa/Herman_Wintringham.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Herman_Wintringham"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/fa/Herman_Wintringham.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Herman_Wintringham"
 }

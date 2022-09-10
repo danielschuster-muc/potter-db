@@ -17,14 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Dog breeder",
-    "Author"
-  ],
+  "jobs": ["Dog breeder", "Author"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mopsy_Fleabert"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Mopsy_Fleabert"
 }

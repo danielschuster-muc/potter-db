@@ -16,20 +16,12 @@
   "boggart": null,
   "house": "Ravenclaw",
   "patronus": null,
-  "alias_names": [
-    "Liv (by Jacob)"
-  ],
-  "jobs": [
-    "Defence Against the Dark Arts professor (1990–1991 school year)"
-  ],
-  "titles": [
-    "Professor"
-  ],
-  "family_members": [
-    "Robert Green (possibly)"
-  ],
+  "alias_names": ["Liv (by Jacob)"],
+  "jobs": ["Defence Against the Dark Arts professor (1990–1991 school year)"],
+  "titles": ["Professor"],
+  "family_members": ["Robert Green (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/7c/Professor_Olivia_Green.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Olivia_Green"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7c/Professor_Olivia_Green.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Olivia_Green"
 }

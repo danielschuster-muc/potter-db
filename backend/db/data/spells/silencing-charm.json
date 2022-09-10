@@ -7,6 +7,6 @@
   "light": "None",
   "hand": null,
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b2/Silencio_HM_Spell_Icon.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Silencing_Charm"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b2/Silencio_HM_Spell_Icon.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Silencing_Charm"
 }

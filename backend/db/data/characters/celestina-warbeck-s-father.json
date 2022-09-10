@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Minor functionary in the Muggle Liaison Office"
-  ],
+  "jobs": ["Minor functionary in the Muggle Liaison Office"],
   "titles": null,
   "family_members": [
     "Mrs Warbeck (wife)",
@@ -31,6 +29,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Celestina_Warbeck's_father"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Celestina_Warbeck's_father"
 }

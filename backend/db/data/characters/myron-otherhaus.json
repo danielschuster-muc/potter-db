@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Violet Tillyman (lover)",
-    "Seven children"
-  ],
+  "family_members": ["Violet Tillyman (lover)", "Seven children"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Myron_Otherhaus"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Myron_Otherhaus"
 }

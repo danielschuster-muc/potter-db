@@ -17,12 +17,8 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Seeker for the English National Quidditch team"
-  ],
-  "titles": [
-    "Seeker"
-  ],
+  "jobs": ["Seeker for the English National Quidditch team"],
+  "titles": ["Seeker"],
   "family_members": [
     "Walter Parkin (possibly)",
     "Walter Parkin's children (possibly)",
@@ -30,6 +26,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/5f/Blythe_Parkin.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Blythe_Parkin"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5f/Blythe_Parkin.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Blythe_Parkin"
 }

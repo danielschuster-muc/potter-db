@@ -25,10 +25,8 @@
     "Corban Yaxley (possible relative)",
     "Yaxley family"
   ],
-  "romances": [
-    "Wife"
-  ],
+  "romances": ["Wife"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c0/Yaxley_%281920s%29.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Yaxley_(1920s)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c0/Yaxley_%281920s%29.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Yaxley_(1920s)"
 }

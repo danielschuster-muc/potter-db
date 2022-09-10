@@ -7,6 +7,6 @@
   "light": "Blue",
   "hand": null,
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b8/Glacius.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Freezing_Spell"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b8/Glacius.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Freezing_Spell"
 }

@@ -27,9 +27,7 @@
     "Carrow family"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood are core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c7/1920sCarrow.jpeg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Carrow_(1920s)"
+  "wands": ["Unknown length, wood are core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c7/1920sCarrow.jpeg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Carrow_(1920s)"
 }

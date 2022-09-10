@@ -19,11 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Billingsley (uncle)"
-  ],
+  "family_members": ["Billingsley (uncle)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/69/Billingsley%27s_niece.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Billingsley's_niece"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/69/Billingsley%27s_niece.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Billingsley's_niece"
 }

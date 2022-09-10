@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Barber"
-  ],
+  "jobs": ["Barber"],
   "titles": null,
-  "family_members": [
-    "Podric Batworthy (ancestor)",
-    "Batworthy family"
-  ],
+  "family_members": ["Podric Batworthy (ancestor)", "Batworthy family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Podric_Batworthy_XXIII"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Podric_Batworthy_XXIII"
 }

@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Auror"
-  ],
+  "jobs": ["Auror"],
   "titles": null,
   "family_members": [
     "Son",
@@ -30,6 +28,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/26/Grandfather_Chang.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cho_Chang's_grandfather"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/26/Grandfather_Chang.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Cho_Chang's_grandfather"
 }

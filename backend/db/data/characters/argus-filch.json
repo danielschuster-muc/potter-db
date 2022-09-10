@@ -16,20 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Filchy (by Peeves)"
-  ],
-  "jobs": [
-    "Caretaker of Hogwarts (since c. 1968)"
-  ],
-  "titles": [
-    "Caretaker"
-  ],
+  "alias_names": ["Filchy (by Peeves)"],
+  "jobs": ["Caretaker of Hogwarts (since c. 1968)"],
+  "titles": ["Caretaker"],
   "family_members": null,
-  "romances": [
-    "Irma Pince"
-  ],
+  "romances": ["Irma Pince"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c8/Mainfulcd.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Argus_Filch"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c8/Mainfulcd.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Argus_Filch"
 }

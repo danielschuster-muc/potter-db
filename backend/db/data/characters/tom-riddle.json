@@ -24,15 +24,8 @@
     "Chief Death Eater (by Lee Jordan)",
     "Heir of Slytherin"
   ],
-  "jobs": [
-    "Shop assistant at Borgin and Burkes (formerly)"
-  ],
-  "titles": [
-    "Prefect",
-    "Head Boy",
-    "Dark Lord",
-    "Heir of Slytherin"
-  ],
+  "jobs": ["Shop assistant at Borgin and Burkes (formerly)"],
+  "titles": ["Prefect", "Head Boy", "Dark Lord", "Heir of Slytherin"],
   "family_members": [
     "Tom Riddle Senior (father) †",
     "Merope Riddle (née Gaunt) (mother) †",
@@ -56,6 +49,6 @@
     "Elm, dragon heartstring (temporary)",
     "Elder, 15″, Thestral tail hair core (temporary, never mastered)"
   ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/aa/Voldemort_Headshot_DHP1.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Tom_Riddle"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/aa/Voldemort_Headshot_DHP1.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Tom_Riddle"
 }

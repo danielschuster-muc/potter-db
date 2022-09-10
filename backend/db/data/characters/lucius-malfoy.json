@@ -21,10 +21,7 @@
     "School Governor of Hogwarts School of Witchcraft and Wizardry (?-1993)",
     "British Ministry of Magic official (?-1996)"
   ],
-  "titles": [
-    "Prefect",
-    "Hogwarts Governor (formerly)"
-  ],
+  "titles": ["Prefect", "Hogwarts Governor (formerly)"],
   "family_members": [
     "Abraxas Malfoy (father) †",
     "Narcissa Malfoy (née Black) (wife)",
@@ -50,13 +47,11 @@
     "Rosier family (in-laws)",
     "Greengrass family (in-laws)"
   ],
-  "romances": [
-    "Narcissa Malfoy (wife)"
-  ],
+  "romances": ["Narcissa Malfoy (wife)"],
   "wands": [
     "Elm and dragon heartstring (formerly)",
     "Lucius Malfoy″s second wand"
   ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b4/Lucius_Malfoy_BoH.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lucius_Malfoy"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b4/Lucius_Malfoy_BoH.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Lucius_Malfoy"
 }

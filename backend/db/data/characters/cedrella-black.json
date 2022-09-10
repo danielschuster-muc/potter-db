@@ -76,10 +76,8 @@
     "Flint family (paternal relatives)",
     "Weasley family"
   ],
-  "romances": [
-    "Septimus Weasley (husband)"
-  ],
+  "romances": ["Septimus Weasley (husband)"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/4f/Cedrella_Weasley.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cedrella_Black"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/4f/Cedrella_Weasley.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Cedrella_Black"
 }

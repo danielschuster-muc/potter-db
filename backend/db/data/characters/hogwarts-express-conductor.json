@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Conductor of the Hogwarts Express"
-  ],
+  "jobs": ["Conductor of the Hogwarts Express"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/9e/HE_conductor.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Hogwarts_Express_conductor"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/9e/HE_conductor.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Hogwarts_Express_conductor"
 }

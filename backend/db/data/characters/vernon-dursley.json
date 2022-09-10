@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Director at Grunnings"
-  ],
+  "jobs": ["Director at Grunnings"],
   "titles": null,
   "family_members": [
     "Mrs Dursley (mother)",
@@ -35,10 +33,8 @@
     "Harry Potter (nephew-in-law)",
     "Ginevra Potter (née Weasley) (niece-in-law)"
   ],
-  "romances": [
-    "Petunia Dursley (wife) †"
-  ],
+  "romances": ["Petunia Dursley (wife) †"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/20/Vernon_Dursley.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Vernon_Dursley"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/20/Vernon_Dursley.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Vernon_Dursley"
 }

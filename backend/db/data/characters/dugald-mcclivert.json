@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Head of McClivert clan"
-  ],
-  "titles": [
-    "Head of McClivert clan"
-  ],
+  "jobs": ["Head of McClivert clan"],
+  "titles": ["Head of McClivert clan"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Dugald_McClivert"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Dugald_McClivert"
 }

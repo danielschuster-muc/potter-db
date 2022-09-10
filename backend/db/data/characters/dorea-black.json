@@ -54,10 +54,8 @@
     "Bulstrode family (maternal family)",
     "Potter family"
   ],
-  "romances": [
-    "Charlus Potter (husband)"
-  ],
+  "romances": ["Charlus Potter (husband)"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/50/Dorea_Black_5.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Dorea_Black"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/50/Dorea_Black_5.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Dorea_Black"
 }

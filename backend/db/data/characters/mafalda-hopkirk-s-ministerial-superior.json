@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Improper Use of Magic Office employee"
-  ],
-  "titles": [
-    "Ministry of Magic Official"
-  ],
+  "jobs": ["Improper Use of Magic Office employee"],
+  "titles": ["Ministry of Magic Official"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mafalda_Hopkirk's_Ministerial_Superior"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Mafalda_Hopkirk's_Ministerial_Superior"
 }

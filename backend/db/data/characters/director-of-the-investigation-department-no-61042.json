@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Director of the Investigation Department of the Auror Office"
-  ],
+  "jobs": ["Director of the Investigation Department of the Auror Office"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a5/Director_Investigation_Department.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Director_of_the_Investigation_Department_No._61042"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a5/Director_Investigation_Department.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Director_of_the_Investigation_Department_No._61042"
 }

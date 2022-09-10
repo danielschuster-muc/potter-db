@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Reporter for The New York Ghost"
-  ],
+  "jobs": ["Reporter for The New York Ghost"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/M._Miraphorusus"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/M._Miraphorusus"
 }

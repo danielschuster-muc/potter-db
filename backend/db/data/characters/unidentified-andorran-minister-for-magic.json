@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Andorran Minister for Magic"
-  ],
-  "titles": [
-    "Minister for Magic"
-  ],
+  "jobs": ["Andorran Minister for Magic"],
+  "titles": ["Minister for Magic"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Andorran_Minister_for_Magic"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Andorran_Minister_for_Magic"
 }

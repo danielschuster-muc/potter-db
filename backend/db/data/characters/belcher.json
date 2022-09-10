@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Owner of Belcher's Bottled Beers"
-  ],
+  "jobs": ["Owner of Belcher's Bottled Beers"],
   "titles": null,
   "family_members": [
     "Eugene Belcher (possibly)",
@@ -28,6 +26,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Belcher"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Belcher"
 }

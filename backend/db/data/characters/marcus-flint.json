@@ -18,10 +18,7 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Chaser",
-    "Captain"
-  ],
+  "titles": ["Chaser", "Captain"],
   "family_members": [
     "Ursula Flint (possible relative)",
     "Josephina Flint (possible relative)",
@@ -29,6 +26,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/80/Monmarcus.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Marcus_Flint"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/80/Monmarcus.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Marcus_Flint"
 }

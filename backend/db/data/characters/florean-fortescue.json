@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Owner of Florean Fortescue's Ice Cream Parlour"
-  ],
+  "jobs": ["Owner of Florean Fortescue's Ice Cream Parlour"],
   "titles": null,
-  "family_members": [
-    "Fortescue family"
-  ],
+  "family_members": ["Fortescue family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b0/Florean_Fortescue.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Florean_Fortescue"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b0/Florean_Fortescue.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Florean_Fortescue"
 }

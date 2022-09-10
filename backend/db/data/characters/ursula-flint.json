@@ -41,10 +41,8 @@
     "Flint family",
     "House of Black"
   ],
-  "romances": [
-    "Phineas Nigellus Black (husband)"
-  ],
+  "romances": ["Phineas Nigellus Black (husband)"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f7/%E6%9C%AA%E5%91%BD%E5%90%8D.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ursula_Flint"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f7/%E6%9C%AA%E5%91%BD%E5%90%8D.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ursula_Flint"
 }

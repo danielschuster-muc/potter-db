@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Officiated ceremonies"
-  ],
+  "jobs": ["Officiated ceremonies"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/fb/CeremonyOfficial.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ceremony_official"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/fb/CeremonyOfficial.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ceremony_official"
 }

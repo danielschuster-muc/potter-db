@@ -7,6 +7,6 @@
   "light": "None, or green",
   "hand": "Point wand at target (when animating individual target), Hold wand aloft or wave (when animating multiple things)",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e5/Piertotum_Locomotor.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Piertotum_Locomotor"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e5/Piertotum_Locomotor.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Piertotum_Locomotor"
 }

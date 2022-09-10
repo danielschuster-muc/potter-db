@@ -22,12 +22,10 @@
     "Potioneer",
     "Professor of Defence Against the Dark Arts at Hogwarts School of Witchcraft and Wizardry"
   ],
-  "titles": [
-    "Professor"
-  ],
+  "titles": ["Professor"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/5f/ArseniusJigger.JPG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Arsenius_Jigger"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5f/ArseniusJigger.JPG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Arsenius_Jigger"
 }

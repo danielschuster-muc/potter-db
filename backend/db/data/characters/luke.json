@@ -16,18 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Luke the Evangelist"
-  ],
-  "jobs": [
-    "Writer"
-  ],
-  "titles": [
-    "Saint"
-  ],
+  "alias_names": ["Luke the Evangelist"],
+  "jobs": ["Writer"],
+  "titles": ["Saint"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Luke"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Luke"
 }

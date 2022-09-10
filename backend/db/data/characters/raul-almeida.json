@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Keeper for the Brazilian National Quidditch team"
-  ],
-  "titles": [
-    "Keeper"
-  ],
-  "family_members": [
-    "Edward Almeida Peidus (possibly)"
-  ],
+  "jobs": ["Keeper for the Brazilian National Quidditch team"],
+  "titles": ["Keeper"],
+  "family_members": ["Edward Almeida Peidus (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Raul_Almeida"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Raul_Almeida"
 }

@@ -17,17 +17,11 @@
   "house": "Gryffindor",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Head of Gryffindor House (? - before 1991)"
-  ],
-  "titles": [
-    "Head of Gryffindor House"
-  ],
-  "family_members": [
-    "Elfrida Cragg (possibly)"
-  ],
+  "jobs": ["Head of Gryffindor House (? - before 1991)"],
+  "titles": ["Head of Gryffindor House"],
+  "family_members": ["Elfrida Cragg (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/01/Muldoon_Cragg.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Muldoon_Cragg"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/01/Muldoon_Cragg.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Muldoon_Cragg"
 }

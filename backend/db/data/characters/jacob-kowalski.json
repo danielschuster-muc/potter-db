@@ -38,13 +38,8 @@
     "Kowalski family",
     "Goldstein family (in-laws)"
   ],
-  "romances": [
-    "Mildred (ex-fiancée)",
-    "Queenie Goldstein (wife)"
-  ],
-  "wands": [
-    "Unknown length, snakewood, no core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/7b/Jacob_Kowalski_SODM.jpeg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Jacob_Kowalski"
+  "romances": ["Mildred (ex-fiancée)", "Queenie Goldstein (wife)"],
+  "wands": ["Unknown length, snakewood, no core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7b/Jacob_Kowalski_SODM.jpeg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Jacob_Kowalski"
 }

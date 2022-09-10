@@ -17,14 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Potioneer",
-    "Astronomer"
-  ],
+  "jobs": ["Potioneer", "Astronomer"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/cb/Hesper_Starkey.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Hesper_Starkey"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/cb/Hesper_Starkey.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Hesper_Starkey"
 }

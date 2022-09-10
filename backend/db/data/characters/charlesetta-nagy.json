@@ -16,14 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Mother"
-  ],
+  "alias_names": ["Mother"],
   "jobs": null,
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a4/Charlesetta_Nagy_-_wanted_poster.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Charlesetta_Nagy"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a4/Charlesetta_Nagy_-_wanted_poster.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Charlesetta_Nagy"
 }

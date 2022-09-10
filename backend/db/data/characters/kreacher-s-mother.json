@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Servant of the House of Black"
-  ],
+  "jobs": ["Servant of the House of Black"],
   "titles": null,
-  "family_members": [
-    "Ancestors (likely) †",
-    "Kreacher (son)"
-  ],
+  "family_members": ["Ancestors (likely) †", "Kreacher (son)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Kreacher's_mother"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Kreacher's_mother"
 }

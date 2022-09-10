@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Seeker for the Holyhead Harpies (formerly)"
-  ],
-  "titles": [
-    "Seeker"
-  ],
-  "family_members": [
-    "Wilda Griffiths (possibly)"
-  ],
+  "jobs": ["Seeker for the Holyhead Harpies (formerly)"],
+  "titles": ["Seeker"],
+  "family_members": ["Wilda Griffiths (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0b/Glynnis_Griffiths.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Glynnis_Griffiths"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0b/Glynnis_Griffiths.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Glynnis_Griffiths"
 }

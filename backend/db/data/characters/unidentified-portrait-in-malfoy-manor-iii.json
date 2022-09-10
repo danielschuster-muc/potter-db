@@ -19,11 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Malfoy family"
-  ],
+  "family_members": ["Malfoy family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b2/Tudor_Malfoy_3.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_portrait_in_Malfoy_Manor_(III)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b2/Tudor_Malfoy_3.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_portrait_in_Malfoy_Manor_(III)"
 }

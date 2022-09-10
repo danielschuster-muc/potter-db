@@ -16,20 +16,14 @@
   "boggart": "Lord Voldemort",
   "house": "Gryffindor",
   "patronus": "Non-corporeal",
-  "alias_names": [
-    "Perce (by family)",
-    "Weatherby (by Barty Crouch Snr)"
-  ],
+  "alias_names": ["Perce (by family)", "Weatherby (by Barty Crouch Snr)"],
   "jobs": [
     "Personal assistant to Barty Crouch Snr (formerly)",
     "Court Scribe (formerly)",
     "Junior Assistant to the Minister for Magic (formerly)",
     "Head of the Department of Magical Transportation"
   ],
-  "titles": [
-    "Prefect",
-    "Head Boy"
-  ],
+  "titles": ["Prefect", "Head Boy"],
   "family_members": [
     "Arthur Weasley (father)",
     "Molly Weasley (née Prewett) (mother)",
@@ -71,13 +65,8 @@
     "Prewett family",
     "House of Black"
   ],
-  "romances": [
-    "Penelope Clearwater (ex-girlfriend)",
-    "Audrey Weasley (wife)"
-  ],
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/Percy_WeasleyDH.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Percy_Weasley"
+  "romances": ["Penelope Clearwater (ex-girlfriend)", "Audrey Weasley (wife)"],
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/Percy_WeasleyDH.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Percy_Weasley"
 }

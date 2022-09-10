@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Member of the Committee for the Disposal of Dangerous Creatures"
-  ],
+  "jobs": ["Member of the Committee for the Disposal of Dangerous Creatures"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0b/OldCommitteeMember.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Committee_for_the_Disposal_of_Dangerous_Creatures_member"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0b/OldCommitteeMember.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Committee_for_the_Disposal_of_Dangerous_Creatures_member"
 }

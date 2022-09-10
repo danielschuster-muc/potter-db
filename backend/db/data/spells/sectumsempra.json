@@ -7,6 +7,6 @@
   "light": "White",
   "hand": "Slash wand",
   "creator": "Severus Snape",
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/3a/Sectumempra_Curse.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Sectumsempra"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/3a/Sectumempra_Curse.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Sectumsempra"
 }

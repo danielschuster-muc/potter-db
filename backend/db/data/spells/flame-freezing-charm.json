@@ -7,6 +7,6 @@
   "light": "White",
   "hand": "Wave wand above head",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/bd/FlameFreeze.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Flame-Freezing_Charm"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/bd/FlameFreeze.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Flame-Freezing_Charm"
 }

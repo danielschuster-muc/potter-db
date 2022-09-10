@@ -18,14 +18,10 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Saint"
-  ],
-  "family_members": [
-    "Jesus (son)"
-  ],
+  "titles": ["Saint"],
+  "family_members": ["Jesus (son)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mary"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Mary"
 }

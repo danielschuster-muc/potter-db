@@ -22,25 +22,11 @@
     "Bulgarian Bonbon (by Rita Skeeter)",
     "Viktor Krazy Krum (by Ludo Bagman and Triwizard Tournament attendees)"
   ],
-  "jobs": [
-    "Seeker for the Bulgarian National Quidditch team"
-  ],
-  "titles": [
-    "World Class Seeker",
-    "Triwizard Champion"
-  ],
-  "family_members": [
-    "Mr Krum (father)",
-    "Mrs Krum (mother)",
-    "Grandfather †"
-  ],
-  "romances": [
-    "Hermione Granger (formerly)",
-    "Bulgarian partner"
-  ],
-  "wands": [
-    "10¼″, Hornbeam, dragon heartstring"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/93/Viktor_Krum_promo_Yule_Ball.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Viktor_Krum"
+  "jobs": ["Seeker for the Bulgarian National Quidditch team"],
+  "titles": ["World Class Seeker", "Triwizard Champion"],
+  "family_members": ["Mr Krum (father)", "Mrs Krum (mother)", "Grandfather †"],
+  "romances": ["Hermione Granger (formerly)", "Bulgarian partner"],
+  "wands": ["10¼″, Hornbeam, dragon heartstring"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/93/Viktor_Krum_promo_Yule_Ball.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Viktor_Krum"
 }

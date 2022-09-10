@@ -17,13 +17,8 @@
   "house": "Slytherin",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Headmistress of Hogwarts (before 1943)"
-  ],
-  "titles": [
-    "Professor",
-    "Headmistress"
-  ],
+  "jobs": ["Headmistress of Hogwarts (before 1943)"],
+  "titles": ["Professor", "Headmistress"],
   "family_members": [
     "Caractacus Burke (possibly)",
     "Herbert Burke (possibly)",
@@ -34,6 +29,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b3/Elizabeth_Burke_full.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Elizabeth_Burke"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b3/Elizabeth_Burke_full.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Elizabeth_Burke"
 }

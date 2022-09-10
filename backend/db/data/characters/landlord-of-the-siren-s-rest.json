@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Landlord of Siren's Rest pub"
-  ],
+  "jobs": ["Landlord of Siren's Rest pub"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/2f/Siren%27s_Rest_landlord.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Landlord_of_the_Siren's_Rest"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/2f/Siren%27s_Rest_landlord.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Landlord_of_the_Siren's_Rest"
 }

@@ -29,10 +29,8 @@
     "Mr Dumbledore (paternal great-grandfather) †",
     "Dumbledore family"
   ],
-  "romances": [
-    "Kendra Dumbledore (wife) †"
-  ],
+  "romances": ["Kendra Dumbledore (wife) †"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c8/Percival_Dumbledore.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Percival_Dumbledore"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c8/Percival_Dumbledore.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Percival_Dumbledore"
 }

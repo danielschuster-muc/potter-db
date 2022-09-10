@@ -8,7 +8,8 @@ class CreateBooks < ActiveRecord::Migration[7.0]
       t.string :dedication
       t.integer :pages
       t.integer :order
-      t.text :cover_url
+      t.text :cover
+      t.text :wiki
 
       t.timestamps
     end

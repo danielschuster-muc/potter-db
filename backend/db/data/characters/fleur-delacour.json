@@ -20,12 +20,8 @@
     "Phlegm (by Ginny Weasley)",
     "Harry Potter (under disguise of Polyjuice Potion)"
   ],
-  "jobs": [
-    "Part-time employee at Gringotts Wizarding Bank"
-  ],
-  "titles": [
-    "Triwizard Champion"
-  ],
+  "jobs": ["Part-time employee at Gringotts Wizarding Bank"],
+  "titles": ["Triwizard Champion"],
   "family_members": [
     "Monsieur Delacour (father)",
     "Apolline Delacour (mother)",
@@ -60,13 +56,8 @@
     "Delacour family",
     "Weasley family"
   ],
-  "romances": [
-    "Roger Davies (Yule Ball date)",
-    "William Weasley (husband)"
-  ],
-  "wands": [
-    "9½″, Rosewood, veela hair"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1e/Fleur_Delacour.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Fleur_Delacour"
+  "romances": ["Roger Davies (Yule Ball date)", "William Weasley (husband)"],
+  "wands": ["9½″, Rosewood, veela hair"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1e/Fleur_Delacour.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Fleur_Delacour"
 }

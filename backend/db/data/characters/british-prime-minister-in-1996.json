@@ -17,17 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Prime Minister of the United Kingdom"
-  ],
-  "titles": [
-    "Prime Minister"
-  ],
-  "family_members": [
-    "Niece"
-  ],
+  "jobs": ["Prime Minister of the United Kingdom"],
+  "titles": ["Prime Minister"],
+  "family_members": ["Niece"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/British_Prime_Minister_in_1996"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/British_Prime_Minister_in_1996"
 }

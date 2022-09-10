@@ -16,16 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "The One-Eyed Witch"
-  ],
-  "jobs": [
-    "Healer"
-  ],
+  "alias_names": ["The One-Eyed Witch"],
+  "jobs": ["Healer"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/aa/Gunhilda_de_Gorsemoor_HM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gunhilda_de_Gorsemoor"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/aa/Gunhilda_de_Gorsemoor_HM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Gunhilda_de_Gorsemoor"
 }

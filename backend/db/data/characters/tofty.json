@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Examiner for the Wizarding Examinations Authority"
-  ],
-  "titles": [
-    "Professor"
-  ],
+  "jobs": ["Examiner for the Wizarding Examinations Authority"],
+  "titles": ["Professor"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/57/ProfessorTofty.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Tofty"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/57/ProfessorTofty.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Tofty"
 }

@@ -17,12 +17,8 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Seeker for the Wigtown Wanderers"
-  ],
-  "titles": [
-    "Seeker"
-  ],
+  "jobs": ["Seeker for the Wigtown Wanderers"],
+  "titles": ["Seeker"],
   "family_members": [
     "Walter Parkin (father)",
     "Parkin (Keeper) (sibling)",
@@ -35,6 +31,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Parkin_(Seeker)"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Parkin_(Seeker)"
 }

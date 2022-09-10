@@ -19,11 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Raul Almeida (possibly)"
-  ],
+  "family_members": ["Raul Almeida (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e0/Edward_Almeida_Peidus.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Edward_Almeida_Peidus"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e0/Edward_Almeida_Peidus.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Edward_Almeida_Peidus"
 }

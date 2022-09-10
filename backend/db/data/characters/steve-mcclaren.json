@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Manager of the England national football team"
-  ],
+  "jobs": ["Manager of the England national football team"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Steve_McClaren"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Steve_McClaren"
 }

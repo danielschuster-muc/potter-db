@@ -91,10 +91,7 @@
     "Prewett family (in-laws)",
     "House of Black (in-laws)"
   ],
-  "romances": [
-    "Cho Chang (ex-girlfriend)",
-    "Ginevra Potter (wife)"
-  ],
+  "romances": ["Cho Chang (ex-girlfriend)", "Ginevra Potter (wife)"],
   "wands": [
     "11″, Holly, phoenix feather",
     "10¾″, Vine, dragon heartstring (temporarily)",
@@ -102,6 +99,6 @@
     "10″, Hawthorn, unicorn hair (temporarily)",
     "15″, Elder, thestral hair (temporarily)"
   ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/97/Harry_Potter.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Harry_Potter"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/97/Harry_Potter.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter"
 }

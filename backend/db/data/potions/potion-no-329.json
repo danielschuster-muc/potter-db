@@ -8,6 +8,6 @@
   "ingredients": null,
   "inventors": null,
   "manufacturers": "Hogwarts Apothecary Department",
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/fc/Potion_No._329.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Potion_No._329"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/fc/Potion_No._329.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Potion_No._329"
 }

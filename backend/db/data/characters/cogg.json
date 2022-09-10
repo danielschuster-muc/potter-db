@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Co-owner of Cogg and Bell Clockmakers, Clockmaker"
-  ],
+  "jobs": ["Co-owner of Cogg and Bell Clockmakers, Clockmaker"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/31/Cogg_clockmaker.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cogg"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/31/Cogg_clockmaker.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Cogg"
 }

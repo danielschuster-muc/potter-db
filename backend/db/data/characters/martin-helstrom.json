@@ -16,18 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Tiny"
-  ],
-  "jobs": [
-    "Keeper for the Nordic National Quidditch team"
-  ],
-  "titles": [
-    "Keeper"
-  ],
+  "alias_names": ["Tiny"],
+  "jobs": ["Keeper for the Nordic National Quidditch team"],
+  "titles": ["Keeper"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f2/Nordic.JPG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Martin_Helstrom"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f2/Nordic.JPG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Martin_Helstrom"
 }

@@ -16,9 +16,7 @@
   "boggart": "Corpses of her family and Harry Potter",
   "house": "Gryffindor",
   "patronus": "Non-corporeal",
-  "alias_names": [
-    "Mollywobbles (by Arthur Weasley)"
-  ],
+  "alias_names": ["Mollywobbles (by Arthur Weasley)"],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -67,12 +65,8 @@
     "Granger-Weasley family",
     "Potter family"
   ],
-  "romances": [
-    "Arthur Weasley (husband)"
-  ],
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/3c/Molly_Weasley_Deathly_Hallows.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Molly_Weasley"
+  "romances": ["Arthur Weasley (husband)"],
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/3c/Molly_Weasley_Deathly_Hallows.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Molly_Weasley"
 }

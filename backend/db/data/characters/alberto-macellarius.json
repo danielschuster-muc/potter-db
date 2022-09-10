@@ -16,16 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "The Rat"
-  ],
-  "jobs": [
-    "Con artist"
-  ],
+  "alias_names": ["The Rat"],
+  "jobs": ["Con artist"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1f/AlbertoMacellarius.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Alberto_Macellarius"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1f/AlbertoMacellarius.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Alberto_Macellarius"
 }

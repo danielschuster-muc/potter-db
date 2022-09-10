@@ -21,10 +21,7 @@
     "Chaser and Captain for the Pride of Portree",
     "Chaser for the Scottish National Quidditch team"
   ],
-  "titles": [
-    "Captain",
-    "Chaser"
-  ],
+  "titles": ["Captain", "Chaser"],
   "family_members": [
     "Meaghan McCormack (daughter)",
     "Kirley Duke (son)",
@@ -32,6 +29,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c4/Catriona_McCormack.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Catriona_McCormack"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c4/Catriona_McCormack.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Catriona_McCormack"
 }

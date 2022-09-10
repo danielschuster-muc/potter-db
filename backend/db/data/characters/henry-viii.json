@@ -17,12 +17,8 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "King of England"
-  ],
-  "titles": [
-    "King of England"
-  ],
+  "jobs": ["King of England"],
+  "titles": ["King of England"],
   "family_members": [
     "Henry VII (father)",
     "Anne Boleyn (second wife)",
@@ -33,6 +29,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Henry_VIII"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Henry_VIII"
 }

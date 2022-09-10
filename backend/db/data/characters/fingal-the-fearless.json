@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Aingingein player (allegedly)"
-  ],
-  "titles": [
-    "Aingingein Champion (allegedly)"
-  ],
+  "jobs": ["Aingingein player (allegedly)"],
+  "titles": ["Aingingein Champion (allegedly)"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Fingal_the_Fearless"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Fingal_the_Fearless"
 }

@@ -16,16 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "The Master of Trolls"
-  ],
-  "jobs": [
-    "Troll trainer"
-  ],
+  "alias_names": ["The Master of Trolls"],
+  "jobs": ["Troll trainer"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Roger_Handlebaum"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Roger_Handlebaum"
 }

@@ -16,9 +16,7 @@
   "boggart": "Failure",
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Mr/Miss Connor (by Cuthbert Binns)"
-  ],
+  "alias_names": ["Mr/Miss Connor (by Cuthbert Binns)"],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -31,6 +29,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/58/Rowan_Khanna_BOTH.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Rowan_Khanna"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/58/Rowan_Khanna_BOTH.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Rowan_Khanna"
 }

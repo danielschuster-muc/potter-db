@@ -25,10 +25,8 @@
     "Father-in-law",
     "Children †"
   ],
-  "romances": [
-    "Minerva McGonagall (formerly)"
-  ],
+  "romances": ["Minerva McGonagall (formerly)"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/68/Dougal_McGregor_WU.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Dougal_McGregor"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/68/Dougal_McGregor_WU.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Dougal_McGregor"
 }

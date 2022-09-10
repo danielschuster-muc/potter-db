@@ -21,9 +21,7 @@
     "Tea-boy in the Department of Magical Accidents and Catastrophes (formerly)",
     "British Minister for Magic (1939-1948)"
   ],
-  "titles": [
-    "Minister for Magic"
-  ],
+  "titles": ["Minister for Magic"],
   "family_members": [
     "Lily Moon (possibly)",
     "Dennis Moon (possibly)",
@@ -31,6 +29,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Leonard_Spencer-Moon"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Leonard_Spencer-Moon"
 }

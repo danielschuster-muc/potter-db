@@ -21,19 +21,14 @@
     "Author",
     "Professor of Defence Against the Dark Arts at Hogwarts (1992-1993)"
   ],
-  "titles": [
-    "Professor",
-    "Seeker"
-  ],
+  "titles": ["Professor", "Seeker"],
   "family_members": [
     "Mr Lockhart (father)",
     "Mrs Lockhart (mother)",
     "Two older sisters"
   ],
   "romances": null,
-  "wands": [
-    "9″, Cherry, dragon heartstring"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/7b/Gilderoy_Lockhart_promotional_image_COSF.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gilderoy_Lockhart"
+  "wands": ["9″, Cherry, dragon heartstring"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7b/Gilderoy_Lockhart_promotional_image_COSF.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Gilderoy_Lockhart"
 }

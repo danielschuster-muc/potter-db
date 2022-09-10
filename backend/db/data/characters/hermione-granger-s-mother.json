@@ -16,15 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Monica Wilkins (1997-1998)"
-  ],
-  "jobs": [
-    "Dentist"
-  ],
-  "titles": [
-    "Doctor"
-  ],
+  "alias_names": ["Monica Wilkins (1997-1998)"],
+  "jobs": ["Dentist"],
+  "titles": ["Doctor"],
   "family_members": [
     "Mr Granger (husband)",
     "Hermione Granger (daughter)",
@@ -34,10 +28,8 @@
     "Granger family",
     "Weasley family"
   ],
-  "romances": [
-    "Mr Granger (husband)"
-  ],
+  "romances": ["Mr Granger (husband)"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/fe/Hermione_Granger%27s_mother.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Hermione_Granger's_mother"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/fe/Hermione_Granger%27s_mother.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Hermione_Granger's_mother"
 }

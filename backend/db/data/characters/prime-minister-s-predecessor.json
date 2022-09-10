@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Prime Minister (formerly)"
-  ],
+  "jobs": ["Prime Minister (formerly)"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Prime_Minister's_predecessor"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Prime_Minister's_predecessor"
 }

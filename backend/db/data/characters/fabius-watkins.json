@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chaser and Captain for the Montrose Magpies"
-  ],
-  "titles": [
-    "Chaser",
-    "Captain"
-  ],
+  "jobs": ["Chaser and Captain for the Montrose Magpies"],
+  "titles": ["Chaser", "Captain"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/96/FabiusWatkins.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Fabius_Watkins"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/96/FabiusWatkins.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Fabius_Watkins"
 }

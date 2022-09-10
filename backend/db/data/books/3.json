@@ -1,0 +1,100 @@
+{
+  "title": "Harry Potter and the Prisoner of Azkaban",
+  "release_date": "8 July 1999",
+  "summary": "When the Knight Bus crashes through the darkness and screeches to a halt in front of him, it's the start of another far from ordinary year at Hogwarts for Harry Potter. Sirius Black, escaped mass-murderer and follower of Lord Voldemort, is on the run – and they say he is coming after Harry. In his first ever Divination class, Professor Trelawney sees an omen of death in Harry's tea leaves... But perhaps most terrifying of all are the Dementors patrolling the school grounds, with their soul-sucking kiss.",
+  "dedication": "To Jill Prewett and Aine Kiely, the Godmothers of Swing",
+  "pages": "317",
+  "cover": "https://www.wizardingworld.com/images/products/books/UK/rectangle-3.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban",
+  "order": "3",
+  "chapters": [
+    {
+      "title": "Owl Post",
+      "order": "1"
+    },
+    {
+      "title": "Aunt Marge's Big Mistake",
+      "order": "2"
+    },
+    {
+      "title": "The Knight Bus",
+      "order": "3"
+    },
+    {
+      "title": "The Leaky Cauldron",
+      "order": "4"
+    },
+    {
+      "title": "The Dementor",
+      "order": "5"
+    },
+    {
+      "title": "Talons and Tea Leaves",
+      "order": "6"
+    },
+    {
+      "title": "The Boggart in the Wardrobe",
+      "order": "7"
+    },
+    {
+      "title": "Flight of the Fat Lady",
+      "order": "8"
+    },
+    {
+      "title": "Grim Defeat",
+      "order": "9"
+    },
+    {
+      "title": "The Marauder's Map",
+      "order": "10"
+    },
+    {
+      "title": "The Firebolt",
+      "order": "11"
+    },
+    {
+      "title": "The Patronus",
+      "order": "12"
+    },
+    {
+      "title": "Gryffindor versus Ravenclaw",
+      "order": "13"
+    },
+    {
+      "title": "Snape's Grudge",
+      "order": "14"
+    },
+    {
+      "title": "The Quidditch Final",
+      "order": "15"
+    },
+    {
+      "title": "Professor Trelawney's Prediction",
+      "order": "16"
+    },
+    {
+      "title": "Cat, Rat and Dog",
+      "order": "17"
+    },
+    {
+      "title": "Moony, Wormtail, Padfoot and Prongs",
+      "order": "18"
+    },
+    {
+      "title": "The Servant of Lord Voldemort",
+      "order": "19"
+    },
+    {
+      "title": "The Dementor's Kiss",
+      "order": "20"
+    },
+    {
+      "title": "Hermione's Secret",
+      "order": "21"
+    },
+    {
+      "title": "Owl Post Again",
+      "order": "22"
+    }
+  ]
+}

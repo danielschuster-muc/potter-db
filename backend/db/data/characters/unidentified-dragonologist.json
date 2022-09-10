@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Dragonologist"
-  ],
+  "jobs": ["Dragonologist"],
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/5f/Unidentified_Dragonologist_HM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_dragonologist"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5f/Unidentified_Dragonologist_HM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_dragonologist"
 }

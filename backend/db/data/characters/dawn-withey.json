@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Beater for the English National Quidditch team"
-  ],
-  "titles": [
-    "Beater"
-  ],
+  "jobs": ["Beater for the English National Quidditch team"],
+  "titles": ["Beater"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/cb/Dawn_Withey.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Dawn_Withey"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/cb/Dawn_Withey.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Dawn_Withey"
 }

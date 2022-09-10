@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Journalist for the New York Ghost"
-  ],
+  "jobs": ["Journalist for the New York Ghost"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/J._Delmagicus"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/J._Delmagicus"
 }

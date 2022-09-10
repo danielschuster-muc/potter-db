@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Groundskeeper of the Chudley Cannons training grounds"
-  ],
+  "jobs": ["Groundskeeper of the Chudley Cannons training grounds"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Chudley_Cannons_groundskeeper"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Chudley_Cannons_groundskeeper"
 }

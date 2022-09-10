@@ -16,24 +16,16 @@
   "boggart": null,
   "house": null,
   "patronus": "Lynx",
-  "alias_names": [
-    "Royal (Potterwatch)"
-  ],
+  "alias_names": ["Royal (Potterwatch)"],
   "jobs": [
     "Auror (formerly)",
     "Personal guard/'secretary' for Prime Minister (formerly)",
     "Minister for Magic (formerly)"
   ],
-  "titles": [
-    "Minister"
-  ],
-  "family_members": [
-    "Shacklebolt family"
-  ],
+  "titles": ["Minister"],
+  "family_members": ["Shacklebolt family"],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/44/Kingsley_Shacklebolt_2.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Kingsley_Shacklebolt"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/44/Kingsley_Shacklebolt_2.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Kingsley_Shacklebolt"
 }

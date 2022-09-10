@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Hogwarts kitchens staff and cleaners"
-  ],
+  "jobs": ["Hogwarts kitchens staff and cleaners"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/81/Hogwarts_House-Elves.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Hogwarts_house-elves"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/81/Hogwarts_House-Elves.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Hogwarts_house-elves"
 }

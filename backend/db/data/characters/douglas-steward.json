@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Composer and lyricist"
-  ],
+  "jobs": ["Composer and lyricist"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Douglas_Steward"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Douglas_Steward"
 }

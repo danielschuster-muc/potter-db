@@ -18,14 +18,10 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Wizard"
-  ],
-  "family_members": [
-    "Wife"
-  ],
+  "titles": ["Wizard"],
+  "family_members": ["Wife"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Baruffio"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Baruffio"
 }

@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Goblin rebel"
-  ],
+  "jobs": ["Goblin rebel"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Bodrod_the_Bearded"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Bodrod_the_Bearded"
 }

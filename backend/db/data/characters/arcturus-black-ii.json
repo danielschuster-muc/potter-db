@@ -57,10 +57,8 @@
     "Flint family",
     "Yaxley family (in-laws)"
   ],
-  "romances": [
-    "Lysandra Yaxley (wife)"
-  ],
+  "romances": ["Lysandra Yaxley (wife)"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a5/Arcturus_Black_II.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Arcturus_Black_II"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a5/Arcturus_Black_II.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Arcturus_Black_II"
 }

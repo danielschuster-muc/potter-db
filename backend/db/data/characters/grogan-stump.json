@@ -17,12 +17,8 @@
   "house": "Hufflepuff",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Minister for Magic (1811 - 1819)"
-  ],
-  "titles": [
-    "Minister for Magic"
-  ],
+  "jobs": ["Minister for Magic (1811 - 1819)"],
+  "titles": ["Minister for Magic"],
   "family_members": [
     "Tobias Stump (possibly)",
     "Google Stump (possibly)",
@@ -30,6 +26,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/ed/Grogan_Stump_WOTM.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Grogan_Stump"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ed/Grogan_Stump_WOTM.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Grogan_Stump"
 }

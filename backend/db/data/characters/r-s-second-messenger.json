@@ -21,9 +21,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/67/R%27s_second_messenger_HM51.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/R's_second_messenger"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/67/R%27s_second_messenger_HM51.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/R's_second_messenger"
 }

@@ -28,10 +28,8 @@
     "Honoria (sister or sister-in-law)",
     "Dumbledore family"
   ],
-  "romances": [
-    "Percival Dumbledore (husband)"
-  ],
+  "romances": ["Percival Dumbledore (husband)"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/7c/Kendra_Dumbledore.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Kendra_Dumbledore"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7c/Kendra_Dumbledore.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Kendra_Dumbledore"
 }

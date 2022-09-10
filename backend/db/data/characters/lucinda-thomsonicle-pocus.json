@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chief Attendant of Witchcraft Provisions"
-  ],
+  "jobs": ["Chief Attendant of Witchcraft Provisions"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lucinda_Thomsonicle-Pocus"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Lucinda_Thomsonicle-Pocus"
 }

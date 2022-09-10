@@ -20,13 +20,10 @@
   "jobs": [
     "Chaser and Captain for the Bulgarian National Quidditch team (formerly)"
   ],
-  "titles": [
-    "Chaser",
-    "Quidditch Captain"
-  ],
+  "titles": ["Chaser", "Quidditch Captain"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b2/Vasily_Dimitrov.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Vasily_Dimitrov"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b2/Vasily_Dimitrov.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Vasily_Dimitrov"
 }

@@ -22,13 +22,10 @@
     "Author",
     "Headmaster of Hogwarts School of Witchcraft and Wizardry"
   ],
-  "titles": [
-    "Professor",
-    "Headmaster"
-  ],
+  "titles": ["Professor", "Headmaster"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/ec/VindictusProfile.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Vindictus_Viridian"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ec/VindictusProfile.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Vindictus_Viridian"
 }

@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "American Emissary to the International Confederation of Wizards"
-  ],
+  "jobs": ["American Emissary to the International Confederation of Wizards"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e6/Arnold_Guzman.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Arnold_Guzman"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e6/Arnold_Guzman.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Arnold_Guzman"
 }

@@ -54,10 +54,8 @@
     "Flint family (maternal family)",
     "Gamp family (in-laws)"
   ],
-  "romances": [
-    "Hesper Gamp (wife)"
-  ],
+  "romances": ["Hesper Gamp (wife)"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/db/Sirius_Black_1877-1952.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Sirius_Black_II"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/db/Sirius_Black_1877-1952.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Sirius_Black_II"
 }

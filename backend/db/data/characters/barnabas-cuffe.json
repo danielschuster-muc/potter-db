@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Editor-in-chief of the Daily Prophet"
-  ],
+  "jobs": ["Editor-in-chief of the Daily Prophet"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/27/BarnabusCuffe.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Barnabas_Cuffe"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/27/BarnabusCuffe.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Barnabas_Cuffe"
 }

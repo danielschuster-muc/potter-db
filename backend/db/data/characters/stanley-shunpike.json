@@ -16,16 +16,12 @@
   "boggart": "Lord Voldemort",
   "house": null,
   "patronus": "Non-corporeal",
-  "alias_names": [
-    "Stan"
-  ],
-  "jobs": [
-    "Conductor of the Knight Bus"
-  ],
+  "alias_names": ["Stan"],
+  "jobs": ["Conductor of the Knight Bus"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/49/StanShunpike.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Stanley_Shunpike"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/49/StanShunpike.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Stanley_Shunpike"
 }

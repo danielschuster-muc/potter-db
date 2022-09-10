@@ -17,12 +17,8 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Auror"
-  ],
-  "titles": [
-    "Investigative Assistant"
-  ],
+  "jobs": ["Auror"],
+  "titles": ["Investigative Assistant"],
   "family_members": [
     "Ashish Patel (possible relative)",
     "Bhavana Patel (possible relative)",
@@ -30,6 +26,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Riya_Patel"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Riya_Patel"
 }

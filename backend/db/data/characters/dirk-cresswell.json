@@ -17,17 +17,11 @@
   "house": null,
   "patronus": "Non-corporeal",
   "alias_names": null,
-  "jobs": [
-    "Head of the Goblin Liaison Office"
-  ],
+  "jobs": ["Head of the Goblin Liaison Office"],
   "titles": null,
-  "family_members": [
-    "Wife",
-    "More than one son",
-    "Cresswell family"
-  ],
+  "family_members": ["Wife", "More than one son", "Cresswell family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d5/Harry-potter-deathly-hallows_dirk.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Dirk_Cresswell"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d5/Harry-potter-deathly-hallows_dirk.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Dirk_Cresswell"
 }

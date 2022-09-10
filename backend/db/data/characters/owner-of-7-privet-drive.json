@@ -16,14 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Mrs Number Seven (by Harry Potter)"
-  ],
+  "alias_names": ["Mrs Number Seven (by Harry Potter)"],
   "jobs": null,
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Owner_of_7_Privet_Drive"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Owner_of_7_Privet_Drive"
 }

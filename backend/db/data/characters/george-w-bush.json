@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "President of the United States of America (formerly)"
-  ],
-  "titles": [
-    "President"
-  ],
+  "jobs": ["President of the United States of America (formerly)"],
+  "titles": ["President"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/George_W._Bush"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/George_W._Bush"
 }

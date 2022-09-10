@@ -8,6 +8,6 @@
   "ingredients": "Flitterby Moth, Bouncing Bulb, Foxglove",
   "inventors": null,
   "manufacturers": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0f/Pumpkin-head_potion.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Pompion_Potion"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0f/Pumpkin-head_potion.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Pompion_Potion"
 }

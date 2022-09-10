@@ -16,16 +16,9 @@
   "boggart": "Losing his family",
   "house": "Gryffindor",
   "patronus": "Non-corporeal",
-  "alias_names": [
-    "Bill (by family and friends)"
-  ],
-  "jobs": [
-    "Curse-Breaker for Gringotts Bank"
-  ],
-  "titles": [
-    "Prefect",
-    "Head Boy"
-  ],
+  "alias_names": ["Bill (by family and friends)"],
+  "jobs": ["Curse-Breaker for Gringotts Bank"],
+  "titles": ["Prefect", "Head Boy"],
   "family_members": [
     "Arthur Weasley (father)",
     "Molly Weasley (née Prewett) (mother)",
@@ -77,12 +70,8 @@
     "Prewett family",
     "House of Black (distant relatives)"
   ],
-  "romances": [
-    "Fleur Delacour (wife)"
-  ],
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/66/BillWeasleyDH2.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/William_Weasley"
+  "romances": ["Fleur Delacour (wife)"],
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/66/BillWeasleyDH2.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/William_Weasley"
 }

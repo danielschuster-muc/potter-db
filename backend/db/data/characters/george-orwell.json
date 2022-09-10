@@ -16,16 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Eric Blair (birth name)"
-  ],
-  "jobs": [
-    "Author"
-  ],
+  "alias_names": ["Eric Blair (birth name)"],
+  "jobs": ["Author"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/George_Orwell"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/George_Orwell"
 }

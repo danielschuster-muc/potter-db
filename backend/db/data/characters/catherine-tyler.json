@@ -19,13 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Megan Scott (granddaughter)"
-  ],
-  "romances": [
-    "Horatio Cloke"
-  ],
+  "family_members": ["Megan Scott (granddaughter)"],
+  "romances": ["Horatio Cloke"],
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Catherine_Tyler"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Catherine_Tyler"
 }

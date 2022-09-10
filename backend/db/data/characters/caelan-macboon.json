@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Quintius MacBoon (uncle)",
-    "MacBoon clan"
-  ],
+  "family_members": ["Quintius MacBoon (uncle)", "MacBoon clan"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Caelan_MacBoon"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Caelan_MacBoon"
 }

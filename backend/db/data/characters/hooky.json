@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Servant (presumably)"
-  ],
+  "jobs": ["Servant (presumably)"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0f/Hooky.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Hooky"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0f/Hooky.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Hooky"
 }

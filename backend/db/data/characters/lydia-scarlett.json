@@ -16,14 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "The Slip"
-  ],
+  "alias_names": ["The Slip"],
   "jobs": null,
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/02/Lydia_Scarlett_-_FB-C.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lydia_Scarlett"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/02/Lydia_Scarlett_-_FB-C.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Lydia_Scarlett"
 }

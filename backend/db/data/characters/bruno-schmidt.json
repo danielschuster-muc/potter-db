@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Father",
-    "Schmidt family"
-  ],
+  "family_members": ["Father", "Schmidt family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0e/Bruno_Schmidt_defeats_an_Erkling.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Bruno_Schmidt"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0e/Bruno_Schmidt_defeats_an_Erkling.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Bruno_Schmidt"
 }

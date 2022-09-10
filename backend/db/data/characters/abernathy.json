@@ -23,9 +23,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a6/Abernathy_COG.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Abernathy"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a6/Abernathy_COG.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Abernathy"
 }

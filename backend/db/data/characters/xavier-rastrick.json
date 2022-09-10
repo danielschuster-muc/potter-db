@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Wizard entertainer"
-  ],
+  "jobs": ["Wizard entertainer"],
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f0/Xavier_Rastrick_HM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Xavier_Rastrick"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f0/Xavier_Rastrick_HM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Xavier_Rastrick"
 }

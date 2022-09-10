@@ -19,15 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Wife",
-    "Daughter",
-    "Son",
-    "father",
-    "mother-in-law"
-  ],
+  "family_members": ["Wife", "Daughter", "Son", "father", "mother-in-law"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/07/Young_Husband.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_young_husband"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/07/Young_Husband.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_young_husband"
 }

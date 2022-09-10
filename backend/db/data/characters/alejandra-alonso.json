@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chaser for the Brazilian National Quidditch team"
-  ],
-  "titles": [
-    "Chaser"
-  ],
+  "jobs": ["Chaser for the Brazilian National Quidditch team"],
+  "titles": ["Chaser"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Alejandra_Alonso"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Alejandra_Alonso"
 }

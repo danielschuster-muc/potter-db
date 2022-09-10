@@ -20,16 +20,10 @@
   "jobs": [
     "Headmaster of Hogwarts School of Witchcraft and Wizardry (formerly)"
   ],
-  "titles": [
-    "Professor",
-    "Headmaster"
-  ],
-  "family_members": [
-    "Florean Fortescue (descendant)",
-    "Fortescue family"
-  ],
+  "titles": ["Professor", "Headmaster"],
+  "family_members": ["Florean Fortescue (descendant)", "Fortescue family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Dexter_Fortescue"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Dexter_Fortescue"
 }

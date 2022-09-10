@@ -1,7 +1,7 @@
 module V1
   class BooksController < ApplicationController
     def index
-      allowed = %i[title summary release_date dedication pages order cover_url]
+      allowed = %i[title summary release_date dedication pages order cover]
 
       jsonapi_filter(Book.all, allowed) do |filtered|
         jsonapi_paginate(filtered.result) do |paginated|

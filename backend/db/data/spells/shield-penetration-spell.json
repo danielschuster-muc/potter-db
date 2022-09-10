@@ -7,6 +7,6 @@
   "light": "Bluish-white",
   "hand": "Point wand to the place where the spell is desired to hit",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/36/Shield_Penetration.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Shield_penetration_spell"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/36/Shield_Penetration.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Shield_penetration_spell"
 }

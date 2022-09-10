@@ -29,9 +29,7 @@
     "Bones family"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/77/Susan01.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Susan_Bones"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/77/Susan01.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Susan_Bones"
 }

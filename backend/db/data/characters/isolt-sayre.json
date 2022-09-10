@@ -16,16 +16,11 @@
   "boggart": null,
   "house": "Horned Serpent",
   "patronus": null,
-  "alias_names": [
-    "Morrigan (by her father)",
-    "Elias Story"
-  ],
+  "alias_names": ["Morrigan (by her father)", "Elias Story"],
   "jobs": [
     "Founder and co-Headmistress of Ilvermorny School of Witchcraft and Wizardry"
   ],
-  "titles": [
-    "Headmistress"
-  ],
+  "titles": ["Headmistress"],
   "family_members": [
     "William Sayre (father)",
     "Rionach Sayre (mother)",
@@ -47,9 +42,7 @@
     "Steward family"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, snakewood, Basilisk horn (briefly)"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e5/Isolt_Sayre.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Isolt_Sayre"
+  "wands": ["Unknown length, snakewood, Basilisk horn (briefly)"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e5/Isolt_Sayre.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Isolt_Sayre"
 }

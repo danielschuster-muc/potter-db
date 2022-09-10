@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Employee at Gringotts Wizarding Bank"
-  ],
+  "jobs": ["Employee at Gringotts Wizarding Bank"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ragnok"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Ragnok"
 }

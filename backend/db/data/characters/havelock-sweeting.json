@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Magizoologist"
-  ],
+  "jobs": ["Magizoologist"],
   "titles": null,
-  "family_members": [
-    "Poppy Sweeting (possible relative)",
-    "Sweeting family"
-  ],
+  "family_members": ["Poppy Sweeting (possible relative)", "Sweeting family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/90/Havelock_Sweeting.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Havelock_Sweeting"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/90/Havelock_Sweeting.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Havelock_Sweeting"
 }

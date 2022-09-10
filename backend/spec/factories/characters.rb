@@ -24,7 +24,7 @@ FactoryBot.define do
     romances { "MyText" }
     titles { "MyText" }
     wands { "MyText" }
-    image_url { "MyText" }
-    wiki_link { "MyText" }
+    image { "MyText" }
+    wiki { "MyText" }
   end
 end

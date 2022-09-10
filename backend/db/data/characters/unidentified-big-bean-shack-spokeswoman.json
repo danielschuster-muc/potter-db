@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Big Bean Shack spokeswoman"
-  ],
+  "jobs": ["Big Bean Shack spokeswoman"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/ff/Big_Bean_Shack_spokeswoman.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Big_Bean_Shack_spokeswoman"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/ff/Big_Bean_Shack_spokeswoman.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Big_Bean_Shack_spokeswoman"
 }

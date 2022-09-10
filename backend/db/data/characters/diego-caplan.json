@@ -16,19 +16,12 @@
   "boggart": null,
   "house": "Hufflepuff",
   "patronus": null,
-  "alias_names": [
-    "Best Dueller at Hogwarts",
-    "Dancer Extraordinaire"
-  ],
+  "alias_names": ["Best Dueller at Hogwarts", "Dancer Extraordinaire"],
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Father",
-    "Grandfather",
-    "Grandmother"
-  ],
+  "family_members": ["Father", "Grandfather", "Grandmother"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/ac/Diego_Caplan.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Diego_Caplan"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/ac/Diego_Caplan.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Diego_Caplan"
 }

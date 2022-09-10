@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Clerk"
-  ],
+  "jobs": ["Clerk"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/P._Oxley"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/P._Oxley"
 }

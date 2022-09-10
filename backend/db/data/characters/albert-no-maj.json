@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Employee at Kowalski Quality Baked Goods"
-  ],
+  "jobs": ["Employee at Kowalski Quality Baked Goods"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f5/Albert_%28No-Maj%29_SOD.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Albert_(No-Maj)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f5/Albert_%28No-Maj%29_SOD.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Albert_(No-Maj)"
 }

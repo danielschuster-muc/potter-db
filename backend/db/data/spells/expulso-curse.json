@@ -7,6 +7,6 @@
   "light": "Blue",
   "hand": "Point wand",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/aa/Expulso.JPG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Expulso_Curse"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/aa/Expulso.JPG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Expulso_Curse"
 }

@@ -18,12 +18,10 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Chaser"
-  ],
+  "titles": ["Chaser"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/07/RandolphBurrow.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Randolph_Burrow"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/07/RandolphBurrow.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Randolph_Burrow"
 }

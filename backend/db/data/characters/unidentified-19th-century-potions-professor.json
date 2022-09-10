@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Potions Master at Hogwarts School of Witchcraft and Wizardry"
-  ],
+  "jobs": ["Potions Master at Hogwarts School of Witchcraft and Wizardry"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/34/19th-century_Potions_teacher_-_HL.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_19th-century_Potions_professor"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/34/19th-century_Potions_teacher_-_HL.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_19th-century_Potions_professor"
 }

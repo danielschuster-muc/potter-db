@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Owner of the Railview Hotel"
-  ],
+  "jobs": ["Owner of the Railview Hotel"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Owner_of_the_Railview_Hotel"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Owner_of_the_Railview_Hotel"
 }

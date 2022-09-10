@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Clerk for the Council of Magical Law"
-  ],
+  "jobs": ["Clerk for the Council of Magical Law"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e2/Council_of_Magical_Law_clerk.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Council_of_Magical_Law_clerk"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e2/Council_of_Magical_Law_clerk.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Council_of_Magical_Law_clerk"
 }

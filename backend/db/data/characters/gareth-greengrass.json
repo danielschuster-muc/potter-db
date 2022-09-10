@@ -16,26 +16,20 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Edward Scot"
-  ],
+  "alias_names": ["Edward Scot"],
   "jobs": [
     "Senior Unspeakable (formerly)",
     "Head of Department of Mysteries (formerly)"
   ],
-  "titles": [
-    "Minister"
-  ],
+  "titles": ["Minister"],
   "family_members": [
     "Brother",
     "Aquila Greengrass (wife) †",
     "Cereus Greengrass (daughter)",
     "Greengrass family"
   ],
-  "romances": [
-    "Aquila Greengrass (wife) †"
-  ],
+  "romances": ["Aquila Greengrass (wife) †"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/8d/Gareth_Greengrass.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gareth_Greengrass"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/8d/Gareth_Greengrass.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Gareth_Greengrass"
 }

@@ -16,12 +16,8 @@
   "boggart": null,
   "house": "Ravenclaw",
   "patronus": "Hare",
-  "alias_names": [
-    "Loony Lovegood (by Hogwarts students)"
-  ],
-  "jobs": [
-    "Magizoologist"
-  ],
+  "alias_names": ["Loony Lovegood (by Hogwarts students)"],
+  "jobs": ["Magizoologist"],
   "titles": null,
   "family_members": [
     "Xenophilius Lovegood (father)",
@@ -33,13 +29,8 @@
     "Newt Scamander (grandfather-in-law)",
     "Porpentina Scamander (née Goldstein) (grandmother-in-law)"
   ],
-  "romances": [
-    "Rolf Scamander (husband)"
-  ],
-  "wands": [
-    "Unknown 1st wand",
-    "Unknown 2nd wand"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/ed/Luna_Lovegood.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Luna_Lovegood"
+  "romances": ["Rolf Scamander (husband)"],
+  "wands": ["Unknown 1st wand", "Unknown 2nd wand"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ed/Luna_Lovegood.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Luna_Lovegood"
 }

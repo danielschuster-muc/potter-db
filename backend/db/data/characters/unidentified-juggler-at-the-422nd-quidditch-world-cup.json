@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Juggler"
-  ],
+  "jobs": ["Juggler"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/17/Juggler_at_Quidditch_World_Cup.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_juggler_at_the_422nd_Quidditch_World_Cup"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/17/Juggler_at_Quidditch_World_Cup.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_juggler_at_the_422nd_Quidditch_World_Cup"
 }

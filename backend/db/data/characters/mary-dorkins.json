@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Television reporter"
-  ],
+  "jobs": ["Television reporter"],
   "titles": null,
-  "family_members": [
-    "Ragmar Dorkins (possibly)"
-  ],
+  "family_members": ["Ragmar Dorkins (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mary_Dorkins"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Mary_Dorkins"
 }

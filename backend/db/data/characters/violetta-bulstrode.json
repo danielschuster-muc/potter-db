@@ -52,10 +52,8 @@
     "Bulstrode family",
     "House of Black"
   ],
-  "romances": [
-    "Cygnus Black II (husband)"
-  ],
+  "romances": ["Cygnus Black II (husband)"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e2/FamilyTree.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Violetta_Bulstrode"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e2/FamilyTree.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Violetta_Bulstrode"
 }

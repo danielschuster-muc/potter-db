@@ -16,14 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "La Bella"
-  ],
+  "alias_names": ["La Bella"],
   "jobs": null,
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0b/TabithaTabellaSmall.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Tabitha_Tabella"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0b/TabithaTabellaSmall.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Tabitha_Tabella"
 }

@@ -16,14 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Ronald Weasley"
-  ],
+  "alias_names": ["Ronald Weasley"],
   "jobs": null,
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/47/Weasleyghoul.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Weasley_family_ghoul"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/47/Weasleyghoul.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Weasley_family_ghoul"
 }

@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Director of the Ministry Police"
-  ],
+  "jobs": ["Director of the Ministry Police"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b2/Ministry_Police.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Director_of_the_Ministry_Police_No._41041"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b2/Ministry_Police.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Director_of_the_Ministry_Police_No._41041"
 }

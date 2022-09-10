@@ -16,9 +16,7 @@
   "boggart": null,
   "house": "Hufflepuff",
   "patronus": null,
-  "alias_names": [
-    "Barghest (possibly)"
-  ],
+  "alias_names": ["Barghest (possibly)"],
   "jobs": [
     "Research assistant in the Department of Magical Law Enforcement (formerly)",
     "Unspeakable"
@@ -37,6 +35,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/94/Grim_Fawley_WU.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Grim_Fawley"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/94/Grim_Fawley_WU.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Grim_Fawley"
 }

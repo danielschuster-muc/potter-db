@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Keeper for the Japanese National Quidditch team"
-  ],
-  "titles": [
-    "Keeper"
-  ],
+  "jobs": ["Keeper for the Japanese National Quidditch team"],
+  "titles": ["Keeper"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f4/TamotsuIwamoto.JPG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Tamotsu_Iwamoto"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f4/TamotsuIwamoto.JPG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Tamotsu_Iwamoto"
 }

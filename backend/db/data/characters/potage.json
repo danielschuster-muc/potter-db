@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Owner of Potage's Cauldron Shop"
-  ],
+  "jobs": ["Owner of Potage's Cauldron Shop"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b4/Potage.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Potage"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b4/Potage.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Potage"
 }

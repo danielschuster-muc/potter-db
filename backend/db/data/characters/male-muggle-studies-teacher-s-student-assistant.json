@@ -17,13 +17,11 @@
   "house": "Hufflepuff",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Student assistant"
-  ],
+  "jobs": ["Student assistant"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c3/Charity_Burbage%27s_student_assistant.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Male_Muggle_Studies_teacher's_student_assistant"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c3/Charity_Burbage%27s_student_assistant.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Male_Muggle_Studies_teacher's_student_assistant"
 }

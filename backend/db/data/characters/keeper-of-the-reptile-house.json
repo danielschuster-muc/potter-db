@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Zookeeper"
-  ],
+  "jobs": ["Zookeeper"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Keeper_of_the_reptile_house"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Keeper_of_the_reptile_house"
 }

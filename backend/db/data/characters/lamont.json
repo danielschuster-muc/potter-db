@@ -16,16 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "'Stubby'"
-  ],
+  "alias_names": ["'Stubby'"],
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Hector Lamont (son)"
-  ],
+  "family_members": ["Hector Lamont (son)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lamont"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Lamont"
 }

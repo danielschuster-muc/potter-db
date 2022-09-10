@@ -8,6 +8,6 @@
   "ingredients": null,
   "inventors": null,
   "manufacturers": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/85/RevivePotion.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Revive_Potion"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/85/RevivePotion.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Revive_Potion"
 }

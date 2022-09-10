@@ -16,14 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Billie"
-  ],
+  "alias_names": ["Billie"],
   "jobs": null,
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/68/Matildus_Heizenbert.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Matildus_Heizenbert"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/68/Matildus_Heizenbert.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Matildus_Heizenbert"
 }

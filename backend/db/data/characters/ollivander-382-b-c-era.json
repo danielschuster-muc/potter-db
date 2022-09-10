@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Wandmaker"
-  ],
+  "jobs": ["Wandmaker"],
   "titles": null,
   "family_members": [
     "Geraint Ollivander (descendant)",
@@ -31,9 +29,7 @@
     "Ollivander family"
   ],
   "romances": null,
-  "wands": [
-    "Olive wood, unknown length and core materials"
-  ],
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ollivander_(382_B.C._era)"
+  "wands": ["Olive wood, unknown length and core materials"],
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Ollivander_(382_B.C._era)"
 }

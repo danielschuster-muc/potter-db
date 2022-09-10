@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Artefact smuggler"
-  ],
+  "jobs": ["Artefact smuggler"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Muggle_Artefact_Smuggler"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Muggle_Artefact_Smuggler"
 }

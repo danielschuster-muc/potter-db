@@ -7,6 +7,6 @@
   "light": "Red",
   "hand": "Point to the person who the spell should hit",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/de/Bellatrix_death.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Disintegration_spell"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/de/Bellatrix_death.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Disintegration_spell"
 }

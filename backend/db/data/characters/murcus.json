@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Merchieftainess of the Black Lake Selkie Colony"
-  ],
-  "titles": [
-    "Merchieftainess"
-  ],
+  "jobs": ["Merchieftainess of the Black Lake Selkie Colony"],
+  "titles": ["Merchieftainess"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0f/Mermaid_with_trident.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Murcus"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0f/Mermaid_with_trident.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Murcus"
 }

@@ -16,16 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "'Father' Willis"
-  ],
-  "jobs": [
-    "Organ builder"
-  ],
+  "alias_names": ["'Father' Willis"],
+  "jobs": ["Organ builder"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/ed/Henry_Willis.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Henry_Willis"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ed/Henry_Willis.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Henry_Willis"
 }

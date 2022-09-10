@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chaser for the American National Quidditch team"
-  ],
-  "titles": [
-    "Chaser"
-  ],
+  "jobs": ["Chaser for the American National Quidditch team"],
+  "titles": ["Chaser"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/7f/Debbiemuntz.JPG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Debbie_Muntz"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7f/Debbiemuntz.JPG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Debbie_Muntz"
 }

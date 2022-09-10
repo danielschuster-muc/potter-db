@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chieftainess of the Wizards' Council"
-  ],
-  "titles": [
-    "Chieftainess"
-  ],
+  "jobs": ["Chieftainess of the Wizards' Council"],
+  "titles": ["Chieftainess"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/46/ElfridaClagg.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Elfrida_Clagg"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/46/ElfridaClagg.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Elfrida_Clagg"
 }

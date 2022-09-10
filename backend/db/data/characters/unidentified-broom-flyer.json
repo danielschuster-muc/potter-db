@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Professional broom flier (possibly)"
-  ],
+  "jobs": ["Professional broom flier (possibly)"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_broom_flyer"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_broom_flyer"
 }

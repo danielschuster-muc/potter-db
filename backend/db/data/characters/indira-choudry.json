@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Beater for the English National Quidditch team"
-  ],
-  "titles": [
-    "Beater"
-  ],
+  "jobs": ["Beater for the English National Quidditch team"],
+  "titles": ["Beater"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/56/Indira_Choudry.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Indira_Choudry"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/56/Indira_Choudry.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Indira_Choudry"
 }

@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Unspeakable"
-  ],
-  "titles": [
-    "Professor"
-  ],
+  "jobs": ["Unspeakable"],
+  "titles": ["Professor"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Saul_Croaker"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Saul_Croaker"
 }

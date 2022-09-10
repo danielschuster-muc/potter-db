@@ -16,19 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Tank"
-  ],
-  "jobs": [
-    "Beater and Captain for the American National Quidditch team"
-  ],
-  "titles": [
-    "Beater",
-    "Captain"
-  ],
+  "alias_names": ["Tank"],
+  "jobs": ["Beater and Captain for the American National Quidditch team"],
+  "titles": ["Beater", "Captain"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/69/Usabeaters.JPG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Troy_Duvall"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/69/Usabeaters.JPG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Troy_Duvall"
 }

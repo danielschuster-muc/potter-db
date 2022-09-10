@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Headmaster of Hogwarts School"
-  ],
-  "titles": [
-    "Professor",
-    "Headmaster"
-  ],
+  "jobs": ["Headmaster of Hogwarts School"],
+  "titles": ["Professor", "Headmaster"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/98/Unidentified_Sleeping_Headmaster_with_Astrolabe.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_sleeping_Headmaster_with_astrolabe"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/98/Unidentified_Sleeping_Headmaster_with_Astrolabe.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_sleeping_Headmaster_with_astrolabe"
 }

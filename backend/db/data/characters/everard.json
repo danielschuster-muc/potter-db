@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Headmaster of Hogwarts"
-  ],
-  "titles": [
-    "Headmaster",
-    "Professor"
-  ],
+  "jobs": ["Headmaster of Hogwarts"],
+  "titles": ["Headmaster", "Professor"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/5a/Everard_1.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Everard"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5a/Everard_1.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Everard"
 }

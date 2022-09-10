@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Norwegian Minister for Magic (c. 1932-?)"
-  ],
-  "titles": [
-    "Minister for Magic"
-  ],
+  "jobs": ["Norwegian Minister for Magic (c. 1932-?)"],
+  "titles": ["Minister for Magic"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/41/Norwegian_Minister_of_Magic.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Norwegian_Minister_for_Magic_in_1932"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/41/Norwegian_Minister_of_Magic.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Norwegian_Minister_for_Magic_in_1932"
 }

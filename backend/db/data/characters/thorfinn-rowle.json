@@ -28,9 +28,7 @@
     "Rowle family"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/81/Thorfinn_Rowle.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Thorfinn_Rowle"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/81/Thorfinn_Rowle.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Thorfinn_Rowle"
 }

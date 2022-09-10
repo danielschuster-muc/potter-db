@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Healer"
-  ],
-  "titles": [
-    "Healer"
-  ],
+  "jobs": ["Healer"],
+  "titles": ["Healer"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e9/Omar_Abasi.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Omar_Abasi"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e9/Omar_Abasi.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Omar_Abasi"
 }

@@ -8,6 +8,6 @@
   "ingredients": null,
   "inventors": "Nicolas Flamel (by inventing the Philosopher's Stone)",
   "manufacturers": "The Philosopher's Stone",
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/25/Elixir_of_Life.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Elixir_of_Life"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/25/Elixir_of_Life.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Elixir_of_Life"
 }

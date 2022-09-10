@@ -21,13 +21,10 @@
     "Seeker for the Fitchburg Finches",
     "Seeker and Captain for the American National Quidditch team"
   ],
-  "titles": [
-    "Captain",
-    "Seeker"
-  ],
+  "titles": ["Captain", "Seeker"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Maximus_Brankovitch_III"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Maximus_Brankovitch_III"
 }

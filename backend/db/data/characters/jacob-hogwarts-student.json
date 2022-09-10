@@ -27,10 +27,7 @@
     "His family"
   ],
   "romances": null,
-  "wands": [
-    "10″, Maple, dragon heartstring",
-    "Unknown length, wood and core"
-  ],
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Jacob_(Hogwarts_student)"
+  "wands": ["10″, Maple, dragon heartstring", "Unknown length, wood and core"],
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Jacob_(Hogwarts_student)"
 }

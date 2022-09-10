@@ -18,15 +18,10 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Quidditch Captain"
-  ],
-  "family_members": [
-    "Andrew Snowy Owl (possibly)",
-    "Snowy Owl family"
-  ],
+  "titles": ["Quidditch Captain"],
+  "family_members": ["Andrew Snowy Owl (possibly)", "Snowy Owl family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f2/Slytherin_House_Captain%27s_Plaque.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Andrew_Snowy_Owl_(Slytherin)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f2/Slytherin_House_Captain%27s_Plaque.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Andrew_Snowy_Owl_(Slytherin)"
 }

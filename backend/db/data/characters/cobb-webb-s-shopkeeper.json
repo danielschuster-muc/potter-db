@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Shopkeeper at Cobb & Webb's"
-  ],
+  "jobs": ["Shopkeeper at Cobb & Webb's"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/25/Cobb%26Webb%27sShopkeeper.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cobb_&_Webb's_shopkeeper"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/25/Cobb%26Webb%27sShopkeeper.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Cobb_&_Webb's_shopkeeper"
 }

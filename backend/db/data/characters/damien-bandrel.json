@@ -16,14 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Black Scorpion"
-  ],
+  "alias_names": ["Black Scorpion"],
   "jobs": null,
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/29/Damien_Bandrel_-_wanted_poster.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Damien_Bandrel"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/29/Damien_Bandrel_-_wanted_poster.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Damien_Bandrel"
 }

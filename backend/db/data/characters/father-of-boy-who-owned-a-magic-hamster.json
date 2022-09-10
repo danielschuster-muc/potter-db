@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Wife",
-    "Son"
-  ],
+  "family_members": ["Wife", "Son"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Father_of_boy_who_owned_a_magic_hamster"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Father_of_boy_who_owned_a_magic_hamster"
 }

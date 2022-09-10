@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Member of the Werewolf Capture Unit"
-  ],
+  "jobs": ["Member of the Werewolf Capture Unit"],
   "titles": null,
   "family_members": [
     "Mother or sister-in-law's mother",
@@ -29,6 +27,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d1/CecilLee_TrainingGrounds.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cecil_Lee"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d1/CecilLee_TrainingGrounds.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Cecil_Lee"
 }

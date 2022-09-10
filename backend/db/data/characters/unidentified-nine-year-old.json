@@ -19,11 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Grandparents"
-  ],
+  "family_members": ["Grandparents"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_nine-year-old"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_nine-year-old"
 }

@@ -17,14 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Gangster",
-    "Owner of The Blind Pig"
-  ],
+  "jobs": ["Gangster", "Owner of The Blind Pig"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1a/Gnarlak_FBposter.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gnarlak"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1a/Gnarlak_FBposter.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Gnarlak"
 }

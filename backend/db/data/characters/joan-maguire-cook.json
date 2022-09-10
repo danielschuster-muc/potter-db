@@ -18,12 +18,10 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Miss"
-  ],
+  "titles": ["Miss"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Joan_Maguire_Cook"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Joan_Maguire_Cook"
 }

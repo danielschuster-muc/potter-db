@@ -21,11 +21,9 @@
     "Inventor and/or manufacturer of Blishen's Safety Matches (presumably)."
   ],
   "titles": null,
-  "family_members": [
-    "Blishen family"
-  ],
+  "family_members": ["Blishen family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Blishen_(Muggle)"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Blishen_(Muggle)"
 }

@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Trainee Healer"
-  ],
+  "jobs": ["Trainee Healer"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/50/Wiggins.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Wiggins"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/50/Wiggins.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Wiggins"
 }

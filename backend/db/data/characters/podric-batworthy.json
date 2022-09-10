@@ -18,15 +18,10 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Grand Sorcerer"
-  ],
-  "family_members": [
-    "Podric Batworthy XXIII (descendant)",
-    "Batworthy family"
-  ],
+  "titles": ["Grand Sorcerer"],
+  "family_members": ["Podric Batworthy XXIII (descendant)", "Batworthy family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1b/PodricBatworthy2.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Podric_Batworthy"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1b/PodricBatworthy2.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Podric_Batworthy"
 }

@@ -16,24 +16,16 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Director"
-  ],
-  "jobs": [
-    "Director of R"
-  ],
-  "titles": [
-    "Madam"
-  ],
+  "alias_names": ["Director"],
+  "jobs": ["Director of R"],
+  "titles": ["Madam"],
   "family_members": [
     "Merula Snyde (niece)",
     "Snyde family",
     "Buckthorn family (in-laws)"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/ac/Verucca_Buckthorn-Snyde_HM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Verucca_Buckthorn-Snyde"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/ac/Verucca_Buckthorn-Snyde_HM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Verucca_Buckthorn-Snyde"
 }

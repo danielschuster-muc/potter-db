@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Dumont family"
-  ],
+  "jobs": ["Dumont family"],
   "titles": null,
-  "family_members": [
-    "Aurélie Dumont (younger sister)"
-  ],
+  "family_members": ["Aurélie Dumont (younger sister)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Davet_Dumont"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Davet_Dumont"
 }

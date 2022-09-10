@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Author",
-    "Reporter for The New York Ghost"
-  ],
+  "jobs": ["Author", "Reporter for The New York Ghost"],
   "titles": null,
-  "family_members": [
-    "Fieldwake family"
-  ],
+  "family_members": ["Fieldwake family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Franciscus_Fieldwake"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Franciscus_Fieldwake"
 }

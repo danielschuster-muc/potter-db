@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Surveillor of Activity"
-  ],
+  "jobs": ["Surveillor of Activity"],
   "titles": null,
-  "family_members": [
-    "Proudfoot (possibly)"
-  ],
+  "family_members": ["Proudfoot (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/fa/PalomaProudfoot.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Paloma_Proudfoot"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/fa/PalomaProudfoot.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Paloma_Proudfoot"
 }

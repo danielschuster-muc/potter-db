@@ -20,13 +20,10 @@
   "jobs": [
     "Headmaster of Hogwarts School of Witchcraft and Wizardry (early 20th century–between 1965 & 1971)"
   ],
-  "titles": [
-    "Headmaster",
-    "Professor"
-  ],
+  "titles": ["Headmaster", "Professor"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/70/Dippet_Portrait.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Armando_Dippet"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/70/Dippet_Portrait.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Armando_Dippet"
 }

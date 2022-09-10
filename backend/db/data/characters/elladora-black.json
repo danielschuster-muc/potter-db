@@ -16,9 +16,7 @@
   "boggart": null,
   "house": "Slytherin (possibly)",
   "patronus": null,
-  "alias_names": [
-    "Aunt Elladora"
-  ],
+  "alias_names": ["Aunt Elladora"],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -38,6 +36,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c8/Elladora_Black.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Elladora_Black"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c8/Elladora_Black.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Elladora_Black"
 }

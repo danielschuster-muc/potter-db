@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Security at the Quidditch World Cup"
-  ],
+  "jobs": ["Security at the Quidditch World Cup"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/0d/Archie_Aymslowe.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Ministry_of_Magic_wizard_at_the_1994_Quidditch_World_Cup"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0d/Archie_Aymslowe.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Ministry_of_Magic_wizard_at_the_1994_Quidditch_World_Cup"
 }

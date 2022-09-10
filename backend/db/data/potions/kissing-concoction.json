@@ -8,6 +8,6 @@
   "ingredients": "Pearl Dust",
   "inventors": "Fred and George Weasley",
   "manufacturers": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e0/KissingConcoction.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Kissing_Concoction"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e0/KissingConcoction.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Kissing_Concoction"
 }

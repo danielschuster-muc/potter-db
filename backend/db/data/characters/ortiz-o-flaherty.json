@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Author"
-  ],
+  "jobs": ["Author"],
   "titles": null,
-  "family_members": [
-    "Maxine O'Flaherty (possibly)",
-    "O'Flaherty family"
-  ],
+  "family_members": ["Maxine O'Flaherty (possibly)", "O'Flaherty family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ortiz_O'Flaherty"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Ortiz_O'Flaherty"
 }

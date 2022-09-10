@@ -21,12 +21,9 @@
     "High-ranking Ministry official in the Department of International Magical Co-operation"
   ],
   "titles": null,
-  "family_members": [
-    "Horace Slughorn (son)",
-    "Other family members"
-  ],
+  "family_members": ["Horace Slughorn (son)", "Other family members"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Horace_Slughorn's_father"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Horace_Slughorn's_father"
 }

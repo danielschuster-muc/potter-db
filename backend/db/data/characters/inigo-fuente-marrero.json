@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Seeker for the Spanish National Quidditch team"
-  ],
-  "titles": [
-    "Seeker"
-  ],
+  "jobs": ["Seeker for the Spanish National Quidditch team"],
+  "titles": ["Seeker"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/83/Harry_Potter-_Quidditch_World_Cup_03.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Inigo_Fuente_Marrero"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/83/Harry_Potter-_Quidditch_World_Cup_03.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Inigo_Fuente_Marrero"
 }

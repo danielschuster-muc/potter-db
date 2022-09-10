@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Keeper for the American National Quidditch team"
-  ],
-  "titles": [
-    "Keeper"
-  ],
+  "jobs": ["Keeper for the American National Quidditch team"],
+  "titles": ["Keeper"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d9/RalphHeidelberger.JPG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ralph_Heidelberger"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d9/RalphHeidelberger.JPG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ralph_Heidelberger"
 }

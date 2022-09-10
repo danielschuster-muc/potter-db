@@ -26,19 +26,14 @@
     "Advisor to the Minister for Magic",
     "Messenger to the Muggle Prime Minister (formerly)"
   ],
-  "titles": [
-    "Minister for Magic",
-    "Stylish Wizard of the Year (1995)"
-  ],
+  "titles": ["Minister for Magic", "Stylish Wizard of the Year (1995)"],
   "family_members": [
     "Mrs Fudge (wife)",
     "Rufus Fudge (nephew)",
     "Fudge family"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/6d/Corneliushogwarts.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cornelius_Fudge"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6d/Corneliushogwarts.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Cornelius_Fudge"
 }

@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Reporter for the Daily Prophet"
-  ],
+  "jobs": ["Reporter for the Daily Prophet"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/48/MirasPhlaras.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Miras_Phlaras"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/48/MirasPhlaras.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Miras_Phlaras"
 }

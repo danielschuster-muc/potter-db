@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Mr Creevey (father)",
-    "Colin Creevey (brother) †"
-  ],
+  "family_members": ["Mr Creevey (father)", "Colin Creevey (brother) †"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/86/DennisCreeveyPM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Dennis_Creevey"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/86/DennisCreeveyPM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Dennis_Creevey"
 }

@@ -19,12 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Mary Lou Barebone (descendant)",
-    "Barebone family"
-  ],
+  "family_members": ["Mary Lou Barebone (descendant)", "Barebone family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Bartholomew_Barebone"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Bartholomew_Barebone"
 }

@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Headmaster of Hogwarts School of Witchcraft and Wizardry"
-  ],
-  "titles": [
-    "Professor",
-    "Headmaster"
-  ],
+  "jobs": ["Headmaster of Hogwarts School of Witchcraft and Wizardry"],
+  "titles": ["Professor", "Headmaster"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b2/Unidentified_Sleeping_Headmaster_AD1568.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_sleeping_Headmaster_(1568AD)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b2/Unidentified_Sleeping_Headmaster_AD1568.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_sleeping_Headmaster_(1568AD)"
 }

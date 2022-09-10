@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Editor-in-chief of The Wizard's Voice"
-  ],
+  "jobs": ["Editor-in-chief of The Wizard's Voice"],
   "titles": null,
-  "family_members": [
-    "Luxo Karuzos (possible)"
-  ],
+  "family_members": ["Luxo Karuzos (possible)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Luxo_Karuzos_II"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Luxo_Karuzos_II"
 }

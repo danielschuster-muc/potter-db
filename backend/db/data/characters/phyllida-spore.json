@@ -22,14 +22,10 @@
     "Herbologist",
     "Headmistress of Hogwarts School of Witchcraft and Wizardry"
   ],
-  "titles": [
-    "Professor",
-    "Headmistress",
-    "Dame"
-  ],
+  "titles": ["Professor", "Headmistress", "Dame"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/5d/PhyllidaSporeHead.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Phyllida_Spore"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5d/PhyllidaSporeHead.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Phyllida_Spore"
 }

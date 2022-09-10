@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Potions Master at Hogwarts School of Witchcraft and Wizardry"
-  ],
-  "titles": [
-    "Potions Master"
-  ],
+  "jobs": ["Potions Master at Hogwarts School of Witchcraft and Wizardry"],
+  "titles": ["Potions Master"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Smoky-eyed_Potions_professor"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Smoky-eyed_Potions_professor"
 }

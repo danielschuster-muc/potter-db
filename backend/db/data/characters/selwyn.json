@@ -17,15 +17,11 @@
   "house": "Slytherin (possibly)",
   "patronus": "None",
   "alias_names": null,
-  "jobs": [
-    "British Ministry of Magic employee (formerly)"
-  ],
+  "jobs": ["British Ministry of Magic employee (formerly)"],
   "titles": null,
-  "family_members": [
-    "Selwyn family"
-  ],
+  "family_members": ["Selwyn family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b3/Selwyn_and_Travers_DHG1_NDS.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Selwyn"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b3/Selwyn_and_Travers_DHG1_NDS.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Selwyn"
 }

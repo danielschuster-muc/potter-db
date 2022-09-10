@@ -16,20 +16,12 @@
   "boggart": "Lord Voldemort",
   "house": "Gryffindor",
   "patronus": null,
-  "alias_names": [
-    "River (Potterwatch)"
-  ],
-  "jobs": [
-    "Host of Potterwatch"
-  ],
-  "titles": [
-    "Quidditch commentator"
-  ],
-  "family_members": [
-    "Mr Jordan (father)"
-  ],
+  "alias_names": ["River (Potterwatch)"],
+  "jobs": ["Host of Potterwatch"],
+  "titles": ["Quidditch commentator"],
+  "family_members": ["Mr Jordan (father)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/57/Leejordan_OoTP.PNG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lee_Jordan"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/57/Leejordan_OoTP.PNG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Lee_Jordan"
 }

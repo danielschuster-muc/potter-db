@@ -16,12 +16,8 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Harry (by friends and family)"
-  ],
-  "jobs": [
-    "Member of the Wizengamot (1913-1921)"
-  ],
+  "alias_names": ["Harry (by friends and family)"],
+  "jobs": ["Member of the Wizengamot (1913-1921)"],
   "titles": null,
   "family_members": [
     "Mrs Potter (née Fleamont) (mother) †",
@@ -41,6 +37,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/2e/Henry_Potter.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Henry_Potter"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/2e/Henry_Potter.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Henry_Potter"
 }

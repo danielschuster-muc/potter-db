@@ -17,12 +17,8 @@
   "house": "Gryffindor",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Employee of the British Ministry of Magic"
-  ],
-  "titles": [
-    "Prefect"
-  ],
+  "jobs": ["Employee of the British Ministry of Magic"],
+  "titles": ["Prefect"],
   "family_members": [
     "Father",
     "Mother",
@@ -33,6 +29,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/94/Annalena_Gleam_HM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Annalena_Gleam"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/94/Annalena_Gleam_HM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Annalena_Gleam"
 }

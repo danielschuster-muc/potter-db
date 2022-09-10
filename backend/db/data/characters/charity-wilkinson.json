@@ -21,14 +21,10 @@
     "Auror (formerly)",
     "President of the Magical Congress of the United States of America"
   ],
-  "titles": [
-    "President"
-  ],
-  "family_members": [
-    "Saranna Wilkinson (possibly)"
-  ],
+  "titles": ["President"],
+  "family_members": ["Saranna Wilkinson (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Charity_Wilkinson"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Charity_Wilkinson"
 }

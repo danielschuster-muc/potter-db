@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Member of the Committee on Experimental Charms"
-  ],
+  "jobs": ["Member of the Committee on Experimental Charms"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gilbert_Wimple"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Gilbert_Wimple"
 }

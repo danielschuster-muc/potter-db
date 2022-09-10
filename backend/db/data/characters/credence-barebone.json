@@ -20,9 +20,7 @@
     "Aurelius Dumbledore (birth name)",
     "Corvus Lestrange V (mistakenly believed identity)"
   ],
-  "jobs": [
-    "Worker at Circus Arcanus (formerly)"
-  ],
+  "jobs": ["Worker at Circus Arcanus (formerly)"],
   "titles": null,
   "family_members": [
     "Aberforth Dumbledore (biological father)",
@@ -39,12 +37,8 @@
     "Dumbledore family",
     "Barebone family (adoptive family)"
   ],
-  "romances": [
-    "Nagini (formerly)"
-  ],
-  "wands": [
-    "Ebony, unknown length and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a7/Secrets_of_Dumbledore_-_Credence_Barebone.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Credence_Barebone"
+  "romances": ["Nagini (formerly)"],
+  "wands": ["Ebony, unknown length and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a7/Secrets_of_Dumbledore_-_Credence_Barebone.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Credence_Barebone"
 }

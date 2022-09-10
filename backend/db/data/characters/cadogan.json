@@ -21,21 +21,17 @@
     "Knight of the Round Table",
     "Gryffindor Tower door guard (temporarily)"
   ],
-  "titles": [
-    "Sir"
-  ],
+  "titles": ["Sir"],
   "family_members": [
     "Father",
     "Mother",
     "Three ex-wives",
     "Seventeen rumoured children"
   ],
-  "romances": [
-    "Three ex-wives"
-  ],
+  "romances": ["Three ex-wives"],
   "wands": [
     "Blackthorn and troll whisker, 9″, combustible (according to legend)"
   ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d3/Sir_Cadogan.JPG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cadogan"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d3/Sir_Cadogan.JPG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Cadogan"
 }

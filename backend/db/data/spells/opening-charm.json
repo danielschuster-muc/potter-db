@@ -7,6 +7,6 @@
   "light": "Blue",
   "hand": null,
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/bd/Aberto.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Opening_Charm"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/bd/Aberto.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Opening_Charm"
 }

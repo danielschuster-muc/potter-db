@@ -20,15 +20,10 @@
   "jobs": [
     "Professor of History of Magic (before 1975-before 2008) at Hogwarts School of Witchcraft and Wizardry"
   ],
-  "titles": [
-    "Professor"
-  ],
-  "family_members": [
-    "Father",
-    "Binns family"
-  ],
+  "titles": ["Professor"],
+  "family_members": ["Father", "Binns family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1c/PottermoreBinns.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cuthbert_Binns"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1c/PottermoreBinns.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Cuthbert_Binns"
 }

@@ -18,9 +18,7 @@
   "patronus": "Doe",
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Head Girl"
-  ],
+  "titles": ["Head Girl"],
   "family_members": [
     "Mr Evans (father) †",
     "Mrs Evans (mother) †",
@@ -40,12 +38,8 @@
     "Potter family",
     "Weasley family (in-laws)"
   ],
-  "romances": [
-    "James Potter I (husband) †"
-  ],
-  "wands": [
-    "10¼″, Willow, unknown core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/ce/Lily_Potter1.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lily_J._Potter"
+  "romances": ["James Potter I (husband) †"],
+  "wands": ["10¼″, Willow, unknown core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/ce/Lily_Potter1.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Lily_J._Potter"
 }

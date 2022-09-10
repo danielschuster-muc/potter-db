@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Caretaker of Hogwarts Castle"
-  ],
+  "jobs": ["Caretaker of Hogwarts Castle"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Rancorous_Carpe"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Rancorous_Carpe"
 }

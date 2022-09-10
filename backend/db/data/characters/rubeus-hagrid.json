@@ -24,10 +24,7 @@
     "Keeper of Keys and Grounds at Hogwarts School of Witchcraft and Wizardry (c. 1968-?)",
     "Professor of Care of Magical Creatures at Hogwarts School of Witchcraft and Wizardry (1993-1995; 1996-?)"
   ],
-  "titles": [
-    "Professor",
-    "Keeper of Keys and Grounds of Hogwarts"
-  ],
+  "titles": ["Professor", "Keeper of Keys and Grounds of Hogwarts"],
   "family_members": [
     "Mr Hagrid (father) †",
     "Fridwulfa (mother) †",
@@ -35,12 +32,8 @@
     "Grawp's father (step-father)",
     "Jim Hamilton (possible relation)"
   ],
-  "romances": [
-    "Olympe Maxime (formerly)"
-  ],
-  "wands": [
-    "16″, Oak, unknown core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/fe/Rubeus_Hagrid.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Rubeus_Hagrid"
+  "romances": ["Olympe Maxime (formerly)"],
+  "wands": ["16″, Oak, unknown core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/fe/Rubeus_Hagrid.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Rubeus_Hagrid"
 }

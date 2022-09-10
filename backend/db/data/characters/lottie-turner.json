@@ -26,9 +26,7 @@
     "Turner family"
   ],
   "romances": null,
-  "wands": [
-    "10½″, Elder, Unicorn hair"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/72/Lottie_Turner_from_Harry_Potter_Magic_Awakened.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lottie_Turner"
+  "wands": ["10½″, Elder, Unicorn hair"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/72/Lottie_Turner_from_Harry_Potter_Magic_Awakened.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Lottie_Turner"
 }

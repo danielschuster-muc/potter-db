@@ -18,10 +18,7 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Chaser",
-    "Quidditch Captain"
-  ],
+  "titles": ["Chaser", "Quidditch Captain"],
   "family_members": [
     "Mr Johnson (father)",
     "George Weasley (husband)",
@@ -51,13 +48,8 @@
     "Johnson family",
     "Weasley family (in-laws)"
   ],
-  "romances": [
-    "Fred Weasley † (date)",
-    "George Weasley (husband)"
-  ],
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/2/24/GOF_promo_Angelina_Johnson.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Angelina_Johnson"
+  "romances": ["Fred Weasley † (date)", "George Weasley (husband)"],
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/24/GOF_promo_Angelina_Johnson.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Angelina_Johnson"
 }

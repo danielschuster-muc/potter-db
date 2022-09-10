@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Beater for the American National Quidditch team"
-  ],
+  "jobs": ["Beater for the American National Quidditch team"],
   "titles": null,
-  "family_members": [
-    "Apollyon Pringle (possibly)"
-  ],
+  "family_members": ["Apollyon Pringle (possibly)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Pringle"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Pringle"
 }

@@ -20,13 +20,10 @@
   "jobs": [
     "Headmistress of Hogwarts School of Witchcraft and Wizardry (unknown period)"
   ],
-  "titles": [
-    "Dame",
-    "Headmistress"
-  ],
+  "titles": ["Dame", "Headmistress"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/30/AntoniaCreaseworthy.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Antonia_Creaseworthy"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/30/AntoniaCreaseworthy.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Antonia_Creaseworthy"
 }

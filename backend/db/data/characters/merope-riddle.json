@@ -36,12 +36,8 @@
     "Peverell family (paternal ancestors)",
     "Riddle family"
   ],
-  "romances": [
-    "Tom Riddle Senior (ex-husband; unrequited)"
-  ],
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/ff/MeropeGaunt.jpeg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Merope_Riddle"
+  "romances": ["Tom Riddle Senior (ex-husband; unrequited)"],
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/ff/MeropeGaunt.jpeg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Merope_Riddle"
 }

@@ -21,10 +21,7 @@
     "Captain and Beater of the Holyhead Harpies (formerly)",
     "Manager of the Welsh National Quidditch team"
   ],
-  "titles": [
-    "Captain",
-    "Beater"
-  ],
+  "titles": ["Captain", "Beater"],
   "family_members": [
     "Hestia Jones (possible relative)",
     "Megan Jones (possible relative)",
@@ -34,6 +31,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/39/Gwenog_Jones.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gwenog_Jones"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/39/Gwenog_Jones.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Gwenog_Jones"
 }

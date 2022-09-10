@@ -29,9 +29,7 @@
     "Graves family"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood, and core materials"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e4/Graves-Profile.PNG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Percival_Graves"
+  "wands": ["Unknown length, wood, and core materials"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e4/Graves-Profile.PNG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Percival_Graves"
 }

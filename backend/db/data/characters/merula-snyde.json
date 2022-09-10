@@ -33,9 +33,7 @@
     "Verucca Buckthorn-Snyde (aunt)"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/ab/Merula.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Merula_Snyde"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/ab/Merula.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Merula_Snyde"
 }

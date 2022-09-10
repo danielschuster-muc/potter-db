@@ -34,10 +34,8 @@
     "Twelve great-grandchildren",
     "Prewett family"
   ],
-  "romances": [
-    "Mr Prewett (husband) †"
-  ],
+  "romances": ["Mr Prewett (husband) †"],
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Molly_Weasley's_mother"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Molly_Weasley's_mother"
 }

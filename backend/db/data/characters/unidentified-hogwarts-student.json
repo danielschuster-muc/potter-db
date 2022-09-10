@@ -21,9 +21,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Hogwarts_student"
+  "wands": ["Unknown length, wood and core"],
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Hogwarts_student"
 }

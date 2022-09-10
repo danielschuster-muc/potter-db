@@ -43,10 +43,8 @@
     "Crabbe family",
     "House of Black"
   ],
-  "romances": [
-    "Pollux Black (husband)"
-  ],
+  "romances": ["Pollux Black (husband)"],
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Irma_Crabbe"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Irma_Crabbe"
 }

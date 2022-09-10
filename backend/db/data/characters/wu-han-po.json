@@ -16,16 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Silver Dragon"
-  ],
+  "alias_names": ["Silver Dragon"],
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Po family"
-  ],
+  "family_members": ["Po family"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/06/Wu_Han_Po_FB1.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Wu_Han_Po"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/06/Wu_Han_Po_FB1.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Wu_Han_Po"
 }

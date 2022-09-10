@@ -17,9 +17,7 @@
   "house": null,
   "patronus": "None",
   "alias_names": null,
-  "jobs": [
-    "Head of the Department of Magical Law Enforcement (formerly)"
-  ],
+  "jobs": ["Head of the Department of Magical Law Enforcement (formerly)"],
   "titles": null,
   "family_members": [
     "Yaxley (possibly)",
@@ -28,9 +26,7 @@
     "Yaxley family"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/04/Yaxley_profile.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Corban_Yaxley"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/04/Yaxley_profile.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Corban_Yaxley"
 }

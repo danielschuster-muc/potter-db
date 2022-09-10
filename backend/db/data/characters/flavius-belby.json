@@ -25,9 +25,7 @@
     "Damocles (possibly)"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d2/Flavius_Belby.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Flavius_Belby"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d2/Flavius_Belby.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Flavius_Belby"
 }

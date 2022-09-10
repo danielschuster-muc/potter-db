@@ -21,9 +21,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/Corrine_Cribb_headshot_HM.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Corrine_Cribb"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/Corrine_Cribb_headshot_HM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Corrine_Cribb"
 }

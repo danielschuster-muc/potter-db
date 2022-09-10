@@ -17,12 +17,8 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Head of the Department of Magical Law Enforcement"
-  ],
-  "titles": [
-    "Minister"
-  ],
+  "jobs": ["Head of the Department of Magical Law Enforcement"],
+  "titles": ["Minister"],
   "family_members": [
     "Travers (possibly)",
     "Sloan Travers (possibly)",
@@ -30,6 +26,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/af/Torquil_Travers.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Torquil_Travers"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/af/Torquil_Travers.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Torquil_Travers"
 }

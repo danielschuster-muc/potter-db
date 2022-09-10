@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Engineer"
-  ],
+  "jobs": ["Engineer"],
   "titles": null,
-  "family_members": [
-    "Badeea Ali (daughter)"
-  ],
+  "family_members": ["Badeea Ali (daughter)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Badeea_Ali's_mother"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Badeea_Ali's_mother"
 }

@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Shop assistant"
-  ],
+  "jobs": ["Shop assistant"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/9b/Paper_Shop_Girl.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Paper_shop_girl"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/9b/Paper_Shop_Girl.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Paper_shop_girl"
 }

@@ -16,12 +16,8 @@
   "boggart": null,
   "house": null,
   "patronus": "Goat",
-  "alias_names": [
-    "Ab"
-  ],
-  "jobs": [
-    "Owner and Barman of the Hog's Head Inn"
-  ],
+  "alias_names": ["Ab"],
+  "jobs": ["Owner and Barman of the Hog's Head Inn"],
   "titles": null,
   "family_members": [
     "Percival Dumbledore (father) †",
@@ -33,12 +29,8 @@
     "Mr Dumbledore (paternal great-great-grandfather) †",
     "Dumbledore family"
   ],
-  "romances": [
-    "Credence Barebone's mother (formerly)"
-  ],
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/4/40/Aberforth_Dumbledore.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Aberforth_Dumbledore"
+  "romances": ["Credence Barebone's mother (formerly)"],
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/40/Aberforth_Dumbledore.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Aberforth_Dumbledore"
 }

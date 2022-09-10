@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Shop assistant at Weasleys' Wizard Wheezes"
-  ],
+  "jobs": ["Shop assistant at Weasleys' Wizard Wheezes"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/1a/Verity.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Verity"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1a/Verity.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Verity"
 }

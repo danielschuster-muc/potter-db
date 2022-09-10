@@ -18,12 +18,10 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": [
-    "Quidditch Captain"
-  ],
+  "titles": ["Quidditch Captain"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/df/Gryffindor_Quidditch_Captains_Pottermore.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ashley_Sanders"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/df/Gryffindor_Quidditch_Captains_Pottermore.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ashley_Sanders"
 }

@@ -30,9 +30,7 @@
     "Cattermole family"
   ],
   "romances": null,
-  "wands": [
-    "Cherry, 8¾″, unicorn hair"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c2/Mary_Cattermole_2.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mary_Cattermole"
+  "wands": ["Cherry, 8¾″, unicorn hair"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c2/Mary_Cattermole_2.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Mary_Cattermole"
 }

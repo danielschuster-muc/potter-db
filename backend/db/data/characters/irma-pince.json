@@ -21,17 +21,10 @@
     "Hogwarts librarian (pre 1991 - ?)",
     "Study Hall overseer (pre 1993 - ?)"
   ],
-  "titles": [
-    "Madam",
-    "Librarian"
-  ],
+  "titles": ["Madam", "Librarian"],
   "family_members": null,
-  "romances": [
-    "Argus Filch"
-  ],
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/53/PinceProfile.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Irma_Pince"
+  "romances": ["Argus Filch"],
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/53/PinceProfile.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Irma_Pince"
 }

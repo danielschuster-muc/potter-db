@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Composer"
-  ],
+  "jobs": ["Composer"],
   "titles": null,
   "family_members": [
     "Celestina Warbeck (wife)",
@@ -28,10 +26,8 @@
     "Mrs Warbeck (mother-in-law)",
     "Warbeck family (in-laws)"
   ],
-  "romances": [
-    "Celestina Warbeck (wife)"
-  ],
+  "romances": ["Celestina Warbeck (wife)"],
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Irving_Warble"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Irving_Warble"
 }

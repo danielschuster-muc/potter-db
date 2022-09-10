@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Cameraman for the Daily Prophet"
-  ],
+  "jobs": ["Cameraman for the Daily Prophet"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/ee/Bozo.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Bozo"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ee/Bozo.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Bozo"
 }

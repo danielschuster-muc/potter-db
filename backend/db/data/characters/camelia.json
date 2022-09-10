@@ -21,14 +21,10 @@
     "Employee at Hogwarts School (c. 1994–1998)",
     "Invigilator of the Great Hall (c. 1994–1998)"
   ],
-  "titles": [
-    "Professor"
-  ],
+  "titles": ["Professor"],
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a9/Unidentified_teacher_in_slug_party.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Camelia"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a9/Unidentified_teacher_in_slug_party.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Camelia"
 }

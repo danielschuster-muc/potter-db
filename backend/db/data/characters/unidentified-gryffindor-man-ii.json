@@ -17,15 +17,11 @@
   "house": "Gryffindor",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Head of Gryffindor House (? - before 1991)"
-  ],
-  "titles": [
-    "Head of Gryffindor House"
-  ],
+  "jobs": ["Head of Gryffindor House (? - before 1991)"],
+  "titles": ["Head of Gryffindor House"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/87/GCR_Portrait_Male_2.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Gryffindor_man_(II)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/87/GCR_Portrait_Male_2.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Gryffindor_man_(II)"
 }

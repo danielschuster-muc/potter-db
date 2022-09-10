@@ -4,92 +4,76 @@
   "release_date": "26 June 1997",
   "dedication": "For Jessica, who loves stories, for Anne, who loved them too, and for Di, who heard this one first",
   "pages": "223",
-  "cover_url": "https://www.wizardingworld.com/images/products/books/UK/rectangle-1.jpg",
+  "cover": "https://www.wizardingworld.com/images/products/books/UK/rectangle-1.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Philosopher's_Stone",
   "order": "1",
   "chapters": [
     {
       "title": "The Boy Who Lived",
-      "summary": "",
       "order": "1"
     },
     {
       "title": "The Vanishing Glass",
-      "summary": "",
       "order": "2"
     },
     {
       "title": "The Letter from No One",
-      "summary": "",
       "order": "3"
     },
     {
       "title": "The Keeper of the Keys",
-      "summary": "",
       "order": "4"
     },
     {
       "title": "Diagon Alley",
-      "summary": "",
       "order": "5"
     },
     {
       "title": "The Journey from Platform Nine and Three-Quarters",
-      "summary": "",
       "order": "6"
     },
     {
       "title": "The Sorting Hat",
-      "summary": "",
       "order": "7"
     },
     {
       "title": "The Potions Master",
-      "summary": "",
       "order": "8"
     },
     {
       "title": "The Midnight Duel",
-      "summary": "",
       "order": "9"
     },
     {
       "title": "Hallowe'en",
-      "summary": "",
       "order": "10"
     },
     {
       "title": "Quidditch",
-      "summary": "",
       "order": "11"
     },
     {
       "title": "The Mirror of Erised",
-      "summary": "",
       "order": "12"
     },
     {
       "title": "Nicolas Flamel",
-      "summary": "",
       "order": "13"
     },
     {
       "title": "Norbert the Norwegian Ridgeback",
-      "summary": "",
       "order": "14"
     },
     {
       "title": "The Forbidden Forest",
-      "summary": "",
       "order": "15"
     },
     {
       "title": "Through the Trapdoor",
-      "summary": "",
       "order": "16"
     },
     {
       "title": "The Man with Two Faces",
-      "summary": "",
       "order": "17"
     }
   ]

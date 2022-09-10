@@ -27,9 +27,7 @@
     "Lee family"
   ],
   "romances": null,
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b6/Barnaby_Lee.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Barnaby_Lee"
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b6/Barnaby_Lee.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Barnaby_Lee"
 }

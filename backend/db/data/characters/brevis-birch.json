@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Captain of the Tutshill Tornados"
-  ],
+  "jobs": ["Captain of the Tutshill Tornados"],
   "titles": null,
-  "family_members": [
-    "Trevor Birch (possibly)",
-    "Birch family"
-  ],
+  "family_members": ["Trevor Birch (possibly)", "Birch family"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Brevis_Birch"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Brevis_Birch"
 }

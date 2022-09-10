@@ -21,10 +21,7 @@
     "Head of the Department of Magical Law Enforcement",
     "Member of the Wizengamot"
   ],
-  "titles": [
-    "Madam",
-    "Interrogator"
-  ],
+  "titles": ["Madam", "Interrogator"],
   "family_members": [
     "Mr Bones (father) †",
     "Mrs Bones (mother) †",
@@ -37,6 +34,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/33/Amelia_Bones.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Amelia_Bones"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/33/Amelia_Bones.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Amelia_Bones"
 }

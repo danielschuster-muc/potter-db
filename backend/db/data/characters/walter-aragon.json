@@ -23,13 +23,10 @@
     "Chess player",
     "Professor"
   ],
-  "titles": [
-    "Professor",
-    "Headmaster"
-  ],
+  "titles": ["Professor", "Headmaster"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/19/Walter_Aragon.JPG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Walter_Aragon"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/19/Walter_Aragon.JPG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Walter_Aragon"
 }

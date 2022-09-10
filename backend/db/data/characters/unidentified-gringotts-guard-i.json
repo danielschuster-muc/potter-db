@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Gringotts Wizarding Bank guard"
-  ],
+  "jobs": ["Gringotts Wizarding Bank guard"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Gringotts_guard_(I)"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Gringotts_guard_(I)"
 }

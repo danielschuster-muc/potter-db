@@ -22,10 +22,7 @@
     "Professor of Herbology at Hogwarts School of Witchcraft and Wizardry (fl. 2008 – ?)",
     "Head of Gryffindor House (fl. 2008 – ?)"
   ],
-  "titles": [
-    "Professor",
-    "Head of Gryffindor House"
-  ],
+  "titles": ["Professor", "Head of Gryffindor House"],
   "family_members": [
     "Frank Longbottom (father)",
     "Alice Longbottom (mother)",
@@ -37,13 +34,8 @@
     "Harfang Longbottom (possible relative)",
     "Callidora Longbottom (née Black) (possible relative)"
   ],
-  "romances": [
-    "Hannah Abbott (wife)"
-  ],
-  "wands": [
-    "Father″s wand (formerly)",
-    "13″, Cherry, unicorn hair"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/04/Harry-potter-and-the-deathly-hallowspart-2.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Neville_Longbottom"
+  "romances": ["Hannah Abbott (wife)"],
+  "wands": ["Father″s wand (formerly)", "13″, Cherry, unicorn hair"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/04/Harry-potter-and-the-deathly-hallowspart-2.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Neville_Longbottom"
 }

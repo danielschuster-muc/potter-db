@@ -16,17 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Red Panther",
-    "Tina Estora"
-  ],
-  "jobs": [
-    "Career criminal"
-  ],
+  "alias_names": ["Red Panther", "Tina Estora"],
+  "jobs": ["Career criminal"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/9f/Ernestina_Abutor_-_wanted_poster.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Ernestina_Abutor"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/9f/Ernestina_Abutor_-_wanted_poster.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ernestina_Abutor"
 }

@@ -19,15 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Father",
-    "Uncle",
-    "Vole family"
-  ],
+  "family_members": ["Father", "Uncle", "Vole family"],
   "romances": null,
-  "wands": [
-    "10″, Holly, Veela hair"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/9d/Cassandra.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Cassandra_Vole"
+  "wands": ["10″, Holly, Veela hair"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/9d/Cassandra.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Cassandra_Vole"
 }

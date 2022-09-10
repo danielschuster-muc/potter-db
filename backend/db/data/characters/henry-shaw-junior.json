@@ -17,12 +17,8 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "U.S. Senator for the State of New York"
-  ],
-  "titles": [
-    "Senator"
-  ],
+  "jobs": ["U.S. Senator for the State of New York"],
+  "titles": ["Senator"],
   "family_members": [
     "Henry Shaw Senior (father)",
     "Langdon Shaw (brother)",
@@ -30,6 +26,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/09/Henry_Shaw_Jr_2_FB1.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Henry_Shaw_Junior"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/09/Henry_Shaw_Jr_2_FB1.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Henry_Shaw_Junior"
 }

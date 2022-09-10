@@ -17,16 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Headmaster of Hogwarts School"
-  ],
-  "titles": [
-    "Professor",
-    "Headmaster"
-  ],
+  "jobs": ["Headmaster of Hogwarts School"],
+  "titles": ["Professor", "Headmaster"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/1/12/Unidentified_Sleeping_Headmaster_with_Starmap.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_sleeping_Headmaster_with_starmap"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/12/Unidentified_Sleeping_Headmaster_with_Starmap.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_sleeping_Headmaster_with_starmap"
 }

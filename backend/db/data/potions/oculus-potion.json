@@ -8,6 +8,6 @@
   "ingredients": "Infusion of Wormwood, Stewed Mandrake, Ground Unicorn horn, Unidentified blue powder",
   "inventors": null,
   "manufacturers": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f7/OculusPotion.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Oculus_Potion"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f7/OculusPotion.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Oculus_Potion"
 }

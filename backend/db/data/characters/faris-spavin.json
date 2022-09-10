@@ -16,18 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Spout-Hole"
-  ],
-  "jobs": [
-    "Minister for Magic (1865 - 1903)"
-  ],
-  "titles": [
-    "Minister"
-  ],
+  "alias_names": ["Spout-Hole"],
+  "jobs": ["Minister for Magic (1865 - 1903)"],
+  "titles": ["Minister"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Faris_Spavin"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Faris_Spavin"
 }

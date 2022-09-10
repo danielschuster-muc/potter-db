@@ -21,12 +21,10 @@
     "Professor of Herbology (? - before 1965-1971)",
     "Professor at the Wizarding Academy of Dramatic Arts (before 1965-1971 - ?)"
   ],
-  "titles": [
-    "Professor"
-  ],
+  "titles": ["Professor"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Herbert_Beery"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Herbert_Beery"
 }

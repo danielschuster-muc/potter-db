@@ -17,12 +17,8 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Defence Against the Dark Arts professor at Ilvermorny"
-  ],
-  "titles": [
-    "Professor"
-  ],
+  "jobs": ["Defence Against the Dark Arts professor at Ilvermorny"],
+  "titles": ["Professor"],
   "family_members": [
     "James Steward (father)",
     "Isolt Sayre (mother)",
@@ -42,6 +38,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/3/3e/Rionach_Steward.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Rionach_Steward"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/3e/Rionach_Steward.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Rionach_Steward"
 }

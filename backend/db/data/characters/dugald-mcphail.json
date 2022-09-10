@@ -17,15 +17,11 @@
   "house": "Hufflepuff",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Minister for Magic (1858 - 1865)"
-  ],
-  "titles": [
-    "Minister for Magic"
-  ],
+  "jobs": ["Minister for Magic (1858 - 1865)"],
+  "titles": ["Minister for Magic"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Dugald_McPhail"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Dugald_McPhail"
 }

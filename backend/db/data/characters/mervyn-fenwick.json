@@ -17,12 +17,8 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Keeper for the Tutshill Tornados"
-  ],
-  "titles": [
-    "Keeper"
-  ],
+  "jobs": ["Keeper for the Tutshill Tornados"],
+  "titles": ["Keeper"],
   "family_members": [
     "Benjy Fenwick (possible relative)",
     "Marcus Fenwick (possible relative)",
@@ -30,6 +26,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mervyn_Fenwick"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Mervyn_Fenwick"
 }

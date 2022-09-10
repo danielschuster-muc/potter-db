@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Backing dancer for Celestina Warbeck"
-  ],
+  "jobs": ["Backing dancer for Celestina Warbeck"],
   "titles": null,
   "family_members": [
     "Celestina Warbeck (ex-wife)",
@@ -27,10 +25,8 @@
     "Mrs Warbeck (ex-mother-in-law)",
     "Warbeck family (ex-in-laws)"
   ],
-  "romances": [
-    "Celestina Warbeck (formerly)"
-  ],
+  "romances": ["Celestina Warbeck (formerly)"],
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Celestina_Warbeck's_first_husband"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Celestina_Warbeck's_first_husband"
 }

@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Seeker of the Kenmare Kestrels"
-  ],
-  "titles": [
-    "Seeker"
-  ],
+  "jobs": ["Seeker of the Kenmare Kestrels"],
+  "titles": ["Seeker"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Aidan_Kiely"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Aidan_Kiely"
 }

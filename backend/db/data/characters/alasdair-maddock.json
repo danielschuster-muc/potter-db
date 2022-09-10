@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Chaser for the Montrose Magpies (formerly)"
-  ],
-  "titles": [
-    "Chaser (formerly)"
-  ],
+  "jobs": ["Chaser for the Montrose Magpies (formerly)"],
+  "titles": ["Chaser (formerly)"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Alasdair_Maddock"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Alasdair_Maddock"
 }

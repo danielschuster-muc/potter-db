@@ -17,11 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Labourer (formerly)",
-    "Rugby player",
-    "Author"
-  ],
+  "jobs": ["Labourer (formerly)", "Rugby player", "Author"],
   "titles": null,
   "family_members": [
     "Father",
@@ -33,6 +29,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Angus_Buchanan"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Angus_Buchanan"
 }

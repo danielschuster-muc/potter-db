@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Dealer of cross-bred Cats and Kneazles"
-  ],
+  "jobs": ["Dealer of cross-bred Cats and Kneazles"],
   "titles": null,
-  "family_members": [
-    "Parents"
-  ],
+  "family_members": ["Parents"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/82/Figg.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Arabella_Figg"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/82/Figg.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Arabella_Figg"
 }

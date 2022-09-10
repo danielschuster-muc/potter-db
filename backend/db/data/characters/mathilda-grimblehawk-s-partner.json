@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Investigator for the Ministry of Magic Beast Division"
-  ],
+  "jobs": ["Investigator for the Ministry of Magic Beast Division"],
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Unknown length, wood, and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/f1/Mathilda_Grimblehawk%27s_partner_FBCftWW.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mathilda_Grimblehawk's_partner"
+  "wands": ["Unknown length, wood, and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f1/Mathilda_Grimblehawk%27s_partner_FBCftWW.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Mathilda_Grimblehawk's_partner"
 }

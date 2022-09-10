@@ -21,9 +21,7 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": [
-    "Altheda″s wand (stolen)"
-  ],
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Evil_sorcerer"
+  "wands": ["Altheda″s wand (stolen)"],
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Evil_sorcerer"
 }

@@ -7,6 +7,6 @@
   "light": "White",
   "hand": null,
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/0/02/Aparecium.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Revealing_Charm"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/0/02/Aparecium.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Revealing_Charm"
 }

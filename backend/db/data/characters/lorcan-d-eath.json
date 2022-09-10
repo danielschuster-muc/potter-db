@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Singer"
-  ],
+  "jobs": ["Singer"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/d7/LorcanDEath.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lorcan_d'Eath"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d7/LorcanDEath.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Lorcan_d'Eath"
 }

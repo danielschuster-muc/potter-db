@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Auror of the Magical Congress of the United States of America"
-  ],
+  "jobs": ["Auror of the Magical Congress of the United States of America"],
   "titles": null,
   "family_members": [
     "Percival Graves (descendant)",
@@ -27,6 +25,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gondulphus_Graves"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Gondulphus_Graves"
 }

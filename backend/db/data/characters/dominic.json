@@ -19,11 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Jacob Kowalski (nephew)"
-  ],
+  "family_members": ["Jacob Kowalski (nephew)"],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Dominic"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Dominic"
 }

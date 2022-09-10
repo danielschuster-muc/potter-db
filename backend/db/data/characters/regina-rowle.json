@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Junior Unspeakable"
-  ],
+  "jobs": ["Junior Unspeakable"],
   "titles": null,
   "family_members": [
     "Damocles Rowle (possibly)",
@@ -31,6 +29,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Regina_Rowle"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Regina_Rowle"
 }

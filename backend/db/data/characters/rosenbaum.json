@@ -21,12 +21,10 @@
     "Author of Rosenbaum's Motorcycle Owner's Manual",
     "Owner of Rosenbaum's"
   ],
-  "titles": [
-    "Author"
-  ],
+  "titles": ["Author"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Rosenbaum"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Rosenbaum"
 }

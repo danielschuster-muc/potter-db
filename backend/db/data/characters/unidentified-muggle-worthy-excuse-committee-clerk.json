@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Muggle-Worthy Excuse Committee employee"
-  ],
+  "jobs": ["Muggle-Worthy Excuse Committee employee"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/7b/Unidentified_Muggle-Worthy_Excuse_Committee_clerk.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Muggle-Worthy_Excuse_Committee_clerk"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7b/Unidentified_Muggle-Worthy_Excuse_Committee_clerk.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Muggle-Worthy_Excuse_Committee_clerk"
 }

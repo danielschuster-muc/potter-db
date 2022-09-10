@@ -64,10 +64,8 @@
     "House of Black",
     "Flint family (in-laws)"
   ],
-  "romances": [
-    "Arcturus Black II (husband) †"
-  ],
+  "romances": ["Arcturus Black II (husband) †"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/60/Lysandra_Black.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lysandra_Yaxley"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/60/Lysandra_Black.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Lysandra_Yaxley"
 }

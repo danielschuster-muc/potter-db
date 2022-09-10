@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Keeper for the Irish National Quidditch team (formerly)"
-  ],
-  "titles": [
-    "Keeper"
-  ],
+  "jobs": ["Keeper for the Irish National Quidditch team (formerly)"],
+  "titles": ["Keeper"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e5/Irish_National_Quidditch_team.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Barry_Ryan"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e5/Irish_National_Quidditch_team.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Barry_Ryan"
 }

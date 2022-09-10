@@ -23,11 +23,9 @@
     "Hogwarts kitchen worker (1996-2017)"
   ],
   "titles": null,
-  "family_members": [
-    "Mother †Ancestors (likely)"
-  ],
+  "family_members": ["Mother †Ancestors (likely)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/a/a0/Krech.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Kreacher"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a0/Krech.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Kreacher"
 }

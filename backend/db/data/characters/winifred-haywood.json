@@ -16,10 +16,7 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Gran",
-    "Granny Haywood"
-  ],
+  "alias_names": ["Gran", "Granny Haywood"],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -31,6 +28,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Winifred_Haywood"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Winifred_Haywood"
 }

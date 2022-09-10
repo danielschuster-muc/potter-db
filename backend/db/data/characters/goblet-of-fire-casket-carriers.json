@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "British Ministry of Magic employees"
-  ],
+  "jobs": ["British Ministry of Magic employees"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/d/dd/Goblet_of_Fire_casket_carriers.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Goblet_of_Fire_casket_carriers"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/dd/Goblet_of_Fire_casket_carriers.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Goblet_of_Fire_casket_carriers"
 }

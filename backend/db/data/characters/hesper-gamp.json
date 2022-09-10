@@ -47,10 +47,8 @@
     "Gamp family",
     "House of Black (in-laws)"
   ],
-  "romances": [
-    "Sirius Black II (husband)"
-  ],
+  "romances": ["Sirius Black II (husband)"],
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/5/54/Hesper_Black.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Hesper_Gamp"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/5/54/Hesper_Black.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Hesper_Gamp"
 }

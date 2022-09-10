@@ -17,13 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Seer"
-  ],
+  "jobs": ["Seer"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/f/fe/Mopsus_Portrait.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Mopsus_(antiquity)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/f/fe/Mopsus_Portrait.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Mopsus_(antiquity)"
 }

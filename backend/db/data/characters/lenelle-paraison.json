@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Keeper for the Haitian National Quidditch team"
-  ],
-  "titles": [
-    "Keeper"
-  ],
+  "jobs": ["Keeper for the Haitian National Quidditch team"],
+  "titles": ["Keeper"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Lenelle_Paraison"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Lenelle_Paraison"
 }

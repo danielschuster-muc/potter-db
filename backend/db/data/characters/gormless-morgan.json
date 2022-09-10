@@ -16,16 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Morg"
-  ],
-  "jobs": [
-    "Magical creature hunter"
-  ],
+  "alias_names": ["Morg"],
+  "jobs": ["Magical creature hunter"],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/c/c5/GormlessMorgan.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Gormless_Morgan"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c5/GormlessMorgan.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Gormless_Morgan"
 }

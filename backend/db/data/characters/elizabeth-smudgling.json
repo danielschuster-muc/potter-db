@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Professional Duellist"
-  ],
-  "titles": [
-    "Supreme Dueller"
-  ],
+  "jobs": ["Professional Duellist"],
+  "titles": ["Supreme Dueller"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/8b/ElizabethSmudgling.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Elizabeth_Smudgling"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/8b/ElizabethSmudgling.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Elizabeth_Smudgling"
 }

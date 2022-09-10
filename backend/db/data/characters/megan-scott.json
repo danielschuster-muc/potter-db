@@ -19,11 +19,9 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": [
-    "Catherine Tyler (grandmother) †"
-  ],
+  "family_members": ["Catherine Tyler (grandmother) †"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/7/7b/Megan_Scott_-_FBC.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Megan_Scott"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7b/Megan_Scott_-_FBC.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Megan_Scott"
 }

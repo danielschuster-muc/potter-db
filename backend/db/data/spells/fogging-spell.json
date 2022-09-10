@@ -7,6 +7,6 @@
   "light": "Grey",
   "hand": "Point wand over area",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/e/e8/Nebulus.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Fogging_Spell"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e8/Nebulus.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Fogging_Spell"
 }

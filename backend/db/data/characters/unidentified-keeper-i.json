@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Reserve Keeper for the Wigtown Wanderers"
-  ],
-  "titles": [
-    "Keeper"
-  ],
+  "jobs": ["Reserve Keeper for the Wigtown Wanderers"],
+  "titles": ["Keeper"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/69/Unidentified_Keeper%27s_custom-made_Keeper_Gear_HM.jpg",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Keeper_(I)"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/69/Unidentified_Keeper%27s_custom-made_Keeper_Gear_HM.jpg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Keeper_(I)"
 }

@@ -20,12 +20,8 @@
   "jobs": null,
   "titles": null,
   "family_members": null,
-  "romances": [
-    "Daisy Twemlove (formerly)"
-  ],
-  "wands": [
-    "Unknown length, wood and core"
-  ],
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/65/NorvilleBezerko.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Norville_Bezerko"
+  "romances": ["Daisy Twemlove (formerly)"],
+  "wands": ["Unknown length, wood and core"],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/65/NorvilleBezerko.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Norville_Bezerko"
 }

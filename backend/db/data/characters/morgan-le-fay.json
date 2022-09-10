@@ -16,20 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": [
-    "Morgana"
-  ],
-  "jobs": [
-    "Ruler of Avalon"
-  ],
-  "titles": [
-    "Queen of Avalon"
-  ],
-  "family_members": [
-    "King Arthur (half-brother)"
-  ],
+  "alias_names": ["Morgana"],
+  "jobs": ["Ruler of Avalon"],
+  "titles": ["Queen of Avalon"],
+  "family_members": ["King Arthur (half-brother)"],
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/b/b1/Morgan_le_Fay_Chocolate_Frog_Card_HM.PNG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Morgan_le_Fay"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b1/Morgan_le_Fay_Chocolate_Frog_Card_HM.PNG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Morgan_le_Fay"
 }

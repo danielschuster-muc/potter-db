@@ -17,15 +17,11 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Beater for the Chudley Cannons"
-  ],
-  "titles": [
-    "Beater"
-  ],
+  "jobs": ["Beater for the Chudley Cannons"],
+  "titles": ["Beater"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Joey_Jenkins"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Joey_Jenkins"
 }

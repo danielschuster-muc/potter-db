@@ -7,6 +7,6 @@
   "light": "None",
   "hand": "Point wand at victim",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/8/8c/Imperio1.gif",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Imperius_Curse"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/8/8c/Imperio1.gif",
+  "wiki": "https://harrypotter.fandom.com/wiki/Imperius_Curse"
 }

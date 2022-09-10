@@ -17,9 +17,7 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Employee of the Department of Magical Law Enforcement"
-  ],
+  "jobs": ["Employee of the Department of Magical Law Enforcement"],
   "titles": null,
   "family_members": [
     "Mary Karasu",
@@ -30,6 +28,6 @@
   ],
   "romances": null,
   "wands": null,
-  "image_url": null,
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Tulip_Karasu's_father"
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Tulip_Karasu's_father"
 }

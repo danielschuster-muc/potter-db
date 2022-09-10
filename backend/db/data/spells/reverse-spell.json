@@ -7,6 +7,6 @@
   "light": "Gold",
   "hand": "Hold tip of wand to targeted wand",
   "creator": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/6/67/Priori_Incantatem_Pottermore.png",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Reverse_Spell"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/67/Priori_Incantatem_Pottermore.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Reverse_Spell"
 }

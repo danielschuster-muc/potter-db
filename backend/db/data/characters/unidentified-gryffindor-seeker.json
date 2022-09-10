@@ -17,16 +17,11 @@
   "house": "Gryffindor",
   "patronus": null,
   "alias_names": null,
-  "jobs": [
-    "Head of Gryffindor House"
-  ],
-  "titles": [
-    "Seeker",
-    "Head of Gryffindor House"
-  ],
+  "jobs": ["Head of Gryffindor House"],
+  "titles": ["Seeker", "Head of Gryffindor House"],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image_url": "https://static.wikia.nocookie.net/harrypotter/images/9/92/Quidditch_Player_portrait.JPG",
-  "wiki_link": "https://harrypotter.fandom.com/wiki/Unidentified_Gryffindor_Seeker"
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/92/Quidditch_Player_portrait.JPG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Gryffindor_Seeker"
 }
