@@ -26,7 +26,7 @@ const SingleCharacterMeta = ({ attributes }) => {
     <Meta
       title={attributes.name}
       description={getMetaDescription()}
-      image={attributes.image_url}
+      image={attributes.image}
     />
   );
 };
