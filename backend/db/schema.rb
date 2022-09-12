@@ -12,7 +12,6 @@
 
 ActiveRecord::Schema[7.0].define(version: 2022_09_08_215550) do
   # These are extensions that must be enabled in order to support this database
-  enable_extension "pgcrypto"
   enable_extension "plpgsql"
 
   create_table "books", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
