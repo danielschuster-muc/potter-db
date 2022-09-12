@@ -7,14 +7,23 @@ module Types
     # Add root-level fields here.
     # They will be entry points for queries on your schema.
 
-    # Characters
-    field :all_characters, [CharacterType], null: false, description: "List all characters"
-    def all_characters
-      Character.all
+    # Books
+    field :books, BookType.connection_type, null: false, connection: true,  description: "List all books"
+    def books(**_args)
+      Book.all
     end
 
-    field :characters_connection, CharacterType.connection_type, null: false, connection: true
-    def characters_connection(**_args)
+    field :book, BookType, "Find a book by slug" do
+      argument :slug, String, required: true
+    end
+    def book(slug:)
+      Book.friendly.find_by_friendly_id(slug)
+    end
+
+
+    # Characters
+    field :characters, CharacterType.connection_type, null: false, connection: true,  description: "List all characters"
+    def characters(**_args)
       Character.all
     end
 
@@ -26,13 +35,9 @@ module Types
     end
 
     # Potions
-    field :all_potions, [PotionType], null: false, description: "List all potions"
-    def all_potions
-      Potion.all
-    end
 
-    field :potions_connection, PotionType.connection_type, null: false, connection: true
-    def potions_connection(**_args)
+    field :potions, PotionType.connection_type, null: false, connection: true, description: "List all potions"
+    def potions(**_args)
       Potion.all
     end
 
@@ -44,13 +49,9 @@ module Types
     end
 
     # Spells
-    field :all_spells, [SpellType], null: false, description: "List all spells"
-    def all_spells
-      Spell.all
-    end
 
-    field :spells_connection, SpellType.connection_type, null: false, connection: true
-    def spells_connection(**_args)
+    field :spells, SpellType.connection_type, null: false, connection: true, description: "List all spells"
+    def spells(**_args)
       Spell.all
     end
 
