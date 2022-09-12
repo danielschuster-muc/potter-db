@@ -20,7 +20,6 @@ module Types
       Book.friendly.find_by_friendly_id(slug)
     end
 
-
     # Characters
     field :characters, CharacterType.connection_type, null: false, connection: true,  description: "List all characters"
     def characters(**_args)
