@@ -35,7 +35,6 @@ module Types
     end
 
     # Potions
-
     field :potions, PotionType.connection_type, null: false, connection: true, description: "List all potions"
     def potions(**_args)
       Potion.all
@@ -49,7 +48,6 @@ module Types
     end
 
     # Spells
-
     field :spells, SpellType.connection_type, null: false, connection: true, description: "List all spells"
     def spells(**_args)
       Spell.all
