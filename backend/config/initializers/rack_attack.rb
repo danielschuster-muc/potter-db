@@ -56,7 +56,7 @@ class Rack::Attack::Request < ::Rack::Request
     if Rails.env.development?
       localhost?
     else
-      base_url == "potterdb.com" || "potter-db-api.herokuapp.com"
+      base_url == "potterdb.com"
     end
   end
 end
