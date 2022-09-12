@@ -1,9 +1,9 @@
 FactoryBot.define do
   factory :chapter do
-    slug { "MyString" }
+    slug { Faker::Lorem.unique.word }
     title { "MyString" }
     summary { "MyText" }
     order { 1 }
-    book { nil }
+    book
   end
 end
