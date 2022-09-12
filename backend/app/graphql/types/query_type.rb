@@ -8,8 +8,8 @@ module Types
     # They will be entry points for queries on your schema.
 
     # Books
-    field :all_books, BookType.connection_type, null: false, connection: true,  description: "List all books"
-    def all_books(**_args)
+    field :books, BookType.connection_type, null: false, connection: true,  description: "List all books"
+    def books(**_args)
       Book.all
     end
 
@@ -22,8 +22,8 @@ module Types
 
 
     # Characters
-    field :all_characters, CharacterType.connection_type, null: false, connection: true,  description: "List all characters"
-    def all_characters(**_args)
+    field :characters, CharacterType.connection_type, null: false, connection: true,  description: "List all characters"
+    def characters(**_args)
       Character.all
     end
 
@@ -36,8 +36,8 @@ module Types
 
     # Potions
 
-    field :all_potions, PotionType.connection_type, null: false, connection: true, description: "List all potions"
-    def all_potions(**_args)
+    field :potions, PotionType.connection_type, null: false, connection: true, description: "List all potions"
+    def potions(**_args)
       Potion.all
     end
 
@@ -50,8 +50,8 @@ module Types
 
     # Spells
 
-    field :all_spells, SpellType.connection_type, null: false, connection: true, description: "List all spells"
-    def all_spells(**_args)
+    field :spells, SpellType.connection_type, null: false, connection: true, description: "List all spells"
+    def spells(**_args)
       Spell.all
     end
 
