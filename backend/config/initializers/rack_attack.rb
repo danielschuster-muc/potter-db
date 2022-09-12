@@ -4,12 +4,12 @@ class Rack::Attack
 
   safelist('allow from potter db root domain', &:db_domain?)
 
-  # 16rpm
+  # 16.7rpm
   limit_proc = 1000
   period_proc = 1.hour
 
   throttle("requests by ip", limit: limit_proc, period: period_proc) do |request|
-    request.ip if request.path.include?('/v1')
+    request.ip if request.path.include?('/v1') || request.path.include?('/graphql')
   end
 
   Rack::Attack.throttled_responder = lambda do |request|
@@ -56,7 +56,7 @@ class Rack::Attack::Request < ::Rack::Request
     if Rails.env.development?
       localhost?
     else
-      base_url == "potterdb.com"
+      base_url == "potterdb.com" || "potter-db-api.herokuapp.com"
     end
   end
 end
