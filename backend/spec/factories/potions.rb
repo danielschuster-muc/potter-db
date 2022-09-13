@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :potion do
-    slug { Faker::Lorem.unique.word }
+    slug { Faker::Lorem.characters(number: 50) }
     name { "MyString" }
     effect { "MyString" }
     side_effects { "MyString" }
