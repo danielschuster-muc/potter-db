@@ -7,9 +7,9 @@ FactoryBot.define do
     screenwriters { "MyText" }
     producers { "MyText" }
     cinematographers { "MyText" }
-    edited_by { "MyText" }
-    distributed_by { "MyText" }
-    music_by { "MyText" }
+    editors { "MyText" }
+    distributors { "MyText" }
+    music_composers { "MyText" }
     release_date { "2022-09-13" }
     running_time { "MyString" }
     budget { "MyString" }

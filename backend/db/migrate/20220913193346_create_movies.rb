@@ -8,15 +8,17 @@ class CreateMovies < ActiveRecord::Migration[7.0]
       t.text :screenwriters, array: true, default: []
       t.text :producers, array: true, default: []
       t.text :cinematographers, array: true, default: []
-      t.text :edited_by, array: true, default: []
-      t.text :distributed_by, array: true, default: []
-      t.text :music_by, array: true, default: []
+      t.text :editors, array: true, default: []
+      t.text :distributors, array: true, default: []
+      t.text :music_composers, array: true, default: []
       t.date :release_date
       t.string :running_time
       t.string :budget
       t.string :box_office
       t.string :rating
+      t.string :order
       t.text :poster
+      t.string :wiki
 
       t.timestamps
     end

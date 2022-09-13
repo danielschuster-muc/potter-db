@@ -5,13 +5,14 @@
   "screenwriters": ["Steve Kloves"],
   "producers": ["David Heyman", "David Barron", "J. K. Rowling"],
   "cinematographers": ["Eduardo Serra"],
-  "edited_by": ["Mark Day"],
-  "distributed_by": ["Warner Bros. Pictures"],
-  "music_by": ["Alexandre Desplat"],
+  "editors": ["Mark Day"],
+  "distributors": ["Warner Bros. Pictures"],
+  "music_composers": ["Alexandre Desplat"],
   "release_date": "7 July 2011",
   "running_time": "130 minutes",
   "budget": "$250 million (shared with part 1)",
   "box_office": "$1,342 billion",
   "rating": "PG-13",
+  "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Deathly_Hallows:_Part_2",
   "poster": "https://www.wizardingworld.com/images/products/films/rectangle-8.png"
 }

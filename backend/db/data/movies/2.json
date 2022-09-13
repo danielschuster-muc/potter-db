@@ -5,13 +5,14 @@
   "screenwriters": ["Steve Kloves"],
   "producers": ["Chris Columbus", "David Heyman", "Mark Radcliffe"],
   "cinematographers": ["Roger Pratt"],
-  "edited_by": ["Peter Honess"],
-  "distributed_by": ["Warner Bros. Pictures"],
-  "music_by": ["John Williams", "William Ross", "Conrad Pope"],
+  "editors": ["Peter Honess"],
+  "distributors": ["Warner Bros. Pictures"],
+  "music_composers": ["John Williams", "William Ross", "Conrad Pope"],
   "release_date": "15 November 2002",
   "running_time": "161 minutes",
   "budget": "$125 million",
   "box_office": "$879.6 million",
   "rating": "PG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Chamber_of_Secrets_(film)",
   "poster": "https://www.wizardingworld.com/images/products/films/rectangle-2.png"
 }

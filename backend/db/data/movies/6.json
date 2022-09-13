@@ -5,13 +5,14 @@
   "screenwriters": ["Steve Kloves"],
   "producers": ["David Heyman", "David Barron"],
   "cinematographers": ["Bruno Delbonnel"],
-  "edited_by": ["Mark Day"],
-  "distributed_by": ["Warner Bros. Pictures"],
-  "music_by": ["Nicholas Hooper"],
+  "editors": ["Mark Day"],
+  "distributors": ["Warner Bros. Pictures"],
+  "music_composers": ["Nicholas Hooper"],
   "release_date": "7 July 2009",
   "running_time": "153 minutes",
   "budget": "$250 million",
   "box_office": "$934.5 million",
   "rating": "PG-13",
+  "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Half-Blood_Prince_(film)",
   "poster": "https://www.wizardingworld.com/images/products/films/rectangle-6.png"
 }

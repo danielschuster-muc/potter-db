@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_09_08_215550) do
+ActiveRecord::Schema[7.0].define(version: 2022_09_13_193346) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -71,6 +71,30 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_08_215550) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["slug"], name: "index_characters_on_slug", unique: true
+  end
+
+  create_table "movies", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.string "slug"
+    t.string "title"
+    t.text "summary"
+    t.text "directors", default: [], array: true
+    t.text "screenwriters", default: [], array: true
+    t.text "producers", default: [], array: true
+    t.text "cinematographers", default: [], array: true
+    t.text "editors", default: [], array: true
+    t.text "distributors", default: [], array: true
+    t.text "music_composers", default: [], array: true
+    t.date "release_date"
+    t.string "running_time"
+    t.string "budget"
+    t.string "box_office"
+    t.string "rating"
+    t.string "order"
+    t.text "poster"
+    t.string "wiki"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["slug"], name: "index_movies_on_slug", unique: true
   end
 
   create_table "potions", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|

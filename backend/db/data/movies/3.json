@@ -5,13 +5,14 @@
   "screenwriters": ["Steve Kloves"],
   "producers": ["Chris Columbus", "David Heyman", "Mark Radcliffe"],
   "cinematographers": ["Michael Seresin"],
-  "edited_by": ["Steven Weisberg"],
-  "distributed_by": ["Warner Bros. Pictures"],
-  "music_by": ["John Williams", "Conrad Pope"],
+  "editors": ["Steven Weisberg"],
+  "distributors": ["Warner Bros. Pictures"],
+  "music_composers": ["John Williams", "Conrad Pope"],
   "release_date": "15 November 2002",
   "running_time": "142 minutes",
   "budget": "$130 million",
   "box_office": "$797.4 million",
   "rating": "PG",
+  "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban_(film)",
   "poster": "https://www.wizardingworld.com/images/products/films/rectangle-3.png"
 }

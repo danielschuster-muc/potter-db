@@ -5,13 +5,14 @@
   "screenwriters": ["Michael Goldenberg"],
   "producers": ["David Heyman", "David Barron"],
   "cinematographers": ["Sławomir Idziak"],
-  "edited_by": ["Mark Day"],
-  "distributed_by": ["Warner Bros. Pictures"],
-  "music_by": ["Nicholas Hooper"],
+  "editors": ["Mark Day"],
+  "distributors": ["Warner Bros. Pictures"],
+  "music_composers": ["Nicholas Hooper"],
   "release_date": "11 July 2007",
   "running_time": "138 minutes",
   "budget": "$150-200 million",
   "box_office": "$942.2 million",
   "rating": "PG-13",
+  "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Order_of_the_Phoenix_(film)",
   "poster": "https://www.wizardingworld.com/images/products/films/rectangle-5.png"
 }

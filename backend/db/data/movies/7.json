@@ -5,13 +5,14 @@
   "screenwriters": ["Steve Kloves"],
   "producers": ["David Heyman", "David Barron", "J. K. Rowling"],
   "cinematographers": ["Eduardo Serra"],
-  "edited_by": ["Mark Day"],
-  "distributed_by": ["Warner Bros. Pictures"],
-  "music_by": ["Alexandre Desplat"],
+  "editors": ["Mark Day"],
+  "distributors": ["Warner Bros. Pictures"],
+  "music_composers": ["Alexandre Desplat"],
   "release_date": "11 November 20010",
   "running_time": "146 minutes",
   "budget": "$250 million (shared with part 2)",
   "box_office": "$977 million",
   "rating": "PG-13",
+  "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Deathly_Hallows:_Part_1",
   "poster": "https://www.wizardingworld.com/images/products/films/rectangle-7.png"
 }

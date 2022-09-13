@@ -5,13 +5,14 @@
   "screenwriters": ["Steve Kloves"],
   "producers": ["David Heyman"],
   "cinematographers": ["Roger Pratt"],
-  "edited_by": ["Mick Audsley"],
-  "distributed_by": ["Warner Bros. Pictures"],
-  "music_by": ["Patrick Doyle"],
+  "editors": ["Mick Audsley"],
+  "distributors": ["Warner Bros. Pictures"],
+  "music_composers": ["Patrick Doyle"],
   "release_date": "6 November 2005",
   "running_time": "157 minutes",
   "budget": "$150 million",
   "box_office": "$896.7 million",
   "rating": "PG-13",
+  "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Goblet_of_Fire_(film)",
   "poster": "https://www.wizardingworld.com/images/products/films/rectangle-4.png"
 }
