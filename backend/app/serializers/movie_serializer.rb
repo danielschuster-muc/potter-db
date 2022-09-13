@@ -17,5 +17,5 @@ class MovieSerializer < ApplicationSerializer
     :order,
     :poster,
     :wiki
-  ) 
+  )
 end

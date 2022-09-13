@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe "V1::Movies", type: :request do
-    describe "GET /index" do
+  describe "GET /index" do
     before do
       create_list(:movie, 10)
     end
