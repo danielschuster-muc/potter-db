@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :character do
-    slug { Faker::Lorem.unique.word }
+    slug { Faker::Lorem.characters(number: 50) }
     name { "MyString" }
     born { "MyString" }
     died { "MyString" }

@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :chapter do
-    slug { Faker::Lorem.unique.word }
+    slug { Faker::Lorem.characters(number: 50) }
     title { "MyString" }
     summary { "MyText" }
     order { 1 }

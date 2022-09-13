@@ -1,8 +1,5 @@
 module V1
   class ChaptersController < ApplicationController
-    # before_action :set_book_chapters, only: %i[index show]
-    # before_action :set_test_data
-
     def index
       allowed = %i[title summary order]
 
@@ -19,15 +16,5 @@ module V1
       book = params[:id].eql?("random") ? @book_chapters.sample : @book_chapters.friendly.find_by_friendly_id(params[:id])
       render jsonapi: book
     end
-  end
-
-  private
-
-  # def set_book_chapters
-  #   @book_chapters = Book.friendly.find_by_friendly_id(params[:book_id]).chapters.all
-  # end
-
-  def set_test_data
-    @test = "Hello"
   end
 end

@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :book do
-    slug { Faker::Lorem.unique.word }
+    slug { Faker::Lorem.characters(number: 50) }
     title { "MyString" }
     summary { "MyText" }
     release_date { "2022-09-08" }
