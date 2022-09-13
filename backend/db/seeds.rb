@@ -85,8 +85,8 @@ unless movies.empty?
       release_date: movie["release_date"],
       running_time: movie["running_time"],
       budget: movie["budget"],
-      rating: movie["rating"],
       box_office: movie["box_office"],
+      rating: movie["rating"],
       order: movie_index + 1,
       poster: movie["poster"],
       wiki: movie["wiki"]
