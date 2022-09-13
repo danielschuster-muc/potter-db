@@ -8,7 +8,7 @@ module Types
     # They will be entry points for queries on your schema.
 
     # Books
-    field :books, BookType.connection_type, null: false, connection: true,  description: "List all books"
+    field :books, BookType.connection_type, null: false, connection: true, description: "List all books"
     def books(**_args)
       Book.all
     end
@@ -20,9 +20,8 @@ module Types
       Book.friendly.find_by_friendly_id(slug)
     end
 
-
     # Characters
-    field :characters, CharacterType.connection_type, null: false, connection: true,  description: "List all characters"
+    field :characters, CharacterType.connection_type, null: false, connection: true, description: "List all characters"
     def characters(**_args)
       Character.all
     end
