@@ -17,7 +17,6 @@ import {
 } from "@mui/material";
 import { Box } from "@mui/system";
 import Image from "next/image";
-import { useRouter } from "next/router";
 import { useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 
@@ -29,39 +28,23 @@ import { getHouseColor } from "../../lib/utils";
 const Characters = ({ charactersData }) => {
   const { data, meta, hasError } = charactersData;
 
-  const router = useRouter();
-
-  const [page, setPage] = useState(parseInt(router.query.page) || 1);
-
   const [characters, setCharacters] = useState(data);
   const [hasMore, setHasMore] = useState(true);
-  const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const [page, setPage] = useState(1);
 
   const fetchMoreData = async () => {
-    if (!isLoadingMore) {
-      setIsLoadingMore(true);
+    const perPage = 20;
+    setPage((prevPage) => (prevPage += 1));
+    const query = { page: page + 1, perPage: perPage };
+    const newCharactersData = await getCharacters(query);
+    const newCharacters = newCharactersData?.data;
+    if (newCharacters) {
+      setCharacters((oldCharacters) => [...oldCharacters, ...newCharacters]);
 
-      const myQuery = { page: page + 1 };
-      setPage((prePage) => (prePage += 1));
-
-      const newCharactersData = await getCharacters(myQuery);
-      const newCharacters = newCharactersData?.data;
-      if (newCharacters) {
-        setCharacters((preCharacters) => {
-          const characterList = {};
-          [...preCharacters, ...newCharacters].forEach((item) => {
-            characterList[item.id] = item;
-          });
-          return Object.values(characterList);
-        });
-
-        const pagination = newCharactersData.meta.pagination;
-        if (pagination.current == pagination.last) {
-          setHasMore(false);
-        }
+      const pagination = newCharactersData.meta.pagination;
+      if (pagination.current == pagination.last) {
+        setHasMore(false);
       }
-
-      setIsLoadingMore(false);
     }
   };
 
@@ -162,7 +145,7 @@ const Characters = ({ charactersData }) => {
   );
 };
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const myQuery = { page: 1 };
   const charactersData = await getCharacters(myQuery);
 
