@@ -1,8 +1,17 @@
+import {
+  Hydrate,
+  QueryClient,
+  QueryClientProvider,
+} from "@tanstack/react-query";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import Head from "next/head";
+import { useState } from "react";
 import Layout from "../components/layout/Layout";
 import "../styles/globals.css";
 
 const App = ({ Component, pageProps }) => {
+  const [queryClient] = useState(() => new QueryClient());
+
   return (
     <>
       <Head>
@@ -13,9 +22,14 @@ const App = ({ Component, pageProps }) => {
         <meta name="msapplication-TileColor" content="da532c" />
       </Head>
 
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <QueryClientProvider client={queryClient}>
+        <Hydrate state={pageProps.dehydratedState}>
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </Hydrate>
+        <ReactQueryDevtools initialIsOpen />
+      </QueryClientProvider>
     </>
   );
 };
