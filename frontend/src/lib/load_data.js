@@ -17,11 +17,10 @@ export const getBySlug = async (type, slug) => {
 export const getAll = async (type, query) => {
   const { page, perPage, search, orderBy, direction } = query;
   const pageNumber = `page[number]=${page || 1}`;
-  const pageSize = `page[size]=${perPage || 20}`;
-  // const searchFilter = `filter[name_cont_any]=${search || ""}`;
-  // const sort = `sort=${direction === "desc" ? "-" : ""}${orderBy || ""}`;
+  const pageSize = `&page[size]=${perPage || 20}`;
+  const searchFilter = search ? `&filter[name_cont_any]=${search}` : "";
 
   return simpleFetch(
-    `${apiUrl}/v1/${type}?${pageNumber}&${pageSize}` /*&${searchFilter}&${sort}*/
+    `${apiUrl}/v1/${type}?${pageNumber}${pageSize}${searchFilter}`
   );
 };

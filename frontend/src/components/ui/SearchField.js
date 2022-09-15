@@ -1,46 +1,29 @@
 import { useEffect, useState } from "react";
 
-import { useRouter } from "next/router";
-
 import { InputAdornment, TextField } from "@mui/material";
 import { Search } from "@mui/icons-material";
+import { useRouter } from "next/router";
 
 const SearchField = ({ totalResults = 0, handleChangeSearch }) => {
   const router = useRouter();
-  const [inputText, setInputText] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
 
-  const handleNewInputText = (event) => {
-    const newInputText = event.target.value;
-    if (inputText !== newInputText) {
-      setInputText(newInputText);
-      // const { pathname, query } = router;
-      // query.search = inputText;
-      // router.push({ pathname, query });
-      handleChangeSearch(newInputText);
-    }
-  };
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const { pathname, query } = router;
+      query.q = searchQuery;
+      router.push({ pathname, query });
+      handleChangeSearch(searchQuery);
+    }, 300);
+    return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchQuery]);
 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     const { pathname, query } = router;
-
-  //     if (query.search !== inputText) {
-  //       query.search = inputText;
-  //       router.push({ pathname, query });
-  //       handleChangeSearch();
-  //       handleResetPage();
-  //     }
-  //   }, 300);
-  //   return () => clearTimeout(timer);
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, [inputText]);
-
-  // useEffect(() => {
-  //   if (router.query.search !== inputText) {
-  //     setInputText(router.query.search);
-  //   }
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, []);
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const q = params.get("q");
+    setSearchQuery(q);
+  }, []);
 
   return (
     <TextField
@@ -52,8 +35,8 @@ const SearchField = ({ totalResults = 0, handleChangeSearch }) => {
       fullWidth
       label="Search"
       placeholder="e.g. Harry"
-      value={inputText || ""}
-      onChange={handleNewInputText}
+      value={searchQuery}
+      onChange={(event) => setSearchQuery(event.target.value)}
       helperText={`${totalResults} Results`}
       InputProps={{
         startAdornment: (

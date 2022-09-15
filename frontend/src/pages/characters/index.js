@@ -22,28 +22,35 @@ import {
   useInfiniteQuery,
 } from "@tanstack/react-query";
 import Image from "next/image";
+import { useState } from "react";
 import InfiniteScroll from "react-infinite-scroller";
 
 import Meta from "../../components/Meta";
+import SearchField from "../../components/ui/SearchField";
 import Link from "../../lib/Link";
 import { getCharacters } from "../../lib/load_characters";
 import { getHouseColor } from "../../lib/utils";
 
-const fetchCharacters = async ({ pageParam = 1 }) => {
-  return await getCharacters({ page: pageParam });
+const fetchCharacters = async ({ pageParam = 1, queryKey }) => {
+  const [_, searchQuery] = queryKey;
+  return await getCharacters({ page: pageParam, search: searchQuery });
 };
 
 const Characters = () => {
+  const [searchQuery, setSearchQuery] = useState();
+
   const {
     data: rawCharacters,
+    isFetchingNextPage,
     isLoading,
+    isSuccess,
     error,
     hasNextPage,
     fetchNextPage,
-  } = useInfiniteQuery(["characters"], fetchCharacters, {
+  } = useInfiniteQuery(["characters", searchQuery], fetchCharacters, {
     retry: 10,
     getNextPageParam: (lastPage, pages) => {
-      if (pages.length < lastPage.meta?.pagination?.last || 0) {
+      if (pages?.length < lastPage?.meta?.pagination?.last || 0) {
         return pages.length + 1;
       }
       return undefined;
@@ -57,9 +64,16 @@ const Characters = () => {
         description="List of all Harry Potter characters"
       />
       <Typography variant="h3">Character Search</Typography>
-      {isLoading && !error && <CircularProgress />}
-      {error && <Typography>Error: {error.message}</Typography>}
-      {!isLoading && !error && (
+      <SearchField
+        handleChangeSearch={setSearchQuery}
+        totalResults={
+          rawCharacters?.pages
+            ? rawCharacters?.pages[0]?.meta?.pagination?.records
+            : 0
+        }
+      />
+
+      {isSuccess && (
         <InfiniteScroll loadMore={fetchNextPage} hasMore={hasNextPage}>
           <Grid container spacing={2}>
             {rawCharacters?.pages?.map((page) =>
@@ -147,7 +161,9 @@ const Characters = () => {
           </Grid>
         </InfiniteScroll>
       )}
-      {/* <SearchField totalResults={totalRecords} /> */}
+      {isLoading && <CircularProgress />}
+      {error && <Typography>Error: {error.message}</Typography>}
+      {isFetchingNextPage && <Typography>Loading more...</Typography>}
     </>
   );
 };
