@@ -10,6 +10,7 @@ import { Box } from "@mui/system";
 import { GitHub, QuestionMark, Search } from "@mui/icons-material";
 
 import Link from "../../Link";
+import { getApiUrl, getGithubUrl, getSiteUrl } from "../../../lib/utils";
 
 const faqData = [
   {
@@ -27,11 +28,9 @@ const faqData = [
     question: "What can I do with it?",
     answer: (
       <Typography>
-        You can either use the <Link href="https://api.potterdb.com/">API</Link>{" "}
-        itself or use the{" "}
-        <Link href="https://potterdb.com/characters/">Database</Link> to lookup
-        things from Harry Potter. I also plan to create a detailed Documentation
-        for the API.
+        You can either use the <Link href={getApiUrl()}>API</Link> itself or use
+        the <Link href="/characters">Database Search</Link> to look up many
+        different things from the Harry Potter Universe.
       </Typography>
     ),
   },
@@ -41,10 +40,8 @@ const faqData = [
     answer: (
       <Typography>
         The Potter DB is open source. This means you can{" "}
-        <Link href="https://github.com/danielschuster-muc/potter-db">
-          contribute
-        </Link>{" "}
-        to it by improving the data, report issues or writing code for the api.
+        <Link href={getGithubUrl()}>contribute</Link> to it by improving the
+        data, reporting issues or writing code for the api.
       </Typography>
     ),
   },

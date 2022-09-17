@@ -1,6 +1,8 @@
+const { getSiteUrl } = require("./src/lib/utils");
+
 /** @type {import('next-sitemap').IConfig} */
 const config = {
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://potterdb.com",
+  siteUrl: getSiteUrl(),
   generateRobotsTxt: true,
 };
 

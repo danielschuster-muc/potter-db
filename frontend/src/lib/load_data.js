@@ -1,4 +1,6 @@
-const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://api.potterdb.com";
+import { getApiUrl } from "./utils";
+
+const apiUrl = getApiUrl();
 
 const simpleFetch = async (url) => {
   return fetch(url)
