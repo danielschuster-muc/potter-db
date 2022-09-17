@@ -1,11 +1,5 @@
-import {
-  AppBar,
-  Box,
-  Container,
-  Grid,
-  Toolbar,
-  Typography,
-} from "@mui/material";
+import { AppBar, Box, Container, Grid, Typography } from "@mui/material";
+import { getApiUrl, getGithubUrl } from "../../lib/utils";
 
 import Link from "../Link";
 
@@ -58,16 +52,16 @@ const Footer = () => {
       content: [
         {
           name: "API",
-          link: "/",
+          link: getApiUrl(),
         },
         // {
         //   name: "Docs",
         //   link: "/",
         // },
-        // {
-        //   name: "Contribute",
-        //   link: "/",
-        // },
+        {
+          name: "Contribute",
+          link: getGithubUrl(),
+        },
       ],
     },
   ];
