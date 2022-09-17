@@ -1,23 +1,19 @@
-import { Container } from "@mui/material";
-
-import CharacterBio from "../../../components/pages/characters/[slug]/CharacterBio";
-import CharacterMeta from "../../../components/pages/characters/[slug]/CharacterMeta";
-import CharacterAccordion from "../../../components/pages/characters/[slug]/CharacterAccordion";
-
 import {
   getCharacterBySlug,
   getCharacters,
 } from "../../../lib/load_characters";
 
+import CharacterDetail from "../../../components/pages/characters/[slug]/CharacterDetail";
+import CharacterMeta from "../../../components/pages/characters/[slug]/CharacterMeta";
+
 const Character = ({ data, links }) => {
   const { attributes } = data;
 
   return (
-    <Container maxWidth="md">
+    <>
       <CharacterMeta attributes={attributes} />
-      <CharacterBio attributes={attributes} apiLink={links.self} />
-      <CharacterAccordion attributes={attributes} />
-    </Container>
+      <CharacterDetail attributes={attributes} links={links} />
+    </>
   );
 };
 

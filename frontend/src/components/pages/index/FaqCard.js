@@ -8,7 +8,8 @@ import {
 } from "@mui/material";
 import { Box } from "@mui/system";
 import { GitHub, QuestionMark, Search } from "@mui/icons-material";
-import Link from "../../../lib/Link";
+
+import Link from "../../Link";
 
 const faqData = [
   {

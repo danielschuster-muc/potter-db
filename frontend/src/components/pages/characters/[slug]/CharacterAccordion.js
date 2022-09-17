@@ -1,5 +1,7 @@
-import { Box } from "@mui/system";
 import React from "react";
+
+import { Box } from "@mui/system";
+
 import CustomAccordion from "../../../ui/CustomAccordion";
 
 const CharacterPageContent = ({ attributes }) => {

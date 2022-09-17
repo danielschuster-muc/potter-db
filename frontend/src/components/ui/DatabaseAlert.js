@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from "react";
+
 import { Alert, AlertTitle, IconButton, Snackbar } from "@mui/material";
 import { Close } from "@mui/icons-material";
 
 import { getDatabaseStatus } from "../../lib/utils";
-import Link from "../../lib/Link";
+import Link from "../Link";
 
 const DatabaseAlert = () => {
   const [databaseStatus, setDatabaseStatus] = useState(200);

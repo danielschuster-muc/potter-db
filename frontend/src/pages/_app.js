@@ -1,11 +1,13 @@
+import { useState } from "react";
+import Head from "next/head";
+
 import {
   Hydrate,
   QueryClient,
   QueryClientProvider,
 } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
-import Head from "next/head";
-import { useState } from "react";
+
 import Layout from "../components/layout/Layout";
 import "../styles/globals.css";
 
