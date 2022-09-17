@@ -14,7 +14,7 @@ import {
 import TwoColumnTable from "../../../ui/TwoColumnTable";
 
 import { getHouseColor } from "../../../../lib/utils";
-import Link from "../../../../lib/Link";
+import Link from "../../../Link";
 
 const BioCard = ({ attributes, apiLink }) => {
   const {

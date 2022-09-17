@@ -13,11 +13,13 @@ const Character = ({ data, links }) => {
   const { attributes } = data;
 
   return (
-    <Container maxWidth="md">
+    <>
       <CharacterMeta attributes={attributes} />
-      <CharacterBio attributes={attributes} apiLink={links.self} />
-      <CharacterAccordion attributes={attributes} />
-    </Container>
+      <Container maxWidth="md">
+        <CharacterBio attributes={attributes} apiLink={links.self} />
+        <CharacterAccordion attributes={attributes} />
+      </Container>
+    </>
   );
 };
 

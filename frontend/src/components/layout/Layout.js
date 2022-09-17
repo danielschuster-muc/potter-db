@@ -7,7 +7,7 @@ import { ThemeProvider } from "@emotion/react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import DatabaseAlert from "../ui/DatabaseAlert";
-import Theme from "../ui/Theme";
+import Theme from "../Theme";
 
 const Layout = ({ children }) => {
   const [hasMounted, setHasMounted] = useState(false);

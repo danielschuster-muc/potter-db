@@ -1,5 +1,6 @@
 import { Typography } from "@mui/material";
-import Link from "../../lib/Link";
+
+import Link from "../Link";
 
 export const Crumb = ({ text, href, isLast = false }) => {
   if (isLast) {

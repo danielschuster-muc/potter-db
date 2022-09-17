@@ -1,7 +1,8 @@
 import { AppBar, Toolbar, Typography } from "@mui/material";
 import { Bolt } from "@mui/icons-material";
 import { Box } from "@mui/system";
-import Link from "../../lib/Link";
+
+import Link from "../Link";
 
 const Navbar = () => {
   return (
@@ -23,10 +24,6 @@ const Navbar = () => {
             </Typography>
           </Box>
         </Link>
-
-        {/* <Typography variant="h6" component="div">
-            <Link href="/characters">Characters</Link>
-          </Typography> */}
       </Toolbar>
     </AppBar>
   );
