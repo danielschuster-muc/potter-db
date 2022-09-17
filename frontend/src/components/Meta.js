@@ -1,7 +1,13 @@
 import Head from "next/head";
-import { getSiteUrl } from "../lib/utils";
+import { useRouter } from "next/router";
 
 const Meta = ({ title, description, url, image }) => {
+  const { asPath } = useRouter();
+  const origin =
+    typeof window !== "undefined" && window.location.origin
+      ? window.location.origin
+      : "";
+  url = `${origin}${asPath}`;
   return (
     <Head>
       {/* Primary Meta Tags */}
@@ -24,7 +30,7 @@ Meta.defaultProps = {
   title: "Potter DB",
   description:
     "Harry Potter Database for information about characters, books, movies, spells, potions and much more! - Data based on the Harry Potter Wiki",
-  url: getSiteUrl(),
+  url: "",
   image: "",
 };
 

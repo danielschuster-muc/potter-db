@@ -10,7 +10,7 @@ import { Box } from "@mui/system";
 import { GitHub, QuestionMark, Search } from "@mui/icons-material";
 
 import Link from "../../Link";
-import { getApiUrl, getGithubUrl, getSiteUrl } from "../../../lib/utils";
+import { getApiUrl, getGithubUrl } from "../../../lib/utils";
 
 const faqData = [
   {

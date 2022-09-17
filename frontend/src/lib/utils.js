@@ -28,10 +28,6 @@ export const getApiUrl = () => {
   return process.env.NEXT_PUBLIC_API_URL || "https://potter-db-herokuapp.com";
 };
 
-export const getSiteUrl = () => {
-  return process.env.NEXT_PUBLIC_SITE_URl || "https://potterdb.com";
-};
-
 export const getGithubUrl = () => {
   return "https://github.com/danielschuster-muc/potter-db";
 };
