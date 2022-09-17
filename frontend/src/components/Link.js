@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
 import { forwardRef } from "react";
-import { Link as MuiLink } from "@mui/material";
 import NextLink from "next/link";
+
+import { Link as MuiLink } from "@mui/material";
 
 const Link = forwardRef(({ href, as, prefetch, ...props }, ref) => {
   return (
