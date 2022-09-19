@@ -16,10 +16,14 @@ const Footer = () => {
         //   name: "About",
         //   link: "/",
         // },
-        // {
-        //   name: "Imprint",
-        //   link: "/",
-        // },
+        {
+          name: "Impressum",
+          link: "https://danielschuster.me/legal-notice",
+        },
+        {
+          name: "Sitemap",
+          link: "/sitemap.xml",
+        },
       ],
     },
     {
