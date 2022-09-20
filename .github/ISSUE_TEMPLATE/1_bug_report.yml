@@ -1,0 +1,56 @@
+name: 🐛 Bug Report
+description: Create a Bug Report
+title: "[Bug]: "
+labels: ["bug"]
+body:
+ - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill the bug report! 
+        Before opening the report, please search for other similar issues. 
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: To which sub-project is the issue related to?
+      options:
+        - Website (Potter DB Search)
+        - API 
+        - Other (Please specify in the description)
+    validations:
+      required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug description
+      description: What exactly happened?
+    validations:
+      required: true    
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Which steps are required to reproduce this issue?
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots"
+      description: If applicable, add screenshots to help explain your problem.
+      value: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs"
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: bash
+    validations:
+      required: false
