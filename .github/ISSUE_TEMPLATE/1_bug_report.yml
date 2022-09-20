@@ -1,4 +1,4 @@
-name: Bug Report
+name: 🐛 Bug Report
 description: Create a Bug Report
 title: "[Bug]: "
 labels: ["bug"]
@@ -36,3 +36,21 @@ body:
     attributes:
       label: Steps to reproduce
       description: Which steps are required to reproduce this issue?
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots"
+      description: If applicable, add screenshots to help explain your problem.
+      value: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs"
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: bash
+    validations:
+      required: false
