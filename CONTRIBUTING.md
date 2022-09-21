@@ -4,13 +4,13 @@ Thank you for your help on contributing to this project!
 
 ## Different Contributions
 
-There are many different things you can contribute to. This many depends on which part of the project.
+There are many different things you can help with. This however depends on the part of the project.
 
-### API (Improvements or Data)
+### Backend (API Changes / Data Improvements)
 
 If you want to contribute to the API/Backend read the instructions on the [backend/README.md](backend/README.md).
 
-### Website (Potter DB)
+### Frontend (Website / DB Search)
 
 If you prefer to contribute to the Website/Frontend read the instructions on the [frontend/README.md](frontend/README.md).
 
