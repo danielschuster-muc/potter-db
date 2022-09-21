@@ -14,7 +14,7 @@ If you want to contribute to the API/Backend read the instructions on the [backe
 
 If you prefer to contribute to the Website/Frontend read the instructions on the [frontend/README.md](frontend/README.md).
 
-## How to I make my first Pull Request
+## How to make a first Pull Request
 
 We recommend reading this [article](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) or watch this [video](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github).
 
