@@ -1,20 +1,18 @@
-# [POTTER DB: API](apipotterdb.com)
+# [POTTER DB: API](potter-db-api.herokuapp.com)
 
-A complete Potter DB API containing information about books, movies, spells, potions, characters and much more.
-
-## Table of contents
-
-- [Technologies](#technologies)
-- [Contribution](#contributing)
-- [License](#license)
+This part of the project is used for the backend / api.
+If you just want to edit the data of the api, have a look at the [db/data](db/data) folder.
+For changes read below
 
 ## Technologies
 
-Project is created with:
+The API is created with the following technologies:
 
 - Ruby v3.1.2
 - Rails v7.0.3
-- Postgres v1.1
+- Postgres v1.1 / v13+
+
+Therefore make sure that you have installed the required programs / tools.
 
 ## Contributing
 
@@ -56,12 +54,12 @@ rails db:create db:migrate
 ```
 
 ```shell
-rails import:json
+rails db:seed
 ```
 
 ### Start the rails server
 
-You can start the rails server using the command given below.
+You can start the rails server using the command given below:
 
 ```shell
 rails s
@@ -69,14 +67,12 @@ rails s
 
 Now you can visit the development server with the URL http://localhost:3000.
 
-### Run tests
+### Tests
 
-To run API tests (e.g. for api routes or models) run the following commands.
+For any code-based changes please make sure that the backend tests run fine.
+
+To run those API run the following command:
 
 ```shell
 rspec spec
 ```
-
-## License
-
-The Potter DB API is available as open source under the [MIT License](http://opensource.org/licenses/MIT).
