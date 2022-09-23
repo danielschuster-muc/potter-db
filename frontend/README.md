@@ -1,1 +1,1 @@
-# [POTTER DB: Website](potter-db-api.herokuapp.com)
+# [POTTER DB: Website](potterdb.com)
