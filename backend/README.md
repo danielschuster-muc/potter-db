@@ -2,7 +2,7 @@
 
 This part of the project is used for the backend / api.
 If you just want to edit the data of the api, have a look at the [db/data](db/data) folder.
-For changes read below
+For changes to the api read below.
 
 ## Technologies
 
@@ -19,8 +19,8 @@ Therefore make sure that you have installed the required programs / tools.
 ### Clone the repository
 
 ```shell
-git clone git@github.com:danielschuster-muc/potter-db-api.git
-cd potter-db-api
+git clone git@github.com:danielschuster-muc/potter-db.git
+cd potter-db/backend
 ```
 
 ### Check your Ruby version
@@ -65,7 +65,7 @@ You can start the rails server using the command given below:
 rails s
 ```
 
-Now you can visit the development server with the URL http://localhost:3000.
+You can now visit the development server on http://localhost:3000.
 
 ### Tests
 
