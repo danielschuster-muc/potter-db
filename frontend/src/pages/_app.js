@@ -21,7 +21,11 @@ const App = ({ Component, pageProps }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#37474f" />
         <meta name="revisit-after" content="7 days" />
-        <meta name="msapplication-TileColor" content="da532c" />
+        <meta name="msapplication-TileColor" content="d500f9" />
+        <meta
+          name="keywords"
+          content="potterdb, harry, potter, database, search, wiki"
+        />
       </Head>
 
       <QueryClientProvider client={queryClient}>
