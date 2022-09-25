@@ -7,11 +7,9 @@
 <div align="center">
   <h2>Potter DB</h2>
   <br />
-  <a href="https://github.com/danielschuster-muc/potter-db/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+  <a href="https://github.com/danielschuster-muc/potter-db/issues/new?assignees=&labels=bug&template=1_bug_report.xml">Report a Bug</a>
   ·
-  <a href="https://github.com/danielschuster-muc/potter-db/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
-  ·
-  <a href="https://github.com/danielschuster-muc/potter-db/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+">Ask a Question</a>
+  <a href="https://github.com/danielschuster-muc/potter-db/discussions">Ask a Question</a>
 </div>
 
 <div align="center">
@@ -19,8 +17,8 @@
 
 [![Project license](https://img.shields.io/github/license/danielschuster-muc/potter-db.svg?style=flat-square)](LICENSE)
 
-[![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/danielschuster-muc/potter-dbissues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
-[![code with love by danielschuster-muc](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-danielschuster-muc-ff1414.svg?style=flat-square)](https://github.com/danielschuster-muc)
+[![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/danielschuster-muc/potter-db/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+[![created with love by danielschuster-muc](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-danielschuster-muc-ff1414.svg?style=flat-square)](https://github.com/danielschuster-muc)
 
 </div>
 
@@ -83,8 +81,6 @@ For a full list of all authors and contributors, see [the contributors page](htt
 
 Potter DB follows good practices of security, but 100% security cannot be assured.
 Potter DB is provided **"as is"** without any **warranty**. Use at your own risk.
-
-<!-- _For more information and to report security issues, please refer to our [security documentation](SECURITY.md)._ -->
 
 ## License
 
