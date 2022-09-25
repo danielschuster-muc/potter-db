@@ -21,8 +21,6 @@ gem "rack-cors"
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-# Allows you to create pretty URL’s and work with human-friendly strings [https://github.com/norman/friendly_id]
-gem "friendly_id", "~> 5.1"
 # A fast JSON:API serializer for Ruby Objects [https://github.com/jsonapi-serializer/jsonapi-serializer]
 gem "jsonapi-serializer"
 # Object-based searching [https://github.com/activerecord-hackery/ransack]

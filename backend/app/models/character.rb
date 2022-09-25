@@ -1,5 +1,3 @@
-class Character < ApplicationRecord
-  extend FriendlyId
-
+class Character < ActiveRecord::Base
   default_scope { order(name: :asc) }
 end

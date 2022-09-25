@@ -90,8 +90,6 @@ GEM
       railties (>= 5.0.0)
     faker (2.23.0)
       i18n (>= 1.8.11, < 2)
-    friendly_id (5.4.2)
-      activerecord (>= 4.0.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
     graphiql-rails (1.8.0)
@@ -258,7 +256,6 @@ DEPENDENCIES
   dotenv-rails
   factory_bot_rails
   faker
-  friendly_id (~> 5.1)
   graphiql-rails
   graphql
   jsonapi-serializer

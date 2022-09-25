@@ -13,8 +13,8 @@ module V1
 
     def show
       id = params[:id]
-      movie = id.eql?("random") ? Movie.all.sample : Movie.friendly.find_by_friendly_id(id)
-      render jsonapi: movie
+      @movie = id.eql?("random") ? Movie.all.sample : Movie.find_by(slug: id) || Movie.find(id)
+      render jsonapi: @movie
     end
   end
 end

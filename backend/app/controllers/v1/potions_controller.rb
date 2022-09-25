@@ -11,8 +11,9 @@ module V1
     end
 
     def show
-      potion = params[:id].eql?("random") ? Potion.all.sample : Potion.friendly.find_by_friendly_id(params[:id])
-      render jsonapi: potion
+      id = params[:id]
+      @potion = id.eql?("random") ? Potion.all.sample : Potion.find_by(slug: id) || Potion.find(id)
+      render jsonapi: @potion
     end
   end
 end
