@@ -8,6 +8,7 @@ Please choose the PR Type and give as many details as possible about your PR.
 - [ ] Bug fix (please link related issues if applicable)
 - [ ] New feature (either for website or api)
 - [ ] Database improvement
+- [ ] Other
 
 ## Summary
 

@@ -6,13 +6,13 @@ Thank you for your help on contributing to this project!
 
 There are many different things you can help with. This however depends on the part of the project.
 
-### Backend (API Changes / Data Improvements)
+### Backend (API Changes or Data Improvements)
 
-If you want to contribute to the API/Backend read the instructions on the [backend/README.md](backend/README.md).
+If you want to contribute to the API / Backend read the instructions on the [backend/README.md](backend/README.md).
 
-### Frontend (Website / DB Search)
+### Frontend (Website)
 
-If you prefer to contribute to the Website/Frontend read the instructions on the [frontend/README.md](frontend/README.md).
+If you prefer to contribute to the Website / Frontend read the instructions on the [frontend/README.md](frontend/README.md).
 
 ## How to make a first Pull Request
 
