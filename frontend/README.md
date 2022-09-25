@@ -1,4 +1,4 @@
-# [POTTER DB: Website](potterdb.com)
+# [POTTER DB: Website](https://potterdb.com)
 
 This part of the project is used for the website / frontend.
 

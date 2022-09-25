@@ -1,4 +1,4 @@
-# [POTTER DB: API](potter-db-api.herokuapp.com)
+# [POTTER DB: API](https://potter-db-api.herokuapp.com)
 
 This part of the project is used for the backend / api.
 If you just want to edit the data of the api, have a look at the [db/data](db/data) folder.
