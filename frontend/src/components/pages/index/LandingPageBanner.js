@@ -14,11 +14,11 @@ const LandingPageBanner = () => {
     >
       <Image
         alt="Potter DB Banner"
-        src="/images/hogwarts.jpg"
+        src="/images/hogwarts_express.jpg"
         layout="fill"
         objectFit="cover"
         objectPosition="top center"
-        quality="50"
+        quality="25"
         priority
       />
       <Box
