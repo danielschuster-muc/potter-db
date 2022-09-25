@@ -12,7 +12,7 @@ const Character = ({ data, links }) => {
   return (
     <>
       <CharacterMeta attributes={attributes} />
-      <CharacterDetail attributes={attributes} links={links} />
+      <CharacterDetail attributes={attributes} apiLink={links?.self} />
     </>
   );
 };
