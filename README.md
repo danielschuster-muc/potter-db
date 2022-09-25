@@ -1,8 +1,8 @@
-<!-- <h1 align="center">
+<h1 align="center">
   <a href="https://github.com/danielschuster-muc/potter-db">
     <img src="logo.svg" alt="Logo" width="100" height="100">
   </a>
-</h1> -->
+</h1>
 
 <div align="center">
   <h2>Potter DB</h2>
