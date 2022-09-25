@@ -53,7 +53,7 @@
 
 ## Support
 
-If you need any support feel free to open a [GitHub issues](https://github.com/danielschuster-muc/potter-db/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+).
+If you need any support feel free to open a [GitHub issues](https://github.com/danielschuster-muc/potter-db/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+) or ask your question on the [GitHub Discussions](https://github.com/danielschuster-muc/potter-db/discussions).
 
 ## Project assistance
 
