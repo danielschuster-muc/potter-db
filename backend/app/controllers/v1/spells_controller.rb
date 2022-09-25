@@ -11,8 +11,9 @@ module V1
     end
 
     def show
-      spell = params[:id].eql?("random") ? Spell.all.sample : Spell.friendly.find_by_friendly_id(params[:id])
-      render jsonapi: spell
+      id = params[:id]
+      @spell = id.eql?("random") ? Spell.all.sample : Spell.find_by(slug: id) || Spell.find(id)
+      render jsonapi: @spell
     end
   end
 end

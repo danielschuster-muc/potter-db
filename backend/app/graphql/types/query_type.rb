@@ -17,7 +17,7 @@ module Types
       argument :slug, String, required: true
     end
     def book(slug:)
-      Book.friendly.find_by_friendly_id(slug)
+      Book.find_by_slug(slug)
     end
 
     # Characters
@@ -30,7 +30,7 @@ module Types
       argument :slug, String, required: true
     end
     def character(slug:)
-      Character.friendly.find_by_friendly_id(slug)
+      Character.find_by_slug(slug)
     end
 
     # Potions
@@ -43,7 +43,7 @@ module Types
       argument :slug, String, required: true
     end
     def potion(slug:)
-      Potion.friendly.find_by_friendly_id(slug)
+      Potion.find_by_slug(slug)
     end
 
     # Spells
@@ -56,7 +56,7 @@ module Types
       argument :slug, String, required: true
     end
     def spell(slug:)
-      Spell.friendly.find_by_friendly_id(slug)
+      Spell.find_by_slug(slug)
     end
   end
 end

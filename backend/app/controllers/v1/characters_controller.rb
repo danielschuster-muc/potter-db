@@ -13,8 +13,8 @@ module V1
 
     def show
       id = params[:id]
-      character = id.eql?("random") ? Character.all.sample : Character.friendly.find_by_friendly_id(id)
-      render jsonapi: character
+      @character = id.eql?("random") ? Character.all.sample : Character.find_by(slug: id) || Character.find(id)
+      render jsonapi: @character
     end
   end
 end

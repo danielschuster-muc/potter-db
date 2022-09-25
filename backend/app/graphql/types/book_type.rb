@@ -18,8 +18,8 @@ module Types
     end
 
     def chapter(chapter_slug:)
-      Book.friendly.find_by_friendly_id(object.slug).chapters.all
-      Chapter.friendly.find_by_friendly_id(chapter_slug)
+      Book.find_by_slug(object.slug).chapters.all
+      Chapter.find_by_slug(chapter_slug)
     end
     # field :created_at, GraphQL::Types::ISO8601DateTime, null: false
     # field :updated_at, GraphQL::Types::ISO8601DateTime, null: false

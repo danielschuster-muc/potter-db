@@ -12,8 +12,8 @@ module V1
 
     def show
       id = params[:id]
-      book = id.eql?("random") ? Book.all.sample : Book.friendly.find_by_friendly_id(id)
-      render jsonapi: book
+      @book = id.eql?("random") ? Book.all.sample : Book.find_by(slug: id) || Book.find(id)
+      render jsonapi: @book
     end
   end
 end

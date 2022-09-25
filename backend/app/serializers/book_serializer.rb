@@ -9,6 +9,5 @@ class BookSerializer < ApplicationSerializer
     :cover,
     :wiki
   )
-
   has_many :chapters
 end
