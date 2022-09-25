@@ -21,16 +21,18 @@ module Rack
     end
 
     def database_connected?
-      ApplicationRecord.connection
-      ApplicationRecord.connected?
-    rescue StandardError
+      ActiveRecord::Base.connection
+      ActiveRecord::Base.connected?
+    rescue ActiveRecord::NoDatabaseError
       false
+    else
+      true
     end
 
     def migrations_updated?
       return false unless database_connected?
 
-      !ApplicationRecord.connection.migration_context.needs_migration?
+      !ActiveRecord::Base.connection.migration_context.needs_migration?
     end
   end
 end
