@@ -35,7 +35,7 @@ const SearchField = ({ totalResults = 0, handleChangeSearch }) => {
       fullWidth
       label="Search"
       placeholder="e.g. Harry"
-      value={searchQuery}
+      value={searchQuery || ""}
       onChange={(event) => setSearchQuery(event.target.value)}
       helperText={`${totalResults} Results`}
       InputProps={{
