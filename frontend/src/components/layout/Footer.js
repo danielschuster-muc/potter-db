@@ -76,7 +76,7 @@ const Footer = () => {
       color="transparent"
       elevation={0}
       position="static"
-      sx={{ mt: 5 }}
+      sx={{ mt: 5, mb: 2 }}
     >
       <Container disableGutters>
         <Grid container spacing={5}>

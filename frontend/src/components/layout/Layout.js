@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import DatabaseAlert from "../ui/DatabaseAlert";
 import Theme from "../Theme";
+import ScrollToTop from "./ScrollToTop";
 
 const Layout = ({ children }) => {
   const [hasMounted, setHasMounted] = useState(false);
@@ -26,9 +27,9 @@ const Layout = ({ children }) => {
       <Container
         style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
       >
+        <ScrollToTop />
         <DatabaseAlert />
         <Navbar />
-        {/* <CustomBreadCrumb /> */}
         <Box component="main" sx={{ flex: 1 }}>
           {children}
         </Box>
