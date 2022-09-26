@@ -9,9 +9,8 @@ const Document = () => {
           sizes="180x180"
           href="apple-touch-icon.png"
         />
-        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#37474f" />
         <link rel="manifest" href="site.webmanifest" />
-        <link rel="shortcut icon" href="favicon.ico" />
       </Head>
       <body>
         <Main />
