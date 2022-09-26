@@ -17,8 +17,8 @@ const LandingPageBanner = () => {
         src="/images/hogwarts_express.jpg"
         layout="fill"
         objectFit="cover"
-        objectPosition="top center"
-        quality="25"
+        objectPosition="top left"
+        quality="50"
         priority
       />
       <Box
