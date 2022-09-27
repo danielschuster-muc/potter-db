@@ -14,7 +14,6 @@ const CharactersList = ({ fetchCharacters }) => {
   const {
     data: rawCharacters,
     isFetchingNextPage,
-    isLoading,
     isSuccess,
     error,
     hasNextPage,
@@ -41,7 +40,7 @@ const CharactersList = ({ fetchCharacters }) => {
         }
       />
       {isSuccess && (
-        <InfiniteScroll loadMore={fetchNextPage} hasMore={hasNextPage}>
+        <InfiniteScroll hasMore={hasNextPage} loadMore={() => {}}>
           <Grid container spacing={2}>
             {rawCharacters?.pages?.map((page) =>
               page?.data?.map((character) => {
@@ -54,9 +53,10 @@ const CharactersList = ({ fetchCharacters }) => {
         </InfiniteScroll>
       )}
       <CharacterListStatus
-        isLoading={isLoading}
-        error={error}
         isFetchingNextPage={isFetchingNextPage}
+        hasNextPage={hasNextPage}
+        fetchNextPage={fetchNextPage}
+        error={error}
       />
     </>
   );
