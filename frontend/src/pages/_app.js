@@ -9,7 +9,6 @@ import {
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
 import Layout from "../components/layout/Layout";
-import "../styles/globals.css";
 
 const App = ({ Component, pageProps }) => {
   const [queryClient] = useState(() => new QueryClient());

@@ -8,7 +8,7 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import DatabaseAlert from "../ui/DatabaseAlert";
 import Theme from "../Theme";
-import ScrollToTop from "./ScrollToTop";
+import ScrollToTop from "../ui/ScrollToTop";
 
 const Layout = ({ children }) => {
   const [hasMounted, setHasMounted] = useState(false);
