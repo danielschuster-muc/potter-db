@@ -1,0 +1,30 @@
+name: ✨ Feature Request
+description: Request a feature request for Potter DB
+title: "[Feature Request]: "
+labels: ["question", "good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill the feature request! 
+        Before opening the report, please search for other similar issues.
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: To which sub-project is the feature request related to?
+      options:
+        - Website (Potter DB Search)
+        - API
+        - Other (Please specify in the description)
+   - type: textarea
+    attributes:
+      label: Describe the feature you want to request
+      description: What exactly do you want as a new feature for Potter DB?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: (Optional) Describe a solution for this feature
+      description: Do you have any idea to solve your requested feature?
+

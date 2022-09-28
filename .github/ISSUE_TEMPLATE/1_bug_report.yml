@@ -3,11 +3,11 @@ description: Report an issue with Potter DB
 title: "[Bug]: "
 labels: ["bug"]
 body:
- - type: markdown
+  - type: markdown
     attributes:
       value: |
         Thank you for taking the time to fill the bug report! 
-        Before opening the report, please search for other similar issues. 
+        Before opening the report, please search for other similar issues.
   - type: dropdown
     id: project
     attributes:
@@ -15,7 +15,7 @@ body:
       description: To which sub-project is the issue related to?
       options:
         - Website (Potter DB Search)
-        - API 
+        - API
         - Other (Please specify in the description)
     validations:
       required: true
@@ -25,7 +25,7 @@ body:
       label: Bug description
       description: What exactly happened?
     validations:
-      required: true    
+      required: true
   - type: textarea
     id: expected-behavior
     attributes:
