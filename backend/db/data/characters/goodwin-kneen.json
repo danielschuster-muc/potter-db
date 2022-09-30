@@ -17,10 +17,18 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Kwidditch player"],
+  "jobs": [
+    "Kwidditch player"
+  ],
   "titles": null,
-  "family_members": ["Gunhilda Kneen (wife)", "Olaf (cousin)", "Kneen family"],
-  "romances": ["Gunhilda Kneen (wife)"],
+  "family_members": [
+    "Gunhilda Kneen (wife)",
+    "Olaf (cousin)",
+    "Kneen family"
+  ],
+  "romances": [
+    "Gunhilda Kneen (wife)"
+  ],
   "wands": null,
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Goodwin_Kneen"

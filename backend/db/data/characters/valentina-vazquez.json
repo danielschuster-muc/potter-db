@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["President of the Argentinian Council of Magic"],
-  "titles": ["President"],
+  "jobs": [
+    "President of the Argentinian Council of Magic"
+  ],
+  "titles": [
+    "President"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

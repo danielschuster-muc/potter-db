@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Defence Against the Dark Arts professor at Ilvermorny"],
-  "titles": ["Professor"],
+  "jobs": [
+    "Defence Against the Dark Arts professor at Ilvermorny"
+  ],
+  "titles": [
+    "Professor"
+  ],
   "family_members": [
     "James Steward (father)",
     "Isolt Sayre (mother)",

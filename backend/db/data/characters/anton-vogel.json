@@ -21,10 +21,15 @@
     "German Minister for Magic",
     "Supreme Mugwump of the International Confederation of Wizards (-1932)"
   ],
-  "titles": ["Minister for Magic", "Supreme Mugwump"],
+  "titles": [
+    "Minister for Magic",
+    "Supreme Mugwump"
+  ],
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d1/Anton_Vogel_SOD_promo_cropped.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Anton_Vogel"
 }

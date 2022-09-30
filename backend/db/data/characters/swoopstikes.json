@@ -21,7 +21,10 @@
     "Potions Master at Hogwarts School of Witchcraft and Wizardry",
     "Entomologist"
   ],
-  "titles": ["Professor", "Potions Master"],
+  "titles": [
+    "Professor",
+    "Potions Master"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

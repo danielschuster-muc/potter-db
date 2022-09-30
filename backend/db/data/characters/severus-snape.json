@@ -38,8 +38,12 @@
     "Tobias Snape (father)",
     "Eileen Snape (née Prince) (mother)"
   ],
-  "romances": ["Lily Evans (Unrequited)"],
-  "wands": ["Unknown length, wood and core"],
+  "romances": [
+    "Lily Evans (Unrequited)"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a3/Severus_Snape.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Severus_Snape"
 }

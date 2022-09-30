@@ -17,11 +17,18 @@
   "house": null,
   "patronus": "Non-corporeal",
   "alias_names": null,
-  "jobs": ["Wandmaker (retired)"],
-  "titles": ["Wandmaker (formerly)"],
+  "jobs": [
+    "Wandmaker (retired)"
+  ],
+  "titles": [
+    "Wandmaker (formerly)"
+  ],
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown wood, length and core", "Elder, Thestral tail hair core"],
+  "wands": [
+    "Unknown wood, length and core",
+    "Elder, Thestral tail hair core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ee/Mykew_Gregorovitch.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Mykew_Gregorovitch"
 }

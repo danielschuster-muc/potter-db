@@ -2,7 +2,7 @@
   "name": "Bathilda Bagshot",
   "gender": "Female",
   "born": "Pre 1873",
-  "died": "Before 24 December, 1997 (aged at least 124), Godric's Hollow, West Country, England, Great Britain",
+  "died": "Between Mid Summer and  24 December, 1997 (aged at least 124), Godric's Hollow, West Country, England, Great Britain",
   "species": "Human",
   "height": null,
   "weight": null,
@@ -16,9 +16,17 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["'Batty' Bagshot (by Rita Skeeter)"],
-  "jobs": ["Author", "Historian"],
-  "titles": ["Professor", "Madam"],
+  "alias_names": [
+    "'Batty' Bagshot (by Rita Skeeter)"
+  ],
+  "jobs": [
+    "Author",
+    "Historian"
+  ],
+  "titles": [
+    "Professor",
+    "Madam"
+  ],
   "family_members": [
     "Gellert Grindelwald (great-nephew) †",
     "Bagshot (possibly)"

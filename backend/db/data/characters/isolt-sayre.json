@@ -16,15 +16,20 @@
   "boggart": null,
   "house": "Horned Serpent",
   "patronus": null,
-  "alias_names": ["Morrigan (by her father)", "Elias Story"],
+  "alias_names": [
+    "Morrigan (by her father)",
+    "Elias Story"
+  ],
   "jobs": [
     "Founder and co-Headmistress of Ilvermorny School of Witchcraft and Wizardry"
   ],
-  "titles": ["Headmistress"],
+  "titles": [
+    "Headmistress"
+  ],
   "family_members": [
-    "William Sayre (father)",
-    "Rionach Sayre (mother)",
-    "James Steward (husband)",
+    "William Sayre (father) †",
+    "Rionach Sayre (mother) †",
+    "James Steward (husband) †",
     "Chadwick Boot (adoptive son)",
     "Webster Boot (adoptive son)",
     "Martha Steward II (daughter)",
@@ -32,9 +37,9 @@
     "Josefina Calderon (adoptive daughter-in-law)",
     "Mrs Boot (adoptive daughter-in-law)",
     "Martha Steward II's husband (son-in-law)",
-    "Gormlaith Gaunt (maternal aunt)",
+    "Gormlaith Gaunt (maternal aunt) †",
     "Morrigan (paternal ancestor)",
-    "Salazar Slytherin (maternal ancestor)",
+    "Salazar Slytherin (maternal ancestor) †",
     "Sayre family",
     "House of Gaunt (maternal family)",
     "Slytherin family (maternal ancestors)",
@@ -42,7 +47,9 @@
     "Steward family"
   ],
   "romances": null,
-  "wands": ["Unknown length, snakewood, Basilisk horn (briefly)"],
+  "wands": [
+    "Unknown length, snakewood, Basilisk horn (briefly)"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e5/Isolt_Sayre.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Isolt_Sayre"
 }

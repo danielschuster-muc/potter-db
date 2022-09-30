@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Second Brother"],
+  "alias_names": [
+    "Second Brother"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -29,7 +31,9 @@
     "Peverell family",
     "House of Gaunt (descendants)"
   ],
-  "romances": ["His fiancée"],
+  "romances": [
+    "His fiancée"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/7/76/Cadmus_Peverell.JPG",
   "wiki": "https://harrypotter.fandom.com/wiki/Cadmus_Peverell"

@@ -4,7 +4,7 @@
   "born": "'Sun in Pisces, Moon in Leo'",
   "died": null,
   "species": "Human",
-  "height": "5ft, 4″",
+  "height": "5ft, 4'",
   "weight": "130lbs",
   "hair_color": "Blonde",
   "eye_color": "Green",
@@ -17,8 +17,12 @@
   "house": "Gryffindor",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Employee of the British Ministry of Magic"],
-  "titles": ["Prefect"],
+  "jobs": [
+    "Employee of the British Ministry of Magic"
+  ],
+  "titles": [
+    "Prefect"
+  ],
   "family_members": [
     "Father",
     "Mother",

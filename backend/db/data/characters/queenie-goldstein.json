@@ -4,7 +4,7 @@
   "born": "6 January, 1903, United States of America",
   "died": null,
   "species": "Human",
-  "height": "5″ 5″",
+  "height": "5' 5'",
   "weight": null,
   "hair_color": "Blonde",
   "eye_color": "Green",
@@ -17,7 +17,9 @@
   "house": "Pukwudgie",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Desk job in the Wand Permit Office (formerly)"],
+  "jobs": [
+    "Desk job in the Wand Permit Office (formerly)"
+  ],
   "titles": null,
   "family_members": [
     "Mr Goldstein (father) †",
@@ -34,8 +36,12 @@
     "Lorcan Scamander (great-great-nephew)",
     "Goldstein family"
   ],
-  "romances": ["Jacob Kowalski (husband)"],
-  "wands": ["Unknown wood, length and core"],
+  "romances": [
+    "Jacob Kowalski (husband)"
+  ],
+  "wands": [
+    "Unknown wood, length and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/4/42/Queenie_Goldstein_SODM.jpeg",
   "wiki": "https://harrypotter.fandom.com/wiki/Queenie_Goldstein"
 }

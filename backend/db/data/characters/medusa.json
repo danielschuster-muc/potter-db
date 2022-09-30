@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Advice columnist for the Daily Prophet (possibly)"],
-  "titles": ["Doctor"],
+  "jobs": [
+    "Advice columnist for the Daily Prophet (possibly)"
+  ],
+  "titles": [
+    "Doctor"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

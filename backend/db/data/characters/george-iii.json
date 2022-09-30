@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["King of Great Britain and Ireland"],
-  "titles": ["King"],
+  "jobs": [
+    "King of Great Britain and Ireland"
+  ],
+  "titles": [
+    "King"
+  ],
   "family_members": [
     "Victoria (granddaughter)",
     "William I (ancestor)",

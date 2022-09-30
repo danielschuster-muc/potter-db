@@ -6,8 +6,8 @@
   "species": "Human",
   "height": null,
   "weight": null,
-  "hair_color": "Blonde",
-  "eye_color": "Blue",
+  "hair_color": null,
+  "eye_color": null,
   "skin_color": "White",
   "blood_status": null,
   "marital_status": null,
@@ -21,7 +21,9 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": null,
-  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/21/Tilly_Toke_2.jpg",
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/3f/Tilly_Toke_HM.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Tilly_Toke"
 }

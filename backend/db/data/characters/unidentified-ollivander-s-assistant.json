@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Ollivander's assistant"],
+  "jobs": [
+    "Ollivander's assistant"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

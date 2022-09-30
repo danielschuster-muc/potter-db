@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Owner of Grandma Gramercy's Grandiloquent Gramophones"],
+  "jobs": [
+    "Owner of Grandma Gramercy's Grandiloquent Gramophones"
+  ],
   "titles": null,
-  "family_members": ["Child (possibly)", "Grandchild (possibly)"],
+  "family_members": [
+    "Child (possibly)",
+    "Grandchild (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

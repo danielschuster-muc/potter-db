@@ -17,7 +17,9 @@
   "house": "Hufflepuff",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Founder of Hogsmeade"],
+  "jobs": [
+    "Founder of Hogsmeade"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

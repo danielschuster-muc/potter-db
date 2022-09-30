@@ -16,9 +16,14 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["William the Conqueror"],
+  "alias_names": [
+    "William the Conqueror"
+  ],
   "jobs": null,
-  "titles": ["King of England", "Duke of Normandy"],
+  "titles": [
+    "King of England",
+    "Duke of Normandy"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

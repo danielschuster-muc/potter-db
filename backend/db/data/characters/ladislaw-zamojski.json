@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Chaser for the Polish National Quidditch team (formerly)"],
-  "titles": ["Chaser"],
+  "jobs": [
+    "Chaser for the Polish National Quidditch team (formerly)"
+  ],
+  "titles": [
+    "Chaser"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

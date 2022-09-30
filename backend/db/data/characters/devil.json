@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Lucifer"],
+  "alias_names": [
+    "Lucifer"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

@@ -17,7 +17,10 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Adventurer", "Poacher"],
+  "jobs": [
+    "Adventurer",
+    "Poacher"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

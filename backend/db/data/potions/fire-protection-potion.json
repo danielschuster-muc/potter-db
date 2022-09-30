@@ -1,7 +1,7 @@
 {
   "name": "Fire-Protection Potion",
   "effect": "Protects drinker from fire",
-  "side_effects": null,
+  "side_effects": "Sensation of ice flooding body",
   "characteristics": "Blue in colour",
   "time": null,
   "difficulty": "Beginner",

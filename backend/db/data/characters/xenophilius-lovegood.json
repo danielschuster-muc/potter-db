@@ -16,8 +16,12 @@
   "boggart": null,
   "house": "Ravenclaw",
   "patronus": "Non-corporeal",
-  "alias_names": ["Xeno"],
-  "jobs": ["Editor of The Quibbler"],
+  "alias_names": [
+    "Xeno"
+  ],
+  "jobs": [
+    "Editor of The Quibbler"
+  ],
   "titles": null,
   "family_members": [
     "Pandora Lovegood (wife) †",
@@ -27,7 +31,9 @@
     "Lysander (grandson)"
   ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/5/54/Xenophilius_Lovegood_Promo_Shot.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Xenophilius_Lovegood"
 }

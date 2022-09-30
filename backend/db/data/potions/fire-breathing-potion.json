@@ -1,0 +1,13 @@
+{
+  "name": "Fire-Breathing Potion",
+  "effect": "Makes a human breath fire",
+  "side_effects": "Can burn skin",
+  "characteristics": "Fiery orange in colour",
+  "time": null,
+  "difficulty": null,
+  "ingredients": "Mint, Valerian Sprigs, Fire Seeds, Powdered dragon horn, Lavender",
+  "inventors": null,
+  "manufacturers": null,
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/66/HM_y2_Fire-Breathing_Potion.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Fire-Breathing_Potion"
+}

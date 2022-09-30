@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Employee at the Cauldron Workshop"],
+  "jobs": [
+    "Employee at the Cauldron Workshop"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

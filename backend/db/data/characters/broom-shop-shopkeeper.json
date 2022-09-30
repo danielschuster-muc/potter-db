@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Shopkeeper of the Broom Shop"],
+  "jobs": [
+    "Shopkeeper of the Broom Shop"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

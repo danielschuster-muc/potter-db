@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Department of Magical Maintenance floor cleaner"],
+  "jobs": [
+    "Department of Magical Maintenance floor cleaner"
+  ],
   "titles": null,
   "family_members": [
     "Ellen Cracknell (ex-wife)",

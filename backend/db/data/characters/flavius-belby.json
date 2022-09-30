@@ -6,9 +6,9 @@
   "species": "Human",
   "height": null,
   "weight": null,
-  "hair_color": "Brown",
-  "eye_color": "Blue",
-  "skin_color": "Light",
+  "hair_color": "Brown (formerly), White",
+  "eye_color": "Brown",
+  "skin_color": "Tan",
   "blood_status": null,
   "marital_status": null,
   "nationality": null,
@@ -25,7 +25,9 @@
     "Damocles (possibly)"
   ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
-  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d2/Flavius_Belby.jpg",
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/a/ad/Flavius_Belby_HM.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Flavius_Belby"
 }

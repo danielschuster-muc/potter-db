@@ -17,8 +17,12 @@
   "house": "Slytherin",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Slytherin House Ghost"],
-  "titles": ["Baron"],
+  "jobs": [
+    "Slytherin House Ghost"
+  ],
+  "titles": [
+    "Baron"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

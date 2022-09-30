@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Giant-slayer"],
+  "jobs": [
+    "Giant-slayer"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

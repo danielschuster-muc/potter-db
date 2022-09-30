@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Numerologist", "Author"],
+  "jobs": [
+    "Numerologist",
+    "Author"
+  ],
   "titles": null,
-  "family_members": ["Wakefield family"],
+  "family_members": [
+    "Wakefield family"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

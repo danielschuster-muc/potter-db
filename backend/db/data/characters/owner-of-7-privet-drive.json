@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Mrs Number Seven (by Harry Potter)"],
+  "alias_names": [
+    "Mrs Number Seven (by Harry Potter)"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

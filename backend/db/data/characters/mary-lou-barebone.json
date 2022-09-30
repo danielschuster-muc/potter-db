@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Leader of the New Salem Philanthropic Society"],
+  "jobs": [
+    "Leader of the New Salem Philanthropic Society"
+  ],
   "titles": null,
   "family_members": [
     "Bartholomew Barebone (ancestor)",

@@ -16,10 +16,14 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Dougie"],
+  "alias_names": [
+    "Dougie"
+  ],
   "jobs": null,
   "titles": null,
-  "family_members": ["Father"],
+  "family_members": [
+    "Father"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1f/DistractibleDouglas.png",

@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Norbert"],
+  "alias_names": [
+    "Norbert"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

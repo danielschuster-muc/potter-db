@@ -4,7 +4,7 @@
   "born": "6 February, 1950, England, Great Britain",
   "died": null,
   "species": "Human",
-  "height": "5″11″",
+  "height": "5'11'",
   "weight": "154 lbs",
   "hair_color": "Red",
   "eye_color": "Green",
@@ -76,8 +76,12 @@
     "House of Black",
     "Prewett family (in-laws)"
   ],
-  "romances": ["Molly Weasley (wife)"],
-  "wands": ["Unknown length, wood and core"],
+  "romances": [
+    "Molly Weasley (wife)"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/0/02/Arthur_Weasley_profile.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Arthur_Weasley"
 }

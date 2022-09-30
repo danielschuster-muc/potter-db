@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Wandmaker"],
+  "jobs": [
+    "Wandmaker"
+  ],
   "titles": null,
-  "family_members": ["Mr Jonker (father)", "Jonker family"],
+  "family_members": [
+    "Mr Jonker (father)",
+    "Jonker family"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

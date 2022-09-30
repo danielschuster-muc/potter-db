@@ -16,9 +16,14 @@
   "boggart": null,
   "house": "Gryffindor",
   "patronus": null,
-  "alias_names": ["Rosie (by Ronald Weasley)", "Ronnie (by Albus Potter)"],
+  "alias_names": [
+    "Rosie (by Ronald Weasley)",
+    "Ronnie (by Albus Potter)"
+  ],
   "jobs": null,
-  "titles": ["Chaser"],
+  "titles": [
+    "Chaser"
+  ],
   "family_members": [
     "Ron Weasley (father)",
     "Hermione Granger (mother)",

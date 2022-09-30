@@ -19,7 +19,13 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": ["Pickett", "Finn", "Poppy", "Marlow", "Tom"],
+  "family_members": [
+    "Pickett",
+    "Finn",
+    "Poppy",
+    "Marlow",
+    "Tom"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/d/dc/Bowtruckles.png",

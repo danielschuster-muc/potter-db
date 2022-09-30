@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Professional Duellist"],
-  "titles": ["Duelling Champion"],
+  "jobs": [
+    "Professional Duellist"
+  ],
+  "titles": [
+    "Duelling Champion"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

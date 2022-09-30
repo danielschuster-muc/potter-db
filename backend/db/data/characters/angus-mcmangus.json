@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Angry Angus McMangus"],
+  "alias_names": [
+    "Angry Angus McMangus"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

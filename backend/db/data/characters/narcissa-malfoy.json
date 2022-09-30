@@ -16,7 +16,9 @@
   "boggart": null,
   "house": "Slytherin",
   "patronus": null,
-  "alias_names": ["Cissy (by Bellatrix Lestrange and Kreacher)"],
+  "alias_names": [
+    "Cissy (by Bellatrix Lestrange and Kreacher)"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -49,8 +51,13 @@
     "Rosier family",
     "Malfoy family (in-laws)"
   ],
-  "romances": ["Lucius Malfoy (husband)"],
-  "wands": ["Unknown length, wood and core", "Unknown length, wood and core"],
+  "romances": [
+    "Lucius Malfoy (husband)"
+  ],
+  "wands": [
+    "Unknown length, wood and core",
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/7/78/Narcissa_Malfoy.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Narcissa_Malfoy"
 }

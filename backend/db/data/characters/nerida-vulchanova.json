@@ -17,8 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Founder and Headmistress of Durmstrang Institute"],
-  "titles": ["Founder", "Headmistress", "Professor"],
+  "jobs": [
+    "Founder and Headmistress of Durmstrang Institute"
+  ],
+  "titles": [
+    "Founder",
+    "Headmistress",
+    "Professor"
+  ],
   "family_members": [
     "Pyotr Vulchanov (possibly)",
     "Boris Vulchanov (possibly)",

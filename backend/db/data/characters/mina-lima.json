@@ -16,10 +16,14 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Stubby Boardman (allegedly)"],
+  "alias_names": [
+    "Stubby Boardman (allegedly)"
+  ],
   "jobs": null,
   "titles": null,
-  "family_members": ["Edwardus Lima (possibly)"],
+  "family_members": [
+    "Edwardus Lima (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

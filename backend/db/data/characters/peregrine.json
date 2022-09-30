@@ -15,12 +15,27 @@
   "animagus": null,
   "boggart": null,
   "house": null,
-  "patronus": null,
-  "alias_names": ["R"],
-  "jobs": ["Tracker", "Leader of R"],
-  "titles": null,
-  "family_members": ["Wife", "Jacob (son)", "Child", "Jacob's family"],
-  "romances": ["Wife"],
+  "patronus": "Corporeal",
+  "alias_names": [
+    "R"
+  ],
+  "jobs": [
+    "Tracker",
+    "Leader of R"
+  ],
+  "titles": [
+    "Prefect",
+    "Head Boy"
+  ],
+  "family_members": [
+    "Wife",
+    "Jacob (son)",
+    "Child",
+    "His family"
+  ],
+  "romances": [
+    "Wife"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1b/Peregrine_HM739.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Peregrine"

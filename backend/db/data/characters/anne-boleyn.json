@@ -32,7 +32,9 @@
     "Queen Elizabeth II (distant relative)",
     "House of Tudor"
   ],
-  "romances": ["King Henry VIII (ex-husband)"],
+  "romances": [
+    "King Henry VIII (ex-husband)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/3/3f/Boleyn.JPG",
   "wiki": "https://harrypotter.fandom.com/wiki/Anne_Boleyn"

@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Junior minister in the British Government"],
-  "titles": ["Junior minister"],
+  "jobs": [
+    "Junior minister in the British Government"
+  ],
+  "titles": [
+    "Junior minister"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

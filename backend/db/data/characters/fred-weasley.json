@@ -1,8 +1,8 @@
 {
   "name": "Fred Weasley I",
   "gender": "Male",
-  "born": "1 April, 1978, Great Britain",
-  "died": "2 May, 1998 (aged 20), Seventh-floor corridor, Hogwarts Castle, Highlands, Scotland, Great Britain",
+  "born": "1 April 1978, Great Britain",
+  "died": "2 May 1998 (aged 20), Seventh-floor corridor, Hogwarts Castle, Highlands, Scotland, Great Britain",
   "species": "Human",
   "height": null,
   "weight": null,
@@ -23,8 +23,12 @@
     "Harry Potter (under disguise of Polyjuice)",
     "Freddie (by Bellatrix Lestrange and George Weasley)"
   ],
-  "jobs": ["Co-owner of Weasleys' Wizard Wheezes"],
-  "titles": ["Beater"],
+  "jobs": [
+    "Co-owner of Weasleys' Wizard Wheezes"
+  ],
+  "titles": [
+    "Beater"
+  ],
   "family_members": [
     "Arthur Weasley (father)",
     "Molly Weasley (née Prewett) (mother)",
@@ -65,7 +69,9 @@
     "House of Black (distant relatives)"
   ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/9/90/Fred_HS_TDH_promo.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Fred_Weasley"
 }

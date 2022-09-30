@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Assistant at Kowalski Quality Baked Goods"],
+  "jobs": [
+    "Assistant at Kowalski Quality Baked Goods"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

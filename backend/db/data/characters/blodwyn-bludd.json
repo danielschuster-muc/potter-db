@@ -16,8 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Vampire from the Valleys"],
-  "jobs": ["Singer"],
+  "alias_names": [
+    "Vampire from the Valleys"
+  ],
+  "jobs": [
+    "Singer"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

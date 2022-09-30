@@ -16,12 +16,19 @@
   "boggart": "Lord Voldemort",
   "house": null,
   "patronus": "Non-corporeal",
-  "alias_names": ["Queen of the Quills"],
-  "jobs": ["Biographical author", "Gossip Correspondent for the Daily Prophet"],
+  "alias_names": [
+    "Queen of the Quills"
+  ],
+  "jobs": [
+    "Biographical author",
+    "Gossip Correspondent for the Daily Prophet"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/2/23/Rita_Skeeter_2.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Rita_Skeeter"
 }

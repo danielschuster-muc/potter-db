@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Auror"],
+  "jobs": [
+    "Auror"
+  ],
   "titles": null,
   "family_members": [
     "Son",

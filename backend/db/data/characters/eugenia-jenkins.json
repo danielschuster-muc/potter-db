@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["British Minister for Magic (1968-1975)"],
-  "titles": ["Minister for Magic"],
+  "jobs": [
+    "British Minister for Magic (1968-1975)"
+  ],
+  "titles": [
+    "Minister for Magic"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

@@ -6,43 +6,42 @@
   "pages": "223",
   "cover": "https://www.wizardingworld.com/images/products/books/UK/rectangle-1.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Philosopher's_Stone",
-  "order": "1",
   "chapters": [
     {
       "title": "The Boy Who Lived",
-      "order": "1"
+      "summary": ""
     },
     {
       "title": "The Vanishing Glass",
-      "order": "2"
+      "summary": ""
     },
     {
       "title": "The Letter from No One",
-      "order": "3"
+      "summary": ""
     },
     {
       "title": "The Keeper of the Keys",
-      "order": "4"
+      "summary": ""
     },
     {
       "title": "Diagon Alley",
-      "order": "5"
+      "summary": ""
     },
     {
       "title": "The Journey from Platform Nine and Three-Quarters",
-      "order": "6"
+      "summary": ""
     },
     {
       "title": "The Sorting Hat",
-      "order": "7"
+      "summary": ""
     },
     {
       "title": "The Potions Master",
-      "order": "8"
+      "summary": ""
     },
     {
       "title": "The Midnight Duel",
-      "order": "9"
+      "summary": ""
     },
     {
       "title": "Hallowe'en",

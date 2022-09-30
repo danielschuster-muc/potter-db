@@ -2,7 +2,7 @@
   "name": "Gunnar Grimmson",
   "gender": "Male",
   "born": "Before 1927",
-  "died": "1927",
+  "died": null,
   "species": "Human",
   "height": null,
   "weight": null,
@@ -17,11 +17,15 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Bounty hunter"],
+  "jobs": [
+    "Bounty hunter"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
-  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c4/Grimmson2.jpeg",
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/--Gunnar_Grimmson.jpeg",
   "wiki": "https://harrypotter.fandom.com/wiki/Gunnar_Grimmson"
 }

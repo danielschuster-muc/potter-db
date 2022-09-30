@@ -14,12 +14,20 @@
   "nationality": null,
   "animagus": null,
   "boggart": null,
-  "house": "Gryffindor or Hufflepuff",
+  "house": "Gryffindor, Hufflepuff, or Slytherin",
   "patronus": null,
-  "alias_names": null,
+  "alias_names": [
+    "Gruff (by Baglan Wellnelly)"
+  ],
   "jobs": null,
-  "titles": ["Beater"],
-  "family_members": ["Baglan Wellnelly (twin brother)", "Wellnelly family"],
+  "titles": [
+    "Seeker"
+  ],
+  "family_members": [
+    "Dai Llewellyn (ancestor, possibly)",
+    "Baglan Wellnelly (twin brother)",
+    "Wellnelly family"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5d/Gruffyd_Wellnelly_HM.png",

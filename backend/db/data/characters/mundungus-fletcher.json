@@ -4,7 +4,7 @@
   "born": "Before 1962",
   "died": null,
   "species": "Human",
-  "height": "5″4″",
+  "height": "5'4'",
   "weight": "139 lbs",
   "hair_color": "Ginger",
   "eye_color": "Brown",
@@ -16,12 +16,21 @@
   "boggart": null,
   "house": "Unknown",
   "patronus": "Non-corporeal",
-  "alias_names": ["Dung", "Harry Potter (under disguise of Polyjuice)"],
-  "jobs": ["Dealer of wizarding artefacts"],
+  "alias_names": [
+    "Dung",
+    "Harry Potter (under disguise of Polyjuice)"
+  ],
+  "jobs": [
+    "Dealer of wizarding artefacts"
+  ],
   "titles": null,
-  "family_members": ["Phineas Fletcher (possible ancestor)"],
+  "family_members": [
+    "Phineas Fletcher (possible ancestor)"
+  ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e0/Fletcher_DH1.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Mundungus_Fletcher"
 }

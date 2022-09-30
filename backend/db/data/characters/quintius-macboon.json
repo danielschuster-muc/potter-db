@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Head of the MacBoon clan"],
+  "jobs": [
+    "Head of the MacBoon clan"
+  ],
   "titles": null,
-  "family_members": ["Caelan MacBoon (nephew)", "MacBoon clan"],
+  "family_members": [
+    "Caelan MacBoon (nephew)",
+    "MacBoon clan"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

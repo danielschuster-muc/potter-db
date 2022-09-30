@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Taxi Driver"],
+  "jobs": [
+    "Taxi Driver"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

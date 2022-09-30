@@ -1,7 +1,7 @@
 {
   "name": "Polyjuice Potion",
   "effect": "Allows a human drinker to temporarily assume the form of another person",
-  "side_effects": null,
+  "side_effects": "Attempts to transform into animals or part-humans will not reverse automatically",
   "characteristics": "Thick and mud-like, Bubbles slowly, Taste and colour vary depending on the person being turned into",
   "time": "One month",
   "difficulty": "Advanced",

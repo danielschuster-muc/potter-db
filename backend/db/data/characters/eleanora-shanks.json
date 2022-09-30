@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Crazy Lamb"],
+  "alias_names": [
+    "Crazy Lamb"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

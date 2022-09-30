@@ -16,7 +16,10 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Beaky (by Rubeus Hagrid)", "Witherwings"],
+  "alias_names": [
+    "Beaky (by Rubeus Hagrid)",
+    "Witherwings"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

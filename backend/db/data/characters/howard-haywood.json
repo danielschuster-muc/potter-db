@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Orchestra conductor", "Musical director"],
+  "jobs": [
+    "Orchestra conductor",
+    "Musical director"
+  ],
   "titles": null,
-  "family_members": ["Haywood family (possibly)"],
+  "family_members": [
+    "Haywood family (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

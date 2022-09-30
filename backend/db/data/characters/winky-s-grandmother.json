@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Servant of the Crouch family"],
+  "jobs": [
+    "Servant of the Crouch family"
+  ],
   "titles": null,
-  "family_members": ["Daughter", "Winky (granddaughter)"],
+  "family_members": [
+    "Daughter",
+    "Winky (granddaughter)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

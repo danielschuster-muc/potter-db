@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Co-president of a Académie française des sorciers committee"],
-  "titles": ["Co-president"],
+  "jobs": [
+    "Co-president of a Académie française des sorciers committee"
+  ],
+  "titles": [
+    "Co-president"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Vendor at Zonko's Joke Shop"],
+  "jobs": [
+    "Vendor at Zonko's Joke Shop"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

@@ -1,8 +1,8 @@
 {
   "name": "Tom Marvolo Riddle",
   "gender": "Male",
-  "born": "31 December, 1926, Wool's Orphanage, London, England, Great Britain",
-  "died": "2 May, 1998 (aged 71), Great Hall, Hogwarts Castle, Highlands, Scotland, Great Britain",
+  "born": "31 December 1926, Wool's Orphanage, London, England, Great Britain",
+  "died": "2 May 1998 (aged 71), Great Hall, Hogwarts Castle, Highlands, Scotland, Great Britain",
   "species": "Human",
   "height": null,
   "weight": null,
@@ -24,8 +24,15 @@
     "Chief Death Eater (by Lee Jordan)",
     "Heir of Slytherin"
   ],
-  "jobs": ["Shop assistant at Borgin and Burkes (formerly)"],
-  "titles": ["Prefect", "Head Boy", "Dark Lord", "Heir of Slytherin"],
+  "jobs": [
+    "Shop assistant at Borgin and Burkes (formerly)"
+  ],
+  "titles": [
+    "Prefect",
+    "Head Boy",
+    "Dark Lord",
+    "Heir of Slytherin"
+  ],
   "family_members": [
     "Tom Riddle Senior (father) †",
     "Merope Riddle (née Gaunt) (mother) †",
@@ -45,9 +52,9 @@
   ],
   "romances": null,
   "wands": [
-    "13½″, Yew, phoenix feather core",
+    "13½', Yew, phoenix feather core",
     "Elm, dragon heartstring (temporary)",
-    "Elder, 15″, Thestral tail hair core (temporary, never mastered)"
+    "Elder, 15', Thestral tail hair core (temporary, never mastered; mastered in an alternate timeline created by Scorpius Malfoy and Albus Potter)"
   ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/a/aa/Voldemort_Headshot_DHP1.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Tom_Riddle"

@@ -21,7 +21,9 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Hogwarts_potions_champion"
 }

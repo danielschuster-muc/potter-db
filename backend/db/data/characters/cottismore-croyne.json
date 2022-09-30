@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Supreme Mugwump of the International Confederation of Wizards"],
-  "titles": ["Supreme Mugwump"],
+  "jobs": [
+    "Supreme Mugwump of the International Confederation of Wizards"
+  ],
+  "titles": [
+    "Supreme Mugwump"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

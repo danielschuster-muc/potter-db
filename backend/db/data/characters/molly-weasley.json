@@ -4,7 +4,7 @@
   "born": "30 October, 1949 or 1950, England, Great Britain",
   "died": null,
   "species": "Human",
-  "height": "5″ 3.5″",
+  "height": "5' 3.5'",
   "weight": "113 lbs",
   "hair_color": "Red",
   "eye_color": "Hazel",
@@ -16,7 +16,9 @@
   "boggart": "Corpses of her family and Harry Potter",
   "house": "Gryffindor",
   "patronus": "Non-corporeal",
-  "alias_names": ["Mollywobbles (by Arthur Weasley)"],
+  "alias_names": [
+    "Mollywobbles (by Arthur Weasley)"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -65,8 +67,12 @@
     "Granger-Weasley family",
     "Potter family"
   ],
-  "romances": ["Arthur Weasley (husband)"],
-  "wands": ["Unknown length, wood and core"],
+  "romances": [
+    "Arthur Weasley (husband)"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/3/3c/Molly_Weasley_Deathly_Hallows.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Molly_Weasley"
 }

@@ -16,9 +16,13 @@
   "boggart": null,
   "house": "Slytherin",
   "patronus": "None",
-  "alias_names": ["R.A.B."],
+  "alias_names": [
+    "R.A.B."
+  ],
   "jobs": null,
-  "titles": ["Seeker"],
+  "titles": [
+    "Seeker"
+  ],
   "family_members": [
     "Orion Black (father/second cousin once removed) †",
     "Walburga Black (mother/second cousin once removed) †",

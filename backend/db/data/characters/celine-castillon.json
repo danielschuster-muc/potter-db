@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Matagot of Wizard Chess"],
+  "alias_names": [
+    "Matagot of Wizard Chess"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

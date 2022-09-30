@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Examiner for the Wizarding Examinations Authority"],
-  "titles": ["Professor"],
+  "jobs": [
+    "Examiner for the Wizarding Examinations Authority"
+  ],
+  "titles": [
+    "Professor"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

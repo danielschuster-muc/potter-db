@@ -21,7 +21,9 @@
     "Professor of Muggle Studies at Hogwarts (1997—1998)",
     "Deputy Headmistress at Hogwarts (1997—1998)"
   ],
-  "titles": ["Professor"],
+  "titles": [
+    "Professor"
+  ],
   "family_members": [
     "Amycus Carrow (brother)",
     "Carrow (possible relative)",
@@ -30,7 +32,9 @@
     "Carrow family"
   ],
   "romances": null,
-  "wands": ["Unknown length, wood and core materials"],
+  "wands": [
+    "Unknown length, wood and core materials"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/2/25/Alecto-DH2.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Alecto_Carrow"
 }

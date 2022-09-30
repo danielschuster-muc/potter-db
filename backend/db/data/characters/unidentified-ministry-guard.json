@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Security guard at the British Ministry of Magic"],
+  "jobs": [
+    "Security guard at the British Ministry of Magic"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

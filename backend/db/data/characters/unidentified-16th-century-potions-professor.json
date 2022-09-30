@@ -20,7 +20,9 @@
   "jobs": [
     "Potions Master at Hogwarts School of Witchcraft and Wizardry (c. 16th century)"
   ],
-  "titles": ["Professor"],
+  "titles": [
+    "Professor"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

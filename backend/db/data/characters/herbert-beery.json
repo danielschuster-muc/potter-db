@@ -21,7 +21,9 @@
     "Professor of Herbology (? - before 1965-1971)",
     "Professor at the Wizarding Academy of Dramatic Arts (before 1965-1971 - ?)"
   ],
-  "titles": ["Professor"],
+  "titles": [
+    "Professor"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

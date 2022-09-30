@@ -21,7 +21,9 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/8/80/Unidentified_Durmstrang_Boy_%28I%29.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Durmstrang_boy"
 }

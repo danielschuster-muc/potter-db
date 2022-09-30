@@ -16,7 +16,10 @@
   "boggart": null,
   "house": "Slytherin",
   "patronus": null,
-  "alias_names": ["Lizard", "Coach Tuttle"],
+  "alias_names": [
+    "Lizard",
+    "Coach Tuttle"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": [

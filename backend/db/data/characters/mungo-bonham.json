@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Healer"],
-  "titles": ["Saint"],
+  "jobs": [
+    "Healer"
+  ],
+  "titles": [
+    "Saint"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

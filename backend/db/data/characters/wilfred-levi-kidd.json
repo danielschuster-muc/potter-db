@@ -16,12 +16,19 @@
   "boggart": null,
   "house": "Gryffindor",
   "patronus": null,
-  "alias_names": ["Levi", "Leviosa Kid"],
+  "alias_names": [
+    "Levi",
+    "Leviosa Kid"
+  ],
   "jobs": null,
   "titles": null,
-  "family_members": ["Wilfred Kidd Senior (father)"],
+  "family_members": [
+    "Wilfred Kidd Senior (father)"
+  ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a8/Wilfred_Levi_Kidd.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Wilfred_Levi_Kidd"
 }

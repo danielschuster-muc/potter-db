@@ -18,9 +18,15 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": ["Sir"],
-  "family_members": ["Amata (wife)"],
-  "romances": ["Amata (wife)"],
+  "titles": [
+    "Sir"
+  ],
+  "family_members": [
+    "Amata (wife)"
+  ],
+  "romances": [
+    "Amata (wife)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b5/Luckless.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Sir_Luckless"

@@ -1,0 +1,29 @@
+{
+  "name": "Pudubec",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": "Light",
+  "blood_status": "Muggle",
+  "marital_status": null,
+  "nationality": "French",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Teacher"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c4/Pudubec.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Pudubec"
+}

@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Actress (formerly)"],
+  "jobs": [
+    "Actress (formerly)"
+  ],
   "titles": null,
   "family_members": [
     "Mr Warbeck (husband)",

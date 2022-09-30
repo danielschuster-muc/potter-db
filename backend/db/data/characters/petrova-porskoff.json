@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Chaser"],
-  "titles": ["Chaser"],
+  "jobs": [
+    "Chaser"
+  ],
+  "titles": [
+    "Chaser"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

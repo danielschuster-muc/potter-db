@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Nana (by Ivy Warrington)"],
+  "alias_names": [
+    "Nana (by Ivy Warrington)"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -26,7 +28,9 @@
     "Warrington family"
   ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/2/21/Ivy_Warrington%27s_grandmother_MA.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Warrington_sisters'_grandmother"
 }

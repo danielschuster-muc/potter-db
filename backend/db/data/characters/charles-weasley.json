@@ -16,9 +16,17 @@
   "boggart": null,
   "house": "Gryffindor",
   "patronus": "Non-corporeal",
-  "alias_names": ["Charlie (by family and friends)"],
-  "jobs": ["Dragonologist"],
-  "titles": ["Prefect", "Seeker", "Quidditch Captain"],
+  "alias_names": [
+    "Charlie (by family and friends)"
+  ],
+  "jobs": [
+    "Dragonologist"
+  ],
+  "titles": [
+    "Prefect",
+    "Seeker",
+    "Quidditch Captain"
+  ],
   "family_members": [
     "Arthur Weasley (father)",
     "Molly Weasley (née Prewett) (mother)",
@@ -60,7 +68,10 @@
     "House of Black (distant relatives)"
   ],
   "romances": null,
-  "wands": ["12″, Ash, unicorn tail hair (formerly)", "Unknown second wand"],
+  "wands": [
+    "12', Ash, unicorn tail hair (formerly)",
+    "Unknown second wand"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d0/Charlie_PM.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Charles_Weasley"
 }

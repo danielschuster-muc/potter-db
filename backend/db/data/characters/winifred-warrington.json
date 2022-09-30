@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Winnie"],
+  "alias_names": [
+    "Winnie"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -27,7 +29,9 @@
     "Warrington family"
   ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/2/23/Winifred_Warrington_MA.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Winifred_Warrington"
 }

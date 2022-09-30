@@ -17,11 +17,17 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Chinese Minister for Magic"],
-  "titles": ["Minister for Magic"],
+  "jobs": [
+    "Chinese Minister for Magic"
+  ],
+  "titles": [
+    "Minister for Magic"
+  ],
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0f/Liu_Tao_SODM.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Liu_Tao"
 }

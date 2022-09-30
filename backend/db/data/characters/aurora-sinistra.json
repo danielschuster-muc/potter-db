@@ -17,11 +17,18 @@
   "house": null,
   "patronus": "Non-corporeal",
   "alias_names": null,
-  "jobs": ["Astronomer", "Member of the Astronomy department (Pre 1985)"],
-  "titles": ["Professor"],
+  "jobs": [
+    "Astronomer",
+    "Member of the Astronomy department (Pre 1985)"
+  ],
+  "titles": [
+    "Professor"
+  ],
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/8/8a/Professor_Aurora_Sinistra.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Aurora_Sinistra"
 }

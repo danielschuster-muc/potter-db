@@ -16,8 +16,12 @@
   "boggart": "Lord Voldemort",
   "house": null,
   "patronus": "Non-corporeal",
-  "alias_names": ["Stan"],
-  "jobs": ["Conductor of the Knight Bus"],
+  "alias_names": [
+    "Stan"
+  ],
+  "jobs": [
+    "Conductor of the Knight Bus"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

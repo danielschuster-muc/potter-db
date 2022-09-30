@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Rugby union player"],
+  "jobs": [
+    "Rugby union player"
+  ],
   "titles": null,
   "family_members": [
     "Lavender Brown (possible cousin)",

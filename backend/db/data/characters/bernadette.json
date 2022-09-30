@@ -20,10 +20,14 @@
   "jobs": [
     "Executioner for the Magical Congress of the United States of America"
   ],
-  "titles": ["Executioner"],
+  "titles": [
+    "Executioner"
+  ],
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0c/Bernadette.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Bernadette"
 }

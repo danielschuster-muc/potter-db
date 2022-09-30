@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Employee of the auctioneering firm J. & W. Friend"],
+  "jobs": [
+    "Employee of the auctioneering firm J. & W. Friend"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

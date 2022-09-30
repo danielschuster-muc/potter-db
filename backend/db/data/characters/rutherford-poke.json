@@ -20,8 +20,12 @@
   "jobs": [
     "Healer at and spokeperson for St Mungo's Hospital for Magical Maladies and Injuries"
   ],
-  "titles": ["Healer"],
-  "family_members": ["Royden Poke (possibly)"],
+  "titles": [
+    "Healer"
+  ],
+  "family_members": [
+    "Royden Poke (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

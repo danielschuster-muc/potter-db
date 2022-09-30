@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["American Emissary to the International Confederation of Wizards"],
+  "jobs": [
+    "American Emissary to the International Confederation of Wizards"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

@@ -1,7 +1,7 @@
 {
   "name": "Love potion",
   "effect": "Infatuation with whoever offered the potion",
-  "side_effects": null,
+  "side_effects": "Embarrassment on the part of the drinker",
   "characteristics": "Pink in colour",
   "time": null,
   "difficulty": "Advanced",

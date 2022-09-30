@@ -16,9 +16,15 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["'Crash'"],
-  "jobs": ["Beater for the American National Quidditch team"],
-  "titles": ["Beater"],
+  "alias_names": [
+    "'Crash'"
+  ],
+  "jobs": [
+    "Beater for the American National Quidditch team"
+  ],
+  "titles": [
+    "Beater"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

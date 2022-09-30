@@ -4,7 +4,7 @@
   "born": "Between 1 September 1972 and 31 August 1973",
   "died": "2 May, 1998 (aged 24/25), Hogwarts Castle, Highlands, Scotland, Great Britain",
   "species": "Human",
-  "height": "Variable (normally 5″6″)",
+  "height": "Variable (normally 5'6')",
   "weight": "Variable (normally 126 lbs)",
   "hair_color": "Variable (biologically mousy brown)",
   "eye_color": "Variable (biologically dark)",
@@ -16,8 +16,13 @@
   "boggart": "Losing her abilities",
   "house": "Hufflepuff",
   "patronus": "Jack Rabbit (pre 1995), Wolf (1995-1998)",
-  "alias_names": ["Dora (by Ted Tonks and Remus Lupin)", "Tonks (by friends)"],
-  "jobs": ["Auror"],
+  "alias_names": [
+    "Dora (by Ted Tonks and Remus Lupin)",
+    "Tonks (by friends)"
+  ],
+  "jobs": [
+    "Auror"
+  ],
   "titles": null,
   "family_members": [
     "Edward Tonks (father) †",
@@ -43,8 +48,12 @@
     "Bulstrode family (maternal ancestors)",
     "Flint family (maternal ancestors)"
   ],
-  "romances": ["Remus Lupin (husband) †"],
-  "wands": ["Unknown length, wood and core"],
+  "romances": [
+    "Remus Lupin (husband) †"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c8/Nymphadora_Tonks_DH_promo_headshot_.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Nymphadora_Tonks"
 }

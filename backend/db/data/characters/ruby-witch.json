@@ -17,10 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Employee of the Magical Congress of the United States of America"],
+  "jobs": [
+    "Employee of the Magical Congress of the United States of America"
+  ],
   "titles": null,
   "family_members": null,
-  "romances": ["Sam"],
+  "romances": [
+    "Sam"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/1/18/Ruby_FB1.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Ruby_(witch)"

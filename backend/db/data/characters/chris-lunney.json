@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Photographer for the Daily Express"],
+  "jobs": [
+    "Photographer for the Daily Express"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

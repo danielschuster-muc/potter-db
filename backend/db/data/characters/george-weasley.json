@@ -1,10 +1,10 @@
 {
   "name": "George Weasley",
   "gender": "Male",
-  "born": "1 April, 1978, Great Britain",
+  "born": "1 April 1978, Great Britain",
   "died": null,
   "species": "Human",
-  "height": "Under 5″9″",
+  "height": "Under 5'9'",
   "weight": null,
   "hair_color": "Red",
   "eye_color": null,
@@ -22,8 +22,12 @@
     "Harry Potter (under disguise of Polyjuice)",
     "Tentacula (Potterwatch)"
   ],
-  "jobs": ["Co-Owner of Weasleys' Wizard Wheezes"],
-  "titles": ["Beater"],
+  "jobs": [
+    "Co-Owner of Weasleys' Wizard Wheezes"
+  ],
+  "titles": [
+    "Beater"
+  ],
   "family_members": [
     "Arthur Weasley (father)",
     "Molly Weasley (mother) (née Prewett)",
@@ -68,8 +72,12 @@
     "House of Black (distant relatives)",
     "Johnson family (in-laws)"
   ],
-  "romances": ["Angelina Weasley (née Johnson) (wife)"],
-  "wands": ["Unknown length, wood and core"],
+  "romances": [
+    "Angelina Weasley (née Johnson) (wife)"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/2/2a/DH_promo_front_closeup_George_Weasley.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/George_Weasley"
 }

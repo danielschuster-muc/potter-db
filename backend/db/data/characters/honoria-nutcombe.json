@@ -16,8 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Honouria Nutcombe"],
-  "jobs": ["Philanthropist"],
+  "alias_names": [
+    "Honouria Nutcombe"
+  ],
+  "jobs": [
+    "Philanthropist"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

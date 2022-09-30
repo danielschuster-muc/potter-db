@@ -18,8 +18,13 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": ["Madam"],
-  "family_members": ["Prudence (sister)", "Edward Rabnott (possibly)"],
+  "titles": [
+    "Madam"
+  ],
+  "family_members": [
+    "Prudence (sister)",
+    "Edward Rabnott (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

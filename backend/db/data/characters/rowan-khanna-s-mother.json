@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Farmer"],
+  "jobs": [
+    "Farmer"
+  ],
   "titles": null,
   "family_members": [
     "brother or brother-in-law",

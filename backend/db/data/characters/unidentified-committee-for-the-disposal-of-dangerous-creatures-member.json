@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Member of the Committee for the Disposal of Dangerous Creatures"],
+  "jobs": [
+    "Member of the Committee for the Disposal of Dangerous Creatures"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

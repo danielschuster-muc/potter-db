@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Campsite manager"],
+  "jobs": [
+    "Campsite manager"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

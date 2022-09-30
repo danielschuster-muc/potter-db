@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Artefact smuggler"],
+  "jobs": [
+    "Artefact smuggler"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

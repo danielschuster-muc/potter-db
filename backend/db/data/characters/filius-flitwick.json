@@ -30,9 +30,15 @@
     "Head of Ravenclaw House",
     "Duelling Champion (formerly)"
   ],
-  "family_members": ["Goblin ancestor"],
-  "romances": ["Pomona Sprout (ex-girlfriend)"],
-  "wands": ["Unknown length, wood and core"],
+  "family_members": [
+    "Goblin ancestor"
+  ],
+  "romances": [
+    "Pomona Sprout (ex-girlfriend)"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/4/4b/Flitwickarmourbattle.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Filius_Flitwick"
 }

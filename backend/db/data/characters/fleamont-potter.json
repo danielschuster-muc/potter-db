@@ -17,7 +17,10 @@
   "house": "Gryffindor",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Potioneer", "Businessman (formerly)"],
+  "jobs": [
+    "Potioneer",
+    "Businessman (formerly)"
+  ],
   "titles": null,
   "family_members": [
     "Henry Potter (father) †",
@@ -40,7 +43,9 @@
     "Evans family (in-laws)",
     "Weasley family (in-laws)"
   ],
-  "romances": ["Euphemia Potter (wife) †"],
+  "romances": [
+    "Euphemia Potter (wife) †"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/7/73/Fleamont_Potter.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Fleamont_Potter"

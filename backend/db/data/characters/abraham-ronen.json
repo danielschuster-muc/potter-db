@@ -1,0 +1,29 @@
+{
+  "name": "Abraham Ronen",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": "6'1'",
+  "weight": null,
+  "hair_color": "Grey",
+  "eye_color": null,
+  "skin_color": "Light",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": null,
+  "house": "Slytherin",
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Professor of Charms at Hogwarts School of Witchcraft and Wizardry"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ee/Abraham_Ronen.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Abraham_Ronen"
+}

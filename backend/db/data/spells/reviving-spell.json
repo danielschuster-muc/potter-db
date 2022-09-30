@@ -1,10 +1,10 @@
 {
   "slug": "reviving-spell",
   "name": "Reviving Spell",
-  "incantation": "Rennervate (RENN-a-vate)",
+  "incantation": "Rennervate (REN-ner-VAH-tay)",
   "category": "Charm",
   "effect": "Awakened target from unconsciousness",
-  "light": "Red",
+  "light": "Red or none",
   "hand": "Point wand at chest",
   "creator": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/8/8c/Revive_Charm_WU.png",

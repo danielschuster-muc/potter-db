@@ -16,7 +16,9 @@
   "boggart": null,
   "house": "Slytherin",
   "patronus": null,
-  "alias_names": ["Dromeda (by Ted Tonks)"],
+  "alias_names": [
+    "Dromeda (by Ted Tonks)"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -48,7 +50,9 @@
     "Bulstrode family (paternal ancestors)",
     "Flint family (paternal ancestors)"
   ],
-  "romances": ["Edward Tonks (husband) †"],
+  "romances": [
+    "Edward Tonks (husband) †"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c2/Andromeda_Tonks_%28Jessica_Roux%29.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Andromeda_Tonks"

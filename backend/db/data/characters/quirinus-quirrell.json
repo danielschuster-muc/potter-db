@@ -1,7 +1,7 @@
 {
   "name": "Quirinus Quirrell",
   "gender": "Male",
-  "born": "26 September,1967 or earlier",
+  "born": "26 September, 1967 or earlier",
   "died": "4 June 1992, Underground Chambers, Hogwarts Castle, Highlands, Scotland",
   "species": "Human",
   "height": null,
@@ -21,10 +21,14 @@
     "Professor of Muggle Studies at Hogwarts School of Witchcraft and Wizardry (?-1990)",
     "Professor of Defence Against the Dark Arts at Hogwarts School of Witchcraft and Wizardry (1991-1992)"
   ],
-  "titles": ["Professor"],
+  "titles": [
+    "Professor"
+  ],
   "family_members": null,
   "romances": null,
-  "wands": ["9″, Alder, unicorn hair, bendy"],
+  "wands": [
+    "9', Alder, unicorn hair, bendy"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d2/Quirinus_Quirrell_PS_promo.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Quirinus_Quirrell"
 }

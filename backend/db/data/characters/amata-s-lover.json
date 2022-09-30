@@ -20,7 +20,9 @@
   "jobs": null,
   "titles": null,
   "family_members": null,
-  "romances": ["Amata (formerly)"],
+  "romances": [
+    "Amata (formerly)"
+  ],
   "wands": null,
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Amata's_lover"

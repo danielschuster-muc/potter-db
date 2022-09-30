@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Poet"],
+  "jobs": [
+    "Poet"
+  ],
   "titles": null,
   "family_members": [
     "Robert McGonagall Snr (possibly)",

@@ -22,7 +22,10 @@
     "Leader of the Statute of Secrecy Task Force",
     "Leader of The Unforgivable"
   ],
-  "titles": ["Prefect", "Junior Undersecretary"],
+  "titles": [
+    "Prefect",
+    "Junior Undersecretary"
+  ],
   "family_members": [
     "Mother",
     "Older brother",
@@ -33,7 +36,9 @@
     "Grandfather",
     "Pickering family"
   ],
-  "romances": ["Lucas Sparrowvale (boyfriend)"],
+  "romances": [
+    "Lucas Sparrowvale (boyfriend)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/b/bd/Constance_Pickering.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Constance_Pickering"

@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Port Authority official"],
+  "jobs": [
+    "Port Authority official"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

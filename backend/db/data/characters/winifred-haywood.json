@@ -16,14 +16,19 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Gran", "Granny Haywood"],
-  "jobs": null,
+  "alias_names": [
+    "Gran",
+    "Granny Haywood"
+  ],
+  "jobs": [
+    "Potioneer"
+  ],
   "titles": null,
   "family_members": [
     "Penny Haywood (granddaughter)",
     "Beatrice Haywood (granddaughter)",
-    "Son",
-    "Daughter-in-law",
+    "Son or son-in-law",
+    "Daughter or daughter-in-law",
     "Haywood family"
   ],
   "romances": null,

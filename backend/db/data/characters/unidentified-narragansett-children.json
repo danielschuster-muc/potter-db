@@ -19,9 +19,13 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": ["Mother"],
+  "family_members": [
+    "Mother"
+  ],
   "romances": null,
-  "wands": ["Unknown lengths, woods and cores"],
+  "wands": [
+    "Unknown lengths, woods and cores"
+  ],
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Narragansett_children"
 }

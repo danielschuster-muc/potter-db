@@ -16,9 +16,15 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Hairy Cyril"],
-  "jobs": ["Feudal Noble"],
-  "titles": ["Earl"],
+  "alias_names": [
+    "Hairy Cyril"
+  ],
+  "jobs": [
+    "Feudal Noble"
+  ],
+  "titles": [
+    "Earl"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

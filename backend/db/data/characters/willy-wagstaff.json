@@ -16,8 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["'Honest' Willy"],
-  "jobs": ["Street vendor in Diagon Alley"],
+  "alias_names": [
+    "'Honest' Willy"
+  ],
+  "jobs": [
+    "Street vendor in Diagon Alley"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

@@ -17,7 +17,9 @@
   "house": "Gryffindor (possibly)",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Etiquette teacher"],
+  "jobs": [
+    "Etiquette teacher"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

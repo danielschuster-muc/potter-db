@@ -16,7 +16,9 @@
   "boggart": null,
   "house": "Hufflepuff",
   "patronus": null,
-  "alias_names": ["Barghest (possibly)"],
+  "alias_names": [
+    "Barghest (possibly)"
+  ],
   "jobs": [
     "Research assistant in the Department of Magical Law Enforcement (formerly)",
     "Unspeakable"

@@ -17,9 +17,13 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Artist"],
+  "jobs": [
+    "Artist"
+  ],
   "titles": null,
-  "family_members": ["Lucy Crane (sister)"],
+  "family_members": [
+    "Lucy Crane (sister)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

@@ -16,8 +16,13 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": null,
-  "jobs": ["Trader"],
+  "alias_names": [
+    "Forbidden Forest Merchant",
+    "Black Market Merchant"
+  ],
+  "jobs": [
+    "Trader"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

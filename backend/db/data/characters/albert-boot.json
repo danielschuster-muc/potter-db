@@ -17,9 +17,15 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["British Minister for Magic (1747 - 1752)"],
-  "titles": ["Minister for Magic"],
-  "family_members": ["Boot family"],
+  "jobs": [
+    "British Minister for Magic (1747 - 1752)"
+  ],
+  "titles": [
+    "Minister for Magic"
+  ],
+  "family_members": [
+    "Boot family"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

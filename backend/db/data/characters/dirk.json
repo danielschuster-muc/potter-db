@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["'Dodgy' Dirk"],
+  "alias_names": [
+    "'Dodgy' Dirk"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

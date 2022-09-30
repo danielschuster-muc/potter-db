@@ -17,8 +17,12 @@
   "house": "Slytherin",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Dragonologist"],
-  "titles": ["Prefect"],
+  "jobs": [
+    "Dragonologist"
+  ],
+  "titles": [
+    "Prefect"
+  ],
   "family_members": [
     "Father",
     "Evan Rosier (possible relative)",

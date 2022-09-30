@@ -16,17 +16,26 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Lally"],
-  "jobs": ["Charms professor at Ilvermorny", "Author"],
-  "titles": ["Professor", "Keeper of the Keys"],
+  "alias_names": [
+    "Lally"
+  ],
+  "jobs": [
+    "Charms professor at Ilvermorny",
+    "Author"
+  ],
+  "titles": [
+    "Professor",
+    "Keeper of the Keys"
+  ],
   "family_members": [
     "Grandmother",
     "Stanley (cousin)",
-    "Ancestors",
     "Hicks family"
   ],
   "romances": null,
-  "wands": ["African rosewood, African mermaid hair, unknown length"],
+  "wands": [
+    "African rosewood, African mermaid hair, unknown length"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/6/62/Eulalie_Hicks_SODM.jpeg",
   "wiki": "https://harrypotter.fandom.com/wiki/Eulalie_Hicks"
 }

@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Head of the Auror Office (formerly)"],
+  "jobs": [
+    "Head of the Auror Office (formerly)"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

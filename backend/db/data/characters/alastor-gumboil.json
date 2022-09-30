@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Hit Wizard"],
+  "jobs": [
+    "Hit Wizard"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

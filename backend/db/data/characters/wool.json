@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Owner of Wool's Orphanage"],
-  "titles": ["Owner of Wool's Orphanage"],
+  "jobs": [
+    "Owner of Wool's Orphanage"
+  ],
+  "titles": [
+    "Owner of Wool's Orphanage"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

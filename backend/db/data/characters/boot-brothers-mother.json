@@ -29,7 +29,9 @@
     "Boot family"
   ],
   "romances": null,
-  "wands": ["Unknown wood, unknown length, unicorn hair"],
+  "wands": [
+    "Unknown wood, unknown length, unicorn hair"
+  ],
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Boot_brothers'_mother"
 }

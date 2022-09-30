@@ -1,0 +1,29 @@
+{
+  "name": "John Joseph Merlin",
+  "gender": "Male",
+  "born": "1735",
+  "died": "1803",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Muggle",
+  "marital_status": null,
+  "nationality": "Belgian",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Inventor"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/John_Joseph_Merlin"
+}

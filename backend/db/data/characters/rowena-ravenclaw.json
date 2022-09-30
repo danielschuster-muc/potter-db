@@ -21,8 +21,13 @@
     "Founder of Hogwarts School of Witchcraft and Wizardry",
     "Professor at Hogwarts School of Witchcraft and Wizardry"
   ],
-  "titles": ["Founder"],
-  "family_members": ["Helena Ravenclaw (daughter) †", "Ravenclaw family"],
+  "titles": [
+    "Founder"
+  ],
+  "family_members": [
+    "Helena Ravenclaw (daughter) †",
+    "Ravenclaw family"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1c/PM_RowenaRavenclaw_Founders.jpg",

@@ -1,0 +1,29 @@
+{
+  "name": "Magical minister",
+  "gender": null,
+  "born": "Before 1932",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Magical minister"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_magical_minister"
+}

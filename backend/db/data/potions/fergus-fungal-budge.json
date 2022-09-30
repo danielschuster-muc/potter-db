@@ -1,7 +1,7 @@
 {
   "name": "Fergus Fungal Budge",
   "effect": "Treats ringworm, fungicide",
-  "side_effects": null,
+  "side_effects": "Potential negative side effects if used by elves",
   "characteristics": null,
   "time": null,
   "difficulty": null,

@@ -1,0 +1,34 @@
+{
+  "name": "Ambrose Turner",
+  "gender": "Male",
+  "born": null,
+  "died": "Between 1996 and 2009",
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Brown",
+  "eye_color": "Brown",
+  "skin_color": "Light",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": null,
+  "animagus": "Butterfly",
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Artist"
+  ],
+  "titles": null,
+  "family_members": [
+    "Lottie Turner (daughter)",
+    "Marcus Turner (possibly)",
+    "Darrel Turner (possibly)",
+    "Turner family"
+  ],
+  "romances": null,
+  "wands": null,
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/30/Lottie_Turner%27s_father_MA.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Ambrose_Turner"
+}

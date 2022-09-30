@@ -21,7 +21,9 @@
     "Seeker for the Tutshill Tornados (formerly)",
     "Seeker for the English National Quidditch team"
   ],
-  "titles": ["Seeker"],
+  "titles": [
+    "Seeker"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

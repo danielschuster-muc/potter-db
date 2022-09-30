@@ -4,7 +4,7 @@
   "born": "21 January – 18 February",
   "died": null,
   "species": "Human",
-  "height": "5″ 10″",
+  "height": "5' 10'",
   "weight": null,
   "hair_color": "Blonde",
   "eye_color": "Green",
@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Worker in the Runes & Symbols department of the Ministry of Magic"],
+  "jobs": [
+    "Worker in the Runes & Symbols department of the Ministry of Magic"
+  ],
   "titles": null,
   "family_members": [
     "M. Mina (possibly)",

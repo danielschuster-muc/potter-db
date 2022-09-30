@@ -21,7 +21,9 @@
     "Professor of Dark Arts at Hogwarts (1997 - 1998)",
     "Deputy Headmaster (1997 - 1998)"
   ],
-  "titles": ["Professor"],
+  "titles": [
+    "Professor"
+  ],
   "family_members": [
     "Alecto Carrow (sister)",
     "Carrow (possible relative)",
@@ -30,7 +32,9 @@
     "Carrow family"
   ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/9/97/Amycus_Carrow_PM.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Amycus_Carrow"
 }

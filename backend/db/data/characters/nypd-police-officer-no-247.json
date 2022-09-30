@@ -16,8 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["No. 247"],
-  "jobs": ["Policeman for the New York Police Department"],
+  "alias_names": [
+    "No. 247"
+  ],
+  "jobs": [
+    "Policeman for the New York Police Department"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

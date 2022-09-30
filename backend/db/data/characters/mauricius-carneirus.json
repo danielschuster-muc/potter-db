@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Pick-up guru", "Author"],
+  "jobs": [
+    "Pick-up guru",
+    "Author"
+  ],
   "titles": null,
-  "family_members": ["Carneirus family"],
+  "family_members": [
+    "Carneirus family"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

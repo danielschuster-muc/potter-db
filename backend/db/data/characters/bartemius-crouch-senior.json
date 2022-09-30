@@ -16,7 +16,9 @@
   "boggart": "Lord Voldemort",
   "house": null,
   "patronus": "Non-corporeal",
-  "alias_names": ["Barty"],
+  "alias_names": [
+    "Barty"
+  ],
   "jobs": [
     "Head of the Department of Magical Law Enforcement (?–after 1981)",
     "Head of the Department of International Magical Co-operation (1990–1995)"
@@ -45,7 +47,9 @@
     "House of Black (possibly)"
   ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/3/37/Barty_Crouch_Senior_GOFF_promo.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Bartemius_Crouch_Senior"
 }

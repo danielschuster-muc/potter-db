@@ -1,0 +1,37 @@
+{
+  "name": "Todd Cribb",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Black",
+  "eye_color": "Grey",
+  "skin_color": "Light",
+  "blood_status": null,
+  "marital_status": "Married",
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": [
+    "Prospero"
+  ],
+  "jobs": [
+    "Con artist"
+  ],
+  "titles": null,
+  "family_members": [
+    "Corrine Cribb (wife)"
+  ],
+  "romances": [
+    "Corrine Cribb (wife)"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/45/Todd_Cribb_HM.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Todd_Cribb"
+}

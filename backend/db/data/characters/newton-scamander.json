@@ -4,7 +4,7 @@
   "born": "24 February 1897, England",
   "died": null,
   "species": "Human",
-  "height": "6″1″",
+  "height": "6'1'",
   "weight": "161 lbs",
   "hair_color": "Brown",
   "eye_color": "Hazel",
@@ -27,6 +27,7 @@
   ],
   "titles": null,
   "family_members": [
+    "Mr Scamander (father)",
     "Mrs Scamander (mother)",
     "Theseus Scamander (brother)",
     "Porpentina Goldstein (wife)",
@@ -42,8 +43,12 @@
     "Scamander family",
     "Goldstein family (in-laws)"
   ],
-  "romances": ["Porpentina Goldstein"],
-  "wands": ["Unknown length, wood and core"],
+  "romances": [
+    "Porpentina Goldstein"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/3/36/Newton_Scamander_Profile_crop.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Newton_Scamander"
 }

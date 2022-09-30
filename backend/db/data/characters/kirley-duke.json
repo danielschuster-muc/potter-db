@@ -1,7 +1,7 @@
 {
   "name": "Kirley Duke McCormack",
   "gender": "Male",
-  "born": "1971",
+  "born": "Between 1 September and 31 December, 1971",
   "died": null,
   "species": "Human",
   "height": null,
@@ -11,13 +11,15 @@
   "skin_color": null,
   "blood_status": "Half-blood or Pure-blood",
   "marital_status": null,
-  "nationality": "British or Irish",
+  "nationality": "British",
   "animagus": null,
   "boggart": "Lord Voldemort",
   "house": null,
   "patronus": "Non-corporeal",
   "alias_names": null,
-  "jobs": ["Lead guitarist for The Weird Sisters"],
+  "jobs": [
+    "Lead guitarist for The Weird Sisters"
+  ],
   "titles": null,
   "family_members": [
     "Catriona McCormack (mother)",

@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Reporter for the No-Maj Bureau of The New York Ghost"],
+  "jobs": [
+    "Reporter for the No-Maj Bureau of The New York Ghost"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

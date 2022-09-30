@@ -21,7 +21,9 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e5/Ravenclaw_Boy_II.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Ravenclaw_boy_(II)"
 }

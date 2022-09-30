@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Guardian of the enchanted garden"],
+  "jobs": [
+    "Guardian of the enchanted garden"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

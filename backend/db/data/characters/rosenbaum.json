@@ -21,7 +21,9 @@
     "Author of Rosenbaum's Motorcycle Owner's Manual",
     "Owner of Rosenbaum's"
   ],
-  "titles": ["Author"],
+  "titles": [
+    "Author"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

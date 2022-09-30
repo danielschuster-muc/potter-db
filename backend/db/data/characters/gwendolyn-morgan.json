@@ -17,9 +17,15 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Professional Quidditch player for the Holyhead Harpies"],
-  "titles": ["Quidditch Captain"],
-  "family_members": ["Valmai Morgan (possibly)"],
+  "jobs": [
+    "Professional Quidditch player for the Holyhead Harpies"
+  ],
+  "titles": [
+    "Quidditch Captain"
+  ],
+  "family_members": [
+    "Valmai Morgan (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c0/Gwen_Morgan.png",

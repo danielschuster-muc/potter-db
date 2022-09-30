@@ -48,11 +48,13 @@
     "Mr Potter (paternal first cousin) †",
     "House of Black",
     "Crabbe family (maternal family)",
-    "Rosier family (in-laws)",
-    "Bulstrode family (maternal relatives)",
-    "Flint family (maternal ancestors)"
+    "Bulstrode family (paternal relatives)",
+    "Flint family (paternal ancestors)",
+    "Rosier family (in-laws)"
   ],
-  "romances": ["Druella Black (wife) †"],
+  "romances": [
+    "Druella Black (wife) †"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e0/Cygnus_Black_1938-1992.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Cygnus_Black_III"

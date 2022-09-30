@@ -18,7 +18,9 @@
   "patronus": "Swan",
   "alias_names": null,
   "jobs": null,
-  "titles": ["Seeker"],
+  "titles": [
+    "Seeker"
+  ],
   "family_members": [
     "Mr Chang (father)",
     "Mrs Chang (mother)",
@@ -31,7 +33,9 @@
     "Roger Davies (ex-boyfriend)",
     "Michael Corner (ex-boyfriend)"
   ],
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1e/Cho_Chang.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Cho_Chang"
 }

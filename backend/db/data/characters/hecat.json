@@ -1,0 +1,29 @@
+{
+  "name": "Hecat",
+  "gender": "Female",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Grey",
+  "eye_color": null,
+  "skin_color": "Light",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Professor of Defence Against the Dark Arts at Hogwarts School of Witchcraft and Wizardry"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/d/da/Professor_Hecat_HL.jpeg",
+  "wiki": "https://harrypotter.fandom.com/wiki/Hecat"
+}

@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Rhythm guitarist for the Weird Sisters"],
+  "jobs": [
+    "Rhythm guitarist for the Weird Sisters"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

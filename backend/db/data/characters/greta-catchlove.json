@@ -16,8 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Gerda Curd (possibly)"],
-  "jobs": ["Author"],
+  "alias_names": [
+    "Gerda Curd (possibly)"
+  ],
+  "jobs": [
+    "Author"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

@@ -6,9 +6,9 @@
   "species": "Human",
   "height": null,
   "weight": null,
-  "hair_color": null,
-  "eye_color": null,
-  "skin_color": null,
+  "hair_color": "Black",
+  "eye_color": "Black",
+  "skin_color": "Light",
   "blood_status": null,
   "marital_status": null,
   "nationality": null,
@@ -22,6 +22,6 @@
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image": null,
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/ca/Harold_MA.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Harold"
 }

@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Opera singer (apparently)"],
+  "jobs": [
+    "Opera singer (apparently)"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

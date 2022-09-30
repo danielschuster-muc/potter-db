@@ -20,7 +20,9 @@
   "jobs": null,
   "titles": null,
   "family_members": null,
-  "romances": ["Tom Riddle"],
+  "romances": [
+    "Tom Riddle"
+  ],
   "wands": null,
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Cecilia"

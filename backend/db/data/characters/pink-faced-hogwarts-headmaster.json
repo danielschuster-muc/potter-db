@@ -20,10 +20,15 @@
   "jobs": [
     "Headmaster of Hogwarts School of Witchcraft and Wizardry (formerly)"
   ],
-  "titles": ["Professor", "Headmaster"],
+  "titles": [
+    "Professor",
+    "Headmaster"
+  ],
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/3/3c/Unidentified_Headmaster1.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Pink-faced_Hogwarts_Headmaster"
 }

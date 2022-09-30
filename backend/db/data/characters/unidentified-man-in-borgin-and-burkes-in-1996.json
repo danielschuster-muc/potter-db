@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Shop assistant in Borgin and Burkes"],
+  "jobs": [
+    "Shop assistant in Borgin and Burkes"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

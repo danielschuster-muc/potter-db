@@ -20,7 +20,10 @@
   "jobs": [
     "Head of Hogwarts School of Witchcraft and Wizardry (1792 or earlier -?)"
   ],
-  "titles": ["Professor", "Headteacher"],
+  "titles": [
+    "Professor",
+    "Headteacher"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

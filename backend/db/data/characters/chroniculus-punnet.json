@@ -17,7 +17,10 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Historian", "Author"],
+  "jobs": [
+    "Historian",
+    "Author"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

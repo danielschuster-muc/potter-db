@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Mona Lisa"],
+  "alias_names": [
+    "Mona Lisa"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

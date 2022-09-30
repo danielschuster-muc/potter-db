@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Manager of the German National Quidditch team"],
+  "jobs": [
+    "Manager of the German National Quidditch team"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

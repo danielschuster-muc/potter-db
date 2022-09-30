@@ -1,7 +1,7 @@
 {
   "name": "Calming Draught",
   "effect": "Calms the drinker",
-  "side_effects": null,
+  "side_effects": "Unpleasant results if consumed by certain animals, Burning mouth sensation, watery eyes or uncontrollable sobbing if too much peppermint oil added",
   "characteristics": "Blue in colour",
   "time": null,
   "difficulty": "Moderate to Advanced",

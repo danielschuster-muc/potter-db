@@ -1,0 +1,29 @@
+{
+  "name": "Unidentified German Auror",
+  "gender": "Male",
+  "born": "Before 1932",
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "German",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Auror"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c6/Tall_Auror_SOD.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_German_Auror"
+}

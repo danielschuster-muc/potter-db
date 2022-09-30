@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Professor of Defence Against the Dark Arts (1984–1985)"],
-  "titles": ["Professor"],
+  "jobs": [
+    "Professor of Defence Against the Dark Arts (1984–1985)"
+  ],
+  "titles": [
+    "Professor"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

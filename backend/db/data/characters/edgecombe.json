@@ -17,9 +17,16 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Floo Network Regulator"],
-  "titles": ["Madam"],
-  "family_members": ["Mr Edgecombe (husband)", "Marietta Edgecombe (daughter)"],
+  "jobs": [
+    "Floo Network Regulator"
+  ],
+  "titles": [
+    "Madam"
+  ],
+  "family_members": [
+    "Mr Edgecombe (husband)",
+    "Marietta Edgecombe (daughter)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

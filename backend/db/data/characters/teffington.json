@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Guard at Gringotts Wizarding Bank"],
-  "titles": ["Gringotts Bank guard"],
+  "jobs": [
+    "Guard at Gringotts Wizarding Bank"
+  ],
+  "titles": [
+    "Gringotts Bank guard"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

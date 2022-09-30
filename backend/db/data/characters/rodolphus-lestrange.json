@@ -39,7 +39,9 @@
     "Lestrange family",
     "House of Black (in-laws)"
   ],
-  "romances": ["Bellatrix Lestrange (wife)"],
+  "romances": [
+    "Bellatrix Lestrange (wife)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/4/44/RodolphusLestrangeAzkaban.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Rodolphus_Lestrange"

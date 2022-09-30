@@ -46,8 +46,12 @@
     "Lestrange family",
     "Kama family"
   ],
-  "romances": ["Theseus Scamander (fiancé)"],
-  "wands": ["Unknown length, Ebony, unknown core"],
+  "romances": [
+    "Theseus Scamander (fiancé)"
+  ],
+  "wands": [
+    "Unknown length, Ebony, unknown core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/8/85/Leta_Profile.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Leta_Lestrange"
 }

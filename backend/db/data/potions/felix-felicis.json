@@ -1,7 +1,7 @@
 {
   "name": "Felix Felicis",
   "effect": "Makes the drinker lucky",
-  "side_effects": null,
+  "side_effects": "Giddiness and recklessness with overuse, Extremely toxic in large quantities, Highly disastrous if brewed incorrectly",
   "characteristics": "Molten gold in colour, Droplets leap like goldfish above potion's surface when in cauldron",
   "time": "Six months",
   "difficulty": "Advanced",

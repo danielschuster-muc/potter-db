@@ -20,9 +20,15 @@
     "'Fungus-face' (by his mother)",
     "The Hermit of Hermetray (by his neighbour on the Isle of Harris)"
   ],
-  "jobs": ["Author", "Potioneer"],
+  "jobs": [
+    "Author",
+    "Potioneer"
+  ],
   "titles": null,
-  "family_members": ["Mrs Budge (mother)", "Great-grandmother"],
+  "family_members": [
+    "Mrs Budge (mother)",
+    "Great-grandmother"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/3/3a/ZygmuntBudgeConceptArt.png",

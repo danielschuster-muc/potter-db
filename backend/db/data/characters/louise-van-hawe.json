@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Theatre producer (presumably)"],
+  "jobs": [
+    "Theatre producer (presumably)"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

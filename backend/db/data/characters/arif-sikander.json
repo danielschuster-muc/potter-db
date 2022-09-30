@@ -20,10 +20,14 @@
   "jobs": [
     "Muggle Studies Professor at Hogwarts School of Witchcraft and Wizardry (1990–1991 school year)"
   ],
-  "titles": ["Professor"],
+  "titles": [
+    "Professor"
+  ],
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/6/69/Arif_Sikander.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Arif_Sikander"
 }

@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Ted (by family and friends)"],
+  "alias_names": [
+    "Ted (by family and friends)"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": [

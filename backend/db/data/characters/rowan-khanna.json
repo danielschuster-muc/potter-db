@@ -1,7 +1,7 @@
 {
   "name": "Rowan Khanna",
   "gender": null,
-  "born": "December 1972, Aldershot, Hampshire, England, Great Britain",
+  "born": "December 1972, Great Britain",
   "died": "1990 (aged 17), Forest Grove, Forbidden Forest, Hogwarts grounds, Highlands, Scotland, Great Britain",
   "species": "Human",
   "height": null,
@@ -16,7 +16,9 @@
   "boggart": "Failure",
   "house": null,
   "patronus": null,
-  "alias_names": ["Mr/Miss Connor (by Cuthbert Binns)"],
+  "alias_names": [
+    "Mr/Miss Connor (by Cuthbert Binns)"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": [

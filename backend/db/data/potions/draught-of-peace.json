@@ -1,7 +1,7 @@
 {
   "name": "Draught of Peace",
   "effect": "Relieved anxiety",
-  "side_effects": null,
+  "side_effects": "Overdoing the ingredients may have resulted in a long or irreversible sleep",
   "characteristics": "Emitted light silver vapour",
   "time": "90 minutes",
   "difficulty": "Advanced",

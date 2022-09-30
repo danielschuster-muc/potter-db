@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Professor of the Study of Ancient Runes (before 1993 - ?)"],
-  "titles": ["Professor"],
+  "jobs": [
+    "Professor of the Study of Ancient Runes (before 1993 - ?)"
+  ],
+  "titles": [
+    "Professor"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

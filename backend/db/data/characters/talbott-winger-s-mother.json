@@ -17,10 +17,18 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Healer"],
+  "jobs": [
+    "Healer"
+  ],
   "titles": null,
-  "family_members": ["Husband †", "Talbott Winger (son)", "Winger family"],
-  "romances": ["Husband †"],
+  "family_members": [
+    "Husband †",
+    "Talbott Winger (son)",
+    "Winger family"
+  ],
+  "romances": [
+    "Husband †"
+  ],
   "wands": null,
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Talbott_Winger's_mother"

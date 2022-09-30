@@ -8,7 +8,7 @@
   "weight": null,
   "hair_color": "Brown",
   "eye_color": "Green",
-  "skin_color": null,
+  "skin_color": "Tanned",
   "blood_status": null,
   "marital_status": null,
   "nationality": "British or Irish",
@@ -16,10 +16,19 @@
   "boggart": null,
   "house": "Ravenclaw",
   "patronus": null,
-  "alias_names": ["Liv (by Jacob)"],
-  "jobs": ["Defence Against the Dark Arts professor (1990–1991 school year)"],
-  "titles": ["Professor"],
-  "family_members": ["Robert Green (possibly)"],
+  "alias_names": [
+    "Liv (by Jacob)"
+  ],
+  "jobs": [
+    "Unspeakable (formerly)",
+    "Defence Against the Dark Arts professor (1990–1991 school year)"
+  ],
+  "titles": [
+    "Professor"
+  ],
+  "family_members": [
+    "Robert Green (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7c/Professor_Olivia_Green.png",

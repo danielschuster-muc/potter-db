@@ -27,7 +27,7 @@ const Meta = ({ title, description, image }) => {
 };
 
 Meta.defaultProps = {
-  title: "Potter DB",
+  title: "Home",
   description:
     "Harry Potter Database for information about characters, books, movies, spells, potions and much more! - Data based on the Harry Potter Wiki",
   image: "",

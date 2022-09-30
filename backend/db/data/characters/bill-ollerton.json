@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Broom-maker"],
+  "jobs": [
+    "Broom-maker"
+  ],
   "titles": null,
   "family_members": [
     "Barnaby Ollerton (brother)",

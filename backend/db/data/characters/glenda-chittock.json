@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Host of Witching Hour on the Wizarding Wireless Network"],
+  "jobs": [
+    "Host of Witching Hour on the Wizarding Wireless Network"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

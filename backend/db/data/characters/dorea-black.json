@@ -6,7 +6,7 @@
   "species": "Human",
   "height": null,
   "weight": null,
-  "hair_color": "Blonde",
+  "hair_color": null,
   "eye_color": null,
   "skin_color": "Light",
   "blood_status": "Pure-blood",
@@ -54,7 +54,9 @@
     "Bulstrode family (maternal family)",
     "Potter family"
   ],
-  "romances": ["Charlus Potter (husband)"],
+  "romances": [
+    "Charlus Potter (husband)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/5/50/Dorea_Black_5.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Dorea_Black"

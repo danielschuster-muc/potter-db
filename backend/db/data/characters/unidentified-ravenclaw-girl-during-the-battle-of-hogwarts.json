@@ -21,7 +21,9 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/1/16/Imagesdfg.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Ravenclaw_girl_during_the_Battle_of_Hogwarts"
 }

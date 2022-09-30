@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Queen of the Black Lake Selkie Colony"],
-  "titles": ["Merqueen"],
+  "jobs": [
+    "Queen of the Black Lake Selkie Colony"
+  ],
+  "titles": [
+    "Merqueen"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

@@ -20,12 +20,14 @@
   "jobs": null,
   "titles": null,
   "family_members": [
-    "Scamander family",
-    "Scamander brothers' mother (presumably wife)",
+    "Scamander brothers' mother (wife, most likely)",
     "Newton Scamander (son)",
-    "Theseus Scamander (son)"
+    "Theseus Scamander (son)",
+    "Scamander family"
   ],
-  "romances": ["Scamander brothers' mother (presumably)"],
+  "romances": [
+    "Scamander brothers' mother"
+  ],
   "wands": null,
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Scamander_brothers'_father"

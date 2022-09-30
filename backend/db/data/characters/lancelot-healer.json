@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Healer"],
+  "jobs": [
+    "Healer"
+  ],
   "titles": null,
-  "family_members": ["Muriel (cousin)", "Aunt"],
+  "family_members": [
+    "Muriel (cousin)",
+    "Aunt"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/6/61/HealerLancelot.png",

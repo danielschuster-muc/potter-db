@@ -17,11 +17,15 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Snatcher"],
+  "jobs": [
+    "Snatcher"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown"],
+  "wands": [
+    "Unknown"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c1/Mike_Gentry.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_male_Snatcher_during_the_Battle_of_Hogwarts"
 }

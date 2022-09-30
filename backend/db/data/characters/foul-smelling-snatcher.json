@@ -17,11 +17,15 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Snatcher"],
+  "jobs": [
+    "Snatcher"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["10″, blackthorn, unknown core materials (formerly)"],
+  "wands": [
+    "10', blackthorn, unknown core materials (formerly)"
+  ],
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Foul-smelling_Snatcher"
 }

@@ -17,7 +17,9 @@
   "house": "Gryffindor (possibly)",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Poet"],
+  "jobs": [
+    "Poet"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

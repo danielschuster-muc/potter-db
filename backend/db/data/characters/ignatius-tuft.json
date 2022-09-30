@@ -17,9 +17,15 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Minister for Magic (1959-1962)"],
-  "titles": ["Minister for Magic"],
-  "family_members": ["Wilhelmina Tuft (mother)"],
+  "jobs": [
+    "Minister for Magic (1959-1962)"
+  ],
+  "titles": [
+    "Minister for Magic"
+  ],
+  "family_members": [
+    "Wilhelmina Tuft (mother)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

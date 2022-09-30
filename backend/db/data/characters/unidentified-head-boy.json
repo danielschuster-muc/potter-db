@@ -20,7 +20,9 @@
   "jobs": null,
   "titles": null,
   "family_members": null,
-  "romances": ["Unidentified Head Girl"],
+  "romances": [
+    "Unidentified Head Girl"
+  ],
   "wands": null,
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_Head_Boy"

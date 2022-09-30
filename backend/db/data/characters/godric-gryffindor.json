@@ -21,7 +21,9 @@
     "Teacher at Hogwarts School of Witchcraft and Wizardry",
     "Founder of Hogwarts School of Witchcraft and Wizardry"
   ],
-  "titles": ["Founder"],
+  "titles": [
+    "Founder"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

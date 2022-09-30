@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Actor"],
+  "jobs": [
+    "Actor"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

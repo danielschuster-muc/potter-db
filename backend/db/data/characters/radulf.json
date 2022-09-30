@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Blacksmith"],
-  "titles": ["Catcher"],
+  "jobs": [
+    "Blacksmith"
+  ],
+  "titles": [
+    "Catcher"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

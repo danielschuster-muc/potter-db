@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["President of the United States of America"],
+  "jobs": [
+    "President of the United States of America"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

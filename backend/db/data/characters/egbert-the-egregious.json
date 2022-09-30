@@ -21,7 +21,9 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["15″, Elder, Thestral tail hair core"],
+  "wands": [
+    "15', Elder, Thestral tail hair core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/5/5f/Egbert_the_Egregious.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Egbert_the_Egregious"
 }

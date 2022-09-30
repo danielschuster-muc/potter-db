@@ -17,7 +17,10 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Potioneer", "Author"],
+  "jobs": [
+    "Potioneer",
+    "Author"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

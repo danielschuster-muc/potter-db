@@ -1,7 +1,7 @@
 {
   "name": "Wolfsbane Potion",
   "effect": "Allowed werewolves to keep their minds post-transformation",
-  "side_effects": null,
+  "side_effects": "Harmful side effects to health if potion tampered with",
   "characteristics": "Blue smoke, Unpleasant taste, Rendered useless with sugar",
   "time": null,
   "difficulty": "Advanced",

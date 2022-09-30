@@ -16,10 +16,18 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Pick"],
+  "alias_names": [
+    "Pick"
+  ],
   "jobs": null,
   "titles": null,
-  "family_members": ["Titus", "Finn", "Poppy", "Marlow", "Tom"],
+  "family_members": [
+    "Titus",
+    "Finn",
+    "Poppy",
+    "Marlow",
+    "Tom"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/d/df/Pickett.jpeg",

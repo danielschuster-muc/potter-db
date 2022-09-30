@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Minister for Magic"],
+  "jobs": [
+    "Minister for Magic"
+  ],
   "titles": null,
   "family_members": [
     "Amos Diggory (possible descendant)",
@@ -25,7 +27,9 @@
     "Diggory family"
   ],
   "romances": null,
-  "wands": ["Unknown length, Poplar, unknown core"],
+  "wands": [
+    "Unknown length, Poplar, unknown core"
+  ],
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Eldritch_Diggory"
 }

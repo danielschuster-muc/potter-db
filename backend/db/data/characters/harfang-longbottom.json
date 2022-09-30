@@ -43,7 +43,9 @@
     "Longbottom family",
     "House of Black (in-laws)"
   ],
-  "romances": ["Callidora Longbottom (wife)"],
+  "romances": [
+    "Callidora Longbottom (wife)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/d/de/Harfang.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Harfang_Longbottom"

@@ -17,10 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Landlady"],
+  "jobs": [
+    "Landlady"
+  ],
   "titles": null,
   "family_members": null,
-  "romances": ["Janus Thickey"],
+  "romances": [
+    "Janus Thickey"
+  ],
   "wands": null,
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Landlady_of_the_Green_Dragon"

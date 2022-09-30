@@ -68,8 +68,12 @@
     "Flint family (maternal ancestors)",
     "Peverell family (paternal ancestors)"
   ],
-  "romances": ["Delphini (former crush)"],
-  "wands": ["Cherry, Unknown length and core"],
+  "romances": [
+    "Delphini (former crush)"
+  ],
+  "wands": [
+    "Cherry, Unknown length and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/8/8a/Albus_Potter_%28HPCC%29.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Albus_Potter"
 }

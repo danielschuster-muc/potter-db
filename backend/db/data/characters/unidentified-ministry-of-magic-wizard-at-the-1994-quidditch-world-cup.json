@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Security at the Quidditch World Cup"],
+  "jobs": [
+    "Security at the Quidditch World Cup"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

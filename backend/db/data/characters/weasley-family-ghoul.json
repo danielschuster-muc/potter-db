@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Ronald Weasley"],
+  "alias_names": [
+    "Ronald Weasley"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

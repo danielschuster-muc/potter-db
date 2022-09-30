@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Archivist of the French Ministry of Magic Records Room"],
+  "jobs": [
+    "Archivist of the French Ministry of Magic Records Room"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

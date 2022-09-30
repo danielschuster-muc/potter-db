@@ -16,9 +16,14 @@
   "boggart": null,
   "house": "Hufflepuff",
   "patronus": null,
-  "alias_names": ["Teddy (by family & friends)", "Ted"],
+  "alias_names": [
+    "Teddy (by family & friends)",
+    "Ted"
+  ],
   "jobs": null,
-  "titles": ["Head Boy"],
+  "titles": [
+    "Head Boy"
+  ],
   "family_members": [
     "Remus Lupin (father) †",
     "Nymphadora Lupin (née Tonks) (mother) †",
@@ -37,7 +42,9 @@
     "Bulstrode family (maternal ancestors)",
     "Flint family (maternal ancestors)"
   ],
-  "romances": ["Victoire Weasley (girlfriend)"],
+  "romances": [
+    "Victoire Weasley (girlfriend)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/6/62/Teddy_Lupin.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Edward_Lupin"

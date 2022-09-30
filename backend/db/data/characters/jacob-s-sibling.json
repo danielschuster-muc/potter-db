@@ -17,12 +17,13 @@
   "house": null,
   "patronus": "Either a white stallion, unicorn, Abraxan, tiger, cheetah, leopard, Spotted Hare, Mountain Hare or Lop-Eared Rabbit",
   "alias_names": [
+    "Cursed kid (by unidentified sixth-year Gryffindor)",
     "The Hero of Hogwarts (by Penny Haywood)",
     "The Clobberer of Curses (by Bill Weasley)",
     "The Pulverizer of Polar Platemail (by Bill Weasley)",
     "Curse-Breaker (by many including Andre Egwu, Skye Parkin and Patricia Rakepick)",
     "Pip (by Jacob)",
-    "New Fan (by Face Paint Kid)",
+    "New Fan (formerly by Face Paint Kid)",
     "Breaker of Records (by Orion Amari)",
     "Helpful elf (by Bilton Bilmes)",
     "Coach (by Murphy McNully)"
@@ -48,14 +49,14 @@
   ],
   "romances": null,
   "wands": [
-    "One of the following: (formerly)12″, Acacia, Unicorn tail hair11¼″, Blackthorn, Unicorn tail hair11″, Hornbeam, Dragon heartstring",
-    "12″, Acacia, Unicorn tail hair",
-    "11¼″, Blackthorn, Unicorn tail hair",
-    "11″, Hornbeam, Dragon heartstring",
-    "One of the following:11¼″, Ebony, Dragon heartstring11″, Redwood, Unicorn tail hair12″, Laurel, Phoenix feather",
-    "11¼″, Ebony, Dragon heartstring",
-    "11″, Redwood, Unicorn tail hair",
-    "12″, Laurel, Phoenix feather"
+    "One of the following: (formerly)12', Acacia, Unicorn tail hair11¼', Blackthorn, Unicorn tail hair11', Hornbeam, Dragon heartstring",
+    "12', Acacia, Unicorn tail hair",
+    "11¼', Blackthorn, Unicorn tail hair",
+    "11', Hornbeam, Dragon heartstring",
+    "One of the following:11¼', Ebony, Dragon heartstring11', Redwood, Unicorn tail hair12', Laurel, Phoenix feather",
+    "11¼', Ebony, Dragon heartstring",
+    "11', Redwood, Unicorn tail hair",
+    "12', Laurel, Phoenix feather"
   ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b4/Jacob%27s_sibling_generic.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Jacob's_sibling"

@@ -17,7 +17,7 @@ export const getBySlug = async (type, slug) => {
 };
 
 export const getAll = async (type, query) => {
-  const { page, perPage, search, orderBy, direction } = query;
+  const { page, perPage, search } = query;
   const pageNumber = `page[number]=${page || 1}`;
   const pageSize = `&page[size]=${perPage || 20}`;
   const searchFilter = search ? `&filter[name_cont_any]=${search}` : "";

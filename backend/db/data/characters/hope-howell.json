@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Insurance office worker"],
+  "jobs": [
+    "Insurance office worker"
+  ],
   "titles": null,
   "family_members": [
     "Lyall Lupin (husband)",

@@ -20,12 +20,12 @@
   "jobs": null,
   "titles": null,
   "family_members": [
-    "Phineas Nigellus Black (father)",
+    "Phineas Nigellus Black (father) †",
     "Ursula Black (mother)",
-    "Phineas Black (younger brother)",
-    "Arcturus Black II (younger brother)",
-    "Belvina Burke (younger sister)",
-    "Cygnus Black II (younger brother)",
+    "Phineas Black (younger brother) †",
+    "Arcturus Black II (younger brother) †",
+    "Belvina Burke (younger sister) †",
+    "Cygnus Black II (youngest brother) †",
     "Hesper Black (née Gamp) (wife)",
     "Arcturus Black III (son)",
     "Lycoris Black (daughter)",
@@ -54,7 +54,9 @@
     "Flint family (maternal family)",
     "Gamp family (in-laws)"
   ],
-  "romances": ["Hesper Gamp (wife)"],
+  "romances": [
+    "Hesper Gamp (wife)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/d/db/Sirius_Black_1877-1952.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Sirius_Black_II"

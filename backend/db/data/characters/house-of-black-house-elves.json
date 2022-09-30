@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Servants of the House of Black"],
+  "jobs": [
+    "Servants of the House of Black"
+  ],
   "titles": null,
   "family_members": [
     "Kreacher's mother (descendant (likely)) †",

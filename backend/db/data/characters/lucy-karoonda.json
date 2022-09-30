@@ -17,8 +17,13 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Seeker and Captain for the Australian National Quidditch team"],
-  "titles": ["Captain", "Seeker"],
+  "jobs": [
+    "Seeker and Captain for the Australian National Quidditch team"
+  ],
+  "titles": [
+    "Captain",
+    "Seeker"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

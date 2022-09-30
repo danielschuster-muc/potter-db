@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Presbyterian minister"],
-  "titles": ["Reverend"],
+  "jobs": [
+    "Presbyterian minister"
+  ],
+  "titles": [
+    "Reverend"
+  ],
   "family_members": [
     "Mr McGonagall (father)",
     "Mrs McGonagall (mother)",

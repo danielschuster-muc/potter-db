@@ -19,9 +19,14 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": ["Mrs Finch-Fletchley (mother)", "Finch-Fletchley family"],
+  "family_members": [
+    "Mrs Finch-Fletchley (mother)",
+    "Finch-Fletchley family"
+  ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/1/16/Justin_Finch-Fletchley_%28McGonagall%27s_Class%29_%281%29.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Justin_Finch-Fletchley"
 }

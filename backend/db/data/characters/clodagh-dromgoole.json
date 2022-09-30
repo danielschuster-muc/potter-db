@@ -1,0 +1,33 @@
+{
+  "name": "Clodagh Dromgoole",
+  "gender": "Female",
+  "born": null,
+  "died": null,
+  "species": "Human",
+  "height": null,
+  "weight": null,
+  "hair_color": "Red",
+  "eye_color": "Grey",
+  "skin_color": "Light",
+  "blood_status": null,
+  "marital_status": null,
+  "nationality": "British or Irish",
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Professor of Study of Ancient Runes at Hogwarts School of Witchcraft and Wizardry"
+  ],
+  "titles": [
+    "Professor"
+  ],
+  "family_members": null,
+  "romances": null,
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/44/Dromgoole_MA.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Clodagh_Dromgoole"
+}

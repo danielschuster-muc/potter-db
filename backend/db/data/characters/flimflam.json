@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Owner of Flimflam's Lanterns"],
+  "jobs": [
+    "Owner of Flimflam's Lanterns"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

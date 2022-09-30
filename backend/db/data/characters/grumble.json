@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["The Grubby Goat"],
+  "alias_names": [
+    "The Grubby Goat"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

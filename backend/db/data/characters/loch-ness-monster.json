@@ -16,9 +16,13 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Nessie"],
+  "alias_names": [
+    "Nessie"
+  ],
   "jobs": null,
-  "titles": ["'World's largest kelpie'"],
+  "titles": [
+    "'World's largest kelpie'"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,
