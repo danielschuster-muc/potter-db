@@ -99,8 +99,7 @@ const Footer = () => {
           pt={{ xs: 3, sm: 5 }}
           pb={{ xs: 4, sm: 0 }}
         >
-          Copyright &copy; Potter DB {new Date().getFullYear()}. All rights
-          reserved.
+          Copyright &copy; Potter DB {new Date().getFullYear()}
         </Box>
       </Container>
     </AppBar>
