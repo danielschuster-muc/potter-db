@@ -22,4 +22,4 @@ Detailed information on the setup for each part of the Potter DB project can be 
 
 ## License
 
-By contributing to the Potter Db, you agree that your contributions will be licensed under the [MIT license](LICENSE).
+By contributing to the Potter DB, you agree that your contributions will be licensed under the [MIT license](LICENSE).
