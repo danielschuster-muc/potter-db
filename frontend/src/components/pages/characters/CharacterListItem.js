@@ -39,7 +39,7 @@ const CharacterListItem = ({ character }) => {
         <CardMedia>
           <Image
             as="image"
-            src={image || "/images/question_mark.jpg"}
+            src={image || "/images/missing_image.jpg"}
             alt={`Picture of ${name}`}
             width="100%"
             height="100%"
