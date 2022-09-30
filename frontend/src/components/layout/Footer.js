@@ -12,10 +12,10 @@ const Footer = () => {
           name: "Home",
           link: "/",
         },
-        // {
-        //   name: "About",
-        //   link: "/",
-        // },
+        {
+          name: "About",
+          link: "/about",
+        },
         {
           name: "Impressum",
           link: "https://danielschuster.me/legal-notice",
@@ -29,26 +29,10 @@ const Footer = () => {
     {
       title: "Database Search",
       content: [
-        // {
-        //   name: "Books",
-        //   link: "/",
-        // },
         {
           name: "Characters",
           link: "/characters",
         },
-        // {
-        //   name: "Movies",
-        //   link: "/",
-        // },
-        // {
-        //   name: "Potions",
-        //   link: "/",
-        // },
-        // {
-        //   name: "Spells",
-        //   link: "/",
-        // },
       ],
     },
     {
@@ -58,10 +42,6 @@ const Footer = () => {
           name: "API",
           link: getApiUrl(),
         },
-        // {
-        //   name: "Docs",
-        //   link: "/",
-        // },
         {
           name: "Contribute",
           link: getGithubUrl(),
