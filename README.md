@@ -9,16 +9,18 @@
   <br />
   <a href="https://github.com/danielschuster-muc/potter-db/issues/new?assignees=&labels=bug&template=1_bug_report.xml">Report a Bug</a>
   ·
+  <a href="https://github.com/danielschuster-muc/potter-db/issues/new?assignees=&labels=enhancement&template=1_feature_request.xml">Request a Feature</a>
+  ·
   <a href="https://github.com/danielschuster-muc/potter-db/discussions">Ask a Question</a>
 </div>
 
 <div align="center">
 <br />
 
-[![Project license](https://img.shields.io/github/license/danielschuster-muc/potter-db.svg?style=flat-square)](LICENSE)
+[![Project license](https://img.shields.io/github/license/danielschuster-muc/potter-db?style=flat-square)](LICENSE)
 
 [![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/danielschuster-muc/potter-db/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
-[![created with love by danielschuster-muc](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-danielschuster-muc-ff1414.svg?style=flat-square)](https://github.com/danielschuster-muc)
+[![created with love by danielschuster-muc](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-Daniel%20Schuster-ff1414.svg?style=flat-square)](https://github.com/danielschuster-muc)
 
 </div>
 
@@ -39,12 +41,14 @@
 ---
 
 ## About
+**What is the Potter DB?**
+> The Harry Potter DB is an API with data from the Harry Potter Universe: Characters, Movies, Books, Spells and Potions.
 
-> **What is the Potter DB?**<br> The Harry Potter DB is an API with data from the Harry Potter Universe: Characters, Movies, Books, Spells and Potions.
+ **Where can I find the API?**
+> There are 2 endpoints for the API, you can either use the [REST API](https://potter-db-api.herokuapp.com/) or the [GraphQL API](https://potter-db-api.herokuapp.com/graphql).
 
-> **Where can I find the API?**<br> There are 2 endpoints for the API, you can either use the [REST API](https://potter-db-api.herokuapp.com/) or the [GraphQL API](https://potter-db-api.herokuapp.com/graphql).
-
-> **I just want to look up things from the Harry Potter Universe. Where can I do that?**<br> Use the [DB Search](https://potterdb.com/characters) to get information about Characters, Movies, Books, Spells or Potions.
+**I just want to look up things from the Harry Potter Universe. Where can I do that?**
+> Use the [DB Search](https://potterdb.com/characters) to get information about Characters, Movies, Books, Spells or Potions.
 
 ### Built With
 
