@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to fill the feature request! 
+        Thank you for taking the time to fill the feature request!
         Before opening the report, please search for other similar issues.
   - type: dropdown
     id: project
@@ -17,14 +17,17 @@ body:
         - Website (Potter DB Search)
         - API
         - Other (Please specify in the description)
-   - type: textarea
+    validations:
+      required: true
+  - type: textarea
+    id: feature-description
     attributes:
       label: Describe the feature you want to request
       description: What exactly do you want as a new feature for Potter DB?
     validations:
       required: true
   - type: textarea
+    id: solution
     attributes:
       label: (Optional) Describe a solution for this feature
       description: Do you have any idea to solve your requested feature?
-
