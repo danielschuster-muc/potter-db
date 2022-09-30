@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Maid for the Riddle family (formerly)"],
-  "titles": ["Maid"],
+  "jobs": [
+    "Maid for the Riddle family (formerly)"
+  ],
+  "titles": [
+    "Maid"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

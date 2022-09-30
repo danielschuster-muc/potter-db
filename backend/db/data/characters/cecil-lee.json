@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Member of the Werewolf Capture Unit"],
+  "jobs": [
+    "Member of the Werewolf Capture Unit"
+  ],
   "titles": null,
   "family_members": [
     "Mother or sister-in-law's mother",

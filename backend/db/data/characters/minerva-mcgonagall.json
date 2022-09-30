@@ -51,7 +51,9 @@
     "Ross family"
   ],
   "romances": null,
-  "wands": ["9½″, Fir, dragon heartstring"],
+  "wands": [
+    "9½', Fir, dragon heartstring"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/6/65/ProfessorMcGonagall-HBP.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Minerva_McGonagall"
 }

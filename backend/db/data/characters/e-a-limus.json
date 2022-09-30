@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Federal Identity CommissionerChief Auror"],
+  "jobs": [
+    "Federal Identity CommissionerChief Auror"
+  ],
   "titles": null,
   "family_members": [
     "Limus family",

@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Nobleman"],
-  "titles": ["Duc (French Duke)"],
+  "jobs": [
+    "Nobleman"
+  ],
+  "titles": [
+    "Duc (French Duke)"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

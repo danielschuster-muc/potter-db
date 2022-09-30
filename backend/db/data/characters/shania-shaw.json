@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Women's activist", "Calamity Investigator"],
+  "jobs": [
+    "Women's activist",
+    "Calamity Investigator"
+  ],
   "titles": null,
-  "family_members": ["Shaw family"],
+  "family_members": [
+    "Shaw family"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

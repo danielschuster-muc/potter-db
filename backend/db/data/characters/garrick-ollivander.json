@@ -17,7 +17,9 @@
   "house": "Ravenclaw",
   "patronus": "Non-corporeal",
   "alias_names": null,
-  "jobs": ["Wandmaker"],
+  "jobs": [
+    "Wandmaker"
+  ],
   "titles": null,
   "family_members": [
     "Gervaise Ollivander (father)",
@@ -31,7 +33,9 @@
     "Ollivander family"
   ],
   "romances": null,
-  "wands": ["12¾″, Hornbeam, dragon heartstring"],
+  "wands": [
+    "12¾', Hornbeam, dragon heartstring"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6f/Garrick_Ollivander.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Garrick_Ollivander"
 }

@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["International Director"],
+  "alias_names": [
+    "International Director"
+  ],
   "jobs": [
     "International Director of the International Confederation of Wizards Quidditch Committee"
   ],

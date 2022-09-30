@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Shadow Chancellor of the Exchequer"],
+  "jobs": [
+    "Shadow Chancellor of the Exchequer"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

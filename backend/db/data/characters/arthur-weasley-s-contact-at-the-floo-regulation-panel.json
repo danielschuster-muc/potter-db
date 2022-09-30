@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Floo Regulation Panel employee"],
+  "jobs": [
+    "Floo Regulation Panel employee"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

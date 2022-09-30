@@ -16,12 +16,16 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Izzy Rose"],
+  "alias_names": [
+    "Izzy Rose"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, core, and materials"],
+  "wands": [
+    "Unknown length, core, and materials"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/2/23/IsodoraRose.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Isodora_Rose"
 }

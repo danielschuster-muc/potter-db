@@ -6,43 +6,42 @@
   "pages": "317",
   "cover": "https://www.wizardingworld.com/images/products/books/UK/rectangle-3.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban",
-  "order": "3",
   "chapters": [
     {
       "title": "Owl Post",
-      "order": "1"
+      "summary": ""
     },
     {
       "title": "Aunt Marge's Big Mistake",
-      "order": "2"
+      "summary": ""
     },
     {
       "title": "The Knight Bus",
-      "order": "3"
+      "summary": ""
     },
     {
       "title": "The Leaky Cauldron",
-      "order": "4"
+      "summary": ""
     },
     {
       "title": "The Dementor",
-      "order": "5"
+      "summary": ""
     },
     {
       "title": "Talons and Tea Leaves",
-      "order": "6"
+      "summary": ""
     },
     {
       "title": "The Boggart in the Wardrobe",
-      "order": "7"
+      "summary": ""
     },
     {
       "title": "Flight of the Fat Lady",
-      "order": "8"
+      "summary": ""
     },
     {
       "title": "Grim Defeat",
-      "order": "9"
+      "summary": ""
     },
     {
       "title": "The Marauder's Map",

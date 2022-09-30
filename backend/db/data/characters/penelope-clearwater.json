@@ -16,11 +16,17 @@
   "boggart": "Lord Voldemort",
   "house": "Ravenclaw",
   "patronus": "Non-corporeal",
-  "alias_names": ["Penny (by Percy Weasley)"],
+  "alias_names": [
+    "Penny (by Percy Weasley)"
+  ],
   "jobs": null,
-  "titles": ["Prefect"],
+  "titles": [
+    "Prefect"
+  ],
   "family_members": null,
-  "romances": ["Percy Weasley (ex-boyfriend)"],
+  "romances": [
+    "Percy Weasley (ex-boyfriend)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/3/37/Penelope_Clearwater_COSF.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Penelope_Clearwater"

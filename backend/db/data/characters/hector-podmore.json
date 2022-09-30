@@ -21,8 +21,13 @@
     "Minister in the British Ministry of Magic",
     "British Envoy to the International Confederation of Wizards"
   ],
-  "titles": ["Minister"],
-  "family_members": ["Sturgis Podmore (possible relative)", "Podmore family"],
+  "titles": [
+    "Minister"
+  ],
+  "family_members": [
+    "Sturgis Podmore (possible relative)",
+    "Podmore family"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/8/8f/Hector_Podmore_FB1.png",

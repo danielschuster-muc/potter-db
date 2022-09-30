@@ -4,7 +4,7 @@
   "born": "10th century",
   "died": "Before 1985",
   "species": "Human (formerly), Ghost",
-  "height": "″Little″",
+  "height": "'Little'",
   "weight": null,
   "hair_color": "Brown",
   "eye_color": null,
@@ -17,7 +17,9 @@
   "house": "Hufflepuff",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Hufflepuff House Ghost"],
+  "jobs": [
+    "Hufflepuff House Ghost"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

@@ -4,7 +4,7 @@
   "born": "3 November, 1959, Islington, London, England, Great Britain",
   "died": "18 June, 1996 (aged 36), Death Chamber, Department of Mysteries, Ministry of Magic, Whitehall, London, England, Great Britain",
   "species": "Human",
-  "height": "5″9.5″",
+  "height": "5'9.5'",
   "weight": null,
   "hair_color": "Black",
   "eye_color": "Grey",
@@ -52,7 +52,9 @@
     "Flint family (paternal/maternal ancestors)"
   ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/OOTP_promo_front_closeup_Sirius_Black.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Sirius_Black"
 }

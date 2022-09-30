@@ -1,6 +1,6 @@
 {
   "name": "Hokey",
-  "gender": "Female",
+  "gender": null,
   "born": "Before 1940s",
   "died": "1950s-1960s",
   "species": "House-elf",
@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Servant of Hepzibah Smith"],
+  "jobs": [
+    "Servant of Hepzibah Smith"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

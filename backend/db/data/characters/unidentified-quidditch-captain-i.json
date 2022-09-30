@@ -1,7 +1,7 @@
 {
   "name": "Unidentified Quidditch Captain",
   "gender": "Male",
-  "born": "Between 1 September 1969 and 31 August 1974 (most likely)",
+  "born": "Between 1 September 1970 and 31 August 1974 (most likely)",
   "died": null,
   "species": "Human",
   "height": null,
@@ -18,7 +18,10 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": ["Chaser", "Quidditch Captain"],
+  "titles": [
+    "Chaser",
+    "Quidditch Captain"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

@@ -16,7 +16,11 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Rippy", "Rippy-pooh", "Rippy-pippy-pooh"],
+  "alias_names": [
+    "Rippy",
+    "Rippy-pooh",
+    "Rippy-pippy-pooh"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

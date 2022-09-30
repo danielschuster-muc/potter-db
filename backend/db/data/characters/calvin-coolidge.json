@@ -23,8 +23,14 @@
     "Governor of Massachusetts (formerly)",
     "Lawyer (formerly)"
   ],
-  "titles": ["President of the United States"],
-  "family_members": ["Grace Coolidge (wife)", "John (son)", "Calvin Jr. (son)"],
+  "titles": [
+    "President of the United States"
+  ],
+  "family_members": [
+    "Grace Coolidge (wife)",
+    "John (son)",
+    "Calvin Jr. (son)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

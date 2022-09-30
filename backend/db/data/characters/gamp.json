@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Magical theoretician"],
+  "jobs": [
+    "Magical theoretician"
+  ],
   "titles": null,
-  "family_members": ["Hesper Gamp (possibly)", "Ulick Gamp (possibly)"],
+  "family_members": [
+    "Hesper Gamp (possibly)",
+    "Ulick Gamp (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

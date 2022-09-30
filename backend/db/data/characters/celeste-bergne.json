@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Reporter for a French-language wizarding newspaper"],
+  "jobs": [
+    "Reporter for a French-language wizarding newspaper"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Worker for the Wizengamot"],
+  "jobs": [
+    "Worker for the Wizengamot"
+  ],
   "titles": null,
   "family_members": [
     "Bob Ogden (possibly)",

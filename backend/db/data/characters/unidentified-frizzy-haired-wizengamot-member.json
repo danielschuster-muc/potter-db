@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Member of the Wizengamot"],
+  "jobs": [
+    "Member of the Wizengamot"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

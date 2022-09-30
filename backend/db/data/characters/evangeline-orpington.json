@@ -17,11 +17,18 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Minister for Magic (1849 - 1855)"],
+  "jobs": [
+    "Minister for Magic (1849 - 1855)"
+  ],
   "titles": null,
-  "family_members": ["Nerys Orpington (possibly)", "Orpington family"],
+  "family_members": [
+    "Nerys Orpington (possibly)",
+    "Orpington family"
+  ],
   "romances": null,
-  "wands": ["Poplar, unknown core and length"],
+  "wands": [
+    "Poplar, unknown core and length"
+  ],
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Evangeline_Orpington"
 }

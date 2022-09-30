@@ -1,7 +1,7 @@
 {
   "name": "Grand Pepperup Potion",
   "effect": "Relieved and/or cured cold symptoms",
-  "side_effects": null,
+  "side_effects": "Caused steam to come out of the drinker's ears for a few hours",
   "characteristics": "Red in colour",
   "time": null,
   "difficulty": null,

@@ -18,7 +18,9 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": ["King of England"],
+  "titles": [
+    "King of England"
+  ],
   "family_members": [
     "Henry VIII (son) †",
     "Anne Boleyn (daughter-in-law) †",
@@ -32,7 +34,9 @@
     "Elizabeth II (descendant) †",
     "House of Tudor"
   ],
-  "romances": ["Elizabeth of York (wife) †"],
+  "romances": [
+    "Elizabeth of York (wife) †"
+  ],
   "wands": null,
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Henry_VII"

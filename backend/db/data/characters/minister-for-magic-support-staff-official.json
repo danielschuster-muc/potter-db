@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Ministry of Magic Official"],
+  "jobs": [
+    "Ministry of Magic Official"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

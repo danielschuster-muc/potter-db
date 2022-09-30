@@ -1,7 +1,7 @@
 {
   "name": "Ginevra Molly Potter (née Weasley)",
   "gender": "Female",
-  "born": "11 August, 1981, Great Britain",
+  "born": "11 August 1981, Great Britain",
   "died": null,
   "species": "Human",
   "height": null,
@@ -16,13 +16,19 @@
   "boggart": "Lord Voldemort",
   "house": "Gryffindor",
   "patronus": "Horse",
-  "alias_names": ["Ginny (by family & friends)", "Gin (by Harry Potter)"],
+  "alias_names": [
+    "Ginny (by family & friends)",
+    "Gin (by Harry Potter)"
+  ],
   "jobs": [
     "Chaser for the Holyhead Harpies (formerly)",
     "Senior Quidditch Correspondent for the Daily Prophet (formerly)",
     "Sports editor for the Daily Prophet"
   ],
-  "titles": ["Chaser", "Seeker"],
+  "titles": [
+    "Chaser",
+    "Seeker"
+  ],
   "family_members": [
     "Arthur Weasley (father)",
     "Molly Weasley (née Prewett) (mother)",
@@ -75,7 +81,9 @@
     "Michael Corner (ex-boyfriend)",
     "Harry Potter (husband)"
   ],
-  "wands": ["Yew, unknown length, unknown core"],
+  "wands": [
+    "Yew, unknown length, unknown core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/8/8b/Ginny_Weasley_hbp_promo.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Ginevra_Weasley"
 }

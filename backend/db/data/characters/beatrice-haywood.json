@@ -16,11 +16,13 @@
   "boggart": null,
   "house": "Hufflepuff",
   "patronus": null,
-  "alias_names": ["Bea"],
+  "alias_names": [
+    "Bea"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": [
-    "Muggle born witch mother",
+    "Muggle-born witch mother",
     "Muggle father",
     "Penny Haywood (older sister)",
     "Winifred Haywood (grandmother)"

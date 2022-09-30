@@ -1,10 +1,10 @@
 {
   "name": "Ronald Bilius Weasley",
   "gender": "Male",
-  "born": "1 March, 1980,Ottery St Catchpole, Devon, England Great Britain",
+  "born": "1 March 1980, Ottery St Catchpole, Devon, England Great Britain",
   "died": null,
   "species": "Human",
-  "height": "5″ 9″",
+  "height": "5' 9'",
   "weight": "152 lbs",
   "hair_color": "Red",
   "eye_color": "Blue",
@@ -30,8 +30,14 @@
     "Dragomir Despard",
     "Roonil Wazlib (due to a typo caused by a faulty quill pen)"
   ],
-  "jobs": ["Auror (formerly)", "Weasleys' Wizard Wheezes co-manager"],
-  "titles": ["Prefect", "Keeper"],
+  "jobs": [
+    "Auror (formerly)",
+    "Weasleys' Wizard Wheezes co-manager"
+  ],
+  "titles": [
+    "Prefect",
+    "Keeper"
+  ],
   "family_members": [
     "Arthur Weasley (father)",
     "Molly Weasley (née Prewett) (mother)",
@@ -78,11 +84,14 @@
     "Yaxley family (paternal ancestors)",
     "Flint family (paternal ancestors)"
   ],
-  "romances": ["Lavender Brown (ex-girlfriend) †", "Hermione Granger (wife)"],
+  "romances": [
+    "Lavender Brown (ex-girlfriend) †",
+    "Hermione Granger (wife)"
+  ],
   "wands": [
-    "12″, Ash, unicorn tail hair (formerly, broken)",
-    "14″, Willow, unicorn tail hair",
-    "9¼″, Chestnut, Dragon heartstring (temporarily)"
+    "12', Ash, unicorn tail hair (formerly, broken)",
+    "14', Willow, unicorn tail hair",
+    "9¼', Chestnut, Dragon heartstring (temporarily)"
   ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/8/85/Ron_Weasley.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Ronald_Weasley"

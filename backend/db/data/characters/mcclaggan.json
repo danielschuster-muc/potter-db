@@ -24,7 +24,9 @@
     "McLaggen family (possibly)"
   ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c3/McClaggan_COG.png",
   "wiki": "https://harrypotter.fandom.com/wiki/McClaggan"
 }

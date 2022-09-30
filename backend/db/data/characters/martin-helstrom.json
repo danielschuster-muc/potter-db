@@ -16,9 +16,15 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Tiny"],
-  "jobs": ["Keeper for the Nordic National Quidditch team"],
-  "titles": ["Keeper"],
+  "alias_names": [
+    "Tiny"
+  ],
+  "jobs": [
+    "Keeper for the Nordic National Quidditch team"
+  ],
+  "titles": [
+    "Keeper"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

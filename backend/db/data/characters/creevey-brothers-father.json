@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Milkman"],
+  "jobs": [
+    "Milkman"
+  ],
   "titles": null,
-  "family_members": ["Colin Creevey (son) †", "Dennis Creevey (son)"],
+  "family_members": [
+    "Colin Creevey (son) †",
+    "Dennis Creevey (son)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

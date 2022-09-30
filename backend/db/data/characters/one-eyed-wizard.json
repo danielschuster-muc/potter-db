@@ -21,7 +21,9 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown wood, core and length"],
+  "wands": [
+    "Unknown wood, core and length"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b1/One-eyed_wizard_MA.png",
   "wiki": "https://harrypotter.fandom.com/wiki/One-eyed_wizard"
 }

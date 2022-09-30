@@ -17,9 +17,15 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Chaser for the New Zealand National Quidditch team"],
-  "titles": ["Chaser"],
-  "family_members": ["Lily Moon (possibly)"],
+  "jobs": [
+    "Chaser for the New Zealand National Quidditch team"
+  ],
+  "titles": [
+    "Chaser"
+  ],
+  "family_members": [
+    "Lily Moon (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

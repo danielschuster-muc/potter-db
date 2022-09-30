@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Servant in the Circus Arcanus"],
+  "jobs": [
+    "Servant in the Circus Arcanus"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

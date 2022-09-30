@@ -20,7 +20,10 @@
   "jobs": null,
   "titles": null,
   "family_members": null,
-  "romances": ["Ginny Weasley", "Cho Chang"],
+  "romances": [
+    "Ginny Weasley",
+    "Cho Chang"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f5/Michael_1995.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Michael_Corner"

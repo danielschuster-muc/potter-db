@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Wolf"],
+  "alias_names": [
+    "Wolf"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

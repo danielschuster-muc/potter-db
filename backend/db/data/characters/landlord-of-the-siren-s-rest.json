@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Landlord of Siren's Rest pub"],
+  "jobs": [
+    "Landlord of Siren's Rest pub"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

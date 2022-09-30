@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Keeper for the Tutshill Tornados"],
+  "jobs": [
+    "Keeper for the Tutshill Tornados"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

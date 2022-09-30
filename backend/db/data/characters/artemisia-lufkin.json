@@ -17,8 +17,12 @@
   "house": "Hufflepuff",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Minister for Magic (1798 - 1811)"],
-  "titles": ["Minister for Magic"],
+  "jobs": [
+    "Minister for Magic (1798 - 1811)"
+  ],
+  "titles": [
+    "Minister for Magic"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Leader of the Accionites"],
+  "jobs": [
+    "Leader of the Accionites"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

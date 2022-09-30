@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Customs official for New York"],
+  "jobs": [
+    "Customs official for New York"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

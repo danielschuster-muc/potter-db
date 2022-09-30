@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Chaser for the Wigtown Wanderers"],
-  "titles": ["Chaser"],
+  "jobs": [
+    "Chaser for the Wigtown Wanderers"
+  ],
+  "titles": [
+    "Chaser"
+  ],
   "family_members": [
     "Walter Parkin (father)",
     "Parkin (Keeper) (sibling)",

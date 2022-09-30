@@ -2,11 +2,11 @@
   "slug": "anapneo",
   "name": "Anapneo",
   "incantation": "Anapneo (ah-NAP-nee-oh)",
-  "category": "Healing spell, Vanishment",
-  "effect": "Clears target's airway",
+  "category": "Healing spell, Vanishment, Charm",
+  "effect": "Cleared target's airway by vanishing blockages",
   "light": null,
   "hand": "Point wand at target",
   "creator": null,
-  "image": null,
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/2e/Celestina_Warbeck%27s_throat_unblocked_HM.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Anapneo"
 }

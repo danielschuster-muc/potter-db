@@ -4,7 +4,7 @@
   "born": "Between 6 December 1899 and 5 December 1900, Poland",
   "died": null,
   "species": "Human",
-  "height": "5″7″",
+  "height": "5'7'",
   "weight": "188 lbs",
   "hair_color": "Dark brown",
   "eye_color": "Brown",
@@ -32,14 +32,19 @@
     "Unnamed mother-in-law †",
     "Porpentina Goldstein (sister-in-law)",
     "Newton Scamander (brother-in-law)",
-    "Atleast one nephew or niece-in-law",
+    "At least one nephew or niece-in-law",
     "Quentin Kowalski (possible descendant)",
     "Dominic (uncle)",
     "Kowalski family",
     "Goldstein family (in-laws)"
   ],
-  "romances": ["Mildred (ex-fiancée)", "Queenie Goldstein (wife)"],
-  "wands": ["Unknown length, snakewood, no core"],
+  "romances": [
+    "Mildred (ex-fiancée)",
+    "Queenie Goldstein (wife)"
+  ],
+  "wands": [
+    "Unknown length, snakewood, no core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7b/Jacob_Kowalski_SODM.jpeg",
   "wiki": "https://harrypotter.fandom.com/wiki/Jacob_Kowalski"
 }

@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Secretary of the Retail Dry Goods Association"],
+  "jobs": [
+    "Secretary of the Retail Dry Goods Association"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

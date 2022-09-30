@@ -1,7 +1,7 @@
 {
   "name": "Mordicus Egg",
   "gender": "Male",
-  "born": null,
+  "born": "Before 1963",
   "died": null,
   "species": "Human",
   "height": null,
@@ -11,17 +11,24 @@
   "skin_color": "White",
   "blood_status": null,
   "marital_status": null,
-  "nationality": null,
+  "nationality": "British or Irish",
   "animagus": null,
   "boggart": null,
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Muggle expert", "Author"],
-  "titles": ["Professor"],
+  "jobs": [
+    "Muggle expert",
+    "Author",
+    "Professor at Hogwarts School of Witchcraft and Wizardry",
+    "Headmaster at Hogwarts School of Witchcraft and Wizardry"
+  ],
+  "titles": [
+    "Professor"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image": "https://static.wikia.nocookie.net/harrypotter/images/9/91/MordicusEgg.jpg",
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b9/MordicusEggOlder.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Mordicus_Egg"
 }

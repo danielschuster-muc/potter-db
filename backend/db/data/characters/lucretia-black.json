@@ -37,10 +37,14 @@
     "Sirius Black II (paternal grandfather) †",
     "Hesper Black (née Gamp) (paternal grandmother)",
     "House of Black",
-    "Macmillan family",
+    "Macmillan family (maternal family)",
+    "Gamp family (paternal relatives)",
+    "Flint family (paternal relatives)",
     "Prewett family"
   ],
-  "romances": ["Ignatius Prewett (husband)"],
+  "romances": [
+    "Ignatius Prewett (husband)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/6/69/Lucretia.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Lucretia_Black"

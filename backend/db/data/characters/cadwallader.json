@@ -4,7 +4,7 @@
   "born": "31 August 1985 or earlier",
   "died": null,
   "species": "Human",
-  "height": "Unknown, described as ″that big Hufflepuff player″",
+  "height": "Unknown, described as 'that big Hufflepuff player'",
   "weight": null,
   "hair_color": null,
   "eye_color": null,
@@ -18,7 +18,9 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": ["Chaser"],
+  "titles": [
+    "Chaser"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

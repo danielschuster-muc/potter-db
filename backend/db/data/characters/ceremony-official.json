@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Officiated ceremonies"],
+  "jobs": [
+    "Officiated ceremonies"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

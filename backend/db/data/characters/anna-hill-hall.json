@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Data retrieval officer for the Metropolitan Police"],
+  "jobs": [
+    "Data retrieval officer for the Metropolitan Police"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

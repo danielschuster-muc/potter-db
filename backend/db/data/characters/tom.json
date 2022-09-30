@@ -17,7 +17,9 @@
   "house": null,
   "patronus": "Non-corporeal",
   "alias_names": null,
-  "jobs": ["Leaky Cauldron landlord"],
+  "jobs": [
+    "Leaky Cauldron landlord"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

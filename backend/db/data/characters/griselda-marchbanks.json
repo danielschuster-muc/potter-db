@@ -17,8 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Governor of the Wizarding Examinations Authority"],
-  "titles": ["Madam", "Professor", "Governor"],
+  "jobs": [
+    "Governor of the Wizarding Examinations Authority"
+  ],
+  "titles": [
+    "Madam",
+    "Professor",
+    "Governor"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Headmistress of St. Grogory's Primary School"],
-  "titles": ["Headmistress"],
+  "jobs": [
+    "Headmistress of St. Grogory's Primary School"
+  ],
+  "titles": [
+    "Headmistress"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

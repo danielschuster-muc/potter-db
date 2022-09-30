@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Shopkeeper"],
+  "jobs": [
+    "Shopkeeper"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

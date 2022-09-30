@@ -17,9 +17,15 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Chaser for the Holyhead Harpies"],
-  "titles": ["Chaser"],
-  "family_members": ["Gwendolyn Morgan (possibly)"],
+  "jobs": [
+    "Chaser for the Holyhead Harpies"
+  ],
+  "titles": [
+    "Chaser"
+  ],
+  "family_members": [
+    "Gwendolyn Morgan (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

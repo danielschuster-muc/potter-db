@@ -20,7 +20,9 @@
     "Bella (by Narcissa Malfoy, Voldemort, Lucius Malfoy, Kreacher & Severus Snape)"
   ],
   "jobs": null,
-  "titles": ["Madam"],
+  "titles": [
+    "Madam"
+  ],
   "family_members": [
     "Cygnus Black III (father) †",
     "Druella Black (née Rosier) (mother) †",
@@ -53,7 +55,10 @@
     "Rodolphus Lestrange (husband)",
     "Lord Voldemort (love interest)"
   ],
-  "wands": ["12¾″, Walnut, dragon heartstring", "Unknown 2nd wand"],
+  "wands": [
+    "12¾', Walnut, dragon heartstring",
+    "Unknown 2nd wand"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/1/14/BellatrixLestrange.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Bellatrix_Lestrange"
 }

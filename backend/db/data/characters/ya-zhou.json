@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Delegate of the International Confederation of Wizards"],
-  "titles": ["Madam"],
+  "jobs": [
+    "Delegate of the International Confederation of Wizards"
+  ],
+  "titles": [
+    "Madam"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

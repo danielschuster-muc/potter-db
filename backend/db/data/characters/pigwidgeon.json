@@ -16,10 +16,14 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Pig"],
+  "alias_names": [
+    "Pig"
+  ],
   "jobs": null,
   "titles": null,
-  "family_members": ["Ron Weasley (owner)"],
+  "family_members": [
+    "Ron Weasley (owner)"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/c/ce/Pigwidgeon.jpg",

@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Super Beetle"],
+  "alias_names": [
+    "Super Beetle"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

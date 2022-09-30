@@ -44,7 +44,9 @@
     "Rosier family",
     "House of Black"
   ],
-  "romances": ["Cygnus Black III (husband)"],
+  "romances": [
+    "Cygnus Black III (husband)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f1/DruellaRosier.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Druella_Black"

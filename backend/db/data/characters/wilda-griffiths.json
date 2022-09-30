@@ -21,8 +21,12 @@
     "Chaser for the Holyhead Harpies (formerly)",
     "Chaser for Puddlemere United"
   ],
-  "titles": ["Chaser"],
-  "family_members": ["Glynnis Griffiths (possibly)"],
+  "titles": [
+    "Chaser"
+  ],
+  "family_members": [
+    "Glynnis Griffiths (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

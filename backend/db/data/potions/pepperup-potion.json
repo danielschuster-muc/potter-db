@@ -1,7 +1,7 @@
 {
   "name": "Pepperup Potion",
   "effect": "Cured common cold, Warmed up recipient",
-  "side_effects": null,
+  "side_effects": "Steam emitted from drinker's ears",
   "characteristics": "Red in colour",
   "time": null,
   "difficulty": "Moderate",

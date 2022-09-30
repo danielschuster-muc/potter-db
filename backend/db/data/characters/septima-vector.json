@@ -22,10 +22,14 @@
     "Professor of Arithmancy at Hogwarts School of Witchcraft and Wizardry (before 1993 - ?)",
     "Professor of Advanced Arithmancy Studies at Hogwarts (possibly)"
   ],
-  "titles": ["Professor"],
+  "titles": [
+    "Professor"
+  ],
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6d/Professor_Vector_PSF.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Septima_Vector"
 }

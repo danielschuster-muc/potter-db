@@ -17,9 +17,13 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Violist"],
+  "jobs": [
+    "Violist"
+  ],
   "titles": null,
-  "family_members": ["Emanuel Hurwitz (husband)"],
+  "family_members": [
+    "Emanuel Hurwitz (husband)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

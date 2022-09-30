@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Magic Joe"],
+  "alias_names": [
+    "Magic Joe"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

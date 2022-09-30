@@ -22,7 +22,9 @@
     "Marge (by family)",
     "Margie (by Vernon Dursley)"
   ],
-  "jobs": ["Dog breeder"],
+  "jobs": [
+    "Dog breeder"
+  ],
   "titles": null,
   "family_members": [
     "Mr Dursley (father)",
@@ -33,7 +35,9 @@
     "Dudley's wife (niece-in-law)",
     "Two great-nieces and nephews"
   ],
-  "romances": ["Fubster (unrequited)"],
+  "romances": [
+    "Fubster (unrequited)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7e/Marjorie_dursley_promo.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Marjorie_Dursley"

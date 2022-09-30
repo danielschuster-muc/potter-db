@@ -17,7 +17,9 @@
   "house": "Hufflepuff",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Inventor"],
+  "jobs": [
+    "Inventor"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

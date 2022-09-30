@@ -5,12 +5,12 @@
   "died": "After 1707, and before 1995",
   "species": "Human",
   "height": null,
-  "weight": null,
+  "weight": "Corpulent",
   "hair_color": null,
   "eye_color": null,
   "skin_color": null,
   "blood_status": null,
-  "marital_status": "Possibly married (known to have at least one child)",
+  "marital_status": null,
   "nationality": "British or Irish",
   "animagus": null,
   "boggart": null,
@@ -20,8 +20,14 @@
   "jobs": [
     "Headmaster of Hogwarts School of Witchcraft and Wizardry (formerly)"
   ],
-  "titles": ["Professor", "Headmaster"],
-  "family_members": ["Florean Fortescue (descendant)", "Fortescue family"],
+  "titles": [
+    "Professor",
+    "Headmaster"
+  ],
+  "family_members": [
+    "Florean Fortescue (descendant)",
+    "Fortescue family"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

@@ -21,7 +21,9 @@
     "Professional Quidditch player",
     "Head of the Department of Magical Games and Sports"
   ],
-  "titles": ["Captain (formerly)"],
+  "titles": [
+    "Captain (formerly)"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

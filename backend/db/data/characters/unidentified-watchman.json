@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Watchman for The Blind Pig"],
+  "jobs": [
+    "Watchman for The Blind Pig"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

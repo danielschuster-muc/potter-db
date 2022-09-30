@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Musician"],
-  "titles": ["Madame"],
+  "jobs": [
+    "Musician"
+  ],
+  "titles": [
+    "Madame"
+  ],
   "family_members": [
     "Bletchley (possibly)",
     "Kevin Bletchley (possibly)",

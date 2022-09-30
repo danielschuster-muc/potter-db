@@ -30,7 +30,10 @@
     "Riddle family",
     "House of Gaunt (in-laws)"
   ],
-  "romances": ["Cecilia", "Merope Riddle (wife)"],
+  "romances": [
+    "Cecilia",
+    "Merope Riddle (wife)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6d/Tom_Riddle_Senior.jpeg",
   "wiki": "https://harrypotter.fandom.com/wiki/Tom_Riddle_Senior"

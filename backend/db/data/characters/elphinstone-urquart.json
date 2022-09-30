@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Department of Magical Law Enforcement official (retired)"],
+  "jobs": [
+    "Department of Magical Law Enforcement official (retired)"
+  ],
   "titles": null,
   "family_members": [
     "Minerva McGonagall (wife)",

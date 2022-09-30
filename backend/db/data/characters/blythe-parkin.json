@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Seeker for the English National Quidditch team"],
-  "titles": ["Seeker"],
+  "jobs": [
+    "Seeker for the English National Quidditch team"
+  ],
+  "titles": [
+    "Seeker"
+  ],
   "family_members": [
     "Walter Parkin (possibly)",
     "Walter Parkin's children (possibly)",

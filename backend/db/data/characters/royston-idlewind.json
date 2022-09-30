@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["International Director"],
+  "alias_names": [
+    "International Director"
+  ],
   "jobs": [
     "Chaser for the Australian National Quidditch team (c. 1966)",
     "International Director of the International Confederation of Wizards Quidditch Committee (1971-1974)"

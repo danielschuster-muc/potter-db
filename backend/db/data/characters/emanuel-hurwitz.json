@@ -17,9 +17,13 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Violinist"],
+  "jobs": [
+    "Violinist"
+  ],
   "titles": null,
-  "family_members": ["Kay Hurwitz (wife)"],
+  "family_members": [
+    "Kay Hurwitz (wife)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

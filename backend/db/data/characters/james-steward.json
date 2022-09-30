@@ -22,7 +22,10 @@
     "Founder and co-Headmaster of Ilvermorny School of Witchcraft and Wizardry",
     "Wandmaker"
   ],
-  "titles": ["Founder", "Headmaster"],
+  "titles": [
+    "Founder",
+    "Headmaster"
+  ],
   "family_members": [
     "Martha Steward (mother)",
     "Isolt Sayre (wife)",
@@ -36,7 +39,9 @@
     "Steward family",
     "Sayre family (in-laws)"
   ],
-  "romances": ["Isolt Sayre (wife)"],
+  "romances": [
+    "Isolt Sayre (wife)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/2/28/JamesSteward.png",
   "wiki": "https://harrypotter.fandom.com/wiki/James_Steward"

@@ -4,7 +4,7 @@
   "born": "Before 1959",
   "died": "27 July, 1997  (aged at least 37 - 38), South England Great Britain",
   "species": "Human",
-  "height": "6″2″",
+  "height": "6'2'",
   "weight": "183 lbs",
   "hair_color": "Grey",
   "eye_color": "One dark, one electric blue",
@@ -16,12 +16,21 @@
   "boggart": "Lord Voldemort",
   "house": "Unknown",
   "patronus": "Non-corporeal",
-  "alias_names": ["Mad-Eye"],
-  "jobs": ["Auror (Retired)"],
+  "alias_names": [
+    "Mad-Eye"
+  ],
+  "jobs": [
+    "Auror (Retired)"
+  ],
   "titles": null,
-  "family_members": ["Mr Moody (father) †", "Mrs Moody (mother) †"],
+  "family_members": [
+    "Mr Moody (father) †",
+    "Mrs Moody (mother) †"
+  ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/4/4d/MoodyProfile.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Alastor_Moody"
 }

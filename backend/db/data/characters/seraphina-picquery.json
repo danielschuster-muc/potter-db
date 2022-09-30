@@ -20,10 +20,18 @@
   "jobs": [
     "President of the Magical Congress of the United States of America (1920-1928)"
   ],
-  "titles": ["President", "Madam"],
-  "family_members": ["Lucas Picquery (possible relative)", "Picquery family"],
+  "titles": [
+    "President",
+    "Madam"
+  ],
+  "family_members": [
+    "Lucas Picquery (possible relative)",
+    "Picquery family"
+  ],
   "romances": null,
-  "wands": ["Swamp mayhaw and Rougarou hair, unknown length"],
+  "wands": [
+    "Swamp mayhaw and Rougarou hair, unknown length"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b5/Seraphina-profile.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Seraphina_Picquery"
 }

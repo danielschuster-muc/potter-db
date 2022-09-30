@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Documentary filmmaker"],
+  "jobs": [
+    "Documentary filmmaker"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

@@ -1,7 +1,7 @@
 {
   "name": "Karl Jenkins",
   "gender": "Male",
-  "born": "between 1 September 2005 and 31 August 2006",
+  "born": "Between 1 September 2005 and 31 August 2006",
   "died": null,
   "species": "Human",
   "height": null,
@@ -9,7 +9,7 @@
   "hair_color": null,
   "eye_color": null,
   "skin_color": null,
-  "blood_status": "Pure-blood or Half-blood (possibly)",
+  "blood_status": "Pure-blood or half-blood (possibly)",
   "marital_status": null,
   "nationality": "British or Irish",
   "animagus": null,
@@ -22,7 +22,8 @@
   "family_members": [
     "Jenkins family",
     "Eugenia Jenkins (possibly)",
-    "Joey Jenkins (possibly)"
+    "Joey Jenkins (possibly)",
+    "Jenkins family"
   ],
   "romances": null,
   "wands": null,

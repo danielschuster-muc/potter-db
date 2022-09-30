@@ -16,7 +16,10 @@
   "boggart": "Rat, Rattlesnake, Bloody eyeball",
   "house": "Gryffindor",
   "patronus": "Non-corporeal",
-  "alias_names": ["Lav-Lav (by Harry Potter)", "Lav (by Ron Weasley)"],
+  "alias_names": [
+    "Lav-Lav (by Harry Potter)",
+    "Lav (by Ron Weasley)"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -24,8 +27,12 @@
     "Mrs Brown (mother)",
     "Kelly Brown (possible cousin)"
   ],
-  "romances": ["Ronald Weasley (ex-boyfriend)"],
-  "wands": ["Unknown length, wood and core"],
+  "romances": [
+    "Ronald Weasley (ex-boyfriend)"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b6/Lavender_Brown_HBP.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Lavender_Brown"
 }

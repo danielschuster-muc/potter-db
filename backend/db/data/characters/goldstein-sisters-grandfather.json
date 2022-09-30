@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Owl breeder"],
+  "jobs": [
+    "Owl breeder"
+  ],
   "titles": null,
   "family_members": [
     "Mr Goldstein (son or son-in-law)",

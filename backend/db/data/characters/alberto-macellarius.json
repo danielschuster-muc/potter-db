@@ -16,8 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["The Rat"],
-  "jobs": ["Con artist"],
+  "alias_names": [
+    "The Rat"
+  ],
+  "jobs": [
+    "Con artist"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

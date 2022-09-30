@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Black Scorpion"],
+  "alias_names": [
+    "Black Scorpion"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

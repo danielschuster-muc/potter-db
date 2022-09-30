@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Housekeeper of the Lestrange family"],
+  "jobs": [
+    "Housekeeper of the Lestrange family"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

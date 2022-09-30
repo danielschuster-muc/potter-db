@@ -1,7 +1,7 @@
 {
   "name": "Fake protective potions",
   "effect": "Supposedly protect the drinker from the effects of dark magic (likely useless)",
-  "side_effects": null,
+  "side_effects": "Likely harmful side effects",
   "characteristics": "Fraudulent solutions",
   "time": null,
   "difficulty": null,

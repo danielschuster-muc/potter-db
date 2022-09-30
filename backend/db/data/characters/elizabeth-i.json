@@ -18,7 +18,9 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": ["Queen"],
+  "titles": [
+    "Queen"
+  ],
   "family_members": [
     "King Henry VIII (father)",
     "Anne Boleyn (mother)",

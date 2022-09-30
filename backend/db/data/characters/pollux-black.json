@@ -58,16 +58,14 @@
     "Callidora Longbottom (née Black) (paternal first cousin)",
     "Cedrella Weasley (née Black) (paternal first cousin)",
     "Charis Crouch (née Black) (paternal first cousin) †",
-    "Melania Black (née Macmillan) (paternal first cousin-in-law)",
-    "Harfang Longbottom (paternal first cousin-in-law)",
-    "Septimus Weasley (paternal first cousin-in-law)",
-    "Caspar Crouch (paternal first cousin-in-law) †",
     "House of Black",
     "Bulstrode family (maternal family)",
-    "Flint family (maternal relatives)",
+    "Flint family (paternal relatives)",
     "Crabbe family (in-laws)"
   ],
-  "romances": ["Irma Black (wife) †"],
+  "romances": [
+    "Irma Black (wife) †"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f4/Pollux_Black.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Pollux_Black"

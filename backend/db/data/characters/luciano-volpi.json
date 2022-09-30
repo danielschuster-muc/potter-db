@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Seeker for the Italian National Quidditch team"],
-  "titles": ["Seeker"],
+  "jobs": [
+    "Seeker for the Italian National Quidditch team"
+  ],
+  "titles": [
+    "Seeker"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

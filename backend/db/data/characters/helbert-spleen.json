@@ -21,7 +21,9 @@
     "Healer at St Mungo's Hospital",
     "Advice columnist for the Daily Prophet"
   ],
-  "titles": ["Professor"],
+  "titles": [
+    "Professor"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

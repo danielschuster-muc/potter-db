@@ -17,9 +17,14 @@
   "house": "Hufflepuff",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Arithmancer"],
+  "jobs": [
+    "Arithmancer"
+  ],
   "titles": null,
-  "family_members": ["Cousin", "Daphne Wenlock (likely descendent)"],
+  "family_members": [
+    "Cousin",
+    "Daphne Wenlock (likely descendent)"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/4/41/BridgetWenlock.png",

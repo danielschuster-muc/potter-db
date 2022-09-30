@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Flourish and Blotts manager"],
+  "jobs": [
+    "Flourish and Blotts manager"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

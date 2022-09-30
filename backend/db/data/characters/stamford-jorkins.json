@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["British Ministry of Magic spokesperson"],
+  "jobs": [
+    "British Ministry of Magic spokesperson"
+  ],
   "titles": null,
   "family_members": [
     "Bertha Jorkins (possibly)",

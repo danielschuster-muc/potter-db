@@ -24,7 +24,9 @@
     "Mr Chang (father-in-law)",
     "Madam Chang (mother-in-law)"
   ],
-  "romances": ["Cho Chang (wife)"],
+  "romances": [
+    "Cho Chang (wife)"
+  ],
   "wands": null,
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Cho_Chang's_spouse"

@@ -4,7 +4,7 @@
   "born": null,
   "died": null,
   "species": "Human",
-  "height": "″Little″",
+  "height": "'Little'",
   "weight": null,
   "hair_color": null,
   "eye_color": null,
@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Examiner for the Wizarding Examinations Authority"],
+  "jobs": [
+    "Examiner for the Wizarding Examinations Authority"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

@@ -1,7 +1,7 @@
 {
   "name": "Shrinking Solution",
   "effect": "Causes living beings to shrink to a smaller form",
-  "side_effects": null,
+  "side_effects": "Poisonous if brewed incorrectly",
   "characteristics": "Acid green in colour",
   "time": null,
   "difficulty": "Moderate",

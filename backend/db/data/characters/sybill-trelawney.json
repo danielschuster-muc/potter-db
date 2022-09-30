@@ -22,7 +22,9 @@
     "Head of the Divination Workshop at Hogwarts School (possibly)",
     "Author"
   ],
-  "titles": ["Professor"],
+  "titles": [
+    "Professor"
+  ],
   "family_members": [
     "Mr Trelawney (father)",
     "Mrs Trelawney (mother)",
@@ -31,8 +33,12 @@
     "Trelawney family",
     "Higglebottom family (former in-laws)"
   ],
-  "romances": ["Higglebottom (ex-husband)"],
-  "wands": ["Hazel and unicorn hair, 9½ inches, very flexible"],
+  "romances": [
+    "Higglebottom (ex-husband)"
+  ],
+  "wands": [
+    "Hazel and unicorn hair, 9½ inches, very flexible"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/5/55/Trelawney_ootp.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Sybill_Trelawney"
 }

@@ -44,7 +44,7 @@ unless books.empty?
       summary: book["summary"],
       release_date: book["release_date"],
       dedication: book["dedication"],
-      pages: book["pages"], 
+      pages: book["pages"],
       order: book_index + 1,
       cover: book["cover"],
       wiki: book["wiki"]

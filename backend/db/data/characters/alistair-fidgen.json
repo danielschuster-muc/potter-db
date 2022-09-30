@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Old Al (by Jae Kim)"],
+  "alias_names": [
+    "Old Al (by Jae Kim)"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

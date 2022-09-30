@@ -1,0 +1,29 @@
+{
+  "name": "Mike Maloney",
+  "gender": "Male",
+  "born": null,
+  "died": null,
+  "species": null,
+  "height": null,
+  "weight": null,
+  "hair_color": null,
+  "eye_color": null,
+  "skin_color": null,
+  "blood_status": "Muggle",
+  "marital_status": null,
+  "nationality": null,
+  "animagus": null,
+  "boggart": null,
+  "house": null,
+  "patronus": null,
+  "alias_names": null,
+  "jobs": [
+    "Chief Reporter"
+  ],
+  "titles": null,
+  "family_members": null,
+  "romances": null,
+  "wands": null,
+  "image": null,
+  "wiki": "https://harrypotter.fandom.com/wiki/Mike_Maloney"
+}

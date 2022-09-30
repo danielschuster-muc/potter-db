@@ -16,10 +16,16 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Jesus of Nazareth", "Jesus Christ"],
+  "alias_names": [
+    "Jesus of Nazareth",
+    "Jesus Christ"
+  ],
   "jobs": null,
   "titles": null,
-  "family_members": ["God (father, in Christian belief)", "Mary (mother)"],
+  "family_members": [
+    "God (father, in Christian belief)",
+    "Mary (mother)"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/7/77/JesusDeathlyHallows.jpg",

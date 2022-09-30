@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["German Minister for Magic"],
+  "jobs": [
+    "German Minister for Magic"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

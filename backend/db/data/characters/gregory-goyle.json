@@ -18,10 +18,17 @@
   "patronus": "None",
   "alias_names": null,
   "jobs": null,
-  "titles": ["Beater"],
-  "family_members": ["Goyle (father)", "Mrs Goyle (mother)"],
+  "titles": [
+    "Beater"
+  ],
+  "family_members": [
+    "Goyle (father)",
+    "Mrs Goyle (mother)"
+  ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e7/Gregory_Goyle_DH2.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Gregory_Goyle"
 }

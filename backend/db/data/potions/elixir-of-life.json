@@ -1,7 +1,7 @@
 {
   "name": "Elixir of Life",
   "effect": "Immortality",
-  "side_effects": null,
+  "side_effects": "Drinker becomes dependent upon advanced age",
   "characteristics": null,
   "time": null,
   "difficulty": "One of a kind",

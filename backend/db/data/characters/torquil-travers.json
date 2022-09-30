@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Head of the Department of Magical Law Enforcement"],
-  "titles": ["Minister"],
+  "jobs": [
+    "Head of the Department of Magical Law Enforcement"
+  ],
+  "titles": [
+    "Minister"
+  ],
   "family_members": [
     "Travers (possibly)",
     "Sloan Travers (possibly)",

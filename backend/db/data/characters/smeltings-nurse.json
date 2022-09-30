@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Nurse of Smeltings Academy"],
+  "jobs": [
+    "Nurse of Smeltings Academy"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

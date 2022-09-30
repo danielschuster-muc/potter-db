@@ -16,13 +16,18 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Ludo"],
+  "alias_names": [
+    "Ludo"
+  ],
   "jobs": [
     "Beater for the Wimbourne Wasps (formerly)",
     "Beater for the English National Quidditch team (formerly)",
     "Head of the Department of Magical Games and Sports"
   ],
-  "titles": ["Beater", "Quidditch commentator"],
+  "titles": [
+    "Beater",
+    "Quidditch commentator"
+  ],
   "family_members": [
     "Mr Bagman (father)",
     "Otto Bagman (brother)",

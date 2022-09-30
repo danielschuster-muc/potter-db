@@ -8,7 +8,7 @@
   "weight": null,
   "hair_color": "Dark",
   "eye_color": "Dark",
-  "skin_color": "Dark",
+  "skin_color": null,
   "blood_status": "Pure-blood or half-blood",
   "marital_status": null,
   "nationality": "British or Irish",
@@ -16,7 +16,9 @@
   "boggart": "Mummy",
   "house": "Gryffindor",
   "patronus": "Non-corporeal",
-  "alias_names": ["Miss Pennyfeather (by Cuthbert Binns)"],
+  "alias_names": [
+    "Miss Pennyfeather (by Cuthbert Binns)"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": [
@@ -24,8 +26,10 @@
     "Mrs Patil (mother)",
     "Padma Patil (twin sister)"
   ],
-  "romances": ["Karkaroff's Aide (likely)"],
-  "wands": ["Unknown length, wood and core"],
+  "romances": null,
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/3/31/Parvati_Patil_headshot.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Parvati_Patil"
 }

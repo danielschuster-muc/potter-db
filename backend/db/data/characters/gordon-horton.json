@@ -17,9 +17,16 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Keeper for the Chudley Cannons"],
-  "titles": ["Keeper"],
-  "family_members": ["Basil Horton (possibly)", "Horton family"],
+  "jobs": [
+    "Keeper for the Chudley Cannons"
+  ],
+  "titles": [
+    "Keeper"
+  ],
+  "family_members": [
+    "Basil Horton (possibly)",
+    "Horton family"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6b/Gordon_Horton.png",

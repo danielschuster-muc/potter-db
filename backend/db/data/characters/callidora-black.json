@@ -2,7 +2,7 @@
   "name": "Callidora Longbottom (née Black)",
   "gender": "Female",
   "born": "1915",
-  "died": null,
+  "died": "Before 1995 (possibly)",
   "species": "Human",
   "height": null,
   "weight": null,
@@ -62,7 +62,9 @@
     "Flint family (paternal relatives)",
     "Longbottom family"
   ],
-  "romances": ["Harfang Longbottom (husband)"],
+  "romances": [
+    "Harfang Longbottom (husband)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6e/Callidora_Black_2.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Callidora_Black"

@@ -16,8 +16,14 @@
   "boggart": null,
   "house": "Did not attend Hogwarts",
   "patronus": null,
-  "alias_names": ["Delphi", "Delphini Diggory", "The Augurey"],
-  "jobs": ["Carer at St Oswald's Home for Old Witches and Wizards (formerly)"],
+  "alias_names": [
+    "Delphi",
+    "Delphini Diggory",
+    "The Augurey"
+  ],
+  "jobs": [
+    "Carer at St Oswald's Home for Old Witches and Wizards (formerly)"
+  ],
   "titles": null,
   "family_members": [
     "Lord Voldemort (father) †",
@@ -56,7 +62,9 @@
     "Slytherin family (paternal ancestors)"
   ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/9/97/Delphini_CC.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Delphini"
 }

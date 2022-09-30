@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Chief of Q.U.A.B.B.L.E."],
+  "jobs": [
+    "Chief of Q.U.A.B.B.L.E."
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

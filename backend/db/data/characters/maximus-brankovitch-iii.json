@@ -21,7 +21,10 @@
     "Seeker for the Fitchburg Finches",
     "Seeker and Captain for the American National Quidditch team"
   ],
-  "titles": ["Captain", "Seeker"],
+  "titles": [
+    "Captain",
+    "Seeker"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

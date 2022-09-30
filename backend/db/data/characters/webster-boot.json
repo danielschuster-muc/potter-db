@@ -21,7 +21,9 @@
     "Founder of Ilvermorny School of Witchcraft and Wizardry",
     "Auror for hire"
   ],
-  "titles": ["Founder"],
+  "titles": [
+    "Founder"
+  ],
   "family_members": [
     "Mr Boot (father)",
     "Mrs Boot (mother)",
@@ -37,8 +39,12 @@
     "Boot family",
     "Steward family (adoptive family)"
   ],
-  "romances": ["Mrs Boot (wife)"],
-  "wands": ["Unknown length, unknown wood, Horned Serpent horn"],
+  "romances": [
+    "Mrs Boot (wife)"
+  ],
+  "wands": [
+    "Unknown length, unknown wood, Horned Serpent horn"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1a/WebsterBoot.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Webster_Boot"
 }

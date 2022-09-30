@@ -17,10 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Improper Use of Magic Office employee"],
+  "jobs": [
+    "Improper Use of Magic Office employee"
+  ],
   "titles": null,
   "family_members": null,
-  "romances": ["Honoria (formerly)"],
+  "romances": [
+    "Honoria (formerly)"
+  ],
   "wands": null,
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Honoria's_fiancé"

@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Owner of Noltie's Botanical Novelties"],
+  "jobs": [
+    "Owner of Noltie's Botanical Novelties"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

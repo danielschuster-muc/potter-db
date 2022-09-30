@@ -21,10 +21,14 @@
     "Head of the Department of Magical Law Enforcement (formerly)",
     "Minister for Magic (formerly)"
   ],
-  "titles": ["Minister"],
+  "titles": [
+    "Minister"
+  ],
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/2/21/Pius_Thicknesse.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Pius_Thicknesse"
 }

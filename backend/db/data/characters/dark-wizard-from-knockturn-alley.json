@@ -21,7 +21,9 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f9/Dark_Wizard_in_Knockturn_Alley_HM.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Dark_Wizard_from_Knockturn_Alley"
 }

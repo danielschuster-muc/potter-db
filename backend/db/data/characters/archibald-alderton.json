@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Cook"],
+  "jobs": [
+    "Cook"
+  ],
   "titles": null,
-  "family_members": ["Arkie Alderton (possibly)", "Alderton (possibly)"],
+  "family_members": [
+    "Arkie Alderton (possibly)",
+    "Alderton (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/2/21/Archibald_Alderton.jpg",

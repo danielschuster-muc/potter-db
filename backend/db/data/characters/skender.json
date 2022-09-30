@@ -17,11 +17,15 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Owner of Circus Arcanus"],
+  "jobs": [
+    "Owner of Circus Arcanus"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown wood, core material and length"],
+  "wands": [
+    "Unknown wood, core material and length"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/1/17/Skender.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Skender"
 }

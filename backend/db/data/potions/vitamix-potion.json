@@ -1,7 +1,7 @@
 {
   "name": "Vitamix Potion",
   "effect": "Burst of energy",
-  "side_effects": null,
+  "side_effects": "Unfortunate but unknown",
   "characteristics": "Blue in colour",
   "time": null,
   "difficulty": "Beginner",

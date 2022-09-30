@@ -1,7 +1,7 @@
 {
   "name": "Cormac McLaggen",
   "gender": "Male",
-  "born": "between 1 September 1978 and 31 August 1979, Great Britain",
+  "born": "Between 1 September 1978 and 31 August 1979, Great Britain",
   "died": null,
   "species": "Human",
   "height": null,
@@ -9,16 +9,20 @@
   "hair_color": null,
   "eye_color": null,
   "skin_color": null,
-  "blood_status": "Pure-blood or Half-blood",
+  "blood_status": "Pure-blood or half-blood",
   "marital_status": null,
   "nationality": "British or Irish",
   "animagus": null,
   "boggart": null,
   "house": "Gryffindor",
   "patronus": null,
-  "alias_names": ["King Slug (by Ron Weasley)"],
+  "alias_names": [
+    "King Slug (by Ron Weasley)"
+  ],
   "jobs": null,
-  "titles": ["Keeper"],
+  "titles": [
+    "Keeper"
+  ],
   "family_members": [
     "Father",
     "Tiberius (uncle)",

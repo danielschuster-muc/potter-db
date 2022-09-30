@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Greengrocer"],
+  "jobs": [
+    "Greengrocer"
+  ],
   "titles": null,
   "family_members": [
     "Wife",

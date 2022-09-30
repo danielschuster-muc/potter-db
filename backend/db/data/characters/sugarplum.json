@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Owner of Sugarplum's Sweets Shop"],
+  "jobs": [
+    "Owner of Sugarplum's Sweets Shop"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

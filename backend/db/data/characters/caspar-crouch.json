@@ -41,7 +41,9 @@
     "Crouch family",
     "House of Black (in-laws)"
   ],
-  "romances": ["Charis Crouch (wife)"],
+  "romances": [
+    "Charis Crouch (wife)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/9/9a/Caspar_Crouch.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Caspar_Crouch"

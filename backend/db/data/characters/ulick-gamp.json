@@ -21,7 +21,10 @@
     "Chief Warlock of the Wizengamot (before 1707)",
     "Minister for Magic (1707 - 1718)"
   ],
-  "titles": ["Chief Warlock of the Wizengamot", "Minister for Magic"],
+  "titles": [
+    "Chief Warlock",
+    "Minister for Magic"
+  ],
   "family_members": [
     "Hesper Black (possibly)",
     "Gamp (possibly)",

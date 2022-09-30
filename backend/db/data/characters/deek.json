@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Hogwarts School of Witchcraft and Wizardry employee"],
+  "jobs": [
+    "Hogwarts School of Witchcraft and Wizardry employee"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

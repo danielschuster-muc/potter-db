@@ -21,7 +21,9 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
-  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/23/Elliot_Evers_portrait_MA.png",
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/1/14/Elliot_Evers_MA.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Elliot_Evers"
 }

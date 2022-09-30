@@ -17,9 +17,16 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Chaser for the German National Quidditch team"],
-  "titles": ["Chaser"],
-  "family_members": ["Rudolf Brand (possibly)", "Brand family"],
+  "jobs": [
+    "Chaser for the German National Quidditch team"
+  ],
+  "titles": [
+    "Chaser"
+  ],
+  "family_members": [
+    "Rudolf Brand (possibly)",
+    "Brand family"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/f/fe/Igorbrand.png",

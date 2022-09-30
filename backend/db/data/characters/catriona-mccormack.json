@@ -21,7 +21,10 @@
     "Chaser and Captain for the Pride of Portree",
     "Chaser for the Scottish National Quidditch team"
   ],
-  "titles": ["Captain", "Chaser"],
+  "titles": [
+    "Captain",
+    "Chaser"
+  ],
   "family_members": [
     "Meaghan McCormack (daughter)",
     "Kirley Duke (son)",

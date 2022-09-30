@@ -1,10 +1,10 @@
 {
   "name": "Porpentina Esther Scamander (née Goldstein)",
   "gender": "Female",
-  "born": "19 August, 1901, United States of America",
+  "born": "19 August 1901, United States of America",
   "died": null,
   "species": "Human",
-  "height": "5″8″",
+  "height": "5'8'",
   "weight": "117 lbs",
   "hair_color": "Brown",
   "eye_color": "Brown",
@@ -31,6 +31,7 @@
     "Queenie Goldstein (sister)",
     "Newt Scamander (husband)",
     "Child",
+    "Mr Scamander (father-in-law)",
     "Mrs Scamander (mother-in-law)",
     "Theseus Scamander (brother-in-law)",
     "Jacob Kowalski (brother-in-law)",
@@ -43,8 +44,13 @@
     "Goldstein family",
     "Scamander family"
   ],
-  "romances": ["Achilles Tolliver (dated)", "Newt Scamander (husband)"],
-  "wands": ["Unknown length, wood and core"],
-  "image": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/Porpentina_Goldstein.jpeg",
+  "romances": [
+    "Achilles Tolliver (dated)",
+    "Newt Scamander (husband)"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e1/Porpentina_Goldstein_SOD.jpeg",
   "wiki": "https://harrypotter.fandom.com/wiki/Porpentina_Goldstein"
 }

@@ -17,10 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["British Ministry of Magic employee"],
+  "jobs": [
+    "British Ministry of Magic employee"
+  ],
   "titles": null,
   "family_members": null,
-  "romances": ["Constance Pickering"],
+  "romances": [
+    "Constance Pickering"
+  ],
   "wands": null,
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Lucas_Sparrowvale"

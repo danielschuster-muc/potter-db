@@ -17,9 +17,15 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Seeker for the Japanese National Quidditch team"],
-  "titles": ["Seeker"],
-  "family_members": ["Sato family"],
+  "jobs": [
+    "Seeker for the Japanese National Quidditch team"
+  ],
+  "titles": [
+    "Seeker"
+  ],
+  "family_members": [
+    "Sato family"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

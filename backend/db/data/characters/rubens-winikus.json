@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Potioneer", "Founder of Rubens Winikus and Company Inc."],
+  "jobs": [
+    "Potioneer",
+    "Founder of Rubens Winikus and Company Inc."
+  ],
   "titles": null,
-  "family_members": ["Ruth Winikus (possibly)"],
+  "family_members": [
+    "Ruth Winikus (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

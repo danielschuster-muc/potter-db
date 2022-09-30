@@ -21,7 +21,9 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/a/ad/Doris_Crockford.JPG",
   "wiki": "https://harrypotter.fandom.com/wiki/Doris_Crockford"
 }

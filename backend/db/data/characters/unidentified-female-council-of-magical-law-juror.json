@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Member of the Council of Magical Law"],
+  "jobs": [
+    "Member of the Council of Magical Law"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

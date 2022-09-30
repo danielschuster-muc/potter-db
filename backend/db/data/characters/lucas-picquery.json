@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Beater for the American National Quidditch team"],
-  "titles": ["Beater"],
+  "jobs": [
+    "Beater for the American National Quidditch team"
+  ],
+  "titles": [
+    "Beater"
+  ],
   "family_members": [
     "Seraphina Picquery (possible relative)",
     "Picquery family"

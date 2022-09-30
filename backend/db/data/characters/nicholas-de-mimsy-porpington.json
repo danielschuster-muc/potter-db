@@ -16,12 +16,24 @@
   "boggart": null,
   "house": "Gryffindor",
   "patronus": null,
-  "alias_names": ["Nearly Headless Nick", "Sir Nicholas (preferred)", "Nick"],
-  "jobs": ["Knight", "Courtier", "Gryffindor House Ghost"],
-  "titles": ["Sir"],
+  "alias_names": [
+    "Nearly Headless Nick",
+    "Sir Nicholas (preferred)",
+    "Nick"
+  ],
+  "jobs": [
+    "Knight",
+    "Courtier",
+    "Gryffindor House Ghost"
+  ],
+  "titles": [
+    "Sir"
+  ],
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6d/Nicholas_de_Mimsy-Porpington.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Nicholas_de_Mimsy-Porpington"
 }

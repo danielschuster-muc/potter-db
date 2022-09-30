@@ -37,7 +37,9 @@
     "Dursley family",
     "Potter family"
   ],
-  "romances": ["Mr Evans (husband) †"],
+  "romances": [
+    "Mr Evans (husband) †"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/7/70/Evans_sisters%27_mother_-_HPM.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Evans_sisters'_mother"

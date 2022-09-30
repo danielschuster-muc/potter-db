@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["British Ministry of Magic employees"],
+  "jobs": [
+    "British Ministry of Magic employees"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

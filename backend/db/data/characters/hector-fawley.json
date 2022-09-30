@@ -16,10 +16,18 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Flamboyant Fawley"],
-  "jobs": ["British Minister for Magic (1925-1939)"],
-  "titles": ["Minister for Magic"],
-  "family_members": ["Fawley family"],
+  "alias_names": [
+    "Flamboyant Fawley"
+  ],
+  "jobs": [
+    "British Minister for Magic (1925-1939)"
+  ],
+  "titles": [
+    "Minister for Magic"
+  ],
+  "family_members": [
+    "Fawley family"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

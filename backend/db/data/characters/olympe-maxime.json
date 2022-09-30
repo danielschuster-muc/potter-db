@@ -4,7 +4,7 @@
   "born": null,
   "died": null,
   "species": "Half-human/Half-giant",
-  "height": "Between 11″5″ and 11″7″",
+  "height": "Between 11'5' and 11'7'",
   "weight": null,
   "hair_color": null,
   "eye_color": "Black",
@@ -17,11 +17,24 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Headmistress of Beauxbatons Academy of Magic (before 1985 - ?)"],
-  "titles": ["Headmistress", "Madame"],
-  "family_members": ["Mother", "Father", "Maxime family"],
-  "romances": ["Rubeus Hagrid (formerly)"],
-  "wands": ["Unknown length, wood and core"],
+  "jobs": [
+    "Headmistress of Beauxbatons Academy of Magic (before 1985 - ?)"
+  ],
+  "titles": [
+    "Headmistress",
+    "Madame"
+  ],
+  "family_members": [
+    "Mother",
+    "Father",
+    "Maxime family"
+  ],
+  "romances": [
+    "Rubeus Hagrid (formerly)"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f9/Maxime_1.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Olympe_Maxime"
 }

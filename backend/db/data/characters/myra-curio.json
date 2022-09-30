@@ -22,7 +22,9 @@
     "Misuse of Muggle Artefacts Office employee",
     "British Ministry of Magic official"
   ],
-  "titles": ["Officer"],
+  "titles": [
+    "Officer"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Department of Magical Transportation employee"],
+  "jobs": [
+    "Department of Magical Transportation employee"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

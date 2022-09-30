@@ -33,7 +33,9 @@
     "House of Gaunt",
     "Sayre family"
   ],
-  "romances": ["William Sayre (husband) †"],
+  "romances": [
+    "William Sayre (husband) †"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/8/86/Rionach_Gaunt.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Rionach_Sayre"

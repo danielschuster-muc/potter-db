@@ -20,7 +20,10 @@
   "jobs": [
     "Headmaster of Hogwarts School of Witchcraft and Wizardry (early 20th century–between 1965 & 1971)"
   ],
-  "titles": ["Headmaster", "Professor"],
+  "titles": [
+    "Headmaster",
+    "Professor"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

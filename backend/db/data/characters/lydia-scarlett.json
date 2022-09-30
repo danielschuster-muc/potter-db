@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["The Slip"],
+  "alias_names": [
+    "The Slip"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

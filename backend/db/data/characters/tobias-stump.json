@@ -17,8 +17,12 @@
   "house": "Gryffindor",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Head of Gryffindor House (?-pre 1991)"],
-  "titles": ["Head of House"],
+  "jobs": [
+    "Head of Gryffindor House (?-pre 1991)"
+  ],
+  "titles": [
+    "Head of House"
+  ],
   "family_members": [
     "Google Stump (possibly)",
     "Grogan Stump (possibly)",

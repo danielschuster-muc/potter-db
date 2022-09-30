@@ -35,7 +35,9 @@
     "Peverell family (paternal ancestors)"
   ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f6/MorfinPM.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Morfin_Gaunt"
 }

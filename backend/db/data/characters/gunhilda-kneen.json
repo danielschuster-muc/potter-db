@@ -17,14 +17,20 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Catcher"],
-  "titles": ["Catcher"],
+  "jobs": [
+    "Catcher"
+  ],
+  "titles": [
+    "Catcher"
+  ],
   "family_members": [
     "Goodwin Kneen (husband)",
     "Olaf (cousin-in-law)",
     "Kneen family"
   ],
-  "romances": ["Goodwin Kneen (husband)"],
+  "romances": [
+    "Goodwin Kneen (husband)"
+  ],
   "wands": null,
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Gunhilda_Kneen"

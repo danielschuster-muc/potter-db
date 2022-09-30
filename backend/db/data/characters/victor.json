@@ -17,11 +17,15 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["French Minister for Magic (c. 1932-?)"],
-  "titles": ["Minister for Magic"],
+  "jobs": [
+    "French Minister for Magic (c. 1932-?)"
+  ],
+  "titles": [
+    "Minister for Magic"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6b/Victor_SOD.png",
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/2/21/Victor_SOD.jpeg",
   "wiki": "https://harrypotter.fandom.com/wiki/Victor"
 }

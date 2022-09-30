@@ -16,8 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Tiger"],
-  "jobs": ["Politician, physician, and journalist"],
+  "alias_names": [
+    "Tiger"
+  ],
+  "jobs": [
+    "Politician, physician, and journalist"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

@@ -22,7 +22,11 @@
     "Herbologist",
     "Headmistress of Hogwarts School of Witchcraft and Wizardry"
   ],
-  "titles": ["Professor", "Headmistress", "Dame"],
+  "titles": [
+    "Professor",
+    "Headmistress",
+    "Dame"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

@@ -16,7 +16,9 @@
   "boggart": null,
   "house": "Slytherin",
   "patronus": null,
-  "alias_names": ["William Sayre"],
+  "alias_names": [
+    "William Sayre"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": [

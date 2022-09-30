@@ -16,7 +16,10 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Peevsie", "Peevesy"],
+  "alias_names": [
+    "Peevsie",
+    "Peevesy"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Professional Wizard's Chess player"],
-  "titles": ["Wizard's Chess Champion"],
+  "jobs": [
+    "Professional Wizard's Chess player"
+  ],
+  "titles": [
+    "Wizard's Chess Champion"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

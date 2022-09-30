@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Gringotts employee (formerly)"],
+  "jobs": [
+    "Gringotts employee (formerly)"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

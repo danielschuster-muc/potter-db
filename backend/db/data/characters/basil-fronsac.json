@@ -17,8 +17,13 @@
   "house": "Ravenclaw",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Headmaster of Hogwarts School"],
-  "titles": ["Professor", "Headmaster"],
+  "jobs": [
+    "Headmaster of Hogwarts School"
+  ],
+  "titles": [
+    "Professor",
+    "Headmaster"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

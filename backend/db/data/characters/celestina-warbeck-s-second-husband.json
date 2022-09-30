@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Manager of Celestina Warbeck"],
+  "jobs": [
+    "Manager of Celestina Warbeck"
+  ],
   "titles": null,
   "family_members": [
     "Celestina Warbeck (ex-wife)",
@@ -26,7 +28,9 @@
     "Mrs Warbeck (ex-mother-in-law)",
     "Warbeck family (formerly in-laws)"
   ],
-  "romances": ["Celestina Warbeck (formerly)"],
+  "romances": [
+    "Celestina Warbeck (formerly)"
+  ],
   "wands": null,
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Celestina_Warbeck's_second_husband"

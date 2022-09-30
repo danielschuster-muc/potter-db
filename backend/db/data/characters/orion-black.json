@@ -27,11 +27,11 @@
     "Sirius Black (son/second cousin once removed) †",
     "Regulus Black (son/second cousin once removed) †",
     "Pollux Black (father-in-law/paternal first cousin once removed) †",
-    "Irma Black (née Crabbe) (mother-in-law) †",
+    "Irma Black (née Crabbe) (mother-in-law/paternal cousin by marriage) †",
     "Ignatius Prewett (brother-in-law)",
     "Alphard Black (brother-in-law/paternal second cousin) †",
     "Cygnus Black III (brother-in-law/paternal second cousin) †",
-    "Druella Black (née Rosier) (sister-in-law) †",
+    "Druella Black (née Rosier) (sister-in-law/cousin-in-law) †",
     "Bellatrix Lestrange (née Black) (niece/second cousin once removed) †",
     "Andromeda Tonks (née Black) (niece/second cousin once removed)",
     "Narcissa Malfoy (née Black) (niece/second cousin once removed)",
@@ -44,9 +44,13 @@
     "Delphini (great-niece)",
     "Ernest Macmillan (possibly)",
     "House of Black",
-    "Macmillan family"
+    "Macmillan family (maternal family)",
+    "Gamp family (paternal relatives)",
+    "Flint family (paternal ancestors)"
   ],
-  "romances": ["Walburga Black (wife)"],
+  "romances": [
+    "Walburga Black (wife)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/d/dc/Orion_Black_-_Pottermore.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Orion_Black"

@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Seer"],
+  "jobs": [
+    "Seer"
+  ],
   "titles": null,
   "family_members": [
     "Mr Trelawney (great-grandson)",

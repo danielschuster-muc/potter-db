@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Lieutenant at the United States Armed Forces"],
-  "titles": ["Lieutenant"],
+  "jobs": [
+    "Lieutenant at the United States Armed Forces"
+  ],
+  "titles": [
+    "Lieutenant"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

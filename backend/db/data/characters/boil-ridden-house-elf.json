@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Hogwarts house-elf"],
+  "jobs": [
+    "Hogwarts house-elf"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

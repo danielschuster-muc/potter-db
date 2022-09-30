@@ -17,9 +17,16 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Beater for the Brazilian National Quidditch team"],
-  "titles": ["Beater"],
-  "family_members": ["Vicência Santos (possibly)", "Santos family"],
+  "jobs": [
+    "Beater for the Brazilian National Quidditch team"
+  ],
+  "titles": [
+    "Beater"
+  ],
+  "family_members": [
+    "Vicência Santos (possibly)",
+    "Santos family"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

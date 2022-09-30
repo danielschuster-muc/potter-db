@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Seeker for the Chudley Cannons"],
-  "titles": ["Seeker"],
+  "jobs": [
+    "Seeker for the Chudley Cannons"
+  ],
+  "titles": [
+    "Seeker"
+  ],
   "family_members": [
     "Gladys Gudgeon (possibly)",
     "Davey Gudgeon (possibly)",

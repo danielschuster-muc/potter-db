@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Salesman at the Magical Menagerie"],
+  "jobs": [
+    "Salesman at the Magical Menagerie"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

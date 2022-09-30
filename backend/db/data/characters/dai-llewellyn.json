@@ -16,10 +16,17 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["'Dangerous' Dai"],
-  "jobs": ["Quidditch player for the Caerphilly Catapults"],
+  "alias_names": [
+    "'Dangerous' Dai"
+  ],
+  "jobs": [
+    "Quidditch player for the Caerphilly Catapults"
+  ],
   "titles": null,
-  "family_members": null,
+  "family_members": [
+    "Gruffyd Wellnelly (possibly)",
+    "Baglan Wellnelly (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f3/Dangerous_Dai.png",

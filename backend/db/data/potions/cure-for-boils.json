@@ -1,7 +1,7 @@
 {
   "name": "Cure for Boils",
   "effect": "Removes boils",
-  "side_effects": null,
+  "side_effects": "Causes nasty boils to erupt on skin if brewed badly",
   "characteristics": "Blue in colour, Emits pink smoke when completed",
   "time": null,
   "difficulty": "Beginner",

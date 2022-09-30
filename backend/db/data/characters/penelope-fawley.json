@@ -16,9 +16,16 @@
   "boggart": null,
   "house": "Slytherin",
   "patronus": null,
-  "alias_names": ["Nel"],
-  "jobs": ["Auror"],
-  "titles": ["Prefect", "Lead Auror"],
+  "alias_names": [
+    "Nel"
+  ],
+  "jobs": [
+    "Auror"
+  ],
+  "titles": [
+    "Prefect",
+    "Lead Auror"
+  ],
   "family_members": [
     "Father",
     "Mother",
@@ -31,7 +38,9 @@
     "Fawley family"
   ],
   "romances": null,
-  "wands": ["Willow, 12½ inches, dragon heartstring"],
+  "wands": [
+    "Willow, 12½ inches, dragon heartstring"
+  ],
   "image": null,
   "wiki": "https://harrypotter.fandom.com/wiki/Penelope_Fawley"
 }

@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Ancient Wizarding Artefacts Researcher"],
+  "jobs": [
+    "Ancient Wizarding Artefacts Researcher"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

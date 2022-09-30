@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Phineus"],
+  "alias_names": [
+    "Phineus"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": [

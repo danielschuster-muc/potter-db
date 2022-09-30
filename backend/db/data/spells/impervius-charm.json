@@ -5,7 +5,7 @@
   "category": "Charm",
   "effect": "Waterproofed an object",
   "light": "None",
-  "hand": "Tap target",
+  "hand": null,
   "creator": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d8/Impervius_HM.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Impervius_Charm"

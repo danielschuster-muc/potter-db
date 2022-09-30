@@ -14,14 +14,18 @@
   "nationality": "British or Irish",
   "animagus": null,
   "boggart": null,
-  "house": null,
+  "house": "Hufflepuff",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Assistant to Newton Scamander"],
+  "jobs": [
+    "Assistant to Newton Scamander"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood, and core"],
+  "wands": [
+    "Unknown length, wood, and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/6/68/Bunty_Broadacre_SODM.jpeg",
   "wiki": "https://harrypotter.fandom.com/wiki/Bunty_Broadacre"
 }

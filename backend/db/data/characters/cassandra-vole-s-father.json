@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["British Ministry of Magic employee"],
+  "jobs": [
+    "British Ministry of Magic employee"
+  ],
   "titles": null,
-  "family_members": ["Cassandra Vole (daughter)", "Vole family"],
+  "family_members": [
+    "Cassandra Vole (daughter)",
+    "Vole family"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

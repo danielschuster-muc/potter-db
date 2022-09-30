@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Serviceman in the U.S. armed forces"],
+  "jobs": [
+    "Serviceman in the U.S. armed forces"
+  ],
   "titles": null,
   "family_members": [
     "Unnamed grandfather",

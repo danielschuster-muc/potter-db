@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Franciscan Friar"],
-  "titles": ["Friar"],
+  "jobs": [
+    "Franciscan Friar"
+  ],
+  "titles": [
+    "Friar"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

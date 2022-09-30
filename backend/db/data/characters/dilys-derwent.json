@@ -17,8 +17,15 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Healer", "Headmistress of Hogwarts"],
-  "titles": ["Healer", "Professor", "Headmistress"],
+  "jobs": [
+    "Healer",
+    "Headmistress of Hogwarts"
+  ],
+  "titles": [
+    "Healer",
+    "Professor",
+    "Headmistress"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

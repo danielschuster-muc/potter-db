@@ -7,8 +7,8 @@
   "height": null,
   "weight": null,
   "hair_color": "Grey",
-  "eye_color": "Blue",
-  "skin_color": "White",
+  "eye_color": null,
+  "skin_color": null,
   "blood_status": null,
   "marital_status": null,
   "nationality": null,
@@ -17,11 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Muggle expert", "Author"],
+  "jobs": [
+    "Muggle expert",
+    "Author"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,
   "wands": null,
-  "image": "https://static.wikia.nocookie.net/harrypotter/images/4/4b/Blenheim_Stalk.jpg",
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/3f/Blenheim_Stalk_HM.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Blenheim_Stalk"
 }

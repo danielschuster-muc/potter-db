@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Junior Unspeakable"],
+  "jobs": [
+    "Junior Unspeakable"
+  ],
   "titles": null,
   "family_members": [
     "Damocles Rowle (possibly)",

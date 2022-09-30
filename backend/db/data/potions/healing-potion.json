@@ -1,0 +1,13 @@
+{
+  "name": "Healing Potion",
+  "effect": "Healing, replenishes lost health and stamina to the drinker",
+  "side_effects": null,
+  "characteristics": "Blood red in colour",
+  "time": "Two hours",
+  "difficulty": "Beginner",
+  "ingredients": "Wormwood, Bubotuber pus, Dittany, Dragon liver",
+  "inventors": null,
+  "manufacturers": null,
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ec/Healing_Potion_WU.png",
+  "wiki": "https://harrypotter.fandom.com/wiki/Healing_Potion"
+}

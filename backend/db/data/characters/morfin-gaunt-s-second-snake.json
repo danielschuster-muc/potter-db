@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["'Little snakey'"],
+  "alias_names": [
+    "'Little snakey'"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": null,

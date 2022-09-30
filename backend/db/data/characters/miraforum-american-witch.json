@@ -16,10 +16,16 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Big Hands"],
+  "alias_names": [
+    "Big Hands"
+  ],
   "jobs": null,
-  "titles": ["Madam"],
-  "family_members": ["Miraforum (possibly)"],
+  "titles": [
+    "Madam"
+  ],
+  "family_members": [
+    "Miraforum (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/4/42/MiraforumSmall.jpg",

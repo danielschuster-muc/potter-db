@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Caretaker of Hogwarts Castle"],
+  "jobs": [
+    "Caretaker of Hogwarts Castle"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

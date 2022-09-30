@@ -16,8 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Harry (by friends and family)"],
-  "jobs": ["Member of the Wizengamot (1913-1921)"],
+  "alias_names": [
+    "Harry (by friends and family)"
+  ],
+  "jobs": [
+    "Member of the Wizengamot (1913-1921)"
+  ],
   "titles": null,
   "family_members": [
     "Mrs Potter (née Fleamont) (mother) †",

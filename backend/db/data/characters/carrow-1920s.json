@@ -9,7 +9,7 @@
   "hair_color": null,
   "eye_color": null,
   "skin_color": null,
-  "blood_status": "Pure-blood or half-blood (possibly)",
+  "blood_status": "Pure-blood or half-blood",
   "marital_status": null,
   "nationality": null,
   "animagus": null,
@@ -27,7 +27,9 @@
     "Carrow family"
   ],
   "romances": null,
-  "wands": ["Unknown length, wood are core"],
-  "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c7/1920sCarrow.jpeg",
+  "wands": [
+    "Unknown length, wood are core"
+  ],
+  "image": "https://static.wikia.nocookie.net/harrypotter/images/3/34/Carrow_SOD.jpeg",
   "wiki": "https://harrypotter.fandom.com/wiki/Carrow_(1920s)"
 }

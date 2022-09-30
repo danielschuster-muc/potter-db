@@ -2,7 +2,7 @@
   "name": "Saint Brutus",
   "gender": "Male",
   "born": null,
-  "died": null,
+  "died": "1993 or earlier",
   "species": "Human",
   "height": null,
   "weight": null,
@@ -18,7 +18,9 @@
   "patronus": null,
   "alias_names": null,
   "jobs": null,
-  "titles": ["Saint"],
+  "titles": [
+    "Saint"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

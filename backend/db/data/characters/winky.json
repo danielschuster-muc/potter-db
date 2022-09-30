@@ -16,10 +16,21 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Blinky (by Percy Weasley)", "Elf (by Amos Diggory)"],
-  "jobs": ["Crouch family's house-elf (formerly)", "Hogwarts kitchens worker"],
-  "titles": ["Free elf"],
-  "family_members": ["Mother", "Maternal grandmother"],
+  "alias_names": [
+    "Blinky (by Percy Weasley)",
+    "Elf (by Amos Diggory)"
+  ],
+  "jobs": [
+    "Crouch family's house-elf (formerly)",
+    "Hogwarts kitchens worker"
+  ],
+  "titles": [
+    "Free elf"
+  ],
+  "family_members": [
+    "Mother",
+    "Maternal grandmother"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a2/Winky.jpeg",

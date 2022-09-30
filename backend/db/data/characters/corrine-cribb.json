@@ -10,7 +10,7 @@
   "eye_color": "Grey",
   "skin_color": "Light",
   "blood_status": null,
-  "marital_status": null,
+  "marital_status": "Married",
   "nationality": null,
   "animagus": null,
   "boggart": null,
@@ -19,9 +19,15 @@
   "alias_names": null,
   "jobs": null,
   "titles": null,
-  "family_members": null,
-  "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "family_members": [
+    "Todd Cribb (husband)"
+  ],
+  "romances": [
+    "Todd Cribb (husband)"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/Corrine_Cribb_headshot_HM.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Corrine_Cribb"
 }

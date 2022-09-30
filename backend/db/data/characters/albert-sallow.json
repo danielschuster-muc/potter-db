@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Unspeakable"],
+  "jobs": [
+    "Unspeakable"
+  ],
   "titles": null,
-  "family_members": ["Sebastian Sallow (possible relative)", "Sallow family"],
+  "family_members": [
+    "Sebastian Sallow (possible relative)",
+    "Sallow family"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

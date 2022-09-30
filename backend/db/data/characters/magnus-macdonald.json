@@ -16,10 +16,14 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Dent-Head"],
+  "alias_names": [
+    "Dent-Head"
+  ],
   "jobs": null,
   "titles": null,
-  "family_members": ["Mary Macdonald (possibly)"],
+  "family_members": [
+    "Mary Macdonald (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

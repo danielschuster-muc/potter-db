@@ -17,9 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Auror"],
+  "jobs": [
+    "Auror"
+  ],
   "titles": null,
-  "family_members": ["Agilbert Fontaine (descendant)", "Fontaine family"],
+  "family_members": [
+    "Agilbert Fontaine (descendant)",
+    "Fontaine family"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

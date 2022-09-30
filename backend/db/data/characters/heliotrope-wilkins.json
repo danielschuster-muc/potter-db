@@ -17,9 +17,16 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Headmistress of Hogwarts School of Witchcraft and Wizardry"],
-  "titles": ["Professor", "Headmistress"],
-  "family_members": ["Ella Wilkins (possibly)"],
+  "jobs": [
+    "Headmistress of Hogwarts School of Witchcraft and Wizardry"
+  ],
+  "titles": [
+    "Professor",
+    "Headmistress"
+  ],
+  "family_members": [
+    "Ella Wilkins (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/a/af/Heliotrope_Wilkins.jpg",

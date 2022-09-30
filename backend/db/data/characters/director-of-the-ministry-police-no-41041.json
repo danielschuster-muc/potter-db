@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Director of the Ministry Police"],
+  "jobs": [
+    "Director of the Ministry Police"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

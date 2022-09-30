@@ -16,9 +16,15 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["John the Evangelist"],
-  "jobs": ["Writer"],
-  "titles": ["Saint"],
+  "alias_names": [
+    "John the Evangelist"
+  ],
+  "jobs": [
+    "Writer"
+  ],
+  "titles": [
+    "Saint"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

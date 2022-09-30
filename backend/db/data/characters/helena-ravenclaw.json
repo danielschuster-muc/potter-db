@@ -16,10 +16,20 @@
   "boggart": null,
   "house": "Ravenclaw",
   "patronus": null,
-  "alias_names": ["The Ghost of Ravenclaw", "Grey Lady"],
-  "jobs": ["Ravenclaw House Ghost"],
-  "titles": ["Lady"],
-  "family_members": ["Rowena Ravenclaw (mother) †", "Ravenclaw family"],
+  "alias_names": [
+    "The Ghost of Ravenclaw",
+    "Grey Lady"
+  ],
+  "jobs": [
+    "Ravenclaw House Ghost"
+  ],
+  "titles": [
+    "Lady"
+  ],
+  "family_members": [
+    "Rowena Ravenclaw (mother) †",
+    "Ravenclaw family"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a1/Helena_Ravenclaw.png",

@@ -17,9 +17,13 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Author"],
+  "jobs": [
+    "Author"
+  ],
   "titles": null,
-  "family_members": ["Tilden Toots (husband)"],
+  "family_members": [
+    "Tilden Toots (husband)"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/2/24/DaisyHookum.png",

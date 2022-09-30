@@ -21,7 +21,9 @@
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e4/Dedalus_Diggle.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Dedalus_Diggle"
 }

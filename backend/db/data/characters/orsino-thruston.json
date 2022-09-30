@@ -17,7 +17,9 @@
   "house": null,
   "patronus": "Non-corporeal",
   "alias_names": null,
-  "jobs": ["Drummer for The Weird Sisters"],
+  "jobs": [
+    "Drummer for The Weird Sisters"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

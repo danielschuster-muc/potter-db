@@ -17,9 +17,15 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Beater for the Irish National Quidditch team"],
-  "titles": ["Beater"],
-  "family_members": ["Finbar Quigley (possibly)"],
+  "jobs": [
+    "Beater for the Irish National Quidditch team"
+  ],
+  "titles": [
+    "Beater"
+  ],
+  "family_members": [
+    "Finbar Quigley (possibly)"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e5/Irish_National_Quidditch_team.jpg",

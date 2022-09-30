@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Employee at Wiseacre's Wizarding Equipment"],
+  "jobs": [
+    "Employee at Wiseacre's Wizarding Equipment"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

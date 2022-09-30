@@ -1,7 +1,7 @@
 {
   "name": "Rat Tonic",
   "effect": "Healed rats",
-  "side_effects": null,
+  "side_effects": "Abnormal growth of the rat if too much was drunk by rat",
   "characteristics": "Green or red in colour",
   "time": null,
   "difficulty": "Advanced",

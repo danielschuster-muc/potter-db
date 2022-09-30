@@ -21,7 +21,10 @@
     "Captain and Keeper of the Kenmare Kestrels (formerly)",
     "Captain of the Irish National Quidditch team"
   ],
-  "titles": ["Captain", "Keeper"],
+  "titles": [
+    "Captain",
+    "Keeper"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

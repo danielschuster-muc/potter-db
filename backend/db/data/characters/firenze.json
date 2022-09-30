@@ -23,7 +23,9 @@
   "jobs": [
     "Professor of Divination at Hogwarts School of Witchcraft and Wizardry (1996-?)"
   ],
-  "titles": ["Professor"],
+  "titles": [
+    "Professor"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

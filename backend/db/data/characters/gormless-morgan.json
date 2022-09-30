@@ -16,8 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Morg"],
-  "jobs": ["Magical creature hunter"],
+  "alias_names": [
+    "Morg"
+  ],
+  "jobs": [
+    "Magical creature hunter"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

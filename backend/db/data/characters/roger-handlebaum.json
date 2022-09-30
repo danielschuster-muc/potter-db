@@ -16,8 +16,12 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["The Master of Trolls"],
-  "jobs": ["Troll trainer"],
+  "alias_names": [
+    "The Master of Trolls"
+  ],
+  "jobs": [
+    "Troll trainer"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

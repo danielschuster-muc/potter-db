@@ -17,9 +17,15 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Hit Wizard"],
-  "titles": ["Beater (formerly)"],
-  "family_members": ["Mother"],
+  "jobs": [
+    "Hit Wizard"
+  ],
+  "titles": [
+    "Beater (formerly)"
+  ],
+  "family_members": [
+    "Mother"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6c/UnidentifiedHitWizard.jpg",

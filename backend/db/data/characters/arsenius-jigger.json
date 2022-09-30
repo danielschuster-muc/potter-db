@@ -22,7 +22,9 @@
     "Potioneer",
     "Professor of Defence Against the Dark Arts at Hogwarts School of Witchcraft and Wizardry"
   ],
-  "titles": ["Professor"],
+  "titles": [
+    "Professor"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Minister for Magic (1835 - 1841)"],
-  "titles": ["Minister for Magic"],
+  "jobs": [
+    "Minister for Magic (1835 - 1841)"
+  ],
+  "titles": [
+    "Minister for Magic"
+  ],
   "family_members": [
     "Lestrange (descendant)",
     "Rodolphus Lestrange (descendant)",

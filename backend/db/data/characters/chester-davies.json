@@ -17,8 +17,12 @@
   "house": "Ravenclaw",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Employee in the Improper Use of Magic Office"],
-  "titles": ["Prefect"],
+  "jobs": [
+    "Employee in the Improper Use of Magic Office"
+  ],
+  "titles": [
+    "Prefect"
+  ],
   "family_members": [
     "Roger Davies (younger brother)",
     "Davies (possible relative)",

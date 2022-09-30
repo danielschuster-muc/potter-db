@@ -4,7 +4,7 @@
   "born": "Late August 1881, Mould-on-the-Wold, England, Great Britain",
   "died": "30 June, 1997 (aged 115), Astronomy Tower, Hogwarts Castle, Highlands, Scotland, Great Britain",
   "species": "Human",
-  "height": "5″11″",
+  "height": "5'11'",
   "weight": "168 lbs (1997), 175 lbs (formerly) (1932)",
   "hair_color": "Silver, Auburn (formerly) (1927)",
   "eye_color": "Blue",
@@ -44,10 +44,12 @@
     "Mr Dumbledore (paternal great-great-grandfather) †",
     "Dumbledore family"
   ],
-  "romances": ["Gellert Grindelwald (former lover)"],
+  "romances": [
+    "Gellert Grindelwald (former lover)"
+  ],
   "wands": [
     "Unknown length, wood and core (formerly)",
-    "15″, Elder, Thestral tail hair core"
+    "15', Elder, Thestral tail hair core"
   ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/4/40/Albus_Dumbledore_%28HBP_promo%29_3.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Albus_Dumbledore"

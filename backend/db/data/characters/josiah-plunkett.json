@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Quidditch referee"],
+  "jobs": [
+    "Quidditch referee"
+  ],
   "titles": null,
   "family_members": [
     "Mirabella Plunkett (possibly)",

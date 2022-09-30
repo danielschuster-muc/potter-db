@@ -17,9 +17,16 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["British Minister for Magic (1752)"],
-  "titles": ["Minister for Magic"],
-  "family_members": null,
+  "jobs": [
+    "British Minister for Magic (1752)"
+  ],
+  "titles": [
+    "Minister for Magic"
+  ],
+  "family_members": [
+    "Christopher Flack (possibly)",
+    "Flack family"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

@@ -16,7 +16,9 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Pretty Face"],
+  "alias_names": [
+    "Pretty Face"
+  ],
   "jobs": null,
   "titles": null,
   "family_members": [

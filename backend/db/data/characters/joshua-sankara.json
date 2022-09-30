@@ -17,8 +17,14 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Seeker for Burkina Faso", "Minister for Magic (formerly)"],
-  "titles": ["Seeker", "Minister for Magic (formerly)"],
+  "jobs": [
+    "Seeker for Burkina Faso",
+    "Minister for Magic (formerly)"
+  ],
+  "titles": [
+    "Seeker",
+    "Minister for Magic (formerly)"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

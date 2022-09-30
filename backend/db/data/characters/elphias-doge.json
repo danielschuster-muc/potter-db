@@ -4,7 +4,7 @@
   "born": "Between 1 September 1880 and 31 August 1881,",
   "died": null,
   "species": "Human",
-  "height": "5″9.5″",
+  "height": "5'9.5'",
   "weight": "176 lbs",
   "hair_color": "Silver",
   "eye_color": "Grey/Blue",
@@ -21,7 +21,9 @@
     "Dodgy Doge (by Rita Skeeter)",
     "Dogbreath Doge) (by Rita Skeeter"
   ],
-  "jobs": ["Special Advisor to the Wizengamot"],
+  "jobs": [
+    "Special Advisor to the Wizengamot"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

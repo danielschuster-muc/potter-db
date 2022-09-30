@@ -1,7 +1,7 @@
 {
   "name": "Baruffio's Brain Elixir",
   "effect": "Allegedly increases one's brain power",
-  "side_effects": null,
+  "side_effects": "Possibly harmful mental side effects if brewed incorrectly",
   "characteristics": "Green in colour",
   "time": "Twelve hours",
   "difficulty": null,

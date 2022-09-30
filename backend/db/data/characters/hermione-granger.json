@@ -1,10 +1,10 @@
 {
   "name": "Hermione Jean Granger",
   "gender": "Female",
-  "born": "19 September, 1979  England, Great Britain",
+  "born": "19 September 1979  England, Great Britain",
   "died": null,
   "species": "Human",
-  "height": "5″ 5″",
+  "height": "5' 5'",
   "weight": "118 lbs",
   "hair_color": "Brown",
   "eye_color": "Brown",
@@ -70,8 +70,8 @@
     "Ronald Weasley (husband)"
   ],
   "wands": [
-    "10¾″, vine wood, dragon heartstring",
-    "12¾″, walnut, dragon heartstring (temporarily)"
+    "10¾', vine wood, dragon heartstring",
+    "12¾', walnut, dragon heartstring (temporarily)"
   ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/3/34/Hermione_Granger.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Hermione_Granger"

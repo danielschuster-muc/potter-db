@@ -45,7 +45,9 @@
     "Dursley family (paternal family)",
     "Evans family (maternal family)"
   ],
-  "romances": ["Mrs Dursley (wife)"],
+  "romances": [
+    "Mrs Dursley (wife)"
+  ],
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/1/19/Dudley_DH.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Dudley_Dursley"

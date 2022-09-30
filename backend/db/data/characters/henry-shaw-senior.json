@@ -17,7 +17,10 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Newspaper magnate", "Founder and Owner of Shaw News"],
+  "jobs": [
+    "Newspaper magnate",
+    "Founder and Owner of Shaw News"
+  ],
   "titles": null,
   "family_members": [
     "Henry Shaw Junior (son) †",

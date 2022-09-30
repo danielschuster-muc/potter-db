@@ -17,11 +17,15 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Winged horses breeder and racer"],
+  "jobs": [
+    "Winged horses breeder and racer"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/2/2e/LaurentiaFletwock.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Laurentia_Fletwock"
 }

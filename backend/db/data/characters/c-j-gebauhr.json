@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Piano maker"],
+  "jobs": [
+    "Piano maker"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

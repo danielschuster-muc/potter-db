@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Receptionist for the French Ministry of Magic"],
+  "jobs": [
+    "Receptionist for the French Ministry of Magic"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

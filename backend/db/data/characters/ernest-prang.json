@@ -16,8 +16,13 @@
   "boggart": "Lord Voldemort",
   "house": "Gryffindor",
   "patronus": "None",
-  "alias_names": ["Ernie (by Dre Head)", "Ern (by Stan Shunpike)"],
-  "jobs": ["Driver of the Knight Bus"],
+  "alias_names": [
+    "Ernie (by Dre Head)",
+    "Ern (by Stan Shunpike)"
+  ],
+  "jobs": [
+    "Driver of the Knight Bus"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

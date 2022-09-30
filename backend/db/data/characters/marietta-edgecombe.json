@@ -25,7 +25,9 @@
     "Edgecombe family"
   ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/4/44/Marietta_Edgecombe.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Marietta_Edgecombe"
 }

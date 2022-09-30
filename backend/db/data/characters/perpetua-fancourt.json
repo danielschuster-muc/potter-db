@@ -17,7 +17,10 @@
   "house": "Ravenclaw",
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Astronomer", "Inventor"],
+  "jobs": [
+    "Astronomer",
+    "Inventor"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

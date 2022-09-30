@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Director of the Investigation Department of the Auror Office"],
+  "jobs": [
+    "Director of the Investigation Department of the Auror Office"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

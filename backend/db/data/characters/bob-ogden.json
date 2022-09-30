@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Head of the Magical Law Enforcement Squad"],
+  "jobs": [
+    "Head of the Magical Law Enforcement Squad"
+  ],
   "titles": null,
   "family_members": [
     "Tiberius Ogden (possibly)",
@@ -25,7 +27,9 @@
     "Ogden family"
   ],
   "romances": null,
-  "wands": ["Unknown wood, length and core materials"],
+  "wands": [
+    "Unknown wood, length and core materials"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/2/23/Bob_Ogden.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Bob_Ogden"
 }

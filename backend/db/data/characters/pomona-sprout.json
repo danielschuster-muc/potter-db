@@ -29,8 +29,12 @@
     "Madam"
   ],
   "family_members": null,
-  "romances": ["Filius Flitwick (ex-boyfriend)"],
-  "wands": ["Unknown length, wood and core"],
+  "romances": [
+    "Filius Flitwick (ex-boyfriend)"
+  ],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6e/Pomona_Sprout_DHF2.jpg",
   "wiki": "https://harrypotter.fandom.com/wiki/Pomona_Sprout"
 }

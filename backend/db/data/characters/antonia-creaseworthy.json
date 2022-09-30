@@ -20,7 +20,10 @@
   "jobs": [
     "Headmistress of Hogwarts School of Witchcraft and Wizardry (unknown period)"
   ],
-  "titles": ["Dame", "Headmistress"],
+  "titles": [
+    "Dame",
+    "Headmistress"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

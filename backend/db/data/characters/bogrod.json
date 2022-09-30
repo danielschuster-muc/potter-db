@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Gringotts Bank teller"],
+  "jobs": [
+    "Gringotts Bank teller"
+  ],
   "titles": null,
   "family_members": null,
   "romances": null,

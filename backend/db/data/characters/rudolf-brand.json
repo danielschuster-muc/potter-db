@@ -17,9 +17,16 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Captain of the Heidelberg Harriers"],
-  "titles": ["Captain"],
-  "family_members": ["Igor Brand (possibly)", "Brand family"],
+  "jobs": [
+    "Captain of the Heidelberg Harriers"
+  ],
+  "titles": [
+    "Captain"
+  ],
+  "family_members": [
+    "Igor Brand (possibly)",
+    "Brand family"
+  ],
   "romances": null,
   "wands": null,
   "image": "https://static.wikia.nocookie.net/harrypotter/images/b/be/Rudolf_Brand.png",

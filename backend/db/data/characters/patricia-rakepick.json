@@ -21,10 +21,18 @@
     "Head Curse-Breaker at Gringotts Wizarding Bank (?–1988)",
     "Professor of Defence Against the Dark Arts at Hogwarts School of Witchcraft and Wizardry (1988–1989)"
   ],
-  "titles": ["Madam", "Curse-Breaker", "Professor"],
-  "family_members": ["Mother"],
+  "titles": [
+    "Madam",
+    "Curse-Breaker",
+    "Professor"
+  ],
+  "family_members": [
+    "Mother"
+  ],
   "romances": null,
-  "wands": ["Unknown length, wood and core"],
+  "wands": [
+    "Unknown length, wood and core"
+  ],
   "image": "https://static.wikia.nocookie.net/harrypotter/images/0/06/Patricia_Rakepick_-_Hogwarts_Mystery.png",
   "wiki": "https://harrypotter.fandom.com/wiki/Patricia_Rakepick"
 }

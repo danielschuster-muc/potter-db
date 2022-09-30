@@ -16,10 +16,14 @@
   "boggart": null,
   "house": null,
   "patronus": null,
-  "alias_names": ["Pru (by Modesty Rabnott)"],
+  "alias_names": [
+    "Pru (by Modesty Rabnott)"
+  ],
   "jobs": null,
   "titles": null,
-  "family_members": ["Modesty Rabnott (sister)"],
+  "family_members": [
+    "Modesty Rabnott (sister)"
+  ],
   "romances": null,
   "wands": null,
   "image": null,

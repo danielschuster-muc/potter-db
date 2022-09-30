@@ -17,8 +17,12 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Quidditch referee"],
-  "titles": ["Referee"],
+  "jobs": [
+    "Quidditch referee"
+  ],
+  "titles": [
+    "Referee"
+  ],
   "family_members": null,
   "romances": null,
   "wands": null,

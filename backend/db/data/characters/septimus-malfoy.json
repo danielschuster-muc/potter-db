@@ -17,7 +17,9 @@
   "house": null,
   "patronus": null,
   "alias_names": null,
-  "jobs": ["Advisor to the Minister for Magic"],
+  "jobs": [
+    "Advisor to the Minister for Magic"
+  ],
   "titles": null,
   "family_members": [
     "Armand Malfoy (ancestor) †",
