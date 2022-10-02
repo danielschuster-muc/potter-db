@@ -25,7 +25,7 @@ export const getDatabaseStatus = async () => {
 };
 
 export const getApiUrl = () => {
-  return process.env.NEXT_PUBLIC_API_URL || "https://potter-db-herokuapp.com";
+  return process.env.NEXT_PUBLIC_API_URL || "https://potter-db-api.herokuapp.com";
 };
 
 export const getGithubUrl = () => {
