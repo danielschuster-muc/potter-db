@@ -7,9 +7,9 @@
 <div align="center">
   <h2>Potter DB</h2>
   <br />
-  <a href="https://github.com/danielschuster-muc/potter-db/issues/new?assignees=&labels=bug&template=1_bug_report.xml">Report a Bug</a>
+  <a href="https://github.com/danielschuster-muc/potter-db/issues/new?assignees=&labels=bug&template=1_bug_report.yml">Report a Bug</a>
   ·
-  <a href="https://github.com/danielschuster-muc/potter-db/issues/new?assignees=&labels=enhancement&template=1_feature_request.xml">Request a Feature</a>
+  <a href="https://github.com/danielschuster-muc/potter-db/issues/new?assignees=&labels=enhancement,good first issue&template=2_feature_request.yml">Request a Feature</a>
   ·
   <a href="https://github.com/danielschuster-muc/potter-db/discussions">Ask a Question</a>
 </div>
@@ -57,7 +57,7 @@
 
 ## Support
 
-If you need any support feel free to open a [GitHub issues](https://github.com/danielschuster-muc/potter-db/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+) or ask your question on the [GitHub Discussions](https://github.com/danielschuster-muc/potter-db/discussions).
+If you need any support feel free to open a [GitHub issues](https://github.com/danielschuster-muc/potter-db/issues/new/choose) or ask your question on the [GitHub Discussions](https://github.com/danielschuster-muc/potter-db/discussions).
 
 ## Project assistance
 
