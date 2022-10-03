@@ -12,15 +12,18 @@
   <a href="https://github.com/danielschuster-muc/potter-db/issues/new?assignees=&labels=enhancement&template=2_feature_request.yml">Request a Feature</a>
   ·
   <a href="https://github.com/danielschuster-muc/potter-db/discussions">Ask a Question</a>
+  ·
+  <a href="https://github.com/danielschuster-muc/potter-db/discussions/categories/ideas?discussions_q=category%3AIdeas+label%3A%22help+wanted%22+label%3A%22good+first+issue%22">Help Potter DB</a>
 </div>
 
 <div align="center">
 <br />
 
 [![Project license](https://img.shields.io/github/license/danielschuster-muc/potter-db?style=flat-square)](LICENSE)
-
-[![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/danielschuster-muc/potter-db/discussions/categories/ideas?discussions_q=category%3AIdeas+label%3A%22help+wanted%22+label%3A%22good+first+issue%22)
-[![created with love by danielschuster-muc](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-Daniel%20Schuster-ff1414.svg?style=flat-square)](https://github.com/danielschuster-muc)
+[![Contributors](https://img.shields.io/github/contributors/danielschuster-muc/potter-db?style=flat-square)](https://github.com/danielschuster-muc/potter-db/graphs/contributors)
+[![Issue](https://img.shields.io/github/issues/danielschuster-muc/potter-db?style=flat-square)](https://github.com/danielschuster-muc/potter-db/issues)
+[![PRs](https://img.shields.io/github/issues-pr/danielschuster-muc/potter-db?style=flat-square)](https://github.com/danielschuster-muc/potter-db/pulls)
+[![Stars](https://img.shields.io/github/stars/danielschuster-muc/potter-db?style=flat-square)](https://github.com/danielschuster-muc/potter-db/stargazers)
 
 </div>
 
@@ -48,7 +51,7 @@
 
 **Where can I find the API?**
 
-> There are 2 endpoints for the API, you can either use the [REST API](https://potter-db-api.herokuapp.com/) or the [GraphQL API](https://potter-db-api.herokuapp.com/graphql).
+> There are 2 endpoints for the API, you can either use the [REST API](https://github.com/danielschuster-muc/potter-db/wiki/REST-API) or the [GraphQL API](https://github.com/danielschuster-muc/potter-db/wiki/GraphQL-API).
 
 **I just want to look up things from the Harry Potter Universe. Where can I do that?**
 
@@ -74,6 +77,8 @@ If you want to say **thank you** or/and support active development of Potter DB:
 ## Contributing
 
 First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
+
+If you want to help with the project make sure to look at the [Open Ideas](https://github.com/danielschuster-muc/potter-db/discussions/categories/ideas?discussions_q=category%3AIdeas+label%3A%22help+wanted%22+label%3A%22good+first+issue%22) in the Community Discussions.
 
 Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
