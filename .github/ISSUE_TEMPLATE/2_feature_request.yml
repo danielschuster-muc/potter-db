@@ -1,7 +1,7 @@
 name: ✨ Feature Request
 description: Request a feature request for Potter DB
 title: "[Feature Request]: "
-labels: ["enhancement", "good first issue"]
+labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
