@@ -4,25 +4,25 @@ import { useRouter } from "next/router";
 import { InputAdornment, TextField } from "@mui/material";
 import { Search } from "@mui/icons-material";
 
-const SearchField = ({ totalResults = 0, handleChangeSearch }) => {
+const SearchField = ({ totalResults = 0, handleChangeSearch, placeholder }) => {
   const router = useRouter();
-  const [searchQuery, setSearchQuery] = useState("");
+  const [newSearchQuery, setNewSearchQuery] = useState("");
 
   useEffect(() => {
     const timer = setTimeout(() => {
       const { pathname, query } = router;
-      query.q = searchQuery;
+      query.q = newSearchQuery;
       router.push({ pathname, query });
-      handleChangeSearch(searchQuery);
+      handleChangeSearch(newSearchQuery);
     }, 300);
     return () => clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [searchQuery]);
+  }, [newSearchQuery]);
 
   useEffect(() => {
     const params = new URLSearchParams(location.search);
     const q = params.get("q");
-    setSearchQuery(q);
+    setNewSearchQuery(q);
   }, []);
 
   return (
@@ -34,9 +34,9 @@ const SearchField = ({ totalResults = 0, handleChangeSearch }) => {
       type="search"
       fullWidth
       label="Search"
-      placeholder="e.g. Harry"
-      value={searchQuery || ""}
-      onChange={(event) => setSearchQuery(event.target.value)}
+      placeholder={placeholder}
+      value={newSearchQuery || ""}
+      onChange={(event) => setNewSearchQuery(event.target.value)}
       helperText={`${totalResults} Results`}
       InputProps={{
         startAdornment: (

@@ -32,6 +32,7 @@ const CharactersList = ({ fetchCharacters }) => {
     <>
       <Typography variant="h3">Character Search</Typography>
       <SearchField
+        placeholder="e.g. Harry"
         handleChangeSearch={setSearchQuery}
         totalResults={
           rawCharacters?.pages
