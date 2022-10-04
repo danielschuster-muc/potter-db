@@ -5,6 +5,10 @@ const getCharacterBySlug = async (slug) => {
 };
 
 const getCharacters = async (query) => {
+  const { searchQuery } = query;
+  if (searchQuery) {
+    query["searchFilter"] = `filter[name_cont_any]=${searchQuery}`;
+  }
   return await getAll("characters", query);
 };
 

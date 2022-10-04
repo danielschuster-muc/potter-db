@@ -6,7 +6,10 @@ import { getCharacters } from "../../lib/load_characters";
 
 const fetchCharacters = async ({ pageParam = 1, queryKey }) => {
   const [_, searchQuery] = queryKey;
-  return await getCharacters({ page: pageParam, search: searchQuery });
+  return await getCharacters({
+    page: pageParam,
+    searchQuery: searchQuery,
+  });
 };
 
 const Characters = () => {
