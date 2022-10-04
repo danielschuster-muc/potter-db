@@ -15,6 +15,7 @@ FactoryBot.define do
     budget { "MyString" }
     box_office { "MyString" }
     rating { "MyString" }
+    trailer { "MyString" }
     poster { "MyText" }
   end
 end
