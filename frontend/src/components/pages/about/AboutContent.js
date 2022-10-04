@@ -91,6 +91,13 @@ const AboutContent = () => {
           All data has been freely collected from open sources such as{" "}
           <Link href="https://harrypotter.fandom.com/">Harry Potter Wiki</Link>.
         </Typography>
+        <Typography>
+          A list of images used in this project can be found{" "}
+          <Link href="https://github.com/danielschuster-muc/potter-db/blob/master/ATTRIBUTION.md">
+            here
+          </Link>
+          .
+        </Typography>
         <Typography>This project is licensed under the MIT License.</Typography>
       </Box>
     </>
