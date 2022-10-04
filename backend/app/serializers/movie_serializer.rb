@@ -15,6 +15,7 @@ class MovieSerializer < ApplicationSerializer
     :box_office,
     :rating,
     :order,
+    :trailer,
     :poster,
     :wiki
   )

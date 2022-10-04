@@ -88,6 +88,7 @@ unless movies.empty?
       box_office: movie["box_office"],
       rating: movie["rating"],
       order: movie_index + 1,
+      trailer: movie["trailer"],
       poster: movie["poster"],
       wiki: movie["wiki"]
     )

@@ -91,6 +91,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_13_193346) do
     t.string "box_office"
     t.string "rating"
     t.string "order"
+    t.string "trailer"
     t.text "poster"
     t.string "wiki"
     t.datetime "created_at", null: false
