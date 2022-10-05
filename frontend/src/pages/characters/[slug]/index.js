@@ -41,8 +41,7 @@ export async function getStaticPaths() {
     "molly-weasley",
   ];
 
-  const query = { perPage: 30 };
-  const fetchedCharacters = await getCharacters(query);
+  const fetchedCharacters = await getCharacters({ perPage: 30 });
 
   const characters = fetchedCharacters?.data;
 

@@ -1,10 +1,9 @@
 import Image from "next/image";
 
 import {
-  faCross,
-  faPaw,
-  faStar,
-  faVenusMars,
+  faCalendar,
+  faClock,
+  faStarHalfStroke,
 } from "@fortawesome/free-solid-svg-icons";
 
 import {
@@ -17,13 +16,12 @@ import {
   Typography,
 } from "@mui/material";
 
-import { getHouseColor } from "../../../lib/utils";
 import Link from "../../Link";
 import ListItemBox from "../../ui/ListItemBox";
 
-const CharacterListItem = ({ character }) => {
-  const { name, slug, house, born, died, species, gender, image } =
-    character.attributes;
+const MovieListItem = ({ movie }) => {
+  const { title, slug, release_date, rating, running_time, poster } =
+    movie.attributes;
   return (
     <Grid item xs={12} sm={6} md={4} lg={3}>
       <Card
@@ -31,15 +29,16 @@ const CharacterListItem = ({ character }) => {
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          border: `3px solid ${getHouseColor(house)}`,
+          // TODO: change color based on whether fantastic beasts or harry potter
+          // border: `3px solid ${getColor}`,
           justifyContent: "space-between",
         }}
       >
         <CardMedia>
           <Image
             as="image"
-            src={image || "/images/missing_image.jpg"}
-            alt={`Picture of ${name}`}
+            src={poster || "/images/missing_image.jpg"}
+            alt={`Poster of ${title}`}
             width="100%"
             height="100%"
             layout="responsive"
@@ -49,18 +48,15 @@ const CharacterListItem = ({ character }) => {
             priority
           />
         </CardMedia>
-        <CardHeader title={name} />
+        <CardHeader title={title} />
         <CardContent>
-          <ListItemBox value={species} icon={faPaw} />
-          <ListItemBox value={gender} icon={faVenusMars} />
-          <ListItemBox value={born} icon={faStar} />
-          <ListItemBox value={died} icon={faCross} />
+          <ListItemBox value={release_date} icon={faCalendar} />
+          <ListItemBox value={rating} icon={faStarHalfStroke} />
+          <ListItemBox value={running_time} icon={faClock} />
         </CardContent>
         <CardActions>
-          <Link href={`/characters/${slug}`}>
-            <Typography sx={{ ml: 1 }}>
-              Detailed Character Information
-            </Typography>
+          <Link href={`/movies/${slug}`}>
+            <Typography sx={{ ml: 1 }}>Detailed Movie Information</Typography>
           </Link>
         </CardActions>
       </Card>
@@ -68,4 +64,4 @@ const CharacterListItem = ({ character }) => {
   );
 };
 
-export default CharacterListItem;
+export default MovieListItem;

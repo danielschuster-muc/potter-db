@@ -1,19 +1,20 @@
 import { Error, Expand, Loop } from "@mui/icons-material";
 import { Button } from "@mui/material";
 
-const CharacterListStatus = ({
+const ListStatusButton = ({
   isFetchingNextPage,
   hasNextPage,
   fetchNextPage,
   error,
+  title,
 }) => {
-  const message = "Show more characters";
+  const message = `Show more ${title}`;
   if (isFetchingNextPage) {
     message = "Loading more...";
   } else if (error) {
     message = `Error: ${error.message}`;
   } else if (!hasNextPage) {
-    message = "No more characters available";
+    message = `No more ${title} available`;
   }
 
   const icon = <Expand />;
@@ -39,4 +40,4 @@ const CharacterListStatus = ({
   );
 };
 
-export default CharacterListStatus;
+export default ListStatusButton;

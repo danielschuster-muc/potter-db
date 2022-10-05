@@ -5,20 +5,20 @@ import { useInfiniteQuery } from "@tanstack/react-query";
 import InfiniteScroll from "react-infinite-scroller";
 
 import SearchField from "../../ui/SearchField";
-import CharacterListItem from "./CharacterListItem";
 import ListStatusButton from "../../ui/ListStatusButton";
+import MovieListItem from "./MovieListItem";
 
-const CharactersList = ({ fetchCharacters }) => {
+const MoviesList = ({ fetchMovies }) => {
   const [searchQuery, setSearchQuery] = useState();
 
   const {
-    data: rawCharacters,
+    data: rawMovies,
     isFetchingNextPage,
     isSuccess,
     error,
     hasNextPage,
     fetchNextPage,
-  } = useInfiniteQuery(["characters", searchQuery], fetchCharacters, {
+  } = useInfiniteQuery(["movies", searchQuery], fetchMovies, {
     retry: 10,
     getNextPageParam: (lastPage, pages) => {
       if (pages?.length < (lastPage?.meta?.pagination?.last || 0)) {
@@ -30,38 +30,27 @@ const CharactersList = ({ fetchCharacters }) => {
 
   return (
     <>
-      <Typography variant="h3">Character Search</Typography>
+      <Typography variant="h3">Movie Search</Typography>
       <SearchField
-        placeholder="e.g. Harry"
+        placeholder="e.g. Philosopher's Stone"
         handleChangeSearch={setSearchQuery}
         totalResults={
-          rawCharacters?.pages
-            ? rawCharacters?.pages[0]?.meta?.pagination?.records
-            : 0
+          rawMovies?.pages ? rawMovies?.pages[0]?.meta?.pagination?.records : 0
         }
       />
       {isSuccess && (
         <InfiniteScroll hasMore={hasNextPage} loadMore={() => {}}>
           <Grid container spacing={2}>
-            {rawCharacters?.pages?.map((page) =>
-              page?.data?.map((character) => {
-                return (
-                  <CharacterListItem key={character.id} character={character} />
-                );
+            {rawMovies?.pages?.map((page) =>
+              page?.data?.map((movie) => {
+                return <MovieListItem key={movie.id} movie={movie} />;
               })
             )}
           </Grid>
         </InfiniteScroll>
       )}
-      <ListStatusButton
-        isFetchingNextPage={isFetchingNextPage}
-        hasNextPage={hasNextPage}
-        fetchNextPage={fetchNextPage}
-        error={error}
-        title="characters"
-      />
     </>
   );
 };
 
-export default CharactersList;
+export default MoviesList;
