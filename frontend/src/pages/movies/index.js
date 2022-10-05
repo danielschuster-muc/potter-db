@@ -1,7 +1,7 @@
 import { dehydrate, QueryClient } from "@tanstack/react-query";
 
 import Meta from "../../components/Meta";
-import MoviesList from "../../components/pages/movies/MoviesList";
+import MovieList from "../../components/pages/movies/MovieList";
 import { getMovies } from "../../lib/load_movies";
 
 const fetchMovies = async ({ pageParam = 1, queryKey }) => {
@@ -17,7 +17,7 @@ const Movies = () => {
     <>
       <Meta title="Movies" description="List of all Harry Potter movies" />
 
-      <MoviesList fetchMovies={fetchMovies} />
+      <MovieList fetchMovies={fetchMovies} />
     </>
   );
 };
