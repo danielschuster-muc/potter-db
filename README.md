@@ -13,7 +13,7 @@
   ·
   <a href="https://github.com/danielschuster-muc/potter-db/discussions">Ask a Question</a>
   ·
-  <a href="https://github.com/danielschuster-muc/potter-db/discussions/categories/ideas?discussions_q=category%3AIdeas+label%3A%22help+wanted%22+label%3A%22good+first+issue%22">Help Potter DB</a>
+  <a href="https://github.com/danielschuster-muc/potter-db/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22">Good First Issues</a>
 </div>
 
 <div align="center">
@@ -78,7 +78,7 @@ If you want to say **thank you** or/and support active development of Potter DB:
 
 First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
 
-If you want to help with the project make sure to look at the [Open Ideas](https://github.com/danielschuster-muc/potter-db/discussions/categories/ideas?discussions_q=category%3AIdeas+label%3A%22help+wanted%22+label%3A%22good+first+issue%22) in the Community Discussions and leave a note if you want to work on something.
+If you want to help with the project make sure to look at the [Good First Issues](https://github.com/danielschuster-muc/potter-db/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) in the Community Discussions and leave a note if you want to work on something.
 
 Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
