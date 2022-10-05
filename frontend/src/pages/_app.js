@@ -1,5 +1,8 @@
 import { useState } from "react";
 import Head from "next/head";
+import './styles/nprogress.css';
+import NProgress from "nprogress";
+import Router from "next/router";
 
 import {
   Hydrate,
@@ -9,6 +12,11 @@ import {
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
 import Layout from "../components/layout/Layout";
+
+NProgress.configure({showSpinner: false});
+Router.events.on("routeChangeStart", () => NProgress.start());
+Router.events.on("routeChangeComplete", () => NProgress.done());
+Router.events.on("routeChangeError", () => NProgress.done());
 
 const App = ({ Component, pageProps }) => {
   const [queryClient] = useState(() => new QueryClient());
