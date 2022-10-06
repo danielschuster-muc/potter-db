@@ -2,12 +2,12 @@ import React from "react";
 
 import { Box } from "@mui/system";
 
-import CustomAccordion from "../../../ui/CustomAccordion";
+import CustomAccordion from "./CustomAccordion";
 
 const AccordionList = ({ accordions }) => {
   return (
     accordions?.length > 0 && (
-      <Box sx={{ mt: 3 }}>
+      <Box>
         {accordions.map((accordion) => {
           return (
             <CustomAccordion

@@ -4,13 +4,9 @@ const Document = () => {
   return (
     <Html lang="en">
       <Head>
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="apple-touch-icon.png"
-        />
+        <link rel="apple-touch-icon" sizes="180x180" />
         <link rel="mask-icon" href="safari-pinned-tab.svg" color="#37474f" />
-        <link rel="manifest" href="site.webmanifest" />
+        <link rel="manifest" />
       </Head>
       <body>
         <Main />

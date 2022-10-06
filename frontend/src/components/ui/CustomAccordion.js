@@ -15,16 +15,22 @@ const CustomAccordion = ({ array, name }) => {
     setExpanded((prevExpanded) => !prevExpanded);
   };
 
+  const arrayHasElements = array?.length > 0;
+
   return (
-    array?.length > 0 && (
-      <Accordion expanded={expanded} onChange={handleChange}>
-        <AccordionSummary
-          expandIcon={<ExpandMore />}
-          aria-controls={`${name.toLowerCase().replace(/\s+/g, "-")}-content`}
-          id={`${name.toLowerCase().replace(/\s+/g, "-")}-header`}
-        >
-          <Typography>{name}</Typography>
-        </AccordionSummary>
+    <Accordion
+      expanded={expanded}
+      onChange={handleChange}
+      disabled={!arrayHasElements}
+    >
+      <AccordionSummary
+        expandIcon={<ExpandMore />}
+        aria-controls={`${name.toLowerCase().replace(/\s+/g, "-")}-content`}
+        id={`${name.toLowerCase().replace(/\s+/g, "-")}-header`}
+      >
+        <Typography>{name}</Typography>
+      </AccordionSummary>
+      {arrayHasElements && (
         <AccordionDetails>
           <ul>
             {array.map((element) => {
@@ -32,8 +38,8 @@ const CustomAccordion = ({ array, name }) => {
             })}
           </ul>
         </AccordionDetails>
-      </Accordion>
-    )
+      )}
+    </Accordion>
   );
 };
 

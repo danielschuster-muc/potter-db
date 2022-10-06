@@ -1,9 +1,9 @@
 import { useState } from "react";
+
 import Head from "next/head";
 import Router from "next/router";
-import NProgress from "nprogress";
-import './styles/nprogress.css';
 
+import NProgress from "nprogress";
 import {
   Hydrate,
   QueryClient,
@@ -12,8 +12,9 @@ import {
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
 import Layout from "../components/layout/Layout";
+import "./../styles/nprogress.css";
 
-NProgress.configure({showSpinner: false});
+NProgress.configure({ showSpinner: false });
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());
 Router.events.on("routeChangeError", () => NProgress.done());
