@@ -16,7 +16,7 @@ import TwoColumnTable from "../../../ui/TwoColumnTable";
 import { getHouseColor } from "../../../../lib/utils";
 import Link from "../../../Link";
 
-const BioCard = ({ attributes, apiLink }) => {
+const CharacterBio = ({ attributes, apiLink }) => {
   const {
     slug,
     name,
@@ -158,4 +158,4 @@ const BioCard = ({ attributes, apiLink }) => {
   );
 };
 
-export default BioCard;
+export default CharacterBio;
