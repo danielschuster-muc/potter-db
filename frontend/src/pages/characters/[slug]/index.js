@@ -3,7 +3,7 @@ import {
   getCharacters,
 } from "../../../lib/load_characters";
 
-import CharacterDetail from "../../../components/pages/characters/[slug]/CharacterDetail";
+import CharacterDetails from "../../../components/pages/characters/[slug]/CharacterDetails";
 import CharacterMeta from "../../../components/pages/characters/[slug]/CharacterMeta";
 
 const Character = ({ data, links }) => {
@@ -12,7 +12,7 @@ const Character = ({ data, links }) => {
   return (
     <>
       <CharacterMeta attributes={attributes} />
-      <CharacterDetail attributes={attributes} apiLink={links?.self} />
+      <CharacterDetails attributes={attributes} apiLink={links?.self} />
     </>
   );
 };
@@ -41,8 +41,7 @@ export async function getStaticPaths() {
     "molly-weasley",
   ];
 
-  const query = { perPage: 30 };
-  const fetchedCharacters = await getCharacters(query);
+  const fetchedCharacters = await getCharacters({ perPage: 30 });
 
   const characters = fetchedCharacters?.data;
 

@@ -6,9 +6,9 @@ import InfiniteScroll from "react-infinite-scroller";
 
 import SearchField from "../../ui/SearchField";
 import CharacterListItem from "./CharacterListItem";
-import CharacterListStatus from "./CharacterListStatus";
+import ListStatusButton from "../../ui/ListStatusButton";
 
-const CharactersList = ({ fetchCharacters }) => {
+const CharacterList = ({ fetchCharacters }) => {
   const [searchQuery, setSearchQuery] = useState();
 
   const {
@@ -53,14 +53,15 @@ const CharactersList = ({ fetchCharacters }) => {
           </Grid>
         </InfiniteScroll>
       )}
-      <CharacterListStatus
+      <ListStatusButton
         isFetchingNextPage={isFetchingNextPage}
         hasNextPage={hasNextPage}
         fetchNextPage={fetchNextPage}
         error={error}
+        title="characters"
       />
     </>
   );
 };
 
-export default CharactersList;
+export default CharacterList;

@@ -10,17 +10,18 @@ import { ExpandMore } from "@mui/icons-material";
 
 const CustomAccordion = ({ array, name }) => {
   const [expanded, setExpanded] = useState(false);
-  const arrayHasElements = array?.length > 0;
 
   const handleChange = () => {
     setExpanded((prevExpanded) => !prevExpanded);
   };
 
+  const arrayHasElements = array?.length > 0;
+
   return (
     <Accordion
-      disabled={!arrayHasElements}
       expanded={expanded}
       onChange={handleChange}
+      disabled={!arrayHasElements}
     >
       <AccordionSummary
         expandIcon={<ExpandMore />}

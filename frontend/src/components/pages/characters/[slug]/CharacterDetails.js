@@ -1,25 +1,16 @@
 import { useEffect, useState } from "react";
 
-import Image from "next/image";
-
-import {
-  Button,
-  Card,
-  CardActions,
-  CardContent,
-  CardHeader,
-  CardMedia,
-} from "@mui/material";
-
-import TwoColumnTable from "../../../ui/TwoColumnTable";
+import { Grid } from "@mui/material";
 
 import { getHouseColor } from "../../../../lib/utils";
-import Link from "../../../Link";
+import AccordionList from "../../../ui/AccordionList";
+import DetailInfoCard from "../../../ui/DetailedInfoCard";
 
-const BioCard = ({ attributes, apiLink }) => {
+const CharacterDetails = ({ attributes, apiLink }) => {
   const {
-    slug,
     name,
+    slug,
+    image,
     born,
     died,
     gender,
@@ -37,20 +28,43 @@ const BioCard = ({ attributes, apiLink }) => {
     house,
     patronus,
     alias_names,
-    image,
+    family_members,
+    jobs,
+    romances,
+    wands,
     wiki,
   } = attributes;
 
-  const [subHeader, setSubHeader] = useState();
+  const [subTitle, setSubTitle] = useState();
 
   useEffect(() => {
-    let randomSubHeader;
     if (alias_names?.length > 0) {
-      randomSubHeader =
-        alias_names[Math.floor(Math.random() * alias_names.length)];
+      setSubTitle(alias_names[Math.floor(Math.random() * alias_names.length)]);
     }
-    setSubHeader(randomSubHeader);
   }, [alias_names]);
+
+  const accordions = [
+    {
+      name: "Alias Names",
+      value: alias_names,
+    },
+    {
+      name: "Family Members",
+      value: family_members,
+    },
+    {
+      name: "Jobs",
+      value: jobs,
+    },
+    {
+      name: "Romances",
+      value: romances,
+    },
+    {
+      name: "Wands",
+      value: wands,
+    },
+  ];
 
   const informationTable = [
     {
@@ -124,38 +138,26 @@ const BioCard = ({ attributes, apiLink }) => {
   ];
 
   return (
-    <Card sx={{ border: `3px solid ${getHouseColor(house)}` }}>
-      <CardHeader
-        title={name}
-        subheader={subHeader}
-        sx={{ textAlign: "center" }}
-      />
-      <CardMedia>
-        <Image
-          as="image"
-          src={image || "/images/missing_image.jpg"}
-          alt={`Picture of ${name}`}
-          width="100%"
-          height="100%"
-          layout="responsive"
-          objectFit="scale-down"
-          loading="eager"
-          priority
+    <Grid container spacing={3}>
+      <Grid item xs={12} md={6}>
+        <DetailInfoCard
+          title={name}
+          subTitle={subTitle}
+          slug={slug}
+          color={getHouseColor(house)}
+          image={image}
+          tableData={informationTable}
+          links={[
+            { title: "Wiki", value: wiki },
+            { title: "API", value: apiLink },
+          ]}
         />
-      </CardMedia>
-      <CardContent>
-        <TwoColumnTable name={name} tableData={informationTable} id={slug} />
-      </CardContent>
-      <CardActions sx={{ display: "flex", justifyContent: "center" }}>
-        <Link href={wiki}>
-          <Button size="small">Wiki</Button>
-        </Link>
-        <Link href={apiLink}>
-          <Button size="small">API</Button>
-        </Link>
-      </CardActions>
-    </Card>
+      </Grid>
+      <Grid item xs={12} md={6}>
+        <AccordionList accordions={accordions} />
+      </Grid>
+    </Grid>
   );
 };
 
-export default BioCard;
+export default CharacterDetails;

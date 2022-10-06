@@ -6,10 +6,10 @@ import {
   TableRow,
 } from "@mui/material";
 
-const TwoColumnTable = ({ name, tableData, id }) => {
+const TwoColumnTable = ({ title, tableData, id }) => {
   return (
     <TableContainer>
-      <Table aria-label={`Information about ${name}`}>
+      <Table aria-label={`Information about ${title}`}>
         <TableBody>
           {tableData
             .filter((row) => row.value)
