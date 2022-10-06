@@ -37,6 +37,10 @@ const Footer = () => {
           name: "Movies",
           link: "/movies",
         },
+        {
+          name: "Spells",
+          link: "/spells",
+        },
       ],
     },
     {
