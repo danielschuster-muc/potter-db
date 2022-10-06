@@ -8,7 +8,7 @@ const Movie = ({ data, links }) => {
   return (
     <>
       <Meta title={attributes.title} description={attributes.summary} />
-      <MovieDetails attributes={data?.attributes} apiLink={links?.self} />
+      <MovieDetails attributes={attributes} apiLink={links?.self} />
     </>
   );
 };

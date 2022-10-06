@@ -24,6 +24,7 @@ import ListItemBox from "../../ui/ListItemBox";
 const CharacterListItem = ({ character }) => {
   const { name, slug, house, born, died, species, gender, image } =
     character.attributes;
+
   return (
     <Grid item xs={12} sm={6} md={4} lg={3}>
       <Card

@@ -16,7 +16,6 @@ const Movies = () => {
   return (
     <>
       <Meta title="Movies" description="List of all Harry Potter movies" />
-
       <MovieList fetchMovies={fetchMovies} />
     </>
   );
