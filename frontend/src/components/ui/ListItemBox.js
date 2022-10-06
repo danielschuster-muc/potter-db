@@ -1,17 +1,14 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { Typography } from "@mui/material";
-import { Box } from "@mui/system";
+import { Stack, Typography } from "@mui/material";
 
 const ListItemBox = ({ value, icon }) => {
   return (
     value && (
-      <Box display="flex">
+      <Stack direction="row" alignItems="center" gap={1}>
         <FontAwesomeIcon icon={icon} />
-        <Typography sx={{ ml: 1 }} noWrap>
-          {value}
-        </Typography>
-      </Box>
+        <Typography noWrap>{value}</Typography>
+      </Stack>
     )
   );
 };
