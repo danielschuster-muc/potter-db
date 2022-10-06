@@ -1,7 +1,14 @@
+import ReactPlayer from "react-player/lazy";
 import { getMovieBySlug, getMovies } from "../../../lib/load_movies";
 
 const Movie = ({ data, links }) => {
-  return <>{data.attributes.slug}</>;
+  const { title, slug, trailer } = data.attributes;
+  return (
+    <>
+      {title}
+      <ReactPlayer url={trailer} controls />
+    </>
+  );
 };
 
 export async function getStaticPaths() {
