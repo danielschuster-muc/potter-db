@@ -23,7 +23,7 @@ const PotionDetails = ({ attributes, apiLink }) => {
 	const accordions = [
 		{
 			name: 'Ingredients',
-			value: ingredients.split(', '),
+			value: ingredients?.split(', '),
 		},
 	];
 
