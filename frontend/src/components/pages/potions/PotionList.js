@@ -4,9 +4,9 @@ import { Grid, Typography } from "@mui/material";
 import { useInfiniteQuery } from "@tanstack/react-query";
 import InfiniteScroll from "react-infinite-scroller";
 
+import ListStatusButton from "../../ui/ListStatusButton";
 import SearchField from "../../ui/SearchField";
 import PotionListItem from "./PotionListItem";
-import ListStatusButton from "../../ui/ListStatusButton";
 
 const PotionList = ({ fetchPotions }) => {
 	const [searchQuery, setSearchQuery] = useState();
