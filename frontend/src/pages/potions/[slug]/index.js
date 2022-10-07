@@ -15,36 +15,11 @@ const Potions = ({ data, links }) => {
 };
 
 export async function getStaticPaths() {
-	const defaultSlugs = [
-		'ageing-potion',
-		'alihotsy-draught',
-		'amortentia',
-		'angel-s-trumpet-draught',
-		'antidote',
-		'antidote-to-common-poisons',
-		'antidote-to-uncommon-poisons',
-		'antidote-to-veritaserum',
-		'anti-paralysis-potion',
-		'armadillo-bile-mixture',
-		'babbling-beverage',
-		'baneberry-potion',
-		'baruffio-s-brain-elixir',
-		'beautification-potion',
-		'befuddlement-draught',
-		'blood-replenishing-potion',
-		'bloodroot-poison',
-		'bruise-removal-paste',
-		'bulgeye-potion',
-		'bundimun-pomade',
-	];
-
 	const fetchedPotions = await getPotions({ perPage: 30 });
 
-	const potions = fetchedPotions?.data;
+	const potions = fetchedPotions?.data?.map((potion) => potion?.attributes?.slug);
 
-	const slugs = [...defaultSlugs, ...potions.map((potion) => potion.attributes.slug)];
-
-	const paths = slugs.map((slug) => ({
+	const paths = potions.map((slug) => ({
 		params: {
 			slug,
 		},
