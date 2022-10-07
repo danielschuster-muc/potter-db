@@ -8,9 +8,6 @@ import SearchField from '../../ui/SearchField'
 import SpellListItem from './SpellListItem'
 import ListStatusButton from '../../ui/ListStatusButton'
 
-
-
-
 const SpellList = ({ fetchSpells }) => {
   const [searchQuery, setSearchQuery] = useState()
 

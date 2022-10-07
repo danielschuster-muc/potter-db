@@ -2,7 +2,6 @@ import { Grid } from '@mui/material'
 
 import DetailInfoCard from '../../../ui/DetailedInfoCard';
 
-
 const SpellDetails = ({ attributes, apiLink }) => {
   const { name, slug, effect, hand, incantation, category, light, creator, image, wiki } = attributes;
 

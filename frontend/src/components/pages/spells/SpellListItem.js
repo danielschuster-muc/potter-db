@@ -6,7 +6,6 @@ import { faWandSparkles } from "@fortawesome/free-solid-svg-icons";
 import Link from '../../Link'
 import ListItemBox from '../../ui/ListItemBox'
 
-
 const SpellListItem = ({ spell }) => {
   const { name, slug, effect, hand, incantation, category, light, creator, image, wiki } = spell.attributes;
   

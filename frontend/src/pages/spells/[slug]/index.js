@@ -1,7 +1,6 @@
 import SpellDetails from '../../../components/pages/spells/[slug]/SpellDetails'
 import { getSpells, getSpellsBySlug } from '../../../lib/load_spells';
 
-
 const Spells = ({ data, links }) => {
   const { attributes } = data;
 
