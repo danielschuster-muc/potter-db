@@ -7,7 +7,7 @@
     "build": "next build && npm run postbuild",
     "postbuild": "next-sitemap",
     "start": "next start -p 3001",
-    "lint": "next lint"
+    "lint": "next lint --fix . && prettier --write ."
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -31,6 +31,8 @@
   },
   "devDependencies": {
     "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1"
+    "eslint-config-next": "12.3.1",
+    "eslint-config-prettier": "8.5.0",
+    "prettier": "2.7.1"
   }
 }
