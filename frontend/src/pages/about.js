@@ -1,5 +1,5 @@
-import Meta from "../components/Meta";
 import AboutContent from "../components/pages/about/AboutContent";
+import Meta from "../components/Meta";
 
 const About = () => {
   return (

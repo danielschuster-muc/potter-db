@@ -1,6 +1,5 @@
-import { AppBar, Toolbar, Typography } from "@mui/material";
+import { AppBar, Box, Toolbar, Typography } from "@mui/material";
 import { Bolt } from "@mui/icons-material";
-import { Box } from "@mui/system";
 
 import Link from "../Link";
 

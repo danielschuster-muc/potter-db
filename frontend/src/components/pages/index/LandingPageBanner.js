@@ -1,7 +1,6 @@
 import Image from "next/image";
 
-import { Card, CardContent, Typography } from "@mui/material";
-import { Box } from "@mui/system";
+import { Box, Card, CardContent, Typography } from "@mui/material";
 
 const LandingPageBanner = () => {
   return (
