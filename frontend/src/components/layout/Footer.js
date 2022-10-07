@@ -34,12 +34,12 @@ const Footer = () => {
 					link: '/characters',
 				},
 				{
-					name: 'Potions',
-					link: '/potions',
-				},
-				{
 					name: 'Movies',
 					link: '/movies',
+				},
+				{
+					name: 'Potions',
+					link: '/potions',
 				},
 			],
 		},
