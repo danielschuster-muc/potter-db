@@ -13,27 +13,34 @@ export const getHouseColor = (house) => {
   }
 };
 
+export const getPotionDifficultyColor = (difficulty) => {
+  switch (true) {
+    case /beginner/i.test(difficulty):
+      return "#7DC44F";
+    case /ordinary/i.test(difficulty):
+      return "#D0C13A";
+    case /moderate/i.test(difficulty):
+      return "#DB6E3B";
+    case /advanced/i.test(difficulty):
+      return "#801C1C";
+    default:
+      return "transparent";
+  }
+};
+
 export const getSpellColor = (light) => {
-  switch (light) {
-    case "Red":
+  switch (true) {
+    case /Red/i.test(light):
       return "#ae0001";
-    case "Red or purple":
-      return "#ae0001";
-    case "Green":
+    case /Green/i.test(light):
       return "#2a623d";
-    case "Yellow":
+    case /Yellow/i.test(light):
       return "#ffdb00";
-    case "Blue":
+    case /Blue/i.test(light):
       return "#222f5b";
-    case "None or blue":
-      return "#222f5b";
-    case "Ice-blue":
-      return "#368BC1";
-    case "Golden":
+    case /Golden/i.test(light):
       return "#FFD700";
-    case "Purple":
-      return "#A020F0"
-    case "Purple fire":
+    case /Purple/i.test(light):
       return "#A020F0"
     default:
       return "#bebebe";
