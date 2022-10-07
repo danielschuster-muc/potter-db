@@ -38,11 +38,11 @@ const PotionListItem = ({ potion }) => {
 				</CardMedia>
 				<CardHeader title={name} />
 				<CardContent>
-					<ListItemBox value={difficulty || 'Unknown'} icon={faStar} />
-					<ListItemBox value={inventors || 'Unknown'} icon={faPerson} />
-					<ListItemBox value={side_effects || 'Unknown'} icon={faCross} />
-					<ListItemBox value={effect || 'Unknown'} icon={faEdit} />
-					<ListItemBox value={characteristics || 'Unknown'} icon={faPlus} />
+					<ListItemBox value={difficulty} icon={faStar} />
+					<ListItemBox value={inventors} icon={faPerson} />
+					<ListItemBox value={side_effects} icon={faCross} />
+					<ListItemBox value={effect} icon={faEdit} />
+					<ListItemBox value={characteristics} icon={faPlus} />
 				</CardContent>
 				<CardActions>
 					<Link href={`/potions/${slug}`}>
