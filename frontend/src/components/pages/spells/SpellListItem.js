@@ -35,7 +35,7 @@ const SpellListItem = ({ spell }) => {
         </CardMedia>
         <CardHeader title={name} />
         <CardContent>
-          <ListItemBox value={effect} icon={faWandSparkles} />
+          <ListItemBox value={incantation?.split(' (')[0]} icon={faWandSparkles} />
         </CardContent>
         <CardActions>
           <Link href={`/spells/${slug}`}>
