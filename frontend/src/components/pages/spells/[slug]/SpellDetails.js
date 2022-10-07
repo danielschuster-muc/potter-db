@@ -1,6 +1,7 @@
 import { Grid } from '@mui/material'
 
 import DetailInfoCard from '../../../ui/DetailedInfoCard';
+import { getSpellColor } from '../../../../lib/utils';
 
 const SpellDetails = ({ attributes, apiLink }) => {
   const { name, slug, effect, hand, incantation, category, light, creator, image, wiki } = attributes;
@@ -45,6 +46,7 @@ const SpellDetails = ({ attributes, apiLink }) => {
           slug={slug}
           image={image}
           tableData={informationTable}
+          color={getSpellColor(light)}
           links={[
             { title: 'Wiki', value: wiki },
             { title: 'API', value: apiLink },

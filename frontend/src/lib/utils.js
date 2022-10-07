@@ -13,6 +13,33 @@ export const getHouseColor = (house) => {
   }
 };
 
+export const getSpellColor = (light) => {
+  switch (light) {
+    case "Red":
+      return "#ae0001";
+    case "Red or purple":
+      return "#ae0001";
+    case "Green":
+      return "#2a623d";
+    case "Yellow":
+      return "#ffdb00";
+    case "Blue":
+      return "#222f5b";
+    case "None or blue":
+      return "#222f5b";
+    case "Ice-blue":
+      return "#368BC1";
+    case "Golden":
+      return "#FFD700";
+    case "Purple":
+      return "#A020F0"
+    case "Purple fire":
+      return "#A020F0"
+    default:
+      return "#bebebe";
+  };
+};
+
 export const getDatabaseStatus = async () => {
   return await fetch(`${getApiUrl()}/status`)
     .then((response) => response.status)

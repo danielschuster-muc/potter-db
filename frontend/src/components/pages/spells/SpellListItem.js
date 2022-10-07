@@ -5,9 +5,10 @@ import { faBookSkull, faHatWizard ,faWandSparkles } from "@fortawesome/free-soli
 
 import Link from '../../Link'
 import ListItemBox from '../../ui/ListItemBox'
+import { getSpellColor } from "../../../lib/utils";
 
 const SpellListItem = ({ spell }) => {
-  const { name, slug, incantation, image, category, hand } = spell.attributes;
+  const { name, slug, incantation, image, category, hand, light } = spell.attributes;
   
   return (
     <Grid item xs={12} sm={6} md={4} lg={3}>
@@ -15,7 +16,7 @@ const SpellListItem = ({ spell }) => {
         height: '100%',
         display: 'flex',
         flexDirection: 'column',
-        border: '3px solid',
+        border: `3px solid ${getSpellColor(light)}`,
         justifyContent: 'space-between'
       }}>
         <CardMedia>
