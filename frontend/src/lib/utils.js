@@ -17,16 +17,30 @@ export const getSpellColor = (light) => {
   switch (true) {
     case /Red/i.test(light):
       return "#ae0001";
+    case /Scarlet/i.test(light):
+      return "#ae0001";
+    case /Crimson/i.test(light):
+      return "#ae0001";
     case /Green/i.test(light):
       return "#2a623d";
     case /Yellow/i.test(light):
       return "#ffdb00";
     case /Blue/i.test(light):
       return "#222f5b";
-    case /Golden/i.test(light):
+    case /Turquoise/i.test(light):
+      return "#72EFDD";
+    case /Gold/i.test(light):
       return "#FFD700";
     case /Purple/i.test(light):
-      return "#A020F0"
+      return "#A020F0";
+    case /Violet/i.test(light):
+      return "#A020F0";
+    case /Orange/i.test(light):
+      return "#FCA311";
+    case /Pink/i.test(light):
+      return "#D100D1";
+    case /Black/i.test(light):
+      return "#000000";
     default:
       return "#bebebe";
   };
