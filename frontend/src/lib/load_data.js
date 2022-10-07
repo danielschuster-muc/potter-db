@@ -5,7 +5,7 @@ const apiUrl = getApiUrl();
 const simpleFetch = async (url) => {
   return fetch(url)
     .then((res) => res.json())
-    .catch((_error) => {
+    .catch(() => {
       return {
         hasError: true,
       };

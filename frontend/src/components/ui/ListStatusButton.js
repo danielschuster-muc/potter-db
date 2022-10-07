@@ -8,7 +8,7 @@ const ListStatusButton = ({
   error,
   title,
 }) => {
-  const message = `Show more ${title}`;
+  let message = `Show more ${title}`;
   if (isFetchingNextPage) {
     message = "Loading more...";
   } else if (error) {
@@ -17,7 +17,7 @@ const ListStatusButton = ({
     message = `No more ${title} available`;
   }
 
-  const icon = <Expand />;
+  let icon = <Expand />;
   if (isFetchingNextPage) {
     icon = <Loop />;
   } else if (error || !hasNextPage) {
