@@ -14,19 +14,17 @@ export const getHouseColor = (house) => {
 };
 
 export const getPotionDifficultyColor = (difficulty) => {
-	switch (difficulty) {
-		case "Beginner":
-			return "white";
-		case "Ordinary Wizarding Level":
-			return "#bebebe";
-		case "Moderate":
-			return "#bdae2d";
-		case "Moderate to Advanced" || "Moderate/Advanced":
-			return "#dbae3b";
-		case "Advanced":
-			return "#9e1919";
-		case "One of a kind":
-			return "#21a376";
+	switch (true) {
+		case /begginer/i.test(difficulty):
+			return "#8EE485";
+		case /ordinary/i.test(difficulty):
+			return "#7DC44F";
+		case /moderate/i.test(difficulty):
+			return "#45A85E";
+		case /advanced/i.test(difficulty):
+			return "#DB6E3B";
+		case /One of a kind/i.test(difficulty):
+			return "#801C1C";
 		default:
 			return "transparent";
 	}
