@@ -1,8 +1,8 @@
-import { dehydrate, QueryClient } from '@tanstack/react-query';
+import { dehydrate, QueryClient } from "@tanstack/react-query";
 
-import Meta from '../../components/Meta';
-import PotionList from '../../components/pages/potions/PotionList';
-import { getPotions } from '../../lib/load_potions';
+import Meta from "../../components/Meta";
+import PotionList from "../../components/pages/potions/PotionList";
+import { getPotions } from "../../lib/load_potions";
 
 const fetchPotions = async ({ pageParam = 1, queryKey }) => {
 	const [_, searchQuery] = queryKey;
@@ -24,7 +24,7 @@ const Potions = () => {
 export async function getStaticProps() {
 	const queryClient = new QueryClient();
 
-	await queryClient.prefetchQuery(['potions'], fetchPotions, {
+	await queryClient.prefetchQuery(["potions"], fetchPotions, {
 		retry: 10,
 	});
 

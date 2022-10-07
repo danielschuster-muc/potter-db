@@ -1,7 +1,7 @@
-import { getPotionsBySlug, getPotions } from '../../../lib/load_potions';
+import { getPotionsBySlug, getPotions } from "../../../lib/load_potions";
 
-import PotionDetails from '../../../components/pages/potions/[slug]/PotionDetails';
-import PotionMeta from '../../../components/pages/potions/[slug]/PotionMeta';
+import PotionDetails from "../../../components/pages/potions/[slug]/PotionDetails";
+import PotionMeta from "../../../components/pages/potions/[slug]/PotionMeta";
 
 const Potions = ({ data, links }) => {
 	const { attributes } = data;
@@ -26,7 +26,7 @@ export async function getStaticPaths() {
 	}));
 
 	return {
-		fallback: 'blocking',
+		fallback: "blocking",
 		paths,
 	};
 }

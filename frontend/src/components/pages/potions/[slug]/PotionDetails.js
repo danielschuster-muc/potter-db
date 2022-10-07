@@ -1,8 +1,8 @@
-import { Grid } from '@mui/material';
+import { Grid } from "@mui/material";
 
-import { getPotionDifficultyColor } from '../../../../lib/utils';
-import AccordionList from '../../../ui/AccordionList';
-import DetailInfoCard from '../../../ui/DetailedInfoCard';
+import { getPotionDifficultyColor } from "../../../../lib/utils";
+import AccordionList from "../../../ui/AccordionList";
+import DetailInfoCard from "../../../ui/DetailedInfoCard";
 
 const PotionDetails = ({ attributes, apiLink }) => {
 	const {
@@ -22,42 +22,42 @@ const PotionDetails = ({ attributes, apiLink }) => {
 
 	const accordions = [
 		{
-			name: 'Ingredients',
-			value: ingredients?.split(', '),
+			name: "Ingredients",
+			value: ingredients?.split(", "),
 		},
 	];
 
 	const informationTable = [
 		{
-			name: 'name',
+			name: "name",
 			value: name,
 		},
 		{
-			name: 'difficulty',
+			name: "difficulty",
 			value: difficulty,
 		},
 		{
-			name: 'inventors',
+			name: "inventors",
 			value: inventors,
 		},
 		{
-			name: 'effect',
+			name: "effect",
 			value: effect,
 		},
 		{
-			name: 'side_effects',
+			name: "side_effects",
 			value: side_effects,
 		},
 		{
-			name: 'characteristics',
+			name: "characteristics",
 			value: characteristics,
 		},
 		{
-			name: 'time',
+			name: "time",
 			value: time,
 		},
 		{
-			name: 'manufacturers',
+			name: "manufacturers",
 			value: manufacturers,
 		},
 	];
@@ -72,8 +72,8 @@ const PotionDetails = ({ attributes, apiLink }) => {
 					image={image}
 					tableData={informationTable}
 					links={[
-						{ title: 'Wiki', value: wiki },
-						{ title: 'API', value: apiLink },
+						{ title: "Wiki", value: wiki },
+						{ title: "API", value: apiLink },
 					]}
 				/>
 			</Grid>

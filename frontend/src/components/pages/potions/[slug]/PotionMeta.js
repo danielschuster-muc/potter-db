@@ -1,4 +1,4 @@
-import Meta from '../../../Meta';
+import Meta from "../../../Meta";
 
 const SinglePotionMeta = ({ attributes }) => {
 	const getMetaDescription = () => {
@@ -20,7 +20,7 @@ const SinglePotionMeta = ({ attributes }) => {
 			description.push(`Side Effect: ${attributes.side_effects}`);
 		}
 
-		return description.join(' - ');
+		return description.join(" - ");
 	};
 
 	return <Meta title={attributes.name} description={getMetaDescription()} image={attributes.image} />;

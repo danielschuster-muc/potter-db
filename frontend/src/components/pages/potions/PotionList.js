@@ -1,12 +1,12 @@
-import { useState } from 'react';
+import { useState } from "react";
 
-import { Grid, Typography } from '@mui/material';
-import { useInfiniteQuery } from '@tanstack/react-query';
-import InfiniteScroll from 'react-infinite-scroller';
+import { Grid, Typography } from "@mui/material";
+import { useInfiniteQuery } from "@tanstack/react-query";
+import InfiniteScroll from "react-infinite-scroller";
 
-import SearchField from '../../ui/SearchField';
-import PotionListItem from './PotionListItem';
-import ListStatusButton from '../../ui/ListStatusButton';
+import SearchField from "../../ui/SearchField";
+import PotionListItem from "./PotionListItem";
+import ListStatusButton from "../../ui/ListStatusButton";
 
 const PotionList = ({ fetchPotions }) => {
 	const [searchQuery, setSearchQuery] = useState();
@@ -18,7 +18,7 @@ const PotionList = ({ fetchPotions }) => {
 		error,
 		hasNextPage,
 		fetchNextPage,
-	} = useInfiniteQuery(['potions', searchQuery], fetchPotions, {
+	} = useInfiniteQuery(["potions", searchQuery], fetchPotions, {
 		retry: 10,
 		getNextPageParam: (lastPage, pages) => {
 			if (pages?.length < (lastPage?.meta?.pagination?.last || 0)) {
@@ -30,9 +30,9 @@ const PotionList = ({ fetchPotions }) => {
 
 	return (
 		<>
-			<Typography variant='h3'>Potion Search</Typography>
+			<Typography variant="h3">Potion Search</Typography>
 			<SearchField
-				placeholder='e.g. Dragon tonic'
+				placeholder="e.g. Dragon tonic"
 				handleChangeSearch={setSearchQuery}
 				totalResults={rawPotions?.pages ? rawPotions?.pages[0]?.meta?.pagination?.records : 0}
 			/>
@@ -52,7 +52,7 @@ const PotionList = ({ fetchPotions }) => {
 				hasNextPage={hasNextPage}
 				fetchNextPage={fetchNextPage}
 				error={error}
-				title='potions'
+				title="potions"
 			/>
 		</>
 	);
