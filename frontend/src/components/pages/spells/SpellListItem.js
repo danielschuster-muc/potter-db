@@ -47,8 +47,6 @@ const SpellListItem = ({ spell }) => {
       </Card>
     </Grid>
   )
-
 }
-
 
 export default SpellListItem;
