@@ -40,6 +40,10 @@ const Footer = () => {
           name: "Potions",
           link: "/potions",
         },
+        {
+          name: "Spells",
+          link: "/spells",
+        },
       ],
     },
     {
