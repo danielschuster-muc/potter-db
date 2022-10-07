@@ -15,16 +15,16 @@ const Spells = ({ data, links }) => {
 
 export async function getStaticPaths() {
   const defaultSlugs = [
-    "accio",
-    "alohomora",
-    "avada-kedavra",
-    "expecto-patronum",
-    "expelliarmus",
-    "imperio",
-    "lumos",
-    "obliviate",
-    "stupefy",
-    "wingardium-leviosa",
+    "disarming-charm",
+    "imperius-curse",
+    "killing-curse",
+    "levitation-charm",
+    "memory-charm",
+    "patronus-charm",
+    "stunning-spell",
+    "summoning-charm",
+    "unlocking-charm",
+    "wand-lighting-charm",
   ]
 
   const fetchedSpells = await getSpells({ perPage: 30 });
