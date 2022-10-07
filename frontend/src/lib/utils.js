@@ -13,6 +13,21 @@ export const getHouseColor = (house) => {
   }
 };
 
+export const getPotionDifficultyColor = (difficulty) => {
+  switch (true) {
+    case /beginner/i.test(difficulty):
+      return "#7DC44F";
+    case /ordinary/i.test(difficulty):
+      return "#D0C13A";
+    case /moderate/i.test(difficulty):
+      return "#DB6E3B";
+    case /advanced/i.test(difficulty):
+      return "#801C1C";
+    default:
+      return "transparent";
+  }
+};
+
 export const getDatabaseStatus = async () => {
   return await fetch(`${getApiUrl()}/status`)
     .then((response) => response.status)
