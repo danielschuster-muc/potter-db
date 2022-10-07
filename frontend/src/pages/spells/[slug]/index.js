@@ -1,22 +1,42 @@
 import SpellDetails from '../../../components/pages/spells/[slug]/SpellDetails'
+import SpellMeta from '../../../components/pages/spells/[slug]/SpellMeta'
 import { getSpells, getSpellsBySlug } from '../../../lib/load_spells';
 
 const Spells = ({ data, links }) => {
   const { attributes } = data;
 
   return (
-    <SpellDetails attributes={attributes} apiLink={links?.self} />
+    <>
+      <SpellMeta attributes={attributes} />
+      <SpellDetails attributes={attributes} apiLink={links?.self} />
+    </>
   )
 }
 
 export async function getStaticPaths() {
+  const defaultSlugs = [
+    "accio",
+    "alohomora",
+    "avada-kedavra",
+    "expecto-patronum",
+    "expelliarmus",
+    "imperio",
+    "lumos",
+    "obliviate",
+    "stupefy",
+    "wingardium-leviosa",
+  ]
+
   const fetchedSpells = await getSpells({ perPage: 30 });
 
-  const spellSlugs = fetchedSpells?.data?.map(
-    (spell) => spell?.attributes?.slug
-  );
+  const spells = fetchedSpells?.data;
 
-  const paths = spellSlugs.map((slug) => ({
+  const slugs = [
+    ...defaultSlugs,
+    ...spells.map((spell) => spell.attributes.slug),
+  ];
+
+  const paths = slugs.map((slug) => ({
     params: {
       slug,
     }
