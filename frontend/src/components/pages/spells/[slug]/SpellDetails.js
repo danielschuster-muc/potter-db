@@ -8,11 +8,11 @@ const SpellDetails = ({ attributes, apiLink }) => {
 
   const informationTable = [
     {
-      name: 'name',
+      name: 'Name',
       value: name,
     },
     {
-      name: 'incantation',
+      name: 'Incantation',
       value: incantation,
     },
     {
