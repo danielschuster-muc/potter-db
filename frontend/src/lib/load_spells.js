@@ -7,7 +7,7 @@ const getSpellsBySlug = async (slug) => {
 const getSpells = async (query) => {
   const { searchQuery } = query;
   if (searchQuery) {
-    query['searchFilter'] = `filter[name_cont_any]=${searchQuery}`;
+    query['searchFilter'] = `filter[name_or_incantation_cont_any]=${searchQuery}`;
   }
   return await getAll('spells', query);
 };
