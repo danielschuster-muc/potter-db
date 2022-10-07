@@ -1,6 +1,5 @@
 import { AppBar, Box, Container, Grid, Typography } from "@mui/material";
 import { getApiUrl, getGithubUrl } from "../../lib/utils";
-
 import Link from "../Link";
 
 const Footer = () => {
