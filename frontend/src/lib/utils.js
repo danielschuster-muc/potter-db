@@ -15,10 +15,10 @@ export const getHouseColor = (house) => {
 
 export const getPotionDifficultyColor = (difficulty) => {
   switch (true) {
-    case /begginer/i.test(difficulty):
+    case /beginner/i.test(difficulty):
       return "#7DC44F";
-    case /ordinary/i.test(difficulty):
-      return "#45A85E";
+    case /Ordinary/i.test(difficulty):
+      return "#D0C13A";
     case /moderate/i.test(difficulty):
       return "#DB6E3B";
     case /advanced/i.test(difficulty):
