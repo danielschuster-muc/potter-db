@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <AppBar component="nav" color="transparent" elevation={0} position="static">
       <Toolbar disableGutters>
-        <Link href="/">
+        <Link href="/" style={{ textDecoration: 'none' }}>
           <Box display="flex">
             <Bolt fontSize="large" />
             <Typography
