@@ -1,27 +1,14 @@
 import Image from "next/image";
 
-import {
-  faCalendar,
-  faClock,
-  faStarHalfStroke,
-} from "@fortawesome/free-solid-svg-icons";
+import { faCalendar, faClock, faStarHalfStroke } from "@fortawesome/free-solid-svg-icons";
 
-import {
-  Card,
-  CardActions,
-  CardContent,
-  CardHeader,
-  CardMedia,
-  Grid,
-  Typography,
-} from "@mui/material";
+import { Card, CardActions, CardContent, CardHeader, CardMedia, Grid, Typography } from "@mui/material";
 
 import Link from "../../Link";
 import ListItemBox from "../../ui/ListItemBox";
 
 const MovieListItem = ({ movie }) => {
-  const { title, slug, release_date, rating, running_time, poster } =
-    movie.attributes;
+  const { title, slug, release_date, rating, running_time, poster } = movie.attributes;
   return (
     <Grid item xs={12} sm={6} md={4} lg={3}>
       <Card

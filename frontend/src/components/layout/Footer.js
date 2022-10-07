@@ -1,6 +1,5 @@
 import { AppBar, Box, Container, Grid, Typography } from "@mui/material";
 import { getApiUrl, getGithubUrl } from "../../lib/utils";
-
 import Link from "../Link";
 
 const Footer = () => {
@@ -38,6 +37,10 @@ const Footer = () => {
           link: "/movies",
         },
         {
+          name: "Potions",
+          link: "/potions",
+        },
+        {
           name: "Spells",
           link: "/spells",
         },
@@ -59,13 +62,7 @@ const Footer = () => {
   ];
 
   return (
-    <AppBar
-      component="footer"
-      color="transparent"
-      elevation={0}
-      position="static"
-      sx={{ mt: 5, mb: 2 }}
-    >
+    <AppBar component="footer" color="transparent" elevation={0} position="static" sx={{ mt: 5, mb: 2 }}>
       <Container disableGutters>
         <Grid container spacing={5}>
           {footerData.map((row) => (
@@ -82,11 +79,7 @@ const Footer = () => {
           ))}
         </Grid>
 
-        <Box
-          style={{ textAlign: "center" }}
-          pt={{ xs: 3, sm: 5 }}
-          pb={{ xs: 4, sm: 0 }}
-        >
+        <Box style={{ textAlign: "center" }} pt={{ xs: 3, sm: 5 }} pb={{ xs: 4, sm: 0 }}>
           Copyright &copy; Potter DB {new Date().getFullYear()}
         </Box>
       </Container>
