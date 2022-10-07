@@ -1,13 +1,13 @@
 import { Card, CardActions, CardContent, CardHeader, CardMedia, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 
-import { faWandSparkles } from "@fortawesome/free-solid-svg-icons";
+import { faBookSkull, faHatWizard ,faWandSparkles } from "@fortawesome/free-solid-svg-icons";
 
 import Link from '../../Link'
 import ListItemBox from '../../ui/ListItemBox'
 
 const SpellListItem = ({ spell }) => {
-  const { name, slug, effect, hand, incantation, category, light, creator, image, wiki } = spell.attributes;
+  const { name, slug, incantation, image, category, hand } = spell.attributes;
   
   return (
     <Grid item xs={12} sm={6} md={4} lg={3}>
@@ -34,7 +34,9 @@ const SpellListItem = ({ spell }) => {
         </CardMedia>
         <CardHeader title={name} />
         <CardContent>
-          <ListItemBox value={incantation?.split(' (')[0]} icon={faWandSparkles} />
+          <ListItemBox value={incantation?.split(' (')[0]} icon={faHatWizard} />
+          <ListItemBox value={category} icon={faBookSkull} />
+          <ListItemBox value={hand} icon={faWandSparkles} />
         </CardContent>
         <CardActions>
           <Link href={`/spells/${slug}`}>
