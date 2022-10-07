@@ -30,7 +30,8 @@ export const getSpellColor = (light) => {
     default:
       return "#bebebe";
   };
-  
+};
+
 export const getPotionDifficultyColor = (difficulty) => {
   switch (true) {
     case /beginner/i.test(difficulty):
