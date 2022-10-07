@@ -25,6 +25,18 @@ const PotionDetails = ({ attributes, apiLink }) => {
 			name: "Ingredients",
 			value: ingredients?.split(", "),
 		},
+		{
+			name: "Inventors",
+			value: inventors?.split(", "),
+		},
+		{
+			name: "Manufacturers",
+			value: manufacturers?.split(", "),
+		},
+		{
+			name: "Characteristics",
+			value: characteristics?.split(", "),
+		},
 	];
 
 	const informationTable = [
@@ -37,10 +49,6 @@ const PotionDetails = ({ attributes, apiLink }) => {
 			value: difficulty,
 		},
 		{
-			name: "inventors",
-			value: inventors,
-		},
-		{
 			name: "effect",
 			value: effect,
 		},
@@ -49,16 +57,8 @@ const PotionDetails = ({ attributes, apiLink }) => {
 			value: side_effects,
 		},
 		{
-			name: "characteristics",
-			value: characteristics,
-		},
-		{
 			name: "time",
 			value: time,
-		},
-		{
-			name: "manufacturers",
-			value: manufacturers,
 		},
 	];
 
