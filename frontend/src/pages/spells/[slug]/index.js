@@ -11,35 +11,13 @@ const Spells = ({ data, links }) => {
 }
 
 export async function getStaticPaths() {
-  const defaultSlugs = [
-    "age-line",
-    "alarte-ascendare",
-    "albus-dumbledore-s-forceful-spell",
-    "amplifying-charm",
-    "anapneo",
-    "animagus-spell",
-    "anteoculatia",
-    "anti-cheating-spell",
-    "anti-disapparition-jinx",
-    "antonin-dolohov-s-curse",
-    "apparition",
-    "aqua-eructo",
-    "arania-exumai",
-    "arrow-shooting-spell",
-    "ascendio",
-    "avenseguim",
-    "avifors-spell",
-    "babbling-curse",
-    "badgering",
-  ]
-
   const fetchedSpells = await getSpells({ perPage: 30 });
 
-  const spells = fetchedSpells?.data
+  const spellSlugs = fetchedSpells?.data?.map(
+    (spell) => spell?.attributes?.slug
+  );
 
-  const slugs = [...defaultSlugs, ...spells.map(spell => spell.attributes.slug)]
-
-  const paths = slugs.map((slug) => ({
+  const paths = spellSlugs.map((slug) => ({
     params: {
       slug,
     }
