@@ -17,7 +17,7 @@ export const getPotionDifficultyColor = (difficulty) => {
   switch (true) {
     case /beginner/i.test(difficulty):
       return "#7DC44F";
-    case /Ordinary/i.test(difficulty):
+    case /ordinary/i.test(difficulty):
       return "#D0C13A";
     case /moderate/i.test(difficulty):
       return "#DB6E3B";
