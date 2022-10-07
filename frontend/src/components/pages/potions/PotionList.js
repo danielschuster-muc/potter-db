@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import { Grid, Typography } from "@mui/material";
 import { useInfiniteQuery } from "@tanstack/react-query";
-import InfiniteScroll from "react-infinite-scroller";
 
 import ListStatusButton from "../../ui/ListStatusButton";
 import SearchField from "../../ui/SearchField";
@@ -34,18 +33,20 @@ const PotionList = ({ fetchPotions }) => {
       <SearchField
         placeholder="e.g. Dragon tonic"
         handleChangeSearch={setSearchQuery}
-        totalResults={rawPotions?.pages ? rawPotions?.pages[0]?.meta?.pagination?.records : 0}
+        totalResults={
+          rawPotions?.pages
+            ? rawPotions?.pages[0]?.meta?.pagination?.records
+            : 0
+        }
       />
       {isSuccess && (
-        <InfiniteScroll hasMore={hasNextPage} loadMore={() => {}}>
-          <Grid container spacing={2}>
-            {rawPotions?.pages?.map((page) =>
-              page?.data?.map((potion) => {
-                return <PotionListItem key={potion.id} potion={potion} />;
-              })
-            )}
-          </Grid>
-        </InfiniteScroll>
+        <Grid container spacing={2}>
+          {rawPotions?.pages?.map((page) =>
+            page?.data?.map((potion) => {
+              return <PotionListItem key={potion.id} potion={potion} />;
+            })
+          )}
+        </Grid>
       )}
       <ListStatusButton
         isFetchingNextPage={isFetchingNextPage}
