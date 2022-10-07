@@ -34,7 +34,11 @@ const PotionList = ({ fetchPotions }) => {
       <SearchField
         placeholder="e.g. Dragon tonic"
         handleChangeSearch={setSearchQuery}
-        totalResults={rawPotions?.pages ? rawPotions?.pages[0]?.meta?.pagination?.records : 0}
+        totalResults={
+          rawPotions?.pages
+            ? rawPotions?.pages[0]?.meta?.pagination?.records
+            : 0
+        }
       />
       {isSuccess && (
         <InfiniteScroll hasMore={hasNextPage} loadMore={() => {}}>

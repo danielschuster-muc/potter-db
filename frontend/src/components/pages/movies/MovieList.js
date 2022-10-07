@@ -9,9 +9,13 @@ import MovieListItem from "./MovieListItem";
 const MovieList = ({ fetchMovies }) => {
   const [searchQuery, setSearchQuery] = useState();
 
-  const { data: rawMovies, isSuccess } = useQuery(["movies", searchQuery], fetchMovies, {
-    retry: 10,
-  });
+  const { data: rawMovies, isSuccess } = useQuery(
+    ["movies", searchQuery],
+    fetchMovies,
+    {
+      retry: 10,
+    }
+  );
 
   return (
     <>
