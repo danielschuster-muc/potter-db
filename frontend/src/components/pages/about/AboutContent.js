@@ -35,7 +35,7 @@ const AboutContent = () => {
       </Typography>
       <Typography>
         You can search up data with the{" "}
-        <Link href="/search">Database Search</Link>. Or you use our{" "}
+        <Link href="/#db-search">Database Search</Link>. Or you use our{" "}
         <Link href={apiUrl}>REST</Link> or{" "}
         <Link href={`${apiUrl}/graphql`}>GraphQL</Link> API.
       </Typography>

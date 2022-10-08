@@ -29,7 +29,7 @@ const faqData = [
     answer: (
       <Typography>
         You can either use the <Link href={getApiUrl()}>API</Link> itself or use
-        the <Link href="/search">Database Search</Link> to look up many
+        the <Link href="/#db-search">Database Search</Link> to look up many
         different things from the Harry Potter Universe.
       </Typography>
     ),

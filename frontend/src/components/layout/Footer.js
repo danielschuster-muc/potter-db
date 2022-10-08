@@ -17,7 +17,7 @@ const Footer = () => {
           link: "/about",
         },
         {
-          name: "Impressum",
+          name: "Imprint",
           link: "https://danielschuster.me/legal-notice",
         },
         {
@@ -31,19 +31,19 @@ const Footer = () => {
       content: [
         {
           name: "Characters",
-          link: "/search/characters",
+          link: "/characters",
         },
         {
           name: "Movies",
-          link: "/search/movies",
+          link: "/movies",
         },
         {
           name: "Potions",
-          link: "/search/potions",
+          link: "/potions",
         },
         {
           name: "Spells",
-          link: "/search/spells",
+          link: "/spells",
         },
       ],
     },

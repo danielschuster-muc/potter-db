@@ -1,6 +1,6 @@
 import { getAll, getBySlug } from "./load_data";
 
-const getSpellsBySlug = async (slug) => {
+const getSpellBySlug = async (slug) => {
   return await getBySlug("spells", slug);
 };
 
@@ -14,4 +14,4 @@ const getSpells = async (query) => {
   return await getAll("spells", query);
 };
 
-export { getSpellsBySlug, getSpells };
+export { getSpellBySlug, getSpells };
