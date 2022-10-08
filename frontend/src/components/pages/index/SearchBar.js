@@ -60,6 +60,7 @@ const SearchBar = () => {
         label="Type"
         value={searchType}
         onChange={handleChangeSearchType}
+        sx={{ mx: 2 }}
       >
         {searchTypes.map((option) => (
           <MenuItem key={option.value} value={option.value}>
@@ -74,7 +75,6 @@ const SearchBar = () => {
         variant="outlined"
         aria-label="search"
         startIcon={<Search />}
-        sx={{ ml: 2 }}
       >
         Search
       </Button>
