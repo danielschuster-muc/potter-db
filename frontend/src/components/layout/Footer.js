@@ -1,4 +1,4 @@
-import { AppBar, Box, Container, Grid, Typography } from "@mui/material";
+import { AppBar, Box, Container, Grid } from "@mui/material";
 
 import Link from "../Link";
 import { getApiUrl, getGithubUrl } from "../../lib/utils";
@@ -74,9 +74,7 @@ const Footer = () => {
         <Grid container spacing={5}>
           {footerData.map((row) => (
             <Grid item key={row.title} xs={12} sm={4}>
-              <Box borderBottom={1}>
-                <Typography variant="h6">{row.title}</Typography>
-              </Box>
+              <Box borderBottom={1}>{row.title}</Box>
               {row.content.map((column) => (
                 <Box key={column.name} pt={1}>
                   <Link href={column.link}>{column.name}</Link>
