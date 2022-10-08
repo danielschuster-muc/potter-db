@@ -17,7 +17,9 @@ const Potions = ({ data, links }) => {
 export async function getStaticPaths() {
   const fetchedPotions = await getPotions({ perPage: 30 });
 
-  const potions = fetchedPotions?.data?.map((potion) => potion?.attributes?.slug);
+  const potions = fetchedPotions?.data?.map(
+    (potion) => potion?.attributes?.slug
+  );
 
   const paths = potions.map((slug) => ({
     params: {
