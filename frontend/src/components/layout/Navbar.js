@@ -1,4 +1,5 @@
 import { AppBar, Toolbar, Typography } from "@mui/material";
+import { Bolt } from "@mui/icons-material";
 import { Box } from "@mui/system";
 
 import Image from 'next/image';
@@ -10,12 +11,12 @@ const Navbar = () => {
       <Toolbar disableGutters>
         <Link href="/" style={{ textDecoration: 'none' }}>
           <Box display="flex">
-            <Image src='/images/logo.svg' width={45} height={45} />
+          <Bolt fontSize="large" />
             <Typography
               variant="h5"
               noWrap
               sx={{
-                mt: 1,
+                mr: 2,
                 letterSpacing: ".2rem",
                 textDecoration: "none",
               }}
