@@ -3,9 +3,9 @@ import { useState } from "react";
 import { Grid, Typography } from "@mui/material";
 import { useInfiniteQuery } from "@tanstack/react-query";
 
-import SearchField from "../../ui/SearchField";
 import CharacterListItem from "./CharacterListItem";
 import ListStatusButton from "../../ui/ListStatusButton";
+import SearchField from "../../ui/SearchField";
 
 const CharacterList = ({ fetchCharacters }) => {
   const [searchQuery, setSearchQuery] = useState();

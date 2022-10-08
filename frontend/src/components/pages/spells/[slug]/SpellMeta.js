@@ -1,18 +1,18 @@
 import Meta from "../../../Meta";
 
-const SingleSpellMeta = ({ attributes}) => {
+const SingleSpellMeta = ({ attributes }) => {
   const getMetaDescription = () => {
     let description = [];
-    
-    if(attributes.name) {
+
+    if (attributes.name) {
       description.push(`Name: ${attributes.name}`);
     }
 
-    if(attributes.category) {
+    if (attributes.category) {
       description.push(`Category: ${attributes.category}`);
     }
 
-    if(attributes.creator) {
+    if (attributes.creator) {
       description.push(`Creator: ${attributes.creator}`);
     }
 
@@ -20,7 +20,7 @@ const SingleSpellMeta = ({ attributes}) => {
   };
 
   return (
-    <Meta 
+    <Meta
       title={attributes.name}
       description={getMetaDescription()}
       image={attributes.image}
@@ -28,4 +28,4 @@ const SingleSpellMeta = ({ attributes}) => {
   );
 };
 
-export default SingleSpellMeta
+export default SingleSpellMeta;

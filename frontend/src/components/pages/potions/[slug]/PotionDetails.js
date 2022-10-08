@@ -1,8 +1,8 @@
 import { Grid } from "@mui/material";
 
-import { getPotionDifficultyColor } from "../../../../lib/utils";
 import AccordionList from "../../../ui/AccordionList";
-import DetailInfoCard from "../../../ui/DetailedInfoCard";
+import DetailedInfoCard from "../../../ui/DetailedInfoCard";
+import { getPotionColorByDifficulty } from "../../../../lib/utils";
 
 const PotionDetails = ({ attributes, apiLink }) => {
   const {
@@ -65,10 +65,10 @@ const PotionDetails = ({ attributes, apiLink }) => {
   return (
     <Grid container spacing={3}>
       <Grid item xs={12} md={6}>
-        <DetailInfoCard
+        <DetailedInfoCard
           title={name}
           slug={slug}
-          color={getPotionDifficultyColor(difficulty)}
+          color={getPotionColorByDifficulty(difficulty)}
           image={image}
           tableData={informationTable}
           links={[

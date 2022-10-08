@@ -17,9 +17,9 @@ import {
   Typography,
 } from "@mui/material";
 
-import { getHouseColor } from "../../../lib/utils";
 import Link from "../../Link";
 import ListItemBox from "../../ui/ListItemBox";
+import { getCharacterColorByHouse } from "../../../lib/utils";
 
 const CharacterListItem = ({ character }) => {
   const { name, slug, house, born, died, species, gender, image } =
@@ -32,7 +32,7 @@ const CharacterListItem = ({ character }) => {
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          border: `3px solid ${getHouseColor(house)}`,
+          border: `3px solid ${getCharacterColorByHouse(house)}`,
           justifyContent: "space-between",
         }}
       >

@@ -1,6 +1,7 @@
 import { AppBar, Box, Container, Grid, Typography } from "@mui/material";
-import { getApiUrl, getGithubUrl } from "../../lib/utils";
+
 import Link from "../Link";
+import { getApiUrl, getGithubUrl } from "../../lib/utils";
 
 const Footer = () => {
   const footerData = [
@@ -16,7 +17,7 @@ const Footer = () => {
           link: "/about",
         },
         {
-          name: "Impressum",
+          name: "Imprint",
           link: "https://danielschuster.me/legal-notice",
         },
         {

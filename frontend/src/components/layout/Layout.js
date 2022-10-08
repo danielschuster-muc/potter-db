@@ -1,14 +1,13 @@
 import { useEffect, useState } from "react";
 
-import { Container } from "@mui/system";
-import { Box, CssBaseline } from "@mui/material";
+import { Box, Container, CssBaseline } from "@mui/material";
 import { ThemeProvider } from "@emotion/react";
 
+import DatabaseAlert from "../ui/DatabaseAlert";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import DatabaseAlert from "../ui/DatabaseAlert";
-import Theme from "../Theme";
 import ScrollToTop from "../ui/ScrollToTop";
+import Theme from "../Theme";
 
 const Layout = ({ children }) => {
   const [hasMounted, setHasMounted] = useState(false);

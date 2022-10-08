@@ -3,8 +3,8 @@ import { useState } from "react";
 import { Grid, Typography } from "@mui/material";
 import { useQuery } from "@tanstack/react-query";
 
-import SearchField from "../../ui/SearchField";
 import MovieListItem from "./MovieListItem";
+import SearchField from "../../ui/SearchField";
 
 const MovieList = ({ fetchMovies }) => {
   const [searchQuery, setSearchQuery] = useState();

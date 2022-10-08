@@ -3,9 +3,9 @@ import { useState } from "react";
 import { Grid, Typography } from "@mui/material";
 import { useInfiniteQuery } from "@tanstack/react-query";
 
+import ListStatusButton from "../../ui/ListStatusButton";
 import SearchField from "../../ui/SearchField";
 import SpellListItem from "./SpellListItem";
-import ListStatusButton from "../../ui/ListStatusButton";
 
 const SpellList = ({ fetchSpells }) => {
   const [searchQuery, setSearchQuery] = useState();

@@ -18,9 +18,9 @@ import {
   Typography,
 } from "@mui/material";
 
-import { getPotionDifficultyColor } from "../../../lib/utils";
 import Link from "../../Link";
 import ListItemBox from "../../ui/ListItemBox";
+import { getPotionColorByDifficulty } from "../../../lib/utils";
 
 const PotionListItem = ({ potion }) => {
   const {
@@ -41,7 +41,7 @@ const PotionListItem = ({ potion }) => {
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          border: `3px solid ${getPotionDifficultyColor(difficulty)}`,
+          border: `3px solid ${getPotionColorByDifficulty(difficulty)}`,
           justifyContent: "space-between",
         }}
       >

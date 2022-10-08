@@ -1,6 +1,6 @@
-import SpellDetails from '../../../components/pages/spells/[slug]/SpellDetails'
-import SpellMeta from '../../../components/pages/spells/[slug]/SpellMeta'
-import { getSpells, getSpellsBySlug } from '../../../lib/load_spells';
+import SpellDetails from "../../../components/pages/spells/[slug]/SpellDetails";
+import SpellMeta from "../../../components/pages/spells/[slug]/SpellMeta";
+import { getSpells, getSpellBySlug } from "../../../lib/load_spells";
 
 const Spells = ({ data, links }) => {
   const { attributes } = data;
@@ -10,8 +10,8 @@ const Spells = ({ data, links }) => {
       <SpellMeta attributes={attributes} />
       <SpellDetails attributes={attributes} apiLink={links?.self} />
     </>
-  )
-}
+  );
+};
 
 export async function getStaticPaths() {
   const defaultSlugs = [
@@ -25,7 +25,7 @@ export async function getStaticPaths() {
     "summoning-charm",
     "unlocking-charm",
     "wand-lighting-charm",
-  ]
+  ];
 
   const fetchedSpells = await getSpells({ perPage: 30 });
 
@@ -39,31 +39,31 @@ export async function getStaticPaths() {
   const paths = slugs.map((slug) => ({
     params: {
       slug,
-    }
-  }))
+    },
+  }));
 
   return {
-    fallback: 'blocking',
+    fallback: "blocking",
     paths,
-  }
+  };
 }
 
 export async function getStaticProps({ params }) {
-  const spell = await getSpellsBySlug(params.slug);
+  const spell = await getSpellBySlug(params.slug);
   const { data, links, hasError } = spell;
 
   if (hasError || !data || !data.attributes || !links) {
     return {
       notFound: true,
-    }
+    };
   }
 
   return {
     props: {
       data,
       links,
-    }
-  }
+    },
+  };
 }
 
 export default Spells;

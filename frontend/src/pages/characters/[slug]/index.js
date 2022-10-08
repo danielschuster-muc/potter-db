@@ -1,10 +1,10 @@
+import CharacterMeta from "../../../components/pages/characters/[slug]/CharacterMeta";
+import CharacterDetails from "../../../components/pages/characters/[slug]/CharacterDetails";
+
 import {
   getCharacterBySlug,
   getCharacters,
 } from "../../../lib/load_characters";
-
-import CharacterDetails from "../../../components/pages/characters/[slug]/CharacterDetails";
-import CharacterMeta from "../../../components/pages/characters/[slug]/CharacterMeta";
 
 const Character = ({ data, links }) => {
   const { attributes } = data;

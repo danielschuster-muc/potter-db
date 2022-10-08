@@ -1,61 +1,72 @@
-import { Grid } from '@mui/material'
+import { Grid } from "@mui/material";
 
-import DetailInfoCard from '../../../ui/DetailedInfoCard';
-import { getSpellColor } from '../../../../lib/utils';
+import DetailInfoCard from "../../../ui/DetailedInfoCard";
+import { getSpellColorByLight } from "../../../../lib/utils";
 
 const SpellDetails = ({ attributes, apiLink }) => {
-  const { name, slug, effect, hand, incantation, category, light, creator, image, wiki } = attributes;
+  const {
+    name,
+    slug,
+    effect,
+    hand,
+    incantation,
+    category,
+    light,
+    creator,
+    image,
+    wiki,
+  } = attributes;
 
   const informationTable = [
     {
-      name: 'Name',
+      name: "Name",
       value: name,
     },
     {
-      name: 'Incantation',
+      name: "Incantation",
       value: incantation,
     },
     {
-      name: 'Effect',
+      name: "Effect",
       value: effect,
     },
     {
-      name: 'Category',
+      name: "Category",
       value: category,
     },
     {
-      name: 'Light',
+      name: "Light",
       value: light,
     },
     {
-      name: 'Hand',
+      name: "Hand",
       value: hand,
     },
     {
-      name: 'Creator',
+      name: "Creator",
       value: creator,
     },
   ];
 
   return (
     <>
-    <Grid container spacing={3} justifyContent='center'>
-      <Grid item xs={12} md={6}>
-        <DetailInfoCard
-          title={name}
-          slug={slug}
-          image={image}
-          tableData={informationTable}
-          color={getSpellColor(light)}
-          links={[
-            { title: 'Wiki', value: wiki },
-            { title: 'API', value: apiLink },
-          ]}
-        />
+      <Grid container spacing={3} justifyContent="center">
+        <Grid item xs={12} md={6}>
+          <DetailInfoCard
+            title={name}
+            slug={slug}
+            image={image}
+            tableData={informationTable}
+            color={getSpellColorByLight(light)}
+            links={[
+              { title: "Wiki", value: wiki },
+              { title: "API", value: apiLink },
+            ]}
+          />
+        </Grid>
       </Grid>
-    </Grid>
     </>
-  )
-} 
+  );
+};
 
 export default SpellDetails;

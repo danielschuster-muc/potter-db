@@ -1,4 +1,4 @@
-export const getHouseColor = (house) => {
+export const getCharacterColorByHouse = (house) => {
   switch (house) {
     case "Gryffindor":
       return "#ae0001";
@@ -13,7 +13,7 @@ export const getHouseColor = (house) => {
   }
 };
 
-export const getSpellColor = (light) => {
+export const getSpellColorByLight = (light) => {
   switch (true) {
     case /Red/i.test(light):
       return "#ae0001";
@@ -43,10 +43,10 @@ export const getSpellColor = (light) => {
       return "#000000";
     default:
       return "#bebebe";
-  };
+  }
 };
 
-export const getPotionDifficultyColor = (difficulty) => {
+export const getPotionColorByDifficulty = (difficulty) => {
   switch (true) {
     case /beginner/i.test(difficulty):
       return "#7DC44F";

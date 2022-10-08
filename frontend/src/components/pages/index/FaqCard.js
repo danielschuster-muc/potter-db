@@ -1,4 +1,5 @@
 import {
+  Box,
   Card,
   CardContent,
   CardHeader,
@@ -6,7 +7,6 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import { Box } from "@mui/system";
 import { GitHub, QuestionMark, Search } from "@mui/icons-material";
 
 import Link from "../../Link";
@@ -29,7 +29,7 @@ const faqData = [
     answer: (
       <Typography>
         You can either use the <Link href={getApiUrl()}>API</Link> itself or use
-        the <Link href="/characters">Database Search</Link> to look up many
+        the <Link href="/#db-search">Database Search</Link> to look up many
         different things from the Harry Potter Universe.
       </Typography>
     ),
