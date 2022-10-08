@@ -3,7 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["static.wikia.nocookie.net", "www.wizardingworld.com"],
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    domains: ["static.wikia.nocookie.net", "www.wizardingworld.com"]
   },
   productionBrowserSourceMaps: true,
 };

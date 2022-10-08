@@ -1,8 +1,7 @@
 import { AppBar, Toolbar, Typography } from "@mui/material";
-import { Bolt } from "@mui/icons-material";
 import { Box } from "@mui/system";
 
-import Image from 'next/image';
+import Image from 'next/image'
 import Link from "../Link";
 
 const Navbar = () => {
@@ -11,7 +10,7 @@ const Navbar = () => {
       <Toolbar disableGutters>
         <Link href="/" style={{ textDecoration: 'none' }}>
           <Box display="flex">
-          <Bolt fontSize="large" />
+          <Image src="/images/logo.svg" width={30} height={10} alt="logo" />
             <Typography
               variant="h5"
               noWrap
