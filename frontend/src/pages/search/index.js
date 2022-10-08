@@ -3,7 +3,6 @@ import Image from "next/image";
 import {
   Card,
   CardActions,
-  CardContent,
   CardHeader,
   CardMedia,
   Grid,

@@ -5,7 +5,7 @@ import SpellList from "../../../components/pages/search/spells/SpellList";
 import { getSpells } from "../../../lib/load_spells";
 
 const fetchSpells = async ({ pageParam = 1, queryKey }) => {
-  const [_, searchQuery] = queryKey;
+  const [searchQuery] = queryKey;
   return await getSpells({
     page: pageParam,
     searchQuery: searchQuery,
