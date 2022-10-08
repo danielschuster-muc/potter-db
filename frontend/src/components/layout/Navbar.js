@@ -1,5 +1,4 @@
 import { AppBar, Toolbar, Typography } from "@mui/material";
-import { Bolt } from "@mui/icons-material";
 import { Box } from "@mui/system";
 
 import Image from 'next/image';
