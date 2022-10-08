@@ -5,7 +5,7 @@ import Meta from "../../../components/Meta";
 import { getCharacters } from "../../../lib/load_characters";
 
 const fetchCharacters = async ({ pageParam = 1, queryKey }) => {
-  const [_, searchQuery] = queryKey;
+  const searchQuery = queryKey[1];
   return await getCharacters({
     page: pageParam,
     searchQuery: searchQuery,

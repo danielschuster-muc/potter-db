@@ -5,7 +5,7 @@ import PotionList from "../../../components/pages/search/potions/PotionList";
 import { getPotions } from "../../../lib/load_potions";
 
 const fetchPotions = async ({ pageParam = 1, queryKey }) => {
-  const [_, searchQuery] = queryKey;
+  const searchQuery = queryKey[1];
   return await getPotions({
     page: pageParam,
     searchQuery: searchQuery,

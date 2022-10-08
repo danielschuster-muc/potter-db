@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prepare": "cd .. && husky install frontend/.husky",
     "dev": "next dev -p 3001",
     "build": "next build && npm run postbuild",
     "postbuild": "next-sitemap",
     "start": "next start -p 3001",
-    "lint": "next lint"
+    "lint": "next lint --fix . && prettier --write ."
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -30,6 +31,14 @@
   },
   "devDependencies": {
     "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1"
+    "eslint-config-next": "12.3.1",
+    "eslint-config-prettier": "8.5.0",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }

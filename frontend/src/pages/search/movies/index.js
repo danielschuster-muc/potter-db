@@ -5,7 +5,7 @@ import MovieList from "../../../components/pages/search/movies/MovieList";
 import { getMovies } from "../../../lib/load_movies";
 
 const fetchMovies = async ({ pageParam = 1, queryKey }) => {
-  const [_, searchQuery] = queryKey;
+  const searchQuery = queryKey[1];
   return await getMovies({
     page: pageParam,
     searchQuery: searchQuery,
