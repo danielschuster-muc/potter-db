@@ -48,7 +48,7 @@ const PotionListItem = ({ potion }) => {
         <CardMedia>
           <Image
             as="image"
-            src={image || "/images/potion.svg"}
+            src={image || "/images/missing_potion.svg"}
             alt={`Picture of ${name}`}
             width="100%"
             height="100%"
