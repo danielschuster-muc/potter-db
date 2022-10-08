@@ -1,15 +1,38 @@
 import Image from "next/image";
 
-import { faCross, faStar, faPerson, faPlus, faEdit } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCross,
+  faStar,
+  faPerson,
+  faPlus,
+  faEdit,
+} from "@fortawesome/free-solid-svg-icons";
 
-import { Card, CardActions, CardContent, CardHeader, CardMedia, Grid, Typography } from "@mui/material";
+import {
+  Card,
+  CardActions,
+  CardContent,
+  CardHeader,
+  CardMedia,
+  Grid,
+  Typography,
+} from "@mui/material";
 
-import { getPotionDifficultyColor } from "../../../lib/utils";
 import Link from "../../Link";
 import ListItemBox from "../../ui/ListItemBox";
+import { getPotionColorByDifficulty } from "../../../lib/utils";
 
 const PotionListItem = ({ potion }) => {
-  const { name, slug, effect, side_effects, characteristics, difficulty, inventors, image } = potion.attributes;
+  const {
+    name,
+    slug,
+    effect,
+    side_effects,
+    characteristics,
+    difficulty,
+    inventors,
+    image,
+  } = potion.attributes;
 
   return (
     <Grid item xs={12} sm={6} md={4} lg={3}>
@@ -18,7 +41,7 @@ const PotionListItem = ({ potion }) => {
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          border: `3px solid ${getPotionDifficultyColor(difficulty)}`,
+          border: `3px solid ${getPotionColorByDifficulty(difficulty)}`,
           justifyContent: "space-between",
         }}
       >

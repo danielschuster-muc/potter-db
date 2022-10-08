@@ -1,12 +1,6 @@
 import Image from "next/image";
 
 import {
-  faCalendar,
-  faClock,
-  faStarHalfStroke,
-} from "@fortawesome/free-solid-svg-icons";
-
-import {
   Card,
   CardActions,
   CardContent,
@@ -16,12 +10,20 @@ import {
   Typography,
 } from "@mui/material";
 
+import {
+  faBookSkull,
+  faHatWizard,
+  faWandSparkles,
+} from "@fortawesome/free-solid-svg-icons";
+
 import Link from "../../Link";
 import ListItemBox from "../../ui/ListItemBox";
+import { getSpellColorByLight } from "../../../lib/utils";
 
-const MovieListItem = ({ movie }) => {
-  const { title, slug, release_date, rating, running_time, poster } =
-    movie.attributes;
+const SpellListItem = ({ spell }) => {
+  const { name, slug, incantation, image, category, hand, light } =
+    spell.attributes;
+
   return (
     <Grid item xs={12} sm={6} md={4} lg={3}>
       <Card
@@ -29,16 +31,15 @@ const MovieListItem = ({ movie }) => {
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          // TODO: change color based on whether fantastic beasts or harry potter
-          // border: `3px solid ${getColor}`,
+          border: `3px solid ${getSpellColorByLight(light)}`,
           justifyContent: "space-between",
         }}
       >
         <CardMedia>
           <Image
             as="image"
-            src={poster || "/images/movie.svg"}
-            alt={`Poster of ${title}`}
+            src={image || "/images/missing_image.jpg"}
+            alt={`Picture of ${name}`}
             width="100%"
             height="100%"
             layout="responsive"
@@ -48,15 +49,15 @@ const MovieListItem = ({ movie }) => {
             priority
           />
         </CardMedia>
-        <CardHeader title={title} />
+        <CardHeader title={name} />
         <CardContent>
-          <ListItemBox value={release_date} icon={faCalendar} />
-          <ListItemBox value={rating} icon={faStarHalfStroke} />
-          <ListItemBox value={running_time} icon={faClock} />
+          <ListItemBox value={incantation?.split(" (")[0]} icon={faHatWizard} />
+          <ListItemBox value={category} icon={faBookSkull} />
+          <ListItemBox value={hand} icon={faWandSparkles} />
         </CardContent>
         <CardActions>
-          <Link href={`/movies/${slug}`}>
-            <Typography sx={{ ml: 1 }}>Detailed Movie Information</Typography>
+          <Link href={`/spells/${slug}`}>
+            <Typography sx={{ ml: 1 }}>Detailed Spell Information</Typography>
           </Link>
         </CardActions>
       </Card>
@@ -64,4 +65,4 @@ const MovieListItem = ({ movie }) => {
   );
 };
 
-export default MovieListItem;
+export default SpellListItem;

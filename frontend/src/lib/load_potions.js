@@ -1,6 +1,6 @@
 import { getAll, getBySlug } from "./load_data";
 
-const getPotionsBySlug = async (slug) => {
+const getPotionBySlug = async (slug) => {
   return await getBySlug("potions", slug);
 };
 
@@ -12,4 +12,4 @@ const getPotions = async (query) => {
   return await getAll("potions", query);
 };
 
-export { getPotionsBySlug, getPotions };
+export { getPotionBySlug, getPotions };

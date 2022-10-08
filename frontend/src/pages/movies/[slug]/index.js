@@ -1,6 +1,5 @@
 import Meta from "../../../components/Meta";
 import MovieDetails from "../../../components/pages/movies/[slug]/MovieDetails";
-
 import { getMovieBySlug, getMovies } from "../../../lib/load_movies";
 
 const Movie = ({ data, links }) => {

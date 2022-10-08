@@ -3,15 +3,19 @@ import { useState } from "react";
 import { Grid, Typography } from "@mui/material";
 import { useQuery } from "@tanstack/react-query";
 
-import SearchField from "../../ui/SearchField";
 import MovieListItem from "./MovieListItem";
+import SearchField from "../../ui/SearchField";
 
 const MovieList = ({ fetchMovies }) => {
   const [searchQuery, setSearchQuery] = useState();
 
-  const { data: rawMovies, isSuccess } = useQuery(["movies", searchQuery], fetchMovies, {
-    retry: 10,
-  });
+  const { data: rawMovies, isSuccess } = useQuery(
+    ["movies", searchQuery],
+    fetchMovies,
+    {
+      retry: 10,
+    }
+  );
 
   return (
     <>

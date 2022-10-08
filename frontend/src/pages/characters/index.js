@@ -1,11 +1,11 @@
 import { dehydrate, QueryClient } from "@tanstack/react-query";
 
-import Meta from "../../components/Meta";
 import CharacterList from "../../components/pages/characters/CharacterList";
+import Meta from "../../components/Meta";
 import { getCharacters } from "../../lib/load_characters";
 
 const fetchCharacters = async ({ pageParam = 1, queryKey }) => {
-  const [_, searchQuery] = queryKey;
+  const searchQuery = queryKey[1];
   return await getCharacters({
     page: pageParam,
     searchQuery: searchQuery,

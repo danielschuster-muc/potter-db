@@ -4,20 +4,20 @@ import { Grid, Typography } from "@mui/material";
 import { useInfiniteQuery } from "@tanstack/react-query";
 
 import ListStatusButton from "../../ui/ListStatusButton";
-import PotionListItem from "./PotionListItem";
 import SearchField from "../../ui/SearchField";
+import SpellListItem from "./SpellListItem";
 
-const PotionList = ({ fetchPotions }) => {
+const SpellList = ({ fetchSpells }) => {
   const [searchQuery, setSearchQuery] = useState();
 
   const {
-    data: rawPotions,
+    data: rawSpells,
     isFetchingNextPage,
     isSuccess,
     error,
     hasNextPage,
     fetchNextPage,
-  } = useInfiniteQuery(["potions", searchQuery], fetchPotions, {
+  } = useInfiniteQuery(["spells", searchQuery], fetchSpells, {
     retry: 10,
     getNextPageParam: (lastPage, pages) => {
       if (pages?.length < (lastPage?.meta?.pagination?.last || 0)) {
@@ -29,21 +29,19 @@ const PotionList = ({ fetchPotions }) => {
 
   return (
     <>
-      <Typography variant="h3">Potion Search</Typography>
+      <Typography variant="h3">Spell Search</Typography>
       <SearchField
-        placeholder="e.g. Dragon tonic"
+        placeholder={"e.g. Wingardium Leviosa"}
         handleChangeSearch={setSearchQuery}
         totalResults={
-          rawPotions?.pages
-            ? rawPotions?.pages[0]?.meta?.pagination?.records
-            : 0
+          rawSpells?.pages ? rawSpells?.pages[0]?.meta?.pagination?.records : 0
         }
       />
       {isSuccess && (
         <Grid container spacing={2}>
-          {rawPotions?.pages?.map((page) =>
-            page?.data?.map((potion) => {
-              return <PotionListItem key={potion.id} potion={potion} />;
+          {rawSpells?.pages?.map((page) =>
+            page?.data?.map((spell) => {
+              return <SpellListItem key={spell.id} spell={spell} />;
             })
           )}
         </Grid>
@@ -53,10 +51,10 @@ const PotionList = ({ fetchPotions }) => {
         hasNextPage={hasNextPage}
         fetchNextPage={fetchNextPage}
         error={error}
-        title="potions"
+        title="spells"
       />
     </>
   );
 };
 
-export default PotionList;
+export default SpellList;

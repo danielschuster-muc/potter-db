@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 
 import { Grid } from "@mui/material";
 
-import { getHouseColor } from "../../../../lib/utils";
 import AccordionList from "../../../ui/AccordionList";
 import DetailInfoCard from "../../../ui/DetailedInfoCard";
+import { getCharacterColorByHouse } from "../../../../lib/utils";
 
 const CharacterDetails = ({ attributes, apiLink }) => {
   const {
@@ -144,7 +144,7 @@ const CharacterDetails = ({ attributes, apiLink }) => {
           title={name}
           subTitle={subTitle}
           slug={slug}
-          color={getHouseColor(house)}
+          color={getCharacterColorByHouse(house)}
           image={image}
           tableData={informationTable}
           links={[

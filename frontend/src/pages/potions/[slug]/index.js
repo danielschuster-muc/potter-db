@@ -1,7 +1,6 @@
-import { getPotionsBySlug, getPotions } from "../../../lib/load_potions";
-
 import PotionDetails from "../../../components/pages/potions/[slug]/PotionDetails";
 import PotionMeta from "../../../components/pages/potions/[slug]/PotionMeta";
+import { getPotionBySlug, getPotions } from "../../../lib/load_potions";
 
 const Potions = ({ data, links }) => {
   const { attributes } = data;
@@ -17,7 +16,9 @@ const Potions = ({ data, links }) => {
 export async function getStaticPaths() {
   const fetchedPotions = await getPotions({ perPage: 30 });
 
-  const potions = fetchedPotions?.data?.map((potion) => potion?.attributes?.slug);
+  const potions = fetchedPotions?.data?.map(
+    (potion) => potion?.attributes?.slug
+  );
 
   const paths = potions.map((slug) => ({
     params: {
@@ -32,7 +33,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const potion = await getPotionsBySlug(params.slug);
+  const potion = await getPotionBySlug(params.slug);
   const { data, links, hasError } = potion;
 
   if (hasError || !data || !data.attributes || !links) {

@@ -2,11 +2,10 @@ import { useState } from "react";
 
 import { Grid, Typography } from "@mui/material";
 import { useInfiniteQuery } from "@tanstack/react-query";
-import InfiniteScroll from "react-infinite-scroller";
 
-import SearchField from "../../ui/SearchField";
 import CharacterListItem from "./CharacterListItem";
 import ListStatusButton from "../../ui/ListStatusButton";
+import SearchField from "../../ui/SearchField";
 
 const CharacterList = ({ fetchCharacters }) => {
   const [searchQuery, setSearchQuery] = useState();
@@ -41,17 +40,15 @@ const CharacterList = ({ fetchCharacters }) => {
         }
       />
       {isSuccess && (
-        <InfiniteScroll hasMore={hasNextPage} loadMore={() => {}}>
-          <Grid container spacing={2}>
-            {rawCharacters?.pages?.map((page) =>
-              page?.data?.map((character) => {
-                return (
-                  <CharacterListItem key={character.id} character={character} />
-                );
-              })
-            )}
-          </Grid>
-        </InfiniteScroll>
+        <Grid container spacing={2}>
+          {rawCharacters?.pages?.map((page) =>
+            page?.data?.map((character) => {
+              return (
+                <CharacterListItem key={character.id} character={character} />
+              );
+            })
+          )}
+        </Grid>
       )}
       <ListStatusButton
         isFetchingNextPage={isFetchingNextPage}

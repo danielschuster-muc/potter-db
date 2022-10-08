@@ -1,8 +1,8 @@
 import { List, ListItem, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 
-import { getApiUrl, getGithubUrl } from "../../../lib/utils";
 import Link from "../../Link";
+import { getApiUrl, getGithubUrl } from "../../../lib/utils";
 
 const AboutContent = () => {
   const apiUrl = getApiUrl();
@@ -35,7 +35,7 @@ const AboutContent = () => {
       </Typography>
       <Typography>
         You can search up data with the{" "}
-        <Link href="/characters">Character Search</Link>. Or you use our{" "}
+        <Link href="/#db-search">Database Search</Link>. Or you use our{" "}
         <Link href={apiUrl}>REST</Link> or{" "}
         <Link href={`${apiUrl}/graphql`}>GraphQL</Link> API.
       </Typography>
