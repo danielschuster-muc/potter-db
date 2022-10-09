@@ -25,7 +25,7 @@ const CharacterListItem = ({ character }) => {
         <CardMedia>
           <Image
             as="image"
-            src={image || "/images/missing_wizard.svg"}
+            src={image || "/images/missing_character.svg"}
             alt={`Picture of ${name}`}
             width="100%"
             height="100%"
