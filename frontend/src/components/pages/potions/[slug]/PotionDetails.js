@@ -69,7 +69,7 @@ const PotionDetails = ({ attributes, apiLink }) => {
           title={name}
           slug={slug}
           color={getPotionColorByDifficulty(difficulty)}
-          image={image || "images/missing_potion.svg"}
+          image={image || "/images/missing_potion.svg"}
           tableData={informationTable}
           links={[
             { title: "Wiki", value: wiki },
