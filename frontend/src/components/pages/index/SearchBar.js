@@ -80,7 +80,6 @@ const SearchBar = () => {
         label="Type"
         value={searchType}
         onChange={handleChangeSearchType}
-        // sx={{ mx: 2 }}
       >
         {searchTypes.map((option) => (
           <MenuItem key={option.value} value={option.value}>
