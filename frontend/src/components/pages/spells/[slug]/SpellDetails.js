@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
 
-import DetailInfoCard from "../../../ui/DetailedInfoCard";
+import DetailedInfoCard from "../../../ui/DetailedInfoCard";
 import { getSpellColorByLight } from "../../../../lib/utils";
 
 const SpellDetails = ({ attributes, apiLink }) => {
@@ -52,10 +52,10 @@ const SpellDetails = ({ attributes, apiLink }) => {
     <>
       <Grid container spacing={3} justifyContent="center">
         <Grid item xs={12} md={6}>
-          <DetailInfoCard
+          <DetailedInfoCard
             title={name}
             slug={slug}
-            image={image}
+            image={image || "images/missing_spell.svg"}
             tableData={informationTable}
             color={getSpellColorByLight(light)}
             links={[

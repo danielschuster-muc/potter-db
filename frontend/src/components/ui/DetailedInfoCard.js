@@ -12,7 +12,7 @@ import {
 import Link from "../Link";
 import TwoColumnTable from "./TwoColumnTable";
 
-const DetailInfoCard = ({
+const DetailedInfoCard = ({
   color = "#bebebe",
   title,
   subTitle = "",
@@ -27,7 +27,7 @@ const DetailInfoCard = ({
       <CardMedia>
         <Image
           as="image"
-          src={image || "/images/missing_image.jpg"}
+          src={image}
           alt={`Picture of ${title}`}
           width="100%"
           height="100%"
@@ -53,4 +53,4 @@ const DetailInfoCard = ({
   );
 };
 
-export default DetailInfoCard;
+export default DetailedInfoCard;
