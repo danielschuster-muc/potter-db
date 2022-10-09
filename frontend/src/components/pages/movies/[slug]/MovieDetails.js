@@ -85,7 +85,7 @@ const MovieDetails = ({ attributes, apiLink }) => {
           <DetailedInfoCard
             title={title}
             slug={slug}
-            image={poster || "images/missing_movie.svg"}
+            image={poster || "/images/missing_movie.svg"}
             tableData={informationTable}
             links={[
               { title: "Wiki", value: wiki },

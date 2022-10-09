@@ -145,7 +145,7 @@ const CharacterDetails = ({ attributes, apiLink }) => {
           subTitle={subTitle}
           slug={slug}
           color={getCharacterColorByHouse(house)}
-          image={image || "images/missing_character.svg"}
+          image={image || "/images/missing_character.svg"}
           tableData={informationTable}
           links={[
             { title: "Wiki", value: wiki },

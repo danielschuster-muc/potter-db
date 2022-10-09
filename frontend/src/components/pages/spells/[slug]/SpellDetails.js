@@ -55,7 +55,7 @@ const SpellDetails = ({ attributes, apiLink }) => {
           <DetailedInfoCard
             title={name}
             slug={slug}
-            image={image || "images/missing_spell.svg"}
+            image={image || "/images/missing_spell.svg"}
             tableData={informationTable}
             color={getSpellColorByLight(light)}
             links={[
