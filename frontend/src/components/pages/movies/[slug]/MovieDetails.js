@@ -1,7 +1,7 @@
 import { Box, Card, Grid, Typography } from "@mui/material";
 
 import AccordionList from "../../../ui/AccordionList";
-import DetailInfoCard from "../../../ui/DetailedInfoCard";
+import DetailedInfoCard from "../../../ui/DetailedInfoCard";
 
 const MovieDetails = ({ attributes, apiLink }) => {
   const {
@@ -82,10 +82,10 @@ const MovieDetails = ({ attributes, apiLink }) => {
     <>
       <Grid container spacing={3}>
         <Grid item xs={12} md={6}>
-          <DetailInfoCard
+          <DetailedInfoCard
             title={title}
             slug={slug}
-            image={poster}
+            image={poster || "images/missing_movie.svg"}
             tableData={informationTable}
             links={[
               { title: "Wiki", value: wiki },
