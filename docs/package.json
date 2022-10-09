@@ -2,24 +2,22 @@
   "name": "potter-db-docs",
   "version": "1.0.0",
   "description": "Docs for Potter DB",
-  "main": "index.js",
+  "private": "true",
   "scripts": {
-    "dev": "next",
-    "start": "next start",
-    "build": "next build"
+    "dev": "next dev",
+    "build": "next build && npm run postbuild",
+    "postbuild": "next-sitemap",
+    "start": "next start"
   },
   "dependencies": {
-    "next": "^12.1.0",
-    "nextra": "^1.1.0",
-    "nextra-theme-docs": "^1.2.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "next": "^12.3.1",
+    "next-sitemap": "^3.1.24",
+    "nextra": "^2.0.0-beta.29",
+    "nextra-theme-docs": "^2.0.0-beta.29",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "prettier": "^2.0.5"
-  },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true
   }
 }
