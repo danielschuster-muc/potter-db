@@ -1,17 +1,14 @@
 module Rack
   class StatusCheck
     def call(_env)
-      status = {
-        status: ok? ? "everything is up and running" : "oh no, it's broken!",
-        database: {
-          connected: database_connected?,
+      if ok?
+        [200, {}, [{ data: { message: "Everything is up and running" } }.to_json]]
+      else
+        [500, {}, [{ errors: [{ status: 500, title: "Database Error", details: {
+          db_connected: database_connected?,
           migrations_updated: migrations_updated?
-        }
-      }
-
-      [
-        ok? ? 200 : 503, {}, [status.to_json]
-      ]
+        } }] }.to_json]]
+      end
     end
 
     private
