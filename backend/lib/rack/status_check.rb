@@ -4,7 +4,7 @@ module Rack
       if ok?
         [200, {}, [{ data: { message: "Everything is up and running" } }.to_json]]
       else
-        [500, {}, [{ errors: [{ status: 500, title: "Database Error", details: {
+        [500, {}, [{ errors: [{ status: 500, title: "Database Error", detail: {
           db_connected: database_connected?,
           migrations_updated: migrations_updated?
         } }] }.to_json]]
