@@ -2,6 +2,10 @@
 
 ## Choose your API
 
+Before start using the API you should decide whether you want to use our GraphQL API or REST API.
+
+{/* TODO: advantages of each api */}
+
 ### GraphQL
 
 ```
@@ -16,8 +20,8 @@ https://api.potterdb.com
 
 ## Rate limiting
 
-Potter DB is limited to 1000 requests per hour to prevent malicios abuse and to handle large amount of traffic.
+To prevent malicious usage of the Potter DB API there's an ip-based limit of 1000 requests per hour (16.7 rpm). If you hit this limit, you will receive a `429 To Many Request`, but there should be no reason for hitting it with proper caching strategies.
 
 ## Authentication
 
-There is no authentication required for the Potter DB API.
+The Potter DB API is free to use and therefore no authentication is required.
