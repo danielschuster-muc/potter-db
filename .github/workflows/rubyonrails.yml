@@ -4,12 +4,10 @@ on:
     branches: ["master"]
     paths:
       - "backend/**"
-      - ".github/**"
   pull_request:
     branches: ["master"]
     paths:
       - "backend/**"
-      - ".github/**"
 defaults:
   run:
     working-directory: backend
