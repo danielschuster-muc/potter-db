@@ -1,1 +1,70 @@
 # Spells
+
+This resource provides information about spells from the Harry Potter Universe.
+
+## Attributes
+
+{
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "slug",
+        type: "string",
+        description: "The slug to identify this spell",
+      },
+      { name: "title", type: "string", description: "The title of this spell" },
+      {
+        name: "incantation",
+        type: "string",
+        description: "The incantation of this spell",
+      },
+      {
+        name: "category",
+        type: "string",
+        description: "The category of this spell",
+      },
+      {
+        name: "effect",
+        type: "string",
+        description: "The effect of this spell",
+      },
+      { name: "light", type: "string", description: "The light of this spell" },
+      {
+        name: "hand",
+        type: "string",
+        description: "The hand movement of this spell",
+      },
+      {
+        name: "creator",
+        type: "string",
+        description: "The creator of this spell",
+      },
+      {
+        name: "image",
+        type: "string",
+        description: "The image URL of this spell",
+      },
+      {
+        name: "wiki",
+        type: "string",
+        description: "The wiki URL to the Harry Potter Wiki of this spell",
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

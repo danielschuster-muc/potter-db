@@ -1,1 +1,84 @@
 # Potions
+
+This resource provides information about potions from the Harry Potter Universe.
+
+## Attributes
+
+{
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "slug",
+        type: "string",
+        description: "The slug to identify this potion",
+      },
+      {
+        name: "title",
+        type: "string",
+        description: "The title of this potion",
+      },
+      {
+        name: "effect",
+        type: "string",
+        description: "The effect of this potion",
+      },
+      {
+        name: "side_effects",
+        type: "string",
+        description: "The side effects of this potion",
+      },
+      {
+        name: "characteristics",
+        type: "string",
+        description: "The characteristics of this potion",
+      },
+      { name: "time", type: "string", description: "The time of this potion" },
+      {
+        name: "difficulty",
+        type: "string",
+        description: "The difficulty of this potion",
+      },
+      {
+        name: "ingredients",
+        type: "string",
+        description: "The ingredients of this potion",
+      },
+      {
+        name: "inventors",
+        type: "string",
+        description: "The inventors of this potion",
+      },
+      {
+        name: "manufacturers",
+        type: "string",
+        description: "The manufacturers of this potion",
+      },
+      {
+        name: "image",
+        type: "string",
+        description: "The image URL of this potion",
+      },
+      {
+        name: "wiki",
+        type: "string",
+        description: "The wiki URL to the Harry Potter Wiki of this potion",
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}
