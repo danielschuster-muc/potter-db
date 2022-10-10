@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default {
+const themeConfig = {
   project: {
     link: "https://github.com/danielschuster-muc/potter-db",
   },
@@ -24,6 +24,10 @@ export default {
       <span>Potter DB: Docs</span>
     </>
   ),
+  sidebar: {
+    defaultMenuCollapsed: true,
+    subtitle: ({ title }) => <>{title}</>,
+  },
   i18n: [{ locale: "en", text: "English" }],
   head: (
     <>
@@ -36,3 +40,5 @@ export default {
     </>
   ),
 };
+
+export default themeConfig;
