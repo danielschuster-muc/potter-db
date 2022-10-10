@@ -19,7 +19,7 @@ This resource provides information about books from the Harry Potter Universe.
       {
         name: "slug",
         type: "string",
-        description: "The slug to identify this book",
+        description: "A slug to identify this book",
       },
       { name: "title", type: "string", description: "The title of this book" },
       {
@@ -46,17 +46,17 @@ This resource provides information about books from the Harry Potter Universe.
         name: "order",
         type: "integer",
         description:
-          "The chronological order of this book in the Harry Potter series",
+          "The chronological order of this book within the Harry Potter series",
       },
       {
         name: "cover",
         type: "string",
-        description: "The cover URL of this book",
+        description: "The cover url of this book",
       },
       {
         name: "wiki",
         type: "string",
-        description: "The wiki URL to the Harry Potter Wiki of this book",
+        description: "A link to the Harry Potter Wiki of this book",
       },
     ].map((item) => (
       <tr key={item.name}>

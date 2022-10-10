@@ -19,7 +19,7 @@ This resource provides information about potions from the Harry Potter Universe.
       {
         name: "slug",
         type: "string",
-        description: "The slug to identify this potion",
+        description: "A slug to identify this potion",
       },
       {
         name: "title",
@@ -29,7 +29,7 @@ This resource provides information about potions from the Harry Potter Universe.
       {
         name: "effect",
         type: "string",
-        description: "The effect of this potion",
+        description: "The main effect of this potion",
       },
       {
         name: "side_effects",
@@ -41,16 +41,20 @@ This resource provides information about potions from the Harry Potter Universe.
         type: "string",
         description: "The characteristics of this potion",
       },
-      { name: "time", type: "string", description: "The time of this potion" },
+      {
+        name: "time",
+        type: "string",
+        description: "The time it takes to brew this potion",
+      },
       {
         name: "difficulty",
         type: "string",
-        description: "The difficulty of this potion",
+        description: "The difficulty to brew this this potion",
       },
       {
         name: "ingredients",
         type: "string",
-        description: "The ingredients of this potion",
+        description: "The ingredients needed to brew this potion",
       },
       {
         name: "inventors",
@@ -65,12 +69,12 @@ This resource provides information about potions from the Harry Potter Universe.
       {
         name: "image",
         type: "string",
-        description: "The image URL of this potion",
+        description: "A link to to an image of this potion",
       },
       {
         name: "wiki",
         type: "string",
-        description: "The wiki URL to the Harry Potter Wiki of this potion",
+        description: "A link to the Harry Potter Wiki of this potion",
       },
     ].map((item) => (
       <tr key={item.name}>
