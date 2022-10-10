@@ -16,7 +16,7 @@ class CreateMovies < ActiveRecord::Migration[7.0]
       t.string :budget
       t.string :box_office
       t.string :rating
-      t.string :order
+      t.integer :order
       t.string :trailer
       t.text :poster
       t.string :wiki
