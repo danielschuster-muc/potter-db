@@ -26,7 +26,6 @@ const BookDetails = ({ attributes, apiLink, fetchChapters }) => {
     }
   );
 
-  console.log(rawChapters)
 
   const informationTable = [
     {
