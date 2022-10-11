@@ -19,45 +19,50 @@ This resource provides information about books from the Harry Potter Universe.
       {
         name: "slug",
         type: "string",
-        description: "A slug to identify this book",
+        description: "A slug to identify this book"
       },
       { name: "title", type: "string", description: "The title of this book" },
       {
         name: "summary",
         type: "string",
-        description: "The summary of this book",
+        description: "The summary of this book"
+      },
+      {
+        name: "author",
+        type: "string",
+        description: "The author of this book"
       },
       {
         name: "release_date",
         type: "date",
-        description: "The date when this book was released",
+        description: "The date when this book was released"
       },
       {
         name: "dedication",
         type: "string",
-        description: "The dedication of this book",
+        description: "The dedication of this book"
       },
       {
         name: "pages",
         type: "integer",
-        description: "The number of pages of this book",
+        description: "The number of pages of this book"
       },
       {
         name: "order",
         type: "integer",
         description:
-          "The chronological order of this book within the Harry Potter series",
+          "The chronological order of this book within the Harry Potter series"
       },
       {
         name: "cover",
         type: "string",
-        description: "The cover url of this book",
+        description: "The cover url of this book"
       },
       {
         name: "wiki",
         type: "string",
-        description: "A link to the Harry Potter Wiki Page of this book",
-      },
+        description: "A link to the Harry Potter Wiki Page of this book"
+      }
     ].map((item) => (
       <tr key={item.name}>
         <td>{item.name}</td>
