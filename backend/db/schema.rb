@@ -19,6 +19,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_13_193346) do
     t.string "slug"
     t.string "title"
     t.text "summary"
+    t.string "author"
     t.date "release_date"
     t.string "dedication"
     t.integer "pages"

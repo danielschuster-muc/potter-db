@@ -8,6 +8,7 @@ class MovieSerializer < ApplicationSerializer
     :producers,
     :cinematographers,
     :editors,
+    :distributors,
     :music_composers,
     :release_date,
     :running_time,
