@@ -41,7 +41,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const book = await getBookBySlug(params.slug);
-  const { data, links, hasError } = spell;
+  const { data, links, hasError } = book;
 
   if (hasError || !data || !data.attributes || !links) {
     return {
