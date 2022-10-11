@@ -43,7 +43,27 @@ const SearchBar = () => {
   };
 
   return (
-    <Box component="form" sx={{ display: "flex", alignItems: "center", mt: 5 }}>
+    <Box
+      component="form"
+      sx={{
+        display: "flex",
+        gap: 2,
+        mt: 5,
+        justifyContent: "center",
+        width: {
+          xs: "100%",
+          sm: "70%",
+        },
+        flexDirection: {
+          xs: "column",
+          md: "row",
+        },
+        alignItems: {
+          xs: "stretch",
+          md: "stretch",
+        },
+      }}
+    >
       <TextField
         id="outlined-search"
         variant="outlined"
@@ -60,7 +80,6 @@ const SearchBar = () => {
         label="Type"
         value={searchType}
         onChange={handleChangeSearchType}
-        sx={{ mx: 2 }}
       >
         {searchTypes.map((option) => (
           <MenuItem key={option.value} value={option.value}>

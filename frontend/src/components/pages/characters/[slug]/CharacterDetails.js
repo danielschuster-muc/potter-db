@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Grid } from "@mui/material";
 
 import AccordionList from "../../../ui/AccordionList";
-import DetailInfoCard from "../../../ui/DetailedInfoCard";
+import DetailedInfoCard from "../../../ui/DetailedInfoCard";
 import { getCharacterColorByHouse } from "../../../../lib/utils";
 
 const CharacterDetails = ({ attributes, apiLink }) => {
@@ -140,12 +140,12 @@ const CharacterDetails = ({ attributes, apiLink }) => {
   return (
     <Grid container spacing={3}>
       <Grid item xs={12} md={6}>
-        <DetailInfoCard
+        <DetailedInfoCard
           title={name}
           subTitle={subTitle}
           slug={slug}
           color={getCharacterColorByHouse(house)}
-          image={image}
+          image={image || "/images/missing_character.svg"}
           tableData={informationTable}
           links={[
             { title: "Wiki", value: wiki },

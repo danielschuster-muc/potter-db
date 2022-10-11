@@ -37,7 +37,7 @@ const MovieListItem = ({ movie }) => {
         <CardMedia>
           <Image
             as="image"
-            src={poster || "/images/missing_image.jpg"}
+            src={poster || "/images/missing_movie.svg"}
             alt={`Poster of ${title}`}
             width="100%"
             height="100%"

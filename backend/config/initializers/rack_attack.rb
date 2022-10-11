@@ -4,13 +4,13 @@ class Rack::Attack
 
   safelist('allow from potter db root domain', &:db_domain?)
 
-  # 16.7rpm
-  limit_proc = 1000
+  # 15 requests / minute
+  # 21600 requests / day
+  # 9000 requests / hour
+  limit_proc = 900
   period_proc = 1.hour
 
-  throttle("requests by ip", limit: limit_proc, period: period_proc) do |request|
-    request.ip if request.path.include?('/v1') || request.path.include?('/graphql')
-  end
+  throttle("requests by ip", limit: limit_proc, period: period_proc, &:ip)
 
   Rack::Attack.throttled_responder = lambda do |request|
     now = Time.zone.now
@@ -26,9 +26,11 @@ class Rack::Attack
     [status, headers, [
       {
         errors: [
-          status: status,
-          title: "To many requests!",
-          detail: "API rate limit exceeded for #{request.env['rack.attack.match_discriminator']}. Limit: #{rpm(match_data)}"
+          {
+            status:,
+            title: "To many requests!",
+            detail: "API rate limit exceeded for #{request.env['rack.attack.match_discriminator']}. Limit: #{rpm(match_data)}"
+          }
         ]
       }.to_json
     ]]
@@ -64,5 +66,5 @@ end
 private
 
 def rpm(match_data)
-  "#{(match_data[:limit] / (match_data[:period] / 60.0)).round(1)} rpm"
+  "#{(match_data[:limit] / (match_data[:period] / 60.0)).round(1)} requests / minute"
 end
