@@ -42,6 +42,7 @@ unless books.empty?
       slug: book["title"].parameterize,
       title: book["title"],
       summary: book["summary"],
+      author: book["author"],
       release_date: book["release_date"],
       dedication: book["dedication"],
       pages: book["pages"],

@@ -33,6 +33,19 @@ module Types
       Character.find_by_slug(slug)
     end
 
+    # Movies
+    field :movies, MovieType.connection_type, null: false, connection: true, description: "List all movies"
+    def movies(**_args)
+      Movie.all
+    end
+
+    field :movie, MovieType, "Find a movie by slug" do
+      argument :slug, String, required: true
+    end
+    def movie(slug:)
+      Movie.find_by_slug(slug)
+    end
+
     # Potions
     field :potions, PotionType.connection_type, null: false, connection: true, description: "List all potions"
     def potions(**_args)
