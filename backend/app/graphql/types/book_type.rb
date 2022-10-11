@@ -6,6 +6,7 @@ module Types
     field :slug, String
     field :title, String
     field :summary, String
+    field :author, String
     field :release_date, GraphQL::Types::ISO8601Date
     field :dedication, String
     field :pages, Integer
