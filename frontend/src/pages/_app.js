@@ -27,9 +27,9 @@ const App = ({ Component, pageProps }) => {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#37474f" />
         <meta name="revisit-after" content="7 days" />
-        <meta name="msapplication-TileColor" content="37474f" />
+        <meta name="msapplication-TileColor" content="#d500f9" />
+        <meta name="theme-color" content="#121212" />
         <meta
           name="keywords"
           content="potterdb, harry, potter, database, search, wiki"
