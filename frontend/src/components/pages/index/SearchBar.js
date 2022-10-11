@@ -5,10 +5,14 @@ import { useState } from "react";
 
 const SearchBar = () => {
   const router = useRouter();
-  const [searchType, setSearchType] = useState("characters");
+  const [searchType, setSearchType] = useState("books");
   const [search, setSearch] = useState("");
 
   const searchTypes = [
+    {
+      value: "books",
+      label: "Books",
+    },
     {
       value: "characters",
       label: "Characters",
