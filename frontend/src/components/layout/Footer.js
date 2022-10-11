@@ -30,6 +30,10 @@ const Footer = () => {
       title: "Database Search",
       content: [
         {
+          name: "Books",
+          link: "/books",
+        },
+        {
           name: "Characters",
           link: "/characters",
         },
