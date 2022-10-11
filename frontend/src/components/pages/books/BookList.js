@@ -24,7 +24,7 @@ const BookList = ({ fetchBooks }) => {
         placeholder="e.g. Philosopher's Stone"
         handleChangeSearch={setSearchQuery}
         totalResults={rawBooks?.pages
-            ? rawBooks?.pages[0]?.meta?.pagination?.records
+            ? rawBooks?.meta?.pagination?.records
             : 0}
       />
       {isSuccess && (
