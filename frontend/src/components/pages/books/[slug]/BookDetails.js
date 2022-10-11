@@ -73,7 +73,7 @@ const BookDetails = ({ attributes, apiLink, fetchChapters }) => {
             </Box>
           </Card>
           {isSuccess && (
-            <AccordionList accordions={rawChapters.data.map(({attributes}) => {return({name: attributes.title, value: attributes.summary})})} />
+            <AccordionList accordions={rawChapters?.data?.map(({attributes}) => {return({name: attributes?.title, value: attributes?.summary})})} />
           )}
         </Grid>
       </Grid>
