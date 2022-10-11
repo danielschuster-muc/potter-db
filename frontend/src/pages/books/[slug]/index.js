@@ -23,7 +23,7 @@ const Books = ({ data, links }) => {
 export async function getStaticPaths() {
   const fetchedBooks = await getBooks({ perPage: 30 });
 
-  const booksSlugs=fetchedBooks?.data?.map(
+  const booksSlugs = fetchedBooks?.data?.map(
     (book) => book?.attributes?.slug
   );
 
