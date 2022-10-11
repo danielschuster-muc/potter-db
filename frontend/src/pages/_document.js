@@ -5,7 +5,7 @@ const Document = () => {
     <Html lang="en">
       <Head>
         <link rel="apple-touch-icon" sizes="180x180" />
-        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#37474f" />
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#d500f9" />
         <link rel="manifest" />
       </Head>
       <body>

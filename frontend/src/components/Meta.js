@@ -30,7 +30,7 @@ Meta.defaultProps = {
   title: "Home",
   description:
     "Harry Potter Database for information about characters, books, movies, spells, potions and much more! - Data based on the Harry Potter Wiki",
-  image: "",
+  image: "/images/logo",
 };
 
 export default Meta;

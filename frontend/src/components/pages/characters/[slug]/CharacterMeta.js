@@ -22,13 +22,7 @@ const SingleCharacterMeta = ({ attributes }) => {
     return description.join(" - ");
   };
 
-  return (
-    <Meta
-      title={attributes.name}
-      description={getMetaDescription()}
-      image={attributes.image}
-    />
-  );
+  return <Meta title={attributes.name} description={getMetaDescription()} />;
 };
 
 export default SingleCharacterMeta;
