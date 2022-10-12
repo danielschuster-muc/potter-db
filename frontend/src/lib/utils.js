@@ -1,5 +1,3 @@
-import { red } from "@mui/material/colors";
-
 export const getCharacterColorByHouse = (house) => {
   switch (house) {
     case "Gryffindor":
