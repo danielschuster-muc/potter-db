@@ -2,8 +2,8 @@ import Image from "next/image";
 
 import {
   faCalendar,
-  faClock,
-  faStarHalfStroke,
+  faPen,
+  faBook
 } from "@fortawesome/free-solid-svg-icons";
 
 import {
@@ -29,7 +29,6 @@ const BookListItem = ({ book }) => {
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          // TODO: change color based on whether fantastic beasts or harry potter
           // border: `3px solid ${getColor}`,
           justifyContent: "space-between",
         }}
@@ -51,8 +50,8 @@ const BookListItem = ({ book }) => {
         <CardHeader title={title} />
         <CardContent>
           <ListItemBox value={release_date} icon={faCalendar} />
-          <ListItemBox value={author} icon={faStarHalfStroke} />
-          <ListItemBox value={pages} icon={faClock} />
+          <ListItemBox value={author} icon={faPen} />
+          <ListItemBox value={pages} icon={faBook} />
         </CardContent>
         <CardActions>
           <Link href={`/books/${slug}`}>
