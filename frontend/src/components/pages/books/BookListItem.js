@@ -18,7 +18,7 @@ import {
 
 import Link from "../../Link";
 import ListItemBox from "../../ui/ListItemBox";
-import { getBookColor } from "../../../lib/utils";
+import { getBookColorBySlug } from "../../../lib/utils";
 
 const BookListItem = ({ book }) => {
   const { title, slug, release_date, author, pages, cover } =
@@ -30,7 +30,7 @@ const BookListItem = ({ book }) => {
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          border: `3px solid ${getBookColor[slug]}`,
+          border: `3px solid ${getBookColorBySlug(slug)}`,
           justifyContent: "space-between",
         }}
       >
