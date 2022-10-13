@@ -57,18 +57,29 @@ export const getPotionColorByDifficulty = (difficulty) => {
     case /advanced/i.test(difficulty):
       return "#801C1C";
     default:
-      return "transparent";
+      return "#bebebe";
   }
 };
 
-export const getBookColorBySlug = {
-  "harry-potter-and-the-philosopher-s-stone": "#332375",
-  "harry-potter-and-the-chamber-of-secrets": "#518f4c",
-  "harry-potter-and-the-prisoner-of-azkaban": "#1b4993",
-  "harry-potter-and-the-goblet-of-fire": "#73aac9",
-  "harry-potter-and-the-order-of-the-phoenix": "#b43223",
-  "harry-potter-and-the-half-blood-prince": "#2a5946",
-  "harry-potter-and-the-deathly-hallows": "#51476a"
+export const getBookColorBySlug = (slug) => {
+  switch (slug) {
+    case "harry-potter-and-the-philosopher-s-stone":
+      return "#332375";
+    case "harry-potter-and-the-chamber-of-secrets":
+      return "#518f4c";
+    case "harry-potter-and-the-prisoner-of-azkaban":
+      return "#1b4993";
+    case "harry-potter-and-the-goblet-of-fire":
+      return "#73aac9";
+    case "harry-potter-and-the-order-of-the-phoenix":
+      return "#b43223";
+    case "harry-potter-and-the-half-blood-prince":
+      return "#2a5946";
+    case "harry-potter-and-the-deathly-hallows":
+      return "#51476a";
+    default:
+      return "#bebebe";
+  }
 };
 
 export const getDatabaseStatus = async () => {
