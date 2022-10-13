@@ -62,12 +62,12 @@ export const getPotionColorByDifficulty = (difficulty) => {
 };
 
 export const getBookColorBySlug = {
-  "harry-potter-and-the-philosopher-s-stone": "#140c36",
+  "harry-potter-and-the-philosopher-s-stone": "#332375",
   "harry-potter-and-the-chamber-of-secrets": "#518f4c",
   "harry-potter-and-the-prisoner-of-azkaban": "#1b4993",
   "harry-potter-and-the-goblet-of-fire": "#73aac9",
   "harry-potter-and-the-order-of-the-phoenix": "#b43223",
-  "harry-potter-and-the-half-blood-prince": "#040907",
+  "harry-potter-and-the-half-blood-prince": "#2a5946",
   "harry-potter-and-the-deathly-hallows": "#51476a"
 };
 
