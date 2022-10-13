@@ -61,7 +61,7 @@ export const getPotionColorByDifficulty = (difficulty) => {
   }
 };
 
-export const getBookColor = {
+export const getBookColorBySlug = {
   "harry-potter-and-the-philosopher-s-stone": "#140c36",
   "harry-potter-and-the-chamber-of-secrets": "#518f4c",
   "harry-potter-and-the-prisoner-of-azkaban": "#1b4993",
