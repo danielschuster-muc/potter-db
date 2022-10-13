@@ -23,9 +23,7 @@ const BookList = ({ fetchBooks }) => {
       <SearchField
         placeholder="e.g. Philosopher's Stone"
         handleChangeSearch={setSearchQuery}
-        totalResults={rawBooks?.pages
-            ? rawBooks?.meta?.pagination?.records
-            : 0}
+        totalResults={rawBooks?.meta?.pagination?.records || 0}
       />
       {isSuccess && (
         <Grid container spacing={2}>
