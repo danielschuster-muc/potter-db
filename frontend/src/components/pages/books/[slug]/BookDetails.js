@@ -18,14 +18,9 @@ const BookDetails = ({ attributes, apiLink, fetchChapters }) => {
     wiki,
   } = attributes;
 
-  const { data: rawChapters, isSuccess } = useQuery(
-    [slug],
-    fetchChapters,
-    {
-      retry: 10,
-    }
-  );
-
+  const { data: rawChapters, isSuccess } = useQuery([slug], fetchChapters, {
+    retry: 10,
+  });
 
   const informationTable = [
     {
@@ -47,7 +42,7 @@ const BookDetails = ({ attributes, apiLink, fetchChapters }) => {
     {
       name: "dedication",
       value: dedication,
-    }
+    },
   ];
 
   return (
@@ -73,7 +68,11 @@ const BookDetails = ({ attributes, apiLink, fetchChapters }) => {
             </Box>
           </Card>
           {isSuccess && (
-            <AccordionList accordions={rawChapters?.data?.map(({attributes}) => {return({name: attributes?.title, value: attributes?.summary})})} />
+            <AccordionList
+              accordions={rawChapters?.data?.map(({ attributes }) => {
+                return { name: attributes?.title, value: attributes?.summary };
+              })}
+            />
           )}
         </Grid>
       </Grid>
