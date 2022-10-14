@@ -1,3 +1,16 @@
+import { Callout } from "nextra-theme-docs";
+
 # GraphQL API
 
+<Callout type="warning" emoji="⚠️">
+  The GraphQL API is still work in progress and some features like filtering and
+  sorting is currently **not** implemented!
+</Callout>
+
 ## Endpoint
+
+You can access the GraphQL API by making a `POST` request to `/graphql`.
+
+## Schema
+
+To get an overview of the schema of the GraphQL API, use the `__schema` query or have a look at the [schema.graphql](https://github.com/danielschuster-muc/potter-db/blob/master/backend/schema.graphql).
