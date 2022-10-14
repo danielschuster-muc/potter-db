@@ -10,6 +10,10 @@ const SearchBar = () => {
 
   const searchTypes = [
     {
+      value: "books",
+      label: "Books",
+    },
+    {
       value: "characters",
       label: "Characters",
     },
