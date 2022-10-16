@@ -8,12 +8,12 @@ const AccordionList = ({ accordions }) => {
   return (
     accordions?.length > 0 && (
       <Box>
-        {accordions.map((accordion) => {
+        {accordions?.map((accordion) => {
           return (
             <CustomAccordion
               key={accordion.name}
               name={accordion.name}
-              array={accordion.value}
+              value={accordion.value}
             />
           );
         })}

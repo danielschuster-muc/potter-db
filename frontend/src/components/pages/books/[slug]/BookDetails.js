@@ -70,7 +70,10 @@ const BookDetails = ({ attributes, apiLink, fetchChapters }) => {
           {isSuccess && (
             <AccordionList
               accordions={rawChapters?.data?.map(({ attributes }) => {
-                return { name: attributes?.title, value: attributes?.summary };
+                return {
+                  name: attributes?.title,
+                  value: attributes?.summary,
+                };
               })}
             />
           )}
