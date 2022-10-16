@@ -8,20 +8,22 @@ import {
 } from "@mui/material";
 import { ExpandMore } from "@mui/icons-material";
 
-const CustomAccordion = ({ array, name }) => {
+const CustomAccordion = ({ value, name }) => {
   const [expanded, setExpanded] = useState(false);
 
   const handleChange = () => {
     setExpanded((prevExpanded) => !prevExpanded);
   };
 
-  const arrayHasElements = array?.length > 0;
+  const isArray = Array.isArray(value);
+
+  const isDisabled = isArray ? value.length === 0 : !value?.trim();
 
   return (
     <Accordion
       expanded={expanded}
       onChange={handleChange}
-      disabled={!arrayHasElements}
+      disabled={isDisabled}
     >
       <AccordionSummary
         expandIcon={<ExpandMore />}
@@ -30,13 +32,17 @@ const CustomAccordion = ({ array, name }) => {
       >
         <Typography>{name}</Typography>
       </AccordionSummary>
-      {arrayHasElements && (
+      {!isDisabled && (
         <AccordionDetails>
-          <ul>
-            {array.map((element) => {
-              return <li key={element}>{element}</li>;
-            })}
-          </ul>
+          {!isArray ? (
+            value
+          ) : (
+            <ul>
+              {value?.map((element) => {
+                return <li key={element}>{element}</li>;
+              })}
+            </ul>
+          )}
         </AccordionDetails>
       )}
     </Accordion>
