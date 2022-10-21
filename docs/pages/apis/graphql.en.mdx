@@ -1,0 +1,64 @@
+import { Callout } from "nextra-theme-docs";
+
+# GraphQL API
+
+<Callout type="warning" emoji="⚠️">
+  The GraphQL API is still work in progress and some features like filtering and
+  sorting is currently **not** implemented!
+</Callout>
+
+## Endpoint
+
+You can access the GraphQL API by making a `POST` request to `/graphql`.
+
+## Example
+
+Listing the name of the first 5 characters.
+
+```shell
+curl -X POST -H "Content-Type: application/json" -d '{"query": "query{ characters(first: 5) { edges{ node{ name } } } }"}' https://api.potterdb.com/graphql
+```
+
+<details>
+  <summary>Response</summary>
+  ```json
+  {
+    "data": {
+      "characters": {
+        "edges": [
+          {
+            "node": {
+              "name": "'Handsome Poltergeist'"
+            }
+          },
+          {
+            "node": {
+              "name": "'Mrs Next Door'"
+            }
+          },
+          {
+            "node": {
+              "name": "1992 Gryffindor vs Slytherin Quidditch match spectators"
+            }
+          },
+          {
+            "node": {
+              "name": "1996 Gryffindor Quidditch Keeper trials spectators"
+            }
+          },
+          {
+            "node": {
+              "name": "19th-century Flying Instructor"
+            }
+          }
+        ]
+      }
+    }
+  }
+```
+
+</details>
+
+## Schema
+
+To get an overview of the schema of the GraphQL API, use the `__schema` query or have a look at the [schema.graphql](https://github.com/danielschuster-muc/potter-db/blob/master/backend/schema.graphql).

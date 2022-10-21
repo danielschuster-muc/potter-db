@@ -1,0 +1,48 @@
+# Chapters
+
+This resource provides information about chapters of a specific book from the Harry Potter Universe.
+
+## Attributes
+
+{
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "slug",
+        type: "string",
+        description: "A slug to identify this chapter",
+      },
+      {
+        name: "title",
+        type: "string",
+        description: "The title of this chapter",
+      },
+      {
+        name: "summary",
+        type: "string",
+        description: "The summary of this chapter",
+      },
+      {
+        name: "order",
+        type: "integer",
+        description: "The chronological order of this chapter within the book",
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

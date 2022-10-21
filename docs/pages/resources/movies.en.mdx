@@ -1,0 +1,120 @@
+# Movies
+
+this resource provides information about movies from the Harry Potter Universe.
+
+## Attributes
+
+{
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "slug",
+        type: "string",
+        description: "A slug to identify this movie"
+      },
+      { name: "title", type: "string", description: "The title of this movie" },
+      {
+        name: "summary",
+        type: "string",
+        description: "The summary of this movie"
+      },
+      {
+        name: "directors",
+        type: "array",
+        description: "A list of people who directed this movies"
+      },
+      {
+        name: "screenwriters",
+        type: "array",
+        description: "A list of screenwriters in this movies"
+      },
+      {
+        name: "producers",
+        type: "array",
+        description: "A list of people who produced this movies"
+      },
+      {
+        name: "cinematographers",
+        type: "array",
+        description: "A list of cinematographers in this movies"
+      },
+      {
+        name: "editors",
+        type: "array",
+        description: "A list of people who edited this movies"
+      },
+      {
+        name: "distributors",
+        type: "array",
+        description: "A list of people who distributed this movies"
+      },
+      {
+        name: "music_composers",
+        type: "array",
+        description: "A list of people who composed the music of this movies"
+      },
+      {
+        name: "release_date",
+        type: "date",
+        description: "The date when this movie was released"
+      },
+      {
+        name: "running_time",
+        type: "string",
+        description: "The running time of this movie"
+      },
+      {
+        name: "budget",
+        type: "string",
+        description: "The budget of this movie"
+      },
+      {
+        name: "box_office",
+        type: "string",
+        description: "The revenue this movie raised through ticket sales"
+      },
+      {
+        name: "rating",
+        type: "string",
+        description: "The age recommendation of this movie"
+      },
+      {
+        name: "order",
+        type: "integer",
+        description:
+          "The chronological order of this movie within the Harry Potter Universe"
+      },
+      {
+        name: "trailer",
+        type: "string",
+        description: "A link to the trailer of this movie"
+      },
+      {
+        name: "poster",
+        type: "string",
+        description: "A link to the poster of this movie"
+      },
+      {
+        name: "wiki",
+        type: "string",
+        description: "A link to the Harry Potter Wiki Page of this movie"
+      }
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

@@ -1,0 +1,55 @@
+# Characters
+
+This resource provides information about characters from the Harry Potter Universe.
+
+## Attributes
+
+{
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      { name: "slug", type: "string", description: "A slug to identify this character" },
+      { name: "name", type: "string", description: "The title of this character" },
+      { name: "born", type: "string", description: "The date and place of birth of this character" },
+      { name: "died", type: "string", description: "The date and place of death of this character" },
+      { name: "gender", type: "string", description: "The gender of this character" },
+      { name: "species", type: "string", description: "The species of this character" },
+      { name: "height", type: "string", description: "The height in inch of this character" },
+      { name: "weight", type: "string", description: "The weight in lbs of this character" },
+      { name: "hair_color", type: "string", description: "The hair color of this character" },
+      { name: "eye_color", type: "string", description: "The eye color of this character" },
+      { name: "skin_color", type: "string", description: "The skin color of this character" },
+      { name: "blood_status", type: "string", description: "The blood status of this character" },
+      { name: "nationality", type: "string", description: "The nationality of this character" },
+      { name: "animagus", type: "string", description: "The animagus of this character" },
+      { name: "boggart", type: "string", description: "The boggart of this character" },
+      { name: "house", type: "string", description: "The hogwarts house of this character" },
+      { name: "patronus", type: "string", description: "The patronus of this character" },
+      { name: "animagus", type: "string", description: "The animagus of this character" },
+      { name: "alias_names", type: "array", description: "A list of names this character otherwise was known as" },
+      { name: "family_member", type: "array", description: "A list of family members of this character" },
+      { name: "jobs", type: "array", description: "An a list of jobs this character did" },
+      { name: "romances", type: "array", description: "An list of romances of this character" },
+      { name: "titles", type: "array", description: "An list of names which describe a character's position or job" },
+      { name: "wands", type: "array", description: "A list of wands of this character" },
+      { name: "image", type: "string", description: "A link to to an image of this character" },
+      { name: "wiki", type: "string", description: "A link to the Harry Potter Wiki Page of this character" },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+      </tr>
+    ))}
+
+  </tbody>
+</table>
+}

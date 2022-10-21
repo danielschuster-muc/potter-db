@@ -1,0 +1,82 @@
+import { useSSG } from "nextra/ssg";
+
+import graphqlFetcher from "../lib/fetchers/graphqlFetcher";
+
+export const getStaticProps = async ({ params }) => {
+  const query = `
+    {
+      books {
+        totalCount
+      }
+      characters {
+        totalCount
+      }
+      spells {
+        totalCount
+      }
+      potions {
+        totalCount
+      }
+      movies {
+        totalCount
+      }
+    }
+  `;
+  const result = await graphqlFetcher(query);
+  const mapped_result = result?.data;
+  let hash = {};
+  for (let k in mapped_result) {
+    hash["total_" + k] = mapped_result[k]?.totalCount;
+  }
+  return {
+    props: {
+      ssg: hash
+    }
+  };
+};
+
+export const Stats = () => {
+  const {
+    total_books,
+    total_characters,
+    total_spells,
+    total_potions,
+    total_movies
+  } = useSSG();
+  return (
+    <table>
+      <tbody>
+        <tr>
+          <td>Books</td>
+          <td>{total_books}</td>
+        </tr>
+        <tr>
+          <td>Characters</td>
+          <td>{total_characters}</td>
+        </tr>
+        <tr>
+          <td>Movies</td>
+          <td>{total_movies}</td>
+        </tr>
+        <tr>
+          <td>Potions</td>
+          <td>{total_potions}</td>
+        </tr>
+        <tr>
+          <td>Spells</td>
+          <td>{total_spells}</td>
+        </tr>
+      </tbody>
+    </table>
+  );
+};
+
+# Introduction
+
+Welcome to the Documentation of [Potter DB](https://potterdb.com)!
+
+Potter DB is an API with data from the Harry Potter Universe.
+
+## Stats
+
+<Stats />
