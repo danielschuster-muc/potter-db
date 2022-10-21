@@ -59,8 +59,9 @@
 
 ### Built With
 
-- Ruby on Rails for the backend / api, deployed on Heroku
+- Ruby on Rails for the backend, deployed on Heroku
 - Next.js for the frontend, hosted on Vercel
+- Nextra for the documentation, hosted on vercel
 
 ## Support
 

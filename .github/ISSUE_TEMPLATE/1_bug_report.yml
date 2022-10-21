@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to fill the bug report! 
+        Thank you for taking the time to fill the bug report!
         Before opening the report, please search for other similar issues.
   - type: dropdown
     id: project
@@ -16,6 +16,7 @@ body:
       options:
         - Website (Potter DB Search)
         - API
+        - Docs
         - Other (Please specify in the description)
     validations:
       required: true

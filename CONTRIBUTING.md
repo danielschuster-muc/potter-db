@@ -8,11 +8,15 @@ There are many different things you can help with. This however depends on the p
 
 ### Backend (API Changes or Data Improvements)
 
-If you want to contribute to the API / Backend read the instructions on the [backend/README.md](backend/README.md).
+If you want to contribute to the API / Backend, read the instructions on the [backend/README.md](backend/README.md).
 
 ### Frontend (Website)
 
-If you prefer to contribute to the Website / Frontend read the instructions on the [frontend/README.md](frontend/README.md).
+If you prefer to contribute to the Documentation of the API, read the instructions on the [docs/README.md](docs/README.md).
+
+### Frontend (Website)
+
+If you prefer to contribute to the Website / Frontend, read the instructions on the [frontend/README.md](frontend/README.md).
 
 ## How to make a first Pull Request
 
