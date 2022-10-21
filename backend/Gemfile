@@ -31,6 +31,8 @@ gem "jsonapi.rb"
 gem "rack-attack"
 # Ruby implementation of GraphQL [https://github.com/rmosolgo/graphql-ruby]
 gem "graphql"
+# Generate sitemap [https://github.com/kjvarga/sitemap_generator]
+gem 'sitemap_generator', '~> 6.3'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
