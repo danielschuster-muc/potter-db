@@ -16,6 +16,7 @@ body:
       options:
         - Website (Potter DB Search)
         - API
+        - Docs
         - Other (Please specify in the description)
     validations:
       required: true

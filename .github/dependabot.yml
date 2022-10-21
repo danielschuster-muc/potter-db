@@ -11,14 +11,20 @@ updates:
     schedule:
       interval: "daily"
 
-  # Maintain dependencies for npm (node modules)
-  - package-ecosystem: "npm"
-    directory: "/frontend"
-    schedule:
-      interval: "daily"
-
   # Maintain dependencies for bundler (ruby gems)
   - package-ecosystem: "bundler"
     directory: "/backend"
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for npm (node modules)
+  - package-ecosystem: "npm"
+    directory: "/docs"
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for npm (node modules)
+  - package-ecosystem: "npm"
+    directory: "/frontend"
     schedule:
       interval: "daily"
