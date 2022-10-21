@@ -62,6 +62,10 @@ const Footer = () => {
           name: "Contribute",
           link: getGithubUrl(),
         },
+        {
+          name: "Docs",
+          link: "https://docs.potterdb.com",
+        },
       ],
     },
   ];
