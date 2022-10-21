@@ -5,7 +5,7 @@ const themeConfig = {
     link: "https://github.com/danielschuster-muc/potter-db",
   },
   docsRepositoryBase:
-    "https://github.com/danielschuster-muc/potter-db/tree/docs",
+    "https://github.com/danielschuster-muc/potter-db/tree/master/docs",
   titleSuffix: " – Potter DB: Docs",
   navigation: {
     prev: true,
