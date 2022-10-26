@@ -6,7 +6,7 @@ import { Link as MuiLink } from "@mui/material";
 
 const Link = forwardRef(({ href, as, prefetch, ...props }, ref) => {
   return (
-    <NextLink href={href} as={as} prefetch={prefetch} passHref>
+    <NextLink href={href} as={as} prefetch={prefetch} passHref legacyBehavior>
       <MuiLink underline="hover" ref={ref} {...props} />
     </NextLink>
   );

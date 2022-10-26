@@ -1,15 +1,29 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
-import { faCross, faPaw, faStar, faVenusMars } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCross,
+  faPaw,
+  faStar,
+  faVenusMars,
+} from "@fortawesome/free-solid-svg-icons";
 
-import { Card, CardActions, CardContent, CardHeader, CardMedia, Grid, Typography } from "@mui/material";
+import {
+  Card,
+  CardActions,
+  CardContent,
+  CardHeader,
+  CardMedia,
+  Grid,
+  Typography,
+} from "@mui/material";
 
 import Link from "../../Link";
 import ListItemBox from "../../ui/ListItemBox";
 import { getCharacterColorByHouse } from "../../../lib/utils";
 
 const CharacterListItem = ({ character }) => {
-  const { name, slug, house, born, died, species, gender, image } = character.attributes;
+  const { name, slug, house, born, died, species, gender, image } =
+    character.attributes;
 
   return (
     <Grid item xs={12} sm={6} md={4} lg={3}>
@@ -45,7 +59,9 @@ const CharacterListItem = ({ character }) => {
         </CardContent>
         <CardActions>
           <Link href={`/characters/${slug}`}>
-            <Typography sx={{ ml: 1 }}>Detailed Character Information</Typography>
+            <Typography sx={{ ml: 1 }}>
+              Detailed Character Information
+            </Typography>
           </Link>
         </CardActions>
       </Card>

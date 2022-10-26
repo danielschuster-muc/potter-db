@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 import { Box, Card, CardContent, Typography } from "@mui/material";
 import SearchBar from "./SearchBar";
