@@ -1,10 +1,6 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
-import {
-  faCalendar,
-  faPen,
-  faBook
-} from "@fortawesome/free-solid-svg-icons";
+import { faCalendar, faPen, faBook } from "@fortawesome/free-solid-svg-icons";
 
 import {
   Card,
@@ -21,8 +17,7 @@ import ListItemBox from "../../ui/ListItemBox";
 import { getBookColorBySlug } from "../../../lib/utils";
 
 const BookListItem = ({ book }) => {
-  const { title, slug, release_date, author, pages, cover } =
-    book.attributes;
+  const { title, slug, release_date, author, pages, cover } = book.attributes;
   return (
     <Grid item xs={12} sm={6} md={4} lg={3}>
       <Card
