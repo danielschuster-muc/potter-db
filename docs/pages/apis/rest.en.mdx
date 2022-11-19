@@ -178,22 +178,22 @@ You can also filter and paginate the results of collections via query params.
 
 We use Ransack to filter the results. Checkout their [list of search matchers](https://activerecord-hackery.github.io/ransack/getting-started/search-matches/).
 
-#### Example
+> Example: Filter the characters by the name `Harry`
 
-`/v1/characters?filter[name_cont_any]=Harry` to filter by the name `Harry`.
+`/v1/characters?filter[name_cont_any]=Harry`
 
 ### Sorting
 
 You can also sort the results by a specific field. Add a minus before the field to sort descending.
 
-#### Example
+> Example: Sort all characters by name
 
-`/v1/characters?sort=name` to sort all characters by name
+`/v1/characters?sort=name`
 
 ### Pagination
 
-Use `page[number=1]`and `page[size]=5` to paginate the results of the API.
+Use `page[number=1]` and `page[size]=5` to paginate the results of the API.
 
-#### Example
+> Example: Displaying the results of page 10 with 20 results per page
 
-`/v1/characters?page[number=10]&page[size=20]` to display the results of page 10 with 20 results per page
+`/v1/characters?page[number=10]&page[size=20]`
