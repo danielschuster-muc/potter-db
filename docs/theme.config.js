@@ -1,12 +1,10 @@
-import Image from "next/image";
-
 const themeConfig = {
   project: {
     link: "https://github.com/danielschuster-muc/potter-db",
   },
   docsRepositoryBase:
     "https://github.com/danielschuster-muc/potter-db/tree/master/docs",
-  titleSuffix: " – Potter DB: Docs",
+  getNextSeoProps: () => ({ titleTemplate: "%s – Potter DB: Docs" }),
   navigation: {
     prev: true,
     next: true,
@@ -20,7 +18,6 @@ const themeConfig = {
   },
   logo: (
     <>
-      <Image src="/images/logo.svg" width={25} height={25} alt="logo" />
       <span>Potter DB: Docs</span>
     </>
   ),
@@ -29,6 +26,7 @@ const themeConfig = {
     subtitle: ({ title }) => <>{title}</>,
   },
   i18n: [{ locale: "en", text: "English" }],
+  unstable_flexsearch: true,
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
