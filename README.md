@@ -19,11 +19,14 @@
 <div align="center">
 <br />
 
+**[:book: The Future of Potter DB](https://github.com/danielschuster-muc/potter-db/discussions/338)**
+
 [![Project license](https://img.shields.io/github/license/danielschuster-muc/potter-db?style=flat-square)](LICENSE)
 [![Contributors](https://img.shields.io/github/contributors/danielschuster-muc/potter-db?style=flat-square)](https://github.com/danielschuster-muc/potter-db/graphs/contributors)
 [![Issue](https://img.shields.io/github/issues/danielschuster-muc/potter-db?style=flat-square)](https://github.com/danielschuster-muc/potter-db/issues)
 [![PRs](https://img.shields.io/github/issues-pr/danielschuster-muc/potter-db?style=flat-square)](https://github.com/danielschuster-muc/potter-db/pulls)
 [![Stars](https://img.shields.io/github/stars/danielschuster-muc/potter-db?style=flat-square)](https://github.com/danielschuster-muc/potter-db/stargazers)
+
 
 </div>
 
