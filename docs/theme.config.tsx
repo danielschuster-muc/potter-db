@@ -7,14 +7,10 @@ const config: DocsThemeConfig = {
   editLink: {
     text: "Edit this page on GitHub",
   },
-  // feedback: {
-  //   content: () => <>Question? Give us feedback</>,
-  //   labels: "feedback",
-  // },
   footer: {
     text: `MIT ${new Date().getFullYear()} © Potter DB.`,
   },
-  getNextSeoProps: () => ({ titleTemplate: "%s – Potter DB: Docs" }),
+  useNextSeoProps: () => ({ titleTemplate: "%s – Potter DB: Docs" }),
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,16 +23,13 @@ const config: DocsThemeConfig = {
   ),
   i18n: [{ locale: "en", text: "English" }],
   logo: <span>Potter DB: Docs</span>,
-  // navbar: {
-  //   extraContent: <Link href="https://potterdb.com">Website</Link>,
-  // },
   project: {
     link: "https://github.com/danielschuster-muc/potter-db",
   },
   sidebar: {
     titleComponent: ({ title, type }) => {
       if (type === "separator") {
-        return <b>{title}!!!!</b>;
+        return <span className="cursor-default">{title}</span>;
       }
       return <>{title}</>;
     },
