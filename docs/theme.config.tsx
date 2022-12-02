@@ -5,7 +5,7 @@ const config: DocsThemeConfig = {
   docsRepositoryBase:
     "https://github.com/danielschuster-muc/potter-db/tree/master/docs",
   editLink: {
-    text: "Edit this page on GitHub",
+    text: "Edit this page on GitHub →",
   },
   footer: {
     text: `MIT ${new Date().getFullYear()} © Potter DB.`,
