@@ -26,6 +26,6 @@
     "eslint-config-next": "13.1.1",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-mdx": "^2.0.5",
-    "prettier": "^2.8.0"
+    "prettier": "^2.8.1"
   }
 }
