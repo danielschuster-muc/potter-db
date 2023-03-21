@@ -7,6 +7,9 @@ const config: DocsThemeConfig = {
   editLink: {
     text: "Edit this page on GitHub →",
   },
+  feedback: {
+    labels: "documentation",
+  },
   footer: {
     text: `MIT ${new Date().getFullYear()} © Potter DB.`,
   },
@@ -14,10 +17,7 @@ const config: DocsThemeConfig = {
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta
-        name="description"
-        content="Potter DB: Docs - Documentation for Potter DB"
-      />
+      <meta name="description" content="Documentation for Potter DB" />
       <meta name="og:title" content="Potter DB: Docs" />
     </>
   ),
