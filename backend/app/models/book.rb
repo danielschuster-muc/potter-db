@@ -3,6 +3,6 @@ class Book < ActiveRecord::Base
   default_scope { order(order: :asc) }
 
   def self.ransackable_attributes(_auth_object = nil)
-    ["author", "cover", "dedication", "id", "order", "pages", "release_date", "slug", "summary", "title", "wiki"]
+    ["author", "cover", "dedication", "order", "pages", "release_date", "slug", "summary", "title", "wiki"]
   end
 end
