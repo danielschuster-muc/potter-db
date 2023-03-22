@@ -1,11 +1,12 @@
-<h1 align="center">
-  <a href="https://github.com/danielschuster-muc/potter-db">
-    <img src="logo.svg" alt="Logo" width="100" height="100">
-  </a>
-</h1>
+
 
 <div align="center">
-  <h2>Potter DB</h2>
+  <h1 align="center">
+    <a href="https://github.com/danielschuster-muc/potter-db">
+      <img src="logo.svg" alt="Logo" width="100" height="100">
+    </a>
+  </h1>
+  
   <br />
   <a href="https://github.com/danielschuster-muc/potter-db/issues/new?assignees=&labels=bug&template=1_bug_report.yml">Report a Bug</a>
   ·
@@ -34,7 +35,6 @@
 <summary>Table of Contents</summary>
 
 - [About](#about)
-  - [Built With](#built-with)
 - [Support](#support)
 - [Project assistance](#project-assistance)
 - [Contributing](#contributing)
@@ -50,15 +50,7 @@
 
 **What is the Potter DB?**
 
-> The Harry Potter DB is an API with data from the Harry Potter Universe: Characters, Movies, Books, Spells and Potions.
-
-**Where can I find the API?**
-
-> There are 2 endpoints for the API, you can either use the [REST API](https://github.com/danielschuster-muc/potter-db/wiki/REST-API) or the [GraphQL API](https://github.com/danielschuster-muc/potter-db/wiki/GraphQL-API).
-
-**I just want to look up things from the Harry Potter Universe. Where can I do that?**
-
-> Use the [DB Search](https://potterdb.com/characters) to get information about Characters, Movies, Books, Spells or Potions.
+The Harry Potter DB is an API with data from the Harry Potter Universe: Characters, Movies, Books, Spells and Potions.
 
 ### Built With
 
