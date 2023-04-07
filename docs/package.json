@@ -23,7 +23,7 @@
   "devDependencies": {
     "@types/node": "^18.15.11",
     "eslint": "8.37.0",
-    "eslint-config-next": "13.2.4",
+    "eslint-config-next": "13.3.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-mdx": "^2.0.5",
     "prettier": "^2.8.7"
