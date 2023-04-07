@@ -24,7 +24,7 @@ updates:
       interval: "daily"
 
   # Maintain dependencies for npm (node modules)
-  - package-ecosystem: "npm"
-    directory: "/frontend"
-    schedule:
-      interval: "daily"
+  # - package-ecosystem: "npm"
+  #   directory: "/frontend"
+  #   schedule:
+  #     interval: "daily"
