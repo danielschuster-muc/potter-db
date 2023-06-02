@@ -11,7 +11,7 @@
     "lint": "next lint --fix . && prettier --write ."
   },
   "dependencies": {
-    "@types/react": "^18.0.35",
+    "@types/react": "^18.2.8",
     "next": "^13.3.0",
     "next-sitemap": "^4.0.7",
     "nextra": "^2.0.3",
