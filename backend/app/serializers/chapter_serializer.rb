@@ -1,8 +1,8 @@
 class ChapterSerializer < ApplicationSerializer
   attributes(
-    :title,
+    :order,
     :summary,
-    :order
+    :title
   )
   belongs_to :book
 

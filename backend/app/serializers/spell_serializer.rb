@@ -1,13 +1,13 @@
 class SpellSerializer < ApplicationSerializer
   attributes(
-    :name,
-    :incantation,
     :category,
-    :effect,
-    :light,
-    :hand,
     :creator,
+    :effect,
+    :hand,
     :image,
+    :incantation,
+    :light,
+    :name,
     :wiki
   )
 end

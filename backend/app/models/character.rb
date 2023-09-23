@@ -6,8 +6,10 @@ class Character < ActiveRecord::Base
       alias_names
       animagus
       blood_status
-      boggart born
-      died eye_color
+      boggart
+      born
+      died
+      eye_color
       family_members
       gender
       hair_color
@@ -15,7 +17,8 @@ class Character < ActiveRecord::Base
       house
       jobs
       marital_status
-      name nationality
+      name
+      nationality
       patronus
       romances
       skin_color

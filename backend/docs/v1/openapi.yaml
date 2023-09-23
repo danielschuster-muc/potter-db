@@ -481,24 +481,16 @@ components:
           enum:
           - author
           - "-author"
-          - cover
-          - "-cover"
           - dedication
           - "-dedication"
-          - order
-          - "-order"
           - pages
           - "-pages"
           - release_date
           - "-release_date"
-          - slug
-          - "-slug"
           - summary
           - "-summary"
           - title
           - "-title"
-          - wiki
-          - "-wiki"
     filter_books_by:
       name: filter
       description: |-
@@ -525,8 +517,6 @@ components:
           enum:
           - order
           - "-order"
-          - slug
-          - "-slug"
           - summary
           - "-summary"
           - title
@@ -580,8 +570,6 @@ components:
           - "-height"
           - house
           - "-house"
-          - image
-          - "-image"
           - jobs
           - "-jobs"
           - marital_status
@@ -596,8 +584,6 @@ components:
           - "-romances"
           - skin_color
           - "-skin_color"
-          - slug
-          - "-slug"
           - species
           - "-species"
           - titles
@@ -606,8 +592,6 @@ components:
           - "-wands"
           - weight
           - "-weight"
-          - wiki
-          - "-wiki"
     filter_characters_by:
       name: filter
       description: |-
@@ -646,10 +630,6 @@ components:
           - "-editors"
           - music_composers
           - "-music_composers"
-          - order
-          - "-order"
-          - poster
-          - "-poster"
           - producers
           - "-producers"
           - rating
@@ -660,16 +640,10 @@ components:
           - "-running_time"
           - screenwriters
           - "-screenwriters"
-          - slug
-          - "-slug"
           - summary
           - "-summary"
           - title
           - "-title"
-          - trailer
-          - "-trailer"
-          - wiki
-          - "-wiki"
     filter_movies_by:
       name: filter
       description: |-
@@ -700,8 +674,6 @@ components:
           - "-difficulty"
           - effect
           - "-effect"
-          - image
-          - "-image"
           - ingredients
           - "-ingredients"
           - inventors
@@ -712,12 +684,8 @@ components:
           - "-name"
           - side_effects
           - "-side_effects"
-          - slug
-          - "-slug"
           - time
           - "-time"
-          - wiki
-          - "-wiki"
     filter_potions_by:
       name: filter
       description: |-
@@ -750,18 +718,12 @@ components:
           - "-effect"
           - hand
           - "-hand"
-          - image
-          - "-image"
           - incantation
           - "-incantation"
           - light
           - "-light"
           - name
           - "-name"
-          - slug
-          - "-slug"
-          - wiki
-          - "-wiki"
     filter_spells_by:
       name: filter
       description: |-
@@ -829,7 +791,7 @@ components:
           format: date_time
       example:
         copyright: Copyright © Potter DB 2023
-        generated_at: '2023-09-24T00:18:57+02:00'
+        generated_at: '2023-09-24T01:30:57+02:00'
     data:
       description: The primary data of the response.
       oneOf:

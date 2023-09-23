@@ -1,12 +1,12 @@
 class BookSerializer < ApplicationSerializer
   attributes(
-    :title,
-    :summary,
     :author,
-    :release_date,
+    :cover,
     :dedication,
     :pages,
-    :cover,
+    :release_date,
+    :summary,
+    :title,
     :wiki
   )
   has_many :chapters

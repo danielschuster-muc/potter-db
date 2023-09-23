@@ -1,16 +1,15 @@
 class PotionSerializer < ApplicationSerializer
   attributes(
-    :slug,
-    :name,
-    :effect,
-    :side_effects,
     :characteristics,
-    :time,
     :difficulty,
-    :ingredients,
-    :inventors,
-    :manufacturers,
+    :effect,
     :image,
+    :inventors,
+    :ingredients,
+    :manufacturers,
+    :name,
+    :side_effects,
+    :time,
     :wiki
   )
 end
