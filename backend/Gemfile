@@ -52,8 +52,6 @@ group :development, :test do
   gem "factory_bot_rails"
   # Code coverage [https://github.com/simplecov-ruby/simplecov]
   gem "simplecov", require: false
-  # A library for generating fake data such as names, addresses, and phone numbers. [https://github.com/faker-ruby/faker]
-  gem "faker"
 
   # Code analyzer and formatter [https://github.com/rubocop/rubocop]
   gem "rubocop"

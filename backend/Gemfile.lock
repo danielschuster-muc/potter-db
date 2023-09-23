@@ -90,8 +90,6 @@ GEM
     factory_bot_rails (6.2.0)
       factory_bot (~> 6.2.0)
       railties (>= 5.0.0)
-    faker (3.1.1)
-      i18n (>= 1.8.11, < 2)
     globalid (1.1.0)
       activesupport (>= 5.0)
     graphiql-rails (1.9.0)
@@ -267,7 +265,6 @@ DEPENDENCIES
   debug
   dotenv-rails
   factory_bot_rails
-  faker
   graphiql-rails
   graphql
   jsonapi-serializer
