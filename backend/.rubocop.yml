@@ -39,3 +39,5 @@ Style/EmptyMethod:
   Enabled: false
 Bundler/OrderedGems:
   Enabled: false
+RSpec/MultipleExpectations:
+  Enabled: false

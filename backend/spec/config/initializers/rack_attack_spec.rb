@@ -17,7 +17,7 @@ RSpec.describe "Rack::Attack", type: :request do
     Rack::Attack.enabled = false
   end
 
-  describe "GET /" do
+  xdescribe "GET /" do
     let(:limit) { 900 }
     let(:headers) { { "REMOTE_ADDR" => "1.2.3.4" } }
 

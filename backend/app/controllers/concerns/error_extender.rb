@@ -24,8 +24,8 @@ module ErrorExtender
 
   def error_object(status, exception)
     {
-      status: status.to_s,
       title: Rack::Utils::HTTP_STATUS_CODES[status],
+      status: status.to_s,
       detail: exception.to_s
     }
   end

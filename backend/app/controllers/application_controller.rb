@@ -7,8 +7,8 @@ class ApplicationController < ActionController::API
     pagination = jsonapi_pagination_meta(resources)
     {
       pagination: (pagination if pagination.present?),
-      copyright: "© #{Date.today.year} Potter DB API",
-      generated_at: Time.current
+      copyright: "Copyright © Potter DB #{Date.today.year}",
+      generated_at: DateTime.now
     }.compact
   end
 

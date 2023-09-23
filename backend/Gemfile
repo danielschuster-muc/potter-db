@@ -46,6 +46,8 @@ group :development, :test do
 
   # RSpec for Rails 5+ [https://github.com/rspec/rspec-rails]
   gem "rspec-rails"
+  # Seamlessly adds a Swagger to Rails-based API's [https://github.com/rswag/rswag]
+  gem 'rswag-specs'
   # Fixtures replacement [https://github.com/thoughtbot/factory_bot_rails]
   gem "factory_bot_rails"
   # Code coverage [https://github.com/simplecov-ruby/simplecov]

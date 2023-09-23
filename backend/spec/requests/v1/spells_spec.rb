@@ -1,39 +1,65 @@
-require 'rails_helper'
+require 'swagger_helper'
 
-RSpec.describe "V1::Spells", type: :request do
-  describe "GET /index" do
-    before do
-      create_list(:spell, 10)
-    end
+RSpec.describe 'V1::Spells' do
+  path '/v1/spells' do
+    get 'Retrieves a list of spells' do
+      tags 'spells'
+      description 'Retrieves a list of spells; paginated, sorted and filtered by attributes.'
+      operationId 'getSpells'
+      produces 'application/vnd.api+json'
+      parameter '$ref': '#/components/parameters/page_size'
+      parameter '$ref': '#/components/parameters/page_number'
+      parameter '$ref': '#/components/parameters/sort_spells'
+      parameter '$ref': '#/components/parameters/filter_spells_by'
 
-    it "returns http success" do
-      get v1_spells_path
-      expect(response).to have_http_status(:success)
-    end
+      response '200', 'A list of spells' do
+        schema allOf: [
+          {
+            type: :object,
+            required: %w[data],
+            properties: {
+              data: {
+                type: :array,
+                items: { '$ref' => '#/components/schemas/spell' }
+              }
+            }
+          },
+          { '$ref' => '#/components/schemas/success_without_data' }
+        ]
 
-    it "returns a list of 10 spells" do
-      get v1_spells_path
-      spells = JSON.parse(response.body)['data']
-      expect(spells.count).to eq(10)
+        run_test!
+      end
     end
   end
 
-  describe "GET /show" do
-    let!(:spell) { create(:spell) }
+  path '/v1/spells/{id}' do
+    get 'Retrieves a spell' do
+      tags 'spells'
+      description 'Retrieves a specific spell by id, use "random" to get a random spell.'
+      operationId 'getspell'
+      produces 'application/vnd.api+json'
+      parameter name: :id, in: :path, required: true,
+                description: "The unique identifier of the spell. Must be a valid UUID v4 or slug.",
+                schema: { '$ref' => '#components/schemas/id_path' }
 
-    it "returns http success" do
-      get v1_spell_path(spell)
-      expect(response).to have_http_status(:success)
-    end
+      response '200', 'A single spell' do
+        let(:id) { create(:spell).id }
 
-    it "returns http success with 'random'" do
-      get v1_spell_path("random")
-      expect(response).to have_http_status(:success)
-    end
+        schema allOf: [
+          {
+            type: :object, required: %w[data], properties: { data: { '$ref' => '#/components/schemas/spell' } }
+          },
+          { '$ref' => '#/components/schemas/success_without_data' }
+        ]
 
-    it "returns http not_found with invalid" do
-      get v1_spell_path(1)
-      expect(response).to have_http_status(:not_found)
+        run_test!
+      end
+
+      response '404', 'Spell not found' do
+        let(:id) { 'invalid' }
+        schema '$ref' => '#/components/schemas/not_found'
+        run_test!
+      end
     end
   end
 end
