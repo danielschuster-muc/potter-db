@@ -37,7 +37,7 @@ end
 
 unless books.empty?
   current_start_date = Time.now
-  books.each_with_index do |book, book_index|
+  books.each do |book|
     finished_book = Book.create!(
       slug: book["title"].parameterize,
       title: book["title"],
@@ -46,7 +46,6 @@ unless books.empty?
       release_date: book["release_date"],
       dedication: book["dedication"],
       pages: book["pages"],
-      order: book_index + 1,
       cover: book["cover"],
       wiki: book["wiki"]
     )
@@ -71,7 +70,7 @@ end
 
 unless movies.empty?
   current_start_date = Time.now
-  movies.each_with_index do |movie, movie_index|
+  movies.each do |movie|
     Movie.create!(
       slug: movie["title"].parameterize,
       title: movie["title"],
@@ -88,7 +87,6 @@ unless movies.empty?
       budget: movie["budget"],
       box_office: movie["box_office"],
       rating: movie["rating"],
-      order: movie_index + 1,
       trailer: movie["trailer"],
       poster: movie["poster"],
       wiki: movie["wiki"]

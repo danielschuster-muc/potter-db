@@ -6,7 +6,6 @@ class BookSerializer < ApplicationSerializer
     :release_date,
     :dedication,
     :pages,
-    :order,
     :cover,
     :wiki
   )
