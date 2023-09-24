@@ -1,9 +1,8 @@
-import { DocsThemeConfig } from "nextra-theme-docs";
+import type { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
   darkMode: true,
-  docsRepositoryBase:
-    "https://github.com/danielschuster-muc/potter-db/tree/master/docs",
+  docsRepositoryBase: "https://github.com/danielschuster-muc/potter-db/tree/master/docs",
   editLink: {
     text: "Edit this page on GitHub →",
   },
@@ -11,7 +10,7 @@ const config: DocsThemeConfig = {
     labels: "documentation",
   },
   footer: {
-    text: `MIT ${new Date().getFullYear()} © Potter DB.`,
+    text: `Copyright © Potter DB ${new Date().getFullYear()}`,
   },
   useNextSeoProps: () => ({ titleTemplate: "%s - Potter DB: Docs" }),
   head: (
@@ -33,6 +32,8 @@ const config: DocsThemeConfig = {
       }
       return <>{title}</>;
     },
+    defaultMenuCollapseLevel: 1,
+    toggleButton: true,
   },
 };
 

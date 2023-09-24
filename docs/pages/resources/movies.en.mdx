@@ -1,118 +1,133 @@
 # Movies
-
-this resource provides information about movies from the Harry Potter Universe.
+This resource provides information about movies from the Harry Potter Universe.
 
 ## Attributes
-
 {
-
 <table>
   <thead>
     <tr>
       <th>Name</th>
       <th>Type</th>
       <th>Description</th>
+      <th>Ransackable</th>
     </tr>
   </thead>
   <tbody>
     {[
       {
-        name: "slug",
+        name: "box_office",
         type: "string",
-        description: "A slug to identify this movie"
-      },
-      { name: "title", type: "string", description: "The title of this movie" },
-      {
-        name: "summary",
-        type: "string",
-        description: "The summary of this movie"
-      },
-      {
-        name: "directors",
-        type: "array",
-        description: "A list of people who directed this movies"
-      },
-      {
-        name: "screenwriters",
-        type: "array",
-        description: "A list of screenwriters in this movies"
-      },
-      {
-        name: "producers",
-        type: "array",
-        description: "A list of people who produced this movies"
-      },
-      {
-        name: "cinematographers",
-        type: "array",
-        description: "A list of cinematographers in this movies"
-      },
-      {
-        name: "editors",
-        type: "array",
-        description: "A list of people who edited this movies"
-      },
-      {
-        name: "distributors",
-        type: "array",
-        description: "A list of people who distributed this movies"
-      },
-      {
-        name: "music_composers",
-        type: "array",
-        description: "A list of people who composed the music of this movies"
-      },
-      {
-        name: "release_date",
-        type: "date",
-        description: "The date when this movie was released"
-      },
-      {
-        name: "running_time",
-        type: "string",
-        description: "The running time of this movie"
+        description: "The revenue this movie raised through ticket sales.",
+        ransackable: true,
       },
       {
         name: "budget",
         type: "string",
-        description: "The budget of this movie"
+        description: "The budget of this movie.",
+        ransackable: true,
       },
       {
-        name: "box_office",
-        type: "string",
-        description: "The revenue this movie raised through ticket sales"
+        name: "cinematographers",
+        type: "array",
+        description: "A list of cinematographers in this movies.",
+        ransackable: true,
       },
       {
-        name: "rating",
-        type: "string",
-        description: "The age recommendation of this movie"
+        name: "directors",
+        type: "array",
+        description: "A list of people who directed this movies.",
+        ransackable: true,
       },
       {
-        name: "order",
-        type: "integer",
-        description:
-          "The chronological order of this movie within the Harry Potter Universe"
+        name: "distributors",
+        type: "array",
+        description: "A list of people who distributed this movies.",
+        ransackable: true,
       },
       {
-        name: "trailer",
-        type: "string",
-        description: "A link to the trailer of this movie"
+        name: "editors",
+        type: "array",
+        description: "A list of people who edited this movies.",
+        ransackable: true,
+      },
+      {
+        name: "music_composers",
+        type: "array",
+        description: "A list of people who composed the music of this movies.",
+        ransackable: true,
       },
       {
         name: "poster",
         type: "string",
-        description: "A link to the poster of this movie"
+        description: "A link to the poster of this movie.",
+        ransackable: false,
+      },
+      {
+        name: "producers",
+        type: "array",
+        description: "A list of people who produced this movies.",
+        ransackable: true,
+      },
+      {
+        name: "rating",
+        type: "string",
+        description: "The age recommendation of this movie.",
+        ransackable: true,
+      },
+      {
+        name: "release_date",
+        type: "date",
+        description: "The date when this movie was released.",
+        ransackable: true,
+      },
+      {
+        name: "running_time",
+        type: "string",
+        description: "The running time of this movie.",
+        ransackable: true,
+      },
+      {
+        name: "screenwriters",
+        type: "array",
+        description: "A list of screenwriters in this movies.",
+        ransackable: true,
+      },
+      {
+        name: "slug",
+        type: "string",
+        description: "A slug to identify this movie.",
+        ransackable: false,
+      },
+      {
+        name: "summary",
+        type: "string",
+        description: "The summary of this movie.",
+        ransackable: true,
+      },
+      {
+        name: "title",
+        type: "string",
+        description: "The title of this movie.",
+        ransackable: true,
+      },
+      {
+        name: "trailer",
+        type: "string",
+        description: "A link to the trailer of this movie.",
+        ransackable: false,
       },
       {
         name: "wiki",
         type: "string",
-        description: "A link to the Harry Potter Wiki Page of this movie"
-      }
+        description: "A link to the Harry Potter Wiki Page of this movie.",
+        ransackable: false,
+      },
     ].map((item) => (
       <tr key={item.name}>
         <td>{item.name}</td>
         <td>{item.type}</td>
         <td>{item.description}</td>
+        <td>{item.ransackable == true ? "✅" : "❌"}</td>
       </tr>
     ))}
   </tbody>

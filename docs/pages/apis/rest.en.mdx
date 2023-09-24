@@ -1,199 +1,135 @@
 # REST API
+Our RESTful API provides a straightforward way to interact with the Potter DB, adhering to the JSON:API and OAS specification. In this section, we'll cover the key aspects of using the REST API, including the available endpoints and how to format your requests and responses.
 
-Our REST API is following the [JSON:API Specification](https://jsonapi.org/).
+## Base URL
+The base URL for our REST API is as follows:
+- https://api.potterdb.com/v1
 
-## Endpoints
+Make sure to prepend this base URL to the specific endpoint you wish to access.
 
-To access data from the REST API you need to make a `GET` request to one of the followings endpoints.
+## Available Endpoints
+To access data from the REST API you need to make a `GET` request to one of the followings endpoints:
 
 <details>
-  <summary>Endpoints</summary>
-
+<summary>Expand to see all endpoints</summary>
 ### Books
-
-- `/v1/books` (list all books)
-- `/v1/characters/:slug` (show a specific book)
-- `/v1/characters/:chapters` (list all chapters of a specific book)
-- `/v1/characters/:chapters/:slug` (show a specific chapter of a specific book)
+- `/v1/books`: Retrieve a list of books.
+- `/v1/books/{id}`: Retrieve a single book by its ID.
+- `/v1/books/{book_id}/chapters`: Retrieve a list of chapters for a given book.
+- `/v1/books/{book_id}/chapters/{id}`: Retrieve a single chapter for a given book by its ID.
 
 ### Characters
-
-- `/v1/characters` (list all characters)
-- `/v1/characters/:slug` (show a specific character)
+- `/v1/characters`: Retrieve a list of characters.
+- `/v1/characters/{id}`: Retrieve a single character by its ID.
 
 ### Movies
-
-- `/v1/movies` (list all movies)
-- `/v1/movies/:slug` (show a specific movie)
+- `/v1/movies`: Retrieve a list of movies.
+- `/v1/movies/{id}`: Retrieve a single movie by its ID.
 
 ### Potions
-
-- `/v1/potions` (list all potions)
-- `/v1/potions/:slug` (show a specific potion)
+- `/v1/potions`: Retrieve a list of potions.
+- `/v1/potions/{id}`: Retrieve a single potion by its ID.
 
 ### Spells
+- `/v1/spells`: Retrieve a list of spells.
+- `/v1/spells/{id}`: Retrieve a single spell by its ID.
 
-- `/v1/spells` (list all spells)
-- `/v1/spells/:slug` (show a specific spell)
-
+IDs must be provided as UUIDs or slugs.
 </details>
 
-## Basic Example
+## OpenAPI Specification (OAS)
+To make integration easier, we provide an [OpenAPI Specification](https://openapis.org) document that describes the API's endpoints, data models, request/response schemas.
+The API conforms to version 3.0.3 of the OAS specification.
+You can find the OAS document [here](https://api.potterdb.com/v1/openapi.json).
 
-Showing the character "Harry Potter".
+## JSON:API Format
+Our REST API adheres to the [JSON:API specification](https://jsonapi.org/), which provides a consistent way to structure API requests and responses. Here's an overview of the key features of JSON:API in the context of our API:
+- **Resource Objects**: Each resource is represented as an object with a `type` and `id`.
+- **Relationships**: Resources can be related to other resources, for example a `book` resource is related to a `chapter` resource.
+- **Pagination**: When a response contains a large number of resources, the response will be paginated. The response will include a `links` object with `first`, `last`, `prev` and `next` links to the first, last, previous and next pages of results respectively.
+- **Errors**: Errors are returned with standardized JSON structures, making it easy to handle and troubleshoot issues.
 
-```shell
-curl https://api.potterdb.com/v1/characters/harry-potter
+## Making Requests
+To make a request to the REST API, you need to make a `GET` request to one of the available endpoints.
+Here's a basic example of how to retrieve a list of characters using the `/characters` endpoint:
+```http
+GET https://api.potterdb.com/v1/characters
 ```
+Please refer to the OpenAPI Specification document for detailed information.
 
-<details>
-  <summary>Response</summary>
-  ```json
-  {
-    "data": {
-      "id": "bc9a37f1-4831-4246-a4a2-ebbce26eff72",
-      "type": "character",
-      "attributes": {
-        "slug": "harry-potter",
-        "name": "Harry James Potter",
-        "born": "31 July 1980, Godric's Hollow, West Country, England, Great Britain",
-        "died": null,
-        "gender": "Male",
-        "species": "Human",
-        "height": null,
-        "weight": null,
-        "hair_color": "Jet-black",
-        "eye_color": "Bright green",
-        "skin_color": "Light",
-        "blood_status": "Half-blood",
-        "marital_status": "Married",
-        "nationality": "English",
-        "animagus": null,
-        "boggart": "Dementor",
-        "house": "Gryffindor",
-        "patronus": "Stag",
-        "alias_names": [
-          "The Boy Who Lived",
-          "The Chosen One",
-          "Undesirable No. 1",
-          "Lightning (by Potterwatch)",
-          "The Boy Who Lied (by the Daily Prophet)",
-          "Gregory Goyle (under disguise of Polyjuice Potion)",
-          "Neville Longbottom (the name he told Stanley Shunpike in his third year)",
-          "Barny Weasley (under disguise of Polyjuice Potion)",
-          "Vernon Dudley (the name he used to disguise his identity from Snatchers)",
-          "Albert Runcorn (under disguise of Polyjuice Potion)",
-          "Potty (by Peeves and Slytherins)"
-        ],
-        "family_members": [
-          "James Potter I (father) †",
-          "Lily J. Potter (née Evans) (mother) †",
-          "Ginevra Potter (née Weasley) (wife)",
-          "James Potter II (son)",
-          "Albus Potter (son)",
-          "Lily L. Potter (daughter)",
-          "Arthur Weasley (father-in-law)",
-          "Molly Weasley (née Prewett) (mother-in-law)",
-          "William Weasley (brother-in-law)",
-          "Charles Weasley (brother-in-law)",
-          "Percy Weasley (brother-in-law)",
-          "Fred Weasley (brother-in-law) †",
-          "George Weasley (brother-in-law)",
-          "Ronald Weasley (brother-in-law)",
-          "Fleur Weasley (née Delacour) (sister-in-law)",
-          "Audrey Weasley (sister-in-law)",
-          "Angelina Weasley (née Johnson) (sister-in-law)",
-          "Hermione Granger (sister-in-law)",
-          "Victoire Weasley (niece-in-law)",
-          "Dominique Weasley (niece-in-law)",
-          "Louis Weasley (nephew-in-law)",
-          "Molly Weasley II (niece-in-law)",
-          "Lucy Weasley (niece-in-law)",
-          "Fred Weasley II (nephew-in-law)",
-          "Roxanne Weasley (niece-in-law)",
-          "Rose Granger-Weasley (niece-in-law)",
-          "Hugo Granger-Weasley (nephew-in-law)",
-          "Fleamont Potter (paternal grandfather) †",
-          "Euphemia Potter (paternal grandmother) †",
-          "Mr Evans (maternal grandfather) †",
-          "Mrs Evans (maternal grandmother) †",
-          "Petunia Dursley (née Evans) (maternal aunt/guardian) †",
-          "Vernon Dursley (maternal uncle by marriage/guardian)",
-          "Dudley Dursley (maternal first cousin)",
-          "Mrs Dursley (maternal first cousin-in-law)",
-          "Hardwin Potter (paternal ancestor) †",
-          "Iolanthe Potter (née Peverell) (paternal ancestor) †",
-          "Linfred of Stinchcombe (paternal ancestor) †",
-          "Mr Peverell (paternal ancestor) †",
-          "Ignotus Peverell (paternal ancestor) †",
-          "Lord Voldemort (paternal distant cousin) †",
-          "Delphini (paternal distant cousin)",
-          "Potter family",
-          "Evans family (maternal family)",
-          "Fleamont family (paternal ancestors)",
-          "Peverell family (paternal ancestors)",
-          "Weasley family (in-laws)",
-          "Prewett family (in-laws)",
-          "House of Black (in-laws)"
-        ],
-        "jobs": [
-          "Head of British Auror Office (formerly)",
-          "Guest lecturer on Defence Against the Dark Arts",
-          "Head of the Department of Magical Law Enforcement"
-        ],
-        "romances": ["Cho Chang (ex-girlfriend)", "Ginevra Potter (wife)"],
-        "titles": [
-          "Triwizard Champion",
-          "Seeker",
-          "Quidditch Captain",
-          "Master of Death"
-        ],
-        "wands": [
-          "11', Holly, phoenix feather",
-          "10¾', Vine, dragon heartstring (temporarily)",
-          "10', Blackthorn, unknown core (temporarily)",
-          "10', Hawthorn, unicorn hair (temporarily)",
-          "15', Elder, thestral hair (temporarily)"
-        ],
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/9/97/Harry_Potter.jpg",
-        "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter"
-      }
-    },
-    "meta": {
-      "copyright": "© 2022 Potter DB API",
-      "generated_at": "2022-10-11T09:30:49.628Z"
-    },
-    "links": {
-      "self": "https://api.potterdb.com/v1/characters/harry-potter"
-    }
-  }
-  ```
-</details>
 
-## Filtering, Sorting and Pagination
-
-You can also filter and paginate the results of collections via query params.
+## Ransack
+Our REST API supports advanced filtering and sorting using [Ransack](https://activerecord-hackery.github.io/ransack/).
 
 ### Filtering
+You can filter resources by adding a `filter` query parameter to your request. For example, to filter characters by name, you can use the `name_cont` predicate:
 
-We use Ransack to filter the results. Checkout their [list of search matchers](https://activerecord-hackery.github.io/ransack/getting-started/search-matches/).
+```http
+GET https://api.potterdb.com/v1/characters?filter[name_eq]=Weasley
+```
+This will return all characters with the name "Weasley".
 
-> Example: Filter the characters by the name `Harry`
-
-`/v1/characters?filter[name_cont_any]=Harry`
+<details>
+  <summary>Expand to see all available filter predicates</summary>
+  - `eq`: equals
+  - `eq_any`: equals any
+  - `eq_all`: equals all
+  - `not_eq`: not equal to
+  - `not_eq_any`: not equal to any
+  - `not_eq_all`: not equal to all
+  - `matches`: matches
+  - `matches_any`: matches any
+  - `matches_all`: matches all
+  - `does_not_match`: doesn't match
+  - `does_not_match_any`: doesn't match any
+  - `does_not_match_all`: doesn't match all
+  - `lt`: less than
+  - `lt_any`: less than any
+  - `lt_all`: less than all
+  - `lteq`: less than or equal to
+  - `lteq_any`: less than or equal to any
+  - `lteq_all`: less than or equal to all
+  - `gt`: greater than
+  - `gt_any`: greater than any
+  - `gt_all`: greater than all
+  - `gteq`: greater than or equal to
+  - `gteq_any`: greater than or equal to any
+  - `gteq_all`: greater than or equal to all
+  - `in`: in
+  - `in_any`: in any
+  - `in_all`: in all
+  - `not_in`: not in
+  - `not_in_any`: not in any
+  - `not_in_all`: not in all
+  - `cont`: contains
+  - `cont_any`: contains any
+  - `cont_all`: contains all
+  - `not_cont`: doesn't contain
+  - `not_cont_any`: doesn't contain any
+  - `not_cont_all`: doesn't contain all
+  - `start`: starts with
+  - `start_any`: starts with any
+  - `start_all`: starts with all
+  - `not_start`: doesn't start with
+  - `not_start_any`: doesn't start with any
+  - `not_start_all`: doesn't start with all
+  - `end`: ends with
+  - `end_any`: ends with any
+  - `end_all`: ends with all
+  - `not_end`: doesn't end with
+  - `not_end_any`: doesn't end with any
+  - `not_end_all`: doesn't end with all
+  - `'true'`: is true
+  - `'false'`: is false
+  - `present`: is present
+  - `blank`: is blank
+  - `'null'`: is null
+  - `not_null`: is not null
+</details>
 
 ### Sorting
-
-You can also sort the results by a specific field. Add a minus before the field to sort descending.
-
-> Example: Sort all characters by name
-
-`/v1/characters?sort=name`
-
-### Pagination
-
-Use `page[number=1]` and `page[size]=5` to paginate the results of the API.
-
-> Example: Displaying the results of page 10 with 20 results per page
-
-`/v1/characters?page[number=10]&page[size=20]`
+You can sort resources by adding a `sort` query parameter to your request. For example, to sort characters by name, you can use the `name` attribute:
+```http
+GET https://api.potterdb.com/v1/characters?sort=name
+```
+Use the `-` prefix to sort in descending order.

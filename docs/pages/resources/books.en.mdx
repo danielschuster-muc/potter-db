@@ -1,73 +1,79 @@
 # Books
-
 This resource provides information about books from the Harry Potter Universe.
 
 ## Attributes
-
 {
-
 <table>
   <thead>
     <tr>
       <th>Name</th>
       <th>Type</th>
       <th>Description</th>
+      <th>Ransackable</th>
     </tr>
   </thead>
   <tbody>
     {[
       {
-        name: "slug",
-        type: "string",
-        description: "A slug to identify this book"
-      },
-      { name: "title", type: "string", description: "The title of this book" },
-      {
-        name: "summary",
-        type: "string",
-        description: "The summary of this book"
-      },
-      {
         name: "author",
         type: "string",
-        description: "The author of this book"
-      },
-      {
-        name: "release_date",
-        type: "date",
-        description: "The date when this book was released"
-      },
-      {
-        name: "dedication",
-        type: "string",
-        description: "The dedication of this book"
-      },
-      {
-        name: "pages",
-        type: "integer",
-        description: "The number of pages of this book"
-      },
-      {
-        name: "order",
-        type: "integer",
-        description:
-          "The chronological order of this book within the Harry Potter series"
+        description: "The author of this book.",
+        ransackable: true,
       },
       {
         name: "cover",
         type: "string",
-        description: "The cover url of this book"
+        description: "The cover url of this book.",
+        ransackable: false,
+      },
+      {
+        name: "dedication",
+        type: "string",
+        description: "The dedication of this book.",
+        ransackable: true,
+      },
+      {
+        name: "pages",
+        type: "integer",
+        description: "The number of pages of this book.",
+        ransackable: true,
+      },
+      {
+        name: "release_date",
+        type: "date",
+        description: "The date when this book was released.",
+        ransackable: true,
+      },
+      {
+        name: "summary",
+        type: "string",
+        description: "The summary of this book.",
+        ransackable: true,
+      },
+      {
+        name: "slug",
+        type: "string",
+        description: "A slug to identify this book.",
+        ransackable: false,
+      },
+      {
+        name: "title",
+        type: "string",
+        description: "The title of this book.",
+        ransackable: true,
       },
       {
         name: "wiki",
         type: "string",
-        description: "A link to the Harry Potter Wiki Page of this book"
-      }
+        description: "A link to the Harry Potter Wiki Page of this book.",
+        ransackable: false,
+      },
     ].map((item) => (
       <tr key={item.name}>
         <td>{item.name}</td>
         <td>{item.type}</td>
         <td>{item.description}</td>
+        <td>{item.ransackable == true ? "✅" : "❌"}</td>
       </tr>
     ))}
   </tbody>

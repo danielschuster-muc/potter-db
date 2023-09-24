@@ -1,46 +1,49 @@
 # Chapters
-
 This resource provides information about chapters of a specific book from the Harry Potter Universe.
 
 ## Attributes
-
 {
-
 <table>
   <thead>
     <tr>
       <th>Name</th>
       <th>Type</th>
       <th>Description</th>
+      <th>Ransackable</th>
     </tr>
   </thead>
   <tbody>
     {[
       {
-        name: "slug",
-        type: "string",
-        description: "A slug to identify this chapter",
+        name: "order",
+        type: "integer",
+        description: "The chronological order of this chapter within the book.",
+        ransackable: true,
       },
       {
-        name: "title",
+        name: "slug",
         type: "string",
-        description: "The title of this chapter",
+        description: "A slug to identify this chapter.",
+        ransackable: false,
       },
       {
         name: "summary",
         type: "string",
-        description: "The summary of this chapter",
+        description: "The summary of this chapter.",
+        ransackable: true,
       },
       {
-        name: "order",
-        type: "integer",
-        description: "The chronological order of this chapter within the book",
+        name: "title",
+        type: "string",
+        description: "The title of this chapter.",
+        ransackable: true,
       },
     ].map((item) => (
       <tr key={item.name}>
         <td>{item.name}</td>
         <td>{item.type}</td>
         <td>{item.description}</td>
+        <td>{item.ransackable == true ? "✅" : "❌"}</td>
       </tr>
     ))}
   </tbody>
