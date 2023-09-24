@@ -6,7 +6,7 @@ RSpec.configure do |config|
   # Specify a root folder where Swagger JSON files are generated
   # NOTE: If you're using the rswag-api to serve API descriptions, you'll need
   # to ensure that it's configured to serve Swagger from the same folder
-  config.swagger_root = Rails.root.join('docs').to_s
+  config.swagger_root = Rails.root.join('documentation').to_s
 
   # To keep your responses clean and validate against a strict schema, uncomment the below line.
   # config.swagger_strict_schema_validation = true

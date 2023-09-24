@@ -76,3 +76,13 @@ To run those API run the following command:
 ```shell
 rspec spec
 ```
+
+### OpenAPI
+
+The API is documented with OpenAPI. The documentation can be found in the [documentation](documentation) folder.
+To update the documentation run the following command:
+
+```shell
+rake rswag:specs:swaggerize
+```
+You can now visit the documentation on http://localhost:3000/api-docs/index.html.

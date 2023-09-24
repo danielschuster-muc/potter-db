@@ -791,7 +791,7 @@ components:
           format: date_time
       example:
         copyright: Copyright © Potter DB 2023
-        generated_at: '2023-09-24T01:30:57+02:00'
+        generated_at: '2023-09-24T22:03:11+02:00'
     data:
       description: The primary data of the response.
       oneOf:
