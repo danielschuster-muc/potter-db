@@ -9,7 +9,7 @@ This resource provides information about chapters of a specific book from the Ha
       <th>Name</th>
       <th>Type</th>
       <th>Description</th>
-      <th>Ransackable</th>
+      <th>Filterable</th>
     </tr>
   </thead>
   <tbody>
@@ -18,32 +18,32 @@ This resource provides information about chapters of a specific book from the Ha
         name: "order",
         type: "integer",
         description: "The chronological order of this chapter within the book.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "slug",
         type: "string",
         description: "A slug to identify this chapter.",
-        ransackable: false,
+        filterable: false,
       },
       {
         name: "summary",
         type: "string",
         description: "The summary of this chapter.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "title",
         type: "string",
         description: "The title of this chapter.",
-        ransackable: true,
+        filterable: true,
       },
     ].map((item) => (
       <tr key={item.name}>
         <td>{item.name}</td>
         <td>{item.type}</td>
         <td>{item.description}</td>
-        <td>{item.ransackable == true ? "✅" : "❌"}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
       </tr>
     ))}
   </tbody>

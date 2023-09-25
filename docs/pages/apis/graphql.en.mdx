@@ -1,7 +1,7 @@
 import { Callout } from "nextra-theme-docs";
 
 <Callout type="warning" emoji="⚠️">
-  The GraphQL API is still work in progress and some features like filtering and sorting is currently **not** yet implemented!
+  The GraphQL API is still work in progress and some features like filtering and sorting is currently **not** yet implemented! Changes to the API are expected to happen.
 </Callout>
 
 # GraphQL API
@@ -9,7 +9,7 @@ Our GraphQL API provides a flexible and powerful way to interact with the Potter
 
 ## Base URL
 The base URL for our GraphQL API is as follows:
-- https://graphql.potterdb.com/v1
+- `https://graphql.potterdb.com/graphql`
 
 ## GraphQL Endpoint
 To make GraphQL queries and mutations, send `POST` requests to the GraphQL endpoint (`/graphql`) with your queries and variables in the request body. The API expects the request body to be in JSON format.
@@ -25,15 +25,11 @@ GraphQL allows you to request precisely the data you need. To construct a query,
 ```graphql
 query {
   books {
-    nodes {
+    title
+    releaseDate
+    chapters {
       title
-      releaseDate
-  		chapters {
-      	nodes {
-          title
-          slug
-        }
-      }
+      slug
     }
   }
 }

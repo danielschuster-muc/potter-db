@@ -9,7 +9,7 @@ This resource provides information about spells from the Harry Potter Universe.
       <th>Name</th>
       <th>Type</th>
       <th>Description</th>
-      <th>Ransackable</th>
+      <th>Filterable</th>
     </tr>
   </thead>
   <tbody>
@@ -18,68 +18,68 @@ This resource provides information about spells from the Harry Potter Universe.
         name: "category",
         type: "string",
         description: "The category of this spell.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "creator",
         type: "string",
         description: "The creator of this spell.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "effect",
         type: "string",
         description: "The effect of this spell.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "hand",
         type: "string",
         description: "The hand movement of this spell.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "image",
         type: "string",
         description: "A link to to an image of this spell.",
-        ransackable: false,
+        filterable: false,
       },
       {
         name: "incantation",
         type: "string",
         description: "The incantation of this spell.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "light",
         type: "string",
         description: "The light of this spell.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "name",
         type: "string",
         description: "The name of this spell.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "slug",
         type: "string",
         description: "A slug to identify this spell.",
-        ransackable: false,
+        filterable: false,
       },
       {
         name: "wiki",
         type: "string",
         description: "A link to the Harry Potter Wiki Page of this spell.",
-        ransackable: false,
+        filterable: false,
       },
     ].map((item) => (
       <tr key={item.name}>
         <td>{item.name}</td>
         <td>{item.type}</td>
         <td>{item.description}</td>
-        <td>{item.ransackable == true ? "✅" : "❌"}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
       </tr>
     ))}
   </tbody>

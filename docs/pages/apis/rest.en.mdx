@@ -38,25 +38,24 @@ IDs must be provided as UUIDs or slugs.
 </details>
 
 ## OpenAPI Specification (OAS)
-To make integration easier, we provide an [OpenAPI Specification](https://openapis.org) document that describes the API's endpoints, data models, request/response schemas.
+To make integration easier, we provide an [OpenAPI Specification](https://openapis.org) document that describes the API's endpoints, data models and request/response schemas.
 The API conforms to version 3.0.3 of the OAS specification.
-You can find the OAS document [here](https://api.potterdb.com/v1/openapi.json).
+You can find our current OAS document [here](https://api.potterdb.com/v1/openapi.json).
 
 ## JSON:API Format
 Our REST API adheres to the [JSON:API specification](https://jsonapi.org/), which provides a consistent way to structure API requests and responses. Here's an overview of the key features of JSON:API in the context of our API:
-- **Resource Objects**: Each resource is represented as an object with a `type` and `id`.
-- **Relationships**: Resources can be related to other resources, for example a `book` resource is related to a `chapter` resource.
+- **Resource Objects**: Each resource is represented as an object with a `type`, `id` and `attributes`.
+- **Relationships**: Resources can be related to other resources, for example a `book` resource is related to `chapter` resources and vice versa.
 - **Pagination**: When a response contains a large number of resources, the response will be paginated. The response will include a `links` object with `first`, `last`, `prev` and `next` links to the first, last, previous and next pages of results respectively.
-- **Errors**: Errors are returned with standardized JSON structures, making it easy to handle and troubleshoot issues.
+- **Errors**: Errors are returned with standardized structures, making it easy to handle and troubleshoot issues.
 
 ## Making Requests
-To make a request to the REST API, you need to make a `GET` request to one of the available endpoints.
+To make a request to the REST API, you need to make a `GET` request to one of our available endpoints.
 Here's a basic example of how to retrieve a list of characters using the `/characters` endpoint:
 ```http
 GET https://api.potterdb.com/v1/characters
 ```
 Please refer to the OpenAPI Specification document for detailed information.
-
 
 ## Ransack
 Our REST API supports advanced filtering and sorting using [Ransack](https://activerecord-hackery.github.io/ransack/).

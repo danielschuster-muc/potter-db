@@ -9,7 +9,7 @@ This resource provides information about books from the Harry Potter Universe.
       <th>Name</th>
       <th>Type</th>
       <th>Description</th>
-      <th>Ransackable</th>
+      <th>Filterable</th>
     </tr>
   </thead>
   <tbody>
@@ -18,62 +18,62 @@ This resource provides information about books from the Harry Potter Universe.
         name: "author",
         type: "string",
         description: "The author of this book.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "cover",
         type: "string",
         description: "The cover url of this book.",
-        ransackable: false,
+        filterable: false,
       },
       {
         name: "dedication",
         type: "string",
         description: "The dedication of this book.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "pages",
         type: "integer",
         description: "The number of pages of this book.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "release_date",
         type: "date",
         description: "The date when this book was released.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "summary",
         type: "string",
         description: "The summary of this book.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "slug",
         type: "string",
         description: "A slug to identify this book.",
-        ransackable: false,
+        filterable: false,
       },
       {
         name: "title",
         type: "string",
         description: "The title of this book.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "wiki",
         type: "string",
         description: "A link to the Harry Potter Wiki Page of this book.",
-        ransackable: false,
+        filterable: false,
       },
     ].map((item) => (
       <tr key={item.name}>
         <td>{item.name}</td>
         <td>{item.type}</td>
         <td>{item.description}</td>
-        <td>{item.ransackable == true ? "✅" : "❌"}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
       </tr>
     ))}
   </tbody>

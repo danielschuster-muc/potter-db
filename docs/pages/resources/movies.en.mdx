@@ -9,7 +9,7 @@ This resource provides information about movies from the Harry Potter Universe.
       <th>Name</th>
       <th>Type</th>
       <th>Description</th>
-      <th>Ransackable</th>
+      <th>Filterable</th>
     </tr>
   </thead>
   <tbody>
@@ -18,116 +18,116 @@ This resource provides information about movies from the Harry Potter Universe.
         name: "box_office",
         type: "string",
         description: "The revenue this movie raised through ticket sales.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "budget",
         type: "string",
         description: "The budget of this movie.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "cinematographers",
         type: "array",
         description: "A list of cinematographers in this movies.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "directors",
         type: "array",
         description: "A list of people who directed this movies.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "distributors",
         type: "array",
         description: "A list of people who distributed this movies.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "editors",
         type: "array",
         description: "A list of people who edited this movies.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "music_composers",
         type: "array",
         description: "A list of people who composed the music of this movies.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "poster",
         type: "string",
         description: "A link to the poster of this movie.",
-        ransackable: false,
+        filterable: false,
       },
       {
         name: "producers",
         type: "array",
         description: "A list of people who produced this movies.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "rating",
         type: "string",
         description: "The age recommendation of this movie.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "release_date",
         type: "date",
         description: "The date when this movie was released.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "running_time",
         type: "string",
         description: "The running time of this movie.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "screenwriters",
         type: "array",
         description: "A list of screenwriters in this movies.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "slug",
         type: "string",
         description: "A slug to identify this movie.",
-        ransackable: false,
+        filterable: false,
       },
       {
         name: "summary",
         type: "string",
         description: "The summary of this movie.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "title",
         type: "string",
         description: "The title of this movie.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "trailer",
         type: "string",
         description: "A link to the trailer of this movie.",
-        ransackable: false,
+        filterable: false,
       },
       {
         name: "wiki",
         type: "string",
         description: "A link to the Harry Potter Wiki Page of this movie.",
-        ransackable: false,
+        filterable: false,
       },
     ].map((item) => (
       <tr key={item.name}>
         <td>{item.name}</td>
         <td>{item.type}</td>
         <td>{item.description}</td>
-        <td>{item.ransackable == true ? "✅" : "❌"}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
       </tr>
     ))}
   </tbody>

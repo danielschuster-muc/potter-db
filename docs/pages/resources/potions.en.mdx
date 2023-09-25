@@ -9,7 +9,7 @@ This resource provides information about potions from the Harry Potter Universe.
       <th>Name</th>
       <th>Type</th>
       <th>Description</th>
-      <th>Ransackable</th>
+      <th>Filterable</th>
     </tr>
   </thead>
   <tbody>
@@ -18,80 +18,80 @@ This resource provides information about potions from the Harry Potter Universe.
         name: "characteristics",
         type: "string",
         description: "The characteristics of this potion.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "difficulty",
         type: "string",
         description: "The difficulty to brew this this potion.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "effect",
         type: "string",
         description: "The main effect of this potion.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "image",
         type: "string",
         description: "A link to to an image of this potion.",
-        ransackable: false,
+        filterable: false,
       },
       {
         name: "inventors",
         type: "string",
         description: "The inventors of this potion.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "ingredients",
         type: "string",
         description: "The ingredients needed to brew this potion.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "manufacturers",
         type: "string",
         description: "The manufacturers of this potion.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "name",
         type: "string",
         description: "The name of this potion.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "side_effects",
         type: "string",
         description: "The side effects of this potion.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "slug",
         type: "string",
         description: "A slug to identify this potion.",
-        ransackable: false,
+        filterable: false,
       },
       {
         name: "time",
         type: "string",
         description: "The time it takes to brew this potion.",
-        ransackable: true,
+        filterable: true,
       },
       {
         name: "wiki",
         type: "string",
         description: "A link to the Harry Potter Wiki Page of this potion.",
-        ransackable: false,
+        filterable: false,
       },
     ].map((item) => (
       <tr key={item.name}>
         <td>{item.name}</td>
         <td>{item.type}</td>
         <td>{item.description}</td>
-        <td>{item.ransackable == true ? "✅" : "❌"}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
       </tr>
     ))}
   </tbody>
