@@ -8,7 +8,7 @@ module Types
     # They will be entry points for queries on your schema.
 
     # Books
-    field :books, BookType.connection_type, null: false, connection: true, description: "List all books"
+    field :books, [Types::BookType], null: false, description: "List all books"
     def books(**_args)
       Book.all
     end
@@ -21,12 +21,12 @@ module Types
     end
 
     # Characters
-    field :characters, CharacterType.connection_type, null: false, connection: true, description: "List all characters"
+    field :characters, [Types::CharacterType], null: false, description: "List all characters"
     def characters(**_args)
       Character.all
     end
 
-    field :character, CharacterType, "Find a character by slug" do
+    field :character, Types::CharacterType, "Find a character by slug" do
       argument :slug, String, required: true
     end
     def character(slug:)
@@ -34,12 +34,12 @@ module Types
     end
 
     # Movies
-    field :movies, MovieType.connection_type, null: false, connection: true, description: "List all movies"
+    field :movies, [Types::MovieType], null: false, description: "List all movies"
     def movies(**_args)
       Movie.all
     end
 
-    field :movie, MovieType, "Find a movie by slug" do
+    field :movie, Types::MovieType, "Find a movie by slug" do
       argument :slug, String, required: true
     end
     def movie(slug:)
@@ -47,12 +47,12 @@ module Types
     end
 
     # Potions
-    field :potions, PotionType.connection_type, null: false, connection: true, description: "List all potions"
+    field :potions, [Types::PotionType], null: false, description: "List all potions"
     def potions(**_args)
       Potion.all
     end
 
-    field :potion, PotionType, "Find a potion by slug" do
+    field :potion, Types::PotionType, "Find a potion by slug" do
       argument :slug, String, required: true
     end
     def potion(slug:)
@@ -60,12 +60,12 @@ module Types
     end
 
     # Spells
-    field :spells, SpellType.connection_type, null: false, connection: true, description: "List all spells"
+    field :spells, [Types::SpellType], null: false, description: "List all spells"
     def spells(**_args)
       Spell.all
     end
 
-    field :spell, SpellType, "Find a spell by slug" do
+    field :spell, Types::SpellType, "Find a spell by slug" do
       argument :slug, String, required: true
     end
     def spell(slug:)

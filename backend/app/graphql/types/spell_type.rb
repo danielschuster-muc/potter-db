@@ -2,7 +2,7 @@
 
 module Types
   class SpellType < Types::BaseObject
-    # field :id, ID, null: false
+    field :id, ID, null: false
     field :slug, String
     field :name, String
     field :incantation, String

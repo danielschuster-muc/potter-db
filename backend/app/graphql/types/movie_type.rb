@@ -18,7 +18,7 @@ module Types
     field :budget, String
     field :box_office, String
     field :rating, String
-    field :order, Integer
+    # field :order, Integer
     field :trailer, String
     field :poster, String
     field :wiki, String
