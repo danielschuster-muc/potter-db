@@ -2,7 +2,7 @@
 
 module Types
   class PotionType < Types::BaseObject
-    field :id, ID, null: false
+    # field :id, ID, null: false
     field :slug, String
     field :name, String
     field :effect, String

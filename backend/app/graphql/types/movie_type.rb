@@ -2,7 +2,7 @@
 
 module Types
   class MovieType < Types::BaseObject
-    field :id, ID, null: false
+    # field :id, ID, null: false
     field :slug, String
     field :title, String
     field :summary, String

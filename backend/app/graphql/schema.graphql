@@ -1,0 +1,164 @@
+type Book {
+  author: String
+
+  """
+  Find a chapter by slug
+  """
+  chapter(slug: String!): Chapter
+
+  """
+  List all chapters
+  """
+  chapters: [Chapter!]!
+  cover: String
+  dedication: String
+  pages: Int
+  releaseDate: ISO8601Date
+  slug: String
+  summary: String
+  title: String
+  wiki: String
+}
+
+type Chapter {
+  order: Int
+  slug: String
+  summary: String
+  title: String
+}
+
+type Character {
+  aliasNames: [String!]
+  animagus: String
+  bloodStatus: String
+  boggart: String
+  born: String
+  died: String
+  eyeColor: String
+  familyMembers: [String!]
+  gender: String
+  hairColor: String
+  height: String
+  house: String
+  image: String
+  jobs: [String!]
+  maritalStatus: String
+  name: String
+  nationality: String
+  patronus: String
+  romances: [String!]
+  skinColor: String
+  slug: String!
+  species: String
+  titles: [String!]
+  wands: [String!]
+  weight: String
+  wiki: String
+}
+
+"""
+An ISO 8601-encoded date
+"""
+scalar ISO8601Date
+
+type Movie {
+  boxOffice: String
+  budget: String
+  cinematographers: [String!]
+  directors: [String!]
+  distributors: [String!]
+  editors: [String!]
+  musicComposers: [String!]
+  poster: String
+  producers: [String!]
+  rating: String
+  releaseDate: ISO8601Date
+  runningTime: String
+  screenwriters: [String!]
+  slug: String
+  summary: String
+  title: String
+  trailer: String
+  wiki: String
+}
+
+type Potion {
+  characteristics: String
+  difficulty: String
+  effect: String
+  image: String
+  ingredients: String
+  inventors: String
+  manufacturers: String
+  name: String
+  sideEffects: String
+  slug: String
+  time: String
+  wiki: String
+}
+
+type Query {
+  """
+  Find a book by slug
+  """
+  book(slug: String!): Book
+
+  """
+  List all books
+  """
+  books: [Book!]!
+
+  """
+  Find a character by slug
+  """
+  character(slug: String!): Character
+
+  """
+  List all characters
+  """
+  characters: [Character!]!
+
+  """
+  Find a movie by slug
+  """
+  movie(slug: String!): Movie
+
+  """
+  List all movies
+  """
+  movies: [Movie!]!
+
+  """
+  Find a potion by slug
+  """
+  potion(slug: String!): Potion
+
+  """
+  List all potions
+  """
+  potions: [Potion!]!
+
+  """
+  Find a spell by slug
+  """
+  spell(slug: String!): Spell
+
+  """
+  List all spells
+  """
+  spells: [Spell!]!
+}
+
+type Spell {
+  category: String
+  creator: String
+  effect: String
+  hand: String
+  id: ID!
+  image: String
+  incantation: String
+  light: String
+  name: String
+  slug: String
+  wiki: String
+}

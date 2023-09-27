@@ -17,6 +17,20 @@
           "possibleTypes": null,
           "fields": [
             {
+              "name": "author",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
               "name": "chapter",
               "description": "Find a chapter by slug",
               "type": {
@@ -28,7 +42,7 @@
               "deprecationReason": null,
               "args": [
                 {
-                  "name": "chapterSlug",
+                  "name": "slug",
                   "description": null,
                   "type": {
                     "kind": "NON_NULL",
@@ -52,62 +66,23 @@
                 "kind": "NON_NULL",
                 "name": null,
                 "ofType": {
-                  "kind": "OBJECT",
-                  "name": "ChapterConnection",
-                  "ofType": null
+                  "kind": "LIST",
+                  "name": null,
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "ofType": {
+                      "kind": "OBJECT",
+                      "name": "Chapter",
+                      "ofType": null
+                    }
+                  }
                 }
               },
               "isDeprecated": false,
               "deprecationReason": null,
               "args": [
-                {
-                  "name": "after",
-                  "description": "Returns the elements in the list that come after the specified cursor.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "String",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                },
-                {
-                  "name": "before",
-                  "description": "Returns the elements in the list that come before the specified cursor.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "String",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                },
-                {
-                  "name": "first",
-                  "description": "Returns the first _n_ elements from the list.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "Int",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                },
-                {
-                  "name": "last",
-                  "description": "Returns the last _n_ elements from the list.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "Int",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                }
+
               ]
             },
             {
@@ -130,20 +105,6 @@
               "type": {
                 "kind": "SCALAR",
                 "name": "String",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "order",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "Int",
                 "ofType": null
               },
               "isDeprecated": false,
@@ -241,136 +202,6 @@
           "enumValues": null
         },
         {
-          "kind": "OBJECT",
-          "name": "BookConnection",
-          "description": "The connection type for Book.",
-          "interfaces": [
-
-          ],
-          "possibleTypes": null,
-          "fields": [
-            {
-              "name": "edges",
-              "description": "A list of edges.",
-              "type": {
-                "kind": "LIST",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "BookEdge",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "nodes",
-              "description": "A list of nodes.",
-              "type": {
-                "kind": "LIST",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "Book",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "pageInfo",
-              "description": "Information to aid in pagination.",
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "PageInfo",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "totalCount",
-              "description": null,
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "Int",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            }
-          ],
-          "inputFields": null,
-          "enumValues": null
-        },
-        {
-          "kind": "OBJECT",
-          "name": "BookEdge",
-          "description": "An edge in a connection.",
-          "interfaces": [
-
-          ],
-          "possibleTypes": null,
-          "fields": [
-            {
-              "name": "cursor",
-              "description": "A cursor for use in pagination.",
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "String",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "node",
-              "description": "The item at the end of the edge.",
-              "type": {
-                "kind": "OBJECT",
-                "name": "Book",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            }
-          ],
-          "inputFields": null,
-          "enumValues": null
-        },
-        {
           "kind": "SCALAR",
           "name": "Boolean",
           "description": "Represents `true` or `false` values.",
@@ -437,136 +268,6 @@
               "type": {
                 "kind": "SCALAR",
                 "name": "String",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            }
-          ],
-          "inputFields": null,
-          "enumValues": null
-        },
-        {
-          "kind": "OBJECT",
-          "name": "ChapterConnection",
-          "description": "The connection type for Chapter.",
-          "interfaces": [
-
-          ],
-          "possibleTypes": null,
-          "fields": [
-            {
-              "name": "edges",
-              "description": "A list of edges.",
-              "type": {
-                "kind": "LIST",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "ChapterEdge",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "nodes",
-              "description": "A list of nodes.",
-              "type": {
-                "kind": "LIST",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "Chapter",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "pageInfo",
-              "description": "Information to aid in pagination.",
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "PageInfo",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "totalCount",
-              "description": null,
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "Int",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            }
-          ],
-          "inputFields": null,
-          "enumValues": null
-        },
-        {
-          "kind": "OBJECT",
-          "name": "ChapterEdge",
-          "description": "An edge in a connection.",
-          "interfaces": [
-
-          ],
-          "possibleTypes": null,
-          "fields": [
-            {
-              "name": "cursor",
-              "description": "A cursor for use in pagination.",
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "String",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "node",
-              "description": "The item at the end of the edge.",
-              "type": {
-                "kind": "OBJECT",
-                "name": "Chapter",
                 "ofType": null
               },
               "isDeprecated": false,
@@ -1009,132 +710,12 @@
           "enumValues": null
         },
         {
-          "kind": "OBJECT",
-          "name": "CharacterConnection",
-          "description": "The connection type for Character.",
-          "interfaces": [
-
-          ],
+          "kind": "SCALAR",
+          "name": "ID",
+          "description": "Represents a unique identifier that is Base64 obfuscated. It is often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"VXNlci0xMA==\"`) or integer (such as `4`) input value will be accepted as an ID.",
+          "interfaces": null,
           "possibleTypes": null,
-          "fields": [
-            {
-              "name": "edges",
-              "description": "A list of edges.",
-              "type": {
-                "kind": "LIST",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "CharacterEdge",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "nodes",
-              "description": "A list of nodes.",
-              "type": {
-                "kind": "LIST",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "Character",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "pageInfo",
-              "description": "Information to aid in pagination.",
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "PageInfo",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "totalCount",
-              "description": null,
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "Int",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            }
-          ],
-          "inputFields": null,
-          "enumValues": null
-        },
-        {
-          "kind": "OBJECT",
-          "name": "CharacterEdge",
-          "description": "An edge in a connection.",
-          "interfaces": [
-
-          ],
-          "possibleTypes": null,
-          "fields": [
-            {
-              "name": "cursor",
-              "description": "A cursor for use in pagination.",
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "String",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "node",
-              "description": "The item at the end of the edge.",
-              "type": {
-                "kind": "OBJECT",
-                "name": "Character",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            }
-          ],
+          "fields": null,
           "inputFields": null,
           "enumValues": null
         },
@@ -1160,16 +741,16 @@
         },
         {
           "kind": "OBJECT",
-          "name": "PageInfo",
-          "description": "Information about pagination in a connection.",
+          "name": "Movie",
+          "description": null,
           "interfaces": [
 
           ],
           "possibleTypes": null,
           "fields": [
             {
-              "name": "endCursor",
-              "description": "When paginating forwards, the cursor to continue.",
+              "name": "boxOffice",
+              "description": null,
               "type": {
                 "kind": "SCALAR",
                 "name": "String",
@@ -1182,15 +763,33 @@
               ]
             },
             {
-              "name": "hasNextPage",
-              "description": "When paginating forwards, are there more items?",
+              "name": "budget",
+              "description": null,
               "type": {
-                "kind": "NON_NULL",
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
+              "name": "cinematographers",
+              "description": null,
+              "type": {
+                "kind": "LIST",
                 "name": null,
                 "ofType": {
-                  "kind": "SCALAR",
-                  "name": "Boolean",
-                  "ofType": null
+                  "kind": "NON_NULL",
+                  "name": null,
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "ofType": null
+                  }
                 }
               },
               "isDeprecated": false,
@@ -1200,15 +799,19 @@
               ]
             },
             {
-              "name": "hasPreviousPage",
-              "description": "When paginating backwards, are there more items?",
+              "name": "directors",
+              "description": null,
               "type": {
-                "kind": "NON_NULL",
+                "kind": "LIST",
                 "name": null,
                 "ofType": {
-                  "kind": "SCALAR",
-                  "name": "Boolean",
-                  "ofType": null
+                  "kind": "NON_NULL",
+                  "name": null,
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "ofType": null
+                  }
                 }
               },
               "isDeprecated": false,
@@ -1218,8 +821,230 @@
               ]
             },
             {
-              "name": "startCursor",
-              "description": "When paginating backwards, the cursor to continue.",
+              "name": "distributors",
+              "description": null,
+              "type": {
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "name": null,
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "ofType": null
+                  }
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
+              "name": "editors",
+              "description": null,
+              "type": {
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "name": null,
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "ofType": null
+                  }
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
+              "name": "musicComposers",
+              "description": null,
+              "type": {
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "name": null,
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "ofType": null
+                  }
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
+              "name": "poster",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
+              "name": "producers",
+              "description": null,
+              "type": {
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "name": null,
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "ofType": null
+                  }
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
+              "name": "rating",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
+              "name": "releaseDate",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "ISO8601Date",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
+              "name": "runningTime",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
+              "name": "screenwriters",
+              "description": null,
+              "type": {
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "name": null,
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "ofType": null
+                  }
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
+              "name": "slug",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
+              "name": "summary",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
+              "name": "title",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
+              "name": "trailer",
+              "description": null,
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
+              "name": "wiki",
+              "description": null,
               "type": {
                 "kind": "SCALAR",
                 "name": "String",
@@ -1418,136 +1243,6 @@
         },
         {
           "kind": "OBJECT",
-          "name": "PotionConnection",
-          "description": "The connection type for Potion.",
-          "interfaces": [
-
-          ],
-          "possibleTypes": null,
-          "fields": [
-            {
-              "name": "edges",
-              "description": "A list of edges.",
-              "type": {
-                "kind": "LIST",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "PotionEdge",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "nodes",
-              "description": "A list of nodes.",
-              "type": {
-                "kind": "LIST",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "Potion",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "pageInfo",
-              "description": "Information to aid in pagination.",
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "PageInfo",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "totalCount",
-              "description": null,
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "Int",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            }
-          ],
-          "inputFields": null,
-          "enumValues": null
-        },
-        {
-          "kind": "OBJECT",
-          "name": "PotionEdge",
-          "description": "An edge in a connection.",
-          "interfaces": [
-
-          ],
-          "possibleTypes": null,
-          "fields": [
-            {
-              "name": "cursor",
-              "description": "A cursor for use in pagination.",
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "String",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "node",
-              "description": "The item at the end of the edge.",
-              "type": {
-                "kind": "OBJECT",
-                "name": "Potion",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            }
-          ],
-          "inputFields": null,
-          "enumValues": null
-        },
-        {
-          "kind": "OBJECT",
           "name": "Query",
           "description": null,
           "interfaces": [
@@ -1591,62 +1286,23 @@
                 "kind": "NON_NULL",
                 "name": null,
                 "ofType": {
-                  "kind": "OBJECT",
-                  "name": "BookConnection",
-                  "ofType": null
+                  "kind": "LIST",
+                  "name": null,
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "ofType": {
+                      "kind": "OBJECT",
+                      "name": "Book",
+                      "ofType": null
+                    }
+                  }
                 }
               },
               "isDeprecated": false,
               "deprecationReason": null,
               "args": [
-                {
-                  "name": "after",
-                  "description": "Returns the elements in the list that come after the specified cursor.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "String",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                },
-                {
-                  "name": "before",
-                  "description": "Returns the elements in the list that come before the specified cursor.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "String",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                },
-                {
-                  "name": "first",
-                  "description": "Returns the first _n_ elements from the list.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "Int",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                },
-                {
-                  "name": "last",
-                  "description": "Returns the last _n_ elements from the list.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "Int",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                }
+
               ]
             },
             {
@@ -1685,62 +1341,78 @@
                 "kind": "NON_NULL",
                 "name": null,
                 "ofType": {
-                  "kind": "OBJECT",
-                  "name": "CharacterConnection",
-                  "ofType": null
+                  "kind": "LIST",
+                  "name": null,
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "ofType": {
+                      "kind": "OBJECT",
+                      "name": "Character",
+                      "ofType": null
+                    }
+                  }
                 }
               },
               "isDeprecated": false,
               "deprecationReason": null,
               "args": [
+
+              ]
+            },
+            {
+              "name": "movie",
+              "description": "Find a movie by slug",
+              "type": {
+                "kind": "OBJECT",
+                "name": "Movie",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
                 {
-                  "name": "after",
-                  "description": "Returns the elements in the list that come after the specified cursor.",
+                  "name": "slug",
+                  "description": null,
                   "type": {
-                    "kind": "SCALAR",
-                    "name": "String",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                },
-                {
-                  "name": "before",
-                  "description": "Returns the elements in the list that come before the specified cursor.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "String",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                },
-                {
-                  "name": "first",
-                  "description": "Returns the first _n_ elements from the list.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "Int",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                },
-                {
-                  "name": "last",
-                  "description": "Returns the last _n_ elements from the list.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "Int",
-                    "ofType": null
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "ofType": {
+                      "kind": "SCALAR",
+                      "name": "String",
+                      "ofType": null
+                    }
                   },
                   "defaultValue": null,
                   "isDeprecated": false,
                   "deprecationReason": null
                 }
+              ]
+            },
+            {
+              "name": "movies",
+              "description": "List all movies",
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "LIST",
+                  "name": null,
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "ofType": {
+                      "kind": "OBJECT",
+                      "name": "Movie",
+                      "ofType": null
+                    }
+                  }
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
               ]
             },
             {
@@ -1779,62 +1451,23 @@
                 "kind": "NON_NULL",
                 "name": null,
                 "ofType": {
-                  "kind": "OBJECT",
-                  "name": "PotionConnection",
-                  "ofType": null
+                  "kind": "LIST",
+                  "name": null,
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "ofType": {
+                      "kind": "OBJECT",
+                      "name": "Potion",
+                      "ofType": null
+                    }
+                  }
                 }
               },
               "isDeprecated": false,
               "deprecationReason": null,
               "args": [
-                {
-                  "name": "after",
-                  "description": "Returns the elements in the list that come after the specified cursor.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "String",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                },
-                {
-                  "name": "before",
-                  "description": "Returns the elements in the list that come before the specified cursor.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "String",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                },
-                {
-                  "name": "first",
-                  "description": "Returns the first _n_ elements from the list.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "Int",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                },
-                {
-                  "name": "last",
-                  "description": "Returns the last _n_ elements from the list.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "Int",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                }
+
               ]
             },
             {
@@ -1873,62 +1506,23 @@
                 "kind": "NON_NULL",
                 "name": null,
                 "ofType": {
-                  "kind": "OBJECT",
-                  "name": "SpellConnection",
-                  "ofType": null
+                  "kind": "LIST",
+                  "name": null,
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "ofType": {
+                      "kind": "OBJECT",
+                      "name": "Spell",
+                      "ofType": null
+                    }
+                  }
                 }
               },
               "isDeprecated": false,
               "deprecationReason": null,
               "args": [
-                {
-                  "name": "after",
-                  "description": "Returns the elements in the list that come after the specified cursor.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "String",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                },
-                {
-                  "name": "before",
-                  "description": "Returns the elements in the list that come before the specified cursor.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "String",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                },
-                {
-                  "name": "first",
-                  "description": "Returns the first _n_ elements from the list.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "Int",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                },
-                {
-                  "name": "last",
-                  "description": "Returns the last _n_ elements from the list.",
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "Int",
-                    "ofType": null
-                  },
-                  "defaultValue": null,
-                  "isDeprecated": false,
-                  "deprecationReason": null
-                }
+
               ]
             }
           ],
@@ -1993,6 +1587,24 @@
                 "kind": "SCALAR",
                 "name": "String",
                 "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null,
+              "args": [
+
+              ]
+            },
+            {
+              "name": "id",
+              "description": null,
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "ofType": null
+                }
               },
               "isDeprecated": false,
               "deprecationReason": null,
@@ -2076,136 +1688,6 @@
               "type": {
                 "kind": "SCALAR",
                 "name": "String",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            }
-          ],
-          "inputFields": null,
-          "enumValues": null
-        },
-        {
-          "kind": "OBJECT",
-          "name": "SpellConnection",
-          "description": "The connection type for Spell.",
-          "interfaces": [
-
-          ],
-          "possibleTypes": null,
-          "fields": [
-            {
-              "name": "edges",
-              "description": "A list of edges.",
-              "type": {
-                "kind": "LIST",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "SpellEdge",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "nodes",
-              "description": "A list of nodes.",
-              "type": {
-                "kind": "LIST",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "Spell",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "pageInfo",
-              "description": "Information to aid in pagination.",
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "PageInfo",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "totalCount",
-              "description": null,
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "Int",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            }
-          ],
-          "inputFields": null,
-          "enumValues": null
-        },
-        {
-          "kind": "OBJECT",
-          "name": "SpellEdge",
-          "description": "An edge in a connection.",
-          "interfaces": [
-
-          ],
-          "possibleTypes": null,
-          "fields": [
-            {
-              "name": "cursor",
-              "description": "A cursor for use in pagination.",
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "String",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null,
-              "args": [
-
-              ]
-            },
-            {
-              "name": "node",
-              "description": "The item at the end of the edge.",
-              "type": {
-                "kind": "OBJECT",
-                "name": "Spell",
                 "ofType": null
               },
               "isDeprecated": false,

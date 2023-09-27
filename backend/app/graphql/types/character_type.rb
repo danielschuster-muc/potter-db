@@ -2,7 +2,7 @@
 
 module Types
   class CharacterType < Types::BaseObject
-    field :id, ID, null: false
+    # field :id, ID, null: false
     field :slug, String, null: false
     field :name, String
     field :born, String
