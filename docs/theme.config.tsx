@@ -1,6 +1,14 @@
 import type { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
+  banner: {
+    key: "hacktoberfest-2023",
+    text: (
+      <a href="https://github.com/danielschuster-muc/potter-db" target="_blank">
+        🎉 Participate in Hacktoberfest 2023 by contributing to Potter DB →
+      </a>
+    ),
+  },
   darkMode: true,
   docsRepositoryBase: "https://github.com/danielschuster-muc/potter-db/tree/master/docs",
   editLink: {
@@ -8,6 +16,7 @@ const config: DocsThemeConfig = {
   },
   feedback: {
     labels: "documentation",
+    content: "Give us feedback →",
   },
   footer: {
     text: `Copyright © Potter DB ${new Date().getFullYear()}`,
@@ -25,6 +34,9 @@ const config: DocsThemeConfig = {
   project: {
     link: "https://github.com/danielschuster-muc/potter-db",
   },
+  search: {
+    placeholder: "Search...",
+  },
   sidebar: {
     titleComponent: ({ title, type }) => {
       if (type === "separator") {
@@ -34,6 +46,9 @@ const config: DocsThemeConfig = {
     },
     defaultMenuCollapseLevel: 1,
     toggleButton: true,
+  },
+  toc: {
+    float: true,
   },
 };
 

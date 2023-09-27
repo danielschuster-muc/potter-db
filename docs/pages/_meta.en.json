@@ -3,6 +3,18 @@
   "getting-started": "Getting Started",
   "apis": "APIs",
   "resources": "Resources",
+  "homepage": {
+    "title": "Potter DB",
+    "type": "page",
+    "href": "https://potterdb.com",
+    "newWindow": true
+  },
+  "status": {
+    "title": "Status",
+    "type": "page",
+    "href": "https://status.potterdb.com",
+    "newWindow": true
+  },
   "contact": {
     "title": "Contact Us",
     "type": "page",
