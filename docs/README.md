@@ -1,28 +1,29 @@
 # [POTTER DB: Docs](https://docs.potterdb.com)
 
-This part of the project is used for the docs of the API.
+This part of the project is dedicated to the documentation of the API.
 
 ## Technologies
 
-The documentation is created with the following technologies:
+Our website is powered by the following technologies:
 
-- Next.js v12.3.1
-- Nextra v2.0.0-beta
-- React v18.2.0
-- Node
-
-Therefore make sure that you have installed node / npm.
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Nextra](https://nextra.vercel.app/)
 
 ## Contributing
 
-### Clone the repository
+Before diving into development, ensure that you have Node.js and npm installed on your system.
+
+To contribute to our Documentation, follow these simple steps:
+
+### 1. Clone the repository and change directory to the docs folder
 
 ```shell
 git clone git@github.com:danielschuster-muc/potter-db.git
 cd potter-db/docs
 ```
 
-### Install dependencies
+### 2. Install dependencies
 
 Using [NPM](https://www.npmjs.com/):
 
@@ -30,10 +31,14 @@ Using [NPM](https://www.npmjs.com/):
 npm install
 ```
 
-### Start the next.js server
+### 3. Start the Next.js server
 
 You can start the next.js server using the command given below:
 
 ```shell
 npm run dev
 ```
+
+Now, you can access the development server at http://localhost:3001.
+
+*Feel free to explore and contribute to our project's docs. Happy coding 🎉!*

@@ -1,43 +1,46 @@
 # [POTTER DB: API](https://api.potterdb.com)
 
-This part of the project is used for the backend / api.
-If you just want to edit the data of the api, have a look at the [db/data](db/data) folder.
-For changes to the api read below.
+This part of the project is dedicated to the API, which provides the data for our website.
+If you're looking to edit the data within the API (especially books and movies), check out the [db/data](db/data) folder.
+For making changes to the API itself, read on.
 
 ## Technologies
 
-The API is created with the following technologies:
+The API is powered by the following technologies:
 
-- Ruby v3.1.2
-- Rails v7.0.3
-- Postgres v1.1 / v13+
+- [Ruby on Rails](https://rubyonrails.org/)
+- [PostgreSQL](https://www.postgresql.org/)
 
-Therefore make sure that you have installed the required programs / tools.
+Before you begin, please ensure you have the necessary programs and tools installed.
 
 ## Contributing
 
-### Clone the repository
+Before diving into development, ensure that you have Ruby installed on your system.
+
+To contribute to our API, follow these simple steps:
+
+### 1. Clone the repository and change directory to the backend folder
 
 ```shell
 git clone git@github.com:danielschuster-muc/potter-db.git
 cd potter-db/backend
 ```
 
-### Check your Ruby version
+### 2. Check your Ruby version
+
+Ensure you have Ruby 3.1.2 installed on your system. You can check your Ruby version by running:
 
 ```shell
 ruby -v
 ```
 
-The output should start with something like `ruby 3.1.2`.
-
-If not, install the right ruby version using [rbenv](https://github.com/rbenv/rbenv) (may take a while):
+If not, you can install it using [rbenv](https://github.com/rbenv/rbenv):
 
 ```shell
 rbenv install 3.1.2
 ```
 
-### Install dependencies
+### 3. Install Dependencies
 
 Using [Bundler](https://github.com/bundler/bundler):
 
@@ -45,19 +48,16 @@ Using [Bundler](https://github.com/bundler/bundler):
 bundle install
 ```
 
-### Initialize the database
+### 4. Initialize the Database
 
-Run the following commands to create and setup the database:
+Create and set up the database by running the following commands:
 
 ```shell
 rails db:create db:migrate
-```
-
-```shell
 rails db:seed
 ```
 
-### Start the rails server
+### 5. Start the rails server
 
 You can start the rails server using the command given below:
 
@@ -65,31 +65,33 @@ You can start the rails server using the command given below:
 rails s
 ```
 
-You can now visit the development server on http://localhost:3000.
+You can now access the development server at http://localhost:3000. It's recommended to read the [documentation](https://docs.potterdb.com/) to get a better understanding of the API.
 
-### Tests
+*Feel free to explore and contribute to our project's backend. Happy coding 🎉!*
 
-For any code-based changes please make sure that the backend tests run fine.
+### Testing
 
-To run those API run the following command:
+For any code changes, ensure that the backend tests are running successfully. You can run the API tests using the following command:
 
 ```shell
 rspec spec
 ```
 
-### OpenAPI
+### OpenAPI Documentation
 
-The API is documented with OpenAPI. The documentation can be found in the [documentation](documentation) folder.
-To update the documentation run the following command:
+Our API is documented using OpenAPI.
+To update the documentation, make your changes in [rspec/request](spec/requests) folder and run the following command afterwards:
 
 ```shell
 rake rswag:specs:swaggerize
 ```
-You can now visit the documentation on http://localhost:3000/api-docs/index.html.
+You can now visit the documentation on http://localhost:3000/v1/openapi or in [app/documentation/v1/openapi.yml](app/documentation/v1/openapi.yml).
 
 ### GraphQL Schema
-To generate the GraphQL schema dump run the following command:
+We also provide a GraphQL API. To update the GraphQL schema, make your changes in [app/graphql](app/graphql) and run the following command afterwards:
 
 ```shell
 rake graphql:schema:dump
 ```
+
+You can now find the schema dump in [app/graphql/schema.graphql](app/graphql/schema.graphql).
