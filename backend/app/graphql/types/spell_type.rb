@@ -2,18 +2,15 @@
 
 module Types
   class SpellType < Types::BaseObject
-    # field :id, ID, null: false
-    field :slug, String
-    field :name, String
-    field :incantation, String
     field :category, String
-    field :effect, String
-    field :light, String
-    field :hand, String
     field :creator, String
+    field :effect, String
+    field :hand, String
     field :image, String
+    field :incantation, String
+    field :light, String
+    field :name, String
+    field :slug, String
     field :wiki, String
-    # field :created_at, GraphQL::Types::ISO8601DateTime, null: false
-    # field :updated_at, GraphQL::Types::ISO8601DateTime, null: false
   end
 end

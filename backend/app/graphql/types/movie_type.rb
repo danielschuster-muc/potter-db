@@ -2,27 +2,23 @@
 
 module Types
   class MovieType < Types::BaseObject
-    field :id, ID, null: false
-    field :slug, String
-    field :title, String
-    field :summary, String
-    field :directors, [String]
-    field :screenwriters, [String]
-    field :producers, [String]
+    field :box_office, String
+    field :budget, String
     field :cinematographers, [String]
-    field :editors, [String]
+    field :directors, [String]
     field :distributors, [String]
+    field :editors, [String]
     field :music_composers, [String]
+    field :poster, String
+    field :producers, [String]
+    field :rating, String
     field :release_date, GraphQL::Types::ISO8601Date
     field :running_time, String
-    field :budget, String
-    field :box_office, String
-    field :rating, String
-    field :order, Integer
+    field :screenwriters, [String]
+    field :slug, String
+    field :summary, String
+    field :title, String
     field :trailer, String
-    field :poster, String
     field :wiki, String
-    # field :created_at, GraphQL::Types::ISO8601DateTime, null: false
-    # field :updated_at, GraphQL::Types::ISO8601DateTime, null: false
   end
 end
