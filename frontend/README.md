@@ -1,27 +1,29 @@
 # [POTTER DB: Website](https://potterdb.com)
 
-This part of the project is used for the website / frontend.
+This part of the project is dedicated to the website, which allows users to seamlessly search and access data from our API.
 
 ## Technologies
 
-The website is created with the following technologies:
+Our website is powered by the following technologies:
 
-- Next.js v12.3.1
-- React v18.2.0
-- Node
-
-Therefore make sure that you have installed node / npm.
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [MUI](https://mui.com/)
 
 ## Contributing
 
-### Clone the repository
+Before diving into development, ensure that you have Node.js and npm installed on your system.
+
+To contribute to our Website, follow these simple steps:
+
+### 1. Clone the repository and change directory to the frontend folder
 
 ```shell
 git clone git@github.com:danielschuster-muc/potter-db.git
 cd potter-db/frontend
 ```
 
-### Install dependencies
+### 2. Install dependencies
 
 Using [NPM](https://www.npmjs.com/):
 
@@ -29,15 +31,25 @@ Using [NPM](https://www.npmjs.com/):
 npm install
 ```
 
-### Start the next.js server
+### 3. Start the Next.js Server
 
-You can start the next.js server using the command given below:
+You can launch the Next.js server by running the following command:
 
 ```shell
 npm run dev
 ```
 
-You can now visit the development server on http://localhost:3001.
+Now, you can access the development server at http://localhost:3001.
 
-If you want to use a local server for the backend, you can also start the rails server [backend](../backend).
-For that you need to create a .env file with `NEXT_PUBLIC_API_URL=http://localhost:3000` as a value.
+*Feel free to explore and contribute to our project's website. Happy coding 🎉!*
+
+## Using a local backend server
+
+If you prefer using a local server for the backend, you can also start the Rails server found in the [backend](../backend) folder.
+To do this, create a .env file in the frontend folder with the following content:
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:3000
+```
+
+Afterwards you can start the Rails server by running `rails s` in the backend folder (see [backend/README](../backend/README.md) for more information).
