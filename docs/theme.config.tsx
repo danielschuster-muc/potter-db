@@ -1,17 +1,25 @@
-import { DocsThemeConfig } from "nextra-theme-docs";
+import type { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
+  banner: {
+    key: "hacktoberfest-2023",
+    text: (
+      <a href="https://github.com/danielschuster-muc/potter-db" target="_blank">
+        🎉 Participate in Hacktoberfest 2023 by contributing to Potter DB →
+      </a>
+    ),
+  },
   darkMode: true,
-  docsRepositoryBase:
-    "https://github.com/danielschuster-muc/potter-db/tree/master/docs",
+  docsRepositoryBase: "https://github.com/danielschuster-muc/potter-db/tree/master/docs",
   editLink: {
     text: "Edit this page on GitHub →",
   },
   feedback: {
     labels: "documentation",
+    content: "Give us feedback →",
   },
   footer: {
-    text: `MIT ${new Date().getFullYear()} © Potter DB.`,
+    text: `Copyright © Potter DB ${new Date().getFullYear()}`,
   },
   useNextSeoProps: () => ({ titleTemplate: "%s - Potter DB: Docs" }),
   head: (
@@ -26,6 +34,9 @@ const config: DocsThemeConfig = {
   project: {
     link: "https://github.com/danielschuster-muc/potter-db",
   },
+  search: {
+    placeholder: "Search...",
+  },
   sidebar: {
     titleComponent: ({ title, type }) => {
       if (type === "separator") {
@@ -33,6 +44,11 @@ const config: DocsThemeConfig = {
       }
       return <>{title}</>;
     },
+    defaultMenuCollapseLevel: 1,
+    toggleButton: true,
+  },
+  toc: {
+    float: true,
   },
 };
 

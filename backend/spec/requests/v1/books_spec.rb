@@ -1,39 +1,65 @@
-require 'rails_helper'
+require 'swagger_helper'
 
-RSpec.describe "V1::Books", type: :request do
-  describe "GET /index" do
-    before do
-      create_list(:book, 10)
-    end
+RSpec.describe 'V1::Books' do
+  path '/v1/books' do
+    get 'Retrieves a list of books' do
+      tags 'books'
+      description 'Retrieves a list of books; paginated, sorted and filtered by attributes.'
+      operationId 'getBooks'
+      produces 'application/vnd.api+json'
+      parameter '$ref': '#/components/parameters/page_size'
+      parameter '$ref': '#/components/parameters/page_number'
+      parameter '$ref': '#/components/parameters/sort_books'
+      parameter '$ref': '#/components/parameters/filter_books_by'
 
-    it "returns http success" do
-      get v1_books_path
-      expect(response).to have_http_status(:success)
-    end
+      response '200', 'A list of books' do
+        schema allOf: [
+          {
+            type: :object,
+            required: %w[data],
+            properties: {
+              data: {
+                type: :array,
+                items: { '$ref' => '#/components/schemas/book' }
+              }
+            }
+          },
+          { '$ref' => '#/components/schemas/success_without_data' }
+        ]
 
-    it "returns a list of 10 books" do
-      get v1_books_path
-      books = JSON.parse(response.body)['data']
-      expect(books.count).to eq(10)
+        run_test!
+      end
     end
   end
 
-  describe "GET /show" do
-    let!(:book) { create(:book) }
+  path '/v1/books/{id}' do
+    get 'Retrieves a book' do
+      tags 'books'
+      description 'Retrieves a specific book by id, use "random" to get a random book.'
+      operationId 'getBook'
+      produces 'application/vnd.api+json'
+      parameter name: :id, in: :path, required: true,
+                description: "The unique identifier of the book. Must be a valid UUID v4 or slug.",
+                schema: { '$ref' => '#components/schemas/id_path' }
 
-    it "returns http success" do
-      get v1_book_path(book)
-      expect(response).to have_http_status(:success)
-    end
+      response '200', 'A single book' do
+        schema allOf: [
+          {
+            type: :object, required: %w[data], properties: { data: { '$ref' => '#/components/schemas/book' } }
+          },
+          { '$ref' => '#/components/schemas/success_without_data' }
+        ]
 
-    it "returns http success with 'random'" do
-      get v1_book_path("random")
-      expect(response).to have_http_status(:success)
-    end
+        let(:id) { create(:book).id }
 
-    it "returns http not_found with invalid" do
-      get v1_book_path(1)
-      expect(response).to have_http_status(:not_found)
+        run_test!
+      end
+
+      response '404', 'Book not found' do
+        let(:id) { 'invalid' }
+        schema '$ref' => '#/components/schemas/not_found'
+        run_test!
+      end
     end
   end
 end

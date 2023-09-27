@@ -32,8 +32,8 @@ export const getStaticProps = async ({ params }) => {
   }
   return {
     props: {
-      ssg: hash
-    }
+      ssg: hash,
+    },
   };
 };
 
@@ -43,7 +43,7 @@ export const Stats = () => {
     total_characters,
     total_spells,
     total_potions,
-    total_movies
+    total_movies,
   } = useSSG();
   return (
     <table>
@@ -73,41 +73,17 @@ export const Stats = () => {
   );
 };
 
-# Introduction
+# Potter DB: Docs
 
-Welcome to the Documentation of [Potter DB](https://potterdb.com)!
+Welcome to the documentation of the **Potter DB: API**!
+Dive into the magical world of Harry Potter with access to characters, books, spells, and more.
+Whether you are a developer building a Potter-themed app or just a curios fan, this documentation will guide you through the secrets of our API.
 
-Potter DB is an API with data from the Harry Potter Universe.
+## What is the Potter DB: API?
+The Potter DB: API is a REST and GraphQL-based interface to a vast repository of data from the wizarding world of Harry Potter. We take care of the data, so you can focus on building your app. With this API, you can:
+- Retrieve detailed information about your beloved `characters`, including their backgrounds, house affiliation, and more.
+- Explore a comprehensive list of `spells` and `potions` used in the wizarding world.
+- Get thorough details about the `books` and `movies` of the Harry Potter universe.
 
-## Getting started
-
-Before start using the API you should decide whether you want to use our GraphQL or REST API.
-
-### GraphQL
-
-<Callout type="warning" emoji="⚠️">
-  The GraphQL API is still work in progress and some features like filtering and
-  sorting is currently **not** implemented!
-</Callout>
-
-The advantage of GraphQL is that you can precisly specify which data you need and therefore prevent over- or underfetching of data.
-
-To use the GraphQL API you have to make `POST` request to the GraphQL `/graphql` endpoint.
-
-### REST
-
-To use the REST API you have to make a `GET` request to one of the endpoints of the REST API.
-
-Visit https://api.potterdb.com to get an overview of all the available endpoints.
-
-## Rate limiting
-
-To prevent malicious usage of the Potter DB API there's an ip-based limit of 900 requests per hour (15 request / minute). If you hit this limit, you will receive a `429 To Many Requests`.
-
-## Authentication
-
-The Potter DB API is free to use and therefore no authentication is required.
-
-## Stats
-
+## Statistics
 <Stats />

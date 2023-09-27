@@ -5,7 +5,7 @@ const withNextra = nextra({
   themeConfig: "./theme.config.tsx",
   staticImage: true,
   flexsearch: {
-    codeblocks: true,
+    codeblocks: false,
   },
   defaultShowCopyCode: true,
 });

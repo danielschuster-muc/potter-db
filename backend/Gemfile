@@ -46,12 +46,12 @@ group :development, :test do
 
   # RSpec for Rails 5+ [https://github.com/rspec/rspec-rails]
   gem "rspec-rails"
+  # Seamlessly adds a Swagger to Rails-based API's [https://github.com/rswag/rswag]
+  gem 'rswag-specs'
   # Fixtures replacement [https://github.com/thoughtbot/factory_bot_rails]
   gem "factory_bot_rails"
   # Code coverage [https://github.com/simplecov-ruby/simplecov]
   gem "simplecov", require: false
-  # A library for generating fake data such as names, addresses, and phone numbers. [https://github.com/faker-ruby/faker]
-  gem "faker"
 
   # Code analyzer and formatter [https://github.com/rubocop/rubocop]
   gem "rubocop"

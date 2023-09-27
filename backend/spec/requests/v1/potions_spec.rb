@@ -1,39 +1,65 @@
-require 'rails_helper'
+require 'swagger_helper'
 
-RSpec.describe "V1::Potions", type: :request do
-  describe "GET /index" do
-    before do
-      create_list(:potion, 10)
-    end
+RSpec.describe 'V1::Potions' do
+  path '/v1/potions' do
+    get 'Retrieves a list of potions' do
+      tags 'potions'
+      description 'Retrieves a list of potions; paginated, sorted and filtered by attributes.'
+      operationId 'getPotions'
+      produces 'application/vnd.api+json'
+      parameter '$ref': '#/components/parameters/page_size'
+      parameter '$ref': '#/components/parameters/page_number'
+      parameter '$ref': '#/components/parameters/sort_potions'
+      parameter '$ref': '#/components/parameters/filter_potions_by'
 
-    it "returns http success" do
-      get v1_potions_path
-      expect(response).to have_http_status(:success)
-    end
+      response '200', 'A list of potions' do
+        schema allOf: [
+          {
+            type: :object,
+            required: %w[data],
+            properties: {
+              data: {
+                type: :array,
+                items: { '$ref' => '#/components/schemas/potion' }
+              }
+            }
+          },
+          { '$ref' => '#/components/schemas/success_without_data' }
+        ]
 
-    it "returns a list of 10 potions" do
-      get v1_potions_path
-      potions = JSON.parse(response.body)['data']
-      expect(potions.count).to eq(10)
+        run_test!
+      end
     end
   end
 
-  describe "GET /show" do
-    let!(:potion) { create(:potion) }
+  path '/v1/potions/{id}' do
+    get 'Retrieves a potion' do
+      tags 'potions'
+      description 'Retrieves a specific potion by id, use "random" to get a random potion.'
+      operationId 'getpotion'
+      produces 'application/vnd.api+json'
+      parameter name: :id, in: :path, required: true,
+                description: "The unique identifier of the potion. Must be a valid UUID v4 or slug.",
+                schema: { '$ref' => '#components/schemas/id_path' }
 
-    it "returns http success" do
-      get v1_potion_path(potion)
-      expect(response).to have_http_status(:success)
-    end
+      response '200', 'A single potion' do
+        let(:id) { create(:potion).id }
 
-    it "returns http success with 'random'" do
-      get v1_potion_path("random")
-      expect(response).to have_http_status(:success)
-    end
+        schema allOf: [
+          {
+            type: :object, required: %w[data], properties: { data: { '$ref' => '#/components/schemas/potion' } }
+          },
+          { '$ref' => '#/components/schemas/success_without_data' }
+        ]
 
-    it "returns http not_found with invalid" do
-      get v1_potion_path(1)
-      expect(response).to have_http_status(:not_found)
+        run_test!
+      end
+
+      response '404', 'Potion not found' do
+        let(:id) { 'invalid' }
+        schema '$ref' => '#/components/schemas/not_found'
+        run_test!
+      end
     end
   end
 end
