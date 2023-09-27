@@ -14,27 +14,37 @@ The base URL for our GraphQL API is as follows:
 ## GraphQL Endpoint
 To make GraphQL queries and mutations, send `POST` requests to the GraphQL endpoint (`/graphql`) with your queries and variables in the request body. The API expects the request body to be in JSON format.
 
-{/*
-## GraphQL Playground
-We provide a [GraphQL Playground](https://api.potterdb.com/graphiql) where you can interactively explore the API and test your GraphQL queries. It offers tools like auto-completion and syntax highlighting to help you write your queries.
-*/}
-
 ## Querying Data
 GraphQL allows you to request precisely the data you need. To construct a query, specify the fields you want to retrieve and their relationships. For example:
 
 ```graphql
-query {
-  books {
-    title
-    releaseDate
-    chapters {
-      title
-      slug
+{
+  books(first: 3) {
+    totalCount
+    pageInfo {
+      hasNextPage
     }
+    edges {
+      node {
+        title
+        releaseDate
+        chapters {
+          edges {
+            node {
+              title
+              slug
+            }
+          }
+        }
+      }
+    }
+  }
+  character(slug: "harry-potter") {
+    name
   }
 }
 ```
-In this query, we are requesting the `title` and `releaseDate` of all `books` and the `title` and `slug` of all `chapters` of each `book`.
+In this query, we are requesting the `title` and `releaseDate` of the first three books, as well as the `title` and `slug` of all chapters of each book. Additionally, we are requesting the `name` of the character with the slug `harry-potter`.
 
 ## Schema
-To get an overview of the schema of the GraphQL API have a look at our [GraphQL Schema](https://github.com/danielschuster-muc/potter-db/blob/master/backend/schema.graphql).
+To get an overview of the schema of the GraphQL API have a look at our [GraphQL Schema](https://github.com/danielschuster-muc/potter-db/blob/master/backend/app/graphql/schema.json).

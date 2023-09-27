@@ -305,7 +305,7 @@
             },
             {
               "name": "totalCount",
-              "description": null,
+              "description": "Total number of items returned from this connection.",
               "type": {
                 "kind": "NON_NULL",
                 "name": null,
@@ -514,7 +514,7 @@
             },
             {
               "name": "totalCount",
-              "description": null,
+              "description": "Total number of items returned from this connection.",
               "type": {
                 "kind": "NON_NULL",
                 "name": null,
@@ -1073,7 +1073,7 @@
             },
             {
               "name": "totalCount",
-              "description": null,
+              "description": "Total number of items returned from this connection.",
               "type": {
                 "kind": "NON_NULL",
                 "name": null,
@@ -1544,7 +1544,7 @@
             },
             {
               "name": "totalCount",
-              "description": null,
+              "description": "Total number of items returned from this connection.",
               "type": {
                 "kind": "NON_NULL",
                 "name": null,
@@ -1932,7 +1932,7 @@
             },
             {
               "name": "totalCount",
-              "description": null,
+              "description": "Total number of items returned from this connection.",
               "type": {
                 "kind": "NON_NULL",
                 "name": null,
@@ -2698,7 +2698,7 @@
             },
             {
               "name": "totalCount",
-              "description": null,
+              "description": "Total number of items returned from this connection.",
               "type": {
                 "kind": "NON_NULL",
                 "name": null,
