@@ -14,9 +14,9 @@ body:
       label: Project
       description: To which sub-project is the issue related to?
       options:
-        - Website (Potter DB Search)
-        - API
-        - Docs
+        - Website (potterdb.com)
+        - API (api.potterdb.com)
+        - Documentation (docs.potterdb.com)
         - Other (Please specify in the description)
     validations:
       required: true
