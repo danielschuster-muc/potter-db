@@ -21,7 +21,7 @@ If you're interested in helping us improve the data in the Potter DB, please ref
 ## How to make a first Pull Request
 
 If you're new to contributing to open-source projects, we recommend reading this [article](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) or watching this [video](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github) for a step-by-step guide on how to create and submit pull requests. Additionally, our individual README files (linked above) provide specific instructions for each aspect of the project.
-If you have any concerns or questions, please feel free to reach out to us on [GitHub Discussions](https://github.com/danielschuster-muc/potter-db/discussions)
+If you have any concerns or questions, please feel free to reach out to us on [GitHub Discussions](https://github.com/danielschuster-muc/potter-db/discussions).
 
 ## License
 

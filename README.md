@@ -63,7 +63,7 @@ If you need any support, we're here to help! You can ask your question on the [G
 
 First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
 
-If you want to help with the project make sure to look at the [Good First Issues](https://github.com/danielschuster-muc/potter-db/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) in the Community Discussions and leave a note if you want to work on something.
+If you want to help with the project make sure to look at the [Good First Issues](https://github.com/danielschuster-muc/potter-db/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) and leave a note if you want to work on something.
 
 Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 

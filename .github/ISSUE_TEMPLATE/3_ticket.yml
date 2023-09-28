@@ -1,0 +1,63 @@
+name: 🎫 Ticket
+description: Create a ticket for Potter DB (DO NOT USE THIS TEMPLATE, USE THE OTHERS)
+title: "[Ticket]: "
+labels: ["enhancement", "good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: Do not use this template. Use the other templates instead. This template is only here for maintainers to create new tickets others can work on.
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: To which sub-project is the ticket related to?
+      options:
+        - Website (potterdb.com)
+        - API (api.potterdb.com)
+        - Documentation (docs.potterdb.com)
+        - Other (Please specify in the description)
+    validations:
+      required: true
+  - type: textarea
+    id: ticket-description
+    attributes:
+      label: Describe the ticket you want to create
+      description: What exactly do you want to create a ticket for?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Add a checklist of acceptance criteria for this ticket.
+      value: |
+        - [ ] Task 1
+        - [ ] Task 2
+        - [ ] Task 3
+    validations:
+      required: false
+  - type: textarea
+    id: additional-details
+    attributes:
+      label: Additional Details
+      description: Add any additional details or comments related to this ticket.
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots"
+      description: If applicable, add screenshots to help provide context.
+      value: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs"
+      description: Please copy and paste any relevant log output here. This will be automatically formatted into code.
+      render: bash
+    validations:
+      required: false
