@@ -1,7 +1,5 @@
-import { getApiUrl } from "../utils";
-
 const graphqlFetcher = async (query) => {
-  const url = getApiUrl() + "/graphql";
+  const url = "https://api.potterdb.com/graphql";
   return await fetch(url, {
     method: "POST",
     headers: {
