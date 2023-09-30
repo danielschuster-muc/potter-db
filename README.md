@@ -18,7 +18,7 @@
 <div align="center">
 <br />
 
-**[The Future of Potter DB 🚀](https://github.com/danielschuster-muc/potter-db/discussions/338)**
+**[Hacktoberfest 2023 🎃](https://github.com/danielschuster-muc/potter-db/discussions/739)**
 
 [![Project license](https://img.shields.io/github/license/danielschuster-muc/potter-db?style=flat-square)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/danielschuster-muc/potter-db?style=flat-square)](https://github.com/danielschuster-muc/potter-db/stargazers)
