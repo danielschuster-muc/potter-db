@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full h-[80vh] rounded-lg m-4">
+    <section className="relative w-full h-[80vh] rounded-lg">
       <div className="">
         <Image
           src="/images/hogwarts_express.jpg"

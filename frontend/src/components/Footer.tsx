@@ -74,10 +74,10 @@ const footerContent: FooterSection[] = [
 
 export default function Footer() {
   return (
-    <footer color="transparent" className="mb-2 m-4 rounded-lg">
+    <footer color="transparent" className="mb-2 rounded-lg">
       <div className="grid gap-4 grid-cols-1 lg:grid-cols-3">
         {footerContent.map((section, index) => (
-          <div key={index} className="p-4">
+          <div key={index}>
             <h2 className="pb-2 text-xl font-bold border-b-2 border-secondary">{section.title}</h2>
             <ul className="mt-4">
               {section.content.map((item, index) => (
