@@ -74,7 +74,7 @@ const footerContent: FooterSection[] = [
 
 export default function Footer() {
   return (
-    <footer color="transparent" className="mb-2 rounded-lg">
+    <footer color="transparent" className="my-2 rounded-lg">
       <div className="grid gap-4 grid-cols-1 lg:grid-cols-3">
         {footerContent.map((section, index) => (
           <div key={index}>
