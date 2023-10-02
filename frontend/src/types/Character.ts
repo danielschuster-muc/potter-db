@@ -29,3 +29,30 @@ export default interface Character {
     wiki: string | null;
   };
 }
+
+export interface CharacterResponse {
+  data: Character;
+  links: {
+    self: string;
+  };
+}
+
+export interface CharactersResponse {
+  data: Character[];
+  meta: {
+    pagination: {
+      current: number;
+      first: number;
+      prev: number;
+      next: number;
+      last: number;
+      records: number;
+    };
+  };
+  links: {
+    first: string;
+    last: string;
+    next: string;
+    prev: string;
+  };
+}

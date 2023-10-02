@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Character from "@/types/Character";
+import { CharactersResponse } from "@/types/Character";
 import { Skeleton } from "../ui/Skeleton";
 import Link from "next/link";
 
@@ -40,53 +40,55 @@ export default function CharacterList({
   if (error) return <h2>Failed to load data.</h2>;
   return (
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-      {data?.data?.map((character: Character) => {
-        const { name, image, species, gender, born, died, slug } = character.attributes;
-        return (
-          <div key={character.id} className="rounded border-2 border-gray-200 p-4 flex flex-col">
-            <div className="flex items-center justify-center">
-              <img
-                src={image ? image : "/images/missing_character.svg"}
-                alt={name}
-                className="rounded-lg h-72 w-72"
-              />
-            </div>
-            <div className="my-4">
-              <h2 className="text-xl font-bold">{name}</h2>
-              <div className="space-y-1 mt-3">
-                {species && (
-                  <div className="flex items-center space-x-1">
-                    <FaPaw />
-                    <p>{species}</p>
-                  </div>
-                )}
-                {gender && (
-                  <div className="flex items-center space-x-1">
-                    <FaVenusMars />
-                    <p>{gender}</p>
-                  </div>
-                )}
-                {born && (
-                  <div className="flex items-center space-x-1">
-                    <FaStar />
-                    <p>{born}</p>
-                  </div>
-                )}
-                {died && (
-                  <div className="flex items-center space-x-1">
-                    <FaCross />
-                    <p>{died}</p>
-                  </div>
-                )}
+      {data.map((c: CharactersResponse) => {
+        return c.data?.map((character) => {
+          const { name, image, species, gender, born, died, slug } = character.attributes;
+          return (
+            <div key={character.id} className="rounded border-2 border-gray-200 p-4 flex flex-col">
+              <div className="flex items-center justify-center">
+                <img
+                  src={image ? image : "/images/missing_character.svg"}
+                  alt={name}
+                  className="rounded-lg h-72 w-72"
+                />
               </div>
+              <div className="my-4">
+                <h2 className="text-xl font-bold">{name}</h2>
+                <div className="space-y-1 mt-3">
+                  {species && (
+                    <div className="flex items-center space-x-1">
+                      <FaPaw />
+                      <p>{species}</p>
+                    </div>
+                  )}
+                  {gender && (
+                    <div className="flex items-center space-x-1">
+                      <FaVenusMars />
+                      <p>{gender}</p>
+                    </div>
+                  )}
+                  {born && (
+                    <div className="flex items-center space-x-1">
+                      <FaStar />
+                      <p>{born}</p>
+                    </div>
+                  )}
+                  {died && (
+                    <div className="flex items-center space-x-1">
+                      <FaCross />
+                      <p>{died}</p>
+                    </div>
+                  )}
+                </div>
+              </div>
+              <Link
+                href={`/characters/${slug}`}
+                className="block mt-auto text-center text-white bg-secondary rounded-lg py-2 hover:opacity-90">
+                View Character
+              </Link>
             </div>
-            <Link
-              href={`/characters/${slug}`}
-              className="block mt-auto text-center text-white bg-secondary rounded-lg py-2 hover:opacity-90">
-              View Character
-            </Link>
-          </div>
-        );
+          );
+        });
       })}
     </div>
   );
