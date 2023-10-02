@@ -1,129 +1,123 @@
 # REST API
+
 Our RESTful API provides a straightforward way to interact with the Potter DB, adhering to the JSON:API and OAS specification. In this section, we'll cover the key aspects of using the REST API, including the available endpoints and how to format your requests and responses.
 
 ## Available Endpoints
+
 To access data from the REST API you need to make a `GET` request to one of the followings endpoints:
 
 <details>
 <summary>Expand to see all endpoints</summary>
 
-### Books
+**Books**
 - `/v1/books`: Retrieve a list of books.
 - `/v1/books/{id}`: Retrieve a single book by its ID.
 - `/v1/books/{book_id}/chapters`: Retrieve a list of chapters for a given book.
 - `/v1/books/{book_id}/chapters/{id}`: Retrieve a single chapter for a given book by its ID.
 
-### Characters
+**Characters**
 - `/v1/characters`: Retrieve a list of characters.
 - `/v1/characters/{id}`: Retrieve a single character by its ID.
 
-### Movies
+**Movies**
 - `/v1/movies`: Retrieve a list of movies.
 - `/v1/movies/{id}`: Retrieve a single movie by its ID.
 
-### Potions
+**Potions**
 - `/v1/potions`: Retrieve a list of potions.
 - `/v1/potions/{id}`: Retrieve a single potion by its ID.
 
-### Spells
+**Spells**
 - `/v1/spells`: Retrieve a list of spells.
 - `/v1/spells/{id}`: Retrieve a single spell by its ID.
 
 IDs must be provided as UUIDs or slugs.
+
 </details>
 
 ## OpenAPI Specification (OAS)
+
 To make integration easier, we provide an [OpenAPI Specification](https://openapis.org) document that describes the API's endpoints, data models and request/response schemas.
 The API conforms to version 3.0.3 of the OAS specification.
 You can find our current OAS document [here](https://api.potterdb.com/v1/openapi.json).
 
 ## JSON:API Format
+
 Our REST API adheres to the [JSON:API specification](https://jsonapi.org/), which provides a consistent way to structure API requests and responses. Here's an overview of the key features of JSON:API in the context of our API:
+
 - **Resource Objects**: Each resource is represented as an object with a `type`, `id` and `attributes`.
 - **Relationships**: Resources can be related to other resources, for example a `book` resource is related to `chapter` resources and vice versa.
-- **Pagination**: When a response contains a large number of resources, the response will be paginated. The response will include a `links` object with `first`, `last`, `prev` and `next` links to the first, last, previous and next pages of results respectively.
+- **Pagination**: When a response contains a large number of resources, the response will be paginated. See [Pagination](#pagination) for more information.
 - **Errors**: Errors are returned with standardized structures, making it easy to handle and troubleshoot issues.
 
 ## Making Requests
+
 To make a request to the REST API, you need to make a `GET` request to one of our available endpoints.
 Here's a basic example of how to retrieve a list of characters using the `/characters` endpoint:
+
 ```http
 GET https://api.potterdb.com/v1/characters
 ```
+
 Please refer to the OpenAPI Specification document for detailed information.
 
+## Pagination
+
+Responses with a large number of resources will be paginated. The response will include a `links` object with `first`, `last`, `prev` and `next` links to the first, last, previous and next pages of results respectively.
+
+To change amount of resources per page, you can use the `page[size]` query parameter (maximum size is 100):
+
+```http
+GET https://api.potterdb.com/v1/characters?page[size]=25
+```
+
+To change the current page, you can use the `page[number]` query parameter:
+
+```http
+GET https://api.potterdb.com/v1/characters?page[number]=2
+```
+
 ## Ransack
+
 Our REST API supports advanced filtering and sorting using [Ransack](https://activerecord-hackery.github.io/ransack/).
 
 ### Filtering
+
 You can filter resources by adding a `filter` query parameter to your request. For example, to filter characters by name, you can use the `name_cont` predicate:
 
 ```http
 GET https://api.potterdb.com/v1/characters?filter[name_eq]=Weasley
 ```
+
 This will return all characters with the name "Weasley".
 
 <details>
-  <summary>Expand to see all available filter predicates</summary>
-  - `eq`: equals
-  - `eq_any`: equals any
-  - `eq_all`: equals all
-  - `not_eq`: not equal to
-  - `not_eq_any`: not equal to any
-  - `not_eq_all`: not equal to all
-  - `matches`: matches
-  - `matches_any`: matches any
-  - `matches_all`: matches all
-  - `does_not_match`: doesn't match
-  - `does_not_match_any`: doesn't match any
-  - `does_not_match_all`: doesn't match all
-  - `lt`: less than
-  - `lt_any`: less than any
-  - `lt_all`: less than all
-  - `lteq`: less than or equal to
-  - `lteq_any`: less than or equal to any
-  - `lteq_all`: less than or equal to all
-  - `gt`: greater than
-  - `gt_any`: greater than any
-  - `gt_all`: greater than all
-  - `gteq`: greater than or equal to
-  - `gteq_any`: greater than or equal to any
-  - `gteq_all`: greater than or equal to all
-  - `in`: in
-  - `in_any`: in any
-  - `in_all`: in all
-  - `not_in`: not in
-  - `not_in_any`: not in any
-  - `not_in_all`: not in all
-  - `cont`: contains
-  - `cont_any`: contains any
-  - `cont_all`: contains all
-  - `not_cont`: doesn't contain
-  - `not_cont_any`: doesn't contain any
-  - `not_cont_all`: doesn't contain all
-  - `start`: starts with
-  - `start_any`: starts with any
-  - `start_all`: starts with all
-  - `not_start`: doesn't start with
-  - `not_start_any`: doesn't start with any
-  - `not_start_all`: doesn't start with all
-  - `end`: ends with
-  - `end_any`: ends with any
-  - `end_all`: ends with all
-  - `not_end`: doesn't end with
-  - `not_end_any`: doesn't end with any
-  - `not_end_all`: doesn't end with all
-  - `'true'`: is true
-  - `'false'`: is false
-  - `present`: is present
-  - `blank`: is blank
-  - `'null'`: is null
-  - `not_null`: is not null
+  <summary>Expand to see all available filter predicates</summary>- `eq`: equals - `eq_any`: equals
+  any - `eq_all`: equals all - `not_eq`: not equal to - `not_eq_any`: not equal to any -
+  `not_eq_all`: not equal to all - `matches`: matches - `matches_any`: matches any - `matches_all`:
+  matches all - `does_not_match`: doesn't match - `does_not_match_any`: doesn't match any -
+  `does_not_match_all`: doesn't match all - `lt`: less than - `lt_any`: less than any - `lt_all`:
+  less than all - `lteq`: less than or equal to - `lteq_any`: less than or equal to any -
+  `lteq_all`: less than or equal to all - `gt`: greater than - `gt_any`: greater than any -
+  `gt_all`: greater than all - `gteq`: greater than or equal to - `gteq_any`: greater than or equal
+  to any - `gteq_all`: greater than or equal to all - `in`: in - `in_any`: in any - `in_all`: in all
+  - `not_in`: not in - `not_in_any`: not in any - `not_in_all`: not in all - `cont`: contains -
+  `cont_any`: contains any - `cont_all`: contains all - `not_cont`: doesn't contain -
+  `not_cont_any`: doesn't contain any - `not_cont_all`: doesn't contain all - `start`: starts with -
+  `start_any`: starts with any - `start_all`: starts with all - `not_start`: doesn't start with -
+  `not_start_any`: doesn't start with any - `not_start_all`: doesn't start with all - `end`: ends
+  with - `end_any`: ends with any - `end_all`: ends with all - `not_end`: doesn't end with -
+  `not_end_any`: doesn't end with any - `not_end_all`: doesn't end with all - `'true'`: is true -
+  `'false'`: is false - `present`: is present - `blank`: is blank - `'null'`: is null - `not_null`:
+  is not null
 </details>
 
 ### Sorting
+
 You can sort resources by adding a `sort` query parameter to your request. For example, to sort characters by name, you can use the `name` attribute (go to [Resources](#resources) to see all available attributes):
+
 ```http
 GET https://api.potterdb.com/v1/characters?sort=name
 ```
+
 Use the `-` prefix to sort in descending order.
