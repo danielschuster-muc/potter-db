@@ -26,7 +26,7 @@ export default interface Character {
     titles: string[];
     wands: string[];
     weight: number | null;
-    wiki: string | null;
+    wiki: string;
   };
 }
 

@@ -2,6 +2,10 @@
 
 import useSWR from "swr";
 
+import Character from "@/types/Character";
+import CharacterDetailsHeader from "@/components/characters/CharacterDetailsHeader";
+import CharacterDetailsBody from "@/components/characters/CharacterDetailsBody";
+
 export default function CharacterShow({ params }: { params: { slug: string } }) {
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
   const { data, error, isLoading } = useSWR(
@@ -9,12 +13,15 @@ export default function CharacterShow({ params }: { params: { slug: string } }) 
     fetcher,
   );
 
+  if (error) return <div>Failed to load</div>;
+  if (isLoading) return <div>Loading...</div>;
+
+  const result = data?.data as Character;
+
   return (
     <>
-      <h1 className="text-4xl font-bold text-center">Character</h1>
-      {isLoading && <div>Loading...</div>}
-      {error && <div>Failed to load</div>}
-      <p>{data?.data?.attributes?.name}</p>
+      <CharacterDetailsHeader character={result} />
+      <CharacterDetailsBody character={result} />
     </>
   );
 }
