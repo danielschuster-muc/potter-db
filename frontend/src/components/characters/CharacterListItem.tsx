@@ -5,6 +5,7 @@ import Link from "next/link";
 import { FaCross, FaPaw, FaStar, FaVenusMars } from "react-icons/fa";
 
 import Character from "@/types/Character";
+import TextIconBox from "../ui/TextIconBox";
 
 export default function CharacterListItem({ character }: { character: Character }) {
   const { name, image, species, gender, born, died, slug } = character.attributes;
@@ -24,30 +25,10 @@ export default function CharacterListItem({ character }: { character: Character 
       <div className="my-4">
         <h2 className="text-xl font-bold">{name}</h2>
         <div className="space-y-1 mt-3">
-          {species && (
-            <div className="flex items-center space-x-1">
-              <FaPaw />
-              <p>{species}</p>
-            </div>
-          )}
-          {gender && (
-            <div className="flex items-center space-x-1">
-              <FaVenusMars />
-              <p>{gender}</p>
-            </div>
-          )}
-          {born && (
-            <div className="flex items-center space-x-1">
-              <FaStar />
-              <p>{born}</p>
-            </div>
-          )}
-          {died && (
-            <div className="flex items-center space-x-1">
-              <FaCross />
-              <p>{died}</p>
-            </div>
-          )}
+          {species && <TextIconBox icon={FaPaw} text={species} />}
+          {gender && <TextIconBox icon={FaVenusMars} text={gender} />}
+          {born && <TextIconBox icon={FaStar} text={born} />}
+          {died && <TextIconBox icon={FaCross} text={died} />}
         </div>
       </div>
       <Link
