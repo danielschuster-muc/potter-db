@@ -1,10 +1,10 @@
 import React from "react";
-
 import type { Metadata } from "next";
 
-import "./../styles/globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+
+import "./../styles/globals.css";
 
 export const metadata: Metadata = {
   title: {
