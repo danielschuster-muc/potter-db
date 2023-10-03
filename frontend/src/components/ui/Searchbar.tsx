@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 import SmallSpinner from "./SmallSpinner";
+import { FaSearch, FaTimes } from "react-icons/fa";
 
 export default function Searchbar({
   setQuery,
@@ -23,6 +24,11 @@ export default function Searchbar({
     setQueryCopy(newQuery);
   };
 
+  const handleSearchReset = () => {
+    setQueryCopy("");
+    router.push(pathname);
+  };
+
   const createQueryString = useCallback(
     (name: string, value: string) => {
       const params = new URLSearchParams(searchParams);
@@ -35,9 +41,9 @@ export default function Searchbar({
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setSize(1);
-      router.push(`${pathname}?${createQueryString("q", queryCopy)}`);
       setQuery(queryCopy);
+      setSize(1);
+      router.push(`${pathname}${queryCopy !== "" ? "?" + createQueryString("q", queryCopy) : ""}`);
     }, 300);
     return () => clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -53,16 +59,31 @@ export default function Searchbar({
 
   return (
     <div className="mb-4">
-      <input
-        className="border-2 border-gray-200 p-2 rounded-lg mb-1 w-full text-primary"
-        type="text"
-        value={queryCopy}
-        onChange={(e) => handleSearchChange(e.target.value)}
-        placeholder="Harry"
-        name="search"
-      />
+      <div className="flex items-center">
+        <div className="relative flex-1">
+          <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none ">
+            <FaSearch className="text-primary" />
+          </div>
+          <input
+            className="border-2 border-gray-200 p-2 pl-10 rounded-lg w-full text-primary"
+            type="text"
+            value={queryCopy}
+            onChange={(e) => handleSearchChange(e.target.value)}
+            placeholder="Search..."
+            name="search"
+          />
+          {queryCopy && (
+            <button
+              className="absolute inset-y-0 right-0 pr-4 flex items-center"
+              aria-label="Clear search"
+              onClick={handleSearchReset}>
+              <FaTimes className="text-primary hover:opacity-90 focus:outline-none" />
+            </button>
+          )}
+        </div>
+      </div>
       <div className="inline-flex">
-        <p className="text-gray-500 text-sm">{totalResults} results</p>
+        <p className="text-gray-300 text-sm">{totalResults} results</p>
         {isLoading && <SmallSpinner />}
       </div>
     </div>

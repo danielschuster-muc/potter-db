@@ -13,14 +13,15 @@ export default function CharacterListItem({ character }: { character: Character 
   return (
     <div className="rounded border-2 border-gray-200 p-4 flex flex-col">
       <div className="flex items-center justify-center">
-        <Image
-          src={image ? image : "/images/missing_character.svg"}
-          alt={name}
-          className="rounded-lg w-72 h-72"
-          width={72}
-          height={72}
-          objectFit="cover"
-        />
+        <div className="w-72 h-72 relative">
+          <Image
+            src={image || "/images/missing_character.svg"}
+            alt={name}
+            className="rounded-lg"
+            fill
+            objectFit="contain"
+          />
+        </div>
       </div>
       <div className="my-4">
         <h2 className="text-xl font-bold">{name}</h2>
