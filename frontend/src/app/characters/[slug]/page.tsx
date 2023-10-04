@@ -5,6 +5,7 @@ import useSWR from "swr";
 import Character from "@/types/Character";
 import CharacterDetailsHeader from "@/components/characters/CharacterDetailsHeader";
 import CharacterDetailsBody from "@/components/characters/CharacterDetailsBody";
+import CharacterDetailsSkeleton from "@/components/characters/CharacterDetailsSkeleton";
 
 export default function CharacterShow({ params }: { params: { slug: string } }) {
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
@@ -13,8 +14,8 @@ export default function CharacterShow({ params }: { params: { slug: string } }) 
     fetcher,
   );
 
-  if (error) return <div>Failed to load</div>;
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading) return <CharacterDetailsSkeleton />;
+  if (error) return <h2>Failed to load data.</h2>;
 
   const result = data?.data as Character;
 

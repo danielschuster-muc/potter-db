@@ -27,17 +27,15 @@ export default function CharacterDetailsBody({ character }: { character: Charact
   return (
     <div className="flex justify-center">
       <div className="grid lg:grid-cols-2 md:w-2/3 mt-5 p-5 border-2 border-gray-200 rounded-lg">
-        <div className="p-3">
-          <div className="flex items-center justify-center">
-            <Image
-              src={image || "/images/missing_character.svg"}
-              alt={name}
-              className="rounded-lg"
-              width="400"
-              height="400"
-              objectFit="contain"
-            />
-          </div>
+        <div className="p-3 flex flex-col items-center justify-center">
+          <Image
+            src={image || "/images/missing_character.svg"}
+            alt={name}
+            className="rounded-lg"
+            width="400"
+            height="400"
+            objectFit="contain"
+          />
           <Links wiki={wiki} slug={slug} resource="characters" />
         </div>
         <div className="p-3">
