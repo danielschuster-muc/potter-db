@@ -82,7 +82,7 @@ export default function Footer() {
             <ul className="mt-4">
               {section.content.map((item, index) => (
                 <li key={index}>
-                  <a href={item.link} className="text-gray-200 hover:text-white">
+                  <a href={item.link} className="text-gray-300 hover:text-white">
                     {item.name}
                   </a>
                 </li>

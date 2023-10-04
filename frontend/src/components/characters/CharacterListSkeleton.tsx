@@ -4,8 +4,8 @@ import { Skeleton } from "../ui/Skeleton";
 
 export default function CharacterListSkeleton() {
   return (
-    <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-      {Array.of(1, 2, 3).map((_, i) => {
+    <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      {Array.of(1, 2, 3, 4).map((_, i) => {
         return (
           <div key={i} className="rounded border-2 border-gray-200 p-4 flex flex-col">
             <div className="flex items-center justify-center mb-2">

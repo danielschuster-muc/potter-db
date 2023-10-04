@@ -34,7 +34,7 @@ export default function CharacterListItem({ character }: { character: Character 
       </div>
       <Link
         href={`/characters/${slug}`}
-        className="block mt-auto text-center bg-secondary rounded-lg py-2 text-gray-200 hover:text-white">
+        className="block mt-auto text-center bg-secondary rounded-lg py-2 text-white opacity-90 hover:opacity-100">
         View Character
       </Link>
     </div>
