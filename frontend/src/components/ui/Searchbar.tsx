@@ -65,7 +65,7 @@ export default function Searchbar({
             <FaSearch className="text-primary" />
           </div>
           <input
-            className="border-2 border-gray-200 p-2 pl-10 rounded-lg w-full text-primary"
+            className="p-2 pl-10 rounded-lg w-full text-primary"
             type="text"
             value={queryCopy}
             onChange={(e) => handleSearchChange(e.target.value)}
@@ -77,7 +77,7 @@ export default function Searchbar({
               className="absolute inset-y-0 right-0 pr-4 flex items-center"
               aria-label="Clear search"
               onClick={handleSearchReset}>
-              <FaTimes className="text-primary hover:opacity-90 focus:outline-none" />
+              <FaTimes className="text-primary opacity-90 hover:opacity-100" />
             </button>
           )}
         </div>
