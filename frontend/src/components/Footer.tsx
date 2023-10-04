@@ -14,13 +14,13 @@ const footerContent: FooterSection[] = [
         name: "Home",
         link: "/",
       },
-      {
-        name: "About",
-        link: "/about",
-      },
+      // {
+      //   name: "About",
+      //   link: "/about",
+      // },
       {
         name: "Imprint",
-        link: "https://danielschuster.me/legal-notice",
+        link: "https://danischu.com/legal-notice",
       },
       {
         name: "Sitemap",
@@ -31,37 +31,37 @@ const footerContent: FooterSection[] = [
   {
     title: "Database Search",
     content: [
-      {
-        name: "Books",
-        link: "/books",
-      },
+      // {
+      //   name: "Books",
+      //   link: "/books",
+      // },
       {
         name: "Characters",
         link: "/characters",
       },
-      {
-        name: "Movies",
-        link: "/movies",
-      },
-      {
-        name: "Potions",
-        link: "/potions",
-      },
-      {
-        name: "Spells",
-        link: "/spells",
-      },
+      // {
+      //   name: "Movies",
+      //   link: "/movies",
+      // },
+      // {
+      //   name: "Potions",
+      //   link: "/potions",
+      // },
+      // {
+      //   name: "Spells",
+      //   link: "/spells",
+      // },
     ],
   },
   {
     title: "Information",
     content: [
+      // {
+      //   name: "API",
+      //   link: "/",
+      // },
       {
-        name: "API",
-        link: "/",
-      },
-      {
-        name: "Contribute",
+        name: "Source",
         link: "/",
       },
       {
