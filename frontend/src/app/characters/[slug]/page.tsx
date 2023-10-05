@@ -6,6 +6,7 @@ import Character from "@/types/Character";
 import CharacterDetailsHeader from "@/components/characters/CharacterDetailsHeader";
 import CharacterDetailsBody from "@/components/characters/CharacterDetailsBody";
 import CharacterDetailsSkeleton from "@/components/characters/CharacterDetailsSkeleton";
+import CharacterAccordionList from "@/components/characters/CharacterAccordionList";
 
 export default function CharacterShow({ params }: { params: { slug: string } }) {
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
@@ -23,6 +24,7 @@ export default function CharacterShow({ params }: { params: { slug: string } }) 
     <>
       <CharacterDetailsHeader character={result} />
       <CharacterDetailsBody character={result} />
+      <CharacterAccordionList character={result} />
     </>
   );
 }
