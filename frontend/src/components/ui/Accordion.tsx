@@ -1,8 +1,8 @@
-import React, { ReactNode, useState } from "react";
+import React, { useState } from "react";
 
 import { BiRightArrow } from "react-icons/bi";
 
-export default function Accordion({ title, content }: { title: string; content: ReactNode }) {
+export default function Accordion({ title, content }: { title: string; content: React.ReactNode }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAccordion = () => {

@@ -1,5 +1,6 @@
-import Character from "@/types/Character";
 import React from "react";
+
+import Character from "@/types/Character";
 import CharacterDetailsBodyLeft from "./CharacterDetailsBodyLeft";
 import CharacterDetailsBodyRight from "./CharacterDetailsBodyRight";
 

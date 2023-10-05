@@ -1,5 +1,6 @@
-import Character from "@/types/Character";
 import React from "react";
+
+import Character from "@/types/Character";
 
 export default function CharacterDetailsBodyRight({ character }: { character: Character }) {
   const {

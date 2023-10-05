@@ -1,5 +1,6 @@
-import Character from "@/types/Character";
 import React, { useEffect, useState } from "react";
+
+import Character from "@/types/Character";
 
 export default function CharacterDetailsHeader({ character }: { character: Character }) {
   const { name, alias_names } = character.attributes;

@@ -1,6 +1,7 @@
 import React from "react";
-import Accordion from "../ui/Accordion";
+
 import Character from "@/types/Character";
+import Accordion from "../ui/Accordion";
 
 export default function CharacterDetailsAccordion({ character }: { character: Character }) {
   const { alias_names, family_members, jobs, romances, wands, titles } = character.attributes;

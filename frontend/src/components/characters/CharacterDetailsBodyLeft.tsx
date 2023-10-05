@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import Links from "../ui/Links";
+
 import Character from "@/types/Character";
+import Links from "../ui/Links";
 
 export default function CharacterDetailsBodyLeft({ character }: { character: Character }) {
   const { name, image, wiki, slug } = character.attributes;
@@ -14,6 +15,7 @@ export default function CharacterDetailsBodyLeft({ character }: { character: Cha
         width="400"
         height="400"
         objectFit="contain"
+        priority
       />
       <Links wiki={wiki} slug={slug} resource="characters" />
     </div>
