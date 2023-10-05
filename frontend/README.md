@@ -14,12 +14,14 @@ Our website is powered by the following technologies:
 
 Before diving into development, ensure that you have Node.js and npm installed on your system.
 
+The frontend is currently in a mass rebuilding process. See [new-website](https://github.com/danielschuster-muc/potter-db/tree/new-website) branch and [site](https://beta.potterdb.com). PRs to the old frontend will no be accepted.
+
 To contribute to our Website, follow these simple steps:
 
-### 1. Clone the repository and change directory to the frontend folder
+### 1. Clone the repository and change directory to the frontend folder (make sure to clone from the new-website branch)
 
 ```shell
-git clone git@github.com:danielschuster-muc/potter-db.git
+git clone -b new-website git@github.com:danielschuster-muc/potter-db.git
 cd potter-db/frontend
 ```
 
