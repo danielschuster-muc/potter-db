@@ -2,7 +2,6 @@
 
 module Types
   class CharacterType < Types::BaseObject
-    # field :id, ID, null: false
     field :slug, String, null: false
     field :name, String
     field :born, String
@@ -29,7 +28,5 @@ module Types
     field :wands, [String]
     field :image, String
     field :wiki, String
-    # field :created_at, GraphQL::Types::ISO8601DateTime, null: false
-    # field :updated_at, GraphQL::Types::ISO8601DateTime, null: false
   end
 end

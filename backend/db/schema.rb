@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_09_13_193346) do
+ActiveRecord::Schema[7.0].define(version: 2023_09_23_224046) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pgcrypto"
   enable_extension "plpgsql"
@@ -23,7 +23,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_13_193346) do
     t.date "release_date"
     t.string "dedication"
     t.integer "pages"
-    t.integer "order"
     t.text "cover"
     t.text "wiki"
     t.datetime "created_at", null: false
@@ -91,7 +90,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_13_193346) do
     t.string "budget"
     t.string "box_office"
     t.string "rating"
-    t.integer "order"
     t.string "trailer"
     t.text "poster"
     t.string "wiki"

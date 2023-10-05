@@ -1,8 +1,10 @@
 class ChapterSerializer < ApplicationSerializer
   attributes(
-    :title,
+    :order,
     :summary,
-    :order
+    :title
   )
   belongs_to :book
+
+  link(:self) { |object| url_for([:v1, object.book, object, { only_path: true }]) }
 end

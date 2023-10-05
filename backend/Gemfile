@@ -4,13 +4,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.1.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.0.4"
+gem "rails", "~> 7.0.8"
 
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.4"
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem "puma", "~> 6.2"
+gem "puma", "~> 6.3"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
@@ -46,12 +46,12 @@ group :development, :test do
 
   # RSpec for Rails 5+ [https://github.com/rspec/rspec-rails]
   gem "rspec-rails"
+  # Seamlessly adds a Swagger to Rails-based API's [https://github.com/rswag/rswag]
+  gem 'rswag-specs'
   # Fixtures replacement [https://github.com/thoughtbot/factory_bot_rails]
   gem "factory_bot_rails"
   # Code coverage [https://github.com/simplecov-ruby/simplecov]
   gem "simplecov", require: false
-  # A library for generating fake data such as names, addresses, and phone numbers. [https://github.com/faker-ruby/faker]
-  gem "faker"
 
   # Code analyzer and formatter [https://github.com/rubocop/rubocop]
   gem "rubocop"

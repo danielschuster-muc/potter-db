@@ -3,6 +3,6 @@ class Chapter < ActiveRecord::Base
   default_scope { order(order: :asc) }
 
   def self.ransackable_attributes(_auth_object = nil)
-    ["order", "slug", "summary", "title"]
+    %w[order summary title]
   end
 end

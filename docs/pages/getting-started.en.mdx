@@ -1,0 +1,44 @@
+import { Bleed } from 'nextra-theme-docs'
+
+# REST vs. GraphQL
+The Potter DB: API offers two main ways to access our magical data: **REST** and **GraphQL**. Choose the one that best suits your needs and development style.
+- **REST**: If you prefer a straightforward, resource-based approach, REST endpoints are the way to go. You'll make HTTP requests to specific URLs to retrieve data.
+- **GraphQL**: For more flexible and precise data queries, GraphQL allows you to request exactly what you need and nothing more. Construct your queries to fetch data with fine-grained control.
+
+## Technical details
+{
+<table>
+  <thead>
+    <tr>
+      <th>What</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Authentication</td>
+      <td>Free to use, <b>no authentication</b> required</td>
+    </tr>
+    <tr>
+      <td>Base URL</td>
+      <td>
+        https://api.potterdb.com/
+      </td>
+    </tr>
+    <tr>
+      <td>Current version</td>
+      <td>v1</td>
+    </tr>
+  </tbody>
+</table>
+}
+
+## Rate limiting
+To maintain the quality and prevent malicious usage of the Potter DB: API there is an ip-based limit of **900 requests per hour** (15 request / minute). If you hit this limit, you will receive a `429 To Many Requests`.
+Please note that these rate limits are subject to change, so it's essential to check the latest rate limit information in the documentation or via API responses.
+
+<br />
+
+_Now that you have the basics, let's dive into the API documentation to explore available endpoints and start crafting your magical queries.
+Refer to the documentation sections for [REST](/apis/rest) and [GraphQL](apis/graphql) for detailed information on how to use the API effectively.
+To get an overview of all available resources, check out to the [Resources Overview](/resources)._

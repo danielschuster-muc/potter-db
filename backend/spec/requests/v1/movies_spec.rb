@@ -1,39 +1,65 @@
-require 'rails_helper'
+require 'swagger_helper'
 
-RSpec.describe "V1::Movies", type: :request do
-  describe "GET /index" do
-    before do
-      create_list(:movie, 10)
-    end
+RSpec.describe 'V1::Movies' do
+  path '/v1/movies' do
+    get 'Retrieves a list of movies' do
+      tags 'movies'
+      description 'Retrieves a list of movies; paginated, sorted and filtered by attributes.'
+      operationId 'getMovies'
+      produces 'application/vnd.api+json'
+      parameter '$ref': '#/components/parameters/page_size'
+      parameter '$ref': '#/components/parameters/page_number'
+      parameter '$ref': '#/components/parameters/sort_movies'
+      parameter '$ref': '#/components/parameters/filter_movies_by'
 
-    it "returns http success" do
-      get v1_movies_path
-      expect(response).to have_http_status(:success)
-    end
+      response '200', 'A list of movies' do
+        schema allOf: [
+          {
+            type: :object,
+            required: %w[data],
+            properties: {
+              data: {
+                type: :array,
+                items: { '$ref' => '#/components/schemas/movie' }
+              }
+            }
+          },
+          { '$ref' => '#/components/schemas/success_without_data' }
+        ]
 
-    it "returns a list of 10 movies" do
-      get v1_movies_path
-      movies = JSON.parse(response.body)['data']
-      expect(movies.count).to eq(10)
+        run_test!
+      end
     end
   end
 
-  describe "GET /show" do
-    let!(:movie) { create(:movie) }
+  path '/v1/movies/{id}' do
+    get 'Retrieves a movie' do
+      tags 'movies'
+      description 'Retrieves a specific movie by id, use "random" to get a random movie.'
+      operationId 'getmovie'
+      produces 'application/vnd.api+json'
+      parameter name: :id, in: :path, required: true,
+                description: "The unique identifier of the movie. Must be a valid UUID v4 or slug.",
+                schema: { '$ref' => '#components/schemas/id_path' }
 
-    it "returns http success" do
-      get v1_movie_path(movie)
-      expect(response).to have_http_status(:success)
-    end
+      response '200', 'A single movie' do
+        let(:id) { create(:movie).id }
 
-    it "returns http success with 'random'" do
-      get v1_movie_path("random")
-      expect(response).to have_http_status(:success)
-    end
+        schema allOf: [
+          {
+            type: :object, required: %w[data], properties: { data: { '$ref' => '#/components/schemas/movie' } }
+          },
+          { '$ref' => '#/components/schemas/success_without_data' }
+        ]
 
-    it "returns http not_found with invalid" do
-      get v1_movie_path(1)
-      expect(response).to have_http_status(:not_found)
+        run_test!
+      end
+
+      response '404', 'Movie not found' do
+        let(:id) { 'invalid' }
+        schema '$ref' => '#/components/schemas/not_found'
+        run_test!
+      end
     end
   end
 end

@@ -1,22 +1,22 @@
 name: ✨ Feature Request
-description: Request a feature request for Potter DB
+description: Request a feature request for Potter DB. If it's a good idea, we'll implement it!
 title: "[Feature Request]: "
-labels: ["enhancement"]
+labels: ["question"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to fill the feature request!
-        Before opening the report, please search for other similar issues.
+        Thank you for taking the time to fill this feature request!
+        Before opening the request, please search for other similar requests.
   - type: dropdown
     id: project
     attributes:
       label: Project
       description: To which sub-project is the feature request related to?
       options:
-        - Website (Potter DB Search)
-        - API
-        - Docs
+        - Website (potterdb.com)
+        - API (api.potterdb.com)
+        - Documentation (docs.potterdb.com)
         - Other (Please specify in the description)
     validations:
       required: true
@@ -32,3 +32,13 @@ body:
     attributes:
       label: (Optional) Describe a solution for this feature
       description: Do you have any idea to solve your requested feature?
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: (Optional) Screenshots
+      description: If applicable, add screenshots to help explain your feature request.
+      value: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false

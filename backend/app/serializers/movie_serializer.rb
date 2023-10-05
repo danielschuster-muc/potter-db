@@ -1,23 +1,21 @@
 class MovieSerializer < ApplicationSerializer
   attributes(
-    :slug,
-    :title,
-    :summary,
-    :directors,
-    :screenwriters,
-    :producers,
+    :box_office,
+    :budget,
     :cinematographers,
-    :editors,
+    :directors,
     :distributors,
+    :editors,
     :music_composers,
+    :poster,
+    :producers,
+    :rating,
     :release_date,
     :running_time,
-    :budget,
-    :box_office,
-    :rating,
-    :order,
+    :screenwriters,
+    :summary,
+    :title,
     :trailer,
-    :poster,
     :wiki
   )
 end

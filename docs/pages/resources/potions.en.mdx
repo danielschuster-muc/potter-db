@@ -1,86 +1,97 @@
 # Potions
-
 This resource provides information about potions from the Harry Potter Universe.
 
 ## Attributes
-
 {
-
 <table>
   <thead>
     <tr>
       <th>Name</th>
       <th>Type</th>
       <th>Description</th>
+      <th>Filterable</th>
     </tr>
   </thead>
   <tbody>
     {[
       {
-        name: "slug",
-        type: "string",
-        description: "A slug to identify this potion",
-      },
-      {
-        name: "title",
-        type: "string",
-        description: "The title of this potion",
-      },
-      {
-        name: "effect",
-        type: "string",
-        description: "The main effect of this potion",
-      },
-      {
-        name: "side_effects",
-        type: "string",
-        description: "The side effects of this potion",
-      },
-      {
         name: "characteristics",
         type: "string",
-        description: "The characteristics of this potion",
-      },
-      {
-        name: "time",
-        type: "string",
-        description: "The time it takes to brew this potion",
+        description: "The characteristics of this potion.",
+        filterable: true,
       },
       {
         name: "difficulty",
         type: "string",
-        description: "The difficulty to brew this this potion",
+        description: "The difficulty to brew this this potion.",
+        filterable: true,
       },
       {
-        name: "ingredients",
+        name: "effect",
         type: "string",
-        description: "The ingredients needed to brew this potion",
-      },
-      {
-        name: "inventors",
-        type: "string",
-        description: "The inventors of this potion",
-      },
-      {
-        name: "manufacturers",
-        type: "string",
-        description: "The manufacturers of this potion",
+        description: "The main effect of this potion.",
+        filterable: true,
       },
       {
         name: "image",
         type: "string",
-        description: "A link to to an image of this potion",
+        description: "A link to to an image of this potion.",
+        filterable: false,
+      },
+      {
+        name: "inventors",
+        type: "string",
+        description: "The inventors of this potion.",
+        filterable: true,
+      },
+      {
+        name: "ingredients",
+        type: "string",
+        description: "The ingredients needed to brew this potion.",
+        filterable: true,
+      },
+      {
+        name: "manufacturers",
+        type: "string",
+        description: "The manufacturers of this potion.",
+        filterable: true,
+      },
+      {
+        name: "name",
+        type: "string",
+        description: "The name of this potion.",
+        filterable: true,
+      },
+      {
+        name: "side_effects",
+        type: "string",
+        description: "The side effects of this potion.",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "string",
+        description: "A slug to identify this potion.",
+        filterable: false,
+      },
+      {
+        name: "time",
+        type: "string",
+        description: "The time it takes to brew this potion.",
+        filterable: true,
       },
       {
         name: "wiki",
         type: "string",
-        description: "A link to the Harry Potter Wiki Page of this potion",
+        description: "A link to the Harry Potter Wiki Page of this potion.",
+        filterable: false,
       },
     ].map((item) => (
       <tr key={item.name}>
         <td>{item.name}</td>
         <td>{item.type}</td>
         <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
       </tr>
     ))}
   </tbody>

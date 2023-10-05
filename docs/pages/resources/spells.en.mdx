@@ -1,68 +1,85 @@
 # Spells
-
 This resource provides information about spells from the Harry Potter Universe.
 
 ## Attributes
-
 {
-
 <table>
   <thead>
     <tr>
       <th>Name</th>
       <th>Type</th>
       <th>Description</th>
+      <th>Filterable</th>
     </tr>
   </thead>
   <tbody>
     {[
       {
-        name: "slug",
-        type: "string",
-        description: "A slug to identify this spell",
-      },
-      { name: "title", type: "string", description: "The title of this spell" },
-      {
-        name: "incantation",
-        type: "string",
-        description: "The incantation of this spell",
-      },
-      {
         name: "category",
         type: "string",
-        description: "The category of this spell",
-      },
-      {
-        name: "effect",
-        type: "string",
-        description: "The effect of this spell",
-      },
-      { name: "light", type: "string", description: "The light of this spell" },
-      {
-        name: "hand",
-        type: "string",
-        description: "The hand movement of this spell",
+        description: "The category of this spell.",
+        filterable: true,
       },
       {
         name: "creator",
         type: "string",
-        description: "The creator of this spell",
+        description: "The creator of this spell.",
+        filterable: true,
+      },
+      {
+        name: "effect",
+        type: "string",
+        description: "The effect of this spell.",
+        filterable: true,
+      },
+      {
+        name: "hand",
+        type: "string",
+        description: "The hand movement of this spell.",
+        filterable: true,
       },
       {
         name: "image",
         type: "string",
-        description: "A link to to an image of this spell",
+        description: "A link to to an image of this spell.",
+        filterable: false,
+      },
+      {
+        name: "incantation",
+        type: "string",
+        description: "The incantation of this spell.",
+        filterable: true,
+      },
+      {
+        name: "light",
+        type: "string",
+        description: "The light of this spell.",
+        filterable: true,
+      },
+      {
+        name: "name",
+        type: "string",
+        description: "The name of this spell.",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "string",
+        description: "A slug to identify this spell.",
+        filterable: false,
       },
       {
         name: "wiki",
         type: "string",
-        description: "A link to the Harry Potter Wiki Page of this spell",
+        description: "A link to the Harry Potter Wiki Page of this spell.",
+        filterable: false,
       },
     ].map((item) => (
       <tr key={item.name}>
         <td>{item.name}</td>
         <td>{item.type}</td>
         <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
       </tr>
     ))}
   </tbody>
