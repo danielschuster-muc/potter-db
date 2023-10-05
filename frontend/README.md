@@ -18,7 +18,7 @@ The frontend is currently in a mass rebuilding process. See [new-website](https:
 
 To contribute to our Website, follow these simple steps:
 
-### 1. Clone the repository and change directory to the frontend folder (make clone from the new-website branch)
+### 1. Clone the repository and change directory to the frontend folder (make sure to clone from the new-website branch)
 
 ```shell
 git clone -b new-website git@github.com:danielschuster-muc/potter-db.git
