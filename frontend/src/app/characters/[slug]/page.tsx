@@ -7,6 +7,7 @@ import CharacterDetailsHeader from "@/components/characters/CharacterDetailsHead
 import CharacterDetailsBody from "@/components/characters/CharacterDetailsBody";
 import CharacterDetailsSkeleton from "@/components/characters/CharacterDetailsSkeleton";
 import CharacterAccordionList from "@/components/characters/CharacterAccordionList";
+import { notFound } from "next/navigation";
 
 export default function CharacterShow({ params }: { params: { slug: string } }) {
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
@@ -16,7 +17,7 @@ export default function CharacterShow({ params }: { params: { slug: string } }) 
   );
 
   if (isLoading) return <CharacterDetailsSkeleton />;
-  if (error) return <h2>Failed to load data.</h2>;
+  if (error || !data?.data) return notFound();
 
   const result = data?.data as Character;
 
