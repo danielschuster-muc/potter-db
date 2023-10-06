@@ -24,3 +24,13 @@
     @apply bg-background text-foreground;
   }
 }
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d500f9; 
+  border-radius: 10px;
+}
