@@ -1,3 +1,5 @@
+require 'csv'
+
 start_date = Time.now
 puts "Importing data into db..."
 
@@ -14,7 +16,8 @@ characters = []
 movies = []
 potions = []
 spells = []
-models = %w[books characters movies potions spells]
+
+models = %w[books movies]
 models.each do |model|
   Dir.glob("db/data/#{model}/*.json") do |file|
     data = JSON.parse(File.read(file))
@@ -23,16 +26,22 @@ models.each do |model|
     case model
     when "books"
       books << data
-    when "characters"
-      characters << data
     when "movies"
       movies << data
-    when "potions"
-      potions << data
-    when "spells"
-      spells << data
     end
   end
+end
+
+CSV.foreach('db/data/characters.csv', headers: true) do |row|
+  characters << row.to_h
+end
+
+CSV.foreach('db/data/potions.csv', headers: true) do |row|
+  potions << row.to_h
+end
+
+CSV.foreach('db/data/spells.csv', headers: true) do |row|
+  spells << row.to_h
 end
 
 unless books.empty?
