@@ -29,10 +29,10 @@
   width: 12px;
 }
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #65098E; 
+  box-shadow: inset 0 0 5px hsl(var(--primary));
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #D926D9 ;
+  background: hsl(var(--secondary));
   border-radius: 10px;
 }
