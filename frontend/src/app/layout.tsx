@@ -16,16 +16,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <NProgressProvider>
-      <html lang="en">
-        <body>
+    <html lang="en">
+      <body>
+        <NProgressProvider>
           <div className="flex flex-col min-h-screen mx-6">
             <Navbar />
             <div className="flex-1 mb-16 mt-8">{children}</div>
             <Footer />
           </div>
-        </body>
-      </html>
-    </NProgressProvider>
+        </NProgressProvider>
+      </body>
+    </html>
   );
 }
