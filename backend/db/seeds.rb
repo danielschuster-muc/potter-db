@@ -1,7 +1,9 @@
 require 'csv'
+require 'open-uri'
 
 start_date = Time.now
-puts "Importing data into db..."
+
+puts "Start importing data into db..."
 
 Book.destroy_all
 Character.in_batches.delete_all
@@ -9,7 +11,7 @@ Movie.destroy_all
 Potion.in_batches.delete_all
 Spell.in_batches.delete_all
 
-puts "Deleted all old data..."
+puts "deleted old data..."
 
 books = []
 characters = []
@@ -17,12 +19,11 @@ movies = []
 potions = []
 spells = []
 
-models = %w[books movies]
-models.each do |model|
+json_models = %w[books movies]
+json_models.each do |model|
   Dir.glob("db/data/#{model}/*.json") do |file|
     data = JSON.parse(File.read(file))
     data[:slug] = File.basename(file, ".json")
-
     case model
     when "books"
       books << data
@@ -32,20 +33,22 @@ models.each do |model|
   end
 end
 
-CSV.foreach('db/data/characters.csv', headers: true) do |row|
-  characters << row.to_h
-end
-
-CSV.foreach('db/data/potions.csv', headers: true) do |row|
-  potions << row.to_h
-end
-
-CSV.foreach('db/data/spells.csv', headers: true) do |row|
-  spells << row.to_h
+base_url = "https://raw.githubusercontent.com/danielschuster-muc/scrabby/master/data/"
+csv_models = %w[characters potions spells]
+csv_models.each do |model|
+  CSV.foreach(URI.parse("#{base_url}#{model}.csv").open, headers: true) do |row|
+    case model
+    when "characters"
+      characters << row.to_h
+    when "potions"
+      potions << row.to_h
+    when "spells"
+      spells << row.to_h
+    end
+  end
 end
 
 unless books.empty?
-  current_start_date = Time.now
   books.each do |book|
     finished_book = Book.create!(
       slug: book["title"].parameterize,
@@ -68,17 +71,15 @@ unless books.empty?
       )
     end
   end
-  puts "Imported #{Book.count} books in #{Time.now - current_start_date}s"
+  puts "imported #{Book.count} books..."
 end
 
 unless characters.empty?
-  current_start_date = Time.now
   upserted_characters = Character.upsert_all(characters)
-  puts "Imported #{upserted_characters.count} characters in #{Time.now - current_start_date}s"
+  puts "imported #{upserted_characters.count} characters..."
 end
 
 unless movies.empty?
-  current_start_date = Time.now
   movies.each do |movie|
     Movie.create!(
       slug: movie["title"].parameterize,
@@ -101,19 +102,17 @@ unless movies.empty?
       wiki: movie["wiki"]
     )
   end
-  puts "Imported #{Movie.count} movies in #{Time.now - current_start_date}s"
+  puts "imported #{Movie.count} movies..."
 end
 
 unless potions.empty?
-  current_start_date = Time.now
   upserted_potions = Potion.upsert_all(potions)
-  puts "Imported #{upserted_potions.count} potions in #{Time.now - current_start_date}s"
+  puts "imported #{upserted_potions.count} potions..."
 end
 
 unless spells.empty?
-  current_start_date = Time.now
   upserted_spells = Spell.upsert_all(spells)
-  puts "Imported #{upserted_spells.count} spells in #{Time.now - current_start_date}s"
+  puts "imported #{upserted_spells.count} spells..."
 end
 
-puts "Finished in #{Time.now - start_date}s"
+puts "finished in #{Time.now - start_date}s!"
