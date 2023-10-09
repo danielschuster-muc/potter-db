@@ -1,0 +1,123 @@
+# REST API
+
+Notre API RESTful fourni une façon simple d'intéragir avec la base de données de "Potter DB", en adhérant aux spécifications JSON:API et OAS. Dans cette section, nous aborderons les principaux aspects de l'utilisation de l'API REST, ce qui inclue les endpoints disponibles et la manière de formatter vos requêtes et réponses.
+
+## Endpoints disponibles
+
+Pour accéder aux données avec l'API REST vous devez faire une requête en `GET` sur l'un des endpoints suivants :
+
+<details>
+<summary>Cliquer pour voir tous les endpoints</summary>
+
+**Livres**
+- `/v1/books`: Accéder à la liste des livres.
+- `/v1/books/{id}`: Accéder à un livre spécifique via son ID.
+- `/v1/books/{id_du_livre}/chapters`: Accéder à la liste des chapitres d'un livre en particulier.
+- `/v1/books/{id_du_livre}/chapters/{id}`: Accéder à un chapitre spécifique d'un livre particulier, via l'ID du chapitre.
+
+**Personnages**
+- `/v1/characters`: Accéder à la liste des personnages.
+- `/v1/characters/{id}`: Accéder à un personnage en particulier via son ID.
+
+**Films**
+- `/v1/movies`: Accéder à la liste des films.
+- `/v1/movies/{id}`: Accéder à un film en particulier via son ID.
+
+**Potions**
+- `/v1/potions`: Accéder à la liste des potions.
+- `/v1/potions/{id}`: Accéder à une potion en particulier via son ID.
+
+**Sorts**
+- `/v1/spells`: Accéder à la liste des sorts.
+- `/v1/spells/{id}`: Accéder à un sort en particulier via son ID.
+
+Les IDs doivent être fournies au format UUID ou en slug
+
+</details>
+
+## Spécifications OpenAPI (OAS)
+
+Pour faciliter l’intégration, nous fournissons un document de [spécification OpenAPI](https://openapis.org) qui décrit les endpoints, les modèles de données et les schémas de requête/réponse de l’API.
+L’API est conforme à la version 3.0.3 de la spécification OAS.
+Vous trouverez notre document OAS actuel [ici](https://api.potterdb.com/v1/openapi.json).
+
+## Format JSON:API
+
+Notre API REST adhère à la [spécification JSON:API](https://jsonapi.org/), qui fournit un moyen cohérent de structurer les requêtes et les réponses de l’API. Voici un aperçu des principales caractéristiques de JSON:API dans le contexte de notre API :
+
+- **Objets** : Chaque ressource est représentée comme un objet avec un type, un `id` et des attributs (`attributes`).
+- **Relations** : Les ressources peuvent être liées à d’autres ressources, par exemple une ressource « livre » (`book`) est liée aux ressources « chapitre » (`chapter`) et vice versa.
+- **Pagination** : Lorsqu’une réponse contient un grand nombre de ressources, la réponse sera paginée. Voir [Pagination](#pagination) pour plus d’informations.
+- **Erreurs** : Les erreurs sont retournées avec des structures normalisées, ce qui facilite la gestion et le dépannage des problèmes.
+
+## Faire des requêtes
+
+Pour faire une demande à l’API REST, vous devez faire une requête `GET` à l’un de nos endpoints disponibles.
+Voici un exemple simple de la façon de récupérer une liste de personnages à l’aide du endpoint `/characters` :
+
+```http
+GET https://api.potterdb.com/v1/characters
+```
+
+Veuillez vous référer au document de spécification OpenAPI pour plus d’informations.
+
+## Pagination
+
+Les réponses avec un grand nombre de ressources seront paginées. La réponse incluera un objet de liens (`links`) avec des liens `first`, `last`, `prev` et `next` (respectivement : premier, dernier, précédent et suivant) pour accéder à la première, la dernière page ainsi qu'aux pages précédentes et suivantes de résultats.
+
+Pour changer le nombre de ressources par page, vous pouvez utiliser le paramètre de requête `page[size]` (la taille maximum - size - étant de 100) comme ceci:
+
+```http
+GET https://api.potterdb.com/v1/characters?page[size]=25
+```
+
+Pour changer de page, vous pouvez utiliser le paramètre de requête `page[number]` ("number" étant le numéro de page souhaité):
+
+```http
+GET https://api.potterdb.com/v1/characters?page[number]=2
+```
+
+## Ransack
+
+Notre API REST supporte une fonctionnalité de filtre avancé et de tri en utilisant [Ransack](https://activerecord-hackery.github.io/ransack/).
+
+### Filtrer
+
+Vous pouvez filtrer une requête en ajoutant le mot-clef `filter` en paramètre de requête. Par exemple, pour filter les personnages par nom, vous utiliserez le prédicat `name_cont` :
+
+```http
+GET https://api.potterdb.com/v1/characters?filter[name_eq]=Weasley
+```
+
+Ceci vous retournera tous les personnages qui portent le nom "Weasley".
+
+<details>
+  <summary>Agrandir pour voir tous les prédicats de filtres disponibles</summary>
+  - `eq`: égal - `eq_any`: égal à n'importe lequel des choix - `eq_all`: égal à tous les choix
+  - `not_eq`: n'est pas égal à - `not_eq_any`: n'est égal à n'importe lequel des choix - `not_eq_all`: n'est égal à aucun des choix 
+  - `matches`: correspond - `matches_any`: correspond à n'importe lequel des choix - `matches_all`: correspond à tous les choix 
+  - `does_not_match`: ne correspond pas - `does_not_match_any`: ne correspond pas à n'importe lequel des choix - `does_not_match_all`: ne correspond à aucun des choix
+  - `lt`: est plus petit que - `lt_any`: est plus petit que n'importe lequel des choix - `lt_all`: est plus petit que tous les choix
+  - `lteq`: est plus petit ou égal à - `lteq_any`: est plus petit ou égal à n'importe  lequel des choix - `lteq_all`: est plus petit ou égal à tous les choix
+  - `gt`: est plus grand que - `gt_any`: est plus grand que n'importe lequel des choix - `gt_all`: est plus grand que tous les choix
+  - `gteq`: est plus grand ou égal à - `gteq_any`: est plus grand ou égal à n'importe lequel des choix - `gteq_all`: est plus grand ou égal à tous les choix
+  - `in`: dans - `in_any`: dans n'importe lequel des choix - `in_all`: dans tous les choix
+  - `not_in`: n'est pas dans - `not_in_any`: n'est pas dans n'importe lequel des choix - `not_in_all`: n'est dans aucun des choix
+  - `cont`: contient - `cont_any`: contient n'importe lequel des choix - `cont_all`: contient tous les choix
+  - `not_cont`: ne contient pas - `not_cont_any`: ne contient pas n'importe lequel des choix - `not_cont_all`: ne contient aucun des choix
+  - `start`: débute par -`start_any`: débute par n'importe lequel des choix - `start_all`: débute par tous les choix
+  - `not_start`: ne débute pas par - `not_start_any`: ne débute pas par n'importe lequel des choix - `not_start_all`: ne débute par aucun des choix
+  - `end`: termine par - `end_any`: termine par n'importe lequel des choix - `end_all`: termine par tous les choix
+  - `not_end`: ne termine pas par - `not_end_any`: ne termine pas par n'importe lequel des choix - `not_end_all`: ne termine par aucun des choix
+  - `'true'`: est vrai - `'false'`: est faux - `present`: est présent - `blank`: est vide - `'null'`: est nul - `not_null`: n'est pas nul
+</details>
+
+### Trier
+
+Vous pouvez trier les ressources en ajoutant le paramètre de requête `sort` à votre requête. Par exemple, pour trier les personnages par nom, vous pouvez utiliser l'attribut `name` (se rendre sur [Ressources](/resources) pour voir tous les attributs disponibles) :
+
+```http
+GET https://api.potterdb.com/v1/characters?sort=name
+```
+
+Utilisez le préfixe `-` pour trier par ordre descendant.
