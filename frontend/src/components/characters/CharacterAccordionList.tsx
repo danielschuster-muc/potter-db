@@ -13,7 +13,7 @@ export default function CharacterDetailsAccordion({ character }: { character: Ch
   return (
     <div className="justify-center flex mt-5">
       <div className="md:w-2/3">
-        {alias_names && (
+        {alias_names.length > 0 && (
           <Accordion
             title="Alias Names"
             content={
@@ -25,7 +25,7 @@ export default function CharacterDetailsAccordion({ character }: { character: Ch
             }
           />
         )}
-        {family_members && (
+        {family_members.length > 0 && (
           <Accordion
             title="Family Members"
             content={
@@ -37,7 +37,7 @@ export default function CharacterDetailsAccordion({ character }: { character: Ch
             }
           />
         )}
-        {jobs && (
+        {jobs.length > 0 && (
           <Accordion
             title="Jobs"
             content={
@@ -49,7 +49,7 @@ export default function CharacterDetailsAccordion({ character }: { character: Ch
             }
           />
         )}
-        {romances && (
+        {romances.length > 0 && (
           <Accordion
             title="Romances"
             content={
@@ -61,7 +61,7 @@ export default function CharacterDetailsAccordion({ character }: { character: Ch
             }
           />
         )}
-        {titles && (
+        {titles.length > 0 && (
           <Accordion
             title="Titles"
             content={
@@ -73,7 +73,7 @@ export default function CharacterDetailsAccordion({ character }: { character: Ch
             }
           />
         )}
-        {wands && (
+        {wands.length > 0 && (
           <Accordion
             title="Wands"
             content={

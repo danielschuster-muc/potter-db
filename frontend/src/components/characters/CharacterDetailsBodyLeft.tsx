@@ -11,10 +11,9 @@ export default function CharacterDetailsBodyLeft({ character }: { character: Cha
       <Image
         src={image || "/images/missing_character.svg"}
         alt={name}
-        className="rounded-lg"
+        className="rounded-lg object-contain"
         width="400"
         height="400"
-        objectFit="contain"
         priority
       />
       <Links wiki={wiki} slug={slug} resource="characters" />
