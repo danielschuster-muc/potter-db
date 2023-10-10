@@ -95,3 +95,42 @@ rake graphql:schema:dump
 ```
 
 You can now find the schema dump in [app/graphql/schema.graphql](app/graphql/schema.graphql).
+
+
+### Docker Container
+
+Install docker on your system
+https://www.docker.com/get-started/
+
+After installing docker navigate into POTTER-DB and run the following commands
+
+```shell
+cd backend
+docker-compose up  ## or docker-compose up -d
+```
+Wait untill your terminal is similar to the below image
+![Alt text](/backend/images/terminal.png)
+
+The container below would be created on your system and can be seen through the docker GUI
+![Alt text](/backend/images/dockerGui.png)
+
+localhost:3000 is where you would find the rails server running.
+
+```shell
+localhost:3000/v1/characters
+```
+
+Debugging issues
+
+If you run into any errors run the following command to see the containers on your system
+
+```shell
+docker ps
+```
+![Alt text](/backend/images/psCommand.png)
+
+Run the following command to get into any specific container
+
+```shell
+docker exec -it  <CONTAINER ID>  bash
+```

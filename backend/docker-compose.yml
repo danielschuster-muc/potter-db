@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  db:
+    container_name: postgresdb
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: potter_db_api_development
+    ports:
+      - "5432:5432"
+    networks:
+      - mynetwork
+    restart: always
+
+  web:
+    build: .
+    container_name: railsapp
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    networks:
+      - mynetwork
+    command: ["sh", "-c", "rails db:migrate && rails db:seed && rails server -b 0.0.0.0"]
+
+networks:
+  mynetwork:
