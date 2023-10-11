@@ -39,7 +39,28 @@ const config: DocsThemeConfig = {
   footer: {
     text: `Copyright © Potter DB ${new Date().getFullYear()}`,
   },
-  useNextSeoProps: () => ({ titleTemplate: "%s - Potter DB: Docs" }),
+  gitTimestamp({ timestamp }) {
+    const { locale } = useRouter();
+    let text = "";
+    switch (locale) {
+      case "fr":
+        text = "replace me";
+        break;
+      default:
+        text = "Last updated on";
+        break;
+    }
+    return (
+      <>
+        {text}{" "}
+        {timestamp.toLocaleDateString(locale, {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+        })}
+      </>
+    );
+  },
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -73,12 +94,13 @@ const config: DocsThemeConfig = {
     },
     emptyResult() {
       const { locale } = useRouter();
-      let text = "No results found.";
+      let text = "";
       switch (locale) {
         case "fr":
           text = "replace me";
           break;
         default:
+          text = "No results found.";
           break;
       }
       return (
@@ -98,6 +120,25 @@ const config: DocsThemeConfig = {
     defaultMenuCollapseLevel: 1,
     toggleButton: true,
   },
+  themeSwitch: {
+    useOptions() {
+      const { locale } = useRouter();
+      switch (locale) {
+        case "fr":
+          return {
+            light: "replace me",
+            dark: "replace me",
+            system: "replace me",
+          };
+        default:
+          return {
+            light: "Light",
+            dark: "Dark",
+            system: "System",
+          };
+      }
+    },
+  },
   toc: {
     float: true,
     title() {
@@ -110,6 +151,7 @@ const config: DocsThemeConfig = {
       }
     },
   },
+  useNextSeoProps: () => ({ titleTemplate: "%s - Potter DB: Docs" }),
 };
 
 export default config;
