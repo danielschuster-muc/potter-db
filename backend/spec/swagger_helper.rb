@@ -112,6 +112,90 @@ RSpec.configure do |config|
               default: 1
             }
           },
+          book_id: {
+            name: 'id',
+            description: 'The identifier of the book. Must be a valid UUID v4 or slug.',
+            in: :path,
+            required: true,
+            schema: {
+              oneOf: [
+                { '$ref' => '#/components/schemas/uuid_path' },
+                { '$ref' => '#/components/schemas/slug_path' }
+              ]
+            }
+          },
+          book_chapter_id: {
+            name: 'book_id',
+            description: "The identifier of the book. Must be a valid UUID v4 or slug.",
+            in: :path,
+            required: true,
+            schema: {
+              oneOf: [
+                { '$ref' => '#/components/schemas/uuid_path' },
+                { '$ref' => '#/components/schemas/slug_path' }
+              ]
+            }
+          },
+          chapter_id: {
+            name: 'id',
+            description: "The identifier of the book's chapter. Must be a valid UUID v4 or slug.",
+            in: :path,
+            required: true,
+            schema: {
+              oneOf: [
+                { '$ref' => '#/components/schemas/uuid_path' },
+                { '$ref' => '#/components/schemas/slug_path' }
+              ]
+            }
+          },
+          character_id: {
+            name: 'id',
+            description: "The identifier of the character. Must be a valid UUID v4 or slug.",
+            in: :path,
+            required: true,
+            schema: {
+              oneOf: [
+                { '$ref' => '#/components/schemas/uuid_path' },
+                { '$ref' => '#/components/schemas/slug_path' }
+              ]
+            }
+          },
+          movie_id: {
+            name: 'id',
+            description: "The identifier of the movie. Must be a valid UUID v4 or slug.",
+            in: :path,
+            required: true,
+            schema: {
+              oneOf: [
+                { '$ref' => '#/components/schemas/uuid_path' },
+                { '$ref' => '#/components/schemas/slug_path' }
+              ]
+            }
+          },
+          potion_id: {
+            name: 'id',
+            description: "The identifier of the potion. Must be a valid UUID v4 or slug.",
+            in: :path,
+            required: true,
+            schema: {
+              oneOf: [
+                { '$ref' => '#/components/schemas/uuid_path' },
+                { '$ref' => '#/components/schemas/slug_path' }
+              ]
+            }
+          },
+          spell_id: {
+            name: 'id',
+            description: "The identifier of the spell. Must be a valid UUID v4 or slug.",
+            in: :path,
+            required: true,
+            schema: {
+              oneOf: [
+                { '$ref' => '#/components/schemas/uuid_path' },
+                { '$ref' => '#/components/schemas/slug_path' }
+              ]
+            }
+          },
           sort_books: {
             name: :sort,
             description: 'Sort books by the given field. If prefixed with "-" sort is descending.',
@@ -282,51 +366,6 @@ RSpec.configure do |config|
           }
         },
         schemas: {
-          json_api_schema: {
-            title: 'JSON:API Schema',
-            description: 'This is a schema for reponses in the [JSON:API](https://jsonapi.org) format.',
-            oneOf: [
-              { '$ref' => '#/components/schemas/failure' },
-              { '$ref' => '#/components/schemas/info' },
-              { '$ref' => '#/components/schemas/success' }
-            ]
-          },
-          failure: {
-            type: :object,
-            required: %w[errors],
-            properties: {
-              errors: {
-                type: :array,
-                items: { '$ref' => '#/components/schemas/error' },
-                uniqueItems: true
-              }
-            },
-            additionalProperties: false
-          },
-          info: {
-            type: :object,
-            required: %w[meta],
-            properties: {
-              meta: { '$ref' => '#/components/schemas/meta' },
-              links: { '$ref' => '#/components/schemas/links' }
-            },
-            additionalProperties: false
-          },
-          success: {
-            type: :object,
-            required: %w[data],
-            properties: {
-              data: { '$ref' => '#/components/schemas/data' },
-              meta: { '$ref' => '#/components/schemas/meta' },
-              links: {
-                allOf: [
-                  { '$ref' => '#/components/schemas/links' },
-                  { '$ref' => '#/components/schemas/pagination_links'}
-                ]
-              }
-            },
-            additionalProperties: false
-          },
           meta: {
             description: 'Meta information about the response.',
             type: :object,
@@ -338,45 +377,6 @@ RSpec.configure do |config|
               copyright: "Copyright © Potter DB #{Date.today.year}",
               generated_at: DateTime.now
             }
-          },
-          data: {
-            description: 'The primary data of the response.',
-            oneOf: [
-              { '$ref' => '#/components/schemas/resource' },
-              {
-                type: :array,
-                description: 'An array of resources',
-                items: { '$ref' => '#/components/schemas/resource' },
-                uniqueItems: true
-              },
-              { type: :string, nullable: true }
-            ]
-          },
-          resource: {
-            description: 'A resource that appears in a JSON:API response.',
-            type: :object,
-            required: %w[id type],
-            properties: {
-              type: { type: :string },
-              id: { type: :string },
-              attributes: { '$ref' => '#/components/schemas/attributes' },
-              relationships: { '$ref' => '#/components/schemas/relationships' },
-              links: { '$ref' => '#/components/schemas/links' },
-              meta: { '$ref' => '#/components/schemas/meta' }
-            },
-            additionalProperties: false
-          },
-          links: {
-            type: :array,
-            description: 'Links to other resources.',
-            items: { '$ref' => '#/components/schemas/link' },
-            uniqueItems: true
-          },
-          link: {
-            description: 'A link to a resource',
-            type: :string,
-            nullable: true,
-            format: :uriReference
           },
           pagination_links: {
             type: :object,
@@ -414,105 +414,40 @@ RSpec.configure do |config|
             },
             required: %w[self]
           },
-          attributes: {
-            description: 'Attributes of a resource.',
-            type: :object,
-            not: {
-              anyOf: [
-                { required: %w[relationships] },
-                { required: %w[links] },
-                { required: %w[id] },
-                { required: %w[type] }
-              ]
-            },
-            additionalProperties: false
-          },
-
-          # relationships
-          relationships: {
-            description: 'Relationships of a resource.',
-            type: :object,
-            properties: {
-              resources: {
-                description: 'The name of the relationship resource. See [Resource Object Relationships](https://jsonapi.org/format/#document-resource-object-relationships)',
-                type: :object,
-                properties: {
-                  data: {
-                    oneOf: [
-                      { '$ref' => '#/components/schemas/relationship_to_one' },
-                      { '$ref' => '#/components/schemas/relationship_to_many' }
-                    ]
-                  }
-                }
-              }
-            },
-            additionalProperties: false
-          },
-          relationship_to_one: {
-            description: 'A relationship to a single resource.',
-            anyOf: [
-              { '$ref' => '#/components/schemas/empty_relationship' },
-              { '$ref' => '#/components/schemas/linkage_relationship' }
-            ]
-          },
-          relationship_to_many: {
-            description: 'A relationship to multiple resources.',
-            type: :array,
-            items: { '$ref' => '#/components/schemas/linkage_relationship' },
-            uniqueItems: true
-          },
-          empty_relationship: {
-            description: 'An empty relationship.',
-            type: :string,
-            nullable: true
-          },
-          linkage_relationship: {
-            description: 'A relationship to a resource.',
-            type: :object,
-            required: %w[id type],
-            properties: {
-              type: { type: :string },
-              id: {
-                description: 'The unique identifier of the resource.',
-                type: :string,
-                pattern: '^[a-zA-Z0-9](?:[-\w]*[a-zA-Z0-9])?$'
-              }
-            }
-          },
 
           # errors
-          error: {
-            type: :object,
-            properties: {
-              status: {
-                description: 'The HTTP status code applicable to this problem, expressed as a string value.',
-                type: :string
-              },
-              title: {
-                description: 'A short, human-readable summary of the problem that SHOULD NOT change from occurrence ' \
-                             'to occurrence of the problem, except for purposes of localization.',
-                type: :string
-              },
-              detail: {
-                description: 'A human-readable explanation specific to this occurrence of the problem.',
-                type: :string
-              },
-              source: {
-                type: :object,
-                properties: {
-                  pointer: {
-                    description: 'A JSON Pointer [RFC6901] to the associated entity in the request document.',
-                    type: :string
-                  },
-                  parameter: {
-                    description: 'A string indicating which URI query parameter caused the error.',
-                    type: :string
-                  }
-                }
-              }
-            },
-            additionalProperties: false
-          },
+          # error: {
+          #   type: :object,
+          #   properties: {
+          #     status: {
+          #       description: 'The HTTP status code applicable to this problem, expressed as a string value.',
+          #       type: :string
+          #     },
+          #     title: {
+          #       description: 'A short, human-readable summary of the problem that SHOULD NOT change from occurrence ' \
+          #                    'to occurrence of the problem, except for purposes of localization.',
+          #       type: :string
+          #     },
+          #     detail: {
+          #       description: 'A human-readable explanation specific to this occurrence of the problem.',
+          #       type: :string
+          #     },
+          #     source: {
+          #       type: :object,
+          #       properties: {
+          #         pointer: {
+          #           description: 'A JSON Pointer [RFC6901] to the associated entity in the request document.',
+          #           type: :string
+          #         },
+          #         parameter: {
+          #           description: 'A string indicating which URI query parameter caused the error.',
+          #           type: :string
+          #         }
+          #       }
+          #     }
+          #   },
+          #   additionalProperties: false
+          # },
           not_found: {
             type: :object,
             properties: {
@@ -533,26 +468,26 @@ RSpec.configure do |config|
               ]
             }
           },
-          internal_server_error: {
-            type: :object,
-            properties: {
-              errors: {
-                type: :array,
-                items: {
-                  type: :object,
-                  properties: {
-                    status: { type: :string, enum: ['500'] },
-                    title: { type: :string, example: "Internal Server Error" }
-                  }
-                }
-              }
-            },
-            example: {
-              errors: [
-                { title: 'Internal server error', status: '500' }
-              ]
-            }
-          },
+          # internal_server_error: {
+          #   type: :object,
+          #   properties: {
+          #     errors: {
+          #       type: :array,
+          #       items: {
+          #         type: :object,
+          #         properties: {
+          #           status: { type: :string, enum: ['500'] },
+          #           title: { type: :string, example: "Internal Server Error" }
+          #         }
+          #       }
+          #     }
+          #   },
+          #   example: {
+          #     errors: [
+          #       { title: 'Internal server error', status: '500' }
+          #     ]
+          #   }
+          # },
 
           # others
           success_without_data: {
@@ -564,10 +499,15 @@ RSpec.configure do |config|
 
             }
           },
-          id_path: {
+          uuid_path: {
+            type: :string,
+            format: :uuid,
+            example: 'c1637a49-3cc8-4285-93a1-28e6579f1f20'
+          },
+          slug_path: {
             type: :string,
             pattern: '^[a-zA-Z0-9](?:[-\w]*[a-zA-Z0-9])?$',
-            example: 'c1637a49-3cc8-4285-93a1-28e6579f1f20'
+            example: 'harry-potter-and-the-philosopher-s-stone'
           },
 
           # resource relationships
@@ -575,7 +515,7 @@ RSpec.configure do |config|
             type: :array,
             uniqueItems: true,
             items: { '$ref' => '#/components/schemas/to_one_chapter_relationship' },
-            example: { id: 'c1637a49-3cc8-4285-93a1-28e6579f1f20', type: :chapter }
+            example: [{ id: 'c1637a49-3cc8-4285-93a1-28e6579f1f20', type: :chapter }]
           },
           to_one_chapter_relationship: {
             type: :object,
@@ -646,7 +586,7 @@ RSpec.configure do |config|
                 properties: {
                   self: {
                     type: :string,
-                    format: :uri,
+                    pattern: "/v1/books/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}",
                     example: "/v1/books/c1637a49-3cc8-4285-93a1-28e6579f1f20"
                   }
                 }
@@ -691,9 +631,9 @@ RSpec.configure do |config|
                 properties: {
                   self: {
                     type: :string,
-                    format: :uri,
+                    pattern: "/v1/books/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}/chapters/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}",
                     example:
-                      "v1/books/7f8d9b7c-5a7c-4f7c-9d5a-1d8e6f7a8b9d/chapters/c1637a49-3cc8-4285-93a1-28e6579f1f20"
+                      "/v1/books/7f8d9b7c-5a7c-4f7c-9d5a-1d8e6f7a8b9d/chapters/c1637a49-3cc8-4285-93a1-28e6579f1f20"
                   }
                 }
               }
@@ -748,7 +688,7 @@ RSpec.configure do |config|
                 properties: {
                   self: {
                     type: :string,
-                    format: :uri,
+                    pattern: "/v1/characters/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}",
                     example: "/v1/characters/c1637a49-3cc8-4285-93a1-28e6579f1f20"
                   }
                 }
@@ -797,7 +737,7 @@ RSpec.configure do |config|
                 properties: {
                   self: {
                     type: :string,
-                    format: :uri,
+                    pattern: "/v1/movies/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}",
                     example: "/v1/movies/c1637a49-3cc8-4285-93a1-28e6579f1f20"
                   }
                 }
@@ -839,7 +779,8 @@ RSpec.configure do |config|
                 properties: {
                   self: {
                     type: :string,
-                    format: :uri
+                    pattern: "/v1/potions/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}",
+                    example: "/v1/potions/c1637a49-3cc8-4285-93a1-28e6579f1f20"
                   }
                 }
               }
@@ -878,7 +819,7 @@ RSpec.configure do |config|
                 properties: {
                   self: {
                     type: :string,
-                    format: :uri,
+                    pattern: "/v1/spells/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}",
                     example: "/v1/spells/c1637a49-3cc8-4285-93a1-28e6579f1f20"
                   }
                 }
