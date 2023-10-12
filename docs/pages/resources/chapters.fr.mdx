@@ -1,0 +1,52 @@
+# Chapitres
+
+Cette ressource fournit des informations sur les chapitres d'un livre en particulier de l'Univers Harry Potter.
+
+## Attributs
+{
+  <table>
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Filtrable</th>
+      </tr>
+    </thead>
+    <tbody>
+      {[
+        {
+          name: "order",
+          type: "entier",
+          description: "L'ordre chronologique de ce chapitre dans le livre.",
+          filterable: true,
+        },
+        {
+          name: "slug",
+          type: "chaîne de caractère",
+          description: "Le slug permettant d'identifier ce chapitre.",
+          filterable: false,
+        },
+        {
+          name: "summary",
+          type: "chaîne de caractère",
+          description: "Le résumé de ce chapitre.",
+          filterable: true,
+        },
+        {
+          name: "title",
+          type: "chaîne de caractère",
+          description: "Le titre de ce chapitre.",
+          filterable: true,
+        },
+      ].map((item) => (
+        <tr key={item.name}>
+          <td>{item.name}</td>
+          <td>{item.type}</td>
+          <td>{item.description}</td>
+          <td>{item.filterable == true ? "✅" : "❌"}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+}

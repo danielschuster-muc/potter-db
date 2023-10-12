@@ -1,0 +1,135 @@
+# Films
+Cette ressource fournit des informations sur les films de l'Univers Harry Potter.
+
+## Attributs
+{
+  <table>
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Filtrable</th>
+      </tr>
+    </thead>
+    <tbody>
+      {[
+        {
+          name: "box_office",
+          type: "chaîne de caractère",
+          description: "Les revenus générés par la vente de billets.",
+          filterable: true,
+        },
+        {
+          name: "budget",
+          type: "chaîne de caractère",
+          description: "Le budget de ce film.",
+          filterable: true,
+        },
+        {
+          name: "cinematographers",
+          type: "tableau",
+          description: "Une liste des cinéastes de ce film.",
+          filterable: true,
+        },
+        {
+          name: "directors",
+          type: "tableau",
+          description: "Une liste des personnes qui ont réalisé ce film.",
+          filterable: true,
+        },
+        {
+          name: "distributors",
+          type: "tableau",
+          description: "Une liste des personnes qui ont distribué ce film.",
+          filterable: true,
+        },
+        {
+          name: "editors",
+          type: "tableau",
+          description: "Une liste des personnes qui ont monté ce film.",
+          filterable: true,
+        },
+        {
+          name: "music_composers",
+          type: "tableau",
+          description: "Une liste des personnes qui ont composé la musique de ce film.",
+          filterable: true,
+        },
+        {
+          name: "poster",
+          type: "chaîne de caractère",
+          description: "Un lien vers l'affiche de ce film.",
+          filterable: false,
+        },
+        {
+          name: "producers",
+          type: "tableau",
+          description: "Une liste des personnes qui ont produit ce film.",
+          filterable: true,
+        },
+        {
+          name: "rating",
+          type: "chaîne de caractère",
+          description: "La recommandation en terme d'âge pour ce film.",
+          filterable: true,
+        },
+        {
+          name: "release_date",
+          type: "date",
+          description: "La date de sortie de ce film.",
+          filterable: true,
+        },
+        {
+          name: "running_time",
+          type: "chaîne de caractère",
+          description: "La durée de ce film.",
+          filterable: true,
+        },
+        {
+          name: "screenwriters",
+          type: "tableau",
+          description: "Une liste des scénaristes dans ce film.",
+          filterable: true,
+        },
+        {
+          name: "slug",
+          type: "chaîne de caractère",
+          description: "Le slug permettant d'identifier ce film.",
+          filterable: false,
+        },
+        {
+          name: "summary",
+          type: "chaîne de caractère",
+          description: "Le résumé de ce film.",
+          filterable: true,
+        },
+        {
+          name: "title",
+          type: "chaîne de caractère",
+          description: "Le titre de ce film.",
+          filterable: true,
+        },
+        {
+          name: "trailer",
+          type: "chaîne de caractère",
+          description: "Un lien vers la bande-annonce de ce film.",
+          filterable: false,
+        },
+        {
+          name: "wiki",
+          type: "chaîne de caractère",
+          description: "Un lien vers la page de ce film sur le Wiki Harry Potter.",
+          filterable: false,
+        },
+      ].map((item) => (
+        <tr key={item.name}>
+          <td>{item.name}</td>
+          <td>{item.type}</td>
+          <td>{item.description}</td>
+          <td>{item.filterable == true ? "✅" : "❌"}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+}

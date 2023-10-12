@@ -1,0 +1,45 @@
+import { Bleed } from 'nextra-theme-docs'
+
+# REST ou GraphQL
+L'API "Potter DB" offre deux moyens d'accéder à nos données magiques :  **REST** et **GraphQL**. Vous pouvez choisir celui qui convient le mieux à vos besoins et/ou à votre style de développement.
+- **REST**: Si vous préférez une approche simple et axée sur les ressources, rendez-vous sur les endpoints REST. Vous ferez des requêtes HTTP sur des URL spécifiques pour récupérer les données.
+- **GraphQL**: Adapté à des requêtes de données plus flexibles et précises, GraphQL vous permet de requêter exactement ce dont vous avez besoin et rien de plus. Construisez vos requêtes pour extraire des données en ayant un contrôle précis.
+
+## Détails techniques
+{
+<table>
+  <thead>
+    <tr>
+      <th>Objet</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Authentification</td>
+      <td>Libre accès, <b>pas d'authentification</b> requise</td>
+    </tr>
+    <tr>
+      <td>URL de base</td>
+      <td>
+        https://api.potterdb.com/
+      </td>
+    </tr>
+    <tr>
+      <td>Version en cours</td>
+      <td>v1</td>
+    </tr>
+  </tbody>
+</table>
+}
+
+## Limitation du nombre de requêtes
+
+Afin de maintenir la qualité, mais aussi pour se prémunir d'un usage malveillant de l'API "Potter DB", nous appliquons une limite de **900 requêtes par jour** (15 requêtes/min) basée sur l'IP. Si vous atteignez cette limite, vous recevrez une réponse `429 Too Many Requests` (trop de requêtes).
+Veuillez noter que ces limites sont sujettes à changement, il est donc essentiel de vérifier les dernières informations de limite du nombre de requêtes dans la documentation ou via les réponses de l’API.
+
+<br />
+
+_Maintenant que vous avez les bases, plongeons dans la documentation de l’API pour explorer les endpoints disponibles et commencer à créer vos requêtes magiques.
+Reportez-vous aux sections de documentation pour [REST](/apis/rest) et [GraphQL](apis/graphql) pour des informations détaillées sur la façon d’utiliser efficacement l’API.
+Pour obtenir un aperçu de toutes les ressources disponibles, consultez l'[Aperçu des ressources](/resources)._

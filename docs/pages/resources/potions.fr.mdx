@@ -1,0 +1,99 @@
+# Potions
+Cette ressource fournit des informations sur les potions de l'Univers Harry Potter.
+
+## Attributs
+{
+  <table>
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Filtrable</th>
+      </tr>
+    </thead>
+    <tbody>
+      {[
+        {
+          name: "characteristics",
+          type: "chaîne de caractère",
+          description: "Les caractéristiques de cette potion.",
+          filterable: true,
+        },
+        {
+          name: "difficulty",
+          type: "chaîne de caractère",
+          description: "La difficulté de préparation de cette potion.",
+          filterable: true,
+        },
+        {
+          name: "effect",
+          type: "chaîne de caractère",
+          description: "Le principal effet cette potion.",
+          filterable: true,
+        },
+        {
+          name: "image",
+          type: "chaîne de caractère",
+          description: "Un lien vers une image de cette potion.",
+          filterable: false,
+        },
+        {
+          name: "inventors",
+          type: "chaîne de caractère",
+          description: "Les créateurs de cette potion.",
+          filterable: true,
+        },
+        {
+          name: "ingredients",
+          type: "chaîne de caractère",
+          description: "Les ingrédients requis pour préparer cette potion.",
+          filterable: true,
+        },
+        {
+          name: "manufacturers",
+          type: "chaîne de caractère",
+          description: "Les fabricants de cette potion.",
+          filterable: true,
+        },
+        {
+          name: "name",
+          type: "chaîne de caractère",
+          description: "Le nom de cette potion.",
+          filterable: true,
+        },
+        {
+          name: "side_effects",
+          type: "chaîne de caractère",
+          description: "Les effets secondaires de cette potion.",
+          filterable: true,
+        },
+        {
+          name: "slug",
+          type: "chaîne de caractère",
+          description: "Le slug permettant d'identifier cette potion.",
+          filterable: false,
+        },
+        {
+          name: "time",
+          type: "chaîne de caractère",
+          description: "Le temps nécessaire à la préparation cette potion.",
+          filterable: true,
+        },
+        {
+          name: "wiki",
+          type: "chaîne de caractère",
+          description: "Un lien vers la page de cette potion sur le Wiki Harry Potter.",
+          filterable: false,
+        },
+      ].map((item) => (
+        <tr key={item.name}>
+          <td>{item.name}</td>
+          <td>{item.type}</td>
+          <td>{item.description}</td>
+          <td>{item.filterable == true ? "✅" : "❌"}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+}

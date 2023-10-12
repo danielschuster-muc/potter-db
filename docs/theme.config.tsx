@@ -1,4 +1,6 @@
-import type { DocsThemeConfig } from "nextra-theme-docs";
+/* eslint-disable react-hooks/rules-of-hooks */
+import { useRouter } from "next/router";
+import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
   banner: {
@@ -12,16 +14,53 @@ const config: DocsThemeConfig = {
   darkMode: true,
   docsRepositoryBase: "https://github.com/danielschuster-muc/potter-db/tree/master/docs",
   editLink: {
-    text: "Edit this page on GitHub →",
+    text() {
+      const { locale } = useRouter();
+      switch (locale) {
+        case "fr":
+          return "Editer cette page sur GitHub →";
+        default:
+          return "Edit this page on GitHub →";
+      }
+    },
   },
   feedback: {
     labels: "documentation",
-    content: "Give us feedback →",
+    content() {
+      const { locale } = useRouter();
+      switch (locale) {
+        case "fr":
+          return "Donnez-nous votre avis →";
+        default:
+          return "Give us feedback →";
+      }
+    },
   },
   footer: {
     text: `Copyright © Potter DB ${new Date().getFullYear()}`,
   },
-  useNextSeoProps: () => ({ titleTemplate: "%s - Potter DB: Docs" }),
+  gitTimestamp({ timestamp }) {
+    const { locale } = useRouter();
+    let text = "";
+    switch (locale) {
+      case "fr":
+        text = "Dernière mise à jour le";
+        break;
+      default:
+        text = "Last updated on";
+        break;
+    }
+    return (
+      <>
+        {text}{" "}
+        {timestamp.toLocaleDateString(locale, {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+        })}
+      </>
+    );
+  },
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,13 +68,47 @@ const config: DocsThemeConfig = {
       <meta name="og:title" content="Potter DB: Docs" />
     </>
   ),
-  i18n: [{ locale: "en", text: "English" }],
+  i18n: [{ locale: "en", text: "English" },{ locale: "fr", text: "Français" }],
   logo: <span>Potter DB: Docs</span>,
   project: {
     link: "https://github.com/danielschuster-muc/potter-db",
   },
   search: {
-    placeholder: "Search...",
+    placeholder() {
+      const { locale } = useRouter();
+      switch (locale) {
+        case "fr":
+          return "Rechercher...";
+        default:
+          return "Search...";
+      }
+    },
+    loading() {
+      const { locale } = useRouter();
+      switch (locale) {
+        case "fr":
+          return "En cours de chargement...";
+        default:
+          return "Loading...";
+      }
+    },
+    emptyResult() {
+      const { locale } = useRouter();
+      let text = "";
+      switch (locale) {
+        case "fr":
+          text = "Aucun résultat.";
+          break;
+        default:
+          text = "No results found.";
+          break;
+      }
+      return (
+        <span className="nx-block nx-select-none nx-p-8 nx-text-center nx-text-sm nx-text-gray-400">
+          {text}
+        </span>
+      );
+    },
   },
   sidebar: {
     titleComponent: ({ title, type }) => {
@@ -47,9 +120,38 @@ const config: DocsThemeConfig = {
     defaultMenuCollapseLevel: 1,
     toggleButton: true,
   },
+  themeSwitch: {
+    useOptions() {
+      const { locale } = useRouter();
+      switch (locale) {
+        case "fr":
+          return {
+            light: "Clair",
+            dark: "Sombre",
+            system: "Système",
+          };
+        default:
+          return {
+            light: "Light",
+            dark: "Dark",
+            system: "System",
+          };
+      }
+    },
+  },
   toc: {
     float: true,
+    title() {
+      const { locale } = useRouter();
+      switch (locale) {
+        case "fr":
+          return "Sur cette page";
+        default:
+          return "On this page";
+      }
+    },
   },
+  useNextSeoProps: () => ({ titleTemplate: "%s - Potter DB: Docs" }),
 };
 
 export default config;
