@@ -18,7 +18,7 @@ const config: DocsThemeConfig = {
       const { locale } = useRouter();
       switch (locale) {
         case "fr":
-          return "replace me";
+          return "Editer cette page sur GitHub →";
         default:
           return "Edit this page on GitHub →";
       }
@@ -30,7 +30,7 @@ const config: DocsThemeConfig = {
       const { locale } = useRouter();
       switch (locale) {
         case "fr":
-          return "replace me";
+          return "Donnez-nous votre avis →";
         default:
           return "Give us feedback →";
       }
@@ -44,7 +44,7 @@ const config: DocsThemeConfig = {
     let text = "";
     switch (locale) {
       case "fr":
-        text = "replace me";
+        text = "Dernière mise à jour le";
         break;
       default:
         text = "Last updated on";
@@ -78,7 +78,7 @@ const config: DocsThemeConfig = {
       const { locale } = useRouter();
       switch (locale) {
         case "fr":
-          return "replace me";
+          return "Rechercher...";
         default:
           return "Search...";
       }
@@ -87,7 +87,7 @@ const config: DocsThemeConfig = {
       const { locale } = useRouter();
       switch (locale) {
         case "fr":
-          return "replace me";
+          return "En cours de chargement...";
         default:
           return "Loading...";
       }
@@ -97,7 +97,7 @@ const config: DocsThemeConfig = {
       let text = "";
       switch (locale) {
         case "fr":
-          text = "replace me";
+          text = "Aucun résultat.";
           break;
         default:
           text = "No results found.";
@@ -126,9 +126,9 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return {
-            light: "replace me",
-            dark: "replace me",
-            system: "replace me",
+            light: "Clair",
+            dark: "Sombre",
+            system: "Système",
           };
         default:
           return {
@@ -145,7 +145,7 @@ const config: DocsThemeConfig = {
       const { locale } = useRouter();
       switch (locale) {
         case "fr":
-          return "replace me";
+          return "Sur cette page";
         default:
           return "On this page";
       }
