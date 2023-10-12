@@ -57,10 +57,6 @@ https://www.docker.com/get-started/
 
 Ruby Installation
 
-Create a .env file in the backend folder
-```shell
-USE_DOCKER=false
-```
 Using [Bundler](https://github.com/bundler/bundler):
 
 ```shell
@@ -69,10 +65,6 @@ bundle install
 
 Docker Installation 
 
-Create a .env file in the backend folder
-```shell
-USE_DOCKER=true
-```
 Run the following command in your terminal
 
 ```shell

@@ -18,9 +18,9 @@ services:
       - "3000:3000"
     depends_on:
       - db
-    env_file:
-      - .env  # Specify the .env file to load environment variables
-    command: ["sh", "-c", "rails server -b 0.0.0.0"]
+    environment:
+      - DB_HOST=db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
 
-networks:
-  mynetwork:
+    command: ["sh", "-c", "rails server -b 0.0.0.0"]
