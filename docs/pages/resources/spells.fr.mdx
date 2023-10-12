@@ -1,0 +1,87 @@
+# Sorts
+Cette ressource fournit des informations sur les sorts de l'Univers Harry Potter.
+
+## Attributes
+{
+  <table>
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Filtrable</th>
+      </tr>
+    </thead>
+    <tbody>
+      {[
+        {
+          name: "category",
+          type: "chaîne de caractère",
+          description: "La catégorie de ce sort.",
+          filterable: true,
+        },
+        {
+          name: "creator",
+          type: "chaîne de caractère",
+          description: "Le créateur de ce sort.",
+          filterable: true,
+        },
+        {
+          name: "effect",
+          type: "chaîne de caractère",
+          description: "L'effet de ce sort.",
+          filterable: true,
+        },
+        {
+          name: "hand",
+          type: "chaîne de caractère",
+          description: "Le mouvement de la main de ce sort.",
+          filterable: true,
+        },
+        {
+          name: "image",
+          type: "chaîne de caractère",
+          description: "Un lien vers une image de ce sort.",
+          filterable: false,
+        },
+        {
+          name: "incantation",
+          type: "chaîne de caractère",
+          description: "L'incantation de ce sort.",
+          filterable: true,
+        },
+        {
+          name: "light",
+          type: "chaîne de caractère",
+          description: "La lumière de ce sort.",
+          filterable: true,
+        },
+        {
+          name: "name",
+          type: "chaîne de caractère",
+          description: "Le nom de ce sort.",
+          filterable: true,
+        },
+        {
+          name: "slug",
+          type: "chaîne de caractère",
+          description: "Le slug permettant d'identifier ce sort.",
+          filterable: false,
+        },
+        {
+          name: "wiki",
+          type: "chaîne de caractère",
+          description: "Un lien vers la page de ce sort sur le Wiki Harry Potter.",
+          filterable: false,
+        },
+      ].map((item) => (
+        <tr key={item.name}>
+          <td>{item.name}</td>
+          <td>{item.type}</td>
+          <td>{item.description}</td>
+          <td>{item.filterable == true ? "✅" : "❌"}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+}

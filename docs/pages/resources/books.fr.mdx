@@ -1,0 +1,82 @@
+# Livres
+
+Cette ressource fournit des informations sur les livres de l'Univers Harry Potter.
+
+## Attributs
+{
+  <table>
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Filtrable</th>
+      </tr>
+    </thead>
+    <tbody>
+      {[
+        {
+          name: "author",
+          type: "chaîne de caractère",
+          description: "L'auteur de ce livre.",
+          filterable: true,
+        },
+        {
+          name: "cover",
+          type: "chaîne de caractère",
+          description: "l'url de la couverture de ce livre.",
+          filterable: false,
+        },
+        {
+          name: "dedication",
+          type: "chaîne de caractère",
+          description: "La dédicace de ce livre.",
+          filterable: true,
+        },
+        {
+          name: "pages",
+          type: "entier",
+          description: "Le nombre de pages de ce livre.",
+          filterable: true,
+        },
+        {
+          name: "release_date",
+          type: "date",
+          description: "La date de sortie de ce livre.",
+          filterable: true,
+        },
+        {
+          name: "summary",
+          type: "chaîne de caractère",
+          description: "Le résumé de ce livre.",
+          filterable: true,
+        },
+        {
+          name: "slug",
+          type: "chaîne de caractère",
+          description: "Le slug permettant d'identifier ce livre.",
+          filterable: false,
+        },
+        {
+          name: "title",
+          type: "chaîne de caractère",
+          description: "Le titre de ce livre.",
+          filterable: true,
+        },
+        {
+          name: "wiki",
+          type: "chaîne de caractère",
+          description: "Un lien vers la page de ce livre sur le Wiki Harry Potter.",
+          filterable: false,
+        },
+      ].map((item) => (
+        <tr key={item.name}>
+          <td>{item.name}</td>
+          <td>{item.type}</td>
+          <td>{item.description}</td>
+          <td>{item.filterable == true ? "✅" : "❌"}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+}

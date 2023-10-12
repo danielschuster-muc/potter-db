@@ -1,0 +1,179 @@
+# Personnages
+Cette ressource fournit des informations sur les personnages de l'Univers Harry Potter.
+
+## Attributs
+{
+  <table>
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Filtrable</th>
+      </tr>
+    </thead>
+    <tbody>
+      {[
+        {
+          name: "alias_names",
+          type: "tableau",
+          description: "Une liste des noms sous lesquels ce personnage est connu.",
+          filterable: true
+        },
+        {
+          name: "animagus",
+          type: "chaîne de caractère",
+          description: "L'animagus de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "blood_status",
+          type: "chaîne de caractère",
+          description: "Le statut de sang de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "boggart",
+          type: "chaîne de caractère",
+          description: "L'épouvantard de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "born",
+          type: "chaîne de caractère",
+          description: "La date et le lieu de naissance de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "died",
+          type: "chaîne de caractère",
+          description: "La date et le lieu de décès de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "eye_color",
+          type: "chaîne de caractère",
+          description: "La couleur des yeux de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "family_member",
+          type: "tableau",
+          description: "Une liste des membres de la famille de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "gender",
+          type: "chaîne de caractère",
+          description: "Le genre de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "hair_color",
+          type: "chaîne de caractère",
+          description: "La couleur des cheveux de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "height",
+          type: "chaîne de caractère",
+          description: "La taille en pouces de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "house",
+          type: "chaîne de caractère",
+          description: "La maison Poudlard de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "image",
+          type: "chaîne de caractère",
+          description: "Un lien vers une image de ce personnage.",
+          filterable: false
+        },
+        {
+          name: "jobs",
+          type: "tableau",
+          description: "Une liste de tous les métiers que ce personnage a exercés.",
+          filterable: true
+        },
+        {
+          name: "name",
+          type: "chaîne de caractère",
+          description: "Le nom complet de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "nationality",
+          type: "chaîne de caractère",
+          description: "La nationalité de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "patronus",
+          type: "chaîne de caractère",
+          description: "Le patronus de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "romances",
+          type: "tableau",
+          description: "Une liste des relations amoureuses de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "skin_color",
+          type: "chaîne de caractère",
+          description: "La couleur de peau de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "slug",
+          type: "chaîne de caractère",
+          description: "Le slug permettant d'identifier ce personnage.",
+          filterable: false
+        },
+        {
+          name: "species",
+          type: "chaîne de caractère",
+          description: "Les espèces auxquelles appartient ce personnage.",
+          filterable: true
+        },
+        {
+          name: "titles",
+          type: "tableau",
+          description:
+            "Une liste des noms qui décrivent le titre ou l'emploi d'un personnage.",
+          filterable: true
+        },
+        {
+          name: "wand",
+          type: "tableau",
+          description: "Une liste des baguettes de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "weight",
+          type: "chaîne de caractère",
+          description: "Le poids en livres de ce personnage.",
+          filterable: true
+        },
+        {
+          name: "wiki",
+          type: "chaîne de caractère",
+          description:
+            "Un lien vers la page de ce personnage sur le Wiki Harry Potter.",
+          filterable: false
+        }
+      ].map((item) => (
+        <tr key={item.name}>
+          <td>{item.name}</td>
+          <td>{item.type}</td>
+          <td>{item.description}</td>
+          <td>{item.filterable == true ? '✅' : '❌'}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+}
