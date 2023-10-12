@@ -22,4 +22,4 @@ COPY . .
 EXPOSE 3000
 
 # Run these commands when the container starts
-CMD ["sh", "-c", "rails db:migrate && rails db:seed && rails server -b 0.0.0.0"]
+CMD ["sh", "-c", "rails server -b 0.0.0.0"]

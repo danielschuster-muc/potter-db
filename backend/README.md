@@ -15,7 +15,7 @@ Before you begin, please ensure you have the necessary programs and tools instal
 
 ## Contributing
 
-Before diving into development, ensure that you have Ruby installed on your system.
+You can setup the project using either Ruby or Docker. Choose the option that fits you the best. Therefore make sure to install the required dependencies before diving into development.
 
 To contribute to our API, follow these simple steps:
 
@@ -26,7 +26,9 @@ git clone git@github.com:danielschuster-muc/potter-db.git
 cd potter-db/backend
 ```
 
-### 2. Check your Ruby version
+### 2. Prerequisites
+
+Ruby Installation Prerequisites
 
 Ensure you have Ruby 3.1.2 installed on your system. You can check your Ruby version by running:
 
@@ -40,15 +42,46 @@ If not, you can install it using [rbenv](https://github.com/rbenv/rbenv):
 rbenv install 3.1.2
 ```
 
+Docker Installation Prerequisites
+
+Ensure you have Docker on your system. You can check your Docker version by running:
+
+```shell
+docker -v
+```
+If not, install docker on your system:
+
+https://www.docker.com/get-started/
+
 ### 3. Install Dependencies
 
+Ruby Installation
+
+Create a .env file in the backend folder
+```shell
+USE_DOCKER=false
+```
 Using [Bundler](https://github.com/bundler/bundler):
 
 ```shell
 bundle install
 ```
 
+Docker Installation 
+
+Create a .env file in the backend folder
+```shell
+USE_DOCKER=true
+```
+Run the following command in your terminal
+
+```shell
+docker-compose up  ## or docker-compose up -d
+```
+
 ### 4. Initialize the Database
+
+Ruby Installation
 
 Create and set up the database by running the following commands:
 
@@ -56,13 +89,26 @@ Create and set up the database by running the following commands:
 rails db:create db:migrate
 rails db:seed
 ```
+Docker Installation 
 
+Open another terminal in backend folder and run
+
+```shell
+docker-compose exec web /bin/sh -c "rails db:migrate && rails db:seed"
+```
 ### 5. Start the rails server
 
 You can start the rails server using the command given below:
 
+Ruby Installation
+
 ```shell
 rails s
+```
+Docker Installation
+
+```shell
+docker-compose exec web /bin/sh -c "rails server -b 0.0.0.0"
 ```
 
 You can now access the development server at http://localhost:3000. It's recommended to read the [documentation](https://docs.potterdb.com/) to get a better understanding of the API.
@@ -95,42 +141,3 @@ rake graphql:schema:dump
 ```
 
 You can now find the schema dump in [app/graphql/schema.graphql](app/graphql/schema.graphql).
-
-
-### Docker Container
-
-Install docker on your system
-https://www.docker.com/get-started/
-
-After installing docker navigate into POTTER-DB and run the following commands
-
-```shell
-cd backend
-docker-compose up  ## or docker-compose up -d
-```
-Wait untill your terminal is similar to the below image
-![Alt text](/backend/images/terminal.png)
-
-The container below would be created on your system and can be seen through the docker GUI
-![Alt text](/backend/images/dockerGui.png)
-
-localhost:3000 is where you would find the rails server running.
-
-```shell
-localhost:3000/v1/characters
-```
-
-Debugging issues
-
-If you run into any errors run the following command to see the containers on your system
-
-```shell
-docker ps
-```
-![Alt text](/backend/images/psCommand.png)
-
-Run the following command to get into any specific container
-
-```shell
-docker exec -it  <CONTAINER ID>  bash
-```
