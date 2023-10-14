@@ -13,8 +13,7 @@ const withNextra = nextra({
 export default withNextra({
   reactStrictMode: true,
   i18n: {
-    locales: ['en', 'fr'],
+    locales: ["en", "fr"],
     defaultLocale: "en",
-    localeDetection: false,
   },
 });
