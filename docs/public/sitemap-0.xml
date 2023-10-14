@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://docs.potterdb.com/apis/graphql.en</loc><lastmod>2023-09-24T18:44:19.253Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://docs.potterdb.com/apis/rest.en</loc><lastmod>2023-09-24T18:44:19.253Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://docs.potterdb.com/index.en</loc><lastmod>2023-09-24T18:44:19.253Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://docs.potterdb.com/resources/books.en</loc><lastmod>2023-09-24T18:44:19.253Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://docs.potterdb.com/resources/chapters.en</loc><lastmod>2023-09-24T18:44:19.253Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://docs.potterdb.com/resources/characters.en</loc><lastmod>2023-09-24T18:44:19.253Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://docs.potterdb.com/resources/movies.en</loc><lastmod>2023-09-24T18:44:19.253Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://docs.potterdb.com/resources/potions.en</loc><lastmod>2023-09-24T18:44:19.253Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://docs.potterdb.com/resources/spells.en</loc><lastmod>2023-09-24T18:44:19.253Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/en/apis/graphql</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/fr/apis/graphql</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/en/apis/rest</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/fr/apis/rest</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/en/getting-started</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/fr/getting-started</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/en/index</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/fr/index</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/en/resources</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/fr/resources</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/en/resources/books</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/fr/resources/books</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/en/resources/chapters</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/fr/resources/chapters</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/en/resources/characters</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/fr/resources/characters</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/en/resources/movies</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/fr/resources/movies</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/en/resources/potions</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/fr/resources/potions</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/en/resources/spells</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/fr/resources/spells</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/fr/index</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3002/en/fr/index</loc><lastmod>2023-10-14T16:52:39.549Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>
