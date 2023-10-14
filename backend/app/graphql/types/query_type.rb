@@ -17,7 +17,7 @@ module Types
       argument :slug, String, required: true
     end
     def book(slug:)
-      Book.find_by_slug(slug)
+      Book.find_by(slug:)
     end
 
     # Characters
@@ -30,7 +30,7 @@ module Types
       argument :slug, String, required: true
     end
     def character(slug:)
-      Character.find_by_slug(slug)
+      Character.find_by(slug:)
     end
 
     # Movies
@@ -43,7 +43,7 @@ module Types
       argument :slug, String, required: true
     end
     def movie(slug:)
-      Movie.find_by_slug(slug)
+      Movie.find_by(slug:)
     end
 
     # Potions
@@ -56,7 +56,7 @@ module Types
       argument :slug, String, required: true
     end
     def potion(slug:)
-      Potion.find_by_slug(slug)
+      Potion.find_by(slug:)
     end
 
     # Spells
@@ -69,7 +69,7 @@ module Types
       argument :slug, String, required: true
     end
     def spell(slug:)
-      Spell.find_by_slug(slug)
+      Spell.find_by(slug:)
     end
   end
 end

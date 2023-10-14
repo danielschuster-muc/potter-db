@@ -1,4 +1,4 @@
-class Chapter < ActiveRecord::Base
+class Chapter < ApplicationRecord
   belongs_to :book
   default_scope { order(order: :asc) }
 

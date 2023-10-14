@@ -13,6 +13,7 @@ defaults:
     working-directory: backend
 jobs:
   test:
+    name: "RSpec Test"
     runs-on: ubuntu-latest
     services:
       postgres:
@@ -33,21 +34,49 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      # Add or replace dependency steps here
       - name: Install Ruby and gems
-        uses: ruby/setup-ruby@5cfe23c062c0aac352e765b1b7cc12ea5255ccc4 # v1.156.0
+        uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
           working-directory: backend
-      # Add or replace database setup steps here
       - name: Set up database schema
         run: bin/rails db:schema:load
-      # Add or replace test runners here
       - name: Run tests
         run: bundler exec rspec
-      # Upload code coverage
       - name: Upload coverage results
         uses: actions/upload-artifact@master
         with:
           name: code-coverage
           path: backend/coverage
+
+  rubocop:
+    name: "RuboCop Linter"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Install Ruby and gems
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+          working-directory: backend
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+      - name: Run RuboCop
+        run: bundle exec rubocop
+
+  spectral:
+    name: "Spectral Linter"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Install Spectral
+        run: npm install -g @stoplight/spectral
+      - name: Run Spectral
+        uses: stoplightio/spectral-action@latest
+        with:
+          file_glob: "backend/app/documentation/v1/openapi.yaml"
+          spectral_ruleset: "backend/.spectral.yaml"

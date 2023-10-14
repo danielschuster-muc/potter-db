@@ -48,10 +48,10 @@ group :development, :test do
   gem "rspec-rails"
   # Seamlessly adds a Swagger to Rails-based API's [https://github.com/rswag/rswag]
   gem 'rswag-specs'
+  # Code coverage [https://github.com/simplecov-ruby/simplecov]
+  gem "simplecov"
   # Fixtures replacement [https://github.com/thoughtbot/factory_bot_rails]
   gem "factory_bot_rails"
-  # Code coverage [https://github.com/simplecov-ruby/simplecov]
-  gem "simplecov", require: false
 
   # Code analyzer and formatter [https://github.com/rubocop/rubocop]
   gem "rubocop"
@@ -59,6 +59,10 @@ group :development, :test do
   gem "rubocop-rails"
   # Code style checking for RSpec files [https://github.com/rubocop/rubocop-rspec]
   gem "rubocop-rspec"
+  # Rubocop extension for enforcing graphql-ruby best practices [https://github.com/DmitryTsepelev/rubocop-graphql]
+  gem 'rubocop-graphql'
+  # An extension of RuboCop focused on code performance checks [https://github.com/rubocop/rubocop-performance]
+  gem "rubocop-performance"
 end
 
 group :development do
