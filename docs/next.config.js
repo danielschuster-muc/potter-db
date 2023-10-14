@@ -1,6 +1,4 @@
-import nextra from "nextra";
-
-const withNextra = nextra({
+const withNextra = require("nextra")({
   theme: "nextra-theme-docs",
   themeConfig: "./theme.config.tsx",
   staticImage: true,
@@ -10,7 +8,7 @@ const withNextra = nextra({
   defaultShowCopyCode: true,
 });
 
-export default withNextra({
+module.exports = withNextra({
   reactStrictMode: true,
   i18n: {
     locales: ["en", "fr"],

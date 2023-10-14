@@ -1,4 +1,4 @@
-const locales = ["en", "fr"];
+const { i18n } = require("./next.config.js");
 
 /** @type {import('next-sitemap').IConfig} */
 const config = {
@@ -6,8 +6,7 @@ const config = {
   generateRobotsTxt: true,
   transform: async (_, path) => {
     let transformedPath = path;
-    locales.forEach((locale) => {
-      console.log(transformedPath, locale);
+    i18n.locales.forEach((locale) => {
       if (transformedPath.endsWith("." + locale) && !transformedPath.includes("/" + locale)) {
         transformedPath = "/" + locale + transformedPath.replace("." + locale, "");
       }
