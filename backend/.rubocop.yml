@@ -14,6 +14,7 @@ AllCops:
     - "config/**/*"
     - "tmp/**/*"
     - "lib/**/*"
+    - "vendor/bundle/**/*"
 
 Style/ConditionalAssignment:
   Enabled: false
