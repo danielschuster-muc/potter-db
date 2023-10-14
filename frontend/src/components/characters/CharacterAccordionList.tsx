@@ -12,7 +12,7 @@ export default function CharacterDetailsAccordion({ character }: { character: Ch
 
   return (
     <div className="justify-center flex mt-5">
-      <div className="md:w-2/3">
+      <div className="w-full md:w-2/3">
         {alias_names.length > 0 && (
           <Accordion
             title="Alias Names"

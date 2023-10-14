@@ -11,8 +11,8 @@ export default interface Character {
     eye_color: string | null;
     family_members: string[];
     gender: string | null;
-    hair_color: string;
-    height: number | null;
+    hair_color: string | null;
+    height: string | null;
     house: string | null;
     image: string | null;
     jobs: string[];
@@ -25,7 +25,7 @@ export default interface Character {
     species: string | null;
     titles: string[];
     wands: string[];
-    weight: number | null;
+    weight: string | null;
     wiki: string;
   };
 }

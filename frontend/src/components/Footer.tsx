@@ -31,10 +31,10 @@ const footerContent: FooterSection[] = [
   {
     title: "Database Search",
     content: [
-      // {
-      //   name: "Books",
-      //   link: "/books",
-      // },
+      {
+        name: "Books",
+        link: "/books",
+      },
       {
         name: "Characters",
         link: "/characters",
