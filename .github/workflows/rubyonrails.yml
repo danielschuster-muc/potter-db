@@ -50,7 +50,7 @@ jobs:
           path: backend/coverage
 
   rubocop:
-    name: "RuboCop Lint"
+    name: "RuboCop Linter"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -60,11 +60,15 @@ jobs:
         with:
           bundler-cache: true
           working-directory: backend
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
       - name: Run RuboCop
         run: bundle exec rubocop
 
   spectral:
-    name: "Spectral Lint"
+    name: "Spectral Linter"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -75,3 +79,4 @@ jobs:
         uses: stoplightio/spectral-action@latest
         with:
           file_glob: "backend/app/documentation/v1/openapi.yaml"
+          spectral_ruleset: "backend/.spectral.yaml"
