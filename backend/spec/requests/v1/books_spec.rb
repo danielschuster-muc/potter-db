@@ -38,7 +38,16 @@ RSpec.describe 'V1::Books' do
       description 'Retrieves a specific book by id, use "random" to get a random book.'
       operationId 'getBook'
       produces 'application/vnd.api+json'
-      parameter '$ref': '#/components/parameters/book_id'
+      parameter name: 'id',
+                description: 'The identifier of the book. Must be a valid UUID v4 or slug.',
+                in: :path,
+                required: true,
+                schema: {
+                  oneOf: [
+                    { '$ref' => '#/components/schemas/uuid_path' },
+                    { '$ref' => '#/components/schemas/slug_path' }
+                  ]
+                }
 
       response '200', 'A single book' do
         schema allOf: [

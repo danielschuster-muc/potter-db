@@ -91,7 +91,7 @@ RSpec.configure do |config|
         parameters: {
           page_size: {
             name: 'page[size]',
-            description: 'The number of returned results per page. (Between 1 and 100)',
+            description: 'The number of returned results per page (between 1 and 100).',
             in: :query,
             required: false,
             schema: {
@@ -110,90 +110,6 @@ RSpec.configure do |config|
               type: :integer,
               minimum: 1,
               default: 1
-            }
-          },
-          book_id: {
-            name: 'id',
-            description: 'The identifier of the book. Must be a valid UUID v4 or slug.',
-            in: :path,
-            required: true,
-            schema: {
-              oneOf: [
-                { '$ref' => '#/components/schemas/uuid_path' },
-                { '$ref' => '#/components/schemas/slug_path' }
-              ]
-            }
-          },
-          book_chapter_id: {
-            name: 'book_id',
-            description: "The identifier of the book. Must be a valid UUID v4 or slug.",
-            in: :path,
-            required: true,
-            schema: {
-              oneOf: [
-                { '$ref' => '#/components/schemas/uuid_path' },
-                { '$ref' => '#/components/schemas/slug_path' }
-              ]
-            }
-          },
-          chapter_id: {
-            name: 'id',
-            description: "The identifier of the book's chapter. Must be a valid UUID v4 or slug.",
-            in: :path,
-            required: true,
-            schema: {
-              oneOf: [
-                { '$ref' => '#/components/schemas/uuid_path' },
-                { '$ref' => '#/components/schemas/slug_path' }
-              ]
-            }
-          },
-          character_id: {
-            name: 'id',
-            description: "The identifier of the character. Must be a valid UUID v4 or slug.",
-            in: :path,
-            required: true,
-            schema: {
-              oneOf: [
-                { '$ref' => '#/components/schemas/uuid_path' },
-                { '$ref' => '#/components/schemas/slug_path' }
-              ]
-            }
-          },
-          movie_id: {
-            name: 'id',
-            description: "The identifier of the movie. Must be a valid UUID v4 or slug.",
-            in: :path,
-            required: true,
-            schema: {
-              oneOf: [
-                { '$ref' => '#/components/schemas/uuid_path' },
-                { '$ref' => '#/components/schemas/slug_path' }
-              ]
-            }
-          },
-          potion_id: {
-            name: 'id',
-            description: "The identifier of the potion. Must be a valid UUID v4 or slug.",
-            in: :path,
-            required: true,
-            schema: {
-              oneOf: [
-                { '$ref' => '#/components/schemas/uuid_path' },
-                { '$ref' => '#/components/schemas/slug_path' }
-              ]
-            }
-          },
-          spell_id: {
-            name: 'id',
-            description: "The identifier of the spell. Must be a valid UUID v4 or slug.",
-            in: :path,
-            required: true,
-            schema: {
-              oneOf: [
-                { '$ref' => '#/components/schemas/uuid_path' },
-                { '$ref' => '#/components/schemas/slug_path' }
-              ]
             }
           },
           sort_books: {
@@ -374,7 +290,7 @@ RSpec.configure do |config|
               generated_at: { type: :string, format: :date_time }
             },
             example: {
-              copyright: "Copyright © Potter DB #{Date.today.year}",
+              copyright: "Copyright © Potter DB #{Time.zone.today.year}",
               generated_at: DateTime.now
             }
           },
@@ -415,39 +331,6 @@ RSpec.configure do |config|
             required: %w[self]
           },
 
-          # errors
-          # error: {
-          #   type: :object,
-          #   properties: {
-          #     status: {
-          #       description: 'The HTTP status code applicable to this problem, expressed as a string value.',
-          #       type: :string
-          #     },
-          #     title: {
-          #       description: 'A short, human-readable summary of the problem that SHOULD NOT change from occurrence ' \
-          #                    'to occurrence of the problem, except for purposes of localization.',
-          #       type: :string
-          #     },
-          #     detail: {
-          #       description: 'A human-readable explanation specific to this occurrence of the problem.',
-          #       type: :string
-          #     },
-          #     source: {
-          #       type: :object,
-          #       properties: {
-          #         pointer: {
-          #           description: 'A JSON Pointer [RFC6901] to the associated entity in the request document.',
-          #           type: :string
-          #         },
-          #         parameter: {
-          #           description: 'A string indicating which URI query parameter caused the error.',
-          #           type: :string
-          #         }
-          #       }
-          #     }
-          #   },
-          #   additionalProperties: false
-          # },
           not_found: {
             type: :object,
             properties: {
@@ -468,26 +351,6 @@ RSpec.configure do |config|
               ]
             }
           },
-          # internal_server_error: {
-          #   type: :object,
-          #   properties: {
-          #     errors: {
-          #       type: :array,
-          #       items: {
-          #         type: :object,
-          #         properties: {
-          #           status: { type: :string, enum: ['500'] },
-          #           title: { type: :string, example: "Internal Server Error" }
-          #         }
-          #       }
-          #     }
-          #   },
-          #   example: {
-          #     errors: [
-          #       { title: 'Internal server error', status: '500' }
-          #     ]
-          #   }
-          # },
 
           # others
           success_without_data: {
@@ -631,7 +494,9 @@ RSpec.configure do |config|
                 properties: {
                   self: {
                     type: :string,
+                    # rubocop:disable Layout/LineLength
                     pattern: "/v1/books/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}/chapters/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}",
+                    # rubocop:enable Layout/LineLength
                     example:
                       "/v1/books/7f8d9b7c-5a7c-4f7c-9d5a-1d8e6f7a8b9d/chapters/c1637a49-3cc8-4285-93a1-28e6579f1f20"
                   }
@@ -688,7 +553,9 @@ RSpec.configure do |config|
                 properties: {
                   self: {
                     type: :string,
+                    # rubocop:disable Layout/LineLength
                     pattern: "/v1/characters/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}",
+                    # rubocop:enable Layout/LineLength
                     example: "/v1/characters/c1637a49-3cc8-4285-93a1-28e6579f1f20"
                   }
                 }

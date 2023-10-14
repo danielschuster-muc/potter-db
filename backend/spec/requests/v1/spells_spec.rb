@@ -38,7 +38,16 @@ RSpec.describe 'V1::Spells' do
       description 'Retrieves a specific spell by id, use "random" to get a random spell.'
       operationId 'getSpell'
       produces 'application/vnd.api+json'
-      parameter '$ref': '#/components/parameters/spell_id'
+      parameter name: 'id',
+                description: "The identifier of the spell. Must be a valid UUID v4 or slug.",
+                in: :path,
+                required: true,
+                schema: {
+                  oneOf: [
+                    { '$ref' => '#/components/schemas/uuid_path' },
+                    { '$ref' => '#/components/schemas/slug_path' }
+                  ]
+                }
 
       response '200', 'A single spell' do
         let(:id) { create(:spell).id }

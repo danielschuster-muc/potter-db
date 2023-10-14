@@ -7,7 +7,16 @@ RSpec.describe 'V1::Chapters' do
       description 'Retrieves a list of chapters of a given book; paginated, sorted and filtered by attributes.'
       operationId 'getChapters'
       produces 'application/vnd.api+json'
-      parameter '$ref': '#/components/parameters/book_id'
+      parameter name: 'id',
+                description: 'The identifier of the book. Must be a valid UUID v4 or slug.',
+                in: :path,
+                required: true,
+                schema: {
+                  oneOf: [
+                    { '$ref' => '#/components/schemas/uuid_path' },
+                    { '$ref' => '#/components/schemas/slug_path' }
+                  ]
+                }
       parameter '$ref': '#/components/parameters/page_size'
       parameter '$ref': '#/components/parameters/page_number'
       parameter '$ref': '#/components/parameters/sort_chapters'
@@ -46,12 +55,30 @@ RSpec.describe 'V1::Chapters' do
       description 'Retrieves a specific chapter of a given book by id, use "random" to get a random chapter.'
       operationId 'getChapter'
       produces 'application/vnd.api+json'
-      parameter '$ref': '#/components/parameters/book_chapter_id'
-      parameter '$ref': '#/components/parameters/chapter_id'
+      parameter name: 'book_id',
+                description: "The identifier of the book. Must be a valid UUID v4 or slug.",
+                in: :path,
+                required: true,
+                schema: {
+                  oneOf: [
+                    { '$ref' => '#/components/schemas/uuid_path' },
+                    { '$ref' => '#/components/schemas/slug_path' }
+                  ]
+                }
+      parameter name: 'id',
+                description: "The identifier of the book's chapter. Must be a valid UUID v4 or slug.",
+                in: :path,
+                required: true,
+                schema: {
+                  oneOf: [
+                    { '$ref' => '#/components/schemas/uuid_path' },
+                    { '$ref' => '#/components/schemas/slug_path' }
+                  ]
+                }
 
       response '200', 'A single chapter' do
         let(:book) { create(:book) }
-        let(:chapter) { create(:chapter, book: book) }
+        let(:chapter) { create(:chapter, book:) }
 
         let(:book_id) { book.id }
         let(:id) { chapter.id }

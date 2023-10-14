@@ -38,7 +38,16 @@ RSpec.describe 'V1::Movies' do
       description 'Retrieves a specific movie by id, use "random" to get a random movie.'
       operationId 'getMovie'
       produces 'application/vnd.api+json'
-      parameter '$ref': '#/components/parameters/movie_id'
+      parameter name: 'id',
+                description: "The identifier of the movie. Must be a valid UUID v4 or slug.",
+                in: :path,
+                required: true,
+                schema: {
+                  oneOf: [
+                    { '$ref' => '#/components/schemas/uuid_path' },
+                    { '$ref' => '#/components/schemas/slug_path' }
+                  ]
+                }
 
       response '200', 'A single movie' do
         let(:id) { create(:movie).id }

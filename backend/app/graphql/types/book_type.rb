@@ -18,8 +18,8 @@ module Types
     end
 
     def chapter(chapter_slug:)
-      Book.find_by_slug(object.slug).chapters.all
-      Chapter.find_by_slug(chapter_slug)
+      Book.find_by(slug: object.slug).chapters.all
+      Chapter.find_by(slug: chapter_slug)
     end
   end
 end

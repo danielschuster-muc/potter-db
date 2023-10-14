@@ -1,4 +1,10 @@
-require: rubocop-rspec
+require:
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-factory_bot
+  - rubocop-performance
+  # Re-add when improving graphql api
+  # - rubocop-graphql
 
 AllCops:
   NewCops: enable
@@ -40,4 +46,6 @@ Style/EmptyMethod:
 Bundler/OrderedGems:
   Enabled: false
 RSpec/MultipleExpectations:
+  Enabled: false
+RSpec/EmptyExampleGroup:
   Enabled: false

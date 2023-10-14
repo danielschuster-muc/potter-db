@@ -1,4 +1,4 @@
-class Book < ActiveRecord::Base
+class Book < ApplicationRecord
   has_many :chapters, dependent: :destroy
   default_scope { order(release_date: :asc) }
 

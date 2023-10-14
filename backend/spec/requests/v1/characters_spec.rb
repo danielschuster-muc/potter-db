@@ -38,7 +38,16 @@ RSpec.describe 'V1::Characters' do
       description 'Retrieves a specific character by id, use "random" to get a random character.'
       operationId 'getCharacter'
       produces 'application/vnd.api+json'
-      parameter '$ref': '#/components/parameters/character_id'
+      parameter name: 'id',
+                description: "The identifier of the character. Must be a valid UUID v4 or slug.",
+                in: :path,
+                required: true,
+                schema: {
+                  oneOf: [
+                    { '$ref' => '#/components/schemas/uuid_path' },
+                    { '$ref' => '#/components/schemas/slug_path' }
+                  ]
+                }
 
       response '200', 'A single character' do
         let(:id) { create(:character).id }

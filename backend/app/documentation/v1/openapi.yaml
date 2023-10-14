@@ -78,7 +78,14 @@ paths:
       description: Retrieves a specific book by id, use "random" to get a random book.
       operationId: getBook
       parameters:
-      - "$ref": "#/components/parameters/book_id"
+      - name: id
+        description: The identifier of the book. Must be a valid UUID v4 or slug.
+        in: path
+        required: true
+        schema:
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
       responses:
         '200':
           description: A single book
@@ -108,7 +115,14 @@ paths:
         and filtered by attributes.
       operationId: getChapters
       parameters:
-      - "$ref": "#/components/parameters/book_id"
+      - name: id
+        description: The identifier of the book. Must be a valid UUID v4 or slug.
+        in: path
+        required: true
+        schema:
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
       - "$ref": "#/components/parameters/page_size"
       - "$ref": "#/components/parameters/page_number"
       - "$ref": "#/components/parameters/sort_chapters"
@@ -144,8 +158,23 @@ paths:
         to get a random chapter.
       operationId: getChapter
       parameters:
-      - "$ref": "#/components/parameters/book_chapter_id"
-      - "$ref": "#/components/parameters/chapter_id"
+      - name: book_id
+        description: The identifier of the book. Must be a valid UUID v4 or slug.
+        in: path
+        required: true
+        schema:
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
+      - name: id
+        description: The identifier of the book's chapter. Must be a valid UUID v4
+          or slug.
+        in: path
+        required: true
+        schema:
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
       responses:
         '200':
           description: A single chapter
@@ -204,7 +233,14 @@ paths:
         character.
       operationId: getCharacter
       parameters:
-      - "$ref": "#/components/parameters/character_id"
+      - name: id
+        description: The identifier of the character. Must be a valid UUID v4 or slug.
+        in: path
+        required: true
+        schema:
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
       responses:
         '200':
           description: A single character
@@ -262,7 +298,14 @@ paths:
         movie.
       operationId: getMovie
       parameters:
-      - "$ref": "#/components/parameters/movie_id"
+      - name: id
+        description: The identifier of the movie. Must be a valid UUID v4 or slug.
+        in: path
+        required: true
+        schema:
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
       responses:
         '200':
           description: A single movie
@@ -321,7 +364,14 @@ paths:
         potion.
       operationId: getPotion
       parameters:
-      - "$ref": "#/components/parameters/potion_id"
+      - name: id
+        description: The identifier of the potion. Must be a valid UUID v4 or slug.
+        in: path
+        required: true
+        schema:
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
       responses:
         '200':
           description: A single potion
@@ -379,7 +429,14 @@ paths:
         spell.
       operationId: getSpell
       parameters:
-      - "$ref": "#/components/parameters/spell_id"
+      - name: id
+        description: The identifier of the spell. Must be a valid UUID v4 or slug.
+        in: path
+        required: true
+        schema:
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
       responses:
         '200':
           description: A single spell
@@ -404,7 +461,7 @@ components:
   parameters:
     page_size:
       name: page[size]
-      description: The number of returned results per page. (Between 1 and 100)
+      description: The number of returned results per page (between 1 and 100).
       in: query
       required: false
       schema:
@@ -421,70 +478,6 @@ components:
         type: integer
         minimum: 1
         default: 1
-    book_id:
-      name: id
-      description: The identifier of the book. Must be a valid UUID v4 or slug.
-      in: path
-      required: true
-      schema:
-        oneOf:
-        - "$ref": "#/components/schemas/uuid_path"
-        - "$ref": "#/components/schemas/slug_path"
-    book_chapter_id:
-      name: book_id
-      description: The identifier of the book. Must be a valid UUID v4 or slug.
-      in: path
-      required: true
-      schema:
-        oneOf:
-        - "$ref": "#/components/schemas/uuid_path"
-        - "$ref": "#/components/schemas/slug_path"
-    chapter_id:
-      name: id
-      description: The identifier of the book's chapter. Must be a valid UUID v4 or
-        slug.
-      in: path
-      required: true
-      schema:
-        oneOf:
-        - "$ref": "#/components/schemas/uuid_path"
-        - "$ref": "#/components/schemas/slug_path"
-    character_id:
-      name: id
-      description: The identifier of the character. Must be a valid UUID v4 or slug.
-      in: path
-      required: true
-      schema:
-        oneOf:
-        - "$ref": "#/components/schemas/uuid_path"
-        - "$ref": "#/components/schemas/slug_path"
-    movie_id:
-      name: id
-      description: The identifier of the movie. Must be a valid UUID v4 or slug.
-      in: path
-      required: true
-      schema:
-        oneOf:
-        - "$ref": "#/components/schemas/uuid_path"
-        - "$ref": "#/components/schemas/slug_path"
-    potion_id:
-      name: id
-      description: The identifier of the potion. Must be a valid UUID v4 or slug.
-      in: path
-      required: true
-      schema:
-        oneOf:
-        - "$ref": "#/components/schemas/uuid_path"
-        - "$ref": "#/components/schemas/slug_path"
-    spell_id:
-      name: id
-      description: The identifier of the spell. Must be a valid UUID v4 or slug.
-      in: path
-      required: true
-      schema:
-        oneOf:
-        - "$ref": "#/components/schemas/uuid_path"
-        - "$ref": "#/components/schemas/slug_path"
     sort_books:
       name: sort
       description: Sort books by the given field. If prefixed with "-" sort is descending.
@@ -766,7 +759,7 @@ components:
           format: date_time
       example:
         copyright: Copyright © Potter DB 2023
-        generated_at: '2023-10-13T01:58:07+02:00'
+        generated_at: '2023-10-14T21:53:54+02:00'
     pagination_links:
       type: object
       properties:
