@@ -1,0 +1,44 @@
+import { Bleed } from 'nextra-theme-docs'
+
+# REST laban sa GraphQL
+Ang Potter DB: API ay may dalawang paraan upang maibahagi ang mga mahiwagang datos: **REST** and **GraphQL**. Pumili ng paraan na pinaka  angkop sa iyong pangangailangan at estilo ng pagbuo.
+- **REST**: Kung nais mo ng mas tuwid na paraan, diskarte na nakasentro sa mga datos, ang REST endpoints ang pinaka angkop gamitin. Maaari kang gumawa ng mga HTTP requests sa mga tiyak na URLs upang makuha ang data.
+- **GraphQL**: Para sa mas madaling maangkop at mas tumpak na mga kahilingan ukol sa data, pinapayagan ka ng GraphQL na humiling nang eksakto kung ano ang kailangan mo at wala nang iba pa. Buuin ang iyong mga query para kumuha ng data na may pinong kontrol.
+
+## Mga Teknikal na detalye
+{
+<table>
+  <thead>
+    <tr>
+      <th>Ano</th>
+      <th>Paglalarawan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pagpapatunay</td>
+      <td>Libreng gamitin, <b>walang pagpapatunay</b> na kailangan</td>
+    </tr>
+    <tr>
+      <td>Base URL</td>
+      <td>
+        https://api.potterdb.com/
+      </td>
+    </tr>
+    <tr>
+      <td>Kasalukuyang bersyon</td>
+      <td>v1</td>
+    </tr>
+  </tbody>
+</table>
+}
+
+## Paglimita sa rate
+Upang mapanatili ang kalidad and mapigilan ang malisyosong paggamit ng Potter DB: API mayroong limitasyong ip-based ng **900 na kahilingan kada oras** (15 kahilingan / minuto). Kung naabot mo ang limitasyong ito, ikaw ay makakatanggap ng a `429 To Many Requests` (masyadong maraming kahilingan).
+Pakitandaan na ang mga limitasyon sa rate na ito ay maaaring magbago, kaya mahalagang suriin ang pinakabagong impormasyon sa limitasyon ng rate sa dokumentasyon o sa pamamagitan ng mga tugon sa API.
+
+<br />
+
+__Ngayong mayroon ka nang mga pangunahing kaalaman, sumisid tayo sa dokumentasyon ng API upang tuklasin ang mga available na endpoint at simulan ang paggawa ng iyong mga mahiwagang query.
+Sumangguni sa mga seksyon ng dokumentasyon para sa [REST](/apis/rest) at [GraphQL](apis/graphql) para sa detalyadong impormasyon sa kung paano epektibong gamitin ang API.
+Upang makakuha ng pangkalahatang-ideya ng lahat ng magagamit na mapagkukunan, tingnan ang [Pangkalahatang-ideya ng mga Mapagkukunan](/resources)._

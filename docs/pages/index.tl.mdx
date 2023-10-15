@@ -1,0 +1,89 @@
+import { useSSG } from "nextra/ssg";
+
+import { Callout } from "nextra-theme-docs";
+
+import graphqlFetcher from "../lib/fetchers/graphqlFetcher";
+
+export const getStaticProps = async ({ params }) => {
+  const query = `
+    {
+      books {
+        totalCount
+      }
+      characters {
+        totalCount
+      }
+      spells {
+        totalCount
+      }
+      potions {
+        totalCount
+      }
+      movies {
+        totalCount
+      }
+    }
+  `;
+  const result = await graphqlFetcher(query);
+  const mapped_result = result?.data;
+  let hash = {};
+  for (let k in mapped_result) {
+    hash["total_" + k] = mapped_result[k]?.totalCount;
+  }
+  return {
+    props: {
+      ssg: hash,
+    },
+  };
+};
+
+export const Stats = () => {
+  const {
+    total_books,
+    total_characters,
+    total_spells,
+    total_potions,
+    total_movies,
+  } = useSSG();
+  return (
+    <table>
+      <tbody>
+        <tr>
+          <td>Mga Aklat</td>
+          <td>{total_books}</td>
+        </tr>
+        <tr>
+          <td>Mga Tauhan</td>
+          <td>{total_characters}</td>
+        </tr>
+        <tr>
+          <td>Mga Pelikula</td>
+          <td>{total_movies}</td>
+        </tr>
+        <tr>
+          <td>Mga Gayuma</td>
+          <td>{total_potions}</td>
+        </tr>
+        <tr>
+          <td>Mga Orasyon</td>
+          <td>{total_spells}</td>
+        </tr>
+      </tbody>
+    </table>
+  );
+};
+
+# Panimula
+
+Maligayang pagdating sa dokumentasyon ng **Potter DB: API**!
+Sumisid sa mahiwagang mundo ng Harry Potter na may paraan sa pagkuha ng datos sa mga tauhan, aklat, orasyon, at higit pa.
+Isa ka mang tagabuo na gumagawa ng isang aplikasyon na halaw sa tema ng Potter o isang mausisa na tagahanga lang, magiging gabay sa iyo ang dokumentasyong ito sa mga nakatagong lihim ng aming API.
+
+## Ano ang Potter DB: API?
+Ang Potter DB: API ay isang interface na nakabatay sa REST at GraphQL para sa malawak imbakan ng datos mula sa mahiwagang mundo ng Harry Potter. Kami ang bahala sa mga datos, nang sa gayon maituon ninyo ang inyong panahon sa pagbuo ng inyong app. Sa pamamagitan ng API na ito, maaari ninyong gawin ang sumusunod :
+- Magtamo ng detalyadong impormasyon tungkol sa inyong mga minamahal na `mga tauhan`, kabilang ang kanilang their pansariling kasaysayan, kabilang na tahanan, and marami pang iba.
+- Magsaliksik ng kumprehensibong talaan ng mga of `mga orasyon` at `mga gayuma` na ginagamit sa mahiwagang mundo.
+- Magsiyasat ng  masusing detalye tungkol sa `mga aklat` at `mga pelikula` sa sandaigdigan ng Harry Potter.
+
+## Estatistika
+<Stats />
