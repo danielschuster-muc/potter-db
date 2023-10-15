@@ -3,7 +3,7 @@ import React from "react";
 import Skeleton from "../ui/Skeleton";
 import LinksSkeleton from "../ui/LinksSkeleton";
 
-export default function CharacterDetailsSkeleton() {
+export default function BookDetailsSkeleton() {
   return (
     <>
       <div className="flex flex-col items-center justify-center mb-2">
