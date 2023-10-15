@@ -1,0 +1,159 @@
+# REST API
+Ang aming RESTful API ay nagbibigay ng isang tuwirang paraan upang makipag-ugnayan sa Potter DB, na sumusunod sa detalye ng JSON:API at OAS. Sa seksyong ito, tatalakayin namin ang mga pangunahing aspeto ng paggamit ng REST API, kabilang ang mga magagamit na endpoint at kung paano i-format ang iyong mga kahilingan at tugon.
+
+## Magagamit na mga Endpoints
+
+Upang ma-access ang data mula sa REST API kailangan mong gumawa ng hiling na `GET` sa isa sa mga sumusunod na endpoint:
+
+<details>
+<summary>I-expand para makita ang lahat ng endpoint</summary>
+
+**Mga Aklat**
+- `/v1/books`: Kunin ang listahan ng mga aklat.
+- `/v1/books/{id}`: Kunin ang isang libro sa pamamagitan ng ID nito.
+- `/v1/books/{book_id}/chapters`: Kunin ang isang listahan ng mga kabanata para sa isang partikular na aklat.
+- `/v1/books/{book_id}/chapters/{id}`: Kunin ang isang kabanata para sa isang partikular na aklat sa pamamagitan ng ID nito.
+
+**Mga Tauhan**
+- `/v1/characters`: Kunin ang listahan ng mga tauhan.
+- `/v1/characters/{id}`: Kunin ang isang tauhan sa pamamagitan ng ID nito.
+
+**Mga Pelikula**
+- `/v1/movies`: Kunin ang listahan ng mga pelikula.
+- `/v1/movies/{id}`: Kunin ang isang pelikula sa pamamagitan ng ID nito.
+
+**Mga Gayuma**
+- `/v1/potions`: Kunin ang listahan ng mga gayuma.
+- `/v1/potions/{id}`: Kunin ang isang gayuma sa pamamagitan ng ID nito.
+
+**Mga Orasyon**
+- `/v1/spells`: Kunin ang isang listahan ng mga orasyon.
+- `/v1/spells/{id}`: Kunin ang isang orasyon sa pamamagitan ng ID nito.
+
+Dapat ibigay ang mga ID bilang mga UUID o slug.
+
+</details>
+
+## OpenAPI Specification (OAS)
+
+Upang gawing mas madali ang pagsasama, nagbibigay kami ng isang [OpenAPI Specification](https://openapis.org) na dokumentong naglalarawan sa mga endpoint ng API, mga modelo ng data at mga schema ng kahilingan/tugon.
+Ang API ay umaayon sa bersyon 3.0.3 ng detalye ng OAS.
+Mahahanap mo ang aming kasalukuyang dokumento ng OAS [dito](https://api.potterdb.com/v1/openapi.json).
+
+## JSON:API Format
+
+Ang aming REST API ay sumusunod sa [JSON:API specification](https://jsonapi.org/), na nagbibigay ng pare-parehong paraan upang buuin ang mga kahilingan at tugon ng API. Narito ang isang pangkalahatang-ideya ng mga pangunahing tampok ng JSON:API sa konteksto ng aming API:
+
+- **Resource Objects**: Ang bawat mapagkukunan ay kinakatawan bilang isang bagay na may `type`, `id` at `attributes`.
+- **Relationships**: Ang mga mapagkukunan ay maaaring nauugnay sa iba pang mga mapagkukunan, halimbawa ang isang `book` na mapagkukunan ay nauugnay sa mga mapagkukunan ng `chapter` at vice versa.
+- **Pagination**: Kapag ang isang tugon ay naglalaman ng isang malaking bilang ng mga mapagkukunan, ang tugon ay mahahati sa ilang pahina. Tingnan ang [Pagination](#pagination) para sa mas maraming impormasyon.
+- **Errors**: Ang mga error ay ibinabalik gamit ang mga standardized na istruktura, na ginagawang madali ang paghawak at pag-troubleshoot ng mga isyu.
+
+## Paano gumawa ng mga Kahilingan
+
+Upang humiling sa REST API, kailangan mong gumawa ng hiling na `GET` sa isa sa aming mga available na endpoint.
+Narito ang isang pangunahing halimbawa kung paano kunin ang isang listahan ng mga character gamit ang `/characters` endpoint:
+
+```http
+GET https://api.potterdb.com/v1/characters
+```
+
+Mangyaring sumangguni sa dokumento ng Pagtutukoy ng OpenAPI para sa detalyadong impormasyon.
+
+## Pagination
+
+Ang mga tugon na may malaking bilang ng mga mapagkukunan ay ilalagay sa pahina. Ang tugon ay magsasama ng object na `links` na may mga link na `first`, `last`, `prev` at `next` sa una, huli, nakaraan at susunod na pahina ng mga resulta ayon sa pagkakabanggit.
+
+Upang baguhin ang dami ng mga mapagkukunan sa bawat pahina, maaari mong gamitin ang `page[size]` na query parameter (ang pinakahigit na size ay 100):
+
+```http
+GET https://api.potterdb.com/v1/characters?page[size]=25
+```
+
+Upang baguhin ang kasalukuyang pahina, maaari mong gamitin ang `page[number]` na query parameter:
+
+```http
+GET https://api.potterdb.com/v1/characters?page[number]=2
+```
+
+## Ransack
+
+Sinusuportahan ng aming REST API ang advanced na pag-filter at pag-uuri gamit ang [Ransack](https://activerecord-hackery.github.io/ransack/).
+
+### Pagpi-filter
+
+Maaari mong i-filter ang mga mapagkukunan sa pamamagitan ng pagdaragdag ng isang `filter` na query parameter sa iyong kahilingan. Halimbawa, upang i-filter ang mga character ayon sa pangalan, maaari mong gamitin ang `name_cont` na panaguri:
+
+```http
+GET https://api.potterdb.com/v1/characters?filter[name_eq]=Weasley
+```
+
+Ibabalik nito ang lahat ng tauhan na may pangalang "Weasley".
+
+<details>
+  <summary>I-expand para makita ang lahat ng magagamit na panaguri ng filter</summary>
+  - `eq`: katumbas 
+  - `eq_any`: katumbas ng kahit ano
+  - `eq_all`: katumbas lahat
+  - `not_eq`: hindi katumbas
+  - `not_eq_any`: hindi katumbas ng kahit ano
+  - `not_eq_all`: hindi katumbas lahat 
+  - `matches`: tugma 
+  - `matches_any`: tugma ng kahit ano
+  - `matches_all`: tugma lahat
+  - `does_not_match`: hindi tugma
+  - `does_not_match_any`: hindi tugma ng kahit ano
+  - `does_not_match_all`: hindi tugma lahat
+  - `lt`: mas mababa sa
+  - `lt_any`: mas mababa sa kahit ano
+  - `lt_all`: mas mababa sa lahat
+  - `lteq`: mas mababa sa o katumbas
+  - `lteq_any`: mas mababa sa  o katumbas ng kahit ano
+  - `lteq_all`: mas mababa o katumbas lahat
+  - `gt`: mahigit sa
+  - `gt_any`: mahigit sa kahit ano 
+  - `gt_all`: mahigit sa lahat
+  - `gteq`: mahigit sa o katumbas sa
+  - `gteq_any`: mahigit sa o katumbas sa kahit ano 
+  - `gteq_all`: mahigit sa o katumbas sa lahat
+  - `in`: sa 
+  - `in_any`: sa kahit ano
+  - `in_all`: sa lahat
+  - `not_in`: hindi sa
+  - `not_in_any`: hindi sa kahit ano
+  - `not_in_all`: hindi sa lahat
+  - `cont`: naglalaman ng 
+  - `cont_any`: naglalaman ng kahit ano
+  - `cont_all`: naglalaman ng lahat
+  - `not_cont`: hindi naglalaman ng 
+  - `not_cont_any`: hindi naglalaman ng kahit ano
+  - `not_cont_all`: hindi naglalaman ng lahat
+  - `start`: nagsisimula sa
+  - `start_any`: nagsisimula sa anuman
+  - `start_all`: nagsisimula sa lahat
+  - `not_start`: hindi nagsisimula sa
+  - `not_start_any`: hindi nagsisimula sa anuman
+  - `not_start_all`: hindi nagsisimula sa lahat
+  - `end`: nagtatapos sa
+  - `end_any`: nagtatapos sa anuman
+  - `end_all`: nagtatapos sa lahat
+  - `not_end`: hindi nagtatapos sa
+  - `not_end_any`: hindi nagtatapos sa anuman
+  - `not_end_all`: hindi nagtatapos sa lahat
+  - `'true'`: ay totoo 
+  - `'false'`: ay huwad
+  - `present`: ay naroroon
+  - `blank`: ay blanko
+  - `'null'`: ay null 
+  - `not_null`: ay hindi null
+</details>
+
+### Pakasunod-sunod
+
+Maaari mong ayusin ang mga mapagkukunan sa pamamagitan ng pagdaragdag ng isang `sort` na query parameter sa iyong kahilingan. Halimbawa, upang pagbukud-bukurin ang mga tauhan ayon sa pangalan, maaari mong gamitin ang `name` na katangian (magtungo sa [Resources](#resources) para makita ang lahat ng magagamit na katangian):
+
+```http
+GET https://api.potterdb.com/v1/characters?sort=name
+```
+
+Gamitin ang `-` na unlapi upang ayusin sa pababang pagkakasunud-sunod.
