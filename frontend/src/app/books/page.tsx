@@ -1,7 +1,8 @@
+import React from "react";
+
 import BookList from "@/components/books/BookList";
 import { simpleFetch } from "@/lib/utils";
 import Book from "@/types/Book";
-import React from "react";
 
 export default async function BookIndex() {
   const rawBooks = await simpleFetch(`https://api.potterdb.com/v1/books`);

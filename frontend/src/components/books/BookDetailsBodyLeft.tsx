@@ -1,6 +1,7 @@
-import Book from "@/types/Book";
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
+
+import Book from "@/types/Book";
 import Links from "../ui/Links";
 
 export default function BookDetailsBodyLeft({ book }: { book: Book }) {

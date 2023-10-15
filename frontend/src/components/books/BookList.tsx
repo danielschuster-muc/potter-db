@@ -1,5 +1,6 @@
-import Book from "@/types/Book";
 import React from "react";
+
+import Book from "@/types/Book";
 import BookListItem from "./BookListItem";
 
 export default function BookList({ results }: { results: Book[] }) {

@@ -1,6 +1,7 @@
+import React from "react";
+
 import { simpleFetch } from "@/lib/utils";
 import Chapter from "@/types/Chapters";
-import React from "react";
 
 export default async function BookAccordionList({ slug }: { slug: string }) {
   const rawBookChapters = await simpleFetch(`https://api.potterdb.com/v1/books/${slug}/chapters`);

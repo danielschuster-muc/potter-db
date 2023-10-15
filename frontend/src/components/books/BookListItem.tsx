@@ -1,9 +1,10 @@
-import Book from "@/types/Book";
-import Image from "next/image";
 import React from "react";
-import TextIconBox from "../ui/TextIconBox";
+import Image from "next/image";
 import Link from "next/link";
 import { FaCalendarDay, FaBook, FaPen } from "react-icons/fa";
+
+import Book from "@/types/Book";
+import TextIconBox from "../ui/TextIconBox";
 
 export default function BookListItem({ book }: { book: Book }) {
   const { title, cover, slug, release_date, pages, author } = book.attributes;
