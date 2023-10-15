@@ -19,6 +19,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Editer cette page sur GitHub →";
+        case "tl":
+          return "I-edit ang pahinang ito sa GitHub →";
         default:
           return "Edit this page on GitHub →";
       }
@@ -31,6 +33,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Donnez-nous votre avis →";
+        case "tl":
+          return "Bigyan kami ng katugunan →";
         default:
           return "Give us feedback →";
       }
@@ -45,6 +49,9 @@ const config: DocsThemeConfig = {
     switch (locale) {
       case "fr":
         text = "Dernière mise à jour le";
+        break;
+      case "tl":
+        text = "Huling ini-update noong";
         break;
       default:
         text = "Last updated on";
@@ -68,7 +75,7 @@ const config: DocsThemeConfig = {
       <meta name="og:title" content="Potter DB: Docs" />
     </>
   ),
-  i18n: [{ locale: "en", text: "English" },{ locale: "fr", text: "Français" }],
+  i18n: [{ locale: "en", text: "English" },{ locale: "fr", text: "Français" },{ locale: "tl", text: "Filipino/Tagalog" }],
   logo: <span>Potter DB: Docs</span>,
   project: {
     link: "https://github.com/danielschuster-muc/potter-db",
@@ -79,6 +86,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Rechercher...";
+        case "tl":
+            return "Maghanap...";
         default:
           return "Search...";
       }
@@ -88,6 +97,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "En cours de chargement...";
+        case "tl":
+            return "Naglo-load...";
         default:
           return "Loading...";
       }
@@ -98,6 +109,9 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           text = "Aucun résultat.";
+          break;
+        case "tl":
+          text = "Walang nahanap na resulta";
           break;
         default:
           text = "No results found.";
@@ -130,6 +144,12 @@ const config: DocsThemeConfig = {
             dark: "Sombre",
             system: "Système",
           };
+        case "tl":
+          return {
+            light: "Liwanag",
+            dark: "Dilim",
+            system: "Sistema",
+          };
         default:
           return {
             light: "Light",
@@ -146,6 +166,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Sur cette page";
+        case "tl":
+          return "Sa pahinang ito";
         default:
           return "On this page";
       }
