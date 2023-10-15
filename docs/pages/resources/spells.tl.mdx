@@ -1,0 +1,87 @@
+# Mga Orasyon
+Ang mapagkukunan na ito ay nagbibigay ng impormasyon tungkol sa mga orasyon mula sa uniberso ng Harry Potter.
+
+## Mga Katangian
+{
+<table>
+  <thead>
+    <tr>
+      <th>Pangalan</th>
+      <th>Uri</th>
+      <th>Paglalarawan</th>
+      <th>Nai-ifilter</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "category",
+        type: "mga titik",
+        description: "Ang pangkat ng orasyon na ito.",
+        filterable: true,
+      },
+      {
+        name: "creator",
+        type: "mga titik",
+        description: "Ang manlilikha ng orasyon na ito.",
+        filterable: true,
+      },
+      {
+        name: "effect",
+        type: "mga titik",
+        description: "Ang epekto ng orasyon na ito.",
+        filterable: true,
+      },
+      {
+        name: "hand",
+        type: "mga titik",
+        description: "Ang galaw ng kamay ng orasyon na ito.",
+        filterable: true,
+      },
+      {
+        name: "image",
+        type: "mga titik",
+        description: "Isang link patungo sa isang larawan ng orasyon na ito.",
+        filterable: false,
+      },
+      {
+        name: "incantation",
+        type: "mga titik",
+        description: "Ang bulong ng orasyon na ito.",
+        filterable: true,
+      },
+      {
+        name: "light",
+        type: "mga titik",
+        description: "Ang liwanag ng orasyon na ito.",
+        filterable: true,
+      },
+      {
+        name: "name",
+        type: "mga titik",
+        description: "Ang pangalan ng orasyon na ito.",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "mga titik",
+        description: "Isang slug upang kilalanin ang orasyon na ito.",
+        filterable: false,
+      },
+      {
+        name: "wiki",
+        type: "mga titik",
+        description: "Isang link sa Harry Potter Wiki Page ng orasyon na ito.",
+        filterable: false,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

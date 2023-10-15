@@ -1,0 +1,81 @@
+# Mga Aklat
+Ang mapagkukunang ito ay nagbibigay ng impormasyon tungkol sa mga aklat mula sa uniberso ng Harry Potter.
+
+## Mga Katangian
+{
+<table>
+  <thead>
+    <tr>
+      <th>Pangalan</th>
+      <th>Uri</th>
+      <th>Paglalarawan</th>
+      <th>Nai-ifilter</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "author",
+        type: "mga titik",
+        description: "Ang manunulat ng aklat na ito",
+        filterable: true,
+      },
+      {
+        name: "cover",
+        type: "mga titik",
+        description: "Ang url sa pabalat ng aklat na ito.",
+        filterable: false,
+      },
+      {
+        name: "dedication",
+        type: "mga titik",
+        description: "Ang dedikasyon ng aklat na ito.",
+        filterable: true,
+      },
+      {
+        name: "pages",
+        type: "numero",
+        description: "Ang bilang ng pahina ng aklat na ito.",
+        filterable: true,
+      },
+      {
+        name: "release_date",
+        type: "petsa",
+        description: "Ang petsa kung kailan nailathala ang aklat na ito.",
+        filterable: true,
+      },
+      {
+        name: "summary",
+        type: "mga titik",
+        description: "Ang buod ng aklat na ito.",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "mga titik",
+        description: "Isang slug upang kilalanin ang aklat na ito.",
+        filterable: false,
+      },
+      {
+        name: "title",
+        type: "mga titik",
+        description: "Ang pamagat ng aklat na ito.",
+        filterable: true,
+      },
+      {
+        name: "wiki",
+        type: "mga titik",
+        description: "Isang link patungo sa Harry Potter Wiki Page ng aklat na ito.",
+        filterable: false,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

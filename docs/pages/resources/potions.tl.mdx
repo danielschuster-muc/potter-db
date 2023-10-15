@@ -1,0 +1,99 @@
+# Mga Gayuma
+Ang mapagkukunang ito ay nagbibigay ng impormasyon tungkol sa mga gayuma mula sa uniberso ng Harry Potter.
+
+## Mga Katangian
+{
+<table>
+  <thead>
+    <tr>
+      <th>Pangalan</th>
+      <th>Uri</th>
+      <th>Paglalarawan</th>
+      <th>Nai-ifilter</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "characteristics",
+        type: "mga titik",
+        description: "Ang katangian ng gayumang ito.",
+        filterable: true,
+      },
+      {
+        name: "difficulty",
+        type: "mga titik",
+        description: "Ang antas ng hirap na itimpla ang gayumang ito",
+        filterable: true,
+      },
+      {
+        name: "effect",
+        type: "mga titik",
+        description: "Ang pangunahing epekto ng gayumang ito.",
+        filterable: true,
+      },
+      {
+        name: "image",
+        type: "mga titik",
+        description: "Isang link patungo sa isang larawan ng gayumang ito.",
+        filterable: false,
+      },
+      {
+        name: "inventors",
+        type: "mga titik",
+        description: "Ang mga manlilikha ng gayumang ito.",
+        filterable: true,
+      },
+      {
+        name: "ingredients",
+        type: "mga titik",
+        description: "Ang mga sangkap na kailangan sa paggawa ng gayumang ito.",
+        filterable: true,
+      },
+      {
+        name: "manufacturers",
+        type: "mga titik",
+        description: "Ang mga tagagawa ng gayumang ito.",
+        filterable: true,
+      },
+      {
+        name: "name",
+        type: "mga titik",
+        description: "Ang pangalan ng gayumang ito.",
+        filterable: true,
+      },
+      {
+        name: "side_effects",
+        type: "mga titik",
+        description: "Ang mga di nilalayong bisa ng gayumang ito.",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "mga titik",
+        description: "Isang slug upang kilalanin ang gayumang ito.",
+        filterable: false,
+      },
+      {
+        name: "time",
+        type: "mga titik",
+        description: "Ang oras na ginugol sa pagtimpla ng gayumang ito.",
+        filterable: true,
+      },
+      {
+        name: "wiki",
+        type: "mga titik",
+        description: "Isang link sa Harry Potter Wiki Page ng gayumang ito.",
+        filterable: false,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

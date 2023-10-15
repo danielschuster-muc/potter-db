@@ -1,0 +1,135 @@
+# Mga Pelikula
+Ang mapagkukunan na ito ay nagbibigay ng impormasyon tungkol sa mga pelikula mula sa uniberso ng Harry Potter.
+
+## Mga Katangian
+{
+<table>
+  <thead>
+    <tr>
+      <th>Pangalan</th>
+      <th>Uri</th>
+      <th>Paglalarawan</th>
+      <th>Nai-ifilter</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "box_office",
+        type: "mga titik",
+        description: "Ang kinita ng pelikulang ito sa pamamagitan ng pagbebenta ng tiket.",
+        filterable: true,
+      },
+      {
+        name: "budget",
+        type: "mga titik",
+        description: "Ang badyet ng pelikulang ito.",
+        filterable: true,
+      },
+      {
+        name: "cinematographers",
+        type: "array",
+        description: "Isang listahan ng mga cinematographer sa mga pelikulang ito.",
+        filterable: true,
+      },
+      {
+        name: "directors",
+        type: "array",
+        description: "Isang listahan ng mga taong nagdirek ng mga pelikulang ito.",
+        filterable: true,
+      },
+      {
+        name: "distributors",
+        type: "array",
+        description: "Isang listahan ng mga taong namahagi ng mga pelikulang ito.",
+        filterable: true,
+      },
+      {
+        name: "editors",
+        type: "array",
+        description: "Isang listahan ng mga taong nag-matnugot ng mga pelikulang ito.",
+        filterable: true,
+      },
+      {
+        name: "music_composers",
+        type: "array",
+        description: "Isang listahan ng mga taong gumawa ng musika ng mga pelikulang ito.",
+        filterable: true,
+      },
+      {
+        name: "poster",
+        type: "string",
+        description: "Isang link sa paskil ng pelikulang ito.",
+        filterable: false,
+      },
+      {
+        name: "producers",
+        type: "array",
+        description: "Isang listahan ng mga taong gumawa ng mga pelikulang ito.",
+        filterable: true,
+      },
+      {
+        name: "rating",
+        type: "mga titik",
+        description: "Ang rekomendasyon sa edad ng pelikulang ito.",
+        filterable: true,
+      },
+      {
+        name: "release_date",
+        type: "petsa",
+        description: "Ang petsa kung kailan ipinalabas ang pelikulang ito..",
+        filterable: true,
+      },
+      {
+        name: "running_time",
+        type: "mga titik",
+        description: "Ang tagal ng takbo ng pelikulang ito.",
+        filterable: true,
+      },
+      {
+        name: "screenwriters",
+        type: "array",
+        description: "Isang listahan ng mga tagasulat ng senaryo sa mga pelikulang ito",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "mga titik",
+        description: "Isang slug upang kilalanin ang pelikulang ito.",
+        filterable: false,
+      },
+      {
+        name: "summary",
+        type: "mga titik",
+        description: "Ang buod ng pelikulang ito.",
+        filterable: true,
+      },
+      {
+        name: "title",
+        type: "mga titik",
+        description: "Ang pamagat ng pelikulang ito.",
+        filterable: true,
+      },
+      {
+        name: "trailer",
+        type: "mga titik",
+        description: "Isang link sa pasilip na bidyo ng pelikulang ito.",
+        filterable: false,
+      },
+      {
+        name: "wiki",
+        type: "mga titik",
+        description: "Isang link sa Harry Potter Wiki Page ng pelikulang ito.",
+        filterable: false,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

@@ -1,0 +1,53 @@
+# Mga Tauhan
+Ang mapagkukunang ito ay nagbibigay ng impormasyon tungkol sa mga tauhan mula sa uniberso ng Harry Potter.
+
+## Mga Katangian
+{
+<table>
+  <thead>
+    <tr>
+      <th>Pangalan</th>
+      <th>Uri</th>
+      <th>Paglalarawan</th>
+      <th>Nai-ifilter</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      { name: "alias_names", type: "array", description: "Isang listahan ng mga pangalan ng mga tauhan na, kung hindi man ay ang alyas kung saan kilala sila bilang.", filterable: true },
+      { name: "animagus", type: "mga titik", description: "Ang animagus ng tauhan na ito.", filterable: true },
+      { name: "blood_status", type: "mga titik", description: "Ang katayuan ng dugo ng tauhan na ito.", filterable: true },
+      { name: "boggart", type: "mga titik", description: "Ang boggart ng tauhan na ito.", filterable: true },
+      { name: "born", type: "mga titik", description: "Ang petsa at lugar ng kapanganakan ng tauhan na ito.", filterable: true },
+      { name: "died", type: "mga titik", description: "Ang petsa at lugar ng kamatayan ng tauhan na ito.", filterable: true },
+      { name: "eye_color", type: "mga titik", description: "Ang kulay ng mata ng tauhan na ito.", filterable: true },
+      { name: "family_member", type: "array", description: "Isang listahan ng mga miyembro ng pamilya ng tauhan na ito.", filterable: true },
+      { name: "gender", type: "mga titik", description: "Ang kasarian ng tauhan na ito.", filterable: true },
+      { name: "hair_color", type: "mga titik", description: "Ang kulay ng buhok ng tauhan na ito.", filterable: true },
+      { name: "height", type: "mga titik", description: "Ang taas ng tauhan na ito gamit ang pulgada.", filterable: true },
+      { name: "house", type: "mga titik", description: "Ang kinabibilangang kabahayang hogwarts ng tauhan na ito.", filterable: true },
+      { name: "image", type: "mga titik", description: "Isang link patungo sa isang larawan ng tauhan na ito.", filterable: false },
+      { name: "jobs", type: "array", description: "Isang listahan ng mga trabahong ginawa ng tauhan na ito.", filterable: true },
+      { name: "name", type: "mga titik", description: "Ang marangal na titulo ng tauhan na ito.", filterable: true },
+      { name: "nationality", type: "mga titik", description: "Ang pagkamakabayan ng tauhan na ito.", filterable: true },
+      { name: "patronus", type: "mga titik", description: "Ang patronus ng tauhan na ito.", filterable: true },
+      { name: "romances", type: "array", description: "Isang listahan ng mga naging kasintahan ng tauhan na ito.", filterable: true },
+      { name: "skin_color", type: "mga titik", description: "Ang kulay ng balat ng tauhan na ito.", filterable: true },
+      { name: "slug", type: "mga titik", description: "Isang slug upang kilalanin ang tauhan na ito.", filterable: false },
+      { name: "species", type: "mga titik", description: "Ang uri ng tauhan na ito.", filterable: true },
+      { name: "titles", type: "array", description: "Isang listahan ng mga pangalan na naglalarawan sa posisyon o trabaho ng isang tauhan.", filterable: true },
+      { name: "wand", type: "array", description: "Isang listahan ng mga wand ng tauhan na ito.", filterable: true },
+      { name: "weight", type: "mga titik", description: "Ang bigat ng tauhan na ito gamit ang libra.", filterable: true },
+      { name: "wiki", type: "mga titik", description: "Isang link sa Harry Potter Wiki Page ng tauhan na ito.", filterable: false },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? '✅' : '❌'}</td>
+      </tr>
+    ))}
+
+  </tbody>
+</table>
+}

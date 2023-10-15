@@ -1,0 +1,51 @@
+# Mga Kabanata
+Ang mapagkukunan na ito ay nagbibigay ng impormasyon tungkol sa mga tiyak na kabanata mula sa uniberso ng Harry Potter.
+
+## Mga Katangian
+{
+<table>
+  <thead>
+    <tr>
+      <th>Pangalan</th>
+      <th>Uri</th>
+      <th>Paglalarawan</th>
+      <th>Nai-ifilter</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "order",
+        type: "numero",
+        description: "Ang pagkakasunod-sunod ng kabanatang ito sa loob ng aklat.",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "mga titik",
+        description: "Isang slug upang kilalanin ang kabanatang ito.",
+        filterable: false,
+      },
+      {
+        name: "summary",
+        type: "mga titik",
+        description: "Ang buod ng kabanatang na ito.",
+        filterable: true,
+      },
+      {
+        name: "title",
+        type: "string",
+        description: "Ang pamagat ng kabanatang ito.",
+        filterable: true,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}
