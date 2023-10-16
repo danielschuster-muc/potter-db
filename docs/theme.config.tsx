@@ -19,6 +19,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Editer cette page sur GitHub →";
+        case "sk":
+          return "Upraviť stránku cez GitHub →";
         default:
           return "Edit this page on GitHub →";
       }
@@ -31,6 +33,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Donnez-nous votre avis →";
+        case "sk":
+          return "Zanechať spätnú väzbu →";
         default:
           return "Give us feedback →";
       }
@@ -45,6 +49,9 @@ const config: DocsThemeConfig = {
     switch (locale) {
       case "fr":
         text = "Dernière mise à jour le";
+        break;
+      case "sk":
+        text = "Naposledy upravené";
         break;
       default:
         text = "Last updated on";
@@ -68,7 +75,7 @@ const config: DocsThemeConfig = {
       <meta name="og:title" content="Potter DB: Docs" />
     </>
   ),
-  i18n: [{ locale: "en", text: "English" },{ locale: "fr", text: "Français" }],
+  i18n: [{ locale: "en", text: "English" },{ locale: "fr", text: "Français" }, { locale: "sk", text: "Slovenčina" }],
   logo: <span>Potter DB: Docs</span>,
   project: {
     link: "https://github.com/danielschuster-muc/potter-db",
@@ -79,6 +86,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Rechercher...";
+        case "sk":
+          return "Hľadať...";
         default:
           return "Search...";
       }
@@ -88,6 +97,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "En cours de chargement...";
+        case "sk":
+          return "Načítava sa...";
         default:
           return "Loading...";
       }
@@ -98,6 +109,9 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           text = "Aucun résultat.";
+          break;
+        case "sk":
+          text = "Nenašli sa žiadne výsledky.";
           break;
         default:
           text = "No results found.";
@@ -130,6 +144,12 @@ const config: DocsThemeConfig = {
             dark: "Sombre",
             system: "Système",
           };
+        case "sk":
+          return {
+            light: "Svetlý motív",
+            dark: "Tmavý motív",
+            system: "Systémové nastavenie",
+          };
         default:
           return {
             light: "Light",
@@ -146,6 +166,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Sur cette page";
+        case "sk":
+          return "Na tejto stránke";
         default:
           return "On this page";
       }
