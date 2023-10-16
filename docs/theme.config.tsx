@@ -19,6 +19,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Editer cette page sur GitHub →";
+        case "es":
+          return "Editar esta página en GitHub →";
         default:
           return "Edit this page on GitHub →";
       }
@@ -31,6 +33,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Donnez-nous votre avis →";
+        case "es":
+          return "Danos tu opinión →";
         default:
           return "Give us feedback →";
       }
@@ -45,6 +49,9 @@ const config: DocsThemeConfig = {
     switch (locale) {
       case "fr":
         text = "Dernière mise à jour le";
+        break;
+      case "es":
+        text = "Última actualización el";
         break;
       default:
         text = "Last updated on";
@@ -68,7 +75,7 @@ const config: DocsThemeConfig = {
       <meta name="og:title" content="Potter DB: Docs" />
     </>
   ),
-  i18n: [{ locale: "en", text: "English" },{ locale: "fr", text: "Français" }],
+  i18n: [{ locale: "en", text: "English" },{ locale: "fr", text: "Français" }, { locale: "es", text: "Español" }],
   logo: <span>Potter DB: Docs</span>,
   project: {
     link: "https://github.com/danielschuster-muc/potter-db",
@@ -79,6 +86,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Rechercher...";
+        case "es":
+          return "Buscar...";
         default:
           return "Search...";
       }
@@ -88,6 +97,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "En cours de chargement...";
+        case "es":
+          return "Cargando...";
         default:
           return "Loading...";
       }
@@ -98,6 +109,9 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           text = "Aucun résultat.";
+          break;
+        case "es":
+          text = "Sin resultados.";
           break;
         default:
           text = "No results found.";
@@ -146,6 +160,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Sur cette page";
+        case "es":
+          return "En esta página";
         default:
           return "On this page";
       }
