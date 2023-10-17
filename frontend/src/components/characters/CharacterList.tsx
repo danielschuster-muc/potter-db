@@ -1,6 +1,6 @@
 import Character from "@/types/Character";
 
-import CharacterListSkeleton from "./CharacterListSkeleton";
+import ListSkeleton from "../ui/ListSkeleton";
 import CharacterListItem from "./CharacterListItem";
 
 export default function CharacterList({
@@ -12,7 +12,7 @@ export default function CharacterList({
   error: any;
   isLoading: boolean;
 }) {
-  if (isLoading) return <CharacterListSkeleton />;
+  if (isLoading) return <ListSkeleton />;
   if (error) return <h2>Failed to load data.</h2>;
   return (
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
