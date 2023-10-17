@@ -1,5 +1,5 @@
-import BookDetailsSkeleton from "@/components/books/BookDetailsSkeleton";
+import DetailsSkeleton from "@/components/ui/DetailsSkeleton";
 
 export default function Loading() {
-  return <BookDetailsSkeleton />;
+  return <DetailsSkeleton />;
 }
