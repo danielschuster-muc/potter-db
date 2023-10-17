@@ -1,0 +1,50 @@
+# Chapters
+This resource provides information about chapters of a specific book from the Harry Potter Universe.
+
+## Attributes
+{
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+      <th>Filtrable</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "order",
+        type: "integer",
+        description: "El orden cronológico de este capítulo dentro del libro.",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "string",
+        description: "Un slug para identificar este capítulo.",
+        filterable: false,
+      },
+      {
+        name: "summary",
+        type: "string",
+        description: "El resumen de este capítulo.",
+        filterable: true,
+      },
+      {
+        name: "title",
+        type: "string",
+        description: "El título de este capítulo.",
+        filterable: true,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}
