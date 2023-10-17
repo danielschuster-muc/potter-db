@@ -1,8 +1,8 @@
 import React from "react";
 
-import Skeleton from "../ui/Skeleton";
+import Skeleton from "./Skeleton";
 
-export default function CharacterListSkeleton() {
+export default function ListSkeleton() {
   return (
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       {Array.of(1, 2, 3, 4).map((_, i) => {
