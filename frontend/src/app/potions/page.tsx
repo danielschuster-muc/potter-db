@@ -6,12 +6,11 @@ import useSWRInfinite from "swr/infinite";
 import PotionList from "@/components/potions/PotionList";
 import LoadMoreButton from "@/components/ui/LoadMoreButton";
 import Searchbar from "@/components/ui/Searchbar";
-import Potion from "@/types/Potion";
-import { ApiResult } from "@/types/ApiResult";
+import Potion, { PotionResponse } from "@/types/Potion";
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-const getKey = (pageIndex: number, previousPageData: ApiResult, query: string) => {
+const getKey = (pageIndex: number, previousPageData: PotionResponse, query: string) => {
   if (previousPageData && !previousPageData.data.length) return null;
   return `https://api.potterdb.com/v1/potions?page[number]=${pageIndex + 1}&page[size]=24${
     query.trim.length <= 0 ? `&filter[name_cont_any]=${query}` : ""
