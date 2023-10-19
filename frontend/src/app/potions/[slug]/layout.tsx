@@ -14,13 +14,14 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 
   const potion = rawPotion?.data as Potion;
-  const { name, difficulty, effect } = potion.attributes;
+  const { name, difficulty, effect, inventors, side_effects } = potion.attributes;
 
   return {
     title: `${name} | Potter DB`,
     description: `${difficulty ? "Difficulty: " + difficulty + " | " : ""}${
       effect ? "Effect: " + effect + " | " : ""
-    }
+    }${inventors ? "Inventors: " + inventors + " | " : ""}
+    ${side_effects ? "Side Effects: " + side_effects + " | " : ""}
     `,
   };
 }
