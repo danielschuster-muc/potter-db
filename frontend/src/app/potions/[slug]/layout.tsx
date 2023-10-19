@@ -31,7 +31,20 @@ export async function generateStaticParams() {
 
   const potionSlugs = await fetchedPotions?.data?.map((potion: Potion) => potion.attributes.slug);
 
-  const slugs = potionSlugs.sort();
+  const additionalSlugs = [
+    "draught-of-peace",
+    "amortentia",
+    "beautification-potion",
+    "wolfsbane-potion",
+    "skele-gro",
+    "invisibility-potion",
+    "veritaserum",
+    "polyjuice-potion",
+    "felix-felicis",
+    "elixir-of-life",
+  ];
+
+  const slugs = [...potionSlugs, ...additionalSlugs].sort();
 
   return slugs.map((slug: string) => ({
     slug: slug,
