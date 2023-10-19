@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 
-import PotionDetailsHeader from "@/components/potions/PotionDetailsHeader";
 import PotionDetailsBody from "@/components/potions/PotionDetailsBody";
 import PotionAccordionList from "@/components/potions/PotionAccordionList";
 import { simpleFetch } from "@/lib/utils";
@@ -14,10 +13,11 @@ export default async function PotionShow({ params }: { params: { slug: string } 
   }
 
   const result = rawPotion?.data as Potion;
+  const name = result.attributes.name;
 
   return (
     <>
-      <PotionDetailsHeader potion={result} />
+      <h1 className="text-4xl font-bold text-center mb-4">{name}</h1>
       <PotionDetailsBody potion={result} />
       <PotionAccordionList potion={result} />
     </>
