@@ -62,28 +62,6 @@ export default function PotionDetailsAccordion({ potion }: { potion: Potion }) {
             }
           />
         )}
-        {side_effects && side_effects.length > 0 && (
-          <Accordion
-            title="Side Effects"
-            content={
-              <ul className="list-disc pl-5">
-                {side_effects.split(",").map((effect) => (
-                  <li key={effect}>{effect}</li>
-                ))}
-              </ul>
-            }
-          />
-        )}
-        {time && time.length > 0 && (
-          <Accordion
-            title="Time"
-            content={
-              <ul className="list-disc pl-5">
-                <li key={time}>{time}</li>
-              </ul>
-            }
-          />
-        )}
       </div>
     </div>
   );
