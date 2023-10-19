@@ -25,6 +25,7 @@
 [![Contributors](https://img.shields.io/github/contributors/danielschuster-muc/potter-db?style=flat-square)](https://github.com/danielschuster-muc/potter-db/graphs/contributors)
 [![Issue](https://img.shields.io/github/issues/danielschuster-muc/potter-db?style=flat-square)](https://github.com/danielschuster-muc/potter-db/issues)
 [![PRs](https://img.shields.io/github/issues-pr/danielschuster-muc/potter-db?style=flat-square)](https://github.com/danielschuster-muc/potter-db/pulls)
+[![Lines of Code](https://tokei.rs/b1/github/danielschuster-muc/potter-db?category=code&style=flat-square)](https://github.com/danielschuster-muc/potter-db)
 
 </div>
 
