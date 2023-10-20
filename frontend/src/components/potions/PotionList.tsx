@@ -3,7 +3,7 @@ import Potion from "@/types/Potion";
 import PotionListSkeleton from "./PotionListSkeleton";
 import PotionListItem from "./PotionListItem";
 
-export default function CharacterList({
+export default function PotionList({
   results,
   error,
   isLoading,
