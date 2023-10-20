@@ -1,9 +1,9 @@
 import React from "react";
 
-import Skeleton from "./Skeleton";
-import LinksSkeleton from "./LinksSkeleton";
+import Skeleton from "../ui/Skeleton";
+import LinksSkeleton from "../ui/LinksSkeleton";
 
-export default function DetailsSkeleton() {
+export default function SpellDetailsSkeleton() {
   return (
     <>
       <div className="flex flex-col items-center justify-center mb-2">

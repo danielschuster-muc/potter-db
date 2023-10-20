@@ -1,5 +1,5 @@
-import DetailsSkeleton from "@/components/ui/DetailsSkeleton";
+import SpellDetailsSkeleton from "@/components/spells/SpellDetailsSkeleton";
 
 export default function Loading() {
-  return <DetailsSkeleton />;
+  return <SpellDetailsSkeleton />;
 }
