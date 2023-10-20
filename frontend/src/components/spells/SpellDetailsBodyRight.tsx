@@ -19,6 +19,5 @@ export default function SpellDetailsBodyRight({ spell }: { spell: Spell }) {
         </tbody>
       </table>
     </div>
-    //e, c, l, h, c
   );
 }
