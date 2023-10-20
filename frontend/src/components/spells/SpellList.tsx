@@ -1,6 +1,6 @@
 import Spell from "@/types/Spell";
 
-import ListSkeleton from "../ui/ListSkeleton";
+import SpellListSkeleton from "./SpellListSkeleton";
 import SpellListItem from "./SpellListItem";
 
 export default function SpellList({
@@ -12,7 +12,7 @@ export default function SpellList({
   error: any;
   isLoading: boolean;
 }) {
-  if (isLoading) return <ListSkeleton />;
+  if (isLoading) return <SpellListSkeleton />;
   if (error) return <h2>Failed to load data.</h2>;
   return (
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
