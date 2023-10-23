@@ -37,7 +37,7 @@ const NavbarMenu = () => {
   return (
     <>
       <div
-        className={`w-screen h-screen bg-transparent absolute top-0 left-0 z-10 ${
+        className={`w-screen h-screen bg-transparent fixed top-0 left-0 z-10 ${
           !showMenu ? "hidden" : ""
         }`}
         onClick={() => setShowMenu(false)}
