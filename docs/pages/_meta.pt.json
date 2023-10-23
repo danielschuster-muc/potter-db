@@ -1,0 +1,24 @@
+{
+  "index": "Introdução",
+  "getting-started": "Primeiros passos",
+  "apis": "APIs",
+  "resources": "Recursos",
+  "homepage": {
+    "title": "Potter DB",
+    "type": "page",
+    "href": "https://potterdb.com",
+    "newWindow": true
+  },
+  "status": {
+    "title": "Status",
+    "type": "page",
+    "href": "https://status.potterdb.com",
+    "newWindow": true
+  },
+  "contact": {
+    "title": "Contate-nos",
+    "type": "page",
+    "href": "https://github.com/danielschuster-muc/potter-db/issues",
+    "newWindow": true
+  }
+}

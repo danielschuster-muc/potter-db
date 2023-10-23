@@ -11,7 +11,7 @@ const withNextra = require("nextra")({
 module.exports = withNextra({
   reactStrictMode: true,
   i18n: {
-    locales: ["en", "fr"],
+    locales: ["en", "fr", "pt"],
     defaultLocale: "en",
   },
 });

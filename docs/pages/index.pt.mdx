@@ -1,0 +1,89 @@
+import { useSSG } from "nextra/ssg";
+
+import { Callout } from "nextra-theme-docs";
+
+import graphqlFetcher from "../lib/fetchers/graphqlFetcher";
+
+export const getStaticProps = async ({ params }) => {
+  const query = `
+    {
+      books {
+        totalCount
+      }
+      characters {
+        totalCount
+      }
+      spells {
+        totalCount
+      }
+      potions {
+        totalCount
+      }
+      movies {
+        totalCount
+      }
+    }
+  `;
+  const result = await graphqlFetcher(query);
+  const mapped_result = result?.data;
+  let hash = {};
+  for (let k in mapped_result) {
+    hash["total_" + k] = mapped_result[k]?.totalCount;
+  }
+  return {
+    props: {
+      ssg: hash,
+    },
+  };
+};
+
+export const Stats = () => {
+  const {
+    total_books,
+    total_characters,
+    total_spells,
+    total_potions,
+    total_movies,
+  } = useSSG();
+  return (
+    <table>
+      <tbody>
+        <tr>
+          <td>Books</td>
+          <td>{total_books}</td>
+        </tr>
+        <tr>
+          <td>Characters</td>
+          <td>{total_characters}</td>
+        </tr>
+        <tr>
+          <td>Movies</td>
+          <td>{total_movies}</td>
+        </tr>
+        <tr>
+          <td>Potions</td>
+          <td>{total_potions}</td>
+        </tr>
+        <tr>
+          <td>Spells</td>
+          <td>{total_spells}</td>
+        </tr>
+      </tbody>
+    </table>
+  );
+};
+
+# Intro
+
+Welcome to the documentation of the **Potter DB: API**!
+Dive into the magical world of Harry Potter with access to characters, books, spells, and more.
+Whether you are a developer building a Potter-themed app or just a curios fan, this documentation will guide you through the secrets of our API.
+
+## What is the Potter DB: API?
+The Potter DB: API is a REST and GraphQL-based interface to a vast repository of data from the wizarding world of Harry Potter. We take care of the data, so you can focus on building your app. With this API, you can:
+- Retrieve detailed information about your beloved `characters`, including their backgrounds, house affiliation, and more.
+- Explore a comprehensive list of `spells` and `potions` used in the wizarding world.
+- Get thorough details about the `books` and `movies` of the Harry Potter universe.
+
+## Statistics
+<Stats />

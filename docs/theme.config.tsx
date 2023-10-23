@@ -19,6 +19,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Editer cette page sur GitHub →";
+        case "pt":
+          return "Edite essa página no GitHub →";
         default:
           return "Edit this page on GitHub →";
       }
@@ -31,6 +33,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Donnez-nous votre avis →";
+        case "pt":
+          return "Avalie-nos →";
         default:
           return "Give us feedback →";
       }
@@ -45,6 +49,9 @@ const config: DocsThemeConfig = {
     switch (locale) {
       case "fr":
         text = "Dernière mise à jour le";
+        break;
+      case "pt":
+        text = "Última atualização em";
         break;
       default:
         text = "Last updated on";
@@ -68,7 +75,7 @@ const config: DocsThemeConfig = {
       <meta name="og:title" content="Potter DB: Docs" />
     </>
   ),
-  i18n: [{ locale: "en", text: "English" },{ locale: "fr", text: "Français" }],
+  i18n: [{ locale: "en", text: "English" },{ locale: "fr", text: "Français" },{ locale: "pt", text: "Português" }],
   logo: <span>Potter DB: Docs</span>,
   project: {
     link: "https://github.com/danielschuster-muc/potter-db",
@@ -79,6 +86,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Rechercher...";
+        case "pt":
+          return "Pesquise...";
         default:
           return "Search...";
       }
@@ -88,6 +97,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "En cours de chargement...";
+        case "pt":
+          return "Carregando...";
         default:
           return "Loading...";
       }
@@ -98,6 +109,9 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           text = "Aucun résultat.";
+          break;
+        case "pt":
+          text = "Nenhum resultado encontrado.";
           break;
         default:
           text = "No results found.";
@@ -130,6 +144,12 @@ const config: DocsThemeConfig = {
             dark: "Sombre",
             system: "Système",
           };
+        case "pt":
+          return {
+            light: "Claro",
+            dark: "Escuro",
+            system: "Sistema",
+          };
         default:
           return {
             light: "Light",
@@ -146,6 +166,8 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Sur cette page";
+        case "pt":
+          return "Nesta página";
         default:
           return "On this page";
       }
