@@ -37,7 +37,7 @@ const NavbarMenu = () => {
   return (
     <>
       <div
-        className={`w-screen h-screen bg-transparent fixed top-0 left-0 z-10 ${
+        className={`w-screen h-screen bg-transparent fixed top-0 left-0 z-[20] ${
           !showMenu ? "hidden" : ""
         }`}
         onClick={() => setShowMenu(false)}
@@ -83,7 +83,7 @@ const NavbarMenu = () => {
         </button>
       </div>
       <div
-        className={`${showMenu ? "" : "hidden"} w-auto absolute top-16 right-3 z-[100]`}
+        className={`${showMenu ? "" : "hidden"} w-auto absolute top-16 right-3 z-[21]`}
         id="navbar-default">
         <ul className="font-medium text-lg flex flex-col p-4 mt-4 border border-gray-700 rounded-lg bg-background">
           {helpItems.map((item) => {
