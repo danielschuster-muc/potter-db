@@ -43,10 +43,10 @@ const footerContent: FooterSection[] = [
         name: "Movies",
         link: "/movies",
       },
-      // {
-      //   name: "Potions",
-      //   link: "/potions",
-      // },
+      {
+        name: "Potions",
+        link: "/potions",
+      },
       // {
       //   name: "Spells",
       //   link: "/spells",
