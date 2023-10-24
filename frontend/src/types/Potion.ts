@@ -16,23 +16,3 @@ export default interface Potion {
     wiki: string;
   };
 }
-
-export interface PotionResponse {
-  data: Potion[];
-  meta: {
-    pagination: {
-      current: number;
-      first: number;
-      prev: number;
-      next: number;
-      last: number;
-      records: number;
-    };
-  };
-  links: {
-    first: string;
-    last: string;
-    next: string;
-    prev: string;
-  };
-}
