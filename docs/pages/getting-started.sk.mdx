@@ -1,6 +1,7 @@
 import { Bleed } from 'nextra-theme-docs'
 
 # REST vs. GraphQL
+
 Potter DB: API ponúka dva hlavné spôsoby prístupu k magickým dátam: **REST** a **GraphQL**. Vyberte si ten, ktorý najviac vyhovuje vašim potrebám a štýlu vývoja.
 - **REST**: Ak uprednostňujete priamy prístup podľa zdrojov, REST koncové body sú tou správnou voľbou. Dáta získate posielaním HTTP požiadaviek na špecifické URL adresy.
 - **GraphQL**: Hlavnou prednosťou GraphQL sú flexibilné a presné dopyty, vďaka ktorým môžete požiadať presne o to, čo potrebujete, a o nič viac. Vytvárajte dopyty a ponechajte si pritom kontrolu nad dátami, ktoré získate.
@@ -34,6 +35,7 @@ Potter DB: API ponúka dva hlavné spôsoby prístupu k magickým dátam: **REST
 }
 
 ## Obmedzenie maximálneho počtu požiadaviek
+
 V záujme udržania kvality a zabránenia zneužitia je stanovený limit na základe IP adresy na **900 požiadaviek za hodinu** (15 požiadaviek za minútu). Ak tento limit prekročíte, dostanete chybové hlásenie `429 Too Many Requests`.
 Upozorňujeme, že tieto limity sa môžu meniť. Aktuálne informácie si preto overte v dokumentácii alebo prostredníctvom API.
 
