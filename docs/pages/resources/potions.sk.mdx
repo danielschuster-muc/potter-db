@@ -1,0 +1,100 @@
+# Odvary (potions)
+
+Tento zdroj obsahuje informácie o odvaroch zo sveta Harryho Pottera.
+
+## Atribúty
+{
+<table>
+  <thead>
+    <tr>
+      <th>Názov</th>
+      <th>Typ</th>
+      <th>Popis</th>
+      <th>Filtrovateľný</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "characteristics",
+        type: "string",
+        description: "fyzikálne vlastnosti odvaru",
+        filterable: true,
+      },
+      {
+        name: "difficulty",
+        type: "string",
+        description: "náročnosť prípravy",
+        filterable: true,
+      },
+      {
+        name: "effect",
+        type: "string",
+        description: "hlavný účinok",
+        filterable: true,
+      },
+      {
+        name: "image",
+        type: "string",
+        description: "okdaz na obrázok odvaru",
+        filterable: false,
+      },
+      {
+        name: "inventors",
+        type: "string",
+        description: "autori odvaru",
+        filterable: true,
+      },
+      {
+        name: "ingredients",
+        type: "string",
+        description: "prísady potrebné na prípravu odvaru",
+        filterable: true,
+      },
+      {
+        name: "manufacturers",
+        type: "string",
+        description: "výrobcovia odvaru",
+        filterable: true,
+      },
+      {
+        name: "name",
+        type: "string",
+        description: "názov odvaru",
+        filterable: true,
+      },
+      {
+        name: "side_effects",
+        type: "string",
+        description: "vedľajšie účinky odvaru",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "string",
+        description: "slug identifikujúci odvar",
+        filterable: false,
+      },
+      {
+        name: "time",
+        type: "string",
+        description: "čas prípravy odvaru",
+        filterable: true,
+      },
+      {
+        name: "wiki",
+        type: "string",
+        description: "odkaz na stránku odvaru na Harry Potter Wiki",
+        filterable: false,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}
