@@ -47,7 +47,7 @@ export default function PotionIndex() {
         isLoading={isLoading}
         setSize={setSize}
         size={size}
-        entity="potions"
+        type="potions"
       />
     </>
   );

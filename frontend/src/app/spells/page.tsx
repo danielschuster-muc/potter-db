@@ -47,7 +47,7 @@ export default function SpellIndex() {
         isLoading={isLoading}
         setSize={setSize}
         size={size}
-        entity="spells"
+        type="spells"
       />
     </>
   );

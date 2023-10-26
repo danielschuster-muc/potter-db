@@ -47,7 +47,7 @@ export default function CharacterIndex() {
         isLoading={isLoading}
         setSize={setSize}
         size={size}
-        entity="characters"
+        type="characters"
       />
     </>
   );
