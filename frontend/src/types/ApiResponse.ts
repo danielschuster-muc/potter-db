@@ -4,10 +4,10 @@ import Character from "./Character";
 import Movie from "./Movie";
 import Potion from "./Potion";
 
-type PotterType = Book | Movie | Chapter | Character | Potion;
+type DataType = Book | Movie | Chapter | Character | Potion;
 
-export interface ApiResult {
-  data: PotterType[];
+export default interface ApiResponse {
+  data: DataType[];
   meta: {
     pagination: {
       current: number;

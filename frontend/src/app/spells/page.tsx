@@ -7,11 +7,11 @@ import SpellList from "@/components/spells/SpellList";
 import LoadMoreButton from "@/components/ui/LoadMoreButton";
 import Searchbar from "@/components/ui/Searchbar";
 import Spell from "@/types/Spell";
-import { ApiResult } from "@/types/ApiResult";
+import ApiResponse from "@/types/ApiResponse";
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-const getKey = (pageIndex: number, previousPageData: ApiResult, query: string) => {
+const getKey = (pageIndex: number, previousPageData: ApiResponse, query: string) => {
   if (previousPageData && !previousPageData.data.length) return null;
   return `https://api.potterdb.com/v1/spells?page[number]=${pageIndex + 1}&page[size]=24${
     query.trim.length <= 0 ? `&filter[name_cont_any]=${query}` : ""
