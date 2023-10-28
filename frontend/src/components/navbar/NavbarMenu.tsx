@@ -2,6 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { FiMenu } from "react-icons/fi";
+import { MdClose } from "react-icons/md";
 
 type MenuItem = {
   label: string;
@@ -44,6 +45,7 @@ const helpItems: MenuItem[] = [
 
 const NavbarMenu = () => {
   const [showMenu, setShowMenu] = useState<Boolean>(false);
+
   return (
     <>
       <div
@@ -71,11 +73,15 @@ const NavbarMenu = () => {
             setShowMenu((prev) => !prev);
           }}
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg focus:outline-none hover:ring-2 focus:ring-2 text-secondary hover:ring-secondary focus:ring-secondary"
+          className="z-[21] inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg hover:bg-white hover:bg-opacity-10 text-secondary"
           aria-controls="navbar-default"
           aria-expanded="false">
           <span className="sr-only">Open main menu</span>
-          <FiMenu className="w-6 h-6 text-lg stroke-current" />
+          {showMenu ? (
+            <MdClose className="w-6 h-6 stroke-current" />
+          ) : (
+            <FiMenu className="w-6 h-6 stroke-current" />
+          )}
         </button>
       </div>
       <div
