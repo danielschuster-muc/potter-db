@@ -1,5 +1,7 @@
 "use client";
+import Link from "next/link";
 import React, { useState } from "react";
+import { FiMenu } from "react-icons/fi";
 
 type MenuItem = {
   label: string;
@@ -18,6 +20,14 @@ const menuItems: MenuItem[] = [
   {
     label: "Movies",
     url: "/movies",
+  },
+  {
+    label: "Potions",
+    url: "/potions",
+  },
+  {
+    label: "Spells",
+    url: "/spells",
   },
 ];
 
@@ -46,18 +56,17 @@ const NavbarMenu = () => {
         <div className="flex-row items-center text-lg gap-3 mr-3 hidden sm:flex">
           {helpItems.map((item) => {
             return (
-              <a
+              <Link
                 key={item.label}
                 href={item.url}
                 target="_blank"
-                className="block rounded hover:bg-transparent hover:text-secondary text-white">
+                className="block rounded hover:bg-transparent text-gray-300 hover:text-white">
                 {item.label}
-              </a>
+              </Link>
             );
           })}
         </div>
         <button
-          data-collapse-toggle="navbar-default"
           onClick={() => {
             setShowMenu((prev) => !prev);
           }}
@@ -66,20 +75,7 @@ const NavbarMenu = () => {
           aria-controls="navbar-default"
           aria-expanded="false">
           <span className="sr-only">Open main menu</span>
-          <svg
-            className="w-5 h-5"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 17 14">
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M1 1h15M1 7h15M1 13h15"
-            />
-          </svg>
+          <FiMenu className="w-6 h-6 text-lg stroke-current" />
         </button>
       </div>
       <div
@@ -89,11 +85,11 @@ const NavbarMenu = () => {
           {helpItems.map((item) => {
             return (
               <li key={item.label}>
-                <a
+                <Link
                   href={item.url}
-                  className="block rounded border-0 hover:text-secondary text-white sm:hidden">
+                  className="block rounded border-0 text-gray-300 hover:text-white sm:hidden">
                   {item.label}
-                </a>
+                </Link>
               </li>
             );
           })}
@@ -101,11 +97,11 @@ const NavbarMenu = () => {
           {menuItems.map((item) => {
             return (
               <li key={item.label}>
-                <a
+                <Link
                   href={item.url}
-                  className="block rounded border-0 hover:text-secondary text-white">
+                  className="block rounded border-0 text-gray-300 hover:text-white">
                   {item.label}
-                </a>
+                </Link>
               </li>
             );
           })}
