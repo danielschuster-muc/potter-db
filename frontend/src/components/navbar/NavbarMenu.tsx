@@ -98,6 +98,7 @@ const NavbarMenu = () => {
             return (
               <li key={item.label}>
                 <Link
+                  onClick={() => setShowMenu(false)}
                   href={item.url}
                   className="block rounded border-0 text-gray-300 hover:text-white">
                   {item.label}
