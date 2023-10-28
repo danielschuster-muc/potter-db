@@ -1,0 +1,44 @@
+import { Bleed } from 'nextra-theme-docs'
+
+# REST vs. GraphQL
+
+Potter DB: API ponúka dva hlavné spôsoby prístupu k magickým dátam: **REST** a **GraphQL**. Vyberte si ten, ktorý najviac vyhovuje vašim potrebám a štýlu vývoja.
+- **REST**: Ak uprednostňujete priamy prístup podľa zdrojov, REST koncové body sú tou správnou voľbou. Dáta získate posielaním HTTP požiadaviek na špecifické URL adresy.
+- **GraphQL**: Hlavnou prednosťou GraphQL sú flexibilné a presné dopyty, vďaka ktorým môžete požiadať presne o to, čo potrebujete, a o nič viac. Vytvárajte dopyty a ponechajte si pritom kontrolu nad dátami, ktoré získate.
+
+## Technická špecifikácia
+{
+<table>
+  <thead>
+    <tr>
+      <th>Čo</th>
+      <th>Popis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Autentikácia</td>
+      <td>zdarma, <b>bez potreby autentikácie</b></td>
+    </tr>
+    <tr>
+      <td>Základné URL</td>
+      <td>
+        https://api.potterdb.com/
+      </td>
+    </tr>
+    <tr>
+      <td>Aktuálna verzia</td>
+      <td>v1</td>
+    </tr>
+  </tbody>
+</table>
+}
+
+## Obmedzenie maximálneho počtu požiadaviek
+
+V záujme udržania kvality a zabránenia zneužitia je stanovený limit na základe IP adresy na **900 požiadaviek za hodinu** (15 požiadaviek za minútu). Ak tento limit prekročíte, dostanete chybové hlásenie `429 Too Many Requests`.
+Upozorňujeme, že tieto limity sa môžu meniť. Aktuálne informácie si preto overte v dokumentácii alebo prostredníctvom API.
+
+<br />
+
+_Teraz, keď ste už zvládli základy, sa môžeme ponoriť do API dokumentácie, oboznámiť sa s jednotlivými požiadavkami a začať vytvárať vlastné magické dotazy. Podrobné informácie o tom, ako efektívne používať API, nájdete v častiach dokumentácie pre [REST](/apis/rest) a [GraphQL](apis/graphql) API. Ak chcete získať prehľad o všetkých dostupných zdrojoch, pozrite sa do sekcie [Zdroje](/resources)._

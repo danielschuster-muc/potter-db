@@ -21,6 +21,8 @@ const config: DocsThemeConfig = {
           return "Editer cette page sur GitHub →";
         case "es":
           return "Editar esta página en GitHub →";
+        case "sk":
+          return "Upraviť stránku cez GitHub →";
         default:
           return "Edit this page on GitHub →";
       }
@@ -35,6 +37,8 @@ const config: DocsThemeConfig = {
           return "Donnez-nous votre avis →";
         case "es":
           return "Danos tu opinión →";
+        case "sk":
+          return "Zanechať spätnú väzbu →";
         default:
           return "Give us feedback →";
       }
@@ -52,6 +56,9 @@ const config: DocsThemeConfig = {
         break;
       case "es":
         text = "Última actualización el";
+        break;
+      case "sk":
+        text = "Naposledy upravené";
         break;
       default:
         text = "Last updated on";
@@ -75,7 +82,7 @@ const config: DocsThemeConfig = {
       <meta name="og:title" content="Potter DB: Docs" />
     </>
   ),
-  i18n: [{ locale: "en", text: "English" },{ locale: "fr", text: "Français" }, { locale: "es", text: "Español" }],
+  i18n: [{ locale: "en", text: "English" },{ locale: "fr", text: "Français" }, { locale: "es", text: "Español" }, { locale: "sk", text: "Slovenčina" }],
   logo: <span>Potter DB: Docs</span>,
   project: {
     link: "https://github.com/danielschuster-muc/potter-db",
@@ -88,6 +95,8 @@ const config: DocsThemeConfig = {
           return "Rechercher...";
         case "es":
           return "Buscar...";
+        case "sk":
+          return "Hľadať...";
         default:
           return "Search...";
       }
@@ -99,6 +108,8 @@ const config: DocsThemeConfig = {
           return "En cours de chargement...";
         case "es":
           return "Cargando...";
+        case "sk":
+          return "Načítava sa...";
         default:
           return "Loading...";
       }
@@ -112,6 +123,9 @@ const config: DocsThemeConfig = {
           break;
         case "es":
           text = "Sin resultados.";
+          break;
+        case "sk":
+          text = "Nenašli sa žiadne výsledky.";
           break;
         default:
           text = "No results found.";
@@ -144,6 +158,12 @@ const config: DocsThemeConfig = {
             dark: "Sombre",
             system: "Système",
           };
+        case "sk":
+          return {
+            light: "Svetlý motív",
+            dark: "Tmavý motív",
+            system: "Systémové nastavenie",
+          };
         default:
           return {
             light: "Light",
@@ -162,6 +182,8 @@ const config: DocsThemeConfig = {
           return "Sur cette page";
         case "es":
           return "En esta página";
+        case "sk":
+          return "Na tejto stránke";
         default:
           return "On this page";
       }
