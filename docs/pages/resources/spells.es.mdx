@@ -1,0 +1,88 @@
+# Hechizos
+
+Este recurso proporciona información sobre hechizos del Universo de Harry Potter.
+
+## Atributos
+{
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+      <th>Filtrable</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "category",
+        type: "string",
+        description: "La categoría de este hechizo.",
+        filterable: true,
+      },
+      {
+        name: "creator",
+        type: "string",
+        description: "El creador de este hechizo.",
+        filterable: true,
+      },
+      {
+        name: "effect",
+        type: "string",
+        description: "El efecto de este hechizo.",
+        filterable: true,
+      },
+      {
+        name: "hand",
+        type: "string",
+        description: "El movimiento de la mano de este hechizo.",
+        filterable: true,
+      },
+      {
+        name: "image",
+        type: "string",
+        description: "Un enlace a una imagen de este hechizo.",
+        filterable: false,
+      },
+      {
+        name: "incantation",
+        type: "string",
+        description: "El encantamiento de este hechizo.",
+        filterable: true,
+      },
+      {
+        name: "light",
+        type: "string",
+        description: "La luz de este hechizo.",
+        filterable: true,
+      },
+      {
+        name: "name",
+        type: "string",
+        description: "El nombre de este hechizo.",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "string",
+        description: "Un slug para identificar este hechizo.",
+        filterable: false,
+      },
+      {
+        name: "wiki",
+        type: "string",
+        description: "Un enlace a la página Wiki de Harry Potter de este hechizo.",
+        filterable: false,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

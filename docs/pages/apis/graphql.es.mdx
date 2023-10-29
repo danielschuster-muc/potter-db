@@ -1,0 +1,50 @@
+import { Callout } from "nextra-theme-docs";
+
+<Callout type="warning" emoji="⚠️">
+La API GraphQL aún está en fase de desarrollo y algunas funciones como el filtrado y la clasificación **todavía** no están implementadas. Se esperan cambios en la API.
+</Callout>
+
+# GraphQL API
+
+Nuestra API GraphQL proporciona una forma flexible y potente de interactuar con la Potter DB. Esta sección le presentará los aspectos clave de nuestra API GraphQL y cómo aprovechar sus capacidades.
+
+## GraphQL Endpoint
+
+Para realizar consultas y mutaciones GraphQL, envíe solicitudes `POST` al endpoint GraphQL (`/graphql`) con sus consultas y variables en el cuerpo de la solicitud. La API espera que el cuerpo de la solicitud esté en formato JSON.
+
+## Consulta de datos
+
+GraphQL le permite solicitar exactamente los datos que necesita. Para construir una consulta, especifique los campos que desea recuperar y sus relaciones. Por ejemplo:
+
+```graphql
+{
+  books(first: 3) {
+    totalCount
+    pageInfo {
+      hasNextPage
+    }
+    edges {
+      node {
+        title
+        releaseDate
+        chapters {
+          edges {
+            node {
+              title
+              slug
+            }
+          }
+        }
+      }
+    }
+  }
+  character(slug: "harry-potter") {
+    name
+  }
+}
+```
+En esta consulta, estamos solicitando el `title` y `releaseDate` de los tres primeros libros, así como el `title` y `slug` de todos los capítulos de cada libro. Además, solicitamos el nombre del personaje con el slug `harry-potter`.
+
+## Esquema
+
+Para obtener una visión general del esquema de la API GraphQL eche un vistazo a nuestro [GraphQL Schema](https://github.com/danielschuster-muc/potter-db/blob/master/backend/app/graphql/schema.json).

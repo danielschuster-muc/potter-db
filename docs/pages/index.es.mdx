@@ -1,0 +1,91 @@
+import { useSSG } from "nextra/ssg";
+
+import { Callout } from "nextra-theme-docs";
+
+import graphqlFetcher from "../lib/fetchers/graphqlFetcher";
+
+export const getStaticProps = async ({ params }) => {
+  const query = `
+    {
+      books {
+        totalCount
+      }
+      characters {
+        totalCount
+      }
+      spells {
+        totalCount
+      }
+      potions {
+        totalCount
+      }
+      movies {
+        totalCount
+      }
+    }
+  `;
+  const result = await graphqlFetcher(query);
+  const mapped_result = result?.data;
+  let hash = {};
+  for (let k in mapped_result) {
+    hash["total_" + k] = mapped_result[k]?.totalCount;
+  }
+  return {
+    props: {
+      ssg: hash,
+    },
+  };
+};
+
+export const Stats = () => {
+  const {
+    total_books,
+    total_characters,
+    total_spells,
+    total_potions,
+    total_movies,
+  } = useSSG();
+  return (
+    <table>
+      <tbody>
+        <tr>
+          <td>Libros</td>
+          <td>{total_books}</td>
+        </tr>
+        <tr>
+          <td>Personajes</td>
+          <td>{total_characters}</td>
+        </tr>
+        <tr>
+          <td>Peliculas</td>
+          <td>{total_movies}</td>
+        </tr>
+        <tr>
+          <td>Pociones</td>
+          <td>{total_potions}</td>
+        </tr>
+        <tr>
+          <td>Hechizos</td>
+          <td>{total_spells}</td>
+        </tr>
+      </tbody>
+    </table>
+  );
+};
+
+# Intro
+
+¡Bienvenido a la documentación de **Potter DB: API**!
+Sumérjase en el mágico mundo de Harry Potter con acceso a personajes, libros, hechizos y mucho más.
+Tanto si eres un desarrollador que está creando una aplicación con temática de Potter como si solo eres un aficionado curioso, esta documentación te guiará a través de los secretos de nuestra API.
+
+## ¿Qué es Potter DB: API?
+
+La API de Potter DB es una interfaz basada en REST y GraphQL a un vasto repositorio de datos del mundo mágico de Harry Potter. Nosotros nos encargamos de los datos, para que puedas centrarte en construir tu aplicación. Con esta API, puedes:
+- Obtener información detallada sobre tus queridos `personajes`, incluyendo sus antecedentes, afiliación a la casa y más.
+- Explora una lista exhaustiva de `hechizos` y `pociones` utilizados en el mundo mágico.
+- Obtener detalles exhaustivos sobre los `libros` y `películas` del universo de Harry Potter.
+
+## Estadísticas
+
+<Stats />
