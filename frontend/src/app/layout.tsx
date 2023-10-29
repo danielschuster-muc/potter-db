@@ -4,6 +4,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/Footer";
 import "./../styles/globals.css";
 import NProgressProvider from "@/components/NProgressProvider";
+import ScrollToTopButton from "@/components/ui/ScrollToTopButton";
 
 export const metadata: Metadata = {
   title: {
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Navbar />
             <div className="flex-1 mb-16 mt-8">{children}</div>
             <Footer />
+            <ScrollToTopButton />
           </div>
         </NProgressProvider>
       </body>
