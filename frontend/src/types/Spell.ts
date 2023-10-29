@@ -13,23 +13,3 @@ export default interface Spell {
     wiki: string;
   };
 }
-
-export interface SpellsResponse {
-  data: Spell[];
-  meta: {
-    pagination: {
-      current: number;
-      first: number;
-      prev: number;
-      next: number;
-      last: number;
-      records: number;
-    };
-  };
-  links: {
-    first: string;
-    last: string;
-    next: string;
-    prev: string;
-  };
-}
