@@ -24,7 +24,7 @@ const config: DocsThemeConfig = {
         case "sk":
           return "Upraviť stránku cez GitHub →";
         case "de":
-          return "Editiere diese Seite auf GitHub →";
+          return "Bearbeite diese Seite auf GitHub →";
         default:
           return "Edit this page on GitHub →";
       }
@@ -65,7 +65,7 @@ const config: DocsThemeConfig = {
         text = "Naposledy upravené";
         break;
       case "de":
-        text = "Letztes Update am";
+        text = "Letzte Änderung am";
         break;
       default:
         text = "Last updated on";

@@ -31,7 +31,7 @@ Um auf Daten aus der REST-API zuzugreifen, musst du eine `GET`-Anfrage an einen 
 - `/v1/spells`: Abruf einer Liste von Zaubersprüchen.
 - `/v1/spells/{id}`: Abruf eines Zauberspruchs anhand seiner ID.
 
-IDs müssen als UUIDs oder Kennung (slugs) angegeben werden.
+IDs müssen als UUIDs oder Slugs angegeben werden.
 
 </details>
 
@@ -39,20 +39,20 @@ IDs müssen als UUIDs oder Kennung (slugs) angegeben werden.
 
 Um die Integration zu erleichtern, stellen wir ein [OpenAPI Spezifikation](https://openapis.org) Dokument zur Verfügung, das die Endpunkte, Datenmodelle und Anfrage-/Antwortschemata der API beschreibt.
 Die API entspricht der Version 3.0.3 der OAS-Spezifikation.
-Du kannst unser aktuelles OAS document [hier](https://api.potterdb.com/v1/openapi.json) finden.
+Unser aktuelles OAS Dokument ist [hier](https://api.potterdb.com/v1/openapi.json) zu finden.
 
 ## JSON:API Format
 
 Unsere REST-API entspricht der [JSON:API-Spezifikation](https://jsonapi.org/), die eine einheitliche Methode zur Strukturierung von API-Anfragen und -Antworten bietet. Hier ist ein Überblick über die wichtigsten Merkmale von JSON:API im Zusammenhang mit unserer API:
 
-- **Ressourcen Elemente**: Jede Ressource ist ein Objekt mit einem Typ (`type`), ID (`id`) und Attributen (`attributes`).
-- **Verbindungen**: Ressourcen können mit anderen Ressourcen verbunden sein, z. B. ist eine `Buch`-Ressource mit einer `Kapitel`-Ressource verbunden und umgekehrt.
-- **Paginierung**: Wenn eine Antwort eine große Anzahl von Ressourcen enthält, wird die Antwort paginiert. Siehe [Paginierung](#Paginierung) für weitere Infos.
-- **Fehler**: Fehler werden mit standardisierten Strukturen zurückgegeben, was die Behandlung und Behebung von Problemen erleichtert.
+- **Ressourcen**: Jede Ressource ist ein Objekt mit einem Typ (`type`), ID (`id`) und Attributen (`attributes`).
+- **Relationen**: Ressourcen können mit anderen Ressourcen verbunden sein, z. B. ist eine `Buch`-Ressource mit einer `Kapitel`-Ressource verbunden und umgekehrt.
+- **Paginierung**: Wenn eine Antwort eine große Anzahl von Ressourcen enthält, wird die Antwort paginiert. Siehe [Paginierung](#paginierung) für weitere Infos.
+- **Fehler**: Fehler werden in standardisiertem Format zurückgegeben, was die Behandlung und Behebung von Problemen erleichtert.
 
 ## Abfragen machen
 
-Um eine Abfrage an die REST-API zu machen, musst du eine `GET`-Anfrage an einen unserer verfügbaren Endpunkte stellen.
+Um eine Abfrage an unsere REST-API zu machen, muss eine `GET`-Anfrage an einen unserer verfügbaren Endpunkte gestellt werden.
 Hier ein einfaches Beispiel für das Abrufen einer Liste von Figuren über den Endpunkt `/characters`:
 
 ```http
@@ -152,7 +152,7 @@ Dies wird alle Figuren mit dem Namen "Weasley" zurückgeben.
 
 ### Sortieren
 
-Du kannst Ressourcen sortieren, indem du einen `sort` Abfrageparameter zu deiner Anfrage hinzufügst. Um beispielsweise Figuren nach Namen zu sortieren, kannst das Attribut `name` verwenden (unter [Ressourcen](#Ressourcen) findest du alle verfügbaren Attribute):
+Du kannst Ressourcen sortieren, indem du einen `sort` Abfrageparameter zu deiner Anfrage hinzufügst. Um beispielsweise Figuren nach Namen zu sortieren, kannst das Attribut `name` verwenden (unter [Ressourcen](/resourcen) findest du alle verfügbaren Attribute):
 
 ```http
 GET https://api.potterdb.com/v1/characters?sort=name
