@@ -4,7 +4,7 @@ Unsere REST-API bietet eine unkomplizierte Möglichkeit, mit der Potter DB zu in
 
 ## Verfügbare Endpunkte
 
-Um auf Daten aus der REST-API zuzugreifen, musst du eine "GET"-Anfrage an einen der folgenden Endpunkte schicken:
+Um auf Daten aus der REST-API zuzugreifen, musst du eine `GET`-Anfrage an einen der folgenden Endpunkte schicken:
 
 <details>
 <summary>Aufklappen, um alle Endpunkte zu sehen</summary>
@@ -52,8 +52,8 @@ Unsere REST-API entspricht der [JSON:API-Spezifikation](https://jsonapi.org/), d
 
 ## Abfragen machen
 
-Um eine Abfrage an die REST-API zu machen, musst du eine "GET"-Anfrage an einen unserer verfügbaren Endpunkte stellen.
-Hier ein einfaches Beispiel für das Abrufen einer Liste von Figuren über den Endpunkt "/characters":
+Um eine Abfrage an die REST-API zu machen, musst du eine `GET`-Anfrage an einen unserer verfügbaren Endpunkte stellen.
+Hier ein einfaches Beispiel für das Abrufen einer Liste von Figuren über den Endpunkt `/characters`:
 
 ```http
 GET https://api.potterdb.com/v1/characters
@@ -158,4 +158,4 @@ Du kannst Ressourcen sortieren, indem du einen `sort` Abfrageparameter zu deiner
 GET https://api.potterdb.com/v1/characters?sort=name
 ```
 
-Verwende das Präfix "-", um in absteigender Reihenfolge zu sortieren.
+Verwende das Präfix `-`, um in absteigender Reihenfolge zu sortieren.
