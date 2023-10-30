@@ -86,7 +86,7 @@ Nuestra API REST admite el filtrado y la clasificación avanzados mediante [Rans
 Puede filtrar recursos añadiendo un parámetro de consulta `filter` a su petición. Por ejemplo, para filtrar caracteres por nombre, puede utilizar el predicado `name_cont`:
 
 ```http
-GET https://api.potterdb.com/v1/characters?filter[name_eq]=Weasley
+GET https://api.potterdb.com/v1/characters?filter[name_cont]=Weasley
 ```
 
 Esto devolverá todos los personajes con el nombre "Weasley".
