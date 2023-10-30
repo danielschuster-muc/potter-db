@@ -85,7 +85,7 @@ Naše REST API podporuje pokročilé filtrovanie a zoraďovanie pomocou knižnic
 Zdroje môžete filtrovať pridaním parametru `filter` do vašej požiadavky. Ak chcete napríklad filtrovať postavy podľa mena, použite predikát `name_eq`:
 
 ```http
-GET https://api.potterdb.com/v1/characters?filter[name_eq]=Weasley
+GET https://api.potterdb.com/v1/characters?filter[name_cont]=Weasley
 ```
 
 Táto požiadavka vráti všetky postavy s menom "Weasley".

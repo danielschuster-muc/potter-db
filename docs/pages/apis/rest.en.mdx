@@ -86,7 +86,7 @@ Our REST API supports advanced filtering and sorting using [Ransack](https://act
 You can filter resources by adding a `filter` query parameter to your request. For example, to filter characters by name, you can use the `name_cont` predicate:
 
 ```http
-GET https://api.potterdb.com/v1/characters?filter[name_eq]=Weasley
+GET https://api.potterdb.com/v1/characters?filter[name_cont]=Weasley
 ```
 
 This will return all characters with the name "Weasley".
