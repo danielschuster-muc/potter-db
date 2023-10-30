@@ -1,12 +1,14 @@
 import { Bleed } from 'nextra-theme-docs'
 
 # REST vs. GraphQL
+
 Die "Potter DB: API" bietet zwei Möglichkeiten, um an unsere zauberhaften Daten zu kommen: 
  **REST** und **GraphQL**. Wähle die aus, die am besten zu deinen Bedürfnissen und Entwicklungsstil passt.
 - **REST**: Wenn du einen geradlinigen, ressourcenbasierten Ansatz bevorzugst, sind REST-Endpunkte die richtige Wahl. Damit schickst du HTTP-Anfragen an bestimmte URLs, um Daten abzurufen.
 - **GraphQL**: Für flexiblere und akkuratere Datenabfragen kannst du mit GraphQL genau das anfordern, was du brauchst, ohne überflüssige Zusätze. Konstruiere deine Abfragen, um Daten mit präziser Kontrolle abzurufen.
 
 ## Technical details
+
 {
 <table>
   <thead>
@@ -35,6 +37,7 @@ Die "Potter DB: API" bietet zwei Möglichkeiten, um an unsere zauberhaften Daten
 }
 
 ## Obergrenze der Anfragen
+
 Um die Qualität sicherzustellen und eine böswillige Nutzung der "Potter DB: API" zu verhindern, gibt es ein IP-basiertes Limit von ***900 Anfragen pro Stunde*** (15 Anfragen / Minute). Falls du dieses Limit erreichst, bekommst du `429 To Many Requests` auf deine Anfrage zurück.
 Bitte beachte, dass sich diese Obergrenzen ändern können. Prüfe daher unbedingt die neuesten Informationen zu den Limits in der Dokumentation oder über Antworten der API.
 <br />
