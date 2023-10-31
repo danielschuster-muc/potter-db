@@ -209,7 +209,7 @@ const config: DocsThemeConfig = {
             light: "Light",
             dark: "Dark",
             system: "System",
-          };  
+          };
       }
     },
   },
