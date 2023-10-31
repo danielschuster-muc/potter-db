@@ -116,7 +116,7 @@ const config: DocsThemeConfig = {
         case "pt":
           return "Pesquise..."; 
         default:
-          return "Search..."; 
+          return "Search...";
       }
     },
     loading() {
