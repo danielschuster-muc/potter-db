@@ -28,7 +28,7 @@ const config: DocsThemeConfig = {
         case "pt":
           return "Edite essa página no GitHub →"; 
         default:
-          return "Edit this page on GitHub →"; 
+          return "Edit this page on GitHub →";
       }
     },
   },
