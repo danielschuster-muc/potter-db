@@ -1,0 +1,54 @@
+# Personajes
+
+Este recurso proporciona información sobre personajes del universo de Harry Potter.
+
+## Atributos
+
+{
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+      <th>Filterable</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      { name: "alias_names", type: "array", description: "Una lista de nombres con los que se conocía a este personaje.", filterable: true },
+      { name: "animagus", type: "string", description: "El animago de este personaje.", filterable: true },
+      { name: "blood_status", type: "string", description: "El estado de sangre de este personaje.", filterable: true },
+      { name: "boggart", type: "string", description: "El boggart de este personaje.", filterable: true },
+      { name: "born", type: "string", description: "La fecha y el lugar de nacimiento de este personaje.", filterable: true },
+      { name: "died", type: "string", description: "Fecha y lugar de muerte de este personaje.", filterable: true },
+      { name: "eye_color", type: "string", description: "Color de ojos del personaje.", filterable: true },
+      { name: "family_member", type: "array", description: "Una lista de los miembros de la familia de este personaje.", filterable: true },
+      { name: "gender", type: "string", description: "Sexo del personaje.", filterable: true },
+      { name: "hair_color", type: "string", description: "Color de pelo de este personaje.", filterable: true },
+      { name: "height", type: "string", description: "La altura en centímetros de este personaje.", filterable: true },
+      { name: "house", type: "string", description: "La casa de Hogwarts de este personaje.", filterable: true },
+      { name: "image", type: "string", description: "Un enlace a una imagen de este personaje.", filterable: false },
+      { name: "jobs", type: "array", description: "Una lista de trabajos que hizo este personaje.", filterable: true },
+      { name: "name", type: "string", description: "El título de este personaje.", filterable: true },
+      { name: "nationality", type: "string", description: "La nacionalidad de este personaje.", filterable: true },
+      { name: "patronus", type: "string", description: "El patronus de este personaje.", filterable: true },
+      { name: "romances", type: "array", description: "Una lista de romances de este personaje.", filterable: true },
+      { name: "skin_color", type: "string", description: "El color de piel de este personaje.", filterable: true },
+      { name: "slug", type: "string", description: "Un slug para identificar a este personaje.", filterable: false },
+      { name: "species", type: "string", description: "La especie de este personaje.", filterable: true },
+      { name: "titles", type: "array", description: "Una lista de nombres que describen el cargo o trabajo de este personaje.", filterable: true },
+      { name: "wand", type: "array", description: "Una lista de varitas de este personaje.", filterable: true },
+      { name: "weight", type: "string", description: "El peso en libras de este personaje.", filterable: true },
+      { name: "wiki", type: "string", description: "Un enlace a la página Wiki de Harry Potter de este personaje.", filterable: false },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? '✅' : '❌'}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

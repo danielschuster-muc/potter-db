@@ -1,15 +1,16 @@
-# Movies
-This resource provides information about movies from the Harry Potter Universe.
+# Filmy (movies)
 
-## Attributes
+Tento zdroj obsahuje informácie o filmoch zo sveta Harryho Pottera.
+
+## Atribúty
 {
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Type</th>
-      <th>Description</th>
-      <th>Filterable</th>
+      <th>Názov</th>
+      <th>Typ</th>
+      <th>Popis</th>
+      <th>Filtrovateľný</th>
     </tr>
   </thead>
   <tbody>
@@ -17,109 +18,109 @@ This resource provides information about movies from the Harry Potter Universe.
       {
         name: "box_office",
         type: "string",
-        description: "The revenue this movie raised through ticket sales.",
+        description: "príjmy z predaja vstupeniek na film",
         filterable: true,
       },
       {
         name: "budget",
         type: "string",
-        description: "The budget of this movie.",
+        description: "rozpočet filmu",
         filterable: true,
       },
       {
         name: "cinematographers",
         type: "array",
-        description: "A list of cinematographers in this movie.",
+        description: "zoznam kameramanov filmu",
         filterable: true,
       },
       {
         name: "directors",
         type: "array",
-        description: "A list of people who directed this movie.",
+        description: "zoznam režisérov filmu",
         filterable: true,
       },
       {
         name: "distributors",
         type: "array",
-        description: "A list of distributors of this movie.",
+        description: "zoznam ľudí, ktorí film distribuovali",
         filterable: true,
       },
       {
         name: "editors",
         type: "array",
-        description: "A list of people who edited this movie.",
+        description: "zoznam ľudí, ktorí film editovali",
         filterable: true,
       },
       {
         name: "music_composers",
         type: "array",
-        description: "A list of people who composed the music of this movie.",
+        description: "zoznam ľudí, ktorí pre film skomponovali hudbu",
         filterable: true,
       },
       {
         name: "poster",
         type: "string",
-        description: "A link to the poster of this movie.",
+        description: "odkaz na plagát filmu",
         filterable: false,
       },
       {
         name: "producers",
         type: "array",
-        description: "A list of people who produced this movie.",
+        description: "zoznam producentov filmu",
         filterable: true,
       },
       {
         name: "rating",
         type: "string",
-        description: "The age recommendation of this movie.",
+        description: "odporúčaná veková hranica pre sledovanie filmu",
         filterable: true,
       },
       {
         name: "release_date",
         type: "date",
-        description: "The date when this movie was released.",
+        description: "dátum, kedy bol film vydaný",
         filterable: true,
       },
       {
         name: "running_time",
         type: "string",
-        description: "The running time of this movie.",
+        description: "dĺžka filmu",
         filterable: true,
       },
       {
         name: "screenwriters",
         type: "array",
-        description: "A list of screenwriters of this movie.",
+        description: "scenáristi filmu",
         filterable: true,
       },
       {
         name: "slug",
         type: "string",
-        description: "A slug to identify this movie.",
+        description: "slug identifikujúci film",
         filterable: false,
       },
       {
         name: "summary",
         type: "string",
-        description: "The summary of this movie.",
+        description: "zhrnutie filmu",
         filterable: true,
       },
       {
         name: "title",
         type: "string",
-        description: "The title of this movie.",
+        description: "názov filmu",
         filterable: true,
       },
       {
         name: "trailer",
         type: "string",
-        description: "A link to the trailer of this movie.",
+        description: "odkaz na trailer filmu",
         filterable: false,
       },
       {
         name: "wiki",
         type: "string",
-        description: "A link to the Harry Potter Wiki Page of this movie.",
+        description: "odkaz na stránku filmu na Harry Potter Wiki",
         filterable: false,
       },
     ].map((item) => (

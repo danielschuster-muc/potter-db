@@ -1,0 +1,89 @@
+import { useSSG } from "nextra/ssg";
+
+import { Callout } from "nextra-theme-docs";
+
+import graphqlFetcher from "../lib/fetchers/graphqlFetcher";
+
+export const getStaticProps = async ({ params }) => {
+  const query = `
+    {
+      books {
+        totalCount
+      }
+      characters {
+        totalCount
+      }
+      spells {
+        totalCount
+      }
+      potions {
+        totalCount
+      }
+      movies {
+        totalCount
+      }
+    }
+  `;
+  const result = await graphqlFetcher(query);
+  const mapped_result = result?.data;
+  let hash = {};
+  for (let k in mapped_result) {
+    hash["total_" + k] = mapped_result[k]?.totalCount;
+  }
+  return {
+    props: {
+      ssg: hash,
+    },
+  };
+};
+
+export const Stats = () => {
+  const {
+    total_books,
+    total_characters,
+    total_spells,
+    total_potions,
+    total_movies,
+  } = useSSG();
+  return (
+    <table>
+      <tbody>
+        <tr>
+          <td>Knihy</td>
+          <td>{total_books}</td>
+        </tr>
+        <tr>
+          <td>Postavy</td>
+          <td>{total_characters}</td>
+        </tr>
+        <tr>
+          <td>Filmy</td>
+          <td>{total_movies}</td>
+        </tr>
+        <tr>
+          <td>Odvary</td>
+          <td>{total_potions}</td>
+        </tr>
+        <tr>
+          <td>Zaklínadlá</td>
+          <td>{total_spells}</td>
+        </tr>
+      </tbody>
+    </table>
+  );
+};
+
+# Úvod
+
+Vitajte v dokumentácii k **Potter DB: API**!
+Vstúpte do magického sveta Harryho Pottera a získajte informácie o postavách, knihách, zaklínadlách a ďalšie dáta.
+Či už ste developer vyvíjajúci aplikáciu týkajúcu sa Harryho Pottera alebo len zvedavý fanúšik, táto dokumentácia vás prevedie tajmi nášho API.
+
+## Čo je to Potter DB: API?
+Potter DB: API je REST a GraphQL rozhranie pre rozsiahly repozitár dát z magického sveta Harryho Pottera. My sa staráme o dáta, zatiaľ čo vy sa môžete sústrediť na vývoj vašej aplikácie. Táto API vám umožní:
+- získať detailné informácie o vašich obľúbených postavách (`characters`) vrátane informácií o ich pozadí a fakulte
+- získať ucelený prehľad zaklínadiel (`spells`) a odvarov (`potions`) z čarodejníckeho sveta
+- získať podrobné informácie o knihách (`books`) a filmoch (`movies`) zo sveta Harryho Pottera
+
+## Štatistika
+<Stats />

@@ -1,0 +1,54 @@
+# Figuren
+
+Diese Ressource bietet Informationen über Figuren aus dem Harry-Potter-Universum.
+
+## Attribute
+
+{
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Typ</th>
+      <th>Beschreibung</th>
+      <th>Filterbar</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      { name: "alias_names", type: "Array", description: "Eine Liste von Namen, unter denen diese Figur sonst bekannt war.", filterable: true },
+      { name: "animagus", type: "Zeichenfolge", description: "Animagus der Figur.", filterable: true },
+      { name: "blood_status", type: "Zeichenfolge", description: "Blutstatus der Figur.", filterable: true },
+      { name: "boggart", type: "Zeichenfolge", description: "Irrwicht der Figur.", filterable: true },
+      { name: "born", type: "Zeichenfolge", description: "Geburtsdatum und Geburtsort der Figur.", filterable: true },
+      { name: "died", type: "Zeichenfolge", description: "Datum und Ort des Todes der Figur.", filterable: true },
+      { name: "eye_color", type: "Zeichenfolge", description: "Augenfarbe der Figur.", filterable: true },
+      { name: "family_member", type: "array", description: "Liste der Familienmitglieder dieser Figur.", filterable: true },
+      { name: "gender", type: "Zeichenfolge", description: "Geschlecht der Figur.", filterable: true },
+      { name: "hair_color", type: "Zeichenfolge", description: "Haarfarbe der Figur.", filterable: true },
+      { name: "height", type: "Zeichenfolge", description: "Größe der Figur in Zoll.", filterable: true },
+      { name: "house", type: "Zeichenfolge", description: "Hogwarts Haus der Figur.", filterable: true },
+      { name: "image", type: "Zeichenfolge", description: "Link zu einem Bild der Figur.", filterable: false },
+      { name: "jobs", type: "Array", description: "Liste von Tätigkeiten, die die Figur ausgeführt hat.", filterable: true },
+      { name: "name", type: "Zeichenfolge", description: "Name der Figur.", filterable: true },
+      { name: "nationality", type: "Zeichenfolge", description: "Nationalität der Figur.", filterable: true },
+      { name: "patronus", type: "Zeichenfolge", description: "Patronus der Figur.", filterable: true },
+      { name: "romances", type: "array", description: "Liste von Romanzen der Figur.", filterable: true },
+      { name: "skin_color", type: "Zeichenfolge", description: "Hautfarbe der Figur.", filterable: true },
+      { name: "slug", type: "Zeichenfolge", description: "Slug, um die Figur zu identifizieren.", filterable: false },
+      { name: "species", type: "Zeichenfolge", description: "Spezies der Figur.", filterable: true },
+      { name: "titles", type: "array", description: "Liste mit Namen, die die Position oder den Job der Figur beschreiben.", filterable: true },
+      { name: "wand", type: "array", description: "Liste mit Zauberstäben der Figur.", filterable: true },
+      { name: "weight", type: "Zeichenfolge", description: "Gewicht der Figur in Pfund.", filterable: true },
+      { name: "wiki", type: "Zeichenfolge", description: "Link zu der Harry Potter Wiki Seite der Figur.", filterable: false },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? '✅' : '❌'}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

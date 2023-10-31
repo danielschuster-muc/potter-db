@@ -1,0 +1,82 @@
+# Knihy (books)
+
+Tento zdroj obsahuje informácie o knihách zo sveta Harryho Pottera.
+
+## Atribúty
+{
+<table>
+  <thead>
+    <tr>
+      <th>Názov</th>
+      <th>Typ</th>
+      <th>Popis</th>
+      <th>Filtrovateľný</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "author",
+        type: "string",
+        description: "autor knihy",
+        filterable: true,
+      },
+      {
+        name: "cover",
+        type: "string",
+        description: "odkaz na obálku knihy",
+        filterable: false,
+      },
+      {
+        name: "dedication",
+        type: "string",
+        description: "venovanie knihy",
+        filterable: true,
+      },
+      {
+        name: "pages",
+        type: "integer",
+        description: "počet strán knihy",
+        filterable: true,
+      },
+      {
+        name: "release_date",
+        type: "date",
+        description: "dátum vydania knihy",
+        filterable: true,
+      },
+      {
+        name: "summary",
+        type: "string",
+        description: "zhrnutie knihy",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "string",
+        description: "slug identifikujúci knihu",
+        filterable: false,
+      },
+      {
+        name: "title",
+        type: "string",
+        description: "názov knihy",
+        filterable: true,
+      },
+      {
+        name: "wiki",
+        type: "string",
+        description: "odkaz na stránku knihy na Harry Potter Wiki",
+        filterable: false,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

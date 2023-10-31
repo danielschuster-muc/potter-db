@@ -1,0 +1,159 @@
+# REST API
+
+Naše RESTful API ponúka priamočiary spôsob interakcie s PotterDB v súlade s JSON:API a OAS špecifikáciou. V tejto kapitole sa oboznámite s kľúčovými aspektmi používanie Potter DB REST API, okrem iného sa dozviete viac o jednotlivých koncových bodov a formátovaní požiadaviek a odpovedí.
+
+## Koncové body
+
+Na získanie dát cez REST API pošlite požiadavku GET jednému z nasledujúcich koncových bodov:
+
+<details>
+<summary>Kliknutím zobrazíte všetky koncové body</summary>
+
+**Knihy** (books)
+- `/v1/books`: Vráti zoznam kníh.
+- `/v1/books/{id}`: Vráti jednu knihu na základe jej ID.
+- `/v1/books/{book_id}/chapters`: Vráti zoznam kapitol určitej knihy.
+- `/v1/books/{book_id}/chapters/{id}`: Vráti jednu kapitolu určitej knihy na základe jej ID.
+
+**Postavy** (characters)
+- `/v1/characters`: Vráti zoznam postáv.
+- `/v1/characters/{id}`: Vráti jednu postavu na základe jej ID.
+
+**Filmy** (movies)
+- `/v1/movies`: Vráti zoznam filmov.
+- `/v1/movies/{id}`: Vráti jeden film na základe jeho ID.
+
+**Odvary** (potions)
+- `/v1/potions`: Vráti zoznam odvarov.
+- `/v1/potions/{id}`: Vráti jeden odvar na základe jeho ID.
+
+**Spells** (Zaklínadlá)
+- `/v1/spells`: Vráti zoznam zaklínadiel.
+- `/v1/spells/{id}`: Vráti jedno zaklínadlo na základe jeho ID.
+
+ID musí byť vo formáte UUID alebo slug.
+
+</details>
+
+## Špecifikácia podľa štandardu OpenAPI (OAS)
+
+Na uľahčenie integrácie poskytujeme špecifikáciu v súlade s [OpenAPI](https://openapis.org) štandardom, ktorá popisuje jednotlivé koncové body API, dátové modely a schémy požiadaviek a odpovedí. Naše API sa riadi verziou 3.0.3 OpenAPI štandardu.
+Aktuálnu API špecifikáciu nájdete [tu](https://api.potterdb.com/v1/openapi.json).
+
+## Formát JSON:API
+
+Naše REST API sa riadi špecifikáciou [JSON:API](https://jsonapi.org/), ktorá zaručuje konzistentný spôsob štruktúrovania API požiadaviek a odpovedí. Tu je prehľad kľúčových vlastností špecifikácie JSON:API v kontexte nášho API:
+
+- **Zdrojové objekty**: Každý zdroj je reprezentovaný ako objekt, ktorý má `type`, `id` a `attributes`.
+- **Vzťahy**: Zdroje môžu mať vzťah k iným zdrojom, napríklad zdroj `book` je vo vzťahu k zdroju `chapter` a naopak.
+- **Stránkovanie**: Odpovede obsahujúce veľký počet zdrojov sú stránkované. Viac informácií nájdete v časti [Stránkovanie](#stránkovanie).
+- **Chyby**: Chyby sa vracajú v štandardizovanom formáte, čo uľahčuje spracovanie a riešenie problémov.
+
+## Posielanie požiadaviek
+
+Na získanie dát cez REST API pošlite požiadavku GET jednému z koncových bodov. Tu je jednoduchý príklad ako získať list postáv z koncového bodu `/characters`:
+
+```http
+GET https://api.potterdb.com/v1/characters
+```
+
+Podrobné informácie nájdete v špecifikácii podľa štandardu OpenAPI, ktorú nájde [tu](https://api.potterdb.com/v1/openapi.json).
+
+
+## Stránkovanie
+
+Odpovede obsahujúce veľký počet zdrojov sú stránkované. Stránkovaná odpoveď obsahuje objekt `links` s odkazmi `first`, `last`, `prev` a `next` na prvú, poslednú, predchádzajúcu a nasledujúcu stránku.
+
+Ak chcete zmeniť počet zdrojov na stránke, použite parameter `page[size]` (maximálny počet je 100).
+
+```http
+GET https://api.potterdb.com/v1/characters?page[size]=25
+```
+
+Ak chcete zmeniť aktuálnu stránku, použite parameter `page[number]`:
+
+```http
+GET https://api.potterdb.com/v1/characters?page[number]=2
+```
+
+## Ransack
+
+Naše REST API podporuje pokročilé filtrovanie a zoraďovanie pomocou knižnice [Ransack](https://activerecord-hackery.github.io/ransack/).
+
+### Filtrovanie
+
+Zdroje môžete filtrovať pridaním parametru `filter` do vašej požiadavky. Ak chcete napríklad filtrovať postavy podľa mena, použite predikát `name_eq`:
+
+```http
+GET https://api.potterdb.com/v1/characters?filter[name_cont]=Weasley
+```
+
+Táto požiadavka vráti všetky postavy s menom "Weasley".
+
+<details>
+  <summary>Kliknutím zobrazíte všetky dostupné filtre</summary>
+  - `eq`: presne sa zhoduje
+  - `eq_any`: presne sa zhoduje s aspoň jedným
+  - `eq_all`: presne sa zhoduje so všetkými
+  - `not_eq`: nezhoduje sa presne
+  - `not_eq_any`: nezhoduje sa presne s aspoň jedným
+  - `not_eq_all`: nezhoduje sa presne so všetkými
+  - `matches`: zhoduje sa
+  - `matches_any`: zhoduje sa s aspoň jedným
+  - `matches_all`: zhoduje sa so všetkými
+  - `does_not_match`: nezhoduje sa
+  - `does_not_match_any`: nezhoduje sa s aspoň jedným
+  - `does_not_match_all`: nezhoduje sa so všetkými
+  - `lt`: menší ako
+  - `lt_any`: menší ako aspoň jeden
+  - `lt_all`: menší ako všetky
+  - `lteq`: menší alebo rovný
+  - `lteq_any`: menší alebo rovný aspoň jednému
+  - `lteq_all`: menší alebo rovný všetkým
+  - `gt`: väčší ako
+  - `gt_any`: väčší ako aspoň jeden
+  - `gt_all`: väčší ako všetky
+  - `gteq`: väčší alebo rovný
+  - `gteq_any`: väčší alebo rovný aspoň jednému
+  - `gteq_all`: väčší alebo rovný všetkým
+  - `in`: v
+  - `in_any`: v aspoň jednom
+  - `in_all`: vo všetkých
+  - `not_in`: nie v
+  - `not_in_any`: nie v aspoň jednom
+  - `not_in_all`: nie v ani jednom
+  - `cont`: obsahuje
+  - `cont_any`: obsahuje aspoň jeden
+  - `cont_all`: obsahuje všetky
+  - `not_cont`: neobsahuje
+  - `not_cont_any`: neobsahuje aspoň jeden
+  - `not_cont_all`: neobsahuje všetky
+  - `start`: začína na
+  - `start_any`: začína na aspoň jeden
+  - `start_all`: začína na všetky
+  - `not_start`: nezačína na
+  - `not_start_any`: nezačína na aspoň jeden
+  - `not_start_all`: nezačína na všetky
+  - `end`: končí na
+  - `end_any`: končí na aspoň jeden
+  - `end_all`: končí na všetky
+  - `not_end`: nekončí na
+  - `not_end_any`: nekončí na aspoň jeden
+  - `not_end_all`: nekončí na všetky
+  - `'true'`: je pravdivý
+  - `'false'`: je nepravdivý
+  - `present`: je prítomný
+  - `blank`: je prázdny
+  - `'null'`: je nulový
+  - `not_null`: nie je nulový
+</details>
+
+### Zoraďovanie
+
+Zdroje môžete zoradiť pridaním parametru `sort` do vašej požiadavky. Ak chcete napríklad zoradiť postavy podľa mena, použite atribút `name` (všetky dostupné atribúty nájdete v časti [Zdroje](/resources)):
+
+```http
+GET https://api.potterdb.com/v1/characters?sort=name
+```
+
+Ak chcete zoradiť zdroje v zostupnom poradí, použite prefix `-`.

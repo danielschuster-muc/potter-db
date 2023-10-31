@@ -1,0 +1,50 @@
+import { Callout } from "nextra-theme-docs";
+
+<Callout type="warning" emoji="⚠️">
+  Na GraphQL API stále pracujeme a niektoré funkcie ako filtrovanie alebo zoraďovanie zatiaľ **nie sú** dostupné. V budúcnosti dôjde k zmenám v API.
+</Callout>
+
+# GraphQL API
+
+Naše GraphQL API ponúka flexibilný a efektívny spôsob interakcie s Potter DB. Táto sekcia vám predstaví kľúčové aspekty nášho GraphQL API a vy sa dozviete, ako ho využiť vo svoj prospech.
+
+## Koncový bod GraphQL
+
+Na získanie a zmenu dát cez GraphQL API pošlite požiadavku POST koncovému bodu GraphQL (`/graphql`). Telo požiadavky musí obsahovať váš dopyt a premenné a musí byť vo formáte JSON.
+
+## Dopytovanie dát
+
+Vďaka GraphQL môžete získať presne tie dáta, ktoré potrebujete. Dopyty musia obsahovať polia, o ktoré máte záujem, a vzťahy medzi nimi. Napríklad:
+
+```graphql
+{
+  books(first: 3) {
+    totalCount
+    pageInfo {
+      hasNextPage
+    }
+    edges {
+      node {
+        title
+        releaseDate
+        chapters {
+          edges {
+            node {
+              title
+              slug
+            }
+          }
+        }
+      }
+    }
+  }
+  character(slug: "harry-potter") {
+    name
+  }
+}
+```
+V tomto dopyte chceme získať názov (`title`) a dátum vydania (`releaseDate`) prvých troch kníh, ako aj názov (`title`) a slug (`slug`) každej kapitoly vo všetkých troch knihách. Okrem toho chceme získať aj meno (`name`) postavy so slugom `harry-potter`.
+
+## Schéma
+
+Kompletnú schému GraphQL API nájdete [tu](https://github.com/danielschuster-muc/potter-db/blob/master/backend/app/graphql/schema.json).
