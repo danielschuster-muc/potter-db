@@ -1,0 +1,81 @@
+# Books
+Este recurso fornece informações sobre livros do universo Harry Potter.
+
+## Attributes
+{
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Tipo</th>
+      <th>Descrição</th>
+      <th>Filtrável</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "author",
+        type: "string",
+        description: "O autor desse livro.",
+        filterable: true,
+      },
+      {
+        name: "cover",
+        type: "string",
+        description: "O url da capa desse livro.",
+        filterable: false,
+      },
+      {
+        name: "dedication",
+        type: "string",
+        description: "A dedicatória desse livro.",
+        filterable: true,
+      },
+      {
+        name: "pages",
+        type: "integer",
+        description: "O número de páginas desse livro.",
+        filterable: true,
+      },
+      {
+        name: "release_date",
+        type: "date",
+        description: "A data na qual esse livro foi lançado.",
+        filterable: true,
+      },
+      {
+        name: "summary",
+        type: "string",
+        description: "O resumo desse livro.",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "string",
+        description: "Um identificador para esse livro.",
+        filterable: false,
+      },
+      {
+        name: "title",
+        type: "string",
+        description: "O título desse livro.",
+        filterable: true,
+      },
+      {
+        name: "wiki",
+        type: "string",
+        description: "Um link para a Página Wiki de Harry Potter desse livro.",
+        filterable: false,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}
