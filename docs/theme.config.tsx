@@ -133,7 +133,7 @@ const config: DocsThemeConfig = {
         case "pt":
           return "Carregando...";
         default:
-          return "Loading...";  
+          return "Loading...";
       }
     },
     emptyResult() {
