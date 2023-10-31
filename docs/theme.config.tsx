@@ -96,7 +96,7 @@ const config: DocsThemeConfig = {
       <meta name="og:title" content="Potter DB: Docs" />
     </>
   ),
-  i18n: [{ locale: "en", text: "English" }, { locale: "fr", text: "Français" }, { locale: "es", text: "Español" }, { locale: "sk", text: "Slovenčina" }, { locale: "de", text: "Deutsch" }], { locale: "pt", text: "Português" }],
+  i18n: [{ locale: "en", text: "English" }, { locale: "fr", text: "Français" }, { locale: "es", text: "Español" }, { locale: "sk", text: "Slovenčina" }, { locale: "de", text: "Deutsch" }, { locale: "pt", text: "Português" }],
   logo: <span>Potter DB: Docs</span>,
   project: {
     link: "https://github.com/danielschuster-muc/potter-db",
