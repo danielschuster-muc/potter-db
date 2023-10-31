@@ -48,7 +48,7 @@ const config: DocsThemeConfig = {
         case "pt":
           return "Avalie-nos →"; 
         default:
-          return "Give us feedback →"; 
+          return "Give us feedback →";
       }
     },
   },
