@@ -76,7 +76,7 @@ const config: DocsThemeConfig = {
         break;
       default:
         text = "Last updated on";
-        break;  
+        break;
     }
     return (
       <>
