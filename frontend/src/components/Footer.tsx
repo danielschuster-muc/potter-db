@@ -14,17 +14,13 @@ const footerContent: FooterSection[] = [
         name: "Home",
         link: "/",
       },
-      // {
-      //   name: "About",
-      //   link: "/about",
-      // },
+      {
+        name: "About",
+        link: "/about",
+      },
       {
         name: "Imprint",
         link: "https://danischu.com/legal-notice",
-      },
-      {
-        name: "Sitemap",
-        link: "/sitemap.xml",
       },
     ],
   },
@@ -56,17 +52,21 @@ const footerContent: FooterSection[] = [
   {
     title: "Information",
     content: [
-      // {
-      //   name: "API",
-      //   link: "/",
-      // },
       {
-        name: "Source",
-        link: "/",
+        name: "API Docs",
+        link: "https://docs.potterdb.com",
       },
       {
-        name: "Docs",
-        link: "https://docs.potterdb.com",
+        name: "Source",
+        link: "https://github.com/danielschuster-muc/potter-db",
+      },
+      {
+        name: "Scrabby",
+        link: "/scrabby",
+      },
+      {
+        name: "Sitemap",
+        link: "/sitemap.xml",
       },
     ],
   },

@@ -3,6 +3,15 @@ const nextConfig = {
   images: {
     domains: ["static.wikia.nocookie.net", "www.wizardingworld.com"],
   },
+  async redirects() {
+    return [
+      {
+        source: "/scrabby",
+        destination: "https://github.com/danielschuster-muc/scrabby",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
