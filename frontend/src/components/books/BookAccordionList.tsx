@@ -2,6 +2,7 @@ import React from "react";
 
 import { simpleFetch } from "@/lib/utils";
 import Chapter from "@/types/Chapters";
+import Accordion from "../ui/Accordion";
 
 export default async function BookAccordionList({ slug }: { slug: string }) {
   const rawBookChapters = await simpleFetch(`https://api.potterdb.com/v1/books/${slug}/chapters`);
@@ -16,21 +17,26 @@ export default async function BookAccordionList({ slug }: { slug: string }) {
     return null;
   }
 
-  // TODO: Add Accordion component here once we have some chapter summaries
-  // See: https://github.com/danielschuster-muc/potter-db/issues/741
   return (
     <div className="flex justify-center">
       <div className="mt-5 p-5 w-full md:w-2/3 border-2 border-gray-200 rounded-lg">
         <h2 className="text-2xl mb-3 font-bold">Chapters</h2>
-        <ul className="list-decimal list-inside">
-          {bookChapters.map((chapter) => {
+        {bookChapters.map((chapter) => {
+          if (chapter.attributes.summary)
             return (
-              <li key={chapter.id} className="text-lg">
-                {chapter.attributes.title}
-              </li>
+              <Accordion
+                key={chapter.id}
+                title={`${chapter.attributes.order}. ${chapter.attributes.title}`}
+                content={chapter.attributes.summary}
+              />
             );
-          })}
-        </ul>
+          else
+            return (
+              <h3
+                key={chapter.id}
+                className="text-lg font-semibold">{`${chapter.attributes.order}. ${chapter.attributes.title}`}</h3>
+            );
+        })}
       </div>
     </div>
   );
