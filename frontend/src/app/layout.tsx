@@ -1,10 +1,13 @@
 import React from "react";
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
+
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/Footer";
-import "./../styles/globals.css";
 import NProgressProvider from "@/components/NProgressProvider";
 import ScrollToTopButton from "@/components/ui/ScrollToTopButton";
+
+import "./../styles/globals.css";
 
 export const metadata: Metadata = {
   title: {
@@ -27,6 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <ScrollToTopButton />
           </div>
         </NProgressProvider>
+        <Analytics />
       </body>
     </html>
   );
