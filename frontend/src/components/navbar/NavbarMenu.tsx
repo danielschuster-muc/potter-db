@@ -34,6 +34,10 @@ const menuItems: MenuItem[] = [
 
 const helpItems: MenuItem[] = [
   {
+    label: "About",
+    url: "/about",
+  },
+  {
     label: "Docs",
     url: "https://docs.potterdb.com/",
   },
