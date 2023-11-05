@@ -1,5 +1,5 @@
-import Link from "next/link";
 import React from "react";
+import HoverLink from "./ui/HoverLink";
 
 export default function InfoSection() {
   return (
@@ -37,12 +37,7 @@ export default function InfoSection() {
           movies, books, and more from the magical world. To learn more about the endless
           possibilities of integrating Potter DB&apos;s data into your own projects, applications,
           or websites, take a look at our{" "}
-          <Link
-            className="text-gray-300 hover:text-white underline"
-            href="https://docs.potterdb.com">
-            API Docs
-          </Link>{" "}
-          to get started.
+          <HoverLink title="API Docs" href="https://docs.potterdb.com" /> to get started.
         </p>
       </div>
 
@@ -50,19 +45,13 @@ export default function InfoSection() {
         <h2 className="text-2xl mb-3 font-bold">Where does our data come from?</h2>
         <p className="text-lg">
           We take pride in providing accurate and enriched information derived from various
-          open-source repositories. Leveraging our proprietary tool,{" "}
-          <Link className="text-gray-300 hover:text-white underline" href="/scrabby">
-            Scrabby
-          </Link>
-          , we meticulously aggregate data from reputable sources, such as the{" "}
-          <Link
-            className="text-gray-300 hover:text-white underline"
-            href="https://harrypotter.fandom.com/">
-            Harry Potter Wiki
-          </Link>
-          , and undergo a meticulous process of refining, enhancing, and summarizing the content.
-          This ensures that our users have access to the most reliable and comprehensive repository
-          of insights into the magical world.
+          open-source repositories. Leveraging our own tool,{" "}
+          <HoverLink title="Scrabby" href="/scrabby" />, we are able to collect and aggregate data
+          data from reputable sources, such as the{" "}
+          <HoverLink title="Harry Potter Wiki" href="https://harrypotter.fandom.com" />. We then
+          undergo a meticulous process of refining and enhancing the content. This ensures that our
+          users have access to the most reliable and comprehensive repository of insights into the
+          magical world.
         </p>
       </div>
     </div>

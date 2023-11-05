@@ -1,4 +1,4 @@
-import Link from "next/link";
+import HoverLink from "@/components/ui/HoverLink";
 
 export default function AboutPage() {
   return (
@@ -16,11 +16,7 @@ export default function AboutPage() {
         <p className="mt-4 text-lg">
           The story of Potter DB is a project of passion and love for the Harry Potter Universe. It
           all started in mid of June 2022, when I, known as{" "}
-          <Link
-            className="text-gray-300 hover:text-white underline"
-            href="https://github.com/danielschuster-muc">
-            @danielschuster-muc
-          </Link>
+          <HoverLink title="@danielschuster-muc" href="https://github.com/danielschuster-muc" />
           , a dedicated Harry Potter fan, realized that something was missing in the magical digital
           world. As someone who had always been captivated by the wonders of the Wizarding World, I
           felt that there was something missing for fellow Potterheads and developers like myself.
@@ -28,11 +24,10 @@ export default function AboutPage() {
           for all things related to magical world of Harry Potter. <br /> <br />
           Potter DB is an open-source project, and I am always looking for contributors, new ideas
           or ways to improve Potter DB. If you are interested in contributing, please check out the{" "}
-          <Link
-            className="text-gray-300 hover:text-white underline"
-            href="https://github.com/danielschuster-muc/potter-db">
-            GitHub repository
-          </Link>
+          <HoverLink
+            title="GitHub repository"
+            href="https://github.com/danielschuster-muc/potter-db"
+          />
           .
         </p>
       </div>
@@ -44,18 +39,12 @@ export default function AboutPage() {
           producing and publishing Harry Potter books and films. All content on this website is for
           informational purposes only. Potter DB does not claim any ownership over the data
           displayed on this website. All data has been obtained from open sources such as the{" "}
-          <Link
-            className="text-gray-300 hover:text-white underline"
-            href="https://harrypotter.fandom.com">
-            Harry Potter Wiki
-          </Link>
-          , ensuring a comprehensive yet respectful approach to data collection. Potter DB operates
-          under the{" "}
-          <Link
-            className="text-gray-300 hover:text-white underline"
-            href="https://github.com/danielschuster-muc/potter-db/tree/master/LICENSE">
-            MIT License
-          </Link>
+          <HoverLink title="Harry Potter Wiki" href="https://harrypotter.fandom.com" />, ensuring a
+          comprehensive yet respectful approach to data collection. Potter DB operates under the{" "}
+          <HoverLink
+            title="MIT License"
+            href="https://github.com/danielschuster-muc/potter-db/tree/master/LICENSE"
+          />
           , emphasizing our commitment to transparency and open collaboration.
         </p>
       </div>

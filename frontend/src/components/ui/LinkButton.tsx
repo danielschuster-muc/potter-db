@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-export default function SimpleLink({ title, href }: { title: string; href: string }) {
+export default function LinkButton({ title, href }: { title: string; href: string }) {
   return (
     <Link
       href={href}
