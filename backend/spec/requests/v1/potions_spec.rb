@@ -36,11 +36,18 @@ RSpec.describe 'V1::Potions' do
     get 'Retrieves a potion' do
       tags 'potions'
       description 'Retrieves a specific potion by id, use "random" to get a random potion.'
-      operationId 'getpotion'
+      operationId 'getPotion'
       produces 'application/vnd.api+json'
-      parameter name: :id, in: :path, required: true,
-                description: "The unique identifier of the potion. Must be a valid UUID v4 or slug.",
-                schema: { '$ref' => '#components/schemas/id_path' }
+      parameter name: 'id',
+                description: "The identifier of the potion. Must be a valid UUID v4 or slug.",
+                in: :path,
+                required: true,
+                schema: {
+                  oneOf: [
+                    { '$ref' => '#/components/schemas/uuid_path' },
+                    { '$ref' => '#/components/schemas/slug_path' }
+                  ]
+                }
 
       response '200', 'A single potion' do
         let(:id) { create(:potion).id }

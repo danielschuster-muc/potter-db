@@ -1,0 +1,137 @@
+# Filme
+
+Diese Ressource bietet Informationen über Filme aus dem the Harry-Potter-Universum.
+
+## Attribute
+
+{
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Typ</th>
+      <th>Beschreibung</th>
+      <th>Filterbar</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "box_office",
+        type: "Zeichenfolge",
+        description: "Einnahmen, die der Film durch den Verkauf von Eintrittskarten erzielte.",
+        filterable: true,
+      },
+      {
+        name: "budget",
+        type: "Zeichenfolge",
+        description: "Budget für den Film.",
+        filterable: true,
+      },
+      {
+        name: "cinematographers",
+        type: "Array",
+        description: "Liste von Kameraleuten, die beim Film mitgewirkt haben.",
+        filterable: true,
+      },
+      {
+        name: "directors",
+        type: "Array",
+        description: "Liste der Personen, die bei dem Film Regie geführt haben.",
+        filterable: true,
+      },
+      {
+        name: "distributors",
+        type: "Array",
+        description: "Filmverleih.",
+        filterable: true,
+      },
+      {
+        name: "editors",
+        type: "Array",
+        description: "Liste der Personen, die den Film geschnitten haben.",
+        filterable: true,
+      },
+      {
+        name: "music_composers",
+        type: "Array",
+        description: "Liste der Komponisten der Filmmusik.",
+        filterable: true,
+      },
+      {
+        name: "poster",
+        type: "Zeichenfolge",
+        description: "Link zum Poster des Films.",
+        filterable: false,
+      },
+      {
+        name: "producers",
+        type: "Array",
+        description: "Liste der Personen, die den Film produziert haben.",
+        filterable: true,
+      },
+      {
+        name: "rating",
+        type: "Zeichenfolge",
+        description: "Altersfreigabe des Films.",
+        filterable: true,
+      },
+      {
+        name: "release_date",
+        type: "date",
+        description: "Erscheinungsdatum des Films.",
+        filterable: true,
+      },
+      {
+        name: "running_time",
+        type: "Zeichenfolge",
+        description: "Länge des Films.",
+        filterable: true,
+      },
+      {
+        name: "screenwriters",
+        type: "Array",
+        description: "Liste der Personen, die das Drehbuch für den Film geschrieben haben.",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "Zeichenfolge",
+        description: "Slug, um den Film zu identifizieren.",
+        filterable: false,
+      },
+      {
+        name: "summary",
+        type: "Zeichenfolge",
+        description: "Zusammenfassung des Films.",
+        filterable: true,
+      },
+      {
+        name: "title",
+        type: "Zeichenfolge",
+        description: "Filmtitel.",
+        filterable: true,
+      },
+      {
+        name: "trailer",
+        type: "Zeichenfolge",
+        description: "Link zum Trailer des Films.",
+        filterable: false,
+      },
+      {
+        name: "wiki",
+        type: "Zeichenfolge",
+        description: "Link zur Harry Potter Wiki Seite des Films.",
+        filterable: false,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

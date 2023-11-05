@@ -1,0 +1,47 @@
+import { Bleed } from 'nextra-theme-docs'
+
+# REST vs. GraphQL
+
+Die "Potter DB: API" bietet zwei Möglichkeiten, um an unsere zauberhaften Daten zu kommen: 
+ **REST** und **GraphQL**. Wähle die aus, die am besten zu deinen Bedürfnissen und Entwicklungsstil passt.
+- **REST**: Wenn du einen geradlinigen, ressourcenbasierten Ansatz bevorzugst, sind REST-Endpunkte die richtige Wahl. Damit schickst du HTTP-Anfragen an bestimmte URLs, um Daten abzurufen.
+- **GraphQL**: Für flexiblere und akkuratere Datenabfragen kannst du mit GraphQL genau das anfordern, was du brauchst, ohne überflüssige Zusätze. Konstruiere deine Abfragen, um Daten mit präziser Kontrolle abzurufen.
+
+## Technical details
+
+{
+<table>
+  <thead>
+    <tr>
+      <th>Was</th>
+      <th>Beschreibung</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Authentifizierung</td>
+      <td>Kostenlose Benutzung, <b>keine Authentifizierung</b> nötig</td>
+    </tr>
+    <tr>
+      <td>Basis-URL</td>
+      <td>
+        https://api.potterdb.com/
+      </td>
+    </tr>
+    <tr>
+      <td>Aktuelle Version</td>
+      <td>v1</td>
+    </tr>
+  </tbody>
+</table>
+}
+
+## Obergrenze der Anfragen
+
+Um die Qualität sicherzustellen und eine böswillige Nutzung der "Potter DB: API" zu verhindern, gibt es ein IP-basiertes Limit von ***900 Anfragen pro Stunde*** (15 Anfragen / Minute). Falls du dieses Limit erreichst, bekommst du `429 To Many Requests` auf deine Anfrage zurück.
+Bitte beachte, dass sich diese Obergrenzen ändern können. Prüfe daher unbedingt die neuesten Informationen zu den Limits in der Dokumentation oder über Antworten der API.
+<br />
+
+_Da du nun die Grundlagen kennst, kannst du dich in der API-Dokumentation über die verfügbaren Endpunkte informieren und mit der Erstellung deiner magischen Abfragen beginnen.
+In den Abschnitten für [REST](/apis/rest) und [GraphQL](apis/graphql) findest du ausführliche Informationen zur effektiven Nutzung der API.
+Einen Überblick über alle verfügbaren Ressourcen findest du in der [Ressourcenübersicht](/resources)._

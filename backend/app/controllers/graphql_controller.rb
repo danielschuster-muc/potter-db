@@ -23,6 +23,7 @@ class GraphqlController < ApplicationController
   private
 
   # Handle variables in form data, JSON body, or a blank value
+  # rubocop:disable Metrics/MethodLength
   def prepare_variables(variables_param)
     case variables_param
     when String
@@ -41,11 +42,13 @@ class GraphqlController < ApplicationController
       raise ArgumentError, "Unexpected parameter: #{variables_param}"
     end
   end
+  # rubocop:enable Metrics/MethodLength
 
   def handle_error_in_development(error)
     logger.error error.message
     logger.error error.backtrace.join("\n")
 
-    render json: { errors: [{ status: 500, title: error.message, detail: error.backtrace }], data: {} }, status: 500
+    render json: { errors: [{ status: 500, title: error.message, detail: error.backtrace }], data: {} },
+           status: :internal_server_error
   end
 end

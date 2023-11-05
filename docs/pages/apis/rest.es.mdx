@@ -1,0 +1,160 @@
+# REST API
+
+Nuestra API REST ofrece una forma sencilla de interactuar con Potter DB, de acuerdo con las especificaciones JSON:API y OAS. En esta sección, vamos a cubrir los aspectos clave del uso de la API REST, incluyendo los endpoints disponibles y cómo dar formato a tus peticiones y respuestas.
+
+## Endpoints disponibles
+
+Para acceder a los datos de la API REST, debe realizar una solicitud `GET` a uno de los siguientes puntos finales:
+
+<details>
+<summary>Expanda para ver todos los endpoints</summary>
+
+**Books**
+- `/v1/books`: Recupera una lista de libros.
+- `/v1/books/{id}`: Recupera un solo libro por su ID.
+- `/v1/books/{book_id}/chapters`: Recuperar una lista de capítulos de un libro determinado.
+- `/v1/books/{book_id}/chapters/{id}`: Recuperar un capítulo de un libro por su ID.
+
+**Characters**
+- `/v1/characters`: Recupera una lista de personajes.
+- `/v1/characters/{id}`: Recuperar un único personaje por su ID.
+
+**Movies**
+- `/v1/movies`: Recupera una lista de películas.
+- `/v1/movies/{id}`: Recupera una sola película por su ID.
+
+**Potions**
+- `/v1/potions`: Recupera una lista de pociones.
+- `/v1/potions/{id}`: Recupera una sola poción por su ID.
+
+**Spells**
+- `/v1/spells`: Recupera una lista de hechizos.
+- `/v1/spells/{id}`: Recupera un solo hechizo por su ID.
+
+Los ID deben proporcionarse como UUID o slugs.
+
+</details>
+
+## Especificaciones OpenAPI (OAS)
+
+Para facilitar la integración, proporcionamos un documento [OpenAPI Specification](https://openapis.org) que describe los puntos finales de la API, los modelos de datos y los esquemas de solicitud/respuesta.
+La API se ajusta a la versión 3.0.3 de la especificación OAS.
+Puede encontrar nuestro documento OAS actual [aquí](https://api.potterdb.com/v1/openapi.json).
+
+## Formato JSON:API
+
+Nuestra API REST se adhiere a la [especificación JSON:API](https://jsonapi.org/), que proporciona una forma coherente de estructurar las solicitudes y respuestas de la API. He aquí un resumen de las principales características de JSON:API en el contexto de nuestra API:
+
+- **Objetos de recursos**: Cada recurso se representa como un objeto con un `tipo`, `id` y `atributos`.
+- **Relaciones**: Los recursos pueden estar relacionados con otros recursos, por ejemplo, un recurso "libro" está relacionado con recursos "capítulo" y viceversa.
+- **Paginación**: Cuando una respuesta contiene un gran número de recursos, la respuesta se paginará. Consulte [Paginación](#pagination) para obtener más información.
+- **Errores**: Los errores se devuelven con estructuras estandarizadas, lo que facilita la gestión y resolución de problemas.
+
+## Realizar peticiones
+
+Para realizar una solicitud a la API REST, debe realizar una solicitud `GET` a uno de nuestros endpoints disponibles.
+He aquí un ejemplo básico de cómo recuperar una lista de personajes utilizando el endpoint `/characters`:
+
+```http
+GET https://api.potterdb.com/v1/characters
+```
+
+Consulte el documento "OpenAPI Specification" para obtener información detallada.
+
+## Paginación
+
+Las respuestas con un gran número de recursos se paginarán. La respuesta incluirá un objeto `links` con enlaces `first`, `last`, `prev` y `next` a la primera, última, anterior y siguiente página de resultados respectivamente.
+
+Para cambiar la cantidad de recursos por página, puede utilizar el parámetro de consulta `page[size]` (el tamaño máximo es 100):
+
+```http
+GET https://api.potterdb.com/v1/characters?page[size]=25
+```
+
+Para cambiar la página actual, puede utilizar el parámetro de consulta `page[number]`:
+
+```http
+GET https://api.potterdb.com/v1/characters?page[number]=2
+```
+
+## Ransack
+
+Nuestra API REST admite el filtrado y la clasificación avanzados mediante [Ransack](https://activerecord-hackery.github.io/ransack/).
+
+### Filtrado
+
+Puede filtrar recursos añadiendo un parámetro de consulta `filter` a su petición. Por ejemplo, para filtrar caracteres por nombre, puede utilizar el predicado `name_cont`:
+
+```http
+GET https://api.potterdb.com/v1/characters?filter[name_cont]=Weasley
+```
+
+Esto devolverá todos los personajes con el nombre "Weasley".
+
+<details>
+  <summary>Ampliar para ver todos los filtros predicados disponibles</summary>
+  - `eq`: igual a 
+  - `eq_any`: igual a cualquier
+  - `eq_all`: igual a todos
+  - `not_eq`: no es igual a
+  - `not_eq_any`: no es igual a cualquier
+  - `not_eq_all`: no es igual a todos
+  - `matches`: coincide con
+  - `matches_any`: coincide con cualquier
+  - `matches_all`: coincide con todos
+  - `does_not_match`: no coincide con
+  - `does_not_match_any`: no coincide con cualquier
+  - `does_not_match_all`: no coincide con todos
+  - `lt`: menos que
+  - `lt_any`: menos que cualquier
+  - `lt_all`: menos que todos
+  - `lteq`: menos que o igual a
+  - `lteq_any`: menos que o igual a cualquier
+  - `lteq_all`: menos que o igual a todos
+  - `gt`: mayor que
+  - `gt_any`: mayor que cualquier
+  - `gt_all`: mayor que todos
+  - `gteq`: mayor que o igual a
+  - `gteq_any`: mayor que o igual a cualquier
+  - `gteq_all`: mayor que o igual a todos
+  - `in`: en
+  - `in_any`: en cualquier
+  - `in_all`: en todos
+  - `not_in`: no en
+  - `not_in_any`: no en cualquier
+  - `not_in_all`: no en todos
+  - `cont`: contiene
+  - `cont_any`: contiene cualquier
+  - `cont_all`: contiene todos
+  - `not_cont`: no contiene
+  - `not_cont_any`: no contiene cualquier
+  - `not_cont_all`: no contiene todos
+  - `start`: comienza con
+  - `start_any`: comienza con cualquier
+  - `start_all`: comienza con todos
+  - `not_start`: no comienza con
+  - `not_start_any`: no comienza con cualquier
+  - `not_start_all`: no comienza con todos
+  - `end`: termina con
+  - `end_any`: termina con cualquier
+  - `end_all`: termina con todos
+  - `not_end`: no termina con
+  - `not_end_any`: no termina con cualquier
+  - `not_end_all`: no termina con todos
+  - `'true'`: es verdadero
+  - `'false'`: es falso
+  - `present`: está presente
+  - `blank`: está en blanco
+  - `'null'`: es nulo
+  - `not_null`: no es nulo
+</details>
+
+### Ordenar
+
+Puede ordenar los recursos añadiendo un parámetro de consulta `sort` a su petición. Por ejemplo, para ordenar caracteres por nombre, puede utilizar el atributo `name` (vaya a [Recursos](#recursos) para ver todos los atributos disponibles):
+
+```http
+GET https://api.potterdb.com/v1/characters?sort=name
+```
+
+Utilice el prefijo `-` para ordenar en orden descendente.

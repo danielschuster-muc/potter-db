@@ -19,6 +19,12 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Editer cette page sur GitHub →";
+        case "es":
+          return "Editar esta página en GitHub →";
+        case "sk":
+          return "Upraviť stránku cez GitHub →";
+        case "de":
+          return "Bearbeite diese Seite auf GitHub →";
         default:
           return "Edit this page on GitHub →";
       }
@@ -31,6 +37,12 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Donnez-nous votre avis →";
+        case "es":
+          return "Danos tu opinión →";
+        case "sk":
+          return "Zanechať spätnú väzbu →";
+        case "de":
+          return "Gib uns Feedback →";
         default:
           return "Give us feedback →";
       }
@@ -45,6 +57,15 @@ const config: DocsThemeConfig = {
     switch (locale) {
       case "fr":
         text = "Dernière mise à jour le";
+        break;
+      case "es":
+        text = "Última actualización el";
+        break;
+      case "sk":
+        text = "Naposledy upravené";
+        break;
+      case "de":
+        text = "Letzte Änderung am";
         break;
       default:
         text = "Last updated on";
@@ -68,7 +89,7 @@ const config: DocsThemeConfig = {
       <meta name="og:title" content="Potter DB: Docs" />
     </>
   ),
-  i18n: [{ locale: "en", text: "English" },{ locale: "fr", text: "Français" }],
+  i18n: [{ locale: "en", text: "English" }, { locale: "fr", text: "Français" }, { locale: "es", text: "Español" }, { locale: "sk", text: "Slovenčina" }, { locale: "de", text: "Deutsch" }],
   logo: <span>Potter DB: Docs</span>,
   project: {
     link: "https://github.com/danielschuster-muc/potter-db",
@@ -79,6 +100,12 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Rechercher...";
+        case "es":
+          return "Buscar...";
+        case "sk":
+          return "Hľadať...";
+        case "de":
+          return "Suche...";
         default:
           return "Search...";
       }
@@ -88,6 +115,12 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "En cours de chargement...";
+        case "es":
+          return "Cargando...";
+        case "sk":
+          return "Načítava sa...";
+        case "de":
+          return "Lädt...";
         default:
           return "Loading...";
       }
@@ -98,6 +131,15 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           text = "Aucun résultat.";
+          break;
+        case "es":
+          text = "Sin resultados.";
+          break;
+        case "sk":
+          text = "Nenašli sa žiadne výsledky.";
+          break;
+        case "de":
+          text = "Keine Ergebnisse gefunden.";
           break;
         default:
           text = "No results found.";
@@ -130,6 +172,18 @@ const config: DocsThemeConfig = {
             dark: "Sombre",
             system: "Système",
           };
+        case "sk":
+          return {
+            light: "Svetlý motív",
+            dark: "Tmavý motív",
+            system: "Systémové nastavenie",
+          };
+        case "de":
+          return {
+            light: "Hell",
+            dark: "Dunkel",
+            system: "System",
+          };
         default:
           return {
             light: "Light",
@@ -146,6 +200,12 @@ const config: DocsThemeConfig = {
       switch (locale) {
         case "fr":
           return "Sur cette page";
+        case "es":
+          return "En esta página";
+        case "sk":
+          return "Na tejto stránke";
+        case "de":
+          return "Auf dieser Seite";
         default:
           return "On this page";
       }

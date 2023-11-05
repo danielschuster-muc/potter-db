@@ -1,0 +1,89 @@
+# Zaubersprüche
+
+Diese Ressource bietet Informationen über Zaubersprüche aus dem Harry-Potter-Universum.
+
+## Attribute
+
+{
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Typ</th>
+      <th>Beschreibung</th>
+      <th>Filterbar</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "category",
+        type: "Zeichenfolge",
+        description: "Kategorie des Zauberspruchs.",
+        filterable: true,
+      },
+      {
+        name: "creator",
+        type: "Zeichenfolge",
+        description: "Schöpfer/in des Zauberspruchs.",
+        filterable: true,
+      },
+      {
+        name: "effect",
+        type: "Zeichenfolge",
+        description: "Effekt des Zauberspruchs.",
+        filterable: true,
+      },
+      {
+        name: "hand",
+        type: "Zeichenfolge",
+        description: "Handbewegung des Zauberspruchs.",
+        filterable: true,
+      },
+      {
+        name: "image",
+        type: "Zeichenfolge",
+        description: "Link zu einem Bild des Zauberspruchs.",
+        filterable: false,
+      },
+      {
+        name: "incantation",
+        type: "Zeichenfolge",
+        description: "Beschwörungsformel für den Zauberspruch.",
+        filterable: true,
+      },
+      {
+        name: "light",
+        type: "Zeichenfolge",
+        description: "Licht des Zauberspruchs.",
+        filterable: true,
+      },
+      {
+        name: "name",
+        type: "Zeichenfolge",
+        description: "Name des Zauberspruchs.",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "Zeichenfolge",
+        description: "Slug, um den Zauberspruch zu identifizieren.",
+        filterable: false,
+      },
+      {
+        name: "wiki",
+        type: "Zeichenfolge",
+        description: "Link zur Harry Potter Wiki Seite des Zauberspruchs.",
+        filterable: false,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

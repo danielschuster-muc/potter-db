@@ -4,15 +4,23 @@ RSpec.describe 'V1::Chapters' do
   path '/v1/books/{id}/chapters' do
     get 'Retrieves a list of chapters of a given book' do
       tags 'books'
+      description 'Retrieves a list of chapters of a given book; paginated, sorted and filtered by attributes.'
       operationId 'getChapters'
       produces 'application/vnd.api+json'
+      parameter name: 'id',
+                description: 'The identifier of the book. Must be a valid UUID v4 or slug.',
+                in: :path,
+                required: true,
+                schema: {
+                  oneOf: [
+                    { '$ref' => '#/components/schemas/uuid_path' },
+                    { '$ref' => '#/components/schemas/slug_path' }
+                  ]
+                }
       parameter '$ref': '#/components/parameters/page_size'
       parameter '$ref': '#/components/parameters/page_number'
       parameter '$ref': '#/components/parameters/sort_chapters'
       parameter '$ref': '#/components/parameters/filter_chapters_by'
-      parameter name: :id, in: :path, required: true,
-                description: "The unique identifier of the book. Must be a valid UUID v4 or slug.",
-                schema: { '$ref' => '#components/schemas/id_path' }
 
       response '200', 'A list of chapters' do
         let(:id) { create(:book).id }
@@ -47,16 +55,30 @@ RSpec.describe 'V1::Chapters' do
       description 'Retrieves a specific chapter of a given book by id, use "random" to get a random chapter.'
       operationId 'getChapter'
       produces 'application/vnd.api+json'
-      parameter name: :book_id, in: :path, required: true,
-                description: "The unique identifier of the book. Must be a valid UUID v4 or slug.",
-                schema: { '$ref' => '#components/schemas/id_path' }
-      parameter name: :id, in: :path, required: true,
-                description: "The unique identifier of the chapter. Must be a valid UUID v4 or slug.",
-                schema: { '$ref' => '#components/schemas/id_path' }
+      parameter name: 'book_id',
+                description: "The identifier of the book. Must be a valid UUID v4 or slug.",
+                in: :path,
+                required: true,
+                schema: {
+                  oneOf: [
+                    { '$ref' => '#/components/schemas/uuid_path' },
+                    { '$ref' => '#/components/schemas/slug_path' }
+                  ]
+                }
+      parameter name: 'id',
+                description: "The identifier of the book's chapter. Must be a valid UUID v4 or slug.",
+                in: :path,
+                required: true,
+                schema: {
+                  oneOf: [
+                    { '$ref' => '#/components/schemas/uuid_path' },
+                    { '$ref' => '#/components/schemas/slug_path' }
+                  ]
+                }
 
       response '200', 'A single chapter' do
         let(:book) { create(:book) }
-        let(:chapter) { create(:chapter, book: book) }
+        let(:chapter) { create(:chapter, book:) }
 
         let(:book_id) { book.id }
         let(:id) { chapter.id }
