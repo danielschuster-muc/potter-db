@@ -63,7 +63,7 @@ Using [Bundler](https://github.com/bundler/bundler):
 bundle install
 ```
 
-Docker Installation 
+Docker Installation
 
 Run the following command in your terminal
 
@@ -81,7 +81,7 @@ Create and set up the database by running the following commands:
 rails db:create db:migrate
 rails db:seed
 ```
-Docker Installation 
+Docker Installation
 
 Open another terminal in backend folder and run
 
@@ -115,6 +115,14 @@ For any code changes, ensure that the backend tests are running successfully. Yo
 rspec spec
 ```
 
+### Rubocop Linting
+
+We use [Rubocop](https://github.com/rubocop/rubocop) to lint our code. To run the linter, use the following command:
+
+```shell
+bundle exec rubocop
+```
+
 ### OpenAPI Documentation
 
 Our API is documented using OpenAPI.
@@ -124,6 +132,12 @@ To update the documentation, make your changes in [rspec/request](spec/requests)
 rake rswag:specs:swaggerize
 ```
 You can now visit the documentation on http://localhost:3000/v1/openapi or in [app/documentation/v1/openapi.yml](app/documentation/v1/openapi.yml).
+
+To validate the documentation, run the following command:
+
+```shell
+spectral lint app/documentation/v1/openapi.yml
+```
 
 ### GraphQL Schema
 We also provide a GraphQL API. To update the GraphQL schema, make your changes in [app/graphql](app/graphql) and run the following command afterwards:

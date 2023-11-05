@@ -1,0 +1,4 @@
+extends: [
+  "spectral:oas",
+  # "https://unpkg.com/@stoplight/spectral-owasp-ruleset/dist/ruleset.mjs"
+]

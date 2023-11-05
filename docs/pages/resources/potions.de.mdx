@@ -1,0 +1,101 @@
+# Zaubertränke
+
+Diese Ressource bietet Informationen über Zaubertränke aus dem Harry-Potter-Universum.
+
+## Attribute
+
+{
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Typ</th>
+      <th>Beschreibung</th>
+      <th>Filterbar</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "characteristics",
+        type: "Zeichenfolge",
+        description: "Die Eigenschaften des Zaubertranks.",
+        filterable: true,
+      },
+      {
+        name: "difficulty",
+        type: "Zeichenfolge",
+        description: "Schwierigkeit, diesen Zaubetrank zu brauen.",
+        filterable: true,
+      },
+      {
+        name: "effect",
+        type: "Zeichenfolge",
+        description: "Hauptwirkung des Zaubertranks.",
+        filterable: true,
+      },
+      {
+        name: "image",
+        type: "Zeichenfolge",
+        description: "Link zu einem Bild des Zaubertranks.",
+        filterable: false,
+      },
+      {
+        name: "inventors",
+        type: "Zeichenfolge",
+        description: "Erfinder/in des Zaubertranks.",
+        filterable: true,
+      },
+      {
+        name: "ingredients",
+        type: "Zeichenfolge",
+        description: "Zutaten, um diesen Zaubertrank zu brauen.",
+        filterable: true,
+      },
+      {
+        name: "manufacturers",
+        type: "Zeichenfolge",
+        description: "Hersteller des Zaubertranks.",
+        filterable: true,
+      },
+      {
+        name: "name",
+        type: "Zeichenfolge",
+        description: "Name des Zaubertranks.",
+        filterable: true,
+      },
+      {
+        name: "side_effects",
+        type: "Zeichenfolge",
+        description: "Nebenwirkungen des Zaubertranks.",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "Zeichenfolge",
+        description: "Slug, um den Zaubertrank zu identifizieren.",
+        filterable: false,
+      },
+      {
+        name: "time",
+        type: "Zeichenfolge",
+        description: "Zeit, die es braucht, um den Zaubertrank zu brauen.",
+        filterable: true,
+      },
+      {
+        name: "wiki",
+        type: "Zeichenfolge",
+        description: "Link zur Harry Potter Wiki Seite des Zaubertranks.",
+        filterable: false,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

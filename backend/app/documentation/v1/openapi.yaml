@@ -79,12 +79,13 @@ paths:
       operationId: getBook
       parameters:
       - name: id
+        description: The identifier of the book. Must be a valid UUID v4 or slug.
         in: path
         required: true
-        description: The unique identifier of the book. Must be a valid UUID v4 or
-          slug.
         schema:
-          "$ref": "#components/schemas/id_path"
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
       responses:
         '200':
           description: A single book
@@ -110,19 +111,22 @@ paths:
       summary: Retrieves a list of chapters of a given book
       tags:
       - books
+      description: Retrieves a list of chapters of a given book; paginated, sorted
+        and filtered by attributes.
       operationId: getChapters
       parameters:
+      - name: id
+        description: The identifier of the book. Must be a valid UUID v4 or slug.
+        in: path
+        required: true
+        schema:
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
       - "$ref": "#/components/parameters/page_size"
       - "$ref": "#/components/parameters/page_number"
       - "$ref": "#/components/parameters/sort_chapters"
       - "$ref": "#/components/parameters/filter_chapters_by"
-      - name: id
-        in: path
-        required: true
-        description: The unique identifier of the book. Must be a valid UUID v4 or
-          slug.
-        schema:
-          "$ref": "#components/schemas/id_path"
       responses:
         '200':
           description: A list of chapters
@@ -155,19 +159,22 @@ paths:
       operationId: getChapter
       parameters:
       - name: book_id
+        description: The identifier of the book. Must be a valid UUID v4 or slug.
         in: path
         required: true
-        description: The unique identifier of the book. Must be a valid UUID v4 or
-          slug.
         schema:
-          "$ref": "#components/schemas/id_path"
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
       - name: id
+        description: The identifier of the book's chapter. Must be a valid UUID v4
+          or slug.
         in: path
         required: true
-        description: The unique identifier of the chapter. Must be a valid UUID v4
-          or slug.
         schema:
-          "$ref": "#components/schemas/id_path"
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
       responses:
         '200':
           description: A single chapter
@@ -224,15 +231,16 @@ paths:
       - characters
       description: Retrieves a specific character by id, use "random" to get a random
         character.
-      operationId: getcharacter
+      operationId: getCharacter
       parameters:
       - name: id
+        description: The identifier of the character. Must be a valid UUID v4 or slug.
         in: path
         required: true
-        description: The unique identifier of the character. Must be a valid UUID
-          v4 or slug.
         schema:
-          "$ref": "#components/schemas/id_path"
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
       responses:
         '200':
           description: A single character
@@ -288,15 +296,16 @@ paths:
       - movies
       description: Retrieves a specific movie by id, use "random" to get a random
         movie.
-      operationId: getmovie
+      operationId: getMovie
       parameters:
       - name: id
+        description: The identifier of the movie. Must be a valid UUID v4 or slug.
         in: path
         required: true
-        description: The unique identifier of the movie. Must be a valid UUID v4 or
-          slug.
         schema:
-          "$ref": "#components/schemas/id_path"
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
       responses:
         '200':
           description: A single movie
@@ -353,15 +362,16 @@ paths:
       - potions
       description: Retrieves a specific potion by id, use "random" to get a random
         potion.
-      operationId: getpotion
+      operationId: getPotion
       parameters:
       - name: id
+        description: The identifier of the potion. Must be a valid UUID v4 or slug.
         in: path
         required: true
-        description: The unique identifier of the potion. Must be a valid UUID v4
-          or slug.
         schema:
-          "$ref": "#components/schemas/id_path"
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
       responses:
         '200':
           description: A single potion
@@ -417,15 +427,16 @@ paths:
       - spells
       description: Retrieves a specific spell by id, use "random" to get a random
         spell.
-      operationId: getspell
+      operationId: getSpell
       parameters:
       - name: id
+        description: The identifier of the spell. Must be a valid UUID v4 or slug.
         in: path
         required: true
-        description: The unique identifier of the spell. Must be a valid UUID v4 or
-          slug.
         schema:
-          "$ref": "#components/schemas/id_path"
+          oneOf:
+          - "$ref": "#/components/schemas/uuid_path"
+          - "$ref": "#/components/schemas/slug_path"
       responses:
         '200':
           description: A single spell
@@ -450,7 +461,7 @@ components:
   parameters:
     page_size:
       name: page[size]
-      description: The number of returned results per page. (Between 1 and 100)
+      description: The number of returned results per page (between 1 and 100).
       in: query
       required: false
       schema:
@@ -737,49 +748,6 @@ components:
         type: object
         nullable: true
   schemas:
-    json_api_schema:
-      title: JSON:API Schema
-      description: This is a schema for reponses in the [JSON:API](https://jsonapi.org)
-        format.
-      oneOf:
-      - "$ref": "#/components/schemas/failure"
-      - "$ref": "#/components/schemas/info"
-      - "$ref": "#/components/schemas/success"
-    failure:
-      type: object
-      required:
-      - errors
-      properties:
-        errors:
-          type: array
-          items:
-            "$ref": "#/components/schemas/error"
-          uniqueItems: true
-      additionalProperties: false
-    info:
-      type: object
-      required:
-      - meta
-      properties:
-        meta:
-          "$ref": "#/components/schemas/meta"
-        links:
-          "$ref": "#/components/schemas/links"
-      additionalProperties: false
-    success:
-      type: object
-      required:
-      - data
-      properties:
-        data:
-          "$ref": "#/components/schemas/data"
-        meta:
-          "$ref": "#/components/schemas/meta"
-        links:
-          allOf:
-          - "$ref": "#/components/schemas/links"
-          - "$ref": "#/components/schemas/pagination_links"
-      additionalProperties: false
     meta:
       description: Meta information about the response.
       type: object
@@ -791,49 +759,7 @@ components:
           format: date_time
       example:
         copyright: Copyright © Potter DB 2023
-        generated_at: '2023-09-27T22:37:00+02:00'
-    data:
-      description: The primary data of the response.
-      oneOf:
-      - "$ref": "#/components/schemas/resource"
-      - type: array
-        description: An array of resources
-        items:
-          "$ref": "#/components/schemas/resource"
-        uniqueItems: true
-      - type: string
-        nullable: true
-    resource:
-      description: A resource that appears in a JSON:API response.
-      type: object
-      required:
-      - id
-      - type
-      properties:
-        type:
-          type: string
-        id:
-          type: string
-        attributes:
-          "$ref": "#/components/schemas/attributes"
-        relationships:
-          "$ref": "#/components/schemas/relationships"
-        links:
-          "$ref": "#/components/schemas/links"
-        meta:
-          "$ref": "#/components/schemas/meta"
-      additionalProperties: false
-    links:
-      type: array
-      description: Links to other resources.
-      items:
-        "$ref": "#/components/schemas/link"
-      uniqueItems: true
-    link:
-      description: A link to a resource
-      type: string
-      nullable: true
-      format: uriReference
+        generated_at: '2023-10-14T21:53:54+02:00'
     pagination_links:
       type: object
       properties:
@@ -863,90 +789,6 @@ components:
           nullable: true
       required:
       - self
-    attributes:
-      description: Attributes of a resource.
-      type: object
-      not:
-        anyOf:
-        - required:
-          - relationships
-        - required:
-          - links
-        - required:
-          - id
-        - required:
-          - type
-      additionalProperties: false
-    relationships:
-      description: Relationships of a resource.
-      type: object
-      properties:
-        resources:
-          description: The name of the relationship resource. See [Resource Object
-            Relationships](https://jsonapi.org/format/#document-resource-object-relationships)
-          type: object
-          properties:
-            data:
-              oneOf:
-              - "$ref": "#/components/schemas/relationship_to_one"
-              - "$ref": "#/components/schemas/relationship_to_many"
-      additionalProperties: false
-    relationship_to_one:
-      description: A relationship to a single resource.
-      anyOf:
-      - "$ref": "#/components/schemas/empty_relationship"
-      - "$ref": "#/components/schemas/linkage_relationship"
-    relationship_to_many:
-      description: A relationship to multiple resources.
-      type: array
-      items:
-        "$ref": "#/components/schemas/linkage_relationship"
-      uniqueItems: true
-    empty_relationship:
-      description: An empty relationship.
-      type: string
-      nullable: true
-    linkage_relationship:
-      description: A relationship to a resource.
-      type: object
-      required:
-      - id
-      - type
-      properties:
-        type:
-          type: string
-        id:
-          description: The unique identifier of the resource.
-          type: string
-          pattern: "^[a-zA-Z0-9](?:[-\\w]*[a-zA-Z0-9])?$"
-    error:
-      type: object
-      properties:
-        status:
-          description: The HTTP status code applicable to this problem, expressed
-            as a string value.
-          type: string
-        title:
-          description: A short, human-readable summary of the problem that SHOULD
-            NOT change from occurrence to occurrence of the problem, except for purposes
-            of localization.
-          type: string
-        detail:
-          description: A human-readable explanation specific to this occurrence of
-            the problem.
-          type: string
-        source:
-          type: object
-          properties:
-            pointer:
-              description: A JSON Pointer [RFC6901] to the associated entity in the
-                request document.
-              type: string
-            parameter:
-              description: A string indicating which URI query parameter caused the
-                error.
-              type: string
-      additionalProperties: false
     not_found:
       type: object
       properties:
@@ -966,25 +808,6 @@ components:
         errors:
         - title: Not found
           status: '404'
-    internal_server_error:
-      type: object
-      properties:
-        errors:
-          type: array
-          items:
-            type: object
-            properties:
-              status:
-                type: string
-                enum:
-                - '500'
-              title:
-                type: string
-                example: Internal Server Error
-      example:
-        errors:
-        - title: Internal server error
-          status: '500'
     success_without_data:
       type: object
       properties:
@@ -992,17 +815,21 @@ components:
           "$ref": "#/components/schemas/meta"
         links:
           "$ref": "#/components/schemas/pagination_links"
-    id_path:
+    uuid_path:
+      type: string
+      format: uuid
+      example: c1637a49-3cc8-4285-93a1-28e6579f1f20
+    slug_path:
       type: string
       pattern: "^[a-zA-Z0-9](?:[-\\w]*[a-zA-Z0-9])?$"
-      example: c1637a49-3cc8-4285-93a1-28e6579f1f20
+      example: harry-potter-and-the-philosopher-s-stone
     to_many_chapters_relationship:
       type: array
       uniqueItems: true
       items:
         "$ref": "#/components/schemas/to_one_chapter_relationship"
       example:
-        id: c1637a49-3cc8-4285-93a1-28e6579f1f20
+      - id: c1637a49-3cc8-4285-93a1-28e6579f1f20
         type: chapter
     to_one_chapter_relationship:
       type: object
@@ -1097,7 +924,7 @@ components:
           properties:
             self:
               type: string
-              format: uri
+              pattern: "/v1/books/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
               example: "/v1/books/c1637a49-3cc8-4285-93a1-28e6579f1f20"
       required:
       - id
@@ -1149,8 +976,8 @@ components:
           properties:
             self:
               type: string
-              format: uri
-              example: v1/books/7f8d9b7c-5a7c-4f7c-9d5a-1d8e6f7a8b9d/chapters/c1637a49-3cc8-4285-93a1-28e6579f1f20
+              pattern: "/v1/books/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}/chapters/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
+              example: "/v1/books/7f8d9b7c-5a7c-4f7c-9d5a-1d8e6f7a8b9d/chapters/c1637a49-3cc8-4285-93a1-28e6579f1f20"
       required:
       - id
       - type
@@ -1266,7 +1093,7 @@ components:
           properties:
             self:
               type: string
-              format: uri
+              pattern: "/v1/characters/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
               example: "/v1/characters/c1637a49-3cc8-4285-93a1-28e6579f1f20"
       required:
       - id
@@ -1363,7 +1190,7 @@ components:
           properties:
             self:
               type: string
-              format: uri
+              pattern: "/v1/movies/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
               example: "/v1/movies/c1637a49-3cc8-4285-93a1-28e6579f1f20"
       required:
       - id
@@ -1431,7 +1258,8 @@ components:
           properties:
             self:
               type: string
-              format: uri
+              pattern: "/v1/potions/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
+              example: "/v1/potions/c1637a49-3cc8-4285-93a1-28e6579f1f20"
       required:
       - id
       - type
@@ -1493,7 +1321,7 @@ components:
           properties:
             self:
               type: string
-              format: uri
+              pattern: "/v1/spells/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
               example: "/v1/spells/c1637a49-3cc8-4285-93a1-28e6579f1f20"
       required:
       - id

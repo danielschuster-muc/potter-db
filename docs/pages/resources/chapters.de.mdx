@@ -1,0 +1,53 @@
+# Kapitel
+
+Diese Ressource bietet Informationen über Kapitel eines bestimmten Buchs aus dem Harry-Potter-Universum.
+
+## Attribute
+
+{
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Typ</th>
+      <th>Beschreibung</th>
+      <th>Filterbar</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "order",
+        type: "Integer",
+        description: "Chronologische Reihenfolge des Kapitels im Buch.",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "Zeichenfolge",
+        description: "Slug, um das Kapitel zu identifizieren.",
+        filterable: false,
+      },
+      {
+        name: "summary",
+        type: "Zeichenfolge",
+        description: "Kapitelzusammenfassung.",
+        filterable: true,
+      },
+      {
+        name: "title",
+        type: "Zeichenfolge",
+        description: "Titel des Kapitels.",
+        filterable: true,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

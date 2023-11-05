@@ -1,0 +1,53 @@
+# Postavy (characters)
+
+Tento zdroj obsahuje informácie o postavách zo sveta Harryho Pottera.
+
+## Atribúty
+{
+<table>
+  <thead>
+    <tr>
+      <th>Názov</th>
+      <th>Typ</th>
+      <th>Popis</th>
+      <th>Filtrovateľný</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      { name: "alias_names", type: "array", description: "zoznam alternatívnych mien postavy", filterable: true },
+      { name: "animagus", type: "string", description: "animágus postavy", filterable: true },
+      { name: "blood_status", type: "string", description: "čistota krvi postavy", filterable: true },
+      { name: "boggart", type: "string", description: "prízrak, ktorého sa postava bojí", filterable: true },
+      { name: "born", type: "string", description: "dátum a miesto narodenia postavy", filterable: true },
+      { name: "died", type: "string", description: "dátum a miesto úmrtia postavy", filterable: true },
+      { name: "eye_color", type: "string", description: "farba očí postavy", filterable: true },
+      { name: "family_member", type: "array", description: "zoznam rodinných príslušníkov postavy", filterable: true },
+      { name: "gender", type: "string", description: "pohlavie postavy", filterable: true },
+      { name: "hair_color", type: "string", description: "farba vlasov postavy", filterable: true },
+      { name: "height", type: "string", description: "výška postavy v palcoch", filterable: true },
+      { name: "house", type: "string", description: "rokfortská fakulta postavy", filterable: true },
+      { name: "image", type: "string", description: "odkaz na fotografiu postavy", filterable: false },
+      { name: "jobs", type: "array", description: "zoznam povolaní postavy", filterable: true },
+      { name: "name", type: "string", description: "titul postavy", filterable: true },
+      { name: "nationality", type: "string", description: "národnosť postavy", filterable: true },
+      { name: "patronus", type: "string", description: "patronus postavy", filterable: true },
+      { name: "romances", type: "array", description: "zoznam romantických vzťahov postavy", filterable: true },
+      { name: "skin_color", type: "string", description: "farba pokožky postavy", filterable: true },
+      { name: "slug", type: "string", description: "slug identifikujúci postavu", filterable: false },
+      { name: "species", type: "string", description: "druh postavy", filterable: true },
+      { name: "titles", type: "array", description: "zoznam podstatných mien popisujúci pozíciu alebo povolanie postavy", filterable: true },
+      { name: "wand", type: "array", description: "zoznam prútikov postavy", filterable: true },
+      { name: "weight", type: "string", description: "váha postavy v librách", filterable: true },
+      { name: "wiki", type: "string", description: "odkaz na stránku postavy na Harry Potter Wiki", filterable: false },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? '✅' : '❌'}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

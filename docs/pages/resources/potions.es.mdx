@@ -1,0 +1,101 @@
+# Pociones
+
+Este recurso proporciona información sobre pociones del universo de Harry Potter.
+
+## Atributos
+
+{
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+      <th>Filtrable</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "characteristics",
+        type: "string",
+        description: "Las características de esta poción.",
+        filterable: true,
+      },
+      {
+        name: "difficulty",
+        type: "string",
+        description: "La dificultad para preparar esta poción.",
+        filterable: true,
+      },
+      {
+        name: "effect",
+        type: "string",
+        description: "El efecto principal de esta poción.",
+        filterable: true,
+      },
+      {
+        name: "image",
+        type: "string",
+        description: "Un enlace a una imagen de esta poción.",
+        filterable: false,
+      },
+      {
+        name: "inventors",
+        type: "string",
+        description: "Los inventores de esta poción.",
+        filterable: true,
+      },
+      {
+        name: "ingredients",
+        type: "string",
+        description: "Los ingredientes necesarios para preparar esta poción.",
+        filterable: true,
+      },
+      {
+        name: "manufacturers",
+        type: "string",
+        description: "Los fabricantes de esta poción.",
+        filterable: true,
+      },
+      {
+        name: "name",
+        type: "string",
+        description: "El nombre de esta poción.",
+        filterable: true,
+      },
+      {
+        name: "side_effects",
+        type: "string",
+        description: "Los efectos secundarios de esta poción.",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "string",
+        description: "Un slug para identificar esta poción.",
+        filterable: false,
+      },
+      {
+        name: "time",
+        type: "string",
+        description: "El tiempo que lleva preparar esta poción.",
+        filterable: true,
+      },
+      {
+        name: "wiki",
+        type: "string",
+        description: "Un enlace a la página Wiki de Harry Potter de esta poción.",
+        filterable: false,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

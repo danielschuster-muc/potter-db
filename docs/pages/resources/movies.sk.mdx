@@ -1,0 +1,136 @@
+# Filmy (movies)
+
+Tento zdroj obsahuje informácie o filmoch zo sveta Harryho Pottera.
+
+## Atribúty
+{
+<table>
+  <thead>
+    <tr>
+      <th>Názov</th>
+      <th>Typ</th>
+      <th>Popis</th>
+      <th>Filtrovateľný</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "box_office",
+        type: "string",
+        description: "príjmy z predaja vstupeniek na film",
+        filterable: true,
+      },
+      {
+        name: "budget",
+        type: "string",
+        description: "rozpočet filmu",
+        filterable: true,
+      },
+      {
+        name: "cinematographers",
+        type: "array",
+        description: "zoznam kameramanov filmu",
+        filterable: true,
+      },
+      {
+        name: "directors",
+        type: "array",
+        description: "zoznam režisérov filmu",
+        filterable: true,
+      },
+      {
+        name: "distributors",
+        type: "array",
+        description: "zoznam ľudí, ktorí film distribuovali",
+        filterable: true,
+      },
+      {
+        name: "editors",
+        type: "array",
+        description: "zoznam ľudí, ktorí film editovali",
+        filterable: true,
+      },
+      {
+        name: "music_composers",
+        type: "array",
+        description: "zoznam ľudí, ktorí pre film skomponovali hudbu",
+        filterable: true,
+      },
+      {
+        name: "poster",
+        type: "string",
+        description: "odkaz na plagát filmu",
+        filterable: false,
+      },
+      {
+        name: "producers",
+        type: "array",
+        description: "zoznam producentov filmu",
+        filterable: true,
+      },
+      {
+        name: "rating",
+        type: "string",
+        description: "odporúčaná veková hranica pre sledovanie filmu",
+        filterable: true,
+      },
+      {
+        name: "release_date",
+        type: "date",
+        description: "dátum, kedy bol film vydaný",
+        filterable: true,
+      },
+      {
+        name: "running_time",
+        type: "string",
+        description: "dĺžka filmu",
+        filterable: true,
+      },
+      {
+        name: "screenwriters",
+        type: "array",
+        description: "scenáristi filmu",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "string",
+        description: "slug identifikujúci film",
+        filterable: false,
+      },
+      {
+        name: "summary",
+        type: "string",
+        description: "zhrnutie filmu",
+        filterable: true,
+      },
+      {
+        name: "title",
+        type: "string",
+        description: "názov filmu",
+        filterable: true,
+      },
+      {
+        name: "trailer",
+        type: "string",
+        description: "odkaz na trailer filmu",
+        filterable: false,
+      },
+      {
+        name: "wiki",
+        type: "string",
+        description: "odkaz na stránku filmu na Harry Potter Wiki",
+        filterable: false,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

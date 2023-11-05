@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://docs.potterdb.com
+Host: http://localhost:3002
 
 # Sitemaps
-Sitemap: https://docs.potterdb.com/sitemap.xml
+Sitemap: http://localhost:3002/sitemap.xml

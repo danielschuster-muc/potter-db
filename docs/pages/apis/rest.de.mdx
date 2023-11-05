@@ -1,0 +1,161 @@
+# REST API
+
+Unsere REST-API bietet eine unkomplizierte Möglichkeit, mit der Potter DB zu interagieren, wobei die JSON:API- und OAS-Spezifikation eingehalten wird. In diesem Abschnitt behandeln wir die wichtigsten Aspekte der Verwendung der REST-API, einschließlich der verfügbaren Endpunkte und der Formatierung deiner Anfragen und Antworten.
+
+## Verfügbare Endpunkte
+
+Um auf Daten aus der REST-API zuzugreifen, musst du eine `GET`-Anfrage an einen der folgenden Endpunkte schicken:
+
+<details>
+<summary>Aufklappen, um alle Endpunkte zu sehen</summary>
+
+**Bücher**
+- `/v1/books`: Abruf einer Liste von Büchern.
+- `/v1/books/{id}`: Abruf eines einzelnen Buchs anhand seiner ID.
+- `/v1/books/{book_id}/chapters`: Abruf einer Liste von Kapiteln eines bestimmten Buchs.
+- `/v1/books/{book_id}/chapters/{id}`: Abruf eines Kapitels eines bestimmten Buchs anhand seiner ID.
+
+**Figuren**
+- `/v1/characters`: Abruf einer Liste von Figuren.
+- `/v1/characters/{id}`: Abruf einer Figur anhand ihrer ID.
+
+**Filme**
+- `/v1/movies`: Abruf einer Liste von Filmen.
+- `/v1/movies/{id}`: Abruf eines Films anhand seiner ID.
+
+**Zaubertränke**
+- `/v1/potions`: Abruf einer Liste von Zaubertränken.
+- `/v1/potions/{id}`: Abruf eines Zaubertranks anhand seiner ID.
+
+**Zaubersprüche**
+- `/v1/spells`: Abruf einer Liste von Zaubersprüchen.
+- `/v1/spells/{id}`: Abruf eines Zauberspruchs anhand seiner ID.
+
+IDs müssen als UUIDs oder Slugs angegeben werden.
+
+</details>
+
+## OpenAPI Spezifikation (OAS)
+
+Um die Integration zu erleichtern, stellen wir ein [OpenAPI Spezifikation](https://openapis.org) Dokument zur Verfügung, das die Endpunkte, Datenmodelle und Anfrage-/Antwortschemata der API beschreibt.
+Die API entspricht der Version 3.0.3 der OAS-Spezifikation.
+Unser aktuelles OAS Dokument ist [hier](https://api.potterdb.com/v1/openapi.json) zu finden.
+
+## JSON:API Format
+
+Unsere REST-API entspricht der [JSON:API-Spezifikation](https://jsonapi.org/), die eine einheitliche Methode zur Strukturierung von API-Anfragen und -Antworten bietet. Hier ist ein Überblick über die wichtigsten Merkmale von JSON:API im Zusammenhang mit unserer API:
+
+- **Ressourcen**: Jede Ressource ist ein Objekt mit einem Typ (`type`), ID (`id`) und Attributen (`attributes`).
+- **Relationen**: Ressourcen können mit anderen Ressourcen verbunden sein, z. B. ist eine `Buch`-Ressource mit einer `Kapitel`-Ressource verbunden und umgekehrt.
+- **Paginierung**: Wenn eine Antwort eine große Anzahl von Ressourcen enthält, wird die Antwort paginiert. Siehe [Paginierung](#paginierung) für weitere Infos.
+- **Fehler**: Fehler werden in standardisiertem Format zurückgegeben, was die Behandlung und Behebung von Problemen erleichtert.
+
+## Abfragen machen
+
+Um eine Abfrage an unsere REST-API zu machen, muss eine `GET`-Anfrage an einen unserer verfügbaren Endpunkte gestellt werden.
+Hier ein einfaches Beispiel für das Abrufen einer Liste von Figuren über den Endpunkt `/characters`:
+
+```http
+GET https://api.potterdb.com/v1/characters
+```
+
+Ausführliche Informationen kannst du in der OpenAPI-Spezifikation finden.
+
+## Paginierung
+
+Antworten mit einer großen Anzahl von Ressourcen werden paginiert. Die Antwort enthält ein `links`-Objekt mit `first`-, `last`-, `prev`- und `next`-Links zu den ersten, letzten, vorherigen bzw. nächsten Seiten der Ergebnisse.
+
+Um die Anzahl der Ressourcen pro Seite zu ändern, kannst du den Abfrageparameter `page[size]` verwenden (die maximale Größe ist 100):
+
+```http
+GET https://api.potterdb.com/v1/characters?page[size]=25
+```
+
+Um die aktuelle Seite zu ändern, kannst du den Abfrageparameter `page[number]` verwenden:
+
+```http
+GET https://api.potterdb.com/v1/characters?page[number]=2
+```
+
+## Ransack
+
+Unsere REST-API unterstützt erweitertes Filtern und Sortieren mit [Ransack](https://activerecord-hackery.github.io/ransack/).
+
+### Filtern
+
+Du kannst Ressourcen filtern, indem du einen `filter` Abfrageparameter zu deiner Anfrage hinzufügst. Um zum Beispiel Zeichen nach Namen zu filtern, kannst du das Prädikat `name_cont` verwenden:
+
+
+```http
+GET https://api.potterdb.com/v1/characters?filter[name_cont]=Weasley
+```
+
+Dies wird alle Figuren mit dem Namen "Weasley" zurückgeben.
+
+<details>
+  <summary>Aufklappen, um alle verfügbaren Filter-Prädikate zu sehen</summary>
+  - `eq`: gleich
+  - `eq_any`: gleich jedem
+  - `eq_all`: gleich allen
+  - `not_eq`: nicht gleich
+  - `not_eq_any`: nicht gleich irgendeinem
+  - `not_eq_all`: nicht gleich für alle
+  - `matches`: entspricht
+  - `matches_any`: passt zu jedem
+  - `matches_all`: passt auf alle
+  - `does_not_match`: stimmt nicht überein
+  - `does_not_match_any`: stimmt mit keinem überein
+  - `does_not_match_all`: entspricht nicht allen
+  - `lt`: weniger als
+  - `lt_any`: weniger als jeder
+  - `lt_all`: weniger als alle
+  - `lteq`: kleiner als oder gleich
+  - `lteq_any`: kleiner oder gleich einem 
+  - `lteq_all`: kleiner als oder gleich allen 
+  - `gt`: größer als 
+  - `gt_any`: größer als jeder
+  - `gt_all`: größer als alle 
+  - `gteq`: größer als oder gleich 
+  - `gteq_any`: größer als oder gleich einem 
+  - `gteq_all`: größer als oder gleich allen 
+  - `in`: vorhanden 
+  - `in_any`: in irgendeinem 
+  - `in_all`: in allen
+  - `not_in`: nicht vorhanden
+  - `not_in_any`: nicht in irgendeinem 
+  - `not_in_all`: nicht in allen 
+  - `cont`: enthält 
+  - `cont_any`: enthält beliebige 
+  - `cont_all`: enthält alle 
+  - `not_cont`: enthält nicht 
+  - `not_cont_any`: enthält keine 
+  - `not_cont_all`: enthält nicht alle 
+  - `start`: beginnt mit 
+  - `start_any`: irgendeiner beginnt mit 
+  - `start_all`: alle beginnen mit 
+  - `not_start`: beginnt nicht mit 
+  - `not_start_any`: irgendeiner beginnt nicht mit
+  - `not_start_all`: keiner beginnt mit
+  - `end`: endet mit 
+  - `end_any`: irgendeiner endet mit 
+  - `end_all`: alle enden mit 
+  - `not_end`: endet nicht mit 
+  - `not_end_any`: irgendeiner endet nicht mit 
+  - `not_end_all`: keiner endet mit 
+  - `'true'`: ist wahr
+  - `'false'`: ist falsch 
+  - `present`: ist vorhanden 
+  - `blank`: ist leer
+  - `'null'`: ist null 
+  - `not_null`: ist nicht null
+</details>
+
+### Sortieren
+
+Du kannst Ressourcen sortieren, indem du einen `sort` Abfrageparameter zu deiner Anfrage hinzufügst. Um beispielsweise Figuren nach Namen zu sortieren, kannst das Attribut `name` verwenden (unter [Ressourcen](/resources) findest du alle verfügbaren Attribute):
+
+```http
+GET https://api.potterdb.com/v1/characters?sort=name
+```
+
+Verwende das Präfix `-`, um in absteigender Reihenfolge zu sortieren.

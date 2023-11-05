@@ -1,0 +1,52 @@
+# Kapitoly (chapters)
+
+Tento zdroj obsahuje informácie o kapitolách jednotlivých kníh zo sveta Harryho Pottera.
+
+## Atribúty
+{
+<table>
+  <thead>
+    <tr>
+      <th>Názov</th>
+      <th>Typ</th>
+      <th>Popis</th>
+      <th>Filtrovateľný</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      {
+        name: "order",
+        type: "integer",
+        description: "chronologické poradie kapitoly v knihe",
+        filterable: true,
+      },
+      {
+        name: "slug",
+        type: "string",
+        description: "slug identifikujúci kapitolu",
+        filterable: false,
+      },
+      {
+        name: "summary",
+        type: "string",
+        description: "zhrnutie kapitoly",
+        filterable: true,
+      },
+      {
+        name: "title",
+        type: "string",
+        description: "názov kapitoly",
+        filterable: true,
+      },
+    ].map((item) => (
+      <tr key={item.name}>
+        <td>{item.name}</td>
+        <td>{item.type}</td>
+        <td>{item.description}</td>
+        <td>{item.filterable == true ? "✅" : "❌"}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+}

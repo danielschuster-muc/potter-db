@@ -86,7 +86,7 @@ Notre API REST supporte une fonctionnalité de filtre avancé et de tri en utili
 Vous pouvez filtrer une requête en ajoutant le mot-clef `filter` en paramètre de requête. Par exemple, pour filter les personnages par nom, vous utiliserez le prédicat `name_cont` :
 
 ```http
-GET https://api.potterdb.com/v1/characters?filter[name_eq]=Weasley
+GET https://api.potterdb.com/v1/characters?filter[name_cont]=Weasley
 ```
 
 Ceci vous retournera tous les personnages qui portent le nom "Weasley".
