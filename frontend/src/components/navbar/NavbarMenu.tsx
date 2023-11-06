@@ -34,6 +34,10 @@ const menuItems: MenuItem[] = [
 
 const helpItems: MenuItem[] = [
   {
+    label: "About",
+    url: "/about",
+  },
+  {
     label: "Docs",
     url: "https://docs.potterdb.com/",
   },
@@ -73,7 +77,7 @@ const NavbarMenu = () => {
             setShowMenu((prev) => !prev);
           }}
           type="button"
-          className="z-[21] inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg hover:bg-white hover:bg-opacity-10 text-secondary"
+          className="z-[21] inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg text-secondary hover:opacity-100 opacity-90 hover:scale-110"
           aria-controls="navbar-default"
           aria-expanded="false">
           <span className="sr-only">Open main menu</span>
