@@ -62,7 +62,7 @@ const footerContent: FooterSection[] = [
       },
       {
         name: "Scrabby",
-        link: "/scrabby",
+        link: "https://github.com/danielschuster-muc/scrabby",
       },
       {
         name: "Sitemap",

@@ -46,8 +46,8 @@ export default function InfoSection() {
         <p className="text-lg">
           We take pride in providing accurate and enriched information derived from various
           open-source repositories. Leveraging our own tool,{" "}
-          <HoverLink title="Scrabby" href="/scrabby" />, we are able to collect and aggregate data
-          from reputable sources, such as the{" "}
+          <HoverLink title="Scrabby" href="https://github.com/danielschuster-muc/scrabby" />, we are
+          able to collect and aggregate data from reputable sources, such as the{" "}
           <HoverLink title="Harry Potter Wiki" href="https://harrypotter.fandom.com" />. We then
           undergo a meticulous process of refining and enhancing the content. This ensures that our
           users have access to the most reliable and comprehensive repository of data about the
