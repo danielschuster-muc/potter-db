@@ -2,13 +2,13 @@ import HoverLink from "@/components/ui/HoverLink";
 
 export default function AboutPage() {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="w-full md:w-5/6 mx-auto">
       <h1 className="text-6xl">About</h1>
       <p className="mt-4 text-lg">
         Potter DB is an expansive API dedicated to housing a comprehensive collection of data from
-        the beloved Harry Potter Universe. From intricate character profiles to detailed information
-        about spells, potions, books, and movies, Potter DB serves as a centralized hub for all
-        things related to J.K. Rowling&apos;s magical world.
+        the Harry Potter Universe. From intricate character profiles to detailed information about
+        spells, potions, books, and movies, Potter DB serves as a centralized hub for all things
+        related to J.K. Rowling&apos;s magical world.
       </p>
 
       <div className="my-8">
@@ -18,12 +18,12 @@ export default function AboutPage() {
           all started in mid of June 2022, when I, known as{" "}
           <HoverLink title="@danielschuster-muc" href="https://github.com/danielschuster-muc" />
           , a dedicated Harry Potter fan, realized that something was missing in the magical digital
-          world. As someone who had always been captivated by the wonders of the Wizarding World, I
-          felt that there was something missing for fellow Potterheads and developers like myself.
-          So I decided to create Potter DB, an API and website that would serve as a centralized hub
-          for all things related to magical world of Harry Potter. <br /> <br />
+          world for fellow Potterheads and developers like myself. So I decided to create Potter DB,
+          an API and website that would serve as a place for all things related to the magical world
+          of Harry Potter. <br /> <br />
           Potter DB is an open-source project, and I am always looking for contributors, new ideas
-          or ways to improve Potter DB. If you are interested in contributing, please check out the{" "}
+          or ways to improve Potter DB. If you are interested in contributing, feel free to check
+          out the{" "}
           <HoverLink
             title="GitHub repository"
             href="https://github.com/danielschuster-muc/potter-db"
