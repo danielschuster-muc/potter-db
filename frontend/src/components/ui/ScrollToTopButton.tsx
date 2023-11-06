@@ -31,6 +31,7 @@ function ScrollToTopButton() {
       className={`bg-secondary hover:opacity-100 opacity-90 hover:scale-105 text-white rounded-full w-10 h-10 flex items-center justify-center fixed bottom-4 right-4 ${
         isVisible ? "flex" : "hidden"
       }`}
+      aria-label="Scroll to top"
       onClick={handleClick}>
       <IoIosArrowUp className="text-xl" />
     </button>
