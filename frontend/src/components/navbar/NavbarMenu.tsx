@@ -65,8 +65,7 @@ const NavbarMenu = () => {
               <Link
                 key={item.label}
                 href={item.url}
-                target="_blank"
-                className="block rounded hover:bg-transparent text-gray-300 hover:text-white">
+                className="text-lg block rounded hover:bg-transparent text-gray-300 hover:text-white">
                 {item.label}
               </Link>
             );
@@ -77,21 +76,21 @@ const NavbarMenu = () => {
             setShowMenu((prev) => !prev);
           }}
           type="button"
-          className="z-[21] inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg text-secondary hover:opacity-100 opacity-90 hover:scale-110"
+          className="z-[21] inline-flex items-center p-2 w-12 h-12 justify-center text-sm rounded-lg text-secondary hover:opacity-100 opacity-90 hover:scale-110"
           aria-controls="navbar-default"
           aria-expanded="false">
           <span className="sr-only">Open main menu</span>
           {showMenu ? (
-            <MdClose className="w-6 h-6 stroke-current" />
+            <MdClose className="w-8 h-8 stroke-current" />
           ) : (
-            <FiMenu className="w-6 h-6 stroke-current" />
+            <FiMenu className="w-8 h-8 stroke-current" />
           )}
         </button>
       </div>
       <div
         className={`${showMenu ? "" : "hidden"} w-auto absolute top-16 right-3 z-[21]`}
         id="navbar-default">
-        <ul className="font-medium text-lg flex flex-col p-4 mt-4 border border-gray-700 rounded-lg bg-background">
+        <ul className="font-medium text-lg flex flex-col py-4 mt-4 border border-gray-700 rounded-lg bg-background">
           {helpItems.map((item) => {
             return (
               <li key={item.label}>

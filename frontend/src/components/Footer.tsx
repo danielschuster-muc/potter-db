@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type FooterSection = {
   title: string;
   content: {
@@ -81,10 +83,10 @@ export default function Footer() {
             <h2 className="pb-2 text-xl font-bold border-b-2 border-secondary">{section.title}</h2>
             <ul className="mt-4">
               {section.content.map((item, index) => (
-                <li key={index}>
-                  <a href={item.link} className="text-gray-300 hover:text-white">
+                <li key={index} className="pb-1">
+                  <Link href={item.link} className="text-lg text-gray-300 hover:text-white">
                     {item.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
