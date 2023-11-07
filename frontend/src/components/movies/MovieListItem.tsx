@@ -11,17 +11,15 @@ export default function MovieListItem({ movie }: { movie: Movie }) {
 
   return (
     <div className="rounded border-2 border-gray-200 p-4 flex flex-col">
-      <div className="flex items-center justify-center mb-2">
-        <div className="w-72 h-72 flex justify-center">
-          <Image
-            src={poster || "/images/missing_movie.svg"}
-            alt={title}
-            className="rounded-lg h-auto w-auto object-contain object-center"
-            width={200}
-            height={200}
-            priority={!poster}
-          />
-        </div>
+      <div className="relative w-full h-72 rounded-lg">
+        <Image
+          src={poster || "/images/missing_book.svg"}
+          alt={title}
+          className="rounded-lg object-contain object-center"
+          fill
+          quality={70}
+          priority={!poster}
+        />
       </div>
       <div className="my-4">
         <h2 className="text-xl font-bold">{title}</h2>

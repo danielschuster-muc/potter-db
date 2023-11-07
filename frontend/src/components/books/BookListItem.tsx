@@ -11,17 +11,15 @@ export default function BookListItem({ book }: { book: Book }) {
 
   return (
     <div className="rounded border-2 border-gray-200 p-4 flex flex-col">
-      <div className="flex items-center justify-center mb-2">
-        <div className="w-72 h-72 flex justify-center">
-          <Image
-            src={cover || "/images/missing_book.svg"}
-            alt={title}
-            className="rounded-lg h-auto w-auto object-contain object-center"
-            width={200}
-            height={200}
-            priority={!cover}
-          />
-        </div>
+      <div className="relative w-full h-72 rounded-lg">
+        <Image
+          src={cover || "/images/missing_book.svg"}
+          alt={title}
+          className="rounded-lg object-contain object-center"
+          fill
+          quality={70}
+          priority={!cover}
+        />
       </div>
       <div className="my-4">
         <h2 className="text-xl font-bold">{title}</h2>

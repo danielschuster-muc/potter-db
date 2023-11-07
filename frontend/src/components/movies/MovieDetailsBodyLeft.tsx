@@ -8,14 +8,15 @@ export default function MovieDetailsBodyLeft({ movie }: { movie: Movie }) {
   const { title, poster, wiki, slug } = movie.attributes;
   return (
     <div className="p-3 flex flex-col items-center justify-center">
-      <Image
-        src={poster || "/images/missing_movie.svg"}
-        alt={title}
-        className="rounded-lg object-contain"
-        width="400"
-        height="400"
-        priority
-      />
+      <div className="relative w-full h-full">
+        <Image
+          src={poster || "/images/missing_book.svg"}
+          alt={title}
+          className="rounded-lg object-contain"
+          fill
+          priority
+        />
+      </div>
       <Links wiki={wiki} slug={slug} resource="movies" />
     </div>
   );
