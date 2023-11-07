@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* https://coolors.co/0c0c0d-1e1320-ab00fa-d926d9-f2f2f2-00529e */
+@layer base {
+  :root {
+    --background: 258, 45%, 9%; /* #120C20, dark purple */
+    --foreground: 0, 0%, 95%; /* #F2F2F2, white smoke */
+    --primary: 282, 88%, 30%; /* #65098E, indigo */
+    --primary-foreground: 0, 0%, 95%;
+    --secondary: 300, 70%, 50%; /* #D926D9, steel pink */
+    --secondary-foreground: 0, 0%, 95%;
+    --accent: 209, 100%, 31%; /* #00529E, polynesian blue */
+    --accent-foreground: 0, 0%, 95%;
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+    --input: 240, 5%, 5%; /* #0C0C0D, night */
+    --ring: 282, 88%, 30%;
+    --radius: 0.5rem;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px hsl(var(--primary));
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--secondary));
+  border-radius: 10px;
+}
