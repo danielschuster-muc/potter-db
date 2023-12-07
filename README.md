@@ -36,8 +36,8 @@
 - [Support 🙋](#support-)
 - [Contributing 💪](#contributing-)
 - [Project assistance 🤝](#project-assistance-)
-- [Authors & Contributors 👥](#authors-contributors-)
-- [Security 🔒](#lock-security-)
+- [Authors & Contributors 👥](#authors--contributors-)
+- [Security 🔒](#security-)
 - [License 📜](#license-)
 
 </details>
