@@ -25,6 +25,8 @@ const config: DocsThemeConfig = {
           return "Upraviť stránku cez GitHub →";
         case "de":
           return "Bearbeite diese Seite auf GitHub →";
+        case "pt":
+          return "Edite essa página no GitHub →"; 
         default:
           return "Edit this page on GitHub →";
       }
@@ -43,6 +45,8 @@ const config: DocsThemeConfig = {
           return "Zanechať spätnú väzbu →";
         case "de":
           return "Gib uns Feedback →";
+        case "pt":
+          return "Avalie-nos →"; 
         default:
           return "Give us feedback →";
       }
@@ -67,6 +71,9 @@ const config: DocsThemeConfig = {
       case "de":
         text = "Letzte Änderung am";
         break;
+      case "pt":
+        text = "Última atualização em";
+        break;
       default:
         text = "Last updated on";
         break;
@@ -89,7 +96,7 @@ const config: DocsThemeConfig = {
       <meta name="og:title" content="Potter DB: Docs" />
     </>
   ),
-  i18n: [{ locale: "en", text: "English" }, { locale: "fr", text: "Français" }, { locale: "es", text: "Español" }, { locale: "sk", text: "Slovenčina" }, { locale: "de", text: "Deutsch" }],
+  i18n: [{ locale: "en", text: "English" }, { locale: "fr", text: "Français" }, { locale: "es", text: "Español" }, { locale: "sk", text: "Slovenčina" }, { locale: "de", text: "Deutsch" }, { locale: "pt", text: "Português" }],
   logo: <span>Potter DB: Docs</span>,
   project: {
     link: "https://github.com/danielschuster-muc/potter-db",
@@ -106,6 +113,8 @@ const config: DocsThemeConfig = {
           return "Hľadať...";
         case "de":
           return "Suche...";
+        case "pt":
+          return "Pesquise..."; 
         default:
           return "Search...";
       }
@@ -121,6 +130,8 @@ const config: DocsThemeConfig = {
           return "Načítava sa...";
         case "de":
           return "Lädt...";
+        case "pt":
+          return "Carregando...";
         default:
           return "Loading...";
       }
@@ -141,6 +152,9 @@ const config: DocsThemeConfig = {
         case "de":
           text = "Keine Ergebnisse gefunden.";
           break;
+        case "pt":
+          text = "Nenhum resultado encontrado.";
+          break;  
         default:
           text = "No results found.";
           break;
@@ -184,6 +198,12 @@ const config: DocsThemeConfig = {
             dark: "Dunkel",
             system: "System",
           };
+        case "pt":
+          return {
+            light: "Claro",
+            dark: "Escuro",
+            system: "Sistema",
+          };  
         default:
           return {
             light: "Light",
@@ -206,6 +226,8 @@ const config: DocsThemeConfig = {
           return "Na tejto stránke";
         case "de":
           return "Auf dieser Seite";
+        case "pt":
+          return "Nesta página";
         default:
           return "On this page";
       }
