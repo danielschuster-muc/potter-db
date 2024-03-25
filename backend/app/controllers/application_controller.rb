@@ -3,12 +3,12 @@ class ApplicationController < ActionController::API
   include JSONAPI::Pagination
   include ErrorExtender unless Rails.env.development?
 
-  def jsonapi_meta(resources)
-    pagination = jsonapi_pagination_meta(resources)
+  def jsonapi_meta(data)
+    pagination = jsonapi_pagination_meta(data)
     {
       pagination: pagination.presence,
       copyright: "Copyright © Potter DB #{Time.zone.today.year}",
-      generated_at: DateTime.now
+      generated_at: pagination.present? ? data.first.created_at : data.created_at
     }.compact
   end
 
