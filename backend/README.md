@@ -42,20 +42,20 @@ https://www.docker.com/get-started/
 Run the following command in your terminal
 
 ```shell
-docker-compose up --build
+docker compose up --build
 ```
 
 ### 4. Initialize the Database
 
 ```shell
-docker-compose exec web /bin/sh -c "rails db:create && rails db:migrate && rails db:seed"
+docker compose exec web /bin/sh -c "rails db:create && rails db:migrate && rails db:seed"
 ```
 ### 5. Start the rails server
 
 You can start the rails server using the command given below:
 
 ```shell
-docker-compose exec web /bin/sh -c "rails server -b 0.0.0.0"
+docker compose exec web /bin/sh -c "rails server -b 0.0.0.0"
 ```
 
 The development server is accessible at http://localhost:3000. It's recommended to read the [documentation](https://docs.potterdb.com/) to get a better understanding of the API.
