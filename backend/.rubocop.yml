@@ -3,8 +3,7 @@ require:
   - rubocop-rspec
   - rubocop-factory_bot
   - rubocop-performance
-  # Re-add when improving graphql api
-  # - rubocop-graphql
+  - rubocop-graphql
 
 AllCops:
   NewCops: enable
