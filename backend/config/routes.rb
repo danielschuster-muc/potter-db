@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # root route
-  root to: redirect("https://docs.potterdb.com")
+  root to: "home#index"
 
   # documentation routes
   get "/v1/openapi", to: "v1/documentation#openapi"
