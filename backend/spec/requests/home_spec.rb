@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Home", type: :request do
+RSpec.describe "Home" do
   describe "GET /index" do
     it "returns a welcome message" do
       get "/"
