@@ -9,7 +9,6 @@ RSpec.describe "Application" do
     end
 
     it 'returns bad request' do
-      skip 'TODO: fix this test'
       get :index
       expect(response).to have_http_status(:bad_request)
     end
