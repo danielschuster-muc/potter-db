@@ -32,20 +32,26 @@ cp .env.example .env
 We use `compose.dev.yml` for development (which enables hot-reloading).
 
 ```bash
-docker compose -f compose.dev.yml up --build
+docker compose -f compose.dev.yml up --build -d
 ```
 
 The API will be available at: `http://localhost:3000`.
 
-### 4. Seed the Database
+### 4. Run Database Migrations
 
-Once the container is running, open a **new terminal tab** and run the following command to populate the database with our data from [Scrabby](https://github.com/danielschuster-muc/scrabby):
+After the container is running, open a **new terminal tab** and execute the following command to set up the database schema:
+
+```bash
+docker compose -f compose.dev.yml exec web bin/rails db:migrate
+```
+
+### 5. Seed the Database
+
+To populate the database with our data from [Scrabby](https://github.com/danielschuster-muc/scrabby), run the following command:
 
 ```bash
 docker compose -f compose.dev.yml exec web bin/rails db:seed
 ```
-
-### 5. Access the API Documentation
 
 It's recommended to read the [documentation](https://docs.potterdb.com/) to get a better understanding of the API.
 
@@ -53,9 +59,11 @@ _Feel free to explore and contribute to our project's backend. Happy coding 🎉
 
 ---
 
-## 💻 Development Workflow
+## Development Workflow
 
-Since the application runs inside a container, you must execute Rails commands via Docker. Below is a quick reference table for common actions:
+Since the application runs inside a container, you must execute Rails commands via Docker.
+Remove the `-f compose.dev.yml` part if you want to run commands against the production setup.
+Below is a quick reference table for common actions:
 
 | Action                           | Command                                                                       |
 | :------------------------------- | :---------------------------------------------------------------------------- |
