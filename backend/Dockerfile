@@ -1,25 +1,70 @@
-# Use the official Ruby 3.1.2 image as the base image
-FROM ruby:3.1.2
+# Dockerfile - deterministic bundler path (API-only Rails)
 
-# Set the working directory to /app
+# Stage: builder
+FROM ruby:3.1.2-bullseye AS builder
+
+ENV BUNDLE_PATH=/usr/local/bundle \
+    BUNDLE_APP_CONFIG=/usr/local/bundle
+
 WORKDIR /app
 
-# Install dependencies
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    nodejs \
-    postgresql-client \
-    yarn
+# Install build dependencies
+RUN apt-get update -qq && \
+    apt-get install -y --no-install-recommends \
+        build-essential \
+        libpq-dev \
+        git \
+        ca-certificates && \
+    rm -rf /var/lib/apt/lists/*
 
-# Copy the Gemfile and Gemfile.lock into the image and install gems
+# Ensure the bundle directory exists and is writable
+RUN mkdir -p /usr/local/bundle && chown -R root:root /usr/local/bundle
+
+# Copy Gemfile(s) first for Docker layer caching
 COPY Gemfile Gemfile.lock ./
-RUN gem install bundler && bundle install --jobs 20 --retry 5
 
-# Copy the rest of the application code into the image
+# Install bundler pinned to Gemfile.lock (if possible) and install gems to /usr/local/bundle
+RUN gem install bundler -v "$(sed -n '1s/^.* //p' Gemfile.lock 2>/dev/null || true)" || true && \
+    bundle config set --local path /usr/local/bundle && \
+    bundle config set --local without 'development test' && \
+    bundle install --jobs 4 --retry 3
+
+# Copy app code
 COPY . .
 
-# Expose port 3000 to the Docker host, so we can access it from the outside
+# (No assets precompile for API-only)
+# Stage: runtime
+FROM ruby:3.1.2-slim-bullseye AS runtime
+
+WORKDIR /app
+
+ENV BUNDLE_PATH="/usr/local/bundle" \
+    BUNDLE_WITHOUT="development:test" \
+    RAILS_ENV="production"
+
+# Runtime dependencies (minimal)
+RUN apt-get update -qq && \
+    apt-get install -y --no-install-recommends \
+      libpq5 \
+      ca-certificates && \
+    rm -rf /var/lib/apt/lists/*
+
+# Create same path in runtime (ensure permission)
+RUN mkdir -p /usr/local/bundle && chown -R root:root /usr/local/bundle
+
+# Copy gems and app from builder
+COPY --from=builder /usr/local/bundle /usr/local/bundle
+COPY --from=builder /app /app
+
+ENV RAILS_ENV=production \
+    RACK_ENV=production \
+    RAILS_LOG_TO_STDOUT=true \
+    RAILS_SERVE_STATIC_FILES=true
+
 EXPOSE 3000
 
-# Run these commands when the container starts
-CMD ["sh", "-c", "rails server -b 0.0.0.0"]
+COPY ./docker/entrypoint.sh /usr/bin/docker-entrypoint
+RUN chmod +x /usr/bin/docker-entrypoint
+
+ENTRYPOINT ["/usr/bin/docker-entrypoint"]
+CMD ["bundle", "exec", "puma", "-C", "config/puma.rb"]

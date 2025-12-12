@@ -1,0 +1,23 @@
+services:
+  web:
+    # 1. Target the 'builder' stage (which has all build tools), not the 'runtime' stage
+    build:
+      target: builder
+
+    # 2. 'Mount' your code so changes are instant
+    volumes:
+      - .:/app
+      - /app/tmp # Isolate tmp so pid files don't conflict
+      # (Optional) Keep gems cached in a volume
+      - gem_cache:/usr/local/bundle
+
+    # 3. Switch to development mode
+    environment:
+      - RAILS_ENV=development
+      - BUNDLE_WITHOUT= 
+
+    # 4. Use a dev command (bind to 0.0.0.0 so you can reach it)
+    command: bundle exec rails s -b 0.0.0.0
+
+volumes:
+  gem_cache:

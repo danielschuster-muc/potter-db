@@ -1,0 +1,39 @@
+services:
+  db:
+    image: postgres:16
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+    volumes:
+      - db-data-prod:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        RAILS_ENV: production
+    env_file:
+      - .env
+    environment:
+      - RAILS_ENV=production
+      - DATABASE_URL=${DATABASE_URL}
+      - SECRET_KEY_BASE=${SECRET_KEY_BASE}
+      - RAILS_MASTER_KEY=${RAILS_MASTER_KEY}
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "3000:3000"
+    restart: always
+
+volumes:
+  db-data-prod:
