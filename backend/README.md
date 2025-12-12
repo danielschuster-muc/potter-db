@@ -1,23 +1,13 @@
 # [POTTER DB: API](https://api.potterdb.com)
 
-This part of the project is dedicated to the API, which provides the data for our website.
+This part of the project is dedicated to the backend API of the Potter DB application, built with **Ruby on Rails** and **PostgreSQL**.
+
+It uses a **multi-stage Docker setup** to ensure a smooth development experience with hot-reloading, while keeping production images lightweight and secure.
 If you're looking to edit the data within the API (especially books and movies), check out the [db/data](db/data) folder.
-For making changes to the API itself, read on.
-
-## Technologies
-
-The API is powered by the following technologies:
-
-- [Ruby on Rails](https://rubyonrails.org/)
-- [PostgreSQL](https://www.postgresql.org/)
-
-Before you begin, please ensure you have the necessary programs and tools installed.
 
 ## Contributing
 
-You can setup the project using either Ruby or Docker. Choose the option that fits you the best. Therefore make sure to install the required dependencies before diving into development.
-
-To contribute to our API, follow these simple steps:
+Follow these steps to get the app running locally:
 
 ### 1. Clone the repository and change directory to the backend folder
 
@@ -26,79 +16,81 @@ git clone git@github.com:danielschuster-muc/potter-db.git
 cd potter-db/backend
 ```
 
-### 2. Prerequisites
+### 2. Setup Environment Variables
 
-Ensure you have Docker on your system. You can check your Docker version by running:
+Copy the example environment file to create your local configuration:
 
-```shell
-docker -v
-```
-If not, install docker on your system:
-
-https://www.docker.com/get-started/
-
-### 3. Install Dependencies
-
-Run the following command in your terminal
-
-```shell
-docker compose up --build
+```bash
+cd backend
+cp .env.example .env
 ```
 
-### 4. Initialize the Database
+> **Note:** The default settings in `.env.example` are configured for the Docker development environment. You shouldn't need to change them for local use.
 
-```shell
-docker compose exec web /bin/sh -c "rails db:create && rails db:migrate && rails db:seed"
-```
-### 5. Start the rails server
+### 3. Build and Start the App
 
-You can start the rails server using the command given below:
+We use `compose.dev.yml` for development (which enables hot-reloading).
 
-```shell
-docker compose exec web /bin/sh -c "rails server -b 0.0.0.0"
+```bash
+docker compose -f compose.dev.yml up --build
 ```
 
-The development server is accessible at http://localhost:3000. It's recommended to read the [documentation](https://docs.potterdb.com/) to get a better understanding of the API.
+The API will be available at: `http://localhost:3000`.
 
-*Feel free to explore and contribute to our project's backend. Happy coding 🎉!*
+### 4. Seed the Database
 
-### Testing
+Once the container is running, open a **new terminal tab** and run the following command to populate the database with our data from [Scrabby](https://github.com/danielschuster-muc/scrabby):
 
-For any code changes, ensure that the backend tests are running successfully. You can run the API tests using the following command:
-
-```shell
-docker compose exec web rspec
+```bash
+docker compose -f compose.dev.yml exec web bin/rails db:seed
 ```
 
-### Rubocop Linter
+### 5. Access the API Documentation
 
-We use [Rubocop](https://github.com/rubocop/rubocop) to lint our code. To run the linter, use the following command:
+It's recommended to read the [documentation](https://docs.potterdb.com/) to get a better understanding of the API.
 
-```shell
-docker compose exec web bundle exec rubocop
+_Feel free to explore and contribute to our project's backend. Happy coding 🎉!_
+
+---
+
+## 💻 Development Workflow
+
+Since the application runs inside a container, you must execute Rails commands via Docker. Below is a quick reference table for common actions:
+
+| Action                           | Command                                                                       |
+| :------------------------------- | :---------------------------------------------------------------------------- |
+| **Start Server**                 | `docker compose -f compose.dev.yml up`                                        |
+| **Stop Server**                  | `docker compose -f compose.dev.yml down`                                      |
+| **Rails Console**                | `docker compose -f compose.dev.yml exec web bin/rails c`                      |
+| **Run Migrations**               | `docker compose -f compose.dev.yml exec web bin/rails db:migrate`             |
+| **Seed Database**                | `docker compose -f compose.dev.yml exec web bin/rails db:seed`                |
+| **Rspec Tests**                  | `docker compose -f compose.dev.yml exec web bin/rspec`                        |
+| **Lint Code**                    | `docker compose -f compose.dev.yml exec web rubocop`                          |
+| **Update Swagger Documentation** | `docker compose -f compose.dev.yml exec web bin/rails rswag:specs:swaggerize` |
+| **Lint Swagger Documentation**   | `spectral lint app/documentation/v1/openapi.yml`                              |
+| **Update GraphQL Schema**        | `docker compose -f compose.dev.yml exec web bin/rails graphql:schema:dump`    |
+
+---
+
+## Docker Architecture
+
+We use two separate Compose files to handle different environments:
+
+### a. Development (`compose.dev.yml`)
+
+- **Target:** `builder` stage from Dockerfile.
+- **Volumes:** Mounts your local code directory (`.`) into the container (`/app`). This means changes you make in your text editor are instantly reflected in the running app (Hot Reloading).
+- **Env:** Sets `RAILS_ENV=development`.
+
+### b. Production (`compose.yml`)
+
+- **Target:** `runtime` stage from Dockerfile.
+- **Volumes:** Does **not** mount code. It copies the code into the image. This is immutable, faster, and safer.
+- **Optimization:** Uses `puma` with preloaded workers for better concurrency.
+- **Env:** Sets `RAILS_ENV=production`.
+
+To test the **production build** locally:
+
+```bash
+docker compose -f compose.yml up --build
 ```
-
-### OpenAPI Documentation
-
-Our API is documented using OpenAPI.
-To update the documentation, make your changes in [rspec/request](spec/requests) folder and run the following command afterwards:
-
-```shell
-docker compose exec web rails rswag:specs:swaggerize
-```
-You can now visit the documentation on http://localhost:3000/v1/openapi or in [app/documentation/v1/openapi.yml](app/documentation/v1/openapi.yml).
-
-To validate the documentation, run the following command:
-
-```shell
-spectral lint app/documentation/v1/openapi.yml
-```
-
-### GraphQL Schema
-We also provide a GraphQL API. To update the GraphQL schema, make your changes in [app/graphql](app/graphql) and run the following command afterwards:
-
-```shell
-docker compose exec web rails graphql:schema:dump
-```
-
-You can now find the schema dump in [app/graphql/schema.graphql](app/graphql/schema.graphql).
