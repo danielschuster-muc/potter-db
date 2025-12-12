@@ -1,0 +1,43 @@
+services:
+  db:
+    image: postgres:16
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+    volumes:
+      - db-data-dev:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build:
+      target: builder
+    volumes:
+      - .:/app
+      - /app/tmp
+      - gem_cache:/usr/local/bundle
+    env_file:
+      - .env
+    environment:
+      - RAILS_ENV=development
+      - BUNDLE_WITHOUT=
+      - WEB_CONCURRENCY=0
+      - DB_HOST=db
+    command: bundle exec rails s -b 0.0.0.0
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "3000:3000"
+
+volumes:
+  gem_cache:
+  db-data-dev:
