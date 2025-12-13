@@ -16,11 +16,7 @@ services:
       retries: 5
 
   web:
-    build:
-      context: .
-      dockerfile: Dockerfile
-      args:
-        RAILS_ENV: production
+    build: .   # Simplified: No args, no context needed
     env_file:
       - .env
     environment:
